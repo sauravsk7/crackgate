@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Disallow: /pages/admin.html
+Disallow: /pages/dashboard.html
+Disallow: /pages/result.html
+Disallow: /pages/mock.html
+
+Sitemap: https://crackgate.in/sitemap.xml

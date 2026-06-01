@@ -1,0 +1,163 @@
+// CrackGate — Prisma schema
+// Designed for AWS Aurora Serverless v2 (Postgres 15+).
+
+generator client {
+  provider      = "prisma-client-js"
+  // Emit into the package itself so workspace consumers (apps/frontend, apps/backend)
+  // resolve the engine binary deterministically regardless of npm hoisting.
+  output        = "../src/generated/client"
+  binaryTargets = ["native", "rhel-openssl-3.0.x"] // for Amplify Lambda runtime
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum Plan {
+  free
+  pro
+  premium
+}
+
+enum Role {
+  user
+  admin
+}
+
+enum AttemptKind {
+  mock
+  pyq
+}
+
+model User {
+  id            String     @id @default(cuid())
+  email         String     @unique
+  name          String
+  picture       String?
+  plan          Plan       @default(free)
+  planExpiry    DateTime?
+  role          Role       @default(user)
+  targetYear    String?
+  currentStatus String?
+  phone         String?    @unique
+  phoneVerified DateTime?
+  createdAt     DateTime   @default(now())
+  updatedAt     DateTime   @updatedAt
+  lastLoginAt   DateTime?
+
+  attempts      Attempt[]
+  activity      Activity[]
+  payments      Payment[]
+  accounts      Account[]
+  sessions      Session[]
+
+  @@index([plan])
+  @@index([createdAt])
+}
+
+model Attempt {
+  id          String       @id @default(cuid())
+  userId      String
+  kind        AttemptKind
+  refId       String                                   // e.g. "mock-01" or "pyq-2023"
+  refTitle    String
+  score       Float
+  total       Float
+  correct     Int          @default(0)
+  wrong       Int          @default(0)
+  skipped     Int          @default(0)
+  breakdown   Json                                     // per-subject scores
+  answersJson Json                                     // raw answers map (for review)
+  durationSec Int          @default(0)
+  takenAt     DateTime     @default(now())
+
+  user        User         @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId, takenAt(sort: Desc)])
+  @@index([kind, refId])
+}
+
+model Activity {
+  id      String   @id @default(cuid())
+  userId  String
+  type    String                       // e.g. "login", "mock_submit", "plan_upgrade"
+  payload Json
+  ts      DateTime @default(now())
+
+  user    User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId, ts(sort: Desc)])
+}
+
+model Payment {
+  id               String   @id @default(cuid())
+  userId           String
+  razorpayOrderId  String   @unique
+  razorpayPaymentId String? @unique
+  amount           Int                       // in paise
+  currency         String   @default("INR")
+  plan             Plan
+  periodMonths     Int      @default(1)
+  status           String   @default("created") // created | captured | failed | refunded
+  raw              Json?
+  createdAt        DateTime @default(now())
+  capturedAt       DateTime?
+
+  user             User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId, createdAt(sort: Desc)])
+}
+
+// ---------- NextAuth.js tables ----------
+model Account {
+  id                String  @id @default(cuid())
+  userId            String
+  type              String
+  provider          String
+  providerAccountId String
+  refresh_token     String? @db.Text
+  access_token      String? @db.Text
+  expires_at        Int?
+  token_type        String?
+  scope             String?
+  id_token          String? @db.Text
+  session_state     String?
+
+  user              User    @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([provider, providerAccountId])
+}
+
+model Session {
+  id           String   @id @default(cuid())
+  sessionToken String   @unique
+  userId       String
+  expires      DateTime
+
+  user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model VerificationToken {
+  identifier String
+  token      String   @unique
+  expires    DateTime
+
+  @@unique([identifier, token])
+}
+
+/// WhatsApp / SMS OTP codes. We store a bcrypt hash, never the raw code.
+model OtpCode {
+  id         String   @id @default(cuid())
+  phone      String                                  // E.164 without '+', e.g. 919470126588
+  codeHash   String                                  // bcrypt hash of the 6-digit code
+  channel    String   @default("whatsapp")          // whatsapp | sms
+  attempts   Int      @default(0)                   // verification attempts used
+  expiresAt  DateTime
+  consumedAt DateTime?
+  createdAt  DateTime @default(now())
+  ip         String?
+
+  @@index([phone, createdAt(sort: Desc)])
+}
+
