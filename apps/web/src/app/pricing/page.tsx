@@ -206,6 +206,14 @@ function PlanCard({ plan }: { plan: typeof PLANS[number] }) {
       >
         {loading ? "Loading…" : devMode && plan.id !== "free" ? `⚙ Dev: switch to ${plan.name}` : plan.cta}
       </button>
+      {plan.id !== "free" && !devMode && (
+        <a
+          href={`/pay/upi?plan=${plan.id}`}
+          className="block text-center text-xs text-muted mt-3 underline hover:text-fg"
+        >
+          Or pay directly via UPI ↗
+        </a>
+      )}
       {devMode && plan.id !== "free" && (
         <p className="text-[11px] text-muted mt-2 text-center">Skips Razorpay · dev tools enabled</p>
       )}

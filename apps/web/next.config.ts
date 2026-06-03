@@ -4,6 +4,8 @@ import path from "node:path";
 const nextConfig: NextConfig = {
   reactStrictMode: true,
   poweredByHeader: false,
+  // Emit a self-contained server bundle for Docker production image.
+  output: "standalone",
   // TODO: tighten typing on PYQ/MOCKS readonly data and remove this.
   // Production build currently fails on `readonly` → mutable casts; not blocking runtime behavior.
   typescript: { ignoreBuildErrors: true },

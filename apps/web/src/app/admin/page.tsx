@@ -37,6 +37,7 @@ export default async function AdminPage() {
     recentUsers,
     recentPayments,
     recentActivity,
+    upiPending,
   ] = await Promise.all([
     db.user.count(),
     db.user.groupBy({ by: ["plan"], _count: { _all: true } }),
@@ -72,6 +73,7 @@ export default async function AdminPage() {
       take: 15,
       include: { user: { select: { email: true } } },
     }),
+    db.upiPayment.count({ where: { status: "pending" } }),
   ]);
 
   const planMap: Record<string, number> = { free: 0, pro: 0, premium: 0 };
@@ -91,6 +93,12 @@ export default async function AdminPage() {
         </div>
         <div className="flex gap-2 flex-wrap text-sm">
           <Link href="/admin/questions" className="btn btn-primary text-sm">📚 Question bank</Link>
+          <Link
+            href="/admin/upi"
+            className={`btn text-sm ${upiPending > 0 ? "btn-accent" : ""}`}
+          >
+            💸 UPI claims{upiPending > 0 ? ` (${upiPending})` : ""}
+          </Link>
           <ExportBtn dataset="users" label="📥 Users CSV" />
           <ExportBtn dataset="payments" label="💰 Payments CSV" />
           <ExportBtn dataset="attempts" label="🧪 Attempts CSV" />

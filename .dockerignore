@@ -1,0 +1,32 @@
+# Build context excludes — keep the image small and the build fast.
+**/node_modules
+**/.next
+**/.turbo
+**/dist
+**/build
+
+# Local env / secrets (only .env.production is read at runtime, via docker-compose)
+.env
+.env.*
+!.env.example
+!.env.production.example
+
+# Local dev state
+.git
+.gitignore
+.github
+.vscode
+.idea
+.DS_Store
+
+# Big local-only assets
+mining_material
+docs
+*.log
+**/*.tsbuildinfo
+next-env.d.ts
+
+# Memory / scratch
+.claude
+.copilot
+/tmp

@@ -1,0 +1,67 @@
+# Caddy config for CrackGate
+# - Auto Let's Encrypt cert for apex + www (HTTP-01; works once DNS resolves
+#   to this VPS and ports 80/443 are reachable).
+# - Trust Cloudflare's edge IPs so logs / real-ip / rate-limits see the
+#   original client IP instead of CF's. Refresh list from
+#   https://www.cloudflare.com/ips/  (changes ~once a year).
+# - HSTS + sensible security headers + long-cache for /_next/static.
+
+{
+	email {$ACME_EMAIL}
+	# Production ACME endpoint is the default. Uncomment for LE staging during testing:
+	# acme_ca https://acme-staging-v02.api.letsencrypt.org/directory
+
+	servers {
+		# Cloudflare edge ranges — IPv4 (refresh from https://www.cloudflare.com/ips-v4)
+		trusted_proxies static \
+			173.245.48.0/20 \
+			103.21.244.0/22 \
+			103.22.200.0/22 \
+			103.31.4.0/22 \
+			141.101.64.0/18 \
+			108.162.192.0/18 \
+			190.93.240.0/20 \
+			188.114.96.0/20 \
+			197.234.240.0/22 \
+			198.41.128.0/17 \
+			162.158.0.0/15 \
+			104.16.0.0/13 \
+			104.24.0.0/14 \
+			172.64.0.0/13 \
+			131.0.72.0/22 \
+			2400:cb00::/32 \
+			2606:4700::/32 \
+			2803:f800::/32 \
+			2405:b500::/32 \
+			2405:8100::/32 \
+			2a06:98c0::/29 \
+			2c0f:f248::/32
+	}
+}
+
+# Redirect www → apex
+www.{$DOMAIN} {
+	redir https://{$DOMAIN}{uri} permanent
+}
+
+{$DOMAIN} {
+	encode zstd gzip
+
+	# Long-cache immutable Next.js assets
+	@nextStatic path /_next/static/* /favicon.* /robots.txt
+	header @nextStatic Cache-Control "public, max-age=31536000, immutable"
+
+	# Security headers (Next.js also sets some — these are belt-and-braces)
+	header {
+		Strict-Transport-Security "max-age=31536000; includeSubDomains; preload"
+		X-Content-Type-Options    "nosniff"
+		Referrer-Policy           "strict-origin-when-cross-origin"
+		Permissions-Policy        "geolocation=(), microphone=(), camera=(), payment=(self)"
+		-Server
+		-X-Powered-By
+	}
+
+	# Caddy auto-sets X-Forwarded-For/Proto/Host. With `trusted_proxies` above,
+	# Cloudflare's CF-Connecting-IP / X-Forwarded-For is honored as the real client IP.
+	reverse_proxy web:3000
+}

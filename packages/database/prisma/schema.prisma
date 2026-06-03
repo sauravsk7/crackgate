@@ -6,7 +6,7 @@ generator client {
   // Emit into the package itself so workspace consumers (apps/frontend, apps/backend)
   // resolve the engine binary deterministically regardless of npm hoisting.
   output        = "../src/generated/client"
-  binaryTargets = ["native", "rhel-openssl-3.0.x"] // for Amplify Lambda runtime
+  binaryTargets = ["native", "rhel-openssl-3.0.x", "linux-musl-openssl-3.0.x", "linux-musl-arm64-openssl-3.0.x"] // native + AWS Lambda RHEL + Alpine (Docker) x64 & arm64
 }
 
 datasource db {
@@ -30,6 +30,12 @@ enum AttemptKind {
   pyq
 }
 
+enum UpiClaimStatus {
+  pending
+  approved
+  rejected
+}
+
 model User {
   id            String     @id @default(cuid())
   email         String     @unique
@@ -51,6 +57,7 @@ model User {
   attempts      Attempt[]
   activity      Activity[]
   payments      Payment[]
+  upiPayments   UpiPayment[]
   accounts      Account[]
   sessions      Session[]
 
@@ -109,6 +116,32 @@ model Payment {
   user             User     @relation(fields: [userId], references: [id], onDelete: Cascade)
 
   @@index([userId, createdAt(sort: Desc)])
+}
+
+// Manual UPI claim flow — user pays via UPI app, submits the UTR / reference
+// number here, an admin verifies against their UPI app and approves to flip
+// the user's plan. Zero gateway dependency — used while Razorpay KYC is
+// pending or for users who prefer direct UPI.
+model UpiPayment {
+  id            String          @id @default(cuid())
+  userId        String
+  plan          Plan
+  amountPaise   Int                              // 49900 = ₹499
+  periodMonths  Int             @default(18)
+  upiTxnRef     String          @unique          // 12-digit UPI Reference Number (UTR)
+  upiApp        String?                          // PhonePe | GPay | Paytm | BHIM | Other
+  payerNote     String?                          // optional message from user
+  status        UpiClaimStatus  @default(pending)
+  adminNote     String?                          // reason if rejected
+  reviewedById  String?
+  reviewedAt    DateTime?
+  createdAt     DateTime        @default(now())
+  updatedAt     DateTime        @updatedAt
+
+  user          User            @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId, createdAt(sort: Desc)])
+  @@index([status, createdAt])
 }
 
 // ---------- NextAuth.js tables ----------
