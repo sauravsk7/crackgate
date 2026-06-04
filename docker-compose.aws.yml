@@ -1,0 +1,163 @@
+# CrackGate AWS production stack
+#
+# Variant of docker-compose.yml for AWS EC2 deployment.
+#
+# Differences vs docker-compose.yml (Contabo):
+#   1. `web` is pulled from ECR (not built on box) — set IMAGE_TAG / ECR_REPO
+#      via .env.production. Build happens in GitHub Actions.
+#   2. No `db` service — Postgres lives on a separate RDS db.t4g.micro
+#      instance reachable on RDS_HOST (private VPC).
+#   3. `pgbouncer` sidecar between web and RDS — multiplexes Server Action
+#      bursts so we don't exhaust the 85-connection cap on t4g.micro.
+#   4. `pg-backup` sidecar runs nightly `pg_dump | gzip | aws s3 cp` to
+#      s3://${BACKUP_BUCKET}/ via EC2's IAM instance profile.
+#
+# Run on the EC2 box:
+#   docker compose -f docker-compose.aws.yml --env-file .env.production pull
+#   docker compose -f docker-compose.aws.yml --env-file .env.production up -d
+#
+# IMPORTANT:
+#   • EC2 must have an IAM instance profile granting:
+#       - ecr:GetAuthorizationToken, ecr:BatchGet* / Get* on the repo
+#       - s3:PutObject on arn:aws:s3:::${BACKUP_BUCKET}/*
+#   • Run `aws ecr get-login-password | docker login --username AWS --password-stdin <acct>.dkr.ecr.${AWS_REGION}.amazonaws.com`
+#     in EC2 user-data (cron-refresh every 6h via systemd timer).
+
+name: crackgate
+
+networks:
+  crackgate-net:
+    driver: bridge
+
+volumes:
+  caddy_data:
+  caddy_config:
+  pgbouncer_socket:
+
+services:
+  # ─── connection pooler ─────────────────────────────────────────────────
+  # Sits between Next.js and RDS. With Prisma append:
+  #   ?pgbouncer=true&connection_limit=1 to DATABASE_URL.
+  pgbouncer:
+    image: edoburu/pgbouncer:1.23.1
+    restart: always
+    environment:
+      DB_HOST: ${RDS_HOST:?set RDS_HOST in .env.production}
+      DB_PORT: ${RDS_PORT:-5432}
+      DB_NAME: ${POSTGRES_DB:-crackgate}
+      DB_USER: ${POSTGRES_USER:-crackgate}
+      DB_PASSWORD: ${POSTGRES_PASSWORD:?set POSTGRES_PASSWORD in .env.production}
+      POOL_MODE: transaction          # safe with Prisma when pgbouncer=true
+      MAX_CLIENT_CONN: "200"
+      DEFAULT_POOL_SIZE: "20"
+      AUTH_TYPE: scram-sha-256
+      SERVER_TLS_SSLMODE: require     # RDS enforces SSL
+    networks:
+      - crackgate-net
+    healthcheck:
+      test: ["CMD-SHELL", "nc -z 127.0.0.1 5432 || exit 1"]
+      interval: 15s
+      timeout: 3s
+      retries: 5
+
+  # ─── Next.js app ───────────────────────────────────────────────────────
+  web:
+    image: ${ECR_REPO:?set ECR_REPO}:${IMAGE_TAG:-latest}
+    pull_policy: always
+    restart: always
+    depends_on:
+      pgbouncer:
+        condition: service_healthy
+    environment:
+      # Prisma talks to pgbouncer on the docker network, NOT directly to RDS.
+      DATABASE_URL: postgresql://${POSTGRES_USER:-crackgate}:${POSTGRES_PASSWORD}@pgbouncer:5432/${POSTGRES_DB:-crackgate}?schema=public&pgbouncer=true&connection_limit=1&sslmode=disable
+      # Direct-RDS URL for `prisma migrate deploy` (no pgbouncer, allows DDL).
+      DIRECT_URL: postgresql://${POSTGRES_USER:-crackgate}:${POSTGRES_PASSWORD}@${RDS_HOST}:${RDS_PORT:-5432}/${POSTGRES_DB:-crackgate}?schema=public&sslmode=require
+      NODE_ENV: production
+      AUTH_URL: ${AUTH_URL}
+      AUTH_SECRET: ${AUTH_SECRET}
+      AUTH_TRUST_HOST: "true"
+      GOOGLE_CLIENT_ID: ${GOOGLE_CLIENT_ID}
+      GOOGLE_CLIENT_SECRET: ${GOOGLE_CLIENT_SECRET}
+      RAZORPAY_KEY_ID: ${RAZORPAY_KEY_ID}
+      RAZORPAY_KEY_SECRET: ${RAZORPAY_KEY_SECRET}
+      RAZORPAY_WEBHOOK_SECRET: ${RAZORPAY_WEBHOOK_SECRET}
+      SENTRY_DSN: ${SENTRY_DSN:-}
+      AWS_REGION: ${AWS_REGION:-ap-south-1}
+      UPLOADS_BUCKET: ${UPLOADS_BUCKET:-crackgate-uploads}
+    healthcheck:
+      test: ["CMD", "curl", "-fsS", "http://127.0.0.1:3000/api/healthz"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 45s
+    networks:
+      - crackgate-net
+    logging:
+      driver: awslogs
+      options:
+        awslogs-region: ${AWS_REGION:-ap-south-1}
+        awslogs-group: /crackgate/web
+        awslogs-create-group: "true"
+        tag: "{{.Name}}/{{.ID}}"
+
+  # ─── TLS reverse proxy ─────────────────────────────────────────────────
+  caddy:
+    image: caddy:2-alpine
+    restart: always
+    depends_on:
+      web:
+        condition: service_healthy
+    ports:
+      - "80:80"
+      - "443:443"
+      - "443:443/udp"               # HTTP/3 (QUIC)
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy_data:/data
+      - caddy_config:/config
+    environment:
+      DOMAIN: ${DOMAIN:-crackgate.in}
+      ACME_EMAIL: ${ACME_EMAIL:?set ACME_EMAIL in .env.production}
+    networks:
+      - crackgate-net
+    logging:
+      driver: awslogs
+      options:
+        awslogs-region: ${AWS_REGION:-ap-south-1}
+        awslogs-group: /crackgate/caddy
+        awslogs-create-group: "true"
+
+  # ─── nightly pg_dump → S3 ──────────────────────────────────────────────
+  # Runs once per day at 19:30 UTC (01:00 IST). Uses EC2's IAM instance
+  # profile, so no AWS credentials live in env files.
+  pg-backup:
+    image: postgres:16-alpine
+    restart: "no"
+    entrypoint: ["/bin/sh", "-c"]
+    command:
+      - |
+        set -euo pipefail
+        apk add --no-cache aws-cli >/dev/null
+        TS=$$(date -u +%Y-%m-%d_%H%M)
+        FILE=/tmp/crackgate-$$TS.sql.gz
+        PGPASSWORD=$$POSTGRES_PASSWORD pg_dump \
+          -h $$RDS_HOST -p $${RDS_PORT:-5432} \
+          -U $$POSTGRES_USER -d $$POSTGRES_DB \
+          --no-owner --no-acl | gzip -9 > $$FILE
+        aws s3 cp $$FILE s3://$$BACKUP_BUCKET/db/$$TS.sql.gz \
+          --storage-class STANDARD_IA \
+          --metadata "source=pg-backup,host=$$(hostname)"
+        rm -f $$FILE
+        echo "backup ok: s3://$$BACKUP_BUCKET/db/$$TS.sql.gz"
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-crackgate}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      POSTGRES_DB: ${POSTGRES_DB:-crackgate}
+      RDS_HOST: ${RDS_HOST}
+      RDS_PORT: ${RDS_PORT:-5432}
+      BACKUP_BUCKET: ${BACKUP_BUCKET:?set BACKUP_BUCKET in .env.production}
+      AWS_REGION: ${AWS_REGION:-ap-south-1}
+    profiles: ["backup"]            # not started by default; trigger via cron
+    networks:
+      - crackgate-net

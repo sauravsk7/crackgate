@@ -1,0 +1,237 @@
+#!/usr/bin/env bash
+# ──────────────────────────────────────────────────────────────────────────────
+# CrackGate EC2 user-data bootstrap (Ubuntu 22.04 ARM64 on t4g.small)
+#
+# Paste the contents of this file into the EC2 instance "User data" box, OR
+# pass via `aws ec2 run-instances --user-data file://scripts/ec2-bootstrap.sh`.
+#
+# Idempotent — safe to re-run (e.g. via `cloud-init clean && cloud-init init`).
+#
+# Prerequisites attached to the EC2 instance BEFORE first boot:
+#   1. IAM instance profile with policies:
+#        - AmazonEC2ContainerRegistryReadOnly        (ECR pull)
+#        - SecretsManagerReadWrite (or scoped to crackgate/* secrets)
+#        - S3 write on arn:aws:s3:::crackgate-backups/*
+#        - CloudWatchAgentServerPolicy               (logs/metrics)
+#   2. Security group: 22 (your IP only), 80, 443 (0.0.0.0/0), 443/udp (HTTP/3)
+#   3. Elastic IP attached
+#   4. 30 GB gp3 root volume
+#   5. Secrets pre-created in Secrets Manager:
+#        - crackgate/prod/env  (entire .env.production as a single SecretString)
+# ──────────────────────────────────────────────────────────────────────────────
+
+set -euxo pipefail
+
+AWS_REGION="ap-south-1"
+APP_DIR="/opt/crackgate"
+APP_USER="deploy"
+SECRET_ID="crackgate/prod/env"
+
+# ─── 1. Base packages ────────────────────────────────────────────────────────
+export DEBIAN_FRONTEND=noninteractive
+apt-get update
+apt-get install -y --no-install-recommends \
+  ca-certificates curl gnupg jq unzip git ufw fail2ban unattended-upgrades
+
+# ─── 2. AWS CLI v2 (arm64) ───────────────────────────────────────────────────
+if ! command -v aws >/dev/null; then
+  curl -fsSL "https://awscli.amazonaws.com/awscli-exe-linux-aarch64.zip" -o /tmp/awscliv2.zip
+  unzip -q /tmp/awscliv2.zip -d /tmp
+  /tmp/aws/install
+  rm -rf /tmp/aws /tmp/awscliv2.zip
+fi
+
+# ─── 3. Docker Engine + compose plugin ───────────────────────────────────────
+if ! command -v docker >/dev/null; then
+  install -m 0755 -d /etc/apt/keyrings
+  curl -fsSL https://download.docker.com/linux/ubuntu/gpg \
+    | gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+  chmod a+r /etc/apt/keyrings/docker.gpg
+  echo "deb [arch=arm64 signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu $(. /etc/os-release && echo $VERSION_CODENAME) stable" \
+    > /etc/apt/sources.list.d/docker.list
+  apt-get update
+  apt-get install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+  systemctl enable --now docker
+fi
+
+# Tune Docker daemon: log rotation + awslogs driver default
+cat > /etc/docker/daemon.json <<'JSON'
+{
+  "log-driver": "awslogs",
+  "log-opts": {
+    "awslogs-region": "ap-south-1",
+    "awslogs-create-group": "true",
+    "tag": "{{.Name}}/{{.ID}}"
+  },
+  "default-ulimits": {
+    "nofile": { "Name": "nofile", "Hard": 65536, "Soft": 65536 }
+  }
+}
+JSON
+systemctl restart docker
+
+# ─── 4. deploy user ──────────────────────────────────────────────────────────
+if ! id "$APP_USER" >/dev/null 2>&1; then
+  useradd -m -s /bin/bash "$APP_USER"
+  usermod -aG docker "$APP_USER"
+fi
+mkdir -p "$APP_DIR"
+chown -R "$APP_USER:$APP_USER" "$APP_DIR"
+
+# Public SSH key for GitHub Actions deploys (pasted as instance tag at launch)
+AUTHORIZED_KEY="$(aws ec2 describe-tags --region "$AWS_REGION" \
+  --filters "Name=resource-id,Values=$(curl -s http://169.254.169.254/latest/meta-data/instance-id)" \
+            "Name=key,Values=DeploySshKey" \
+  --query 'Tags[0].Value' --output text 2>/dev/null || true)"
+if [ -n "$AUTHORIZED_KEY" ] && [ "$AUTHORIZED_KEY" != "None" ]; then
+  install -m 700 -o "$APP_USER" -g "$APP_USER" -d "/home/$APP_USER/.ssh"
+  echo "$AUTHORIZED_KEY" >> "/home/$APP_USER/.ssh/authorized_keys"
+  chmod 600 "/home/$APP_USER/.ssh/authorized_keys"
+  chown "$APP_USER:$APP_USER" "/home/$APP_USER/.ssh/authorized_keys"
+fi
+
+# ─── 5. Pull .env.production from Secrets Manager ────────────────────────────
+aws secretsmanager get-secret-value \
+  --region "$AWS_REGION" --secret-id "$SECRET_ID" \
+  --query SecretString --output text \
+  > "$APP_DIR/.env.production"
+chmod 600 "$APP_DIR/.env.production"
+chown "$APP_USER:$APP_USER" "$APP_DIR/.env.production"
+
+# ─── 6. systemd timer: refresh ECR auth every 6h ─────────────────────────────
+cat > /usr/local/bin/ecr-login.sh <<EOF
+#!/usr/bin/env bash
+set -e
+REGISTRY=\$(grep -E '^ECR_REGISTRY=' $APP_DIR/.env.production | cut -d= -f2)
+aws ecr get-login-password --region $AWS_REGION \\
+  | docker login --username AWS --password-stdin "\$REGISTRY"
+EOF
+chmod +x /usr/local/bin/ecr-login.sh
+
+cat > /etc/systemd/system/ecr-login.service <<'EOF'
+[Unit]
+Description=Refresh ECR docker login
+After=network-online.target docker.service
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/ecr-login.sh
+EOF
+
+cat > /etc/systemd/system/ecr-login.timer <<'EOF'
+[Unit]
+Description=Refresh ECR docker login every 6h
+
+[Timer]
+OnBootSec=2min
+OnUnitActiveSec=6h
+Persistent=true
+
+[Install]
+WantedBy=timers.target
+EOF
+systemctl daemon-reload
+systemctl enable --now ecr-login.timer
+
+# ─── 7. systemd timer: nightly pg_dump → S3 ──────────────────────────────────
+cat > /etc/systemd/system/crackgate-backup.service <<EOF
+[Unit]
+Description=CrackGate nightly RDS backup → S3
+After=docker.service
+Requires=docker.service
+
+[Service]
+Type=oneshot
+User=$APP_USER
+WorkingDirectory=$APP_DIR
+ExecStart=/usr/bin/docker compose -f docker-compose.aws.yml --env-file .env.production --profile backup run --rm pg-backup
+EOF
+
+cat > /etc/systemd/system/crackgate-backup.timer <<'EOF'
+[Unit]
+Description=Run CrackGate backup nightly at 19:30 UTC (01:00 IST)
+
+[Timer]
+OnCalendar=*-*-* 19:30:00
+Persistent=true
+RandomizedDelaySec=10min
+
+[Install]
+WantedBy=timers.target
+EOF
+systemctl daemon-reload
+systemctl enable --now crackgate-backup.timer
+
+# ─── 8. systemd unit: crackgate compose stack (auto-start on boot) ───────────
+cat > /etc/systemd/system/crackgate.service <<EOF
+[Unit]
+Description=CrackGate docker compose stack
+After=docker.service ecr-login.service
+Requires=docker.service
+
+[Service]
+Type=oneshot
+RemainAfterExit=true
+User=$APP_USER
+WorkingDirectory=$APP_DIR
+ExecStartPre=/usr/local/bin/ecr-login.sh
+ExecStart=/usr/bin/docker compose -f docker-compose.aws.yml --env-file .env.production up -d
+ExecStop=/usr/bin/docker compose -f docker-compose.aws.yml --env-file .env.production down
+TimeoutStartSec=5min
+
+[Install]
+WantedBy=multi-user.target
+EOF
+systemctl daemon-reload
+systemctl enable crackgate.service
+# Started by GitHub Actions on first deploy, not at bootstrap — compose file
+# isn't on disk yet.
+
+# ─── 9. Firewall (defense-in-depth; SG is primary) ───────────────────────────
+ufw default deny incoming
+ufw default allow outgoing
+ufw allow 22/tcp
+ufw allow 80/tcp
+ufw allow 443/tcp
+ufw allow 443/udp
+ufw --force enable
+
+# ─── 10. Unattended security upgrades ────────────────────────────────────────
+dpkg-reconfigure -f noninteractive unattended-upgrades
+cat > /etc/apt/apt.conf.d/51-crackgate-reboot <<'EOF'
+Unattended-Upgrade::Automatic-Reboot "true";
+Unattended-Upgrade::Automatic-Reboot-Time "20:00";
+EOF
+
+# ─── 11. CloudWatch agent (host-level metrics) ───────────────────────────────
+curl -fsSL "https://s3.amazonaws.com/amazoncloudwatch-agent-${AWS_REGION}/ubuntu/arm64/latest/amazon-cloudwatch-agent.deb" \
+  -o /tmp/cwagent.deb
+dpkg -i /tmp/cwagent.deb || apt-get install -fy
+cat > /opt/aws/amazon-cloudwatch-agent/etc/amazon-cloudwatch-agent.json <<'JSON'
+{
+  "metrics": {
+    "namespace": "CrackGate/EC2",
+    "metrics_collected": {
+      "mem":  { "measurement": ["mem_used_percent"], "metrics_collection_interval": 60 },
+      "disk": { "measurement": ["used_percent"], "resources": ["/"], "metrics_collection_interval": 60 },
+      "swap": { "measurement": ["swap_used_percent"] }
+    }
+  }
+}
+JSON
+/opt/aws/amazon-cloudwatch-agent/bin/amazon-cloudwatch-agent-ctl \
+  -a fetch-config -m ec2 -s -c file:/opt/aws/amazon-cloudwatch-agent/etc/amazon-cloudwatch-agent.json
+
+# ─── 12. Swap (RAM = 2 GB; give Node breathing room for builds) ──────────────
+if ! swapon --show | grep -q .; then
+  fallocate -l 2G /swapfile
+  chmod 600 /swapfile
+  mkswap /swapfile
+  swapon /swapfile
+  echo '/swapfile none swap sw 0 0' >> /etc/fstab
+  echo 'vm.swappiness=10' > /etc/sysctl.d/99-swap.conf
+  sysctl -p /etc/sysctl.d/99-swap.conf
+fi
+
+echo "✓ EC2 bootstrap complete. Trigger first deploy from GitHub Actions."
