@@ -54,14 +54,14 @@ if ! command -v docker >/dev/null; then
   systemctl enable --now docker
 fi
 
-# Tune Docker daemon: log rotation + awslogs driver default
+# Tune Docker daemon: log rotation (json-file with caps; compose configures
+# awslogs per-service explicitly with awslogs-group).
 cat > /etc/docker/daemon.json <<'JSON'
 {
-  "log-driver": "awslogs",
+  "log-driver": "json-file",
   "log-opts": {
-    "awslogs-region": "ap-south-1",
-    "awslogs-create-group": "true",
-    "tag": "{{.Name}}/{{.ID}}"
+    "max-size": "10m",
+    "max-file": "5"
   },
   "default-ulimits": {
     "nofile": { "Name": "nofile", "Hard": 65536, "Soft": 65536 }
@@ -79,8 +79,10 @@ mkdir -p "$APP_DIR"
 chown -R "$APP_USER:$APP_USER" "$APP_DIR"
 
 # Public SSH key for GitHub Actions deploys (pasted as instance tag at launch)
+IMDS_TOKEN="$(curl -fsS -X PUT "http://169.254.169.254/latest/api/token" -H "X-aws-ec2-metadata-token-ttl-seconds: 60" 2>/dev/null || true)"
+INSTANCE_ID="$(curl -fsS -H "X-aws-ec2-metadata-token: $IMDS_TOKEN" http://169.254.169.254/latest/meta-data/instance-id 2>/dev/null || true)"
 AUTHORIZED_KEY="$(aws ec2 describe-tags --region "$AWS_REGION" \
-  --filters "Name=resource-id,Values=$(curl -s http://169.254.169.254/latest/meta-data/instance-id)" \
+  --filters "Name=resource-id,Values=$INSTANCE_ID" \
             "Name=key,Values=DeploySshKey" \
   --query 'Tags[0].Value' --output text 2>/dev/null || true)"
 if [ -n "$AUTHORIZED_KEY" ] && [ "$AUTHORIZED_KEY" != "None" ]; then
@@ -205,7 +207,7 @@ Unattended-Upgrade::Automatic-Reboot-Time "20:00";
 EOF
 
 # ─── 11. CloudWatch agent (host-level metrics) ───────────────────────────────
-curl -fsSL "https://s3.amazonaws.com/amazoncloudwatch-agent-${AWS_REGION}/ubuntu/arm64/latest/amazon-cloudwatch-agent.deb" \
+curl -fsSL "https://amazoncloudwatch-agent.s3.${AWS_REGION}.amazonaws.com/ubuntu/arm64/latest/amazon-cloudwatch-agent.deb" \
   -o /tmp/cwagent.deb
 dpkg -i /tmp/cwagent.deb || apt-get install -fy
 cat > /opt/aws/amazon-cloudwatch-agent/etc/amazon-cloudwatch-agent.json <<'JSON'
