@@ -129,7 +129,7 @@ jobs:
             # Run migrations BEFORE swapping web (uses DIRECT_URL → bypasses pgbouncer)
             if [ "${SKIP_MIGRATE}" != "true" ]; then
               docker compose -f docker-compose.aws.yml --env-file .env.production \\
-                run --rm web npx prisma migrate deploy --schema=packages/database/prisma/schema.prisma
+                run --rm web node ./node_modules/prisma/build/index.js migrate deploy --schema=packages/database/prisma/schema.prisma
             fi
 
             # Zero-downtime web swap (Caddy keeps serving during ~5s gap)

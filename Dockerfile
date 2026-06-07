@@ -88,7 +88,6 @@ COPY --from=builder --chown=nextjs:nodejs /app/packages/database/src/generated .
 COPY --from=builder --chown=nextjs:nodejs /app/packages/database/prisma      ./packages/database/prisma
 COPY --from=builder --chown=nextjs:nodejs /app/node_modules/prisma           ./node_modules/prisma
 COPY --from=builder --chown=nextjs:nodejs /app/node_modules/@prisma          ./node_modules/@prisma
-COPY --from=builder --chown=nextjs:nodejs /app/node_modules/.bin/prisma      ./node_modules/.bin/prisma
 
 USER nextjs
 EXPOSE 3000
@@ -97,4 +96,4 @@ HEALTHCHECK --interval=30s --timeout=5s --start-period=20s --retries=3 \
   CMD curl -fsS http://127.0.0.1:3000/api/healthz || exit 1
 
 ENTRYPOINT ["/sbin/tini", "--"]
-CMD ["sh", "-c", "npx prisma migrate deploy --schema=./packages/database/prisma/schema.prisma && node apps/web/server.js"]
+CMD ["sh", "-c", "node ./node_modules/prisma/build/index.js migrate deploy --schema=./packages/database/prisma/schema.prisma && node apps/web/server.js"]
