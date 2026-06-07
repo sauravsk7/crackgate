@@ -115,6 +115,17 @@ resource "aws_security_group" "web" {
     protocol    = "tcp"
     cidr_blocks = [var.admin_ip_cidr]
   }
+  # TODO: replace with SSM Session Manager so we can remove public SSH entirely.
+  # Required today so the GitHub Actions `deploy` job can ssh into the box;
+  # auth is key-only (PasswordAuthentication=no on Ubuntu 22 cloud image),
+  # deploy user is unprivileged + in docker group only.
+  ingress {
+    description = "SSH from GitHub Actions runners (any) - key-only auth"
+    from_port   = 22
+    to_port     = 22
+    protocol    = "tcp"
+    cidr_blocks = ["0.0.0.0/0"]
+  }
 
   egress {
     description = "All outbound (ECR, Secrets Manager, S3, CloudWatch, RDS)"
