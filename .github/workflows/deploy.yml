@@ -127,7 +127,7 @@ jobs:
             docker compose -f docker-compose.aws.yml --env-file .env.production pull web
 
             # Run migrations BEFORE swapping web (uses DIRECT_URL → bypasses pgbouncer)
-            if [ "\${SKIP_MIGRATE}" != "true" ]; then
+            if [ "${SKIP_MIGRATE}" != "true" ]; then
               docker compose -f docker-compose.aws.yml --env-file .env.production \\
                 run --rm web npx prisma migrate deploy --schema=packages/database/prisma/schema.prisma
             fi
