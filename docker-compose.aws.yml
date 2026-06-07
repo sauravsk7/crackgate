@@ -39,7 +39,7 @@ services:
   # Sits between Next.js and RDS. With Prisma append:
   #   ?pgbouncer=true&connection_limit=1 to DATABASE_URL.
   pgbouncer:
-    image: edoburu/pgbouncer:1.23.1
+    image: edoburu/pgbouncer:v1.23.1-p3
     restart: always
     environment:
       DB_HOST: ${RDS_HOST:?set RDS_HOST in .env.production}
