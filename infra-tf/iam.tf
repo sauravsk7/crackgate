@@ -134,6 +134,7 @@ data "aws_iam_policy_document" "gha_inline" {
     actions = [
       "ecr:BatchCheckLayerAvailability",
       "ecr:CompleteLayerUpload",
+      "ecr:GetDownloadUrlForLayer", # HEAD blob check during push (avoids 403)
       "ecr:InitiateLayerUpload",
       "ecr:PutImage",
       "ecr:UploadLayerPart",
