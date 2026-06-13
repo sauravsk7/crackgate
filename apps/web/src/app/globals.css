@@ -129,3 +129,7 @@ body {
 /* Hide scrollbar on tab strip */
 .scrollbar-thin::-webkit-scrollbar { height: 2px; }
 .scrollbar-thin::-webkit-scrollbar-thumb { background: rgb(var(--line-rgb)); }
+
+/* Fully hidden scrollbar (mobile section pill strip) */
+.no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+.no-scrollbar::-webkit-scrollbar { display: none; }

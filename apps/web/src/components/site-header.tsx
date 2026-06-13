@@ -3,7 +3,7 @@ import { auth } from "@/lib/auth";
 import { UserMenu } from "@/components/user-menu";
 import { BrandLockup } from "@/components/brand";
 import { NavLink } from "@/components/nav-link";
-import { MobileNav } from "@/components/mobile-nav";
+import { MobileNav, MobileSectionBar } from "@/components/mobile-nav";
 import { ThemeToggle } from "@/components/theme-toggle";
 
 export async function SiteHeader() {
@@ -44,6 +44,9 @@ export async function SiteHeader() {
           <MobileNav authed={!!u} />
         </div>
       </nav>
+
+      {/* Mobile-only: always-visible scrollable section pills */}
+      <MobileSectionBar />
     </header>
   );
 }

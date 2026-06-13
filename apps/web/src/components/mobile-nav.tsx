@@ -108,3 +108,33 @@ export function MobileNav({ authed }: { authed: boolean }) {
     </>
   );
 }
+
+/**
+ * Always-visible, horizontally-scrollable strip of section pills.
+ * Shown only on mobile (md:hidden) directly under the header row so the
+ * primary sections are discoverable without opening the drawer.
+ */
+export function MobileSectionBar() {
+  const pathname = usePathname();
+  return (
+    <div className="md:hidden border-t border-line">
+      <nav className="flex items-center gap-2 overflow-x-auto no-scrollbar px-3 py-2">
+        {LINKS.map((l) => {
+          const active = pathname === l.href || pathname.startsWith(l.href + "/");
+          return (
+            <Link
+              key={l.href}
+              href={l.href}
+              className={cn(
+                "shrink-0 rounded-full px-3.5 py-1.5 text-sm font-medium whitespace-nowrap transition",
+                active ? "bg-brand text-white" : "bg-canvas text-ink hover:bg-brand/10",
+              )}
+            >
+              {l.label}
+            </Link>
+          );
+        })}
+      </nav>
+    </div>
+  );
+}
