@@ -36,7 +36,7 @@ export function MobileNav({ authed }: { authed: boolean }) {
         aria-label={open ? "Close menu" : "Open menu"}
         aria-expanded={open}
         onClick={() => setOpen((v) => !v)}
-        className="md:hidden inline-flex items-center justify-center w-10 h-10 rounded-lg hover:bg-canvas -mr-1"
+        className="md:hidden inline-flex items-center justify-center w-11 h-11 rounded-lg border border-line bg-surface text-ink shadow-sm hover:bg-canvas active:scale-95 transition"
       >
         <svg viewBox="0 0 24 24" className="w-6 h-6" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
           {open ? (

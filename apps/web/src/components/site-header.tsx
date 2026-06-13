@@ -37,8 +37,8 @@ export async function SiteHeader() {
             />
           ) : (
             <>
-              <Link href="/login" className="btn btn-ghost text-sm hidden sm:inline-flex">Login</Link>
-              <Link href="/login" className="btn btn-primary text-sm">Get Started</Link>
+              <Link href="/login" className="btn btn-ghost text-sm hidden md:inline-flex">Login</Link>
+              <Link href="/login" className="btn btn-primary text-sm hidden sm:inline-flex">Get Started</Link>
             </>
           )}
           <MobileNav authed={!!u} />
