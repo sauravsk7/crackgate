@@ -3,10 +3,6 @@
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 
-declare global {
-  interface Window { Razorpay: new (opts: Record<string, unknown>) => { open: () => void }; }
-}
-
 const PLANS = [
   { id: "free",    name: "Free",     price: 0,    period: "forever",    cta: "Current plan", highlight: false, badge: "",
     perks: [
@@ -133,10 +129,11 @@ function PlanCard({ plan }: { plan: typeof PLANS[number] }) {
 
   async function buy() {
     if (plan.id === "free") return router.push("/login");
-    setLoading(true);
-    try {
-      // Dev-mode shortcut: skip Razorpay, flip the plan via the dev API.
-      if (devMode) {
+
+    // Dev-mode shortcut: skip checkout, flip the plan via the dev API.
+    if (devMode) {
+      setLoading(true);
+      try {
         const r = await fetch("/api/dev/set-plan", {
           method: "POST",
           headers: { "content-type": "application/json" },
@@ -147,43 +144,16 @@ function PlanCard({ plan }: { plan: typeof PLANS[number] }) {
         const data = t ? safeJson(t) : null;
         if (!r.ok) throw new Error(data?.error ?? data?.message ?? `Dev set-plan failed (HTTP ${r.status})`);
         return router.push(`/dashboard?upgrade=success&dev=1`);
+      } catch (e) {
+        alert((e as Error).message);
+      } finally {
+        setLoading(false);
       }
-
-      const r = await fetch("/api/razorpay/order", {
-        method: "POST",
-        headers: { "content-type": "application/json" },
-        body: JSON.stringify({ plan: plan.id }),
-      });
-      if (r.status === 401) return router.push(`/login?next=/pricing`);
-      const text = await r.text();
-      const data = text ? safeJson(text) : null;
-      if (!r.ok) {
-        throw new Error(
-          data?.message ?? data?.error ??
-          `Payment service error (HTTP ${r.status}). Try again in a moment.`,
-        );
-      }
-      if (!data?.orderId || !data?.keyId) {
-        throw new Error("Payment provider isn't configured. Use the ⚙ DEV switcher to test premium features locally.");
-      }
-
-      await loadRazorpay();
-      const rzp = new window.Razorpay({
-        key: data.keyId,
-        amount: data.amount,
-        currency: data.currency,
-        order_id: data.orderId,
-        name: "CrackGate.in",
-        description: `${plan.name} plan`,
-        theme: { color: "#1e3a8a" },
-        handler: () => router.push("/dashboard?upgrade=success"),
-      });
-      rzp.open();
-    } catch (e) {
-      alert((e as Error).message);
-    } finally {
-      setLoading(false);
+      return;
     }
+
+    // Single checkout path for everyone else: UPI (scan & pay → submit UTR).
+    router.push(`/pay/upi?plan=${plan.id}`);
   }
 
   return (
@@ -207,31 +177,15 @@ function PlanCard({ plan }: { plan: typeof PLANS[number] }) {
         {loading ? "Loading…" : devMode && plan.id !== "free" ? `⚙ Dev: switch to ${plan.name}` : plan.cta}
       </button>
       {plan.id !== "free" && !devMode && (
-        <a
-          href={`/pay/upi?plan=${plan.id}`}
-          className="block text-center text-xs text-muted mt-3 underline hover:text-fg"
-        >
-          Or pay directly via UPI ↗
-        </a>
+        <p className="text-[11px] text-muted mt-2 text-center">Pay via UPI · QR / GPay / PhonePe / Paytm</p>
       )}
       {devMode && plan.id !== "free" && (
-        <p className="text-[11px] text-muted mt-2 text-center">Skips Razorpay · dev tools enabled</p>
+        <p className="text-[11px] text-muted mt-2 text-center">Skips checkout · dev tools enabled</p>
       )}
     </div>
   );
 }
 
-function safeJson(t: string): { error?: string; message?: string; orderId?: string; keyId?: string; amount?: number; currency?: string } | null {
+function safeJson(t: string): { error?: string; message?: string } | null {
   try { return JSON.parse(t); } catch { return null; }
-}
-
-function loadRazorpay() {
-  return new Promise<void>((resolve, reject) => {
-    if (window.Razorpay) return resolve();
-    const s = document.createElement("script");
-    s.src = "https://checkout.razorpay.com/v1/checkout.js";
-    s.onload = () => resolve();
-    s.onerror = () => reject(new Error("Failed to load Razorpay"));
-    document.head.appendChild(s);
-  });
 }
