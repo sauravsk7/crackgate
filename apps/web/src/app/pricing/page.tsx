@@ -17,16 +17,15 @@ const PLANS = [
       "🔓 All 906 practice questions — fully unlocked",
       "9 mock tests — every subject-wise mock + FLT",
       "Subject-wise SWOT & Mastery analytics",
-      "Email support + WhatsApp payment receipts",
+      "Email support",
       "Access through GATE 2027 exam day",
     ] },
   { id: "premium", name: "Premium · All-Access",  price: 899,  period: "/ GATE 2027 cycle", cta: "Get Premium", highlight: true, badge: "Best value · Go all-in",
     perks: [
       "Everything in Pro, plus:",
       "💎 All 10 mocks — incl. final full-syllabus FLT",
-      "💎 Adaptive practice targeting your weak topics",
       "Weekly progress digest on WhatsApp",
-      "Priority support + 1:1 doubt clearance",
+      "Priority support",
       "Early access to GATE 2028 prep content",
     ] },
 ] as const;
@@ -66,7 +65,6 @@ const MATRIX: { feature: string; free: string | boolean; pro: string | boolean; 
   // Practice
   { feature: "Practice Qs per subject",         free: "20 preview",   pro: "Full subject",   premium: "Full subject"     },
   { feature: "Total practice questions",        free: "200",          pro: "906 (all free)", premium: "906 (all free)"   },
-  { feature: "Adaptive weak-topic mode",        free: false,          pro: false,            premium: true               },
 
   // Analytics
   { feature: "Subject Mastery dashboard",       free: "Basic",        pro: "Full",           premium: "Full + trends"    },
@@ -74,9 +72,7 @@ const MATRIX: { feature: string; free: string | boolean; pro: string | boolean; 
   { feature: "Score Trend chart",               free: true,           pro: true,             premium: "+ peer comparison" },
 
   // Support / extras
-  { feature: "WhatsApp payment receipts",       free: false,          pro: true,             premium: true               },
   { feature: "Weekly progress digest",          free: false,          pro: false,            premium: true               },
-  { feature: "1:1 doubt clearance",             free: false,          pro: false,            premium: true               },
   { feature: "Support",                         free: "Community",    pro: "Email",          premium: "WhatsApp + email" },
   { feature: "Validity",                        free: "Forever",      pro: "GATE 2027 cycle",premium: "GATE 2027 + 2028 early access" },
 ];
