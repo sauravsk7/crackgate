@@ -3,6 +3,7 @@ import { auth } from "@/lib/auth";
 import QRCode from "qrcode";
 import UpiClaimForm from "./form";
 import { db } from "@/lib/db";
+import { whatsappLink } from "@/lib/contact";
 
 export const dynamic = "force-dynamic";
 
@@ -30,21 +31,27 @@ export default async function PayUpiPage({
   const vpa = process.env.NEXT_PUBLIC_UPI_VPA || "";
   const payeeName = process.env.NEXT_PUBLIC_UPI_PAYEE_NAME || "CrackGate";
 
-  // Recent claims by this user for status visibility on the same page.
-  const myClaims = await db.upiPayment.findMany({
-    where: { userId: session.user.id },
-    orderBy: { createdAt: "desc" },
-    take: 5,
-    select: {
-      id: true,
-      plan: true,
-      amountPaise: true,
-      upiTxnRef: true,
-      status: true,
-      adminNote: true,
-      createdAt: true,
-    },
-  });
+  // Prefill the claim form from the signed-in user (Google gives name+email;
+  // phone is usually empty until they tell us here).
+  const [me, myClaims] = await Promise.all([
+    db.user.findUnique({
+      where: { id: session.user.id },
+      select: { name: true, email: true, phone: true },
+    }),
+    db.upiPayment.findMany({
+      where: { userId: session.user.id },
+      orderBy: { createdAt: "desc" },
+      take: 5,
+      select: {
+        id: true,
+        plan: true,
+        amountPaise: true,
+        status: true,
+        adminNote: true,
+        createdAt: true,
+      },
+    }),
+  ]);
 
   // Build UPI deep-link. tn = transaction note (max ~80 chars, plain ASCII).
   // userId is included so we can sanity-check claims against the payer's note
@@ -120,14 +127,20 @@ export default async function PayUpiPage({
 
             <ol className="mt-5 text-xs text-muted list-decimal pl-4 space-y-1">
               <li>Pay the <b>exact</b> amount — ₹{cfg.amountRupees}.</li>
-              <li>After it succeeds, copy the <b>UPI Reference Number</b> (UTR / RRN) from the receipt screen.</li>
-              <li>Paste it in the form on the right and submit.</li>
+              <li>Wait for the <b>success</b> screen in your UPI app.</li>
+              <li>Fill your name, phone &amp; email on the right and submit.</li>
             </ol>
           </div>
 
           <div className="card p-6">
-            <h2 className="font-bold text-lg">2 · Submit your UTR</h2>
-            <UpiClaimForm plan={planKey} amountRupees={cfg.amountRupees} />
+            <h2 className="font-bold text-lg">2 · Confirm your payment</h2>
+            <UpiClaimForm
+              plan={planKey}
+              amountRupees={cfg.amountRupees}
+              defaultName={me?.name ?? session.user.name ?? ""}
+              defaultPhone={me?.phone ?? ""}
+              defaultEmail={me?.email ?? session.user.email ?? ""}
+            />
           </div>
         </div>
       )}
@@ -142,7 +155,6 @@ export default async function PayUpiPage({
                   <th className="py-2 pr-3">When</th>
                   <th className="py-2 pr-3">Plan</th>
                   <th className="py-2 pr-3">Amount</th>
-                  <th className="py-2 pr-3">UTR</th>
                   <th className="py-2 pr-3">Status</th>
                 </tr>
               </thead>
@@ -156,9 +168,6 @@ export default async function PayUpiPage({
                     <td className="py-2 pr-3">
                       ₹{Math.round(c.amountPaise / 100)}
                     </td>
-                    <td className="py-2 pr-3 font-mono text-xs">
-                      {c.upiTxnRef}
-                    </td>
                     <td className="py-2 pr-3">
                       <StatusPill status={c.status} note={c.adminNote} />
                     </td>
@@ -169,6 +178,57 @@ export default async function PayUpiPage({
           </div>
         </div>
       )}
+
+      {/* Trust + support */}
+      <div className="mt-8 grid sm:grid-cols-2 gap-4">
+        <div className="card p-5">
+          <h3 className="font-bold">Why this is safe</h3>
+          <ul className="mt-3 space-y-2 text-sm text-muted">
+            <li className="flex gap-2">
+              <span aria-hidden>⏱️</span>
+              <span>Access unlocked within a few hours of payment — usually much faster.</span>
+            </li>
+            <li className="flex gap-2">
+              <span aria-hidden>🔒</span>
+              <span>You pay directly through your own UPI app. We never see or store your card or bank details.</span>
+            </li>
+            <li className="flex gap-2">
+              <span aria-hidden>↩️</span>
+              <span>
+                Covered by our{" "}
+                <a href="/refund" className="text-brand hover:underline">
+                  refund policy
+                </a>
+                .
+              </span>
+            </li>
+            <li className="flex gap-2">
+              <span aria-hidden>🎓</span>
+              <span>Trusted by GATE Mining aspirants preparing for the 2027 cycle.</span>
+            </li>
+          </ul>
+        </div>
+
+        <div className="card p-5 flex flex-col justify-between">
+          <div>
+            <h3 className="font-bold">Need help?</h3>
+            <p className="mt-2 text-sm text-muted">
+              Payment stuck, paid the wrong amount, or access not unlocked yet?
+              Message us on WhatsApp — we usually reply within minutes.
+            </p>
+          </div>
+          <a
+            href={whatsappLink(
+              `Hi! I need help with my ${cfg.label} (₹${cfg.amountRupees}) UPI payment.`,
+            )}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn btn-primary mt-4 w-full"
+          >
+            💬 Chat with us on WhatsApp
+          </a>
+        </div>
+      </div>
     </div>
   );
 }

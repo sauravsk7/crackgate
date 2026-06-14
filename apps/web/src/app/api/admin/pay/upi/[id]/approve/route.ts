@@ -49,7 +49,7 @@ export async function POST(
       data: {
         userId: claim.userId,
         razorpayOrderId: `upi-${claim.id}`,
-        razorpayPaymentId: `upi-${claim.upiTxnRef}`,
+        razorpayPaymentId: `upi-pay-${claim.id}`,
         amount: claim.amountPaise,
         currency: "INR",
         plan: claim.plan,
@@ -58,7 +58,9 @@ export async function POST(
         capturedAt: now,
         raw: {
           source: "upi_manual",
-          upiTxnRef: claim.upiTxnRef,
+          payerName: claim.payerName,
+          payerPhone: claim.payerPhone,
+          payerEmail: claim.payerEmail,
           upiApp: claim.upiApp,
           approvedBy: admin.email,
         },
@@ -73,7 +75,7 @@ export async function POST(
           plan: claim.plan,
           months: claim.periodMonths,
           amountPaise: claim.amountPaise,
-          upiTxnRef: claim.upiTxnRef,
+          payerPhone: claim.payerPhone,
           approvedBy: admin.email,
         },
       },
@@ -86,9 +88,10 @@ export async function POST(
       where: { id: claim.userId },
       select: { phone: true, name: true },
     });
-    if (u?.phone) {
-      await sendPaymentReceipt(u.phone, {
-        name: u.name ?? "there",
+    const receiptPhone = u?.phone ?? claim.payerPhone;
+    if (receiptPhone) {
+      await sendPaymentReceipt(receiptPhone, {
+        name: u?.name ?? claim.payerName ?? "there",
         plan: claim.plan,
         amountRupees: Math.round(claim.amountPaise / 100),
         months: claim.periodMonths,

@@ -129,7 +129,10 @@ model UpiPayment {
   plan          Plan
   amountPaise   Int                              // 49900 = ₹499
   periodMonths  Int             @default(18)
-  upiTxnRef     String          @unique          // 12-digit UPI Reference Number (UTR)
+  payerName     String?                          // full name the user paid with
+  payerPhone    String?                          // contact + reconciliation key (UPI payer)
+  payerEmail    String?                          // contact email
+  upiTxnRef     String?                          // legacy UPI reference (no longer collected)
   upiApp        String?                          // PhonePe | GPay | Paytm | BHIM | Other
   payerNote     String?                          // optional message from user
   status        UpiClaimStatus  @default(pending)
@@ -143,6 +146,7 @@ model UpiPayment {
 
   @@index([userId, createdAt(sort: Desc)])
   @@index([status, createdAt])
+  @@index([payerPhone])
 }
 
 // ---------- NextAuth.js tables ----------

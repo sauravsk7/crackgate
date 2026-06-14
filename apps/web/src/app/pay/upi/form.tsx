@@ -2,22 +2,40 @@
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";
+import { whatsappLink } from "@/lib/contact";
 
 type Props = {
   plan: "pro" | "premium";
   amountRupees: number;
+  defaultName?: string;
+  defaultPhone?: string;
+  defaultEmail?: string;
 };
 
 const APPS = ["PhonePe", "GPay", "Paytm", "BHIM", "Other"] as const;
 
-export default function UpiClaimForm({ plan, amountRupees }: Props) {
+export default function UpiClaimForm({
+  plan,
+  amountRupees,
+  defaultName = "",
+  defaultPhone = "",
+  defaultEmail = "",
+}: Props) {
   const router = useRouter();
-  const [upiTxnRef, setUpiTxnRef] = useState("");
+  const [payerName, setPayerName] = useState(defaultName);
+  const [payerPhone, setPayerPhone] = useState(defaultPhone);
+  const [payerEmail, setPayerEmail] = useState(defaultEmail);
   const [upiApp, setUpiApp] = useState<(typeof APPS)[number]>("PhonePe");
   const [payerNote, setPayerNote] = useState("");
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [done, setDone] = useState(false);
+
+  const phoneDigits = payerPhone.replace(/[^\d]/g, "");
+  const formValid =
+    payerName.trim().length >= 2 &&
+    phoneDigits.length >= 10 &&
+    /^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(payerEmail.trim());
 
   async function submit(e: React.FormEvent) {
     e.preventDefault();
@@ -29,7 +47,9 @@ export default function UpiClaimForm({ plan, amountRupees }: Props) {
         headers: { "content-type": "application/json" },
         body: JSON.stringify({
           plan,
-          upiTxnRef: upiTxnRef.trim(),
+          payerName: payerName.trim(),
+          payerPhone: payerPhone.trim(),
+          payerEmail: payerEmail.trim(),
           upiApp,
           payerNote: payerNote.trim() || undefined,
         }),
@@ -54,22 +74,54 @@ export default function UpiClaimForm({ plan, amountRupees }: Props) {
 
   if (done) {
     return (
-      <div className="text-sm">
-        <p className="text-ok font-semibold">
-          ✓ Got it — claim received.
+      <div className="text-center py-2">
+        <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-ok/15">
+          <svg
+            viewBox="0 0 24 24"
+            className="h-9 w-9 text-ok"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="3"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            aria-hidden
+          >
+            <path d="M20 6 9 17l-5-5" />
+          </svg>
+        </div>
+
+        <h3 className="mt-4 text-xl font-extrabold text-ok">
+          Payment submitted!
+        </h3>
+        <p className="mt-2 text-sm text-muted">
+          Thanks, <b>{payerName.trim() || "there"}</b> — we&apos;ve received
+          your <b className="capitalize">{plan}</b> claim of{" "}
+          <b>₹{amountRupees}</b>.
         </p>
-        <p className="mt-2 text-muted">
-          We&apos;ll verify against our UPI app and unlock your{" "}
-          <b>{plan}</b> access within a few hours (usually faster). You&apos;ll
-          see the status update below, and we&apos;ll send a WhatsApp receipt
-          when it&apos;s done.
+        <p className="mt-2 text-sm text-muted">
+          We verify against our UPI app and unlock your access within a few
+          hours (usually faster). You&apos;ll get a WhatsApp confirmation and
+          the status updates below.
         </p>
-        <button
-          className="btn btn-primary mt-4"
-          onClick={() => router.push("/dashboard")}
-        >
-          Back to dashboard
-        </button>
+
+        <div className="mt-5 flex flex-col gap-2">
+          <button
+            className="btn btn-primary w-full"
+            onClick={() => router.push("/dashboard")}
+          >
+            Back to dashboard
+          </button>
+          <a
+            href={whatsappLink(
+              `Hi! I just submitted my ${plan} UPI payment (₹${amountRupees}). My phone: ${payerPhone.trim()}`,
+            )}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn btn-ghost w-full text-sm"
+          >
+            💬 Any questions? Chat with us on WhatsApp
+          </a>
+        </div>
       </div>
     );
   }
@@ -77,27 +129,68 @@ export default function UpiClaimForm({ plan, amountRupees }: Props) {
   return (
     <form onSubmit={submit} className="mt-2 space-y-4 text-sm">
       <div>
-        <label htmlFor="utr" className="block text-xs font-semibold text-muted">
-          UPI Reference Number (UTR / RRN)
+        <label
+          htmlFor="payerName"
+          className="block text-xs font-semibold text-muted"
+        >
+          Full name <span className="text-err">*</span>
         </label>
         <input
-          id="utr"
-          name="utr"
+          id="payerName"
+          name="payerName"
           required
-          autoComplete="off"
+          autoComplete="name"
+          minLength={2}
+          maxLength={80}
+          value={payerName}
+          onChange={(e) => setPayerName(e.target.value)}
+          placeholder="Name you paid with"
+          className="input w-full mt-1"
+        />
+      </div>
+
+      <div>
+        <label
+          htmlFor="payerPhone"
+          className="block text-xs font-semibold text-muted"
+        >
+          Phone number <span className="text-err">*</span>
+        </label>
+        <input
+          id="payerPhone"
+          name="payerPhone"
+          required
+          type="tel"
+          autoComplete="tel"
           inputMode="numeric"
-          pattern="[A-Za-z0-9]{10,32}"
-          minLength={10}
-          maxLength={32}
-          value={upiTxnRef}
-          onChange={(e) => setUpiTxnRef(e.target.value)}
-          placeholder="e.g. 412345678912"
-          className="input w-full mt-1 font-mono"
+          value={payerPhone}
+          onChange={(e) => setPayerPhone(e.target.value)}
+          placeholder="10-digit mobile number"
+          className="input w-full mt-1"
         />
         <p className="text-[11px] text-muted mt-1">
-          Open your UPI app → transaction history → tap the ₹{amountRupees}{" "}
-          payment → copy the 12-digit reference number.
+          We use this to confirm your payment and send your access on WhatsApp.
         </p>
+      </div>
+
+      <div>
+        <label
+          htmlFor="payerEmail"
+          className="block text-xs font-semibold text-muted"
+        >
+          Email <span className="text-err">*</span>
+        </label>
+        <input
+          id="payerEmail"
+          name="payerEmail"
+          required
+          type="email"
+          autoComplete="email"
+          value={payerEmail}
+          onChange={(e) => setPayerEmail(e.target.value)}
+          placeholder="you@example.com"
+          className="input w-full mt-1"
+        />
       </div>
 
       <div>
@@ -141,11 +234,14 @@ export default function UpiClaimForm({ plan, amountRupees }: Props) {
 
       <button
         type="submit"
-        disabled={loading || upiTxnRef.trim().length < 10}
+        disabled={loading || !formValid}
         className="btn btn-primary w-full"
       >
-        {loading ? "Submitting…" : `Submit claim for ${plan}`}
+        {loading ? "Submitting…" : `I've paid — submit for ${plan}`}
       </button>
+      <p className="text-[11px] text-muted text-center">
+        Submit only after the ₹{amountRupees} payment succeeds in your UPI app.
+      </p>
     </form>
   );
 }
