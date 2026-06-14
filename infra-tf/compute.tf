@@ -61,8 +61,11 @@ resource "aws_instance" "web" {
 
   lifecycle {
     ignore_changes = [
-      ami,       # so we don't recreate the box when Canonical publishes a new AMI
-      user_data, # edit script + re-run on box; don't trigger replacement
+      ami,                         # so we don't recreate the box when Canonical publishes a new AMI
+      user_data,                   # edit script + re-run on box; don't trigger replacement
+      associate_public_ip_address, # live box launched with a public IP; an EIP
+      # is also attached. Reconciling this flag would force-replace the running
+      # production instance, so we ignore it.
     ]
   }
 }
