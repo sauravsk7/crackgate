@@ -110,6 +110,7 @@ jobs:
         env:
           IMAGE_TAG: ${{ needs.build.outputs.image_tag }}
           SKIP_MIGRATE: ${{ inputs.skip_migrate || 'false' }}
+          ADMIN_EMAILS: ${{ vars.ADMIN_EMAILS }}
         run: |
           ssh -i ~/.ssh/id_ed25519 deploy@${{ secrets.EC2_HOST }} bash -se <<EOF
             set -euo pipefail
@@ -123,6 +124,16 @@ jobs:
             export IMAGE_TAG="${IMAGE_TAG}"
             sed -i "s|^IMAGE_TAG=.*|IMAGE_TAG=${IMAGE_TAG}|" .env.production || \
               echo "IMAGE_TAG=${IMAGE_TAG}" >> .env.production
+
+            # Sync admin allowlist from CI (GitHub repo variable ADMIN_EMAILS).
+            # Only when non-empty so a missing CI var never wipes a host-set value.
+            if [ -n "${ADMIN_EMAILS}" ]; then
+              if grep -q '^ADMIN_EMAILS=' .env.production; then
+                sed -i "s|^ADMIN_EMAILS=.*|ADMIN_EMAILS=\"${ADMIN_EMAILS}\"|" .env.production
+              else
+                echo "ADMIN_EMAILS=\"${ADMIN_EMAILS}\"" >> .env.production
+              fi
+            fi
 
             docker compose -f docker-compose.aws.yml --env-file .env.production pull web
 
