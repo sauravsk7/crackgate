@@ -34,9 +34,14 @@ jobs:
       - run: npm run --workspace apps/web typecheck
 
   # ─── Build linux/arm64 image (matches t4g.small) and push to ECR ───────
+  # Runs on a NATIVE arm64 runner so the Next.js build executes directly,
+  # not under QEMU emulation. QEMU cross-builds were flaky here: the build
+  # worker intermittently crashed with `SIGILL / qemu: uncaught target
+  # signal 4 (Illegal instruction)`. Native arm64 removes the emulator and
+  # is also ~4-5x faster.
   build:
     needs: verify
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04-arm
     permissions:
       id-token: write       # OIDC → AWS, no long-lived keys
       contents: read
@@ -60,7 +65,6 @@ jobs:
       - uses: aws-actions/amazon-ecr-login@v2
         id: ecr
 
-      - uses: docker/setup-qemu-action@v3
       - uses: docker/setup-buildx-action@v3
 
       - uses: docker/build-push-action@v5
