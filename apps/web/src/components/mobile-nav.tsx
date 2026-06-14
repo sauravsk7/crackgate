@@ -30,7 +30,7 @@ const SECTIONS: Section[] = [
 
 // Top-level destinations for the always-visible pill strip.
 const SECTION_PILLS: Leaf[] = [
-  { href: "/gate/mining", label: "GATE" },
+  { href: "/gate", label: "GATE" },
   { href: "/psu/cil", label: "PSU" },
   { href: "/state", label: "State" },
   { href: "/diploma", label: "Diploma" },

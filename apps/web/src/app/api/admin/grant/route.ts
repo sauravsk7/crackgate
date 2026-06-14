@@ -8,16 +8,21 @@ import { NextResponse } from "next/server";
 import { z } from "zod";
 import { normalizePhone } from "@/lib/whatsapp";
 import { randomUUID } from "crypto";
+import {
+  DEFAULT_EXAM,
+  DEFAULT_SUBJECT,
+  getSubject,
+  subjectPrice,
+} from "@/data/catalog";
 
 export const runtime = "nodejs";
-
-// Plan price in paise — kept in sync with /pay pricing.
-const PLAN_PAISE = { pro: 49900, premium: 89900 } as const;
 
 const Body = z.object({
   identifier: z.string().trim().min(3, "Enter an email or phone number"),
   plan: z.enum(["pro", "premium"]),
   months: z.coerce.number().int().min(1).max(60).default(18),
+  exam: z.string().trim().min(2).default(DEFAULT_EXAM),
+  subject: z.string().trim().min(1).default(DEFAULT_SUBJECT),
 });
 
 export async function POST(req: Request) {
@@ -28,8 +33,17 @@ export async function POST(req: Request) {
   if (!parsed.success) {
     return NextResponse.json({ error: parsed.error.flatten() }, { status: 400 });
   }
-  const { identifier, plan, months } = parsed.data;
+  const { identifier, plan, months, exam, subject } = parsed.data;
   const isEmail = identifier.includes("@");
+
+  // Validate exam+subject against the catalog so attribution stays clean.
+  const cat = getSubject(exam, subject);
+  if (!cat) {
+    return NextResponse.json(
+      { error: "invalid_subject", message: "Unknown exam or subject." },
+      { status: 400 },
+    );
+  }
 
   const user = isEmail
     ? await db.user.findFirst({
@@ -57,14 +71,38 @@ export async function POST(req: Request) {
   const expiry = new Date(now);
   expiry.setMonth(expiry.getMonth() + months);
 
-  const amountPaise = PLAN_PAISE[plan];
+  const amountPaise = subjectPrice(exam, subject)[
+    plan === "premium" ? "premiumPaise" : "proPaise"
+  ];
   // Namespaced + random so it can never collide with Razorpay/UPI ids.
   const ref = `grant-${randomUUID()}`;
 
+  // Only the currently-live GATE Mining track drives the global User.plan so
+  // existing mock/practice gating keeps working. Other tracks are recorded as
+  // entitlements (attribution + future gating) without flipping the plan.
+  const syncsGlobalPlan =
+    exam === DEFAULT_EXAM && subject === DEFAULT_SUBJECT;
+
   await db.$transaction([
-    db.user.update({
-      where: { id: user.id },
-      data: { plan, planExpiry: expiry },
+    ...(syncsGlobalPlan
+      ? [
+          db.user.update({
+            where: { id: user.id },
+            data: { plan, planExpiry: expiry },
+          }),
+        ]
+      : []),
+    db.entitlement.upsert({
+      where: { userId_exam_subject: { userId: user.id, exam, subject } },
+      create: {
+        userId: user.id,
+        exam,
+        subject,
+        tier: plan,
+        source: "grant",
+        expiry,
+      },
+      update: { tier: plan, source: "grant", expiry },
     }),
     db.payment.create({
       data: {
@@ -74,10 +112,12 @@ export async function POST(req: Request) {
         amount: amountPaise,
         currency: "INR",
         plan,
+        exam,
+        subject,
         periodMonths: months,
         status: "captured",
         capturedAt: now,
-        raw: { source: "manual_grant", grantedBy: admin.email },
+        raw: { source: "manual_grant", grantedBy: admin.email, exam, subject },
       },
     }),
     db.activity.create({
@@ -89,6 +129,8 @@ export async function POST(req: Request) {
           plan,
           months,
           amountPaise,
+          exam,
+          subject,
           grantedBy: admin.email,
         },
       },
@@ -100,6 +142,8 @@ export async function POST(req: Request) {
     user: { email: user.email, name: user.name },
     plan,
     months,
+    exam,
+    subject,
     expiry: expiry.toISOString().slice(0, 10),
   });
 }

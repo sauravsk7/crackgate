@@ -4,6 +4,7 @@ import { redirect } from "next/navigation";
 import Link from "next/link";
 import { fmtDate } from "@/lib/utils";
 import { ProfileForm } from "@/components/profile-form";
+import { getUserEntitlements } from "@/lib/entitlements";
 
 export const metadata = { title: "Account Settings" };
 export const dynamic = "force-dynamic";
@@ -37,6 +38,8 @@ export default async function SettingsPage() {
 
   const plan = user.plan;
   const planClass = plan === "premium" ? "badge-premium" : plan === "pro" ? "badge-pro" : "badge-free";
+
+  const entitlements = await getUserEntitlements(user.id);
 
   return (
     <div className="max-w-3xl mx-auto px-5 py-12">
@@ -74,6 +77,40 @@ export default async function SettingsPage() {
             <Link href="/pricing" className="btn btn-ghost text-sm">Manage plan</Link>
           )}
         </div>
+      </Section>
+
+      {/* Per-track access */}
+      <Section title="Your access" subtitle="Exams and subjects unlocked on your account.">
+        {entitlements.length === 0 ? (
+          <p className="text-sm text-muted">
+            No exam-specific access yet. Granted or purchased tracks appear here.
+          </p>
+        ) : (
+          <ul className="space-y-2">
+            {entitlements.map((e) => {
+              const tierClass = e.tier === "premium" ? "badge-premium" : "badge-pro";
+              return (
+                <li
+                  key={`${e.exam}-${e.subject}`}
+                  className="flex flex-wrap items-center justify-between gap-3 p-3 rounded-lg border border-line bg-white"
+                >
+                  <div className="flex items-center gap-2">
+                    <span className={`badge ${tierClass}`}>{e.tier.toUpperCase()}</span>
+                    <span className="font-medium text-sm">{e.label}</span>
+                    {e.expired && (
+                      <span className="badge badge-free text-xs">Expired</span>
+                    )}
+                  </div>
+                  <span className="text-xs text-muted">
+                    {e.expiry
+                      ? `${e.expired ? "Expired" : "Valid until"} ${fmtDate(e.expiry)}`
+                      : "No expiry"}
+                  </span>
+                </li>
+              );
+            })}
+          </ul>
+        )}
       </Section>
 
       {/* Notifications */}

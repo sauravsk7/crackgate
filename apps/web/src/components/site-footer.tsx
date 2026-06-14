@@ -14,7 +14,7 @@ export function SiteFooter() {
             </span>
           </div>
           <p className="text-sm mt-3 text-slate-400 max-w-xs">
-            India's dedicated GATE Mining Engineering (MN) test prep. 10 mocks, topic-wise practice, SWOT analytics.
+            India's dedicated GATE test prep. Full-length mocks, topic-wise practice, SWOT analytics.
           </p>
         </div>
         <FooterCol title="Practice">

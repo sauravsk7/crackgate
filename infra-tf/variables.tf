@@ -62,7 +62,7 @@ variable "domain" {
 variable "github_org" {
   description = "GitHub org/user owning the repo (for OIDC trust on the deploy role)"
   type        = string
-  default     = "ydvikasiitkgp-arch"
+  default     = "iamyadavvikas"
 }
 
 variable "github_repo" {

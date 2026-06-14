@@ -1,7 +1,8 @@
 "use client";
 
-import { useState } from "react";
+import { useMemo, useState } from "react";
 import { useRouter } from "next/navigation";
+import { CATALOG } from "@/data/catalog";
 
 const PLANS = [
   { value: "pro", label: "Pro · ₹499" },
@@ -12,6 +13,8 @@ type Result = {
   user: { email: string; name: string | null };
   plan: string;
   months: number;
+  exam: string;
+  subject: string;
   expiry: string;
 };
 
@@ -20,9 +23,23 @@ export default function GrantAccessForm() {
   const [identifier, setIdentifier] = useState("");
   const [plan, setPlan] = useState<"pro" | "premium">("pro");
   const [months, setMonths] = useState(18);
+  const [exam, setExam] = useState<string>(CATALOG[0].exam);
+  const subjects = useMemo(
+    () => CATALOG.find((e) => e.exam === exam)?.subjects ?? [],
+    [exam],
+  );
+  const [subject, setSubject] = useState<string>(CATALOG[0].subjects[0].slug);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [result, setResult] = useState<Result | null>(null);
+
+  const selectedSubject = subjects.find((s) => s.slug === subject);
+
+  function onExamChange(nextExam: string) {
+    setExam(nextExam);
+    const first = CATALOG.find((e) => e.exam === nextExam)?.subjects[0];
+    if (first) setSubject(first.slug);
+  }
 
   async function submit() {
     setError(null);
@@ -32,7 +49,13 @@ export default function GrantAccessForm() {
       const res = await fetch("/api/admin/grant", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ identifier: identifier.trim(), plan, months }),
+        body: JSON.stringify({
+          identifier: identifier.trim(),
+          plan,
+          months,
+          exam,
+          subject,
+        }),
       });
       const data = await res.json().catch(() => ({}));
       if (!res.ok) {
@@ -58,9 +81,51 @@ export default function GrantAccessForm() {
     <div className="card p-5">
       <h2 className="font-bold text-lg">Grant access manually</h2>
       <p className="text-sm text-muted mt-1">
-        Flip a plan for any account by email or phone — for off-platform
-        payments, comps or support fixes. The user must have signed in once.
+        Flip access for any account by email or phone — for off-platform
+        payments, comps or support fixes. Pick the exam &amp; subject the
+        access applies to. The user must have signed in once.
       </p>
+
+      {/* Exam + subject */}
+      <div className="grid sm:grid-cols-2 gap-3 mt-4">
+        <label className="block">
+          <span className="text-xs text-muted">Exam</span>
+          <select
+            value={exam}
+            onChange={(e) => onExamChange(e.target.value)}
+            className="input mt-1 w-full"
+          >
+            {CATALOG.map((e) => (
+              <option key={e.exam} value={e.exam}>
+                {e.label}
+              </option>
+            ))}
+          </select>
+        </label>
+        <label className="block">
+          <span className="text-xs text-muted">Subject</span>
+          <select
+            value={subject}
+            onChange={(e) => setSubject(e.target.value)}
+            className="input mt-1 w-full"
+          >
+            {subjects.map((s) => (
+              <option key={s.slug} value={s.slug}>
+                {s.label}
+                {s.live ? "" : " · soon"}
+              </option>
+            ))}
+          </select>
+        </label>
+      </div>
+
+      {selectedSubject && !selectedSubject.live && (
+        <p className="text-xs text-accent mt-2">
+          Heads up: <strong>{selectedSubject.label}</strong> isn’t live yet.
+          The entitlement will be recorded but content stays locked until the
+          track launches.
+        </p>
+      )}
 
       <div className="grid sm:grid-cols-[1fr_auto_auto_auto] gap-3 mt-4 items-end">
         <label className="block">
@@ -118,9 +183,9 @@ export default function GrantAccessForm() {
       {error && <p className="text-sm text-err mt-3">{error}</p>}
       {result && (
         <p className="text-sm text-ok mt-3">
-          ✓ Granted <strong>{result.plan}</strong> to{" "}
-          {result.user.name ?? result.user.email} for {result.months} months
-          (until {result.expiry}).
+          ✓ Granted <strong>{result.plan}</strong> ({result.exam} ·{" "}
+          {result.subject}) to {result.user.name ?? result.user.email} for{" "}
+          {result.months} months (until {result.expiry}).
         </p>
       )}
     </div>

@@ -3,6 +3,7 @@ import { getAdminSession } from "@/lib/admin";
 import { db } from "@/lib/db";
 import { NextResponse } from "next/server";
 import { sendPaymentReceipt } from "@/lib/whatsapp";
+import { DEFAULT_EXAM, DEFAULT_SUBJECT } from "@/data/catalog";
 
 export const runtime = "nodejs";
 
@@ -29,6 +30,12 @@ export async function POST(
   const expiry = new Date(now);
   expiry.setMonth(expiry.getMonth() + claim.periodMonths);
 
+  // Fall back to GATE/mining for legacy claims with no attribution.
+  const exam = claim.exam ?? DEFAULT_EXAM;
+  const subject = claim.subject ?? DEFAULT_SUBJECT;
+  // Only the live GATE Mining track drives the global User.plan.
+  const syncsGlobalPlan = exam === DEFAULT_EXAM && subject === DEFAULT_SUBJECT;
+
   // Synthetic Payment row keeps the admin/payments view + revenue math unified
   // with Razorpay captures. razorpayOrderId is namespaced "upi-<claim.id>" so
   // it can never collide with a real Razorpay order id.
@@ -41,9 +48,27 @@ export async function POST(
         reviewedAt: now,
       },
     }),
-    db.user.update({
-      where: { id: claim.userId },
-      data: { plan: claim.plan, planExpiry: expiry },
+    ...(syncsGlobalPlan
+      ? [
+          db.user.update({
+            where: { id: claim.userId },
+            data: { plan: claim.plan, planExpiry: expiry },
+          }),
+        ]
+      : []),
+    db.entitlement.upsert({
+      where: {
+        userId_exam_subject: { userId: claim.userId, exam, subject },
+      },
+      create: {
+        userId: claim.userId,
+        exam,
+        subject,
+        tier: claim.plan,
+        source: "upi",
+        expiry,
+      },
+      update: { tier: claim.plan, source: "upi", expiry },
     }),
     db.payment.create({
       data: {
@@ -53,6 +78,8 @@ export async function POST(
         amount: claim.amountPaise,
         currency: "INR",
         plan: claim.plan,
+        exam,
+        subject,
         periodMonths: claim.periodMonths,
         status: "captured",
         capturedAt: now,
@@ -62,6 +89,8 @@ export async function POST(
           payerPhone: claim.payerPhone,
           payerEmail: claim.payerEmail,
           upiApp: claim.upiApp,
+          exam,
+          subject,
           approvedBy: admin.email,
         },
       },
@@ -76,6 +105,8 @@ export async function POST(
           months: claim.periodMonths,
           amountPaise: claim.amountPaise,
           payerPhone: claim.payerPhone,
+          exam,
+          subject,
           approvedBy: admin.email,
         },
       },

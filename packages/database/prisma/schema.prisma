@@ -59,11 +59,34 @@ model User {
   activity      Activity[]
   payments      Payment[]
   upiPayments   UpiPayment[]
+  entitlements  Entitlement[]
   accounts      Account[]
   sessions      Session[]
 
   @@index([plan])
   @@index([createdAt])
+}
+
+// Per exam+subject access record. A user may hold several entitlements (e.g.
+// GATE Mining + a future PSU discipline). `tier` mirrors the Plan enum so the
+// same pro/premium semantics apply per track. The global User.plan is kept in
+// sync only for the currently-live GATE Mining track so existing gating keeps
+// working; broader gating off entitlements is a follow-up.
+model Entitlement {
+  id        String    @id @default(cuid())
+  userId    String
+  exam      String                      // ExamTrack code: GATE | PSU | STATE | DIPLOMA
+  subject   String                      // subject slug within the exam (e.g. "mining")
+  tier      Plan                        // pro | premium (free never stored)
+  source    String    @default("grant") // grant | upi | razorpay
+  expiry    DateTime?
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+
+  user      User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, exam, subject])
+  @@index([exam, subject])
 }
 
 model Attempt {
@@ -108,6 +131,8 @@ model Payment {
   amount           Int                       // in paise
   currency         String   @default("INR")
   plan             Plan
+  exam             String?                   // ExamTrack code attribution (e.g. "GATE")
+  subject          String?                   // subject slug attribution (e.g. "mining")
   periodMonths     Int      @default(1)
   status           String   @default("created") // created | captured | failed | refunded
   raw              Json?
@@ -127,6 +152,8 @@ model UpiPayment {
   id            String          @id @default(cuid())
   userId        String
   plan          Plan
+  exam          String?                          // ExamTrack code (e.g. "GATE")
+  subject       String?                          // subject slug (e.g. "mining")
   amountPaise   Int                              // 49900 = ₹499
   periodMonths  Int             @default(18)
   payerName     String?                          // full name the user paid with

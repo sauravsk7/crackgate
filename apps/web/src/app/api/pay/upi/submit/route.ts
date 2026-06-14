@@ -19,11 +19,19 @@ const Body = z.object({
   payerName: z.string().trim().min(2, "Please enter your full name").max(80),
   payerPhone: z.string().trim().min(10, "Enter a valid phone number").max(20),
   payerEmail: z.string().trim().email("Enter a valid email").max(120),
-  examName: z.enum(["GATE", "PSU", "State Level"]),
+  examName: z.enum(["GATE", "PSU", "State Level", "Diploma"]),
   subject: z.string().trim().min(2, "Please enter the subject").max(80),
   upiApp: z.enum(["PhonePe", "GPay", "Paytm", "BHIM", "Other"]).optional(),
   payerNote: z.string().trim().max(280).optional(),
 });
+
+// Map the user-facing exam label to a catalog ExamTrack code.
+const EXAM_CODE: Record<string, string> = {
+  GATE: "GATE",
+  PSU: "PSU",
+  "State Level": "STATE",
+  Diploma: "DIPLOMA",
+};
 
 export async function POST(req: Request) {
   const session = await auth();
@@ -106,6 +114,8 @@ export async function POST(req: Request) {
       data: {
         userId: session.user.id,
         plan,
+        exam: EXAM_CODE[examName] ?? examName,
+        subject,
         amountPaise: cfg.amountPaise,
         periodMonths: cfg.months,
         payerName,
