@@ -1267,7 +1267,7 @@ const ceFoundationEngg: LearnTopic = {
       "**Converse–Labarre efficiency**: $\\eta=1-\\dfrac{\\theta}{90}\\left[\\dfrac{(m-1)n+(n-1)m}{mn}\\right]$",
       "",
       "**Negative skin friction** acts **downward**, reducing net capacity.",
-    ],
+    ].join("\n"),
     traps: [
       "**Negative skin friction subtracts** from capacity — it is a load, not a resistance.",
       "**Group capacity is not simply $n\\times$ single-pile capacity** in clays — apply the group efficiency (or block failure check).",
