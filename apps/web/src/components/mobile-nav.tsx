@@ -16,6 +16,7 @@ const SECTIONS: Section[] = [
       { href: "/gate/mining", label: "Mining (MN)" },
       { href: "/gate/civil", label: "Civil (CE)" },
       { href: "/gate/geology", label: "Geology (GG)" },
+      { href: "/gate/environment", label: "Environment (ES)" },
     ],
   },
   {
@@ -219,11 +220,11 @@ const LIVE_SUBJECT_PREFIXES = ["/gate/civil", "/gate/geology", "/gate/environmen
 
 function isMiningSite(pathname: string | null): boolean {
   if (!pathname) return false;
-  // CIL (PSU) mocks live under /mocks/cil-* and CE mocks under /mocks/ce-mock-*;
-  // both use the shared runner but belong to their own track, so they keep the
-  // global header (PSU / subject nav) rather than the Mining header.
-  if (pathname.startsWith("/mocks/cil-")) return false;
-  if (pathname.startsWith("/mocks/ce-mock-")) return false;
+  // Mocks for non-Mining tracks use the shared runner but belong to their own
+  // track, so they keep the global header (PSU / subject nav) rather than the
+  // Mining header. Only Mining mocks (/mocks/mn-*) are part of the Mining
+  // mini-site. Exclude every other known mock-id prefix here.
+  if (/^\/mocks\/(cil-|ce-mock-|gg-mock-|es-mock-|state-|diploma-)/.test(pathname)) return false;
   return MINING_SITE_PREFIXES.some((p) => pathname === p || pathname.startsWith(p + "/"));
 }
 

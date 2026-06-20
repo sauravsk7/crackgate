@@ -15,6 +15,7 @@
   --line-rgb:    226 232 240;  /* slate-200 */
   --surface-rgb: 255 255 255;  /* white     */
   --bg-rgb:      248 250 252;  /* slate-50  */
+  --paper-rgb:   241 245 249;  /* slate-100 — faint section band */
 
   /* Legacy aliases (existing components reference these) */
   --ink:     rgb(var(--ink-rgb));
@@ -29,6 +30,7 @@
   --line-rgb:    51 65 85;     /* slate-700  */
   --surface-rgb: 30 41 59;     /* slate-800  */
   --bg-rgb:      15 23 42;     /* slate-900  */
+  --paper-rgb:   30 41 59;     /* slate-800 — faint section band */
 
   --ok:      #4ade80;
   --bad:     #f87171;

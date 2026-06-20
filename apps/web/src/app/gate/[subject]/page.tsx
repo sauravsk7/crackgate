@@ -76,11 +76,11 @@ export default async function GateSubjectHome(props: { params: Promise<{ subject
                 Practice questions
               </Link>
             </div>
-            <div className="mt-8 flex flex-wrap gap-x-8 gap-y-3 text-sm text-white/80">
-              <span><b className="text-white text-lg">{practiceQs}+</b> practice questions</span>
-              <span><b className="text-white text-lg">{mocksCount}</b> full-length mocks</span>
-              <span><b className="text-white text-lg">{learnCount}</b> learn modules</span>
-              <span><b className="text-white text-lg">{aitsCount}</b> AITS tests</span>
+            <div className="mt-9 flex flex-wrap gap-2.5">
+              <HeroStat n={`${practiceQs}+`} label="practice Qs" />
+              <HeroStat n={`${mocksCount}`} label="full-length mocks" />
+              <HeroStat n={`${learnCount}`} label="learn modules" />
+              <HeroStat n={`${aitsCount}`} label="AITS tests" />
             </div>
           </div>
         </section>
@@ -191,7 +191,7 @@ export default async function GateSubjectHome(props: { params: Promise<{ subject
       </section>
 
       {/* CTA */}
-      <section className="bg-slate-900 text-white">
+      <section className="bg-gradient-to-br from-slate-900 via-slate-900 to-slate-800 text-white">
         <div className="max-w-3xl mx-auto px-5 py-16 text-center">
           <h2 className="text-3xl font-extrabold">Start your free mock now.</h2>
           <p className="mt-3 text-slate-300">No credit card. Takes 5 seconds with Google.</p>
@@ -204,10 +204,20 @@ export default async function GateSubjectHome(props: { params: Promise<{ subject
 
 function Feature({ icon, title, desc }: { icon: string; title: string; desc: string }) {
   return (
-    <div className="card p-6">
-      <div className="text-3xl">{icon}</div>
-      <h3 className="mt-3 font-bold">{title}</h3>
-      <p className="mt-2 text-sm text-muted">{desc}</p>
+    <div className="card group p-6 transition-all duration-200 hover:-translate-y-1 hover:shadow-lg">
+      <div className="w-12 h-12 rounded-xl grid place-items-center bg-brand/10 text-2xl transition-transform duration-200 group-hover:scale-110">
+        {icon}
+      </div>
+      <h3 className="mt-4 font-bold text-ink">{title}</h3>
+      <p className="mt-2 text-sm text-muted leading-relaxed">{desc}</p>
     </div>
+  );
+}
+
+function HeroStat({ n, label }: { n: string; label: string }) {
+  return (
+    <span className="inline-flex items-baseline gap-1.5 rounded-lg border border-white/15 bg-white/5 px-3.5 py-2 text-sm text-white/70">
+      <b className="text-base font-extrabold text-white">{n}</b> {label}
+    </span>
   );
 }

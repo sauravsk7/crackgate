@@ -29,15 +29,15 @@ const GATE_BRANCHES: Branch[] = [
     code: "GG",
     discipline: "Geology (GG)",
     href: "/gate/geology",
-    blurb: "GATE Geology & Geophysics prep is on its way — built to the same exam-grade standard.",
-    live: false,
+    blurb: "Full GATE Geology & Geophysics prep — Learn, topic-wise practice, full-length mocks and AITS, built to exam-grade standard.",
+    live: true,
   },
   {
     code: "ES",
     discipline: "Environment (ES)",
     href: "/gate/environment",
-    blurb: "GATE Environmental Science & Engineering prep is on its way — same Learn, Practice, Mocks and AITS experience.",
-    live: false,
+    blurb: "Full GATE Environmental Science & Engineering prep — Learn, Practice, Mocks and AITS, built to exam-grade standard.",
+    live: true,
   },
 ];
 
