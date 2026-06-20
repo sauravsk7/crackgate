@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { MOCKS } from "@/data/mocks";
 import { PRACTICE } from "@/data/practice";
+import { getGateSubject } from "@/data/gate/registry";
 import { WhatsAppButton } from "@/components/whatsapp-button";
 import { HeroCarousel } from "@/components/hero-carousel";
 import { CilAdBanner } from "@/components/cil-ad-banner";
@@ -10,10 +11,23 @@ export default function HomePage() {
   const subjectsCount = PRACTICE.length;
   const mocksCount = MOCKS.length;
 
+  const civil = getGateSubject("civil");
+  const civilStats = {
+    practiceQs: civil?.practice.reduce((s, sub) => s + sub.questions.length, 0) ?? 0,
+    mocksCount: civil?.mocks.length ?? 0,
+    learnCount: civil?.learnTopics.length ?? 0,
+    subjectsCount: civil?.practice.length ?? 0,
+  };
+
   return (
     <>
-      {/* ---------- HERO (dual-window carousel) ---------- */}
-      <HeroCarousel practiceQs={practiceQs} mocksCount={mocksCount} subjectsCount={subjectsCount} />
+      {/* ---------- HERO (multi-window carousel) ---------- */}
+      <HeroCarousel
+        practiceQs={practiceQs}
+        mocksCount={mocksCount}
+        subjectsCount={subjectsCount}
+        civil={civilStats}
+      />
 
       {/* ---------- CIL recruitment ad ---------- */}
       <div className="pt-10">

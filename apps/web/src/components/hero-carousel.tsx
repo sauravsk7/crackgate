@@ -5,16 +5,25 @@ import Link from "next/link";
 import { AnimatePresence, motion, useReducedMotion } from "framer-motion";
 import { CIL_ROWS, CIL_TOTAL_SEATS } from "@/data/cil";
 
+type CivilStats = {
+  practiceQs: number;
+  mocksCount: number;
+  learnCount: number;
+  subjectsCount: number;
+};
+
 type Props = {
   practiceQs: number;
   mocksCount: number;
   subjectsCount: number;
+  civil: CivilStats;
 };
 
+const SLIDES = 3;
 const AUTOPLAY_MS = 3000;
 const EASE = [0.16, 1, 0.3, 1] as const;
 
-export function HeroCarousel({ practiceQs, mocksCount, subjectsCount }: Props) {
+export function HeroCarousel({ practiceQs, mocksCount, subjectsCount, civil }: Props) {
   const [[active, direction], setState] = useState<[number, number]>([0, 0]);
   const [paused, setPaused] = useState(false);
   const reduceMotion = useReducedMotion();
@@ -22,19 +31,19 @@ export function HeroCarousel({ practiceQs, mocksCount, subjectsCount }: Props) {
 
   const go = useCallback((next: number) => {
     setState(([cur]) => {
-      const target = (next + 2) % 2;
-      return [target, target > cur || (cur === 1 && target === 0) ? 1 : -1];
+      const target = ((next % SLIDES) + SLIDES) % SLIDES;
+      return [target, target >= cur ? 1 : -1];
     });
   }, []);
 
   const goRel = useCallback((delta: number) => {
-    setState(([cur]) => [(cur + delta + 2) % 2, delta]);
+    setState(([cur]) => [((cur + delta) % SLIDES + SLIDES) % SLIDES, delta]);
   }, []);
 
   useEffect(() => {
     if (paused || reduceMotion) return;
     timer.current = setInterval(() => {
-      setState(([cur]) => [(cur + 1) % 2, 1]);
+      setState(([cur]) => [(cur + 1) % SLIDES, 1]);
     }, AUTOPLAY_MS);
     return () => {
       if (timer.current) clearInterval(timer.current);
@@ -46,6 +55,13 @@ export function HeroCarousel({ practiceQs, mocksCount, subjectsCount }: Props) {
     center: { x: 0, opacity: 1 },
     exit: (dir: number) => ({ x: reduceMotion ? 0 : dir > 0 ? "-100%" : "100%", opacity: reduceMotion ? 0 : 1 }),
   };
+
+  const slideLabel =
+    active === 0
+      ? "GATE MN 2027 — Mining Engineering"
+      : active === 1
+        ? "GATE CE 2027 — Civil Engineering"
+        : "PSU recruitment — Coal India Limited";
 
   return (
     <section
@@ -69,10 +85,12 @@ export function HeroCarousel({ practiceQs, mocksCount, subjectsCount }: Props) {
             transition={{ duration: reduceMotion ? 0.3 : 0.8, ease: EASE }}
             className="absolute inset-0"
             aria-roledescription="slide"
-            aria-label={active === 0 ? "GATE MN 2027 — Academic track" : "PSU recruitment — Coal India Limited"}
+            aria-label={slideLabel}
           >
             {active === 0 ? (
               <GateWindow practiceQs={practiceQs} mocksCount={mocksCount} subjectsCount={subjectsCount} />
+            ) : active === 1 ? (
+              <CivilWindow civil={civil} />
             ) : (
               <PsuWindow />
             )}
@@ -100,7 +118,7 @@ export function HeroCarousel({ practiceQs, mocksCount, subjectsCount }: Props) {
 
       {/* Indicators */}
       <div className="absolute bottom-5 left-1/2 z-20 flex -translate-x-1/2 items-center gap-2">
-        {[0, 1].map((i) => (
+        {Array.from({ length: SLIDES }).map((_, i) => (
           <button
             key={i}
             type="button"
@@ -119,7 +137,15 @@ export function HeroCarousel({ practiceQs, mocksCount, subjectsCount }: Props) {
 
 /* ───────────────────────── WINDOW 1 — GATE MN ───────────────────────── */
 
-export function GateWindow({ practiceQs, mocksCount, subjectsCount }: Props) {
+export function GateWindow({
+  practiceQs,
+  mocksCount,
+  subjectsCount,
+}: {
+  practiceQs: number;
+  mocksCount: number;
+  subjectsCount: number;
+}) {
   return (
     <div className="relative h-full w-full">
       <IitBackdrop />
@@ -159,7 +185,53 @@ export function GateWindow({ practiceQs, mocksCount, subjectsCount }: Props) {
   );
 }
 
-/* ───────────────────────── WINDOW 2 — PSU / CIL ───────────────────────── */
+/* ───────────────────────── WINDOW 2 — GATE CE (Civil) ───────────────────────── */
+
+export function CivilWindow({ civil }: { civil: CivilStats }) {
+  return (
+    <div className="relative h-full w-full">
+      <CivilBackdrop />
+      <div className="absolute inset-0 bg-gradient-to-r from-slate-900 via-transparent to-emerald-950/70" />
+      <div className="relative mx-auto grid h-full max-w-7xl items-center gap-10 px-5 py-16 lg:grid-cols-2 lg:py-20">
+        <div>
+          <span className="badge border border-emerald-300/30 bg-emerald-300/10 text-emerald-300">
+            GATE 2027 · Civil Engineering (CE) · NEW
+          </span>
+          <h1 className="mt-4 text-4xl font-extrabold leading-tight lg:text-6xl">
+            Build Your GATE CE Rank.{" "}
+            <span className="bg-gradient-to-r from-emerald-300 to-teal-400 bg-clip-text text-transparent">
+              Engineered to the Last Decimal.
+            </span>
+          </h1>
+          <p className="mt-5 max-w-xl text-lg text-white/80">
+            The complete Civil track — Structural, Geotech, Water Resources, Environmental, Transportation,
+            Geomatics &amp; Maths. Concept modules, an exam-grade question bank and full-length mocks, tuned a
+            notch tougher than the real paper.
+          </p>
+          <div className="mt-8 flex flex-wrap gap-3">
+            <Link href="/gate/civil" className="cg-ripple inline-flex items-center gap-2 rounded-lg bg-gradient-to-r from-emerald-400 to-teal-500 px-6 py-3.5 text-base font-semibold text-slate-900 shadow-lg shadow-emerald-500/20 transition hover:brightness-105">
+              Explore GATE CE Track <span aria-hidden>→</span>
+            </Link>
+            <Link href="/gate/civil/learn" className="inline-flex items-center gap-2 rounded-lg border border-emerald-300/40 bg-emerald-300/5 px-6 py-3.5 text-base font-semibold text-emerald-200 transition hover:bg-emerald-300/15">
+              Learn &amp; Solve
+            </Link>
+          </div>
+          <div className="mt-8 flex flex-wrap gap-6 text-sm text-white/70">
+            <Stat n={`${civil.practiceQs}+`} label="Practice Questions" />
+            <Stat n={`${civil.learnCount}`} label="Learn Modules" />
+            <Stat n={`${civil.mocksCount}`} label="Full-length Mocks" />
+            <Stat n={`${civil.subjectsCount}`} label="Subjects" />
+          </div>
+        </div>
+        <div className="hidden lg:flex lg:justify-center">
+          <CivilScene />
+        </div>
+      </div>
+    </div>
+  );
+}
+
+/* ───────────────────────── WINDOW 3 — PSU / CIL ───────────────────────── */
 
 export function PsuWindow() {
   return (
@@ -378,6 +450,151 @@ function Holo({ children }: { children: React.ReactNode }) {
   return (
     <div className="rounded-xl border border-white/20 bg-white/10 p-2 shadow-lg backdrop-blur-md">
       {children}
+    </div>
+  );
+}
+
+/* Cable-stayed bridge + skyline line art for the GATE CE window */
+function CivilBackdrop() {
+  return (
+    <div className="absolute inset-0 overflow-hidden">
+      <svg className="absolute inset-0 h-full w-full opacity-[0.13]" viewBox="0 0 800 600" preserveAspectRatio="xMidYMid slice" fill="none" stroke="#6ee7b7" strokeWidth="2" aria-hidden>
+        {/* deck */}
+        <line x1="0" y1="430" x2="800" y2="430" />
+        <line x1="0" y1="446" x2="800" y2="446" />
+        {/* pylons */}
+        <line x1="280" y1="430" x2="280" y2="150" />
+        <line x1="520" y1="430" x2="520" y2="150" />
+        {/* cables */}
+        {Array.from({ length: 6 }).map((_, i) => (
+          <line key={`l${i}`} x1="280" y1="150" x2={280 - (i + 1) * 38} y2="430" />
+        ))}
+        {Array.from({ length: 6 }).map((_, i) => (
+          <line key={`r${i}`} x1="280" y1="150" x2={280 + (i + 1) * 38} y2="430" />
+        ))}
+        {Array.from({ length: 6 }).map((_, i) => (
+          <line key={`l2${i}`} x1="520" y1="150" x2={520 - (i + 1) * 38} y2="430" />
+        ))}
+        {Array.from({ length: 6 }).map((_, i) => (
+          <line key={`r2${i}`} x1="520" y1="150" x2={520 + (i + 1) * 38} y2="430" />
+        ))}
+        {/* piers */}
+        <line x1="180" y1="446" x2="180" y2="560" />
+        <line x1="400" y1="446" x2="400" y2="560" />
+        <line x1="620" y1="446" x2="620" y2="560" />
+        {/* skyline */}
+        <rect x="40" y="320" width="60" height="110" />
+        <rect x="700" y="290" width="60" height="140" />
+        <rect x="110" y="360" width="40" height="70" />
+      </svg>
+    </div>
+  );
+}
+
+/* Animated Civil-engineering scene — truss bridge + floating holos */
+function CivilScene() {
+  const float = (delay: number) => ({
+    animate: { y: [0, -10, 0] },
+    transition: { duration: 3.2, repeat: Infinity, ease: "easeInOut" as const, delay },
+  });
+  return (
+    <div className="relative h-[360px] w-[360px]">
+      {/* glow */}
+      <div className="absolute inset-0 rounded-full bg-emerald-400/10 blur-3xl" />
+
+      {/* central truss bridge card */}
+      <motion.div
+        initial={{ y: 0 }}
+        animate={{ y: [0, -6, 0] }}
+        transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
+        className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2"
+      >
+        <svg width="240" height="180" viewBox="0 0 240 180" fill="none" aria-hidden>
+          {/* deck */}
+          <rect x="20" y="120" width="200" height="12" rx="3" fill="#0ea5e9" />
+          {/* truss top chord */}
+          <line x1="30" y1="120" x2="70" y2="70" stroke="#34d399" strokeWidth="4" strokeLinecap="round" />
+          <line x1="70" y1="70" x2="170" y2="70" stroke="#34d399" strokeWidth="4" strokeLinecap="round" />
+          <line x1="170" y1="70" x2="210" y2="120" stroke="#34d399" strokeWidth="4" strokeLinecap="round" />
+          {/* diagonals */}
+          <line x1="70" y1="70" x2="95" y2="120" stroke="#6ee7b7" strokeWidth="3" />
+          <line x1="120" y1="70" x2="95" y2="120" stroke="#6ee7b7" strokeWidth="3" />
+          <line x1="120" y1="70" x2="145" y2="120" stroke="#6ee7b7" strokeWidth="3" />
+          <line x1="170" y1="70" x2="145" y2="120" stroke="#6ee7b7" strokeWidth="3" />
+          <line x1="70" y1="70" x2="70" y2="120" stroke="#6ee7b7" strokeWidth="3" />
+          <line x1="120" y1="70" x2="120" y2="120" stroke="#6ee7b7" strokeWidth="3" />
+          <line x1="170" y1="70" x2="170" y2="120" stroke="#6ee7b7" strokeWidth="3" />
+          {/* nodes */}
+          {[[70, 70], [120, 70], [170, 70], [70, 120], [95, 120], [120, 120], [145, 120], [170, 120]].map(([x, y], i) => (
+            <circle key={i} cx={x} cy={y} r="4" fill="#bbf7d0" />
+          ))}
+          {/* piers */}
+          <rect x="36" y="132" width="14" height="40" rx="3" fill="#1e293b" />
+          <rect x="190" y="132" width="14" height="40" rx="3" fill="#1e293b" />
+        </svg>
+      </motion.div>
+
+      {/* floating load arrow (UDL) */}
+      <motion.div {...float(0)} className="absolute left-1 top-4">
+        <Holo>
+          <svg width="44" height="40" viewBox="0 0 44 40" aria-hidden fill="none" stroke="#34d399" strokeWidth="2" strokeLinecap="round">
+            <line x1="6" y1="6" x2="38" y2="6" />
+            {[10, 22, 34].map((x) => (
+              <g key={x}>
+                <line x1={x} y1="8" x2={x} y2="28" />
+                <polyline points={`${x - 4},22 ${x},28 ${x + 4},22`} />
+              </g>
+            ))}
+          </svg>
+        </Holo>
+      </motion.div>
+
+      {/* floating bending-moment curve */}
+      <motion.div {...float(0.8)} className="absolute right-1 top-10">
+        <Holo>
+          <svg width="46" height="40" viewBox="0 0 46 40" aria-hidden fill="none" stroke="#5eead4" strokeWidth="2">
+            <line x1="4" y1="10" x2="42" y2="10" />
+            <path d="M4 10 Q23 44 42 10" stroke="#2dd4bf" strokeWidth="2.5" fill="none" />
+            <line x1="23" y1="10" x2="23" y2="32" strokeDasharray="3 3" />
+          </svg>
+        </Holo>
+      </motion.div>
+
+      {/* floating theodolite / total station */}
+      <motion.div {...float(1.6)} className="absolute bottom-2 left-8">
+        <Holo>
+          <svg width="42" height="42" viewBox="0 0 42 42" aria-hidden fill="none" stroke="#6ee7b7" strokeWidth="2" strokeLinecap="round">
+            <line x1="8" y1="38" x2="21" y2="20" />
+            <line x1="34" y1="38" x2="21" y2="20" />
+            <line x1="21" y1="38" x2="21" y2="20" />
+            <rect x="13" y="10" width="16" height="11" rx="2" />
+            <line x1="29" y1="15" x2="38" y2="15" />
+            <circle cx="21" cy="8" r="2.5" fill="#6ee7b7" stroke="none" />
+          </svg>
+        </Holo>
+      </motion.div>
+
+      {/* floating spinning gear (construction mgmt) */}
+      <motion.div {...float(1.2)} className="absolute bottom-6 right-6">
+        <Holo>
+          <motion.svg
+            width="40" height="40" viewBox="0 0 40 40" aria-hidden
+            animate={{ rotate: 360 }}
+            transition={{ duration: 8, repeat: Infinity, ease: "linear" }}
+            fill="none" stroke="#34d399" strokeWidth="2"
+          >
+            <circle cx="20" cy="20" r="7" />
+            {Array.from({ length: 8 }).map((_, i) => {
+              const a = (i * Math.PI) / 4;
+              const x1 = 20 + Math.cos(a) * 11;
+              const y1 = 20 + Math.sin(a) * 11;
+              const x2 = 20 + Math.cos(a) * 16;
+              const y2 = 20 + Math.sin(a) * 16;
+              return <line key={i} x1={x1} y1={y1} x2={x2} y2={y2} strokeLinecap="round" />;
+            })}
+          </motion.svg>
+        </Holo>
+      </motion.div>
     </div>
   );
 }
