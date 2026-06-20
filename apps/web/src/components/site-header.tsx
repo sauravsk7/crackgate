@@ -66,6 +66,9 @@ export async function MiningHeader() {
     <header className="sticky top-0 z-40 bg-surface/85 backdrop-blur-md border-b border-line">
       <nav className="max-w-7xl mx-auto px-4 sm:px-5 h-16 flex items-center gap-3 sm:gap-6">
         <BrandLockup href="/" />
+        <span className="hidden sm:inline-flex badge border border-brand/30 bg-brand/10 text-brand text-xs font-semibold">
+          MN
+        </span>
         <div className="hidden md:flex items-center gap-1">
           {MINING_MODULES.map((m) => (
             <Link
@@ -100,6 +103,9 @@ export async function MiningHeader() {
       {/* mobile module strip */}
       <div className="md:hidden border-t border-line">
         <nav className="flex items-center gap-2 overflow-x-auto no-scrollbar px-3 py-2">
+          <span className="shrink-0 rounded-full px-3 py-1.5 text-xs font-semibold whitespace-nowrap bg-brand/10 text-brand">
+            Mining (MN)
+          </span>
           {MINING_MODULES.map((m) => (
             <Link
               key={m.href}
