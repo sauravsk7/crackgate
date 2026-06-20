@@ -87,6 +87,22 @@ import entSet13 from "./questions/cil/e-and-t/cil-e-and-t-13.json";
 import entSet14 from "./questions/cil/e-and-t/cil-e-and-t-14.json";
 import entSet15 from "./questions/cil/e-and-t/cil-e-and-t-15.json";
 
+import geologySet01 from "./questions/cil/geology/cil-geology-01.json";
+import geologySet02 from "./questions/cil/geology/cil-geology-02.json";
+import geologySet03 from "./questions/cil/geology/cil-geology-03.json";
+import geologySet04 from "./questions/cil/geology/cil-geology-04.json";
+import geologySet05 from "./questions/cil/geology/cil-geology-05.json";
+import geologySet06 from "./questions/cil/geology/cil-geology-06.json";
+import geologySet07 from "./questions/cil/geology/cil-geology-07.json";
+import geologySet08 from "./questions/cil/geology/cil-geology-08.json";
+import geologySet09 from "./questions/cil/geology/cil-geology-09.json";
+import geologySet10 from "./questions/cil/geology/cil-geology-10.json";
+import geologySet11 from "./questions/cil/geology/cil-geology-11.json";
+import geologySet12 from "./questions/cil/geology/cil-geology-12.json";
+import geologySet13 from "./questions/cil/geology/cil-geology-13.json";
+import geologySet14 from "./questions/cil/geology/cil-geology-14.json";
+import geologySet15 from "./questions/cil/geology/cil-geology-15.json";
+
 export type CilSet = {
   /** Stable mock id, e.g. "cil-civil-01". Drives the runner route /mocks/<id>. */
   id: string;
@@ -181,6 +197,21 @@ const CIL_SETS: CilSet[] = [
   entSet13 as unknown as CilSet,
   entSet14 as unknown as CilSet,
   entSet15 as unknown as CilSet,
+  geologySet01 as unknown as CilSet,
+  geologySet02 as unknown as CilSet,
+  geologySet03 as unknown as CilSet,
+  geologySet04 as unknown as CilSet,
+  geologySet05 as unknown as CilSet,
+  geologySet06 as unknown as CilSet,
+  geologySet07 as unknown as CilSet,
+  geologySet08 as unknown as CilSet,
+  geologySet09 as unknown as CilSet,
+  geologySet10 as unknown as CilSet,
+  geologySet11 as unknown as CilSet,
+  geologySet12 as unknown as CilSet,
+  geologySet13 as unknown as CilSet,
+  geologySet14 as unknown as CilSet,
+  geologySet15 as unknown as CilSet,
 ];
 
 export const CIL_MOCK_BANK: ReadonlyMap<string, CilSet> = new Map(
