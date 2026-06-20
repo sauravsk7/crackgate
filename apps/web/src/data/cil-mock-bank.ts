@@ -71,6 +71,22 @@ import systemSet13 from "./questions/cil/system/cil-system-13.json";
 import systemSet14 from "./questions/cil/system/cil-system-14.json";
 import systemSet15 from "./questions/cil/system/cil-system-15.json";
 
+import entSet01 from "./questions/cil/e-and-t/cil-e-and-t-01.json";
+import entSet02 from "./questions/cil/e-and-t/cil-e-and-t-02.json";
+import entSet03 from "./questions/cil/e-and-t/cil-e-and-t-03.json";
+import entSet04 from "./questions/cil/e-and-t/cil-e-and-t-04.json";
+import entSet05 from "./questions/cil/e-and-t/cil-e-and-t-05.json";
+import entSet06 from "./questions/cil/e-and-t/cil-e-and-t-06.json";
+import entSet07 from "./questions/cil/e-and-t/cil-e-and-t-07.json";
+import entSet08 from "./questions/cil/e-and-t/cil-e-and-t-08.json";
+import entSet09 from "./questions/cil/e-and-t/cil-e-and-t-09.json";
+import entSet10 from "./questions/cil/e-and-t/cil-e-and-t-10.json";
+import entSet11 from "./questions/cil/e-and-t/cil-e-and-t-11.json";
+import entSet12 from "./questions/cil/e-and-t/cil-e-and-t-12.json";
+import entSet13 from "./questions/cil/e-and-t/cil-e-and-t-13.json";
+import entSet14 from "./questions/cil/e-and-t/cil-e-and-t-14.json";
+import entSet15 from "./questions/cil/e-and-t/cil-e-and-t-15.json";
+
 export type CilSet = {
   /** Stable mock id, e.g. "cil-civil-01". Drives the runner route /mocks/<id>. */
   id: string;
@@ -150,6 +166,21 @@ const CIL_SETS: CilSet[] = [
   systemSet13 as unknown as CilSet,
   systemSet14 as unknown as CilSet,
   systemSet15 as unknown as CilSet,
+  entSet01 as unknown as CilSet,
+  entSet02 as unknown as CilSet,
+  entSet03 as unknown as CilSet,
+  entSet04 as unknown as CilSet,
+  entSet05 as unknown as CilSet,
+  entSet06 as unknown as CilSet,
+  entSet07 as unknown as CilSet,
+  entSet08 as unknown as CilSet,
+  entSet09 as unknown as CilSet,
+  entSet10 as unknown as CilSet,
+  entSet11 as unknown as CilSet,
+  entSet12 as unknown as CilSet,
+  entSet13 as unknown as CilSet,
+  entSet14 as unknown as CilSet,
+  entSet15 as unknown as CilSet,
 ];
 
 export const CIL_MOCK_BANK: ReadonlyMap<string, CilSet> = new Map(
