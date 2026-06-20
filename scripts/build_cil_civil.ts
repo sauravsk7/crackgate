@@ -26,6 +26,7 @@
  */
 import { writeFileSync, mkdirSync, readFileSync } from "node:fs";
 import { resolve, dirname } from "node:path";
+import { fileURLToPath } from "node:url";
 
 // ─── CLI ─────────────────────────────────────────────────────────────────────
 const args = new Map(
@@ -2675,39 +2676,74 @@ function rebalanceSet1() {
   console.log(`✓ cil-civil-01.json rebalanced — easy ${c.easy} / medium ${c.medium} / hard ${c.hard}`);
 }
 
+// ---- Shared exports (consumed by scripts/cil/core.ts + per-discipline files) -
+// build_cil_civil.ts doubles as the shared Paper-I core: every other CIL
+// discipline reuses the identical General Awareness / Numerical / Reasoning /
+// English generators, helpers and validation, and supplies only its own
+// Paper-II (Professional Knowledge) bank.
+export {
+  rng,
+  mcqFrom,
+  r2,
+  r1,
+  pick,
+  intIn,
+  solveBlock,
+  shuffleInPlace,
+  fillSpecs,
+  rotateSlice,
+  drawDistinct,
+  SUBJ,
+  attachMeta,
+  validate,
+  genNumerical,
+  genReasoning,
+  genGeneralAwareness,
+  genGeneralEnglish,
+};
+export type { Difficulty, Figure, Q, FactQ, NumGen, ReasGen, SpecGen };
+
 // ---- Run -------------------------------------------------------------------
-if (SET1) {
-  rebalanceSet1();
-  process.exit(process.exitCode ?? 0);
-}
+// Side-effecting generation runs only when this file is invoked directly
+// (`npx tsx scripts/build_cil_civil.ts`), never when imported as the shared core.
+const isMain =
+  import.meta.url.startsWith("file:") &&
+  process.argv[1] === fileURLToPath(import.meta.url);
 
-const targets = ONLY.length ? ONLY : Array.from({ length: TO - FROM + 1 }, (_, i) => FROM + i);
-const outDir = resolve(
-  process.cwd(),
-  "apps/web/src/data/questions/cil/civil",
-);
-mkdirSync(outDir, { recursive: true });
-
-let failed = false;
-for (const n of targets) {
-  if (n < 2 || n > 15) {
-    console.warn(`skip set ${n}: only sets 2–15 are generated (set 1 is hand-authored)`);
-    continue;
+if (isMain) {
+  if (SET1) {
+    rebalanceSet1();
+    process.exit(process.exitCode ?? 0);
   }
-  const set = buildSet(n);
-  const errs = validate(set);
-  if (errs.length) {
-    failed = true;
-    console.error(`✗ Set ${n} FAILED validation:`);
-    errs.forEach((e) => console.error(`   - ${e}`));
-    continue;
-  }
-  const file = resolve(outDir, `${set.id}.json`);
-  mkdirSync(dirname(file), { recursive: true });
-  writeFileSync(file, `${JSON.stringify(set, null, 2)}\n`, "utf8");
-  console.log(`✓ ${set.id}.json — 200 Q (25/25/25/25/100)`);
-}
 
-if (failed) {
-  process.exitCode = 1;
+  const targets = ONLY.length ? ONLY : Array.from({ length: TO - FROM + 1 }, (_, i) => FROM + i);
+  const outDir = resolve(
+    process.cwd(),
+    "apps/web/src/data/questions/cil/civil",
+  );
+  mkdirSync(outDir, { recursive: true });
+
+  let failed = false;
+  for (const n of targets) {
+    if (n < 2 || n > 15) {
+      console.warn(`skip set ${n}: only sets 2–15 are generated (set 1 is hand-authored)`);
+      continue;
+    }
+    const set = buildSet(n);
+    const errs = validate(set);
+    if (errs.length) {
+      failed = true;
+      console.error(`✗ Set ${n} FAILED validation:`);
+      errs.forEach((e) => console.error(`   - ${e}`));
+      continue;
+    }
+    const file = resolve(outDir, `${set.id}.json`);
+    mkdirSync(dirname(file), { recursive: true });
+    writeFileSync(file, `${JSON.stringify(set, null, 2)}\n`, "utf8");
+    console.log(`✓ ${set.id}.json — 200 Q (25/25/25/25/100)`);
+  }
+
+  if (failed) {
+    process.exitCode = 1;
+  }
 }

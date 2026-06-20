@@ -23,6 +23,22 @@ import civilSet13 from "./questions/cil/civil/cil-civil-13.json";
 import civilSet14 from "./questions/cil/civil/cil-civil-14.json";
 import civilSet15 from "./questions/cil/civil/cil-civil-15.json";
 
+import electricalSet01 from "./questions/cil/electrical/cil-electrical-01.json";
+import electricalSet02 from "./questions/cil/electrical/cil-electrical-02.json";
+import electricalSet03 from "./questions/cil/electrical/cil-electrical-03.json";
+import electricalSet04 from "./questions/cil/electrical/cil-electrical-04.json";
+import electricalSet05 from "./questions/cil/electrical/cil-electrical-05.json";
+import electricalSet06 from "./questions/cil/electrical/cil-electrical-06.json";
+import electricalSet07 from "./questions/cil/electrical/cil-electrical-07.json";
+import electricalSet08 from "./questions/cil/electrical/cil-electrical-08.json";
+import electricalSet09 from "./questions/cil/electrical/cil-electrical-09.json";
+import electricalSet10 from "./questions/cil/electrical/cil-electrical-10.json";
+import electricalSet11 from "./questions/cil/electrical/cil-electrical-11.json";
+import electricalSet12 from "./questions/cil/electrical/cil-electrical-12.json";
+import electricalSet13 from "./questions/cil/electrical/cil-electrical-13.json";
+import electricalSet14 from "./questions/cil/electrical/cil-electrical-14.json";
+import electricalSet15 from "./questions/cil/electrical/cil-electrical-15.json";
+
 export type CilSet = {
   /** Stable mock id, e.g. "cil-civil-01". Drives the runner route /mocks/<id>. */
   id: string;
@@ -57,6 +73,21 @@ const CIL_SETS: CilSet[] = [
   civilSet13 as unknown as CilSet,
   civilSet14 as unknown as CilSet,
   civilSet15 as unknown as CilSet,
+  electricalSet01 as unknown as CilSet,
+  electricalSet02 as unknown as CilSet,
+  electricalSet03 as unknown as CilSet,
+  electricalSet04 as unknown as CilSet,
+  electricalSet05 as unknown as CilSet,
+  electricalSet06 as unknown as CilSet,
+  electricalSet07 as unknown as CilSet,
+  electricalSet08 as unknown as CilSet,
+  electricalSet09 as unknown as CilSet,
+  electricalSet10 as unknown as CilSet,
+  electricalSet11 as unknown as CilSet,
+  electricalSet12 as unknown as CilSet,
+  electricalSet13 as unknown as CilSet,
+  electricalSet14 as unknown as CilSet,
+  electricalSet15 as unknown as CilSet,
 ];
 
 export const CIL_MOCK_BANK: ReadonlyMap<string, CilSet> = new Map(
