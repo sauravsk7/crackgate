@@ -37,6 +37,9 @@ export default async function GateSubjectHome(props: { params: Promise<{ subject
   const mocksCount = meta.mocks.length;
   const learnCount = meta.learnTopics.length;
   const aitsCount = meta.aits.length;
+  const syllabus = meta.getLearnSyllabus();
+  const totalSubtopics = syllabus.reduce((s, sec) => s + sec.subtopics.length, 0);
+  const liveSubtopics = syllabus.reduce((s, sec) => s + sec.liveCount, 0);
 
   const modules = [
     { href: `/gate/${subject}/learn`, icon: "📚", title: "Learn & Solve", desc: `${learnCount} topic-wise modules with formula matrices, traps and worked 3-tier question suites.` },
@@ -99,6 +102,85 @@ export default async function GateSubjectHome(props: { params: Promise<{ subject
         </div>
       </section>
 
+      {/* WHY CRACKGATE */}
+      <section className="bg-paper/40 border-y border-line">
+        <div className="max-w-7xl mx-auto px-5 py-16 lg:py-20">
+          <h2 className="text-3xl font-extrabold text-center">Everything you need to crack GATE {meta.code}.</h2>
+          <p className="mt-3 text-muted text-center max-w-2xl mx-auto">
+            Hyper-focused on {meta.label}. Tuned a notch tougher than the real paper so exam day feels easy —
+            every question is graded automatically with a detailed, worked solution.
+          </p>
+          <div className="mt-12 grid md:grid-cols-3 gap-6">
+            <Feature icon="🧪" title={`${mocksCount} Full-length Mocks`} desc="Exam-pattern papers (65 Q · 100 marks · 3 hours) with section analysis and subject SWOT. First mock free." />
+            <Feature icon="✍️" title={`${practiceQs}+ Practice Questions`} desc={`Topic-wise practice across ${subjectsCount} subjects, each with worked solutions and instant grading.`} />
+            <Feature icon="📚" title={`${learnCount} Learn Modules`} desc="Concept, formula matrix, IIT-style traps and a 3-tier question suite — cited to standard textbooks." />
+            <Feature icon="🎯" title="NTA-style Live Portal" desc="Identical to the real CBT — palette, mark-for-review, timer and auto-submit." />
+            <Feature icon="📊" title="SWOT Analytics" desc="Subject-wise strengths and weaknesses, time-per-question and an accuracy trend after every attempt." />
+            <Feature icon="🛡️" title="Server-side Grading" desc="Scores are computed on our servers — tamper-proof, with a detailed report each time." />
+          </div>
+        </div>
+      </section>
+
+      {/* SYLLABUS COVERAGE */}
+      <section className="max-w-7xl mx-auto px-5 py-16 lg:py-20">
+        <div className="text-center">
+          <span className="badge bg-brand/10 text-brand">Full GATE {meta.code} syllabus</span>
+          <h2 className="mt-3 text-3xl font-extrabold">Complete syllabus coverage.</h2>
+          <p className="mt-3 text-muted max-w-2xl mx-auto">
+            All {syllabus.length} sections of the official GATE {meta.label} syllabus — {liveSubtopics} of {totalSubtopics}
+            {" "}sub-topics already have a full Learn module, and the rest are being authored.
+          </p>
+        </div>
+        <div className="mt-12 grid md:grid-cols-2 gap-6">
+          {syllabus.map((sec) => (
+            <div key={sec.id} className="card p-6">
+              <div className="flex items-baseline justify-between gap-3">
+                <h3 className="font-bold text-lg">{sec.title}</h3>
+                <span className="text-xs font-semibold text-brand shrink-0">{sec.liveCount}/{sec.subtopics.length} live</span>
+              </div>
+              <p className="mt-1.5 text-sm text-muted">{sec.summary}</p>
+              <div className="mt-4 flex flex-wrap gap-2">
+                {sec.subtopics.map((st) =>
+                  st.topic ? (
+                    <Link
+                      key={st.title}
+                      href={`/gate/${subject}/learn/${st.topic.slug}`}
+                      className="text-xs font-medium px-2.5 py-1 rounded-full bg-brand/10 text-brand hover:bg-brand/20 transition"
+                    >
+                      {st.title}
+                    </Link>
+                  ) : (
+                    <span
+                      key={st.title}
+                      className="text-xs font-medium px-2.5 py-1 rounded-full bg-line/60 text-muted"
+                    >
+                      {st.title} · soon
+                    </span>
+                  )
+                )}
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* CREDIBILITY */}
+      <section className="bg-paper/40 border-y border-line">
+        <div className="max-w-3xl mx-auto px-5 py-16 text-center">
+          <span className="badge bg-brand/10 text-brand">Authored, not scraped</span>
+          <h2 className="mt-3 text-3xl font-extrabold">Built by IIT Kharagpur alumni, from the standard texts.</h2>
+          <p className="mt-3 text-muted">
+            Every concept is written from the books GATE {meta.code} toppers actually use — Kreyszig and B.S. Grewal
+            for mathematics, Punmia, C.S. Reddy, Duggal and S.K. Khanna for structures and transportation, Gopal Ranjan
+            for geotech, Subramanya and S.K. Garg for water and environment — and cross-checked against NPTEL–GATE
+            previous-year papers (2007–2022).
+          </p>
+          <Link href={`/gate/${subject}/learn`} className="btn btn-ghost btn-lg mt-6 inline-flex">
+            Browse the Learn library →
+          </Link>
+        </div>
+      </section>
+
       {/* CTA */}
       <section className="bg-slate-900 text-white">
         <div className="max-w-3xl mx-auto px-5 py-16 text-center">
@@ -108,5 +190,15 @@ export default async function GateSubjectHome(props: { params: Promise<{ subject
         </div>
       </section>
     </>
+  );
+}
+
+function Feature({ icon, title, desc }: { icon: string; title: string; desc: string }) {
+  return (
+    <div className="card p-6">
+      <div className="text-3xl">{icon}</div>
+      <h3 className="mt-3 font-bold">{title}</h3>
+      <p className="mt-2 text-sm text-muted">{desc}</p>
+    </div>
   );
 }

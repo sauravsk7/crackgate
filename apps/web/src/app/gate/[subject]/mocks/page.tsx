@@ -163,7 +163,7 @@ function MockCard({
 
       <div className="mt-4">
         {!unlocked ? (
-          <Link href={payHref} className="btn btn-ghost w-full">Unlock {code}</Link>
+          <Link href={payHref} className="btn btn-accent w-full">⭐ Unlock {code}</Link>
         ) : attempted ? (
           <Link href={`/mocks/${id}`} className="btn btn-ghost w-full">Retake</Link>
         ) : (

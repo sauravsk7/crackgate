@@ -9,6 +9,7 @@
  */
 import type {
   LearnTopic,
+  LearnReference,
   LearnSyllabusSection,
   LearnSyllabusSubtopic,
 } from "@/data/learn";
@@ -717,22 +718,459 @@ const ceSurveying: LearnTopic = {
 /*  TOPIC REGISTRY                                                        */
 /* ════════════════════════════════════════════════════════════════════ */
 
+/* ════════════════════════════════════════════════════════════════════ */
+/*  EXTENDED TOPICS — broader, tougher syllabus coverage                  */
+/* ════════════════════════════════════════════════════════════════════ */
+
+const ceBendingShear: LearnTopic = {
+  slug: "ce-se-bending-shear",
+  subject: "Structural Engineering",
+  title: "Bending & Shear Stresses",
+  tier: "subject",
+  blurb:
+    "Flexure formula, transverse shear distribution and torsion — converting beam moments and shears into the fibre stresses that govern design.",
+  module: {
+    principle:
+      "When a beam bends, fibres above the **neutral axis** (which passes through the centroid) shorten and those below lengthen, producing a **linear bending-stress** distribution $\\sigma=My/I$ — maximum at the extreme fibre. The transverse shear force is carried by a **parabolic shear-stress** distribution $\\tau=VQ/Ib$ that is **maximum at the neutral axis** and zero at the top/bottom. In circular shafts a torque produces shear $\\tau=Tr/J$.",
+    formulaMatrix: [
+      "**Flexure formula**: $\\dfrac{\\sigma}{y}=\\dfrac{M}{I}=\\dfrac{E}{R}\\ \\Rightarrow\\ \\sigma=\\dfrac{My}{I}$",
+      "",
+      "**Rectangle**: $I=\\dfrac{bd^3}{12},\\ Z=\\dfrac{bd^2}{6},\\ \\sigma_{max}=\\dfrac{M}{Z}$",
+      "",
+      "**Transverse shear**: $\\tau=\\dfrac{VQ}{Ib}$; max (rectangle) $\\tau_{max}=1.5\\dfrac{V}{A}$, (circle) $\\dfrac{4}{3}\\dfrac{V}{A}$",
+      "",
+      "**Torsion**: $\\dfrac{\\tau}{r}=\\dfrac{T}{J}=\\dfrac{G\\theta}{L},\\ J=\\dfrac{\\pi d^4}{32}$",
+    ].join("\n"),
+    traps: [
+      "**Bending max at extreme fibre, shear max at the neutral axis.** They occur at different points of the section — never the same fibre.",
+      "**Section modulus uses $d^2$, second moment uses $d^3$.** Mixing $Z=bd^2/6$ with $I=bd^3/12$ is a frequent slip.",
+      "**Shear factor.** Average shear $V/A$ must be multiplied by $1.5$ (rectangle) or $4/3$ (circle) to get the peak.",
+    ],
+  },
+  questions: [
+    {
+      id: "ce-bs-q1", difficulty: "basic", marks: 1, type: "NAT",
+      stem: "A rectangular beam $200\\,\\text{mm}\\times400\\,\\text{mm}$ (b×d) carries a bending moment of $80\\,\\text{kN·m}$. The maximum bending stress is _____ MPa.",
+      natAnswer: 15, acceptedRange: [14.8, 15.2],
+      solution: { given: "$Z=bd^2/6=200\\times400^2/6=5.333\\times10^6\\,\\text{mm}^3$.", derivation: "$$\\sigma=\\dfrac{M}{Z}=\\dfrac{80\\times10^6}{5.333\\times10^6}=15$$", target: "$15\\,\\text{MPa}$." },
+    },
+    {
+      id: "ce-bs-q2", difficulty: "medium", marks: 2, type: "NAT",
+      stem: "A rectangular beam $200\\,\\text{mm}\\times300\\,\\text{mm}$ carries a shear force of $90\\,\\text{kN}$. The maximum transverse shear stress is _____ MPa.",
+      natAnswer: 2.25, acceptedRange: [2.2, 2.3],
+      solution: { given: "$A=200\\times300=60000\\,\\text{mm}^2$.", derivation: "$$\\tau_{max}=1.5\\dfrac{V}{A}=1.5\\times\\dfrac{90\\times10^3}{60000}=2.25$$", target: "$2.25\\,\\text{MPa}$." },
+    },
+    {
+      id: "ce-bs-q3", difficulty: "hard", marks: 2, type: "MCQ",
+      stem: "For a solid circular section under transverse shear, the ratio of maximum to average shear stress is:",
+      options: ["$4/3$", "$3/2$", "$2$", "$1$"], answer: 0,
+      solution: { given: "Parabolic shear over a circle.", derivation: "$$\\tau_{max}=\\dfrac{4}{3}\\,\\tau_{avg}$$", target: "Correct option: $4/3$." },
+    },
+  ],
+};
+
+const ceDeflection: LearnTopic = {
+  slug: "ce-se-deflection",
+  subject: "Structural Engineering",
+  title: "Deflection of Beams",
+  tier: "subject",
+  blurb:
+    "Double-integration, moment-area and unit-load methods plus the standard deflection results examiners expect you to recall instantly.",
+  module: {
+    principle:
+      "Beam deflection follows from $EI\\dfrac{d^2y}{dx^2}=M(x)$: integrate the bending-moment expression twice and apply boundary conditions for slope and deflection. For exams the **standard cases** (cantilever and simply-supported under point load or UDL) should be memorised, while the **unit-load (virtual-work)** method handles deflection at any point of any determinate structure.",
+    formulaMatrix: [
+      "**Governing equation**: $EI\\,y''=M(x)$",
+      "",
+      "**Cantilever, end load $P$**: $\\delta=\\dfrac{PL^3}{3EI},\\ \\theta=\\dfrac{PL^2}{2EI}$",
+      "",
+      "**Cantilever, UDL $w$**: $\\delta=\\dfrac{wL^4}{8EI}$",
+      "",
+      "**SS beam, central load $P$**: $\\delta=\\dfrac{PL^3}{48EI}$",
+      "",
+      "**SS beam, UDL $w$**: $\\delta=\\dfrac{5wL^4}{384EI}$",
+      "",
+      "**Unit-load method**: $\\delta=\\displaystyle\\int\\dfrac{Mm}{EI}\\,dx$",
+    ].join("\n"),
+    traps: [
+      "**Unit consistency.** Working in $\\text{kN}$ and $\\text{m}$ gives $\\delta$ in metres — convert to mm at the end, not midway.",
+      "**Right formula for the load.** $PL^3/48EI$ is a central point load; $5wL^4/384EI$ is a UDL — don't interchange.",
+      "**Cantilever vs simply supported.** A cantilever is far more flexible ($L^3/3EI$ vs $L^3/48EI$) for the same span and load.",
+    ],
+  },
+  questions: [
+    {
+      id: "ce-df-q1", difficulty: "basic", marks: 1, type: "NAT",
+      stem: "A cantilever of span $3\\,\\text{m}$ ($EI=8000\\,\\text{kN·m}^2$) carries an end point load of $10\\,\\text{kN}$. The free-end deflection is _____ mm.",
+      natAnswer: 11.25, acceptedRange: [11.1, 11.4],
+      solution: { given: "$P=10,L=3,EI=8000$.", derivation: "$$\\delta=\\dfrac{PL^3}{3EI}=\\dfrac{10\\times27}{3\\times8000}=0.01125\\,\\text{m}$$", target: "$11.25\\,\\text{mm}$." },
+    },
+    {
+      id: "ce-df-q2", difficulty: "medium", marks: 2, type: "NAT",
+      stem: "A simply supported beam of span $4\\,\\text{m}$ ($EI=10000\\,\\text{kN·m}^2$) carries a central point load of $20\\,\\text{kN}$. The mid-span deflection is _____ mm.",
+      natAnswer: 2.667, acceptedRange: [2.6, 2.73],
+      solution: { given: "$P=20,L=4,EI=10000$.", derivation: "$$\\delta=\\dfrac{PL^3}{48EI}=\\dfrac{20\\times64}{48\\times10000}=0.002667\\,\\text{m}$$", target: "$\\approx2.67\\,\\text{mm}$." },
+    },
+    {
+      id: "ce-df-q3", difficulty: "hard", marks: 2, type: "MCQ",
+      stem: "Which method is most directly suited to finding the deflection at a single specified point of a determinate truss?",
+      options: ["Unit-load (virtual work) method", "Double integration", "Moment-distribution", "Slope-deflection"], answer: 0,
+      solution: { given: "Trusses carry axial forces only.", derivation: "$$\\delta=\\sum\\dfrac{Pn L}{AE}$$ (unit-load form for trusses).", target: "Unit-load / virtual-work method." },
+    },
+  ],
+};
+
+const ceEffectiveStress: LearnTopic = {
+  slug: "ce-ge-effective-stress",
+  subject: "Geotechnical Engineering",
+  title: "Effective Stress & Seepage",
+  tier: "subject",
+  blurb:
+    "Terzaghi's effective-stress principle, pore pressure, flow nets and the quick (boiling) condition — the backbone of all soil behaviour.",
+  module: {
+    principle:
+      "Terzaghi's principle states that soil strength and deformation are governed not by total stress but by **effective stress** $\\sigma'=\\sigma-u$ — the part carried by the soil skeleton. Below a static water table the pore pressure is $u=\\gamma_w h_w$. Under **seepage**, flow nets give the discharge, and when the upward seepage gradient reaches the **critical gradient** the effective stress vanishes and the soil 'boils' (quick condition).",
+    formulaMatrix: [
+      "**Effective stress**: $\\sigma'=\\sigma-u$",
+      "",
+      "**Saturated soil, WT at surface**: $\\sigma'=\\gamma' z,\\quad \\gamma'=\\gamma_{sat}-\\gamma_w$",
+      "",
+      "**Seepage discharge (flow net)**: $q=kH\\dfrac{N_f}{N_d}$",
+      "",
+      "**Critical hydraulic gradient**: $i_c=\\dfrac{\\gamma'}{\\gamma_w}=\\dfrac{G-1}{1+e}$",
+    ].join("\n"),
+    traps: [
+      "**Use head, not depth, for pore pressure under seepage.** Hydrostatic $u=\\gamma_w h_w$ only holds for no flow.",
+      "**Submerged unit weight.** Below the water table use $\\gamma'=\\gamma_{sat}-\\gamma_w$ for effective stress, not $\\gamma_{sat}$.",
+      "**Quick condition is a gradient, not a stress.** Boiling occurs when $i\\to i_c$, independent of particle size for the critical value.",
+    ],
+  },
+  questions: [
+    {
+      id: "ce-es-q1", difficulty: "basic", marks: 1, type: "NAT",
+      stem: "A saturated sand ($\\gamma_{sat}=20\\,\\text{kN/m}^3$) has the water table at the surface. The effective vertical stress at $5\\,\\text{m}$ depth is _____ kPa.",
+      natAnswer: 50.95, acceptedRange: [50.5, 51.4],
+      solution: { given: "$\\gamma'=20-9.81=10.19\\,\\text{kN/m}^3$.", derivation: "$$\\sigma'=\\gamma' z=10.19\\times5=50.95$$", target: "$\\approx50.95\\,\\text{kPa}$." },
+    },
+    {
+      id: "ce-es-q2", difficulty: "medium", marks: 2, type: "NAT",
+      stem: "A soil has $G=2.65$ and void ratio $e=0.65$. Its critical hydraulic gradient is _____.",
+      natAnswer: 1.0, acceptedRange: [0.98, 1.02],
+      solution: { given: "$G=2.65,e=0.65$.", derivation: "$$i_c=\\dfrac{G-1}{1+e}=\\dfrac{1.65}{1.65}=1.0$$", target: "$i_c=1.0$." },
+    },
+    {
+      id: "ce-es-q3", difficulty: "hard", marks: 2, type: "NAT",
+      stem: "A flow net beneath a dam has $4$ flow channels and $12$ potential drops; head loss $6\\,\\text{m}$, $k=2\\times10^{-5}\\,\\text{m/s}$. The seepage per metre length is _____ ×10⁻⁵ m³/s/m.",
+      natAnswer: 4, acceptedRange: [3.9, 4.1],
+      solution: { given: "$N_f=4,N_d=12,H=6,k=2\\times10^{-5}$.", derivation: "$$q=kH\\dfrac{N_f}{N_d}=2\\times10^{-5}\\times6\\times\\dfrac{4}{12}=4\\times10^{-5}$$", target: "$4\\times10^{-5}\\,\\text{m}^3/\\text{s/m}$." },
+    },
+  ],
+};
+
+const ceConsolidation: LearnTopic = {
+  slug: "ce-ge-consolidation",
+  subject: "Geotechnical Engineering",
+  title: "Consolidation",
+  tier: "subject",
+  blurb:
+    "Primary consolidation settlement, the compression index, time factor and coefficient of consolidation — predicting how clays settle and how long it takes.",
+  module: {
+    principle:
+      "Saturated clays settle slowly as excess pore water is squeezed out — **primary consolidation**. The magnitude depends on the **compression index** $C_c$ and the stress increment (on a semi-log $e$–$\\log\\sigma'$ plot); the rate is governed by **Terzaghi's 1-D theory** through the dimensionless **time factor** $T_v$ and the **coefficient of consolidation** $c_v$. The drainage path $H$ is the full layer thickness for single drainage but **half** for double drainage.",
+    formulaMatrix: [
+      "**Settlement**: $S_c=\\dfrac{C_c H}{1+e_0}\\log_{10}\\dfrac{\\sigma_0'+\\Delta\\sigma}{\\sigma_0'}$",
+      "",
+      "**Compression index (Terzaghi–Peck, undisturbed)**: $C_c=0.009(LL-10)$",
+      "",
+      "**Time factor**: $T_v=\\dfrac{c_v\\,t}{H^2}$; $U=50\\%\\Rightarrow T_v=0.197$, $U=90\\%\\Rightarrow T_v=0.848$",
+      "",
+      "**Coefficient of consolidation**: $c_v=\\dfrac{T_v H^2}{t}$",
+    ].join("\n"),
+    traps: [
+      "**Drainage path.** For a clay layer drained top and bottom, $H$ = half the thickness — squaring the wrong $H$ quarters the time.",
+      "**Logarithm base.** The settlement equation uses $\\log_{10}$, not natural log.",
+      "**$T_v$ values.** $0.197$ for $50\\%$ and $0.848$ for $90\\%$ are standard recall — don't interpolate linearly.",
+    ],
+  },
+  questions: [
+    {
+      id: "ce-cons-q1", difficulty: "basic", marks: 1, type: "NAT",
+      stem: "A normally-consolidated clay has liquid limit $40\\%$. By the Terzaghi–Peck relation, its compression index $C_c$ is _____.",
+      natAnswer: 0.27, acceptedRange: [0.265, 0.275],
+      solution: { given: "$LL=40\\%$.", derivation: "$$C_c=0.009(LL-10)=0.009\\times30=0.27$$", target: "$C_c=0.27$." },
+    },
+    {
+      id: "ce-cons-q2", difficulty: "medium", marks: 2, type: "NAT",
+      stem: "A $3\\,\\text{m}$ thick clay layer ($C_c=0.25$, $e_0=0.8$) has its effective stress raised from $100$ to $200\\,\\text{kPa}$. The primary consolidation settlement is _____ mm.",
+      natAnswer: 125.4, acceptedRange: [123, 128],
+      solution: { given: "$H=3000\\,\\text{mm}$, $\\sigma_0'=100$, $\\Delta\\sigma=100$.", derivation: "$$S_c=\\dfrac{0.25\\times3000}{1.8}\\log_{10}\\dfrac{200}{100}=416.7\\times0.301=125.4$$", target: "$\\approx125\\,\\text{mm}$." },
+    },
+    {
+      id: "ce-cons-q3", difficulty: "hard", marks: 2, type: "NAT",
+      stem: "A $4\\,\\text{m}$ clay layer, drained on both faces, reaches $50\\%$ consolidation in $1.5\\,\\text{years}$. Its coefficient of consolidation is _____ m²/yr.",
+      natAnswer: 0.525, acceptedRange: [0.5, 0.55],
+      solution: { given: "Double drainage ⇒ $H=2\\,\\text{m}$; $T_v=0.197$ at $50\\%$.", derivation: "$$c_v=\\dfrac{T_v H^2}{t}=\\dfrac{0.197\\times2^2}{1.5}=0.525$$", target: "$\\approx0.525\\,\\text{m}^2/\\text{yr}$." },
+    },
+  ],
+};
+
+const ceOpenChannel: LearnTopic = {
+  slug: "ce-wr-open-channel",
+  subject: "Water Resources Engineering",
+  title: "Open Channel Flow",
+  tier: "subject",
+  blurb:
+    "Specific energy, critical depth, the Froude number and the hydraulic jump — the gravity-driven free-surface flows that dominate hydraulics questions.",
+  module: {
+    principle:
+      "In an open channel the flow has a free surface, so gravity and depth control behaviour. **Specific energy** $E=y+v^2/2g$ is minimum at the **critical depth**, where the **Froude number** $Fr=1$. Flow is **subcritical** ($Fr<1$, deep/slow) or **supercritical** ($Fr>1$, shallow/fast). A transition from super- to subcritical occurs abruptly through a **hydraulic jump**, dissipating energy.",
+    formulaMatrix: [
+      "**Specific energy**: $E=y+\\dfrac{v^2}{2g}=y+\\dfrac{q^2}{2gy^2}$",
+      "",
+      "**Critical depth (rectangular)**: $y_c=\\left(\\dfrac{q^2}{g}\\right)^{1/3},\\ q=\\dfrac{Q}{b}$",
+      "",
+      "**Froude number**: $Fr=\\dfrac{v}{\\sqrt{gy}}$; $Fr=1$ critical",
+      "",
+      "**Hydraulic jump (sequent depth)**: $y_2=\\dfrac{y_1}{2}\\left(\\sqrt{1+8Fr_1^2}-1\\right)$",
+      "",
+      "**Energy loss in jump**: $\\Delta E=\\dfrac{(y_2-y_1)^3}{4y_1y_2}$",
+    ].join("\n"),
+    traps: [
+      "**Critical depth is independent of slope.** It depends only on discharge per unit width $q$ (rectangular channel).",
+      "**Use unit discharge $q=Q/b$** in the critical-depth formula, not total $Q$.",
+      "**Jump only forms super→subcritical.** Upstream must be supercritical ($Fr_1>1$).",
+    ],
+  },
+  questions: [
+    {
+      id: "ce-oc-q1", difficulty: "basic", marks: 1, type: "NAT",
+      stem: "A rectangular channel $2\\,\\text{m}$ wide carries $8\\,\\text{m}^3/\\text{s}$. The critical depth is _____ m.",
+      natAnswer: 1.177, acceptedRange: [1.15, 1.2],
+      solution: { given: "$q=Q/b=8/2=4\\,\\text{m}^2/\\text{s}$.", derivation: "$$y_c=\\left(\\dfrac{q^2}{g}\\right)^{1/3}=\\left(\\dfrac{16}{9.81}\\right)^{1/3}=1.177$$", target: "$\\approx1.18\\,\\text{m}$." },
+    },
+    {
+      id: "ce-oc-q2", difficulty: "medium", marks: 1, type: "NAT",
+      stem: "Water flows $1\\,\\text{m}$ deep at $3\\,\\text{m/s}$ in a wide channel. The Froude number is _____.",
+      natAnswer: 0.958, acceptedRange: [0.94, 0.97],
+      solution: { given: "$v=3,y=1$.", derivation: "$$Fr=\\dfrac{v}{\\sqrt{gy}}=\\dfrac{3}{\\sqrt{9.81\\times1}}=0.958$$", target: "$\\approx0.96$ (subcritical)." },
+    },
+    {
+      id: "ce-oc-q3", difficulty: "hard", marks: 2, type: "NAT",
+      stem: "A hydraulic jump has upstream depth $0.4\\,\\text{m}$ and upstream Froude number $2.5$. The sequent (downstream) depth is _____ m.",
+      natAnswer: 1.228, acceptedRange: [1.2, 1.26],
+      solution: { given: "$y_1=0.4,Fr_1=2.5$.", derivation: "$$y_2=\\dfrac{0.4}{2}\\left(\\sqrt{1+8\\times2.5^2}-1\\right)=0.2(7.141-1)=1.228$$", target: "$\\approx1.23\\,\\text{m}$." },
+    },
+  ],
+};
+
+const cePavement: LearnTopic = {
+  slug: "ce-tr-pavement",
+  subject: "Transportation Engineering",
+  title: "Pavement Design",
+  tier: "subject",
+  blurb:
+    "Flexible (CBR, layered elastic) versus rigid (Westergaard slab on subgrade) pavements — the two design philosophies and the stresses they control.",
+  module: {
+    principle:
+      "**Flexible pavements** transmit wheel loads to the subgrade through successive layers in compression; their thickness is governed by the **CBR** of the subgrade and traffic repetitions. **Rigid pavements** are concrete slabs whose flexural stiffness spreads the load, resting on a subgrade characterised by the **modulus of subgrade reaction** $k$; Westergaard's analysis gives the critical edge/corner/interior stresses through the **radius of relative stiffness** $l$.",
+    formulaMatrix: [
+      "**Tyre contact area**: $A=\\dfrac{P}{p}$ (wheel load ÷ tyre pressure)",
+      "",
+      "**Radius of relative stiffness**: $l=\\left[\\dfrac{Eh^3}{12(1-\\mu^2)k}\\right]^{1/4}$",
+      "",
+      "**Flexible design**: CBR method ⇒ total thickness above subgrade for a design traffic.",
+      "",
+      "**Rigid design**: Westergaard interior/edge/corner stresses depend on $l$, slab thickness $h$ and $k$.",
+    ].join("\n"),
+    traps: [
+      "**$k$ for rigid, CBR for flexible.** The modulus of subgrade reaction governs slabs; the CBR governs layered flexible pavements.",
+      "**Radius of relative stiffness rises with slab thickness** ($l\\propto h^{3/4}$) and falls with stiffer subgrade $k$.",
+      "**Contact area, not contact pressure**, is load ÷ tyre pressure — keep the ratio the right way up.",
+    ],
+  },
+  questions: [
+    {
+      id: "ce-pv-q1", difficulty: "basic", marks: 1, type: "MCQ",
+      stem: "The CBR method of design directly yields the:",
+      options: ["total thickness of a flexible pavement", "concrete grade of a rigid slab", "joint spacing", "camber"], answer: 0,
+      solution: { given: "CBR = California Bearing Ratio of subgrade.", derivation: "CBR → required thickness above the subgrade for the design traffic.", target: "Total flexible-pavement thickness." },
+    },
+    {
+      id: "ce-pv-q2", difficulty: "medium", marks: 2, type: "NAT",
+      stem: "A wheel load of $40\\,\\text{kN}$ acts at a tyre pressure of $0.7\\,\\text{MPa}$. The tyre contact area is _____ mm².",
+      natAnswer: 57143, acceptedRange: [56500, 57800],
+      solution: { given: "$P=40\\,\\text{kN}=40000\\,\\text{N}$, $p=0.7\\,\\text{MPa}=0.7\\,\\text{N/mm}^2$.", derivation: "$$A=\\dfrac{P}{p}=\\dfrac{40000}{0.7}=57143$$", target: "$\\approx57{,}143\\,\\text{mm}^2$." },
+    },
+    {
+      id: "ce-pv-q3", difficulty: "hard", marks: 2, type: "MCQ",
+      stem: "In Westergaard's rigid-pavement analysis, the radius of relative stiffness $l$ increases when:",
+      options: ["the slab thickness increases", "the modulus of subgrade reaction increases", "the slab modulus decreases", "Poisson's ratio increases only"], answer: 0,
+      solution: { given: "$l=[Eh^3/(12(1-\\mu^2)k)]^{1/4}$.", derivation: "$$l\\propto h^{3/4},\\quad l\\propto k^{-1/4}$$", target: "Increases with slab thickness $h$." },
+    },
+  ],
+};
+
+/* ════════════════════════════════════════════════════════════════════ */
+/*  PER-TOPIC STANDARD REFERENCES                                         */
+/* ════════════════════════════════════════════════════════════════════ */
+
+const CE_TOPIC_REFERENCES: Record<string, LearnReference[]> = {
+  "ce-em-linear-algebra": [
+    { book: "Advanced Engineering Mathematics", author: "Erwin Kreyszig", chapter: "Linear Algebra: Matrices & Eigenvalue Problems" },
+    { book: "Higher Engineering Mathematics", author: "B.S. Grewal" },
+  ],
+  "ce-em-probability-statistics": [
+    { book: "Higher Engineering Mathematics", author: "B.S. Grewal", chapter: "Probability & Statistics" },
+    { book: "Advanced Engineering Mathematics", author: "Erwin Kreyszig" },
+  ],
+  "ce-se-engineering-mechanics": [
+    { book: "Mechanics of Structures", author: "B.C. Punmia" },
+    { book: "Vector Mechanics for Engineers: Statics", author: "Beer & Johnston" },
+  ],
+  "ce-se-simple-stresses": [
+    { book: "Strength of Materials (Mechanics of Materials)", author: "B.C. Punmia" },
+    { book: "Strength of Materials", author: "S.S. Rattan" },
+  ],
+  "ce-se-structural-analysis": [
+    { book: "Elementary Structural Analysis", author: "Wilbur & Norris" },
+    { book: "Basic Structural Analysis", author: "C.S. Reddy" },
+  ],
+  "ce-se-rcc-limit-state": [
+    { book: "Reinforced Concrete Design (RCC Designs)", author: "B.C. Punmia, A.K. Jain & A.K. Jain" },
+    { book: "IS 456:2000 — Plain & Reinforced Concrete Code of Practice", author: "Bureau of Indian Standards" },
+  ],
+  "ce-se-steel-members": [
+    { book: "Limit State Design of Steel Structures", author: "S.K. Duggal" },
+    { book: "IS 800:2007 — General Construction in Steel", author: "Bureau of Indian Standards" },
+  ],
+  "ce-ge-soil-phase-relations": [
+    { book: "Basic and Applied Soil Mechanics", author: "Gopal Ranjan & A.S.R. Rao" },
+  ],
+  "ce-ge-bearing-capacity": [
+    { book: "Basic and Applied Soil Mechanics", author: "Gopal Ranjan & A.S.R. Rao", chapter: "Shear Strength & Bearing Capacity" },
+  ],
+  "ce-wr-fluid-mechanics": [
+    { book: "Hydraulics and Fluid Mechanics (including Hydraulic Machines)", author: "P.N. Modi & S.M. Seth" },
+  ],
+  "ce-wr-hydrology-irrigation": [
+    { book: "Engineering Hydrology", author: "K. Subramanya" },
+    { book: "Irrigation Engineering and Hydraulic Structures", author: "S.K. Garg" },
+  ],
+  "ce-en-water-wastewater": [
+    { book: "Environmental Engineering Vol. I (Water Supply) & Vol. II (Wastewater)", author: "S.K. Garg" },
+  ],
+  "ce-tr-geometric-design": [
+    { book: "Highway Engineering", author: "S.K. Khanna & C.E.G. Justo" },
+  ],
+  "ce-gm-levelling-tacheometry": [
+    { book: "Surveying Vol. I & II", author: "B.C. Punmia, A.K. Jain & A.K. Jain" },
+  ],
+  "ce-se-bending-shear": [
+    { book: "Strength of Materials (Mechanics of Materials)", author: "B.C. Punmia" },
+    { book: "Mechanics of Materials", author: "Gere & Timoshenko" },
+  ],
+  "ce-se-deflection": [
+    { book: "Elementary Structural Analysis", author: "Wilbur & Norris" },
+    { book: "Basic Structural Analysis", author: "C.S. Reddy" },
+  ],
+  "ce-ge-effective-stress": [
+    { book: "Basic and Applied Soil Mechanics", author: "Gopal Ranjan & A.S.R. Rao", chapter: "Effective Stress & Seepage" },
+  ],
+  "ce-ge-consolidation": [
+    { book: "Basic and Applied Soil Mechanics", author: "Gopal Ranjan & A.S.R. Rao", chapter: "Consolidation" },
+  ],
+  "ce-wr-open-channel": [
+    { book: "Flow in Open Channels", author: "K. Subramanya" },
+    { book: "Hydraulics and Fluid Mechanics", author: "P.N. Modi & S.M. Seth" },
+  ],
+  "ce-tr-pavement": [
+    { book: "Highway Engineering", author: "S.K. Khanna & C.E.G. Justo", chapter: "Pavement Design" },
+  ],
+};
+
+/* ════════════════════════════════════════════════════════════════════ */
+/*  RECOMMENDED BOOKS & RESOURCES (Learn index panel)                     */
+/* ════════════════════════════════════════════════════════════════════ */
+
+export type CeResourceGroup = { subject: string; books: LearnReference[] };
+
+export const CE_RESOURCES: CeResourceGroup[] = [
+  {
+    subject: "Engineering Mathematics",
+    books: [
+      { book: "Advanced Engineering Mathematics", author: "Erwin Kreyszig" },
+      { book: "Higher Engineering Mathematics", author: "B.S. Grewal" },
+    ],
+  },
+  {
+    subject: "Structural Engineering",
+    books: [
+      { book: "Elementary Structural Analysis", author: "Wilbur & Norris" },
+      { book: "Basic Structural Analysis", author: "C.S. Reddy" },
+      { book: "RCC Designs (Reinforced Concrete)", author: "B.C. Punmia" },
+      { book: "Limit State Design of Steel Structures", author: "S.K. Duggal" },
+    ],
+  },
+  {
+    subject: "Geotechnical Engineering",
+    books: [
+      { book: "Basic and Applied Soil Mechanics", author: "Gopal Ranjan & A.S.R. Rao" },
+    ],
+  },
+  {
+    subject: "Water Resources Engineering",
+    books: [
+      { book: "Hydraulics and Fluid Mechanics", author: "P.N. Modi & S.M. Seth" },
+      { book: "Engineering Hydrology / Flow in Open Channels", author: "K. Subramanya" },
+    ],
+  },
+  {
+    subject: "Environmental Engineering",
+    books: [
+      { book: "Environmental Engineering Vol. I & II", author: "S.K. Garg" },
+    ],
+  },
+  {
+    subject: "Transportation Engineering",
+    books: [
+      { book: "Highway Engineering", author: "S.K. Khanna & C.E.G. Justo" },
+    ],
+  },
+  {
+    subject: "Geomatics Engineering",
+    books: [
+      { book: "Surveying Vol. I & II", author: "B.C. Punmia" },
+    ],
+  },
+];
+
+export const CE_RESOURCE_LINKS: { label: string; href: string; note: string }[] = [
+  { label: "NPTEL–GATE PYQ portal", href: "https://gate.nptel.ac.in", note: "Subject-wise previous-year questions (2007–2022) with solutions and full-length mock tests." },
+  { label: "NPTEL Civil lectures", href: "https://nptel.ac.in", note: "Video courses by IIT/IISc faculty mapped to every GATE CE subject." },
+];
+
 export const CE_LEARN_TOPICS: LearnTopic[] = [
   ceLinearAlgebra,
   ceProbability,
   ceEngMechanics,
   ceSimpleStress,
+  ceBendingShear,
   ceStructuralAnalysis,
+  ceDeflection,
   ceRcc,
   ceSteel,
   ceSoilPhase,
+  ceEffectiveStress,
+  ceConsolidation,
   ceBearingCapacity,
   ceFluidMechanics,
+  ceOpenChannel,
   ceHydrology,
   ceEnvironmental,
   ceTransportation,
+  cePavement,
   ceSurveying,
-];
+].map((t) => ({ ...t, references: t.references ?? CE_TOPIC_REFERENCES[t.slug] }));
 
 export function getCivilLearnTopic(slug: string): LearnTopic | undefined {
   return CE_LEARN_TOPICS.find((t) => t.slug === slug);
@@ -763,9 +1201,9 @@ export const CE_LEARN_SYLLABUS: LearnSyllabusSection[] = [
     subtopics: [
       { title: "Engineering Mechanics", slug: "ce-se-engineering-mechanics", highlight: "Equilibrium, resultants, trusses, friction" },
       { title: "Simple Stresses & Strains", slug: "ce-se-simple-stresses", highlight: "Axial stress, Hooke's law, elongation, elastic constants" },
-      { title: "Bending & Shear Stresses", highlight: "Flexure formula σ=My/I, transverse shear, torsion" },
+      { title: "Bending & Shear Stresses", slug: "ce-se-bending-shear", highlight: "Flexure formula σ=My/I, transverse shear, torsion" },
       { title: "Structural Analysis", slug: "ce-se-structural-analysis", highlight: "Determinacy, SF & BM diagrams, standard beam results" },
-      { title: "Deflection of Beams", highlight: "Double integration, moment-area, unit-load methods" },
+      { title: "Deflection of Beams", slug: "ce-se-deflection", highlight: "Double integration, moment-area, unit-load methods" },
       { title: "Construction Materials & Management", highlight: "Concrete, PERT/CPM, EOQ, work study" },
       { title: "Concrete Structures (RCC)", slug: "ce-se-rcc-limit-state", highlight: "Limit state, stress block, neutral axis, moment capacity" },
       { title: "Steel Structures", slug: "ce-se-steel-members", highlight: "Tension & compression members, slenderness, connections" },
@@ -777,8 +1215,8 @@ export const CE_LEARN_SYLLABUS: LearnSyllabusSection[] = [
     summary: "Soil behaviour and the design of foundations and earth structures.",
     subtopics: [
       { title: "Soil Phase Relations & Index Properties", slug: "ce-ge-soil-phase-relations", highlight: "Void ratio, unit weights, Atterberg limits, classification" },
-      { title: "Effective Stress & Seepage", highlight: "Terzaghi principle, flow nets, quick condition" },
-      { title: "Consolidation", highlight: "Coefficient of consolidation, settlement, time factor" },
+      { title: "Effective Stress & Seepage", slug: "ce-ge-effective-stress", highlight: "Terzaghi principle, flow nets, quick condition" },
+      { title: "Consolidation", slug: "ce-ge-consolidation", highlight: "Coefficient of consolidation, settlement, time factor" },
       { title: "Shear Strength & Bearing Capacity", slug: "ce-ge-bearing-capacity", highlight: "Mohr–Coulomb, Rankine, Terzaghi bearing capacity" },
       { title: "Foundation Engineering", highlight: "Shallow & deep foundations, pile groups, settlement" },
     ],
@@ -790,7 +1228,7 @@ export const CE_LEARN_SYLLABUS: LearnSyllabusSection[] = [
     subtopics: [
       { title: "Fluid Mechanics & Flow", slug: "ce-wr-fluid-mechanics", highlight: "Continuity, Bernoulli, hydrostatics, Manning flow" },
       { title: "Flow Through Pipes", highlight: "Darcy–Weisbach, major & minor losses, networks" },
-      { title: "Open Channel Flow", highlight: "Specific energy, critical flow, hydraulic jump" },
+      { title: "Open Channel Flow", slug: "ce-wr-open-channel", highlight: "Specific energy, critical flow, hydraulic jump" },
       { title: "Hydrology & Irrigation", slug: "ce-wr-hydrology-irrigation", highlight: "Rational method, unit hydrograph, duty–delta" },
     ],
   },
@@ -812,7 +1250,7 @@ export const CE_LEARN_SYLLABUS: LearnSyllabusSection[] = [
     subtopics: [
       { title: "Highway Geometric Design", slug: "ce-tr-geometric-design", highlight: "Sight distance, superelevation, traffic flow relation" },
       { title: "Traffic Engineering", highlight: "Speed studies, capacity, signal design, PCU" },
-      { title: "Pavement Design", highlight: "Flexible & rigid pavements, CBR, Westergaard" },
+      { title: "Pavement Design", slug: "ce-tr-pavement", highlight: "Flexible & rigid pavements, CBR, Westergaard" },
       { title: "Highway Materials", highlight: "Aggregates, bitumen tests, mix design" },
     ],
   },

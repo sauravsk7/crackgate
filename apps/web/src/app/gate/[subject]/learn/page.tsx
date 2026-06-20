@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getGateSubject } from "@/data/gate/registry";
+import { CE_RESOURCES, CE_RESOURCE_LINKS } from "@/data/gate/civil/learn";
 
 export const dynamic = "force-dynamic";
 
@@ -100,6 +101,49 @@ export default async function SubjectLearnIndex(props: { params: Promise<{ subje
           </section>
         ))}
       </div>
+
+      {subject === "civil" && (
+        <section className="card p-6 mt-10">
+          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-brand/10 text-brand text-xs font-bold mb-3">
+            📖 RECOMMENDED BOOKS &amp; RESOURCES
+          </div>
+          <h2 className="text-lg font-extrabold">Standard textbooks &amp; free resources</h2>
+          <p className="text-sm text-muted mt-1">
+            Every Learn module is written from these standard references and cross-checked against
+            previous-year papers.
+          </p>
+
+          <div className="mt-5 grid sm:grid-cols-2 gap-x-8 gap-y-4">
+            {CE_RESOURCES.map((grp) => (
+              <div key={grp.subject}>
+                <h3 className="text-sm font-bold text-ink">{grp.subject}</h3>
+                <ul className="mt-1.5 space-y-1">
+                  {grp.books.map((b) => (
+                    <li key={b.book} className="text-sm text-muted leading-relaxed">
+                      <span className="font-medium text-ink/85">{b.book}</span> — {b.author}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </div>
+
+          <div className="mt-6 border-t border-line pt-4 flex flex-wrap gap-3">
+            {CE_RESOURCE_LINKS.map((l) => (
+              <a
+                key={l.href}
+                href={l.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group flex-1 min-w-[240px] rounded-lg border border-line bg-surface px-4 py-3 hover:border-brand transition"
+              >
+                <span className="text-sm font-semibold group-hover:text-brand">{l.label} ↗</span>
+                <span className="block text-xs text-muted mt-0.5">{l.note}</span>
+              </a>
+            ))}
+          </div>
+        </section>
+      )}
     </div>
   );
 }

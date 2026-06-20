@@ -102,6 +102,21 @@ export function LearnEngine({ topic }: { topic: LearnTopic }) {
             </li>
           ))}
         </ul>
+
+        {topic.references && topic.references.length > 0 && (
+          <div className="mt-5 rounded-lg border border-line bg-paper/60 p-4">
+            <h3 className="font-semibold text-brand mb-2 text-sm">📚 Standard references</h3>
+            <ul className="space-y-1.5">
+              {topic.references.map((ref, i) => (
+                <li key={i} className="text-sm leading-relaxed text-ink/85">
+                  <span className="font-medium">{ref.book}</span>
+                  <span className="text-ink/60"> — {ref.author}</span>
+                  {ref.chapter && <span className="text-ink/60"> · {ref.chapter}</span>}
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
       </section>
 
       {/* ─────────── PART 2 + PART 3 · QUESTION SUITE ─────────── */}

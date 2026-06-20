@@ -61,6 +61,13 @@ export type LearnModule = {
 
 export type LearnTier = "free" | "subject" | "premium";
 
+/** A standard-textbook citation surfaced inside a Learn topic. */
+export type LearnReference = {
+  book: string;
+  author: string;
+  chapter?: string;
+};
+
 export type LearnTopic = {
   slug: string;
   subject: string;
@@ -69,6 +76,8 @@ export type LearnTopic = {
   blurb: string;
   module: LearnModule;
   questions: LearnQuestion[];
+  /** Standard reference texts a student should consult for this topic. */
+  references?: LearnReference[];
 };
 
 /* ════════════════════════════════════════════════════════════════════ */
