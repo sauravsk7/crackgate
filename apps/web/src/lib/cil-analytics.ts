@@ -1,12 +1,11 @@
 // Server-side post-test analytics for CIL Management Trainee mock attempts.
-// Computes cut-off projection, a peer leaderboard (rank / percentile / top /
-// average), per-section accuracy, time-vs-ideal pacing, and a per-question
-// item analysis (percent-correct + discrimination index) from the pool of all
-// attempts on the same set. Pure data — rendered by <CilResultAnalytics/>.
+// Computes a peer leaderboard (rank / percentile / top / average), per-section
+// accuracy, time-vs-ideal pacing, and a per-question item analysis
+// (percent-correct + discrimination index) from the pool of all attempts on the
+// same set. Pure data — rendered by <CilResultAnalytics/>.
 
 import { db } from "@/lib/db";
 import { isQuestionCorrect, type Question, type AnswerMap } from "@/lib/grading";
-import { projectCilCutoff } from "@/data/cil";
 
 /** Resolved CIL questions carry section/estSec/difficulty at runtime (from the
  *  JSON bank) even though the shared {@link Question} type omits them. */
@@ -37,7 +36,6 @@ export type CilResultData = {
   total: number;
   pct: number;
   durationSec: number;
-  cutoff: ReturnType<typeof projectCilCutoff>;
   leaderboard: CilLeaderboard;
   sections: { name: string; scored: number; total: number; pct: number }[];
   time: { spentSec: number; idealSec: number; attempted: number; avgSecPerQ: number };
@@ -166,7 +164,6 @@ export async function buildCilResultData(
     total,
     pct,
     durationSec: att.durationSec,
-    cutoff: projectCilCutoff(score, total),
     leaderboard,
     sections,
     time,
