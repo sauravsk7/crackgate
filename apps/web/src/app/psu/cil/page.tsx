@@ -18,7 +18,7 @@ export default function PsuCilPage() {
           <div>
             <h2 className="text-2xl font-extrabold text-ink">Eligibility &amp; mock series by discipline</h2>
             <p className="mt-2 max-w-2xl text-sm text-muted">
-              Pick your discipline to open its dedicated <b>15-mock CIL series</b> in the official{" "}
+              Pick your discipline to open its dedicated <b>10-mock CIL series</b> in the official{" "}
               {CIL_PATTERN.questions} Q · {CIL_PATTERN.durationMin / 60} hr pattern.
             </p>
           </div>

@@ -37,6 +37,22 @@ function isAnswered(a: AnswerMap[number]) {
   return true;
 }
 
+/** Whether a single answer is correct for a question. Shared by the grader and
+ *  post-test item analytics so both apply identical MCQ/MSQ/NAT rules. */
+export function isQuestionCorrect(q: Question, a: AnswerMap[number]): boolean {
+  if (!isAnswered(a)) return false;
+  if (q.type === "NAT") {
+    const v = typeof a === "string" ? parseFloat(a) : (a as number);
+    return natMatches(q, v);
+  }
+  if (q.type === "MSQ") {
+    const exp = [...q.answer].sort();
+    const got = Array.isArray(a) ? [...a].sort() : [];
+    return exp.length === got.length && exp.every((v, k) => v === got[k]);
+  }
+  return a === q.answer;
+}
+
 export function grade(
   questions: Question[],
   answers: AnswerMap,

@@ -23,6 +23,7 @@ export function CilMockPlan({
 }) {
   const payHref = `/pay/upi?plan=pro&exam=PSU&subject=${slug}`;
   const plan = buildCilMockPlan(cilLiveSetNos(slug));
+  const liveCount = plan.filter((m) => m.status === "live").length;
   return (
     <section className="max-w-7xl mx-auto px-5 py-14">
       <div className="flex flex-wrap items-end justify-between gap-4">
@@ -35,7 +36,9 @@ export function CilMockPlan({
             Every set is a full exam-day rehearsal.
           </p>
         </div>
-        <span className="badge badge-pro shrink-0">Launching soon</span>
+        <span className="badge badge-pro shrink-0">
+          {liveCount > 0 ? `${liveCount} of ${plan.length} live` : "Launching soon"}
+        </span>
       </div>
 
       {/* Access state */}
@@ -43,7 +46,11 @@ export function CilMockPlan({
         <div className="mt-6 flex items-center gap-3 rounded-xl border border-ok/30 bg-ok/10 px-4 py-3 text-sm">
           <span aria-hidden className="text-ok">✓</span>
           <span className="font-semibold text-ink">{discipline} series unlocked.</span>
-          <span className="text-muted">Mocks open here as soon as each one ships.</span>
+          <span className="text-muted">
+            {liveCount > 0
+              ? `All ${liveCount} mocks are open — start any set below.`
+              : "Mocks open here as soon as each one ships."}
+          </span>
         </div>
       ) : (
         <CilPaywall discipline={discipline} payHref={payHref} />

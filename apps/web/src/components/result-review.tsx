@@ -5,6 +5,7 @@ import { cn } from "@/lib/utils";
 import { QuestionTypeTag } from "@/components/question-extras";
 import { QuestionFigure, type QuestionFigure as Figure } from "@/components/question-figure";
 import { MathText } from "@/components/math-text";
+import type { CilItemStat } from "@/lib/cil-analytics";
 
 /* A question as stored in the mock / PYQ banks. */
 type ReviewQuestion =
@@ -46,10 +47,11 @@ function deltaFor(q: ReviewQuestion, a: Answer): number {
  * answer and the full worked solution (GATE pattern).
  */
 export function ResultReview({
-  questions, answers,
+  questions, answers, itemStats,
 }: {
   questions: ReviewQuestion[];
   answers: Record<string, Answer>;
+  itemStats?: (CilItemStat | undefined)[] | null;
 }) {
   const [filter, setFilter] = useState<"all" | "wrong" | "skipped">("all");
 
@@ -87,6 +89,19 @@ export function ResultReview({
               <QuestionTypeTag type={q.type} />
               <span className="badge bg-brand/10 text-brand">{q.subject}</span>
               <span className="badge font-bold">{q.marks} mark{q.marks > 1 ? "s" : ""}</span>
+              {itemStats?.[i] && (
+                <span
+                  className={cn(
+                    "badge font-semibold",
+                    itemStats[i]!.pCorrect < 35
+                      ? "bg-rose-100 text-rose-800 dark:bg-rose-500/20 dark:text-rose-200"
+                      : "bg-slate-100 text-slate-600 dark:bg-slate-700 dark:text-slate-300",
+                  )}
+                  title={`${itemStats[i]!.attempts} attempts on this set`}
+                >
+                  👥 {itemStats[i]!.pCorrect}% correct{itemStats[i]!.pCorrect < 35 ? " · 🪤 trap" : ""}
+                </span>
+              )}
               <span className={cn(
                 "ml-auto px-2 py-0.5 rounded text-xs font-bold tabular-nums",
                 !answered ? "bg-slate-100 text-slate-500 dark:bg-slate-700 dark:text-slate-300" : correct ? "bg-emerald-100 text-emerald-800 dark:bg-emerald-500/20 dark:text-emerald-200" : "bg-rose-100 text-rose-800 dark:bg-rose-500/20 dark:text-rose-200"

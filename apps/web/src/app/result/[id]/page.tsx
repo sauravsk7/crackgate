@@ -2,19 +2,21 @@ import { auth } from "@/lib/auth";
 import { db } from "@/lib/db";
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { MOCKS } from "@/data/mocks";
+import { resolveMock } from "@/lib/mock-registry";
 import { ResultReview } from "@/components/result-review";
+import { CilResultAnalytics } from "@/components/cil-result-analytics";
+import { buildCilResultData } from "@/lib/cil-analytics";
 
 export const dynamic = "force-dynamic";
 
 type Answer = number | number[] | string | null | undefined;
 
 /** Re-load the source question bank for an attempt so we can show the answer
- *  key. Mirrors the loader in /api/attempts (refId → mock id). */
+ *  key. Mirrors the loader in /api/attempts (refId → mock id). Covers both the
+ *  GATE catalogue and the CIL MT bank via the shared resolver. */
 function loadBank(kind: string, refId: string): unknown[] | null {
   if (kind === "mock") {
-    const m = MOCKS.find((x) => x.id === refId);
-    return m ? (m.questions as unknown as unknown[]) : null;
+    return resolveMock(refId)?.questions ?? null;
   }
   return null;
 }
@@ -31,6 +33,12 @@ export default async function ResultPage(props: { params: Promise<{ id: string }
   const breakdown = (att.breakdown as Record<string, { scored: number; total: number }>) ?? {};
   const bank = loadBank(att.kind, att.refId);
   const answers = (att.answersJson as Record<string, Answer>) ?? {};
+
+  // CIL MT attempts get the dedicated cut-off / leaderboard / section analytics.
+  const isCil = att.kind === "mock" && att.refId.startsWith("cil-");
+  const cilData = isCil && bank
+    ? await buildCilResultData(att, bank as never)
+    : null;
 
   return (
     <div className="max-w-3xl mx-auto px-4 sm:px-5 py-8 sm:py-12">
@@ -75,7 +83,9 @@ export default async function ResultPage(props: { params: Promise<{ id: string }
         </div>
       </div>
 
-      {bank && <ResultReview questions={bank as never} answers={answers} />}
+      {cilData && <CilResultAnalytics data={cilData} />}
+
+      {bank && <ResultReview questions={bank as never} answers={answers} itemStats={cilData?.itemStats ?? null} />}
     </div>
   );
 }

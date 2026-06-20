@@ -23,7 +23,7 @@ export const CIL_ROWS: CilRow[] = [
 /** Total vacancies across all CIL MT disciplines in the latest advertisement. */
 export const CIL_TOTAL_SEATS = CIL_ROWS.reduce((sum, r) => sum + r.seats, 0);
 
-/** Price to unlock a single CIL discipline's 15-mock series, in paise (₹499). */
+/** Price to unlock a single CIL discipline's 10-mock series, in paise (₹499). */
 export const CIL_PRICE_PAISE = 49900;
 /** Rupee form of {@link CIL_PRICE_PAISE} for UI labels. */
 export const CIL_PRICE_RUPEES = Math.round(CIL_PRICE_PAISE / 100);
@@ -33,6 +33,36 @@ export const CIL_PRICE_RUPEES = Math.round(CIL_PRICE_PAISE / 100);
 export function getCilDiscipline(slug: string): CilRow | undefined {
   return CIL_ROWS.find((r) => r.slug === slug);
 }
+
+// ---------------------------------------------------------------------------
+// Indicative qualifying thresholds for the CIL Management Trainee written test.
+// Expressed as a FRACTION of the paper total so they scale with any mock's
+// max marks. Derived from previous-year CIL MT cut-off trends — these are
+// guidance bands for self-assessment, NOT official cut-offs.
+// ---------------------------------------------------------------------------
+export type CilCutoffBand = { category: string; label: string; fraction: number };
+
+export const CIL_CUTOFF_BANDS: readonly CilCutoffBand[] = [
+  { category: "UR",  label: "General / EWS", fraction: 0.55 },
+  { category: "OBC", label: "OBC-NCL",       fraction: 0.50 },
+  { category: "SC",  label: "SC",            fraction: 0.45 },
+  { category: "ST",  label: "ST",            fraction: 0.42 },
+];
+
+/** Project a score (out of `total`) onto the indicative cut-off bands. */
+export function projectCilCutoff(score: number, total: number) {
+  const bands = CIL_CUTOFF_BANDS.map((b) => {
+    const cutoff = Math.round(b.fraction * total);
+    return { category: b.category, label: b.label, cutoff, qualifies: score >= cutoff };
+  });
+  const cleared = bands.filter((b) => b.qualifies);
+  // The "best" band cleared = the toughest (highest cut-off) the score clears.
+  const bestQualified = cleared.length
+    ? cleared.reduce((a, b) => (b.cutoff > a.cutoff ? b : a)).label
+    : null;
+  return { bands, bestQualified };
+}
+
 
 // Official CIL Management Trainee recruitment notification (TCS iON).
 export const CIL_RECRUITMENT_URL =
