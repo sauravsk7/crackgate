@@ -2,7 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getGateSubject, KNOWN_COMING_SOON } from "@/data/gate/registry";
 import { TrackHub, GATE_MODULES } from "@/components/track-hub";
-import { CivilWindow } from "@/components/hero-carousel";
+import { CivilWindow, GeologyWindow, EnvironmentWindow } from "@/components/hero-carousel";
 
 export const dynamic = "force-dynamic";
 
@@ -38,9 +38,6 @@ export default async function GateSubjectHome(props: { params: Promise<{ subject
   const mocksCount = meta.mocks.length;
   const learnCount = meta.learnTopics.length;
   const aitsCount = meta.aits.length;
-  const syllabus = meta.getLearnSyllabus();
-  const totalSubtopics = syllabus.reduce((s, sec) => s + sec.subtopics.length, 0);
-  const liveSubtopics = syllabus.reduce((s, sec) => s + sec.liveCount, 0);
 
   const modules = [
     { href: `/gate/${subject}/learn`, icon: "📚", title: "Learn & Solve", desc: `${learnCount} topic-wise modules with formula matrices, traps and worked 3-tier question suites.` },
@@ -56,6 +53,18 @@ export default async function GateSubjectHome(props: { params: Promise<{ subject
         <section className="relative overflow-hidden bg-slate-950 text-white">
           <div className="relative min-h-[560px] lg:min-h-[600px]">
             <CivilWindow civil={{ practiceQs, mocksCount, learnCount, subjectsCount }} />
+          </div>
+        </section>
+      ) : subject === "geology" ? (
+        <section className="relative overflow-hidden bg-slate-950 text-white">
+          <div className="relative min-h-[560px] lg:min-h-[600px]">
+            <GeologyWindow stats={{ practiceQs, mocksCount, learnCount, subjectsCount }} />
+          </div>
+        </section>
+      ) : subject === "environment" ? (
+        <section className="relative overflow-hidden bg-slate-950 text-white">
+          <div className="relative min-h-[560px] lg:min-h-[600px]">
+            <EnvironmentWindow stats={{ practiceQs, mocksCount, learnCount, subjectsCount }} />
           </div>
         </section>
       ) : (
@@ -127,49 +136,6 @@ export default async function GateSubjectHome(props: { params: Promise<{ subject
             <Feature icon="📊" title="SWOT Analytics" desc="Subject-wise strengths and weaknesses, time-per-question and an accuracy trend after every attempt." />
             <Feature icon="🛡️" title="Server-side Grading" desc="Scores are computed on our servers — tamper-proof, with a detailed report each time." />
           </div>
-        </div>
-      </section>
-
-      {/* SYLLABUS COVERAGE */}
-      <section className="max-w-7xl mx-auto px-5 py-16 lg:py-20">
-        <div className="text-center">
-          <span className="badge bg-brand/10 text-brand">Full GATE {meta.code} syllabus</span>
-          <h2 className="mt-3 text-3xl font-extrabold">Complete syllabus coverage.</h2>
-          <p className="mt-3 text-muted max-w-2xl mx-auto">
-            All {syllabus.length} sections of the official GATE {meta.label} syllabus — {liveSubtopics} of {totalSubtopics}
-            {" "}sub-topics already have a full Learn module, and the rest are being authored.
-          </p>
-        </div>
-        <div className="mt-12 grid md:grid-cols-2 gap-6">
-          {syllabus.map((sec) => (
-            <div key={sec.id} className="card p-6">
-              <div className="flex items-baseline justify-between gap-3">
-                <h3 className="font-bold text-lg">{sec.title}</h3>
-                <span className="text-xs font-semibold text-brand shrink-0">{sec.liveCount}/{sec.subtopics.length} live</span>
-              </div>
-              <p className="mt-1.5 text-sm text-muted">{sec.summary}</p>
-              <div className="mt-4 flex flex-wrap gap-2">
-                {sec.subtopics.map((st) =>
-                  st.topic ? (
-                    <Link
-                      key={st.title}
-                      href={`/gate/${subject}/learn/${st.topic.slug}`}
-                      className="text-xs font-medium px-2.5 py-1 rounded-full bg-brand/10 text-brand hover:bg-brand/20 transition"
-                    >
-                      {st.title}
-                    </Link>
-                  ) : (
-                    <span
-                      key={st.title}
-                      className="text-xs font-medium px-2.5 py-1 rounded-full bg-line/60 text-muted"
-                    >
-                      {st.title} · soon
-                    </span>
-                  )
-                )}
-              </div>
-            </div>
-          ))}
         </div>
       </section>
 

@@ -231,6 +231,320 @@ export function CivilWindow({ civil }: { civil: CivilStats }) {
   );
 }
 
+/* ───────────────────────── GATE GG (Geology & Geophysics) ───────────────────────── */
+
+type SubjectStats = {
+  practiceQs: number;
+  mocksCount: number;
+  learnCount: number;
+  subjectsCount: number;
+};
+
+export function GeologyWindow({ stats }: { stats: SubjectStats }) {
+  return (
+    <div className="relative h-full w-full">
+      <GeologyBackdrop />
+      <div className="absolute inset-0 bg-gradient-to-r from-slate-900 via-transparent to-amber-950/70" />
+      <div className="relative mx-auto grid h-full max-w-7xl items-center gap-10 px-5 py-16 lg:grid-cols-2 lg:py-20">
+        <div>
+          <span className="badge border border-amber-300/30 bg-amber-300/10 text-amber-200">
+            GATE 2027 · Geology &amp; Geophysics (GG)
+          </span>
+          <h1 className="mt-4 text-4xl font-extrabold leading-tight lg:text-6xl">
+            Master GATE Geology &amp; Geophysics.{" "}
+            <span className="bg-gradient-to-r from-amber-300 to-orange-400 bg-clip-text text-transparent">
+              Read the Earth, Decimal by Decimal.
+            </span>
+          </h1>
+          <p className="mt-5 max-w-xl text-lg text-white/80">
+            The complete GG track — mineralogy &amp; petrology, structural geology, stratigraphy, geophysics
+            and remote sensing. Concept modules, an exam-grade question bank and full-length mocks, tuned a
+            notch tougher than the real paper.
+          </p>
+          <div className="mt-8 flex flex-wrap gap-3">
+            <Link href="/gate/geology/mocks" className="cg-ripple inline-flex items-center gap-2 rounded-lg bg-gradient-to-r from-amber-400 to-orange-500 px-6 py-3.5 text-base font-semibold text-slate-900 shadow-lg shadow-amber-500/20 transition hover:brightness-105">
+              Start free mock <span aria-hidden>→</span>
+            </Link>
+            <Link href="/gate/geology/learn" className="inline-flex items-center gap-2 rounded-lg border border-amber-300/40 bg-amber-300/5 px-6 py-3.5 text-base font-semibold text-amber-200 transition hover:bg-amber-300/15">
+              Learn &amp; Solve
+            </Link>
+          </div>
+          <div className="mt-8 flex flex-wrap gap-6 text-sm text-white/70">
+            <Stat n={`${stats.practiceQs}+`} label="Practice Questions" />
+            <Stat n={`${stats.learnCount}`} label="Learn Modules" />
+            <Stat n={`${stats.mocksCount}`} label="Full-length Mocks" />
+            <Stat n={`${stats.subjectsCount}`} label="Subjects" />
+          </div>
+        </div>
+        <div className="hidden lg:flex lg:justify-center">
+          <GeologyScene />
+        </div>
+      </div>
+    </div>
+  );
+}
+
+/* Folded rock-strata line art for the GATE GG window */
+function GeologyBackdrop() {
+  return (
+    <div className="absolute inset-0 overflow-hidden">
+      <svg className="absolute inset-0 h-full w-full opacity-[0.13]" viewBox="0 0 800 600" preserveAspectRatio="xMidYMid slice" fill="none" stroke="#fcd34d" strokeWidth="2" aria-hidden>
+        {/* folded strata */}
+        {Array.from({ length: 7 }).map((_, i) => (
+          <path
+            key={`s${i}`}
+            d={`M0 ${180 + i * 46} Q200 ${110 + i * 46} 400 ${180 + i * 46} T800 ${180 + i * 46}`}
+          />
+        ))}
+        {/* fault line */}
+        <line x1="520" y1="120" x2="600" y2="560" stroke="#fb923c" strokeWidth="2.5" />
+        {/* dip-strike ticks */}
+        {Array.from({ length: 5 }).map((_, i) => (
+          <g key={`d${i}`} stroke="#fdba74">
+            <line x1={120 + i * 130} y1="500" x2={150 + i * 130} y2="500" />
+            <line x1={135 + i * 130} y1="500" x2={135 + i * 130} y2="516" />
+          </g>
+        ))}
+      </svg>
+    </div>
+  );
+}
+
+/* Animated Geology scene — stereonet + strata column + crystal */
+function GeologyScene() {
+  const float = (delay: number) => ({
+    animate: { y: [0, -10, 0] },
+    transition: { duration: 3.2, repeat: Infinity, ease: "easeInOut" as const, delay },
+  });
+  return (
+    <div className="relative h-[360px] w-[360px]">
+      <div className="absolute inset-0 rounded-full bg-amber-400/10 blur-3xl" />
+
+      {/* central stereonet */}
+      <motion.div
+        initial={{ y: 0 }}
+        animate={{ y: [0, -6, 0] }}
+        transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
+        className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2"
+      >
+        <svg width="220" height="220" viewBox="0 0 220 220" fill="none" aria-hidden>
+          <circle cx="110" cy="110" r="92" stroke="#fcd34d" strokeWidth="3" />
+          <line x1="18" y1="110" x2="202" y2="110" stroke="#fbbf24" strokeWidth="2" />
+          <line x1="110" y1="18" x2="110" y2="202" stroke="#fbbf24" strokeWidth="2" />
+          {/* great-circle arcs */}
+          {[-50, -25, 0, 25, 50].map((o) => (
+            <path key={o} d={`M110 18 Q${110 + o * 2.4} 110 110 202`} stroke="#fdba74" strokeWidth="1.5" fill="none" />
+          ))}
+          {[-50, -25, 0, 25, 50].map((o) => (
+            <path key={`h${o}`} d={`M18 110 Q110 ${110 + o * 2.4} 202 110`} stroke="#fdba74" strokeWidth="1.5" fill="none" />
+          ))}
+          <circle cx="146" cy="78" r="5" fill="#fb923c" />
+        </svg>
+      </motion.div>
+
+      {/* floating strata column */}
+      <motion.div {...float(0)} className="absolute left-0 top-6">
+        <Holo>
+          <svg width="40" height="48" viewBox="0 0 40 48" aria-hidden>
+            <rect x="6" y="4" width="28" height="8" rx="1" fill="#fcd34d" />
+            <rect x="6" y="14" width="28" height="8" rx="1" fill="#fb923c" />
+            <rect x="6" y="24" width="28" height="8" rx="1" fill="#d97706" />
+            <rect x="6" y="34" width="28" height="8" rx="1" fill="#92400e" />
+          </svg>
+        </Holo>
+      </motion.div>
+
+      {/* floating crystal */}
+      <motion.div {...float(0.9)} className="absolute right-0 top-12">
+        <Holo>
+          <svg width="42" height="44" viewBox="0 0 42 44" aria-hidden fill="none" stroke="#fde68a" strokeWidth="2" strokeLinejoin="round">
+            <path d="M21 4 L34 16 L28 40 L14 40 L8 16 Z" fill="#f59e0b" fillOpacity="0.18" />
+            <line x1="21" y1="4" x2="21" y2="40" />
+            <line x1="8" y1="16" x2="34" y2="16" />
+          </svg>
+        </Holo>
+      </motion.div>
+
+      {/* floating seismic wave */}
+      <motion.div {...float(1.5)} className="absolute bottom-3 left-7">
+        <Holo>
+          <svg width="48" height="36" viewBox="0 0 48 36" aria-hidden fill="none" stroke="#fbbf24" strokeWidth="2" strokeLinecap="round">
+            <path d="M2 18 H12 L16 6 L22 30 L28 10 L33 22 L38 18 H46" />
+          </svg>
+        </Holo>
+      </motion.div>
+
+      {/* floating rock hammer */}
+      <motion.div {...float(1.2)} className="absolute bottom-7 right-6">
+        <Holo>
+          <svg width="40" height="40" viewBox="0 0 40 40" aria-hidden fill="none" stroke="#fdba74" strokeWidth="2" strokeLinecap="round">
+            <rect x="6" y="8" width="20" height="8" rx="2" />
+            <line x1="26" y1="12" x2="34" y2="12" />
+            <line x1="16" y1="16" x2="16" y2="34" />
+          </svg>
+        </Holo>
+      </motion.div>
+    </div>
+  );
+}
+
+/* ───────────────────────── GATE ES (Environmental Science) ───────────────────────── */
+
+export function EnvironmentWindow({ stats }: { stats: SubjectStats }) {
+  return (
+    <div className="relative h-full w-full">
+      <EnvironmentBackdrop />
+      <div className="absolute inset-0 bg-gradient-to-r from-slate-900 via-transparent to-teal-950/70" />
+      <div className="relative mx-auto grid h-full max-w-7xl items-center gap-10 px-5 py-16 lg:grid-cols-2 lg:py-20">
+        <div>
+          <span className="badge border border-emerald-300/30 bg-emerald-300/10 text-emerald-200">
+            GATE 2027 · Environmental Science (ES)
+          </span>
+          <h1 className="mt-4 text-4xl font-extrabold leading-tight lg:text-6xl">
+            Crack GATE Environmental Science.{" "}
+            <span className="bg-gradient-to-r from-emerald-300 to-cyan-400 bg-clip-text text-transparent">
+              Air, Water &amp; Earth, Quantified.
+            </span>
+          </h1>
+          <p className="mt-5 max-w-xl text-lg text-white/80">
+            The complete ES track — air quality, water &amp; wastewater treatment, solid &amp; hazardous waste,
+            ecology and environmental management. Concept modules, an exam-grade question bank and full-length
+            mocks, tuned a notch tougher than the real paper.
+          </p>
+          <div className="mt-8 flex flex-wrap gap-3">
+            <Link href="/gate/environment/mocks" className="cg-ripple inline-flex items-center gap-2 rounded-lg bg-gradient-to-r from-emerald-400 to-teal-500 px-6 py-3.5 text-base font-semibold text-slate-900 shadow-lg shadow-emerald-500/20 transition hover:brightness-105">
+              Start free mock <span aria-hidden>→</span>
+            </Link>
+            <Link href="/gate/environment/learn" className="inline-flex items-center gap-2 rounded-lg border border-emerald-300/40 bg-emerald-300/5 px-6 py-3.5 text-base font-semibold text-emerald-200 transition hover:bg-emerald-300/15">
+              Learn &amp; Solve
+            </Link>
+          </div>
+          <div className="mt-8 flex flex-wrap gap-6 text-sm text-white/70">
+            <Stat n={`${stats.practiceQs}+`} label="Practice Questions" />
+            <Stat n={`${stats.learnCount}`} label="Learn Modules" />
+            <Stat n={`${stats.mocksCount}`} label="Full-length Mocks" />
+            <Stat n={`${stats.subjectsCount}`} label="Subjects" />
+          </div>
+        </div>
+        <div className="hidden lg:flex lg:justify-center">
+          <EnvironmentScene />
+        </div>
+      </div>
+    </div>
+  );
+}
+
+/* Flowing water + leaf line art for the GATE ES window */
+function EnvironmentBackdrop() {
+  return (
+    <div className="absolute inset-0 overflow-hidden">
+      <svg className="absolute inset-0 h-full w-full opacity-[0.13]" viewBox="0 0 800 600" preserveAspectRatio="xMidYMid slice" fill="none" stroke="#5eead4" strokeWidth="2" aria-hidden>
+        {/* water waves */}
+        {Array.from({ length: 6 }).map((_, i) => (
+          <path
+            key={`w${i}`}
+            d={`M0 ${260 + i * 48} Q100 ${230 + i * 48} 200 ${260 + i * 48} T400 ${260 + i * 48} T600 ${260 + i * 48} T800 ${260 + i * 48}`}
+          />
+        ))}
+        {/* rising bubbles */}
+        {Array.from({ length: 6 }).map((_, i) => (
+          <circle key={`b${i}`} cx={120 + i * 120} cy={200 - (i % 3) * 30} r={6 + (i % 3) * 3} stroke="#6ee7b7" />
+        ))}
+        {/* stylised leaf */}
+        <path d="M620 120 Q700 60 760 140 Q700 200 620 120 Z" stroke="#34d399" strokeWidth="2.5" />
+        <line x1="640" y1="135" x2="745" y2="135" stroke="#34d399" strokeWidth="1.5" />
+      </svg>
+    </div>
+  );
+}
+
+/* Animated Environment scene — treatment process + droplet + leaf */
+function EnvironmentScene() {
+  const float = (delay: number) => ({
+    animate: { y: [0, -10, 0] },
+    transition: { duration: 3.2, repeat: Infinity, ease: "easeInOut" as const, delay },
+  });
+  return (
+    <div className="relative h-[360px] w-[360px]">
+      <div className="absolute inset-0 rounded-full bg-emerald-400/10 blur-3xl" />
+
+      {/* central treatment-process card */}
+      <motion.div
+        initial={{ y: 0 }}
+        animate={{ y: [0, -6, 0] }}
+        transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
+        className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2"
+      >
+        <svg width="240" height="180" viewBox="0 0 240 180" fill="none" aria-hidden>
+          {/* sedimentation tanks */}
+          <rect x="20" y="70" width="56" height="70" rx="4" stroke="#34d399" strokeWidth="3" />
+          <rect x="92" y="70" width="56" height="70" rx="4" stroke="#2dd4bf" strokeWidth="3" />
+          <rect x="164" y="70" width="56" height="70" rx="4" stroke="#22d3ee" strokeWidth="3" />
+          {/* water level */}
+          <path d="M20 96 Q48 88 76 96 V140 H20 Z" fill="#0ea5e9" fillOpacity="0.25" />
+          <path d="M92 100 Q120 92 148 100 V140 H92 Z" fill="#14b8a6" fillOpacity="0.25" />
+          <path d="M164 104 Q192 96 220 104 V140 H164 Z" fill="#06b6d4" fillOpacity="0.25" />
+          {/* connecting flow */}
+          <line x1="76" y1="110" x2="92" y2="110" stroke="#5eead4" strokeWidth="3" />
+          <line x1="148" y1="110" x2="164" y2="110" stroke="#5eead4" strokeWidth="3" />
+          {/* clean-out arrow */}
+          <line x1="220" y1="60" x2="232" y2="60" stroke="#6ee7b7" strokeWidth="3" strokeLinecap="round" />
+          <polyline points="226,54 232,60 226,66" stroke="#6ee7b7" strokeWidth="3" fill="none" strokeLinecap="round" />
+        </svg>
+      </motion.div>
+
+      {/* floating droplet */}
+      <motion.div {...float(0)} className="absolute left-1 top-6">
+        <Holo>
+          <svg width="36" height="44" viewBox="0 0 36 44" aria-hidden fill="none" stroke="#22d3ee" strokeWidth="2">
+            <path d="M18 6 C26 18 30 26 30 32 A12 12 0 0 1 6 32 C6 26 10 18 18 6 Z" fill="#06b6d4" fillOpacity="0.18" />
+          </svg>
+        </Holo>
+      </motion.div>
+
+      {/* floating leaf */}
+      <motion.div {...float(0.8)} className="absolute right-1 top-12">
+        <Holo>
+          <svg width="44" height="40" viewBox="0 0 44 40" aria-hidden fill="none" stroke="#34d399" strokeWidth="2" strokeLinecap="round">
+            <path d="M8 32 Q8 8 36 6 Q34 32 10 34" fill="#34d399" fillOpacity="0.15" />
+            <line x1="12" y1="30" x2="32" y2="12" />
+          </svg>
+        </Holo>
+      </motion.div>
+
+      {/* floating CO₂ / air-quality gauge */}
+      <motion.div {...float(1.5)} className="absolute bottom-2 left-8">
+        <Holo>
+          <svg width="44" height="40" viewBox="0 0 44 40" aria-hidden fill="none" stroke="#5eead4" strokeWidth="2" strokeLinecap="round">
+            <path d="M6 30 A16 16 0 0 1 38 30" />
+            <line x1="22" y1="30" x2="32" y2="16" />
+            <circle cx="22" cy="30" r="2.5" fill="#5eead4" stroke="none" />
+          </svg>
+        </Holo>
+      </motion.div>
+
+      {/* floating recycle loop */}
+      <motion.div {...float(1.2)} className="absolute bottom-6 right-6">
+        <Holo>
+          <motion.svg
+            width="40" height="40" viewBox="0 0 40 40" aria-hidden
+            animate={{ rotate: 360 }}
+            transition={{ duration: 9, repeat: Infinity, ease: "linear" }}
+            fill="none" stroke="#2dd4bf" strokeWidth="2.5" strokeLinecap="round"
+          >
+            {[0, 120, 240].map((a) => (
+              <g key={a} transform={`rotate(${a} 20 20)`}>
+                <path d="M20 7 A13 13 0 0 1 31 14" />
+                <polyline points="28,8 31,14 25,15" fill="none" />
+              </g>
+            ))}
+          </motion.svg>
+        </Holo>
+      </motion.div>
+    </div>
+  );
+}
+
 /* ───────────────────────── WINDOW 3 — PSU / CIL ───────────────────────── */
 
 export function PsuWindow() {
