@@ -98,12 +98,12 @@ export function HeroCarousel({ practiceQs, mocksCount, subjectsCount, civil }: P
         </AnimatePresence>
       </div>
 
-      {/* Arrows */}
+      {/* Arrows — hidden on touch/tablet (overlap content); dots + autoplay drive nav there */}
       <button
         type="button"
         onClick={() => goRel(-1)}
         aria-label="Previous slide"
-        className="group absolute left-3 top-1/2 z-20 -translate-y-1/2 rounded-full border border-white/20 bg-white/10 p-2.5 backdrop-blur-md transition hover:bg-white/20 sm:left-5"
+        className="group absolute left-3 top-1/2 z-20 hidden -translate-y-1/2 rounded-full border border-white/20 bg-white/10 p-2.5 backdrop-blur-md transition hover:bg-white/20 sm:left-5 lg:block"
       >
         <ChevronLeft />
       </button>
@@ -111,13 +111,13 @@ export function HeroCarousel({ practiceQs, mocksCount, subjectsCount, civil }: P
         type="button"
         onClick={() => goRel(1)}
         aria-label="Next slide"
-        className="group absolute right-3 top-1/2 z-20 -translate-y-1/2 rounded-full border border-white/20 bg-white/10 p-2.5 backdrop-blur-md transition hover:bg-white/20 sm:right-5"
+        className="group absolute right-3 top-1/2 z-20 hidden -translate-y-1/2 rounded-full border border-white/20 bg-white/10 p-2.5 backdrop-blur-md transition hover:bg-white/20 sm:right-5 lg:block"
       >
         <ChevronRight />
       </button>
 
-      {/* Indicators */}
-      <div className="absolute bottom-5 left-1/2 z-20 flex -translate-x-1/2 items-center gap-2">
+      {/* Indicators — visual bar kept small but tap target padded to ~44px */}
+      <div className="absolute bottom-3 left-1/2 z-20 flex -translate-x-1/2 items-center">
         {Array.from({ length: SLIDES }).map((_, i) => (
           <button
             key={i}
@@ -125,10 +125,14 @@ export function HeroCarousel({ practiceQs, mocksCount, subjectsCount, civil }: P
             onClick={() => go(i)}
             aria-label={`Go to slide ${i + 1}`}
             aria-current={active === i}
-            className={`h-2 rounded-full transition-all duration-300 ${
-              active === i ? "w-7 bg-accent" : "w-2 bg-white/40 hover:bg-white/70"
-            }`}
-          />
+            className="group grid place-items-center px-1.5 py-3"
+          >
+            <span
+              className={`h-2 rounded-full transition-all duration-300 ${
+                active === i ? "w-7 bg-accent" : "w-2 bg-white/40 group-hover:bg-white/70"
+              }`}
+            />
+          </button>
         ))}
       </div>
     </section>

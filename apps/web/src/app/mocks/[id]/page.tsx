@@ -1,7 +1,7 @@
 import { notFound, redirect } from "next/navigation";
 import { ExamPortal } from "@/components/exam-portal";
 import { auth } from "@/lib/auth";
-import { resolveMock, allMockIds } from "@/lib/mock-registry";
+import { resolveMock } from "@/lib/mock-registry";
 import { hasEntitlement } from "@/lib/entitlements";
 
 type Plan = "free" | "pro" | "premium";
@@ -62,7 +62,5 @@ export default async function MockPage(props: { params: Promise<{ id: string }> 
   );
 }
 
-export function generateStaticParams() {
-  return allMockIds().map((id) => ({ id }));
-}
+export const dynamic = "force-dynamic";
 

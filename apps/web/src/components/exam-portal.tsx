@@ -306,7 +306,7 @@ export function ExamPortal({
           durationSec: Math.max(0, durationSec - secondsLeft),
         }),
       });
-      if (res.status === 401) return router.push(`/login?next=/${kind === "pyq" ? "pyq" : "mocks"}`);
+      if (res.status === 401) return router.push(`/login?next=/${kind === "pyq" ? "pyq" : "mocks"}/${refId}`);
       if (res.status === 402) { alert("Upgrade required to attempt this paper."); return router.push("/pricing"); }
       const data = await res.json();
       if (!res.ok) throw new Error(JSON.stringify(data?.error));

@@ -82,7 +82,7 @@ function FeatureMatrix() {
     <section className="mt-16">
       <h2 className="text-2xl font-extrabold text-center">What's in each plan</h2>
       <div className="card mt-6 overflow-x-auto">
-        <table className="w-full text-sm">
+        <table className="w-full min-w-[640px] text-sm">
           <thead>
             <tr className="border-b border-line text-left">
               <th className="p-4">Feature</th>

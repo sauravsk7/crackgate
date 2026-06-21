@@ -6,6 +6,9 @@ import { CivilWindow, GeologyWindow, EnvironmentWindow } from "@/components/hero
 
 export const dynamic = "force-dynamic";
 
+/** GATE discipline codes for any subject staged as coming-soon (KNOWN_COMING_SOON). */
+const COMING_SOON_CODES: Record<string, string> = { geology: "GG", environment: "ES" };
+
 export async function generateMetadata(props: { params: Promise<{ subject: string }> }) {
   const { subject } = await props.params;
   const meta = getGateSubject(subject);
@@ -22,9 +25,10 @@ export default async function GateSubjectHome(props: { params: Promise<{ subject
   if (!meta) {
     if (!KNOWN_COMING_SOON.has(subject)) notFound();
     const label = subject.charAt(0).toUpperCase() + subject.slice(1);
+    const code = COMING_SOON_CODES[subject] ?? subject.slice(0, 3).toUpperCase();
     return (
       <TrackHub
-        discipline={`${label} (${subject === "geology" ? "GG" : "ES"})`}
+        discipline={`${label} (${code})`}
         tagline={`Full GATE ${label} preparation is being authored right now — learn, practice, mocks and AITS, all in one place.`}
         live={false}
         modules={GATE_MODULES}
