@@ -2,6 +2,9 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getLearnTopic, LEARN_TOPICS } from "@/data/learn";
 import { LearnEngine } from "@/components/learn-engine";
+import { Breadcrumb } from "@/components/breadcrumb";
+import { ShareOnWhatsApp } from "@/components/share-on-whatsapp";
+import { NewsletterForm } from "@/components/newsletter-form";
 
 export const dynamic = "force-dynamic";
 
@@ -25,13 +28,29 @@ export default async function LearnTopicPage(props: { params: Promise<{ slug: st
   return (
     <div className="max-w-3xl mx-auto px-5 py-10">
       <div className="mb-6">
-        <Link href="/learn" className="text-sm text-muted hover:text-ink">← All topics</Link>
+        <Breadcrumb crumbs={[
+          { label: "Home", href: "/" },
+          { label: "Learn", href: "/learn" },
+          { label: topic.title },
+        ]} />
+        <div className="flex items-center justify-between">
+          <Link href="/learn" className="text-sm text-muted hover:text-ink">← All topics</Link>
+          <ShareOnWhatsApp />
+        </div>
         <div className="text-xs text-muted mt-3">{topic.subject}</div>
         <h1 className="text-2xl lg:text-3xl font-extrabold mt-0.5">{topic.title}</h1>
         <p className="text-muted mt-2">{topic.blurb}</p>
       </div>
 
       <LearnEngine topic={topic} />
+
+      <div className="mt-12 border-t border-line pt-10">
+        <h3 className="text-lg font-bold text-ink">Get exam tips & updates</h3>
+        <p className="mt-1 text-sm text-muted">New mock releases and prep strategies — once a week, no spam.</p>
+        <div className="mt-3">
+          <NewsletterForm source="learn" />
+        </div>
+      </div>
     </div>
   );
 }
