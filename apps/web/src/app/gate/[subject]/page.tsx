@@ -113,6 +113,46 @@ export default async function GateSubjectHome(props: { params: Promise<{ subject
         </section>
       )}
 
+      {/* ABOUT THE EXAM */}
+      <section className="bg-paper/40 border-b border-line">
+        <div className="max-w-7xl mx-auto px-5 py-16 lg:py-20">
+          <div className="grid lg:grid-cols-2 gap-10 items-start">
+            <div>
+              <span className="badge bg-brand/10 text-brand">About the exam</span>
+              <h2 className="mt-3 text-2xl lg:text-3xl font-extrabold">GATE {meta.code} — {meta.label}</h2>
+              <p className="mt-4 text-muted leading-relaxed">{meta.blurb}</p>
+              {subject === "civil" && (
+                <div className="mt-4 text-sm text-muted space-y-2 leading-relaxed">
+                  <p>GATE Civil Engineering (CE) is one of the largest GATE papers by test-takers, with over 80,000 candidates annually. The syllabus spans structural engineering, geotechnical engineering, water resources, transportation, environmental engineering, and geomatics.</p>
+                  <p>The paper follows a 65-question, 100-mark, 3-hour pattern with General Aptitude (15 marks) and the CE technical section (85 marks). Top scores (AIR 1–50) typically land PSU interviews at NMDC, Coal India, NTPC, and ONGC, while others pursue MTech at IITs, NITs, and IISc.</p>
+                  <p>Standard references include Punmia for structures, Gopal Ranjan for geotech, K. Subramanya for water resources, S.K. Khanna for transportation, B.C. Punmia for surveying, and B.S. Grewal for mathematics.</p>
+                </div>
+              )}
+              {subject === "geology" && (
+                <div className="mt-4 text-sm text-muted space-y-2 leading-relaxed">
+                  <p>GATE Geology &amp; Geophysics (GG) is a specialized paper designed for BS/MS graduates in Geology, Applied Geology, and Geophysics. The syllabus is split into two parts — Geology (70%) and Geophysics (30%) — covering mineralogy, petrology, structural geology, sedimentology, paleontology, and geophysical exploration methods.</p>
+                  <p>With approximately 5,000–8,000 candidates per year, GG offers a favorable competition-to-seats ratio for MTech at IITs and PSU recruitment. Top rankers are recruited by ONGC, Oil India, GSI (Geological Survey of India), CIL, NMDC, and Mineral Exploration Corporation Ltd.</p>
+                  <p>Key textbooks include B. M. Williams for mineralogy, A. K. Mukherjee for structural geology, J. A. Winter for petrology, P. Kearey for geophysics, S. Ramakrishnan for Indian stratigraphy, and B. S. Grewal for the mathematics component.</p>
+                </div>
+              )}
+              {subject === "environment" && (
+                <div className="mt-4 text-sm text-muted space-y-2 leading-relaxed">
+                  <p>GATE Environmental Science (ES) is a relatively new paper (introduced in 2025) designed for graduates in Environmental Science, Environmental Engineering, and related interdisciplinary fields. The syllabus covers environmental chemistry, ecology, atmospheric science, water and wastewater treatment, solid and hazardous waste management, and environmental impact assessment.</p>
+                  <p>This paper was introduced to address the growing demand for environmental professionals in the mining, infrastructure, and regulatory sectors. PSUs such as CIL, NMDC, and NTPC have started recruiting through GATE ES scores. Career paths include environmental consultancies, regulatory bodies (CPCB, SPCB), research in climate science, and MTech programs at IITs and NITs.</p>
+                  <p>Recommended references include S. K. Garg for environmental engineering, P. C. C. de Nevers for air pollution control, H. S. Peavy for environmental engineering, A. K. De for environmental chemistry, and B. S. Grewal for engineering mathematics.</p>
+                </div>
+              )}
+            </div>
+            <div className="grid grid-cols-2 gap-4">
+              <StatBox value={`${mocksCount}`} label="Full-length mocks" />
+              <StatBox value={`${practiceQs.toLocaleString("en-IN")}+`} label="Practice questions" />
+              <StatBox value={`${learnCount}`} label="Learn modules" />
+              <StatBox value={`${aitsCount}`} label="AITS tests" />
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* MODULES */}
       <section className="max-w-7xl mx-auto px-5 py-16 lg:py-20">
         <Breadcrumb crumbs={[{ label: "GATE", href: "/gate" }, { label: `${meta.label} (${meta.code})` }]} />
@@ -197,6 +237,15 @@ function Feature({ icon, title, desc }: { icon: string; title: string; desc: str
       </div>
       <h3 className="mt-4 font-bold text-ink">{title}</h3>
       <p className="mt-2 text-sm text-muted leading-relaxed">{desc}</p>
+    </div>
+  );
+}
+
+function StatBox({ value, label }: { value: string; label: string }) {
+  return (
+    <div className="rounded-xl border border-line bg-surface p-5 text-center">
+      <div className="text-3xl font-extrabold text-brand">{value}</div>
+      <div className="text-sm text-muted mt-1">{label}</div>
     </div>
   );
 }

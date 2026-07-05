@@ -99,6 +99,14 @@ export default async function AdminPage() {
           >
             💸 UPI claims{upiPending > 0 ? ` (${upiPending})` : ""}
           </Link>
+          <a
+            href="https://app.posthog.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn btn-ghost text-sm"
+          >
+            📊 Analytics ↗
+          </a>
           <ExportBtn dataset="users" label="📥 Users CSV" />
           <ExportBtn dataset="payments" label="💰 Payments CSV" />
           <ExportBtn dataset="attempts" label="🧪 Attempts CSV" />

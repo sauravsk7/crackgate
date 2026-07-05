@@ -7,6 +7,7 @@ import { SiteFooter } from "@/components/site-footer";
 import { DevPlanSwitcher } from "@/components/dev-plan-switcher";
 import { HideOnMiningSite, ShowOnMiningSite } from "@/components/mobile-nav";
 import { ThemeScript } from "@/components/theme-script";
+import { PostHogProvider } from "@/components/posthog-provider";
 import { auth } from "@/lib/auth";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter", display: "swap" });
@@ -95,10 +96,12 @@ export default async function RootLayout({ children }: { children: React.ReactNo
       </head>
       <body>
         <a href="#main" className="skip-link">Skip to main content</a>
-        <HideOnMiningSite><SiteHeader /></HideOnMiningSite>
-        <ShowOnMiningSite><MiningHeader /></ShowOnMiningSite>
-        <main id="main">{children}</main>
-        <SiteFooter />
+        <PostHogProvider>
+          <HideOnMiningSite><SiteHeader /></HideOnMiningSite>
+          <ShowOnMiningSite><MiningHeader /></ShowOnMiningSite>
+          <main id="main">{children}</main>
+          <SiteFooter />
+        </PostHogProvider>
         {session?.user && <DevPlanSwitcher currentPlan={plan} />}
       </body>
     </html>

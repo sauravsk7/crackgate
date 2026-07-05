@@ -25,6 +25,7 @@
     "next": "^16.2.9",
     "next-auth": "^5.0.0-beta.25",
     "nodemailer": "^9.0.0",
+    "posthog-js": "^1.396.6",
     "qrcode": "^1.5.4",
     "razorpay": "^2.9.5",
     "react": "19.2.7",
