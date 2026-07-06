@@ -7,6 +7,18 @@ import { getLimiter, rateLimitResponse } from "@/lib/rate-limit";
 
 const orderLimiter = getLimiter({ windowMs: 60_000, max: 5, label: "razorpay:order" });
 
+async function withTimeout<T>(promise: Promise<T>, ms: number): Promise<T> {
+  let timer: ReturnType<typeof setTimeout> | undefined;
+  const result = await Promise.race([
+    promise,
+    new Promise<never>((_, reject) => {
+      timer = setTimeout(() => reject(new Error(`Razorpay request timed out after ${ms}ms`)), ms);
+    }),
+  ]);
+  clearTimeout(timer);
+  return result;
+}
+
 const PLANS = {
   pro:     { amount: 49900,  months: 18 },  // ₹499 — GATE 2027 cycle (~18 months)
   premium: { amount: 89900,  months: 18 },  // ₹899 — GATE 2027 cycle
@@ -38,12 +50,15 @@ export async function POST(req: Request) {
       key_secret: process.env.RAZORPAY_KEY_SECRET,
     });
 
-    const order = await rzp.orders.create({
-      amount: cfg.amount,
-      currency: "INR",
-      receipt: `cg-${session.user.id.slice(0, 8)}-${Date.now()}`,
-      notes: { userId: session.user.id, plan, months: String(cfg.months) },
-    });
+    const order = await withTimeout(
+      rzp.orders.create({
+        amount: cfg.amount,
+        currency: "INR",
+        receipt: `cg-${session.user.id.slice(0, 8)}-${Date.now()}`,
+        notes: { userId: session.user.id, plan, months: String(cfg.months) },
+      }),
+      10_000,
+    );
 
     await db.payment.create({
       data: {

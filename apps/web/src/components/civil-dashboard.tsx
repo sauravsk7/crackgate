@@ -1,8 +1,10 @@
 import Link from "next/link";
+import dynamic from "next/dynamic";
 import { fmtDate } from "@/lib/utils";
-import { ScoreTrendChart } from "@/components/score-trend-chart";
 import { getGateSubject } from "@/data/gate/registry";
 import type { DashboardTrack } from "@/lib/dashboard-tracks";
+
+const ScoreTrendChart = dynamic(() => import("@/components/score-trend-chart").then((m) => m.ScoreTrendChart), { ssr: false });
 
 export type CivilAttempt = {
   id: string;

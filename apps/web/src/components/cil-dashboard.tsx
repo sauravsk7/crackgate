@@ -1,10 +1,12 @@
 import Link from "next/link";
+import dynamic from "next/dynamic";
 import { fmtDate } from "@/lib/utils";
-import { ScoreTrendChart } from "@/components/score-trend-chart";
 import { CIL_MOCK_BANK } from "@/data/cil-mock-bank";
 import { getCilDiscipline } from "@/data/cil";
 import { CIL_PATTERN } from "@/data/cil-mocks";
 import type { DashboardTrack } from "@/lib/dashboard-tracks";
+
+const ScoreTrendChart = dynamic(() => import("@/components/score-trend-chart").then((m) => m.ScoreTrendChart), { ssr: false });
 
 export type CilAttempt = {
   id: string;

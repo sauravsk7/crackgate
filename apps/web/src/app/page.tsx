@@ -3,9 +3,11 @@ import { MOCKS } from "@/data/mocks";
 import { PRACTICE } from "@/data/practice";
 import { getGateSubject } from "@/data/gate/registry";
 import { auth } from "@/lib/auth";
+import dynamic from "next/dynamic";
 import { WhatsAppButton } from "@/components/whatsapp-button";
-import { HeroCarousel } from "@/components/hero-carousel";
 import { CilAdBanner } from "@/components/cil-ad-banner";
+
+const HeroCarousel = dynamic(() => import("@/components/hero-carousel").then((m) => m.HeroCarousel), { ssr: false });
 import { NewsletterForm } from "@/components/newsletter-form";
 export const metadata = {
   alternates: { canonical: "/" },

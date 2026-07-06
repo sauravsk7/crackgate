@@ -77,6 +77,7 @@ export async function GET() {
     db.activity.findMany({
       where: { ts: { gte: since30 } },
       select: { ts: true, type: true, userId: true },
+      take: 10_000,
     }),
     db.user.findMany({
       orderBy: { createdAt: "desc" },
@@ -99,6 +100,7 @@ export async function GET() {
   const signups30Rows = await db.user.findMany({
     where: { createdAt: { gte: since30 } },
     select: { createdAt: true },
+    take: 10_000,
   });
   for (const r of signups30Rows) {
     const k = dateKey(r.createdAt);
@@ -107,6 +109,7 @@ export async function GET() {
   const attempts30Rows = await db.attempt.findMany({
     where: { takenAt: { gte: since30 } },
     select: { takenAt: true },
+    take: 10_000,
   });
   for (const r of attempts30Rows) {
     const k = dateKey(r.takenAt);

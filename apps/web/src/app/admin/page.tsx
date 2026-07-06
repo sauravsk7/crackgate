@@ -3,7 +3,9 @@ import { redirect } from "next/navigation";
 import { getAdminSession } from "@/lib/admin";
 import { db } from "@/lib/db";
 import { fmtDate } from "@/lib/utils";
-import { AdminCharts } from "@/components/admin-charts";
+import dynamicImport from "next/dynamic";
+
+const AdminCharts = dynamicImport(() => import("@/components/admin-charts").then((m) => m.AdminCharts), { ssr: false });
 
 export const dynamic = "force-dynamic";
 
