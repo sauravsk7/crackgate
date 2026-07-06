@@ -187,8 +187,8 @@ export function FreshMockRunner({ initialSeed }: { initialSeed?: number }) {
                       return (
                         <li key={j} className={cn(
                           "px-2 py-1 rounded",
-                          isRight && "bg-emerald-50",
-                          !isRight && picked && "bg-rose-50",
+                          isRight && "bg-emerald-50 dark:bg-emerald-500/15",
+                          !isRight && picked && "bg-rose-50 dark:bg-rose-500/15",
                         )}>
                           {String.fromCharCode(65 + j)}. {opt}
                           {isRight && " ✓"}
@@ -294,8 +294,8 @@ export function FreshMockRunner({ initialSeed }: { initialSeed?: number }) {
                   className={cn(
                     "min-h-[36px] min-w-[36px] text-xs rounded font-semibold border transition active:scale-90",
                     i === idx && "ring-2 ring-brand",
-                    isAnswered ? "bg-emerald-100 border-emerald-300 text-emerald-900" :
-                      isSeen ? "bg-amber-50 border-amber-200 text-amber-900" :
+                    isAnswered ? "bg-emerald-100 dark:bg-emerald-500/20 border-emerald-300 dark:border-emerald-600 text-emerald-900 dark:text-emerald-200" :
+                      isSeen ? "bg-amber-50 dark:bg-amber-500/20 border-amber-200 dark:border-amber-600 text-amber-900 dark:text-amber-200" :
                       "bg-surface border-line text-muted",
                   )}
                 >{i + 1}</button>
@@ -303,8 +303,8 @@ export function FreshMockRunner({ initialSeed }: { initialSeed?: number }) {
             })}
           </div>
           <div className="mt-3 text-xs space-y-1">
-            <div className="flex items-center gap-2"><span className="w-3 h-3 bg-emerald-100 border border-emerald-300 rounded-sm" /> answered</div>
-            <div className="flex items-center gap-2"><span className="w-3 h-3 bg-amber-50 border border-amber-200 rounded-sm" /> seen, skipped</div>
+            <div className="flex items-center gap-2"><span className="w-3 h-3 bg-emerald-100 dark:bg-emerald-500/20 border border-emerald-300 dark:border-emerald-600 rounded-sm" /> answered</div>
+            <div className="flex items-center gap-2"><span className="w-3 h-3 bg-amber-50 dark:bg-amber-500/20 border border-amber-200 dark:border-amber-600 rounded-sm" /> seen, skipped</div>
             <div className="flex items-center gap-2"><span className="w-3 h-3 bg-surface border border-line rounded-sm" /> not visited</div>
           </div>
         </aside>
@@ -371,8 +371,8 @@ export function FreshMockRunner({ initialSeed }: { initialSeed?: number }) {
                     className={cn(
                       "min-h-[44px] min-w-[44px] text-xs font-semibold rounded border transition active:scale-90",
                       i === idx && "ring-2 ring-brand",
-                      isAnswered ? "bg-emerald-100 border-emerald-300 text-emerald-900" :
-                        isSeen ? "bg-amber-50 border-amber-200 text-amber-900" :
+                      isAnswered ? "bg-emerald-100 dark:bg-emerald-500/20 border-emerald-300 dark:border-emerald-600 text-emerald-900 dark:text-emerald-200" :
+                        isSeen ? "bg-amber-50 dark:bg-amber-500/20 border-amber-200 dark:border-amber-600 text-amber-900 dark:text-amber-200" :
                         "bg-surface border-line text-muted",
                     )}
                   >{i + 1}</button>
@@ -380,8 +380,8 @@ export function FreshMockRunner({ initialSeed }: { initialSeed?: number }) {
               })}
             </div>
             <div className="mt-3 text-xs space-y-1">
-              <div className="flex items-center gap-2"><span className="w-3 h-3 bg-emerald-100 border border-emerald-300 rounded-sm" /> answered</div>
-              <div className="flex items-center gap-2"><span className="w-3 h-3 bg-amber-50 border border-amber-200 rounded-sm" /> seen, skipped</div>
+              <div className="flex items-center gap-2"><span className="w-3 h-3 bg-emerald-100 dark:bg-emerald-500/20 border border-emerald-300 dark:border-emerald-600 rounded-sm" /> answered</div>
+              <div className="flex items-center gap-2"><span className="w-3 h-3 bg-amber-50 dark:bg-amber-500/20 border border-amber-200 dark:border-amber-600 rounded-sm" /> seen, skipped</div>
               <div className="flex items-center gap-2"><span className="w-3 h-3 bg-surface border border-line rounded-sm" /> not visited</div>
             </div>
           </div>

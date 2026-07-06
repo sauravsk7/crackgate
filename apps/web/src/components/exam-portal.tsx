@@ -420,7 +420,7 @@ export function ExamPortal({
             <span className="badge bg-brand/10 text-brand">{q.subject}</span>
             <QuestionTypeTag type={q.type} />
           </div>
-          <MathText className="prose max-w-none text-base leading-relaxed">{q.stem}</MathText>
+          <MathText className="prose dark:prose-invert max-w-none text-base leading-relaxed">{q.stem}</MathText>
           {q.figure && <QuestionFigure figure={q.figure} />}
 
           <div className="mt-5">
