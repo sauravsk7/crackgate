@@ -22,10 +22,11 @@ function fillDailySeries(days: number): Map<string, number> {
 }
 
 export async function GET() {
-  const admin = await getAdminSession();
-  if (!admin) {
-    return NextResponse.json({ error: "forbidden" }, { status: 403 });
-  }
+  try {
+    const admin = await getAdminSession();
+    if (!admin) {
+      return NextResponse.json({ error: "forbidden" }, { status: 403 });
+    }
 
   const now = new Date();
   const since30 = new Date(now.getTime() - 30 * 86400_000);
@@ -176,4 +177,8 @@ export async function GET() {
       })),
     },
   });
+  } catch (error) {
+    console.error("GET /api/admin/overview:", error);
+    return NextResponse.json({ error: "Internal server error" }, { status: 500 });
+  }
 }

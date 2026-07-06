@@ -7,11 +7,16 @@ import { PRACTICE } from "@/data/practice";
 export const dynamic = "force-static";
 
 export async function GET() {
-  const subjects = PRACTICE.map((s) => {
-    const easy   = s.questions.filter((q) => q.difficulty === "easy").length;
-    const medium = s.questions.filter((q) => q.difficulty === "medium").length;
-    const hard   = s.questions.filter((q) => q.difficulty === "hard").length;
-    return { slug: s.slug, name: s.name, easy, medium, hard, total: easy + medium + hard };
-  });
-  return NextResponse.json({ subjects });
+  try {
+    const subjects = PRACTICE.map((s) => {
+      const easy   = s.questions.filter((q) => q.difficulty === "easy").length;
+      const medium = s.questions.filter((q) => q.difficulty === "medium").length;
+      const hard   = s.questions.filter((q) => q.difficulty === "hard").length;
+      return { slug: s.slug, name: s.name, easy, medium, hard, total: easy + medium + hard };
+    });
+    return NextResponse.json({ subjects });
+  } catch (error) {
+    console.error("GET /api/practice/list:", error);
+    return NextResponse.json({ error: "Internal server error" }, { status: 500 });
+  }
 }

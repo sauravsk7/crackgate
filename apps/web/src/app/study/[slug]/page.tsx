@@ -5,7 +5,7 @@ import { StudyNoteView } from "@/components/study-note-view";
 import { Breadcrumb } from "@/components/breadcrumb";
 import { ShareOnWhatsApp } from "@/components/share-on-whatsapp";
 
-export const dynamic = "force-dynamic";
+export const revalidate = 3600;
 
 // Study Notes are free for everyone — no plan gating.
 function tierBadge(_tier: StudyNoteTier) {

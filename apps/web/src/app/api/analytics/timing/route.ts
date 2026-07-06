@@ -32,55 +32,59 @@ function istHour(d: Date): number {
 }
 
 export async function GET() {
-  const session = await auth();
-  if (!session?.user?.id) {
-    return NextResponse.json({ error: "unauthenticated" }, { status: 401 });
-  }
-
-  const since = new Date(Date.now() - 60 * 24 * 60 * 60 * 1000);
-  const attempts = await db.attempt.findMany({
-    where: { userId: session.user.id, takenAt: { gte: since } },
-    select: { takenAt: true, score: true, total: true },
-  });
-
-  const buckets: Array<{ accSum: number; attempts: number; questions: number }> = Array.from(
-    { length: 24 },
-    () => ({ accSum: 0, attempts: 0, questions: 0 }),
-  );
-
-  for (const a of attempts) {
-    if (!a.total) continue;
-    const h = istHour(a.takenAt);
-    const b = buckets[h];
-    b.accSum += (a.score / a.total) * 100;
-    b.attempts += 1;
-    b.questions += a.total;
-  }
-
-  const hourly: HourStat[] = buckets.map((b, hour) => ({
-    hour,
-    attempts: b.attempts,
-    questions: b.questions,
-    avgAccuracy: b.attempts ? Math.round(b.accSum / b.attempts) : 0,
-  }));
-
-  // Peak hour = best avg accuracy among hours with at least 2 sessions
-  let peakHour: number | null = null;
-  let peakAccuracy: number | null = null;
-  for (const h of hourly) {
-    if (h.attempts < 2) continue;
-    if (peakAccuracy == null || h.avgAccuracy > peakAccuracy) {
-      peakAccuracy = h.avgAccuracy;
-      peakHour = h.hour;
+  try {
+    const session = await auth();
+    if (!session?.user?.id) {
+      return NextResponse.json({ error: "unauthenticated" }, { status: 401 });
     }
-  }
 
-  const body: Resp = {
-    hourly,
-    peakHour,
-    peakAccuracy,
-    totalAttempts: attempts.length,
-    windowDays: 60,
-  };
-  return NextResponse.json(body);
+    const since = new Date(Date.now() - 60 * 24 * 60 * 60 * 1000);
+    const attempts = await db.attempt.findMany({
+      where: { userId: session.user.id, takenAt: { gte: since } },
+      select: { takenAt: true, score: true, total: true },
+    });
+
+    const buckets: Array<{ accSum: number; attempts: number; questions: number }> = Array.from(
+      { length: 24 },
+      () => ({ accSum: 0, attempts: 0, questions: 0 }),
+    );
+
+    for (const a of attempts) {
+      if (!a.total) continue;
+      const h = istHour(a.takenAt);
+      const b = buckets[h];
+      b.accSum += (a.score / a.total) * 100;
+      b.attempts += 1;
+      b.questions += a.total;
+    }
+
+    const hourly: HourStat[] = buckets.map((b, hour) => ({
+      hour,
+      attempts: b.attempts,
+      questions: b.questions,
+      avgAccuracy: b.attempts ? Math.round(b.accSum / b.attempts) : 0,
+    }));
+
+    let peakHour: number | null = null;
+    let peakAccuracy: number | null = null;
+    for (const h of hourly) {
+      if (h.attempts < 2) continue;
+      if (peakAccuracy == null || h.avgAccuracy > peakAccuracy) {
+        peakAccuracy = h.avgAccuracy;
+        peakHour = h.hour;
+      }
+    }
+
+    const body: Resp = {
+      hourly,
+      peakHour,
+      peakAccuracy,
+      totalAttempts: attempts.length,
+      windowDays: 60,
+    };
+    return NextResponse.json(body);
+  } catch (error) {
+    console.error("GET /api/analytics/timing:", error);
+    return NextResponse.json({ error: "Internal server error" }, { status: 500 });
+  }
 }

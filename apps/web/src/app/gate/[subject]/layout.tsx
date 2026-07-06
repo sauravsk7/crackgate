@@ -2,7 +2,7 @@ import { notFound } from "next/navigation";
 import { getGateSubject, liveGateSubjects, KNOWN_COMING_SOON } from "@/data/gate/registry";
 import { SubjectHeader } from "@/components/subject-header";
 
-export const dynamic = "force-dynamic";
+export const revalidate = 3600;
 
 export function generateStaticParams() {
   return [...liveGateSubjects(), ...KNOWN_COMING_SOON].map((subject) => ({ subject }));

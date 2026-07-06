@@ -6,7 +6,7 @@ import { Breadcrumb } from "@/components/breadcrumb";
 import { ShareOnWhatsApp } from "@/components/share-on-whatsapp";
 import { NewsletterForm } from "@/components/newsletter-form";
 
-export const dynamic = "force-dynamic";
+export const revalidate = 3600;
 
 export async function generateMetadata(props: { params: Promise<{ slug: string }> }) {
   const { slug } = await props.params;

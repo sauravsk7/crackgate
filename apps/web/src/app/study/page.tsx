@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { STUDY_NOTES, STUDY_NOTE_PLAN, type StudyNoteTier } from "@/data/study-notes";
 
-export const dynamic = "force-dynamic";
+export const revalidate = 3600;
 export const metadata = {
   title: "Study Notes — Elite GATE MN Revision, Section by Section",
   description:

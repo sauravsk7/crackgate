@@ -37,7 +37,8 @@ function pick(pool: PracticeQuestion[], n: number, rand: () => number): Practice
 }
 
 export async function GET(req: Request) {
-  const session = await auth();
+  try {
+    const session = await auth();
   const plan = (session?.user as { plan?: string } | undefined)?.plan ?? "free";
   if (plan !== "premium") {
     return NextResponse.json(
@@ -90,4 +91,8 @@ export async function GET(req: Request) {
     negativeMarking: { mcq1: -1 / 3, mcq2: -2 / 3, nat: 0, msq: 0 },
     questions,
   });
+  } catch (error) {
+    console.error("GET /api/mocks/fresh:", error);
+    return NextResponse.json({ error: "Internal server error" }, { status: 500 });
+  }
 }

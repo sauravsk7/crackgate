@@ -19,18 +19,23 @@ const SubmitSchema = z.object({
 });
 
 export async function GET() {
-  const session = await auth();
-  if (!session?.user) return NextResponse.json({ error: "unauthenticated" }, { status: 401 });
-  const attempts = await db.attempt.findMany({
-    where: { userId: session.user.id },
-    orderBy: { takenAt: "desc" },
-    take: 100,
-    select: {
-      id: true, kind: true, refId: true, refTitle: true, score: true, total: true,
-      correct: true, wrong: true, skipped: true, durationSec: true, takenAt: true, breakdown: true,
-    },
-  });
-  return NextResponse.json({ attempts });
+  try {
+    const session = await auth();
+    if (!session?.user) return NextResponse.json({ error: "unauthenticated" }, { status: 401 });
+    const attempts = await db.attempt.findMany({
+      where: { userId: session.user.id },
+      orderBy: { takenAt: "desc" },
+      take: 100,
+      select: {
+        id: true, kind: true, refId: true, refTitle: true, score: true, total: true,
+        correct: true, wrong: true, skipped: true, durationSec: true, takenAt: true, breakdown: true,
+      },
+    });
+    return NextResponse.json({ attempts });
+  } catch (error) {
+    console.error("GET /api/attempts:", error);
+    return NextResponse.json({ error: "Internal server error" }, { status: 500 });
+  }
 }
 
 export async function POST(req: Request) {

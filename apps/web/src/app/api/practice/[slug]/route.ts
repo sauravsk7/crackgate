@@ -47,6 +47,7 @@ async function loadTopicMastery(userId: string, subjectSlug: string): Promise<Ma
 }
 
 export async function GET(req: Request, props: { params: Promise<{ slug: string }> }) {
+  try {
   const { slug } = await props.params;
   // CE (Civil) subjects use the per-subject entitlement gate; all other slugs
   // use the legacy mining plan gate.
@@ -147,4 +148,8 @@ export async function GET(req: Request, props: { params: Promise<{ slug: string 
     adaptiveRequested: adaptive,
     questions,
   });
+  } catch (error) {
+    console.error("GET /api/practice/[slug]:", error);
+    return NextResponse.json({ error: "Internal server error" }, { status: 500 });
+  }
 }
