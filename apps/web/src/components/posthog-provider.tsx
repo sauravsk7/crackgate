@@ -30,7 +30,19 @@ function SuspendedPostHogPageView() {
   );
 }
 
-export function PostHogProvider({ children }: { children: React.ReactNode }) {
+function IdentifyUser({ user }: { user: { id: string; email?: string; name?: string } }) {
+  const ph = usePostHog();
+
+  useEffect(() => {
+    if (ph) {
+      ph.identify(user.id, { email: user.email, name: user.name });
+    }
+  }, [ph, user.id, user.email, user.name]);
+
+  return null;
+}
+
+export function PostHogProvider({ children, user }: { children: React.ReactNode; user?: { id: string; email?: string; name?: string } | null }) {
   if (typeof window === "undefined" || !key) return <>{children}</>;
 
   posthog.init(key, {
@@ -41,6 +53,7 @@ export function PostHogProvider({ children }: { children: React.ReactNode }) {
   return (
     <PHProvider client={posthog}>
       <SuspendedPostHogPageView />
+      {user && <IdentifyUser user={user} />}
       {children}
     </PHProvider>
   );

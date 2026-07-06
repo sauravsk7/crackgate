@@ -4,6 +4,7 @@ import { BLOG_POSTS, getBlogPost } from "@/data/blog";
 import { Breadcrumb } from "@/components/breadcrumb";
 import { ShareOnWhatsApp } from "@/components/share-on-whatsapp";
 import { NewsletterForm } from "@/components/newsletter-form";
+import { readTime } from "@/lib/read-time";
 
 export async function generateStaticParams() {
   return BLOG_POSTS.map((p) => ({ slug: p.slug }));
@@ -19,7 +20,7 @@ export async function generateMetadata(props: { params: Promise<{ slug: string }
     alternates: { canonical: `/blog/${slug}` },
     openGraph: {
       type: "article",
-      images: [`/api/og?subject=Blog&title=${encodeURIComponent(post.title)}`],
+      images: [{ url: `/api/og?subject=Blog&title=${encodeURIComponent(post.title)}`, alt: post.title }],
       publishedTime: post.date,
       authors: [post.author],
       tags: post.tags,
@@ -47,6 +48,7 @@ export default async function BlogPostPage(props: { params: Promise<{ slug: stri
     description: post.description,
     author: { "@type": "Person", name: post.author },
     datePublished: post.date,
+    dateModified: post.date,
     publisher: {
       "@type": "Organization",
       name: "CrackGate",
@@ -56,7 +58,7 @@ export default async function BlogPostPage(props: { params: Promise<{ slug: stri
   };
 
   const paragraphs = post.body.split("\n\n");
-  const readTime = Math.max(1, Math.round(post.body.split(" ").length / 200));
+  const mins = readTime(post.body);
 
   return (
     <>
@@ -86,7 +88,7 @@ export default async function BlogPostPage(props: { params: Promise<{ slug: stri
             <span aria-hidden>·</span>
             <time dateTime={post.date}>{fmt(post.date)}</time>
             <span aria-hidden>·</span>
-            <span>{readTime} min read</span>
+            <span>{mins} min read</span>
           </div>
           <p className="text-muted mt-4 text-lg leading-relaxed">{post.description}</p>
         </div>

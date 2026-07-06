@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { BLOG_POSTS } from "@/data/blog";
+import { readTime } from "@/lib/read-time";
 
 export const metadata = {
   title: "Blog · CrackGate",
@@ -38,7 +39,7 @@ export default function BlogIndex() {
               <span aria-hidden>·</span>
               <time dateTime={post.date}>{new Date(post.date).toLocaleDateString("en-IN", { day: "numeric", month: "long", year: "numeric" })}</time>
               <span aria-hidden>·</span>
-              <span>{(post.body.length / 2000).toFixed(0)} min read</span>
+              <span>{readTime(post.body)} min read</span>
             </div>
           </Link>
         ))}

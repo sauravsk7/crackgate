@@ -18,14 +18,14 @@ export async function generateMetadata(props: { params: Promise<{ subject: strin
     return {
     alternates: { canonical: "/gate/" + subject + "" },
       title: `GATE ${meta.label} (${meta.code}) · CrackGate`,
-      openGraph: { images: ["/api/og?subject=" + encodeURIComponent("GATE " + meta.code) + "&title=" + encodeURIComponent(meta.label)] },
+      openGraph: { images: [{ url: "/api/og?subject=" + encodeURIComponent("GATE " + meta.code) + "&title=" + encodeURIComponent(meta.label), alt: `GATE ${meta.label} (${meta.code}) preparation` }] },
     description: `Complete GATE ${meta.code} preparation — full-length mocks, topic-wise practice, IIT-authored learn modules, SWOT analytics, and exam simulations for ${meta.label}.`,
     };
   }
   const label = subject.charAt(0).toUpperCase() + subject.slice(1);
   return {
     title: `GATE ${label} · CrackGate`,
-    openGraph: { images: ["/api/og?subject=" + encodeURIComponent("GATE " + label) + "&title=" + encodeURIComponent(label + " preparation")] },
+    openGraph: { images: [{ url: "/api/og?subject=" + encodeURIComponent("GATE " + label) + "&title=" + encodeURIComponent(label + " preparation"), alt: `GATE ${label} preparation` }] },
     description: `Prepare for GATE ${label} with CrackGate — mock tests, practice questions, learn modules and performance analytics.`,
   };
 }
