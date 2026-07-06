@@ -6,7 +6,7 @@ import { getCilDiscipline } from "@/data/cil";
 import { CIL_PATTERN } from "@/data/cil-mocks";
 import type { DashboardTrack } from "@/lib/dashboard-tracks";
 
-const ScoreTrendChart = dynamic(() => import("@/components/score-trend-chart").then((m) => m.ScoreTrendChart), { ssr: false });
+const ScoreTrendChart = dynamic(() => import("@/components/score-trend-chart").then((m) => m.ScoreTrendChart));
 
 export type CilAttempt = {
   id: string;

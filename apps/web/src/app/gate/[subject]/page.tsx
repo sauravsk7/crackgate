@@ -5,9 +5,9 @@ import { getGateSubject, KNOWN_COMING_SOON } from "@/data/gate/registry";
 import { TrackHub, GATE_MODULES } from "@/components/track-hub";
 import dynamicImport from "next/dynamic";
 
-const CivilWindow = dynamicImport(() => import("@/components/hero-carousel").then((m) => m.CivilWindow), { ssr: false });
-const GeologyWindow = dynamicImport(() => import("@/components/hero-carousel").then((m) => m.GeologyWindow), { ssr: false });
-const EnvironmentWindow = dynamicImport(() => import("@/components/hero-carousel").then((m) => m.EnvironmentWindow), { ssr: false });
+const CivilWindow = dynamicImport(() => import("@/components/hero-carousel").then((m) => m.CivilWindow));
+const GeologyWindow = dynamicImport(() => import("@/components/hero-carousel").then((m) => m.GeologyWindow));
+const EnvironmentWindow = dynamicImport(() => import("@/components/hero-carousel").then((m) => m.EnvironmentWindow));
 import { Breadcrumb } from "@/components/breadcrumb";
 
 export const dynamic = "force-dynamic";

@@ -5,7 +5,7 @@ import { db } from "@/lib/db";
 import { fmtDate } from "@/lib/utils";
 import dynamicImport from "next/dynamic";
 
-const AdminCharts = dynamicImport(() => import("@/components/admin-charts").then((m) => m.AdminCharts), { ssr: false });
+const AdminCharts = dynamicImport(() => import("@/components/admin-charts").then((m) => m.AdminCharts));
 
 export const dynamic = "force-dynamic";
 

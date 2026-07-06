@@ -4,7 +4,7 @@ import { fmtDate } from "@/lib/utils";
 import { getGateSubject } from "@/data/gate/registry";
 import type { DashboardTrack } from "@/lib/dashboard-tracks";
 
-const ScoreTrendChart = dynamic(() => import("@/components/score-trend-chart").then((m) => m.ScoreTrendChart), { ssr: false });
+const ScoreTrendChart = dynamic(() => import("@/components/score-trend-chart").then((m) => m.ScoreTrendChart));
 
 export type CivilAttempt = {
   id: string;

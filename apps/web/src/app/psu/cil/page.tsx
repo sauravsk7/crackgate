@@ -4,7 +4,7 @@ import { CIL_PATTERN } from "@/data/cil-mocks";
 import { CilAdBanner } from "@/components/cil-ad-banner";
 import dynamic from "next/dynamic";
 
-const PsuCilHero = dynamic(() => import("@/components/psu-cil-hero").then((m) => m.PsuCilHero), { ssr: false });
+const PsuCilHero = dynamic(() => import("@/components/psu-cil-hero").then((m) => m.PsuCilHero));
 import { NewsletterForm } from "@/components/newsletter-form";
 
 export const metadata = {

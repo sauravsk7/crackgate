@@ -1,7 +1,7 @@
 import Link from "next/link";
 import dynamic from "next/dynamic";
 
-const PyqAnalyticsDashboard = dynamic(() => import("@/components/pyq-analytics-dashboard").then((m) => m.PyqAnalyticsDashboard), { ssr: false });
+const PyqAnalyticsDashboard = dynamic(() => import("@/components/pyq-analytics-dashboard").then((m) => m.PyqAnalyticsDashboard));
 import { PYQ_YEARS, MIN_YEAR, MAX_YEAR, PYQ_TOTAL } from "@/data/pyq-analytics";
 
 export const metadata = {
