@@ -20,5 +20,5 @@ export default auth((req) => {
 });
 
 export const config = {
-  matcher: ["/((?!api/auth|_next|.*\\..*).*)"],
+  matcher: ["/dashboard/:path*", "/settings/:path*", "/admin/:path*"],
 };

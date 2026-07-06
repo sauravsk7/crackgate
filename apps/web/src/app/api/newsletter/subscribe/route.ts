@@ -1,6 +1,9 @@
 import { NextResponse } from "next/server";
 import { z } from "zod";
 import { db } from "@crackgate/database";
+import { getLimiter, ipFromRequest, rateLimitResponse } from "@/lib/rate-limit";
+
+const subscribeLimiter = getLimiter({ windowMs: 60 * 60 * 1000, max: 5, label: "newsletter:post" });
 
 const bodySchema = z.object({
   email: z.string().trim().email(),
@@ -8,6 +11,10 @@ const bodySchema = z.object({
 });
 
 export async function POST(request: Request) {
+  const ip = ipFromRequest(request);
+  const { allowed, resetAt } = subscribeLimiter.check(ip);
+  if (!allowed) return rateLimitResponse(Math.ceil((resetAt - Date.now()) / 1000));
+
   const body = await request.json().catch(() => null);
   if (!body) {
     return NextResponse.json({ error: "Invalid request body" }, { status: 400 });
@@ -19,7 +26,6 @@ export async function POST(request: Request) {
   }
 
   const { email, source } = parsed.data;
-  const ip = request.headers.get("x-forwarded-for") ?? request.headers.get("x-real-ip") ?? null;
 
   try {
     await db.newsletterSubscriber.create({

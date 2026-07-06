@@ -33,6 +33,7 @@ volumes:
   caddy_data:
   caddy_config:
   pgbouncer_socket:
+  redis_data:
 
 services:
   # ─── connection pooler ─────────────────────────────────────────────────
@@ -68,9 +69,12 @@ services:
     depends_on:
       pgbouncer:
         condition: service_healthy
+      redis:
+        condition: service_healthy
     environment:
       # Prisma talks to pgbouncer on the docker network, NOT directly to RDS.
       DATABASE_URL: postgresql://${POSTGRES_USER:-crackgate}:${POSTGRES_PASSWORD}@pgbouncer:5432/${POSTGRES_DB:-crackgate}?schema=public&pgbouncer=true&connection_limit=1&sslmode=disable
+      REDIS_URL: redis://redis:6379
       # Direct-RDS URL for `prisma migrate deploy` (no pgbouncer, allows DDL).
       DIRECT_URL: postgresql://${POSTGRES_USER:-crackgate}:${POSTGRES_PASSWORD}@${RDS_HOST}:${RDS_PORT:-5432}/${POSTGRES_DB:-crackgate}?schema=public&sslmode=require
       NODE_ENV: production
@@ -127,6 +131,22 @@ services:
         awslogs-region: ${AWS_REGION:-ap-south-1}
         awslogs-group: ${AWS_LOG_GROUP_CADDY:-/crackgate/caddy}
         awslogs-create-group: "true"
+
+  # ─── Redis (for BullMQ background jobs) ─────────────────────────────────
+  # On AWS, consider replacing with ElastiCache Redis for production. For the
+  # single-EC2 deployment a local container is sufficient.
+  redis:
+    image: redis:7-alpine
+    restart: always
+    volumes:
+      - redis_data:/data
+    networks:
+      - crackgate-net
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 3s
+      retries: 5
 
   # ─── nightly pg_dump → S3 ──────────────────────────────────────────────
   # Runs once per day at 19:30 UTC (01:00 IST). Uses EC2's IAM instance

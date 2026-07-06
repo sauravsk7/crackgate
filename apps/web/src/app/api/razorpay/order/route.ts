@@ -3,6 +3,9 @@ import { db } from "@/lib/db";
 import { NextResponse } from "next/server";
 import { z } from "zod";
 import Razorpay from "razorpay";
+import { getLimiter, rateLimitResponse } from "@/lib/rate-limit";
+
+const orderLimiter = getLimiter({ windowMs: 60_000, max: 5, label: "razorpay:order" });
 
 const PLANS = {
   pro:     { amount: 49900,  months: 18 },  // ₹499 — GATE 2027 cycle (~18 months)
@@ -15,6 +18,8 @@ export async function POST(req: Request) {
   try {
     const session = await auth();
     if (!session?.user) return NextResponse.json({ error: "unauthenticated" }, { status: 401 });
+    const { allowed, resetAt } = orderLimiter.check(session.user.id);
+    if (!allowed) return rateLimitResponse(Math.ceil((resetAt - Date.now()) / 1000));
     const parsed = Body.safeParse(await req.json());
     if (!parsed.success) return NextResponse.json({ error: parsed.error.flatten() }, { status: 400 });
 
