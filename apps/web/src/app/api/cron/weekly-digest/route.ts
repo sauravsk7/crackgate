@@ -16,6 +16,7 @@
  *  ?userId=X → restrict to a single user (for QA).
  */
 import { NextResponse } from "next/server";
+import { createHmac, timingSafeEqual } from "node:crypto";
 import { db } from "@/lib/db";
 import { digestQueue, whatsappQueue } from "@/lib/queue";
 
@@ -29,8 +30,11 @@ async function run(req: Request) {
   if (process.env.NODE_ENV === "production") {
     const want = process.env.CRON_SECRET;
     if (!want) return NextResponse.json({ error: "CRON_SECRET not configured" }, { status: 500 });
-    const got = req.headers.get("x-cron-secret");
-    if (got !== want) return NextResponse.json({ error: "forbidden" }, { status: 403 });
+    const got = req.headers.get("x-cron-secret") ?? "";
+    const wantBuf = Buffer.from(want);
+    const gotBuf = Buffer.from(got);
+    const ok = gotBuf.length === wantBuf.length && timingSafeEqual(gotBuf, wantBuf);
+    if (!ok) return NextResponse.json({ error: "forbidden" }, { status: 403 });
   }
 
   const url = new URL(req.url);
