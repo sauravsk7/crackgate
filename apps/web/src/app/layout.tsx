@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import "katex/dist/katex.min.css";
@@ -14,6 +14,11 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-inter", display: "sw
 
 // Staging (staging.crackgate.in) must never be indexed by search engines.
 // const isStaging = process.env.NEXT_PUBLIC_SITE_ENV === "staging";
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+};
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://crackgate.in"),

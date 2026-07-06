@@ -10,16 +10,21 @@ const profileSchema = z.object({
 });
 
 export async function GET() {
-  const session = await auth();
-  if (!session?.user) return NextResponse.json({ error: "unauthenticated" }, { status: 401 });
-  const u = await db.user.findUnique({
-    where: { id: session.user.id },
-    select: {
-      id: true, email: true, name: true, picture: true, plan: true, planExpiry: true,
-      role: true, targetYear: true, currentStatus: true, createdAt: true,
-    },
-  });
-  return NextResponse.json({ user: u });
+  try {
+    const session = await auth();
+    if (!session?.user) return NextResponse.json({ error: "unauthenticated" }, { status: 401 });
+    const u = await db.user.findUnique({
+      where: { id: session.user.id },
+      select: {
+        id: true, email: true, name: true, picture: true, plan: true, planExpiry: true,
+        role: true, targetYear: true, currentStatus: true, createdAt: true,
+      },
+    });
+    return NextResponse.json({ user: u });
+  } catch (error) {
+    console.error("GET /api/me:", error);
+    return NextResponse.json({ error: "Internal server error" }, { status: 500 });
+  }
 }
 
 export async function PATCH(req: Request) {

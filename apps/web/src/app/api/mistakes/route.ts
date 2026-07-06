@@ -75,71 +75,75 @@ function isWrong(q: BankQ, a: unknown): boolean {
 }
 
 export async function GET(req: Request) {
-  const session = await auth();
-  if (!session?.user?.id) {
-    return NextResponse.json({ error: "unauthenticated" }, { status: 401 });
-  }
+  try {
+    const session = await auth();
+    if (!session?.user?.id) {
+      return NextResponse.json({ error: "unauthenticated" }, { status: 401 });
+    }
 
-  const url = new URL(req.url);
-  const limit = Math.min(parseInt(url.searchParams.get("limit") ?? "50", 10) || 50, 200);
-  const subjectFilter = url.searchParams.get("subject");
+    const url = new URL(req.url);
+    const limit = Math.min(parseInt(url.searchParams.get("limit") ?? "50", 10) || 50, 200);
+    const subjectFilter = url.searchParams.get("subject");
 
-  const attempts = await db.attempt.findMany({
-    where: { userId: session.user.id },
-    orderBy: { takenAt: "desc" },
-    take: 20,
-    select: {
-      id: true, kind: true, refId: true, refTitle: true, takenAt: true, answersJson: true,
-    },
-  });
-
-  const out: MistakeItem[] = [];
-  for (const att of attempts) {
-    const bank = loadBank(att.kind, att.refId);
-    if (!bank) continue;
-    const answers = (att.answersJson as Record<string, unknown>) ?? {};
-
-    bank.forEach((q, idx) => {
-      const a = answers[String(idx)] ?? answers[idx as unknown as string];
-      const skipped = !isAnswered(a);
-      if (!skipped && !isWrong(q, a)) return; // correct → not a mistake
-
-      if (subjectFilter && q.subject !== subjectFilter) return;
-
-      out.push({
-        key: `${att.id}:${idx}`,
-        attemptId: att.id,
-        attemptDate: att.takenAt.toISOString(),
-        refTitle: att.refTitle,
-        refId: att.refId,
-        kind: att.kind as "mock" | "pyq",
-        idx,
-        subject: q.subject ?? "Unknown",
-        topic: q.topic ?? null,
-        type: (q.type ?? "MCQ") as "MCQ" | "MSQ" | "NAT",
-        stem: q.stem ?? "",
-        options: q.options,
-        correct: q.answer as number | number[],
-        userAnswer: skipped ? null : (a as number | number[] | string),
-        isSkipped: skipped,
-        solution: q.solution,
-        marks: q.marks ?? 1,
-      });
-
-      if (out.length >= limit) return;
+    const attempts = await db.attempt.findMany({
+      where: { userId: session.user.id },
+      orderBy: { takenAt: "desc" },
+      take: 20,
+      select: {
+        id: true, kind: true, refId: true, refTitle: true, takenAt: true, answersJson: true,
+      },
     });
-    if (out.length >= limit) break;
+
+    const out: MistakeItem[] = [];
+    for (const att of attempts) {
+      const bank = loadBank(att.kind, att.refId);
+      if (!bank) continue;
+      const answers = (att.answersJson as Record<string, unknown>) ?? {};
+
+      bank.forEach((q, idx) => {
+        const a = answers[String(idx)] ?? answers[idx as unknown as string];
+        const skipped = !isAnswered(a);
+        if (!skipped && !isWrong(q, a)) return;
+
+        if (subjectFilter && q.subject !== subjectFilter) return;
+
+        out.push({
+          key: `${att.id}:${idx}`,
+          attemptId: att.id,
+          attemptDate: att.takenAt.toISOString(),
+          refTitle: att.refTitle,
+          refId: att.refId,
+          kind: att.kind as "mock" | "pyq",
+          idx,
+          subject: q.subject ?? "Unknown",
+          topic: q.topic ?? null,
+          type: (q.type ?? "MCQ") as "MCQ" | "MSQ" | "NAT",
+          stem: q.stem ?? "",
+          options: q.options,
+          correct: q.answer as number | number[],
+          userAnswer: skipped ? null : (a as number | number[] | string),
+          isSkipped: skipped,
+          solution: q.solution,
+          marks: q.marks ?? 1,
+        });
+
+        if (out.length >= limit) return;
+      });
+      if (out.length >= limit) break;
+    }
+
+    const subjectCounts: Record<string, number> = {};
+    for (const m of out) subjectCounts[m.subject] = (subjectCounts[m.subject] ?? 0) + 1;
+
+    return NextResponse.json({
+      items: out,
+      total: out.length,
+      subjects: Object.entries(subjectCounts)
+        .map(([name, count]) => ({ name, count }))
+        .sort((a, b) => b.count - a.count),
+    });
+  } catch (error) {
+    console.error("GET /api/mistakes:", error);
+    return NextResponse.json({ error: "Internal server error" }, { status: 500 });
   }
-
-  // Subjects summary for filter chips
-  const subjectCounts: Record<string, number> = {};
-  for (const m of out) subjectCounts[m.subject] = (subjectCounts[m.subject] ?? 0) + 1;
-
-  return NextResponse.json({
-    items: out,
-    total: out.length,
-    subjects: Object.entries(subjectCounts)
-      .map(([name, count]) => ({ name, count }))
-      .sort((a, b) => b.count - a.count),
-  });
 }

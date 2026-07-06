@@ -124,23 +124,28 @@ async function buildDataset(dataset: string): Promise<{ headers: string[]; rows:
 }
 
 export async function GET(req: NextRequest) {
-  const admin = await getAdminSession();
-  if (!admin) {
-    return new Response("forbidden", { status: 403 });
+  try {
+    const admin = await getAdminSession();
+    if (!admin) {
+      return new Response("forbidden", { status: 403 });
+    }
+    const dataset = req.nextUrl.searchParams.get("dataset") ?? "";
+    const data = await buildDataset(dataset);
+    if (!data) {
+      return new Response("unknown dataset (use users|attempts|activity|payments)", { status: 400 });
+    }
+    const csv = toCsv(data.rows, data.headers);
+    const stamp = new Date().toISOString().slice(0, 10);
+    return new Response(csv, {
+      status: 200,
+      headers: {
+        "Content-Type": "text/csv; charset=utf-8",
+        "Content-Disposition": `attachment; filename="crackgate-${dataset}-${stamp}.csv"`,
+        "Cache-Control": "no-store",
+      },
+    });
+  } catch (error) {
+    console.error("GET /api/admin/export:", error);
+    return new Response("Internal server error", { status: 500 });
   }
-  const dataset = req.nextUrl.searchParams.get("dataset") ?? "";
-  const data = await buildDataset(dataset);
-  if (!data) {
-    return new Response("unknown dataset (use users|attempts|activity|payments)", { status: 400 });
-  }
-  const csv = toCsv(data.rows, data.headers);
-  const stamp = new Date().toISOString().slice(0, 10);
-  return new Response(csv, {
-    status: 200,
-    headers: {
-      "Content-Type": "text/csv; charset=utf-8",
-      "Content-Disposition": `attachment; filename="crackgate-${dataset}-${stamp}.csv"`,
-      "Cache-Control": "no-store",
-    },
-  });
 }

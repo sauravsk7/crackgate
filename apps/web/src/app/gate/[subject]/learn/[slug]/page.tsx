@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import { getGateSubject } from "@/data/gate/registry";
 import { LearnEngine } from "@/components/learn-engine";
 
-export const dynamic = "force-dynamic";
+export const revalidate = 3600;
 
 export async function generateMetadata(props: { params: Promise<{ subject: string; slug: string }> }) {
   const { subject, slug } = await props.params;
