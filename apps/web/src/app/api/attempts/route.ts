@@ -106,5 +106,6 @@ export async function POST(req: Request) {
     },
   });
 
-  return NextResponse.json({ attempt: att, result });
+  const { answersJson: _, ...attempt } = att;
+  return NextResponse.json({ attempt, result });
 }

@@ -1,5 +1,6 @@
 /** GET /api/admin/overview — founder dashboard aggregate.
  *  Returns counts, plan breakdown, revenue, signup/attempt timeseries.
+ *  Cached in-memory with a 5-minute TTL — stale-while-revalidate semantics.
  */
 import { NextResponse } from "next/server";
 import { getAdminSession } from "@/lib/admin";
@@ -7,6 +8,9 @@ import { db } from "@/lib/db";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
+
+const CACHE_TTL = 5 * 60 * 1000;
+const cache = { data: null as unknown, ts: 0 };
 
 function dateKey(d: Date): string {
   return d.toISOString().slice(0, 10);
@@ -23,6 +27,10 @@ function fillDailySeries(days: number): Map<string, number> {
 
 export async function GET() {
   try {
+    if (Date.now() - cache.ts < CACHE_TTL) {
+      return NextResponse.json(cache.data);
+    }
+
     const admin = await getAdminSession();
     if (!admin) {
       return NextResponse.json({ error: "forbidden" }, { status: 403 });
@@ -129,7 +137,7 @@ export async function GET() {
   const planMap: Record<string, number> = { free: 0, pro: 0, premium: 0 };
   for (const row of usersByPlan) planMap[row.plan] = row._count._all;
 
-  return NextResponse.json({
+  const payload = {
     generatedAt: now.toISOString(),
     admin: { email: admin.email, source: admin.source },
     users: {
@@ -179,7 +187,10 @@ export async function GET() {
         ts: a.ts,
       })),
     },
-  });
+  };
+  cache.data = payload;
+  cache.ts = Date.now();
+  return NextResponse.json(payload);
   } catch (error) {
     console.error("GET /api/admin/overview:", error);
     return NextResponse.json({ error: "Internal server error" }, { status: 500 });
