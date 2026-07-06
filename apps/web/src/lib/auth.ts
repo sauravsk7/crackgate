@@ -108,8 +108,10 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
   ],
   callbacks: {
     async jwt({ token, user }) {
-      if (user) token.uid = (user as { id: string }).id;
-      if (token.uid) {
+      if (user) {
+        // First-time creation: fetch plan/role from DB. Subsequent refreshes
+        // reuse cached token data — no DB hit on every request.
+        token.uid = (user as { id: string }).id;
         const full = await db.user.findUnique({
           where: { id: token.uid as string },
           select: { plan: true, role: true, picture: true, name: true, email: true },
@@ -121,12 +123,12 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
           token.email = full.email;
           if (full.picture) token.picture = full.picture;
         }
-        // Elevate role to "admin" for emails in ADMIN_EMAILS env (founder access).
-        const adminEmails = (process.env.ADMIN_EMAILS ?? "")
-          .split(",").map((s) => s.trim().toLowerCase()).filter(Boolean);
-        if (token.email && adminEmails.includes(String(token.email).toLowerCase())) {
-          token.role = "admin";
-        }
+      }
+      // Elevate role to "admin" for emails in ADMIN_EMAILS env (founder access).
+      const adminEmails = (process.env.ADMIN_EMAILS ?? "")
+        .split(",").map((s) => s.trim().toLowerCase()).filter(Boolean);
+      if (token.email && adminEmails.includes(String(token.email).toLowerCase())) {
+        token.role = "admin";
       }
       return token;
     },

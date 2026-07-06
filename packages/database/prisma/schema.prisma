@@ -121,6 +121,7 @@ model Activity {
   user    User     @relation(fields: [userId], references: [id], onDelete: Cascade)
 
   @@index([userId, ts(sort: Desc)])
+  @@index([type, userId, ts(sort: Desc)])
 }
 
 model Payment {
@@ -142,6 +143,7 @@ model Payment {
   user             User     @relation(fields: [userId], references: [id], onDelete: Cascade)
 
   @@index([userId, createdAt(sort: Desc)])
+  @@index([status, createdAt(sort: Desc)])
 }
 
 // Manual UPI claim flow — user pays via UPI app, submits the UTR / reference
@@ -237,5 +239,7 @@ model OtpCode {
   ip         String?
 
   @@index([phone, createdAt(sort: Desc)])
+  @@index([ip, createdAt(sort: Desc)])
+  @@index([expiresAt])
 }
 

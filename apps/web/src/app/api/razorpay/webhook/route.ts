@@ -5,7 +5,7 @@
 import { db } from "@/lib/db";
 import { NextResponse } from "next/server";
 import crypto from "node:crypto";
-import { sendPaymentReceipt } from "@/lib/whatsapp";
+import { whatsappQueue } from "@/lib/queue";
 
 export const runtime = "nodejs";
 
@@ -43,6 +43,12 @@ export async function POST(req: Request) {
   }
 
   if (evt.event === "payment.captured") {
+    // Idempotency guard: Razorpay may retry the webhook if the first response
+    // is lost. If we've already processed this payment, return OK silently.
+    if (payment.status === "captured") {
+      return NextResponse.json({ ok: true, idempotent: true });
+    }
+
     // Guard against amount tampering: the captured amount must match the amount
     // we recorded when the order was created (both in paise).
     if (typeof p.amount === "number" && p.amount !== payment.amount) {
@@ -78,22 +84,26 @@ export async function POST(req: Request) {
       }),
     ]);
 
-    // Fire-and-forget WhatsApp receipt — never block the webhook response.
+    // Queue WhatsApp receipt — never block the webhook response.
     try {
       const u = await db.user.findUnique({
         where: { id: payment.userId },
         select: { phone: true, name: true },
       });
       if (u?.phone) {
-        await sendPaymentReceipt(u.phone, {
-          name: u.name ?? "",
-          plan: payment.plan,
-          amountRupees: Math.round(p.amount / 100),
-          months,
+        await whatsappQueue.add("payment_receipt", {
+          type: "payment_receipt",
+          phone: u.phone,
+          payload: {
+            name: u.name ?? "",
+            plan: payment.plan,
+            amountRupees: Math.round(p.amount / 100),
+            months,
+          },
         });
       }
     } catch (e) {
-      console.warn("[rzp-webhook] WhatsApp receipt failed:", (e as Error).message);
+      console.warn("[rzp-webhook] Queue add failed:", (e as Error).message);
     }
   } else if (evt.event === "payment.failed") {
     await db.payment.update({

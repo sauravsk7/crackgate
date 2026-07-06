@@ -7,12 +7,17 @@
 import { NextResponse } from "next/server";
 import { auth } from "@/lib/auth";
 import { db } from "@/lib/db";
+import { getLimiter, rateLimitResponse } from "@/lib/rate-limit";
+
+const attemptLimiter = getLimiter({ windowMs: 60_000, max: 60, label: "practice:post" });
 
 export const runtime = "nodejs";
 
 export async function POST(req: Request) {
   const session = await auth();
   if (!session?.user?.id) return NextResponse.json({ ok: false }, { status: 401 });
+  const { allowed, resetAt } = attemptLimiter.check(session.user.id);
+  if (!allowed) return rateLimitResponse(Math.ceil((resetAt - Date.now()) / 1000));
 
   let body: {
     subjectSlug?: string; subjectName?: string;

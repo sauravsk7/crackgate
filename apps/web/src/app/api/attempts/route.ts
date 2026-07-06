@@ -5,6 +5,9 @@ import { NextResponse } from "next/server";
 import { z } from "zod";
 import { resolveMock } from "@/lib/mock-registry";
 import { hasEntitlement } from "@/lib/entitlements";
+import { getLimiter, ipFromRequest, rateLimitResponse } from "@/lib/rate-limit";
+
+const submitLimiter = getLimiter({ windowMs: 60_000, max: 10, label: "attempts:post" });
 
 const SubmitSchema = z.object({
   kind: z.enum(["mock"]),
@@ -33,6 +36,8 @@ export async function GET() {
 export async function POST(req: Request) {
   const session = await auth();
   if (!session?.user) return NextResponse.json({ error: "unauthenticated" }, { status: 401 });
+  const { allowed, resetAt } = submitLimiter.check(session.user.id);
+  if (!allowed) return rateLimitResponse(Math.ceil((resetAt - Date.now()) / 1000));
   const parsed = SubmitSchema.safeParse(await req.json());
   if (!parsed.success) return NextResponse.json({ error: parsed.error.flatten() }, { status: 400 });
 
