@@ -3,7 +3,9 @@ import { db } from "@/lib/db";
 import Link from "next/link";
 import { fmtDate } from "@/lib/utils";
 import { SubjectMasteryPanel } from "@/components/subject-mastery-panel";
-import { ScoreTrendChart } from "@/components/score-trend-chart";
+import dynamicImport from "next/dynamic";
+
+const ScoreTrendChart = dynamicImport(() => import("@/components/score-trend-chart").then((m) => m.ScoreTrendChart), { ssr: false });
 import { PercentilePanel } from "@/components/percentile-panel";
 import { SwotAnalysisPanel } from "@/components/swot-analysis-panel";
 import { EngagementStats } from "@/components/engagement-stats";

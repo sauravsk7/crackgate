@@ -23,6 +23,7 @@ async function call(path: string, body: unknown) {
     method: "POST",
     headers: { "content-type": "application/json", authorization: `Bearer ${token}` },
     body: JSON.stringify(body),
+    signal: AbortSignal.timeout(5_000),
   });
   const json = await res.json().catch(() => ({}));
   if (!res.ok) {

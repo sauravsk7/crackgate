@@ -2,7 +2,9 @@ import Link from "next/link";
 import { auth } from "@/lib/auth";
 import { MOCKS } from "@/data/mocks";
 import { PRACTICE } from "@/data/practice";
-import { GateWindow } from "@/components/hero-carousel";
+import dynamicImport from "next/dynamic";
+
+const GateWindow = dynamicImport(() => import("@/components/hero-carousel").then((m) => m.GateWindow), { ssr: false });
 
 export const metadata = {
   title: "GATE Mining (MN) · CrackGate",

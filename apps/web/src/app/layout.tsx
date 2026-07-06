@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Inter } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 import "katex/dist/katex.min.css";
 import { SiteHeader, MiningHeader } from "@/components/site-header";
@@ -7,8 +8,10 @@ import { SiteFooter } from "@/components/site-footer";
 import { DevPlanSwitcher } from "@/components/dev-plan-switcher";
 import { HideOnMiningSite, ShowOnMiningSite } from "@/components/mobile-nav";
 import { ThemeScript } from "@/components/theme-script";
-import { PostHogProvider } from "@/components/posthog-provider";
+import dynamic from "next/dynamic";
 import { auth } from "@/lib/auth";
+
+const PostHogProvider = dynamic(() => import("@/components/posthog-provider").then((m) => m.PostHogProvider), { ssr: false });
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter", display: "swap" });
 
@@ -62,8 +65,13 @@ export default async function RootLayout({ children }: { children: React.ReactNo
         {gscContent && <meta name="google-site-verification" content={gscContent} />}
         {gaId && (
           <>
-            <script async src={`https://www.googletagmanager.com/gtag/js?id=${gaId}`} />
-            <script
+            <Script
+              src={`https://www.googletagmanager.com/gtag/js?id=${gaId}`}
+              strategy="lazyOnload"
+            />
+            <Script
+              id="ga-config"
+              strategy="lazyOnload"
               dangerouslySetInnerHTML={{
                 __html: `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','${gaId}');`,
               }}

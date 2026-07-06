@@ -2,7 +2,9 @@ import Link from "next/link";
 import { CIL_ROWS } from "@/data/cil";
 import { CIL_PATTERN } from "@/data/cil-mocks";
 import { CilAdBanner } from "@/components/cil-ad-banner";
-import { PsuCilHero } from "@/components/psu-cil-hero";
+import dynamic from "next/dynamic";
+
+const PsuCilHero = dynamic(() => import("@/components/psu-cil-hero").then((m) => m.PsuCilHero), { ssr: false });
 import { NewsletterForm } from "@/components/newsletter-form";
 
 export const metadata = {
