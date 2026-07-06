@@ -19,15 +19,15 @@
 
 ## 🟢 Growth levers (1-2 weeks)
 
-- [ ] **#12: Add blog/articles section** — target informational keywords ("How to prepare for GATE Mining 2027", etc.)
-- [ ] **#13: Add subject-specific 300-500 word intros** on each `/gate/[subject]` page
+- [x] **#12: Add blog/articles section** — target informational keywords ("How to prepare for GATE Mining 2027", etc.)
+- [x] **#13: Add subject-specific 300-500 word intros** on each `/gate/[subject]` page
 - [ ] **#14: Implement referral/invite system** — share mock results → unlock free mocks
-- [ ] **#15: Add "Coming Soon" email capture** for upcoming PSU subjects
+- [x] **#15: Add "Coming Soon" email capture** for upcoming PSU subjects
 - [x] **#16: Add per-page OG images** (dynamic, with subject name + stats) — via /api/og route
 
 ## 🗺️ 2-4 week roadmap
 
 - [ ] **#17: PWA manifest + `theme-color` meta tag**
-- [ ] **#18: Implement PostHog** (already configured in env but not imported)
+- [x] **#18: Implement PostHog** (already configured in env but not imported)
 - [ ] **#19: Core Web Vitals monitoring** (Lighthouse CI, CrUX)
 - [ ] **#20: hreflang tags** if regional languages planned

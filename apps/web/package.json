@@ -16,6 +16,7 @@
     "@auth/prisma-adapter": "^2.7.4",
     "@crackgate/database": "*",
     "@sentry/nextjs": "^10.58.0",
+    "@tailwindcss/typography": "^0.5.20",
     "@tanstack/react-query": "^5.62.0",
     "bcryptjs": "^3.0.3",
     "clsx": "^2.1.1",
