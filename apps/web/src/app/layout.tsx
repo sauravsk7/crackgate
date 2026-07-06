@@ -8,10 +8,8 @@ import { SiteFooter } from "@/components/site-footer";
 import { DevPlanSwitcher } from "@/components/dev-plan-switcher";
 import { HideOnMiningSite, ShowOnMiningSite } from "@/components/mobile-nav";
 import { ThemeScript } from "@/components/theme-script";
-import dynamic from "next/dynamic";
+import { PostHogProvider } from "@/components/posthog-dynamic";
 import { auth } from "@/lib/auth";
-
-const PostHogProvider = dynamic(() => import("@/components/posthog-provider").then((m) => m.PostHogProvider), { ssr: false });
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter", display: "swap" });
 

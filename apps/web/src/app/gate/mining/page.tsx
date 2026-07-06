@@ -4,7 +4,7 @@ import { MOCKS } from "@/data/mocks";
 import { PRACTICE } from "@/data/practice";
 import dynamicImport from "next/dynamic";
 
-const GateWindow = dynamicImport(() => import("@/components/hero-carousel").then((m) => m.GateWindow), { ssr: false });
+const GateWindow = dynamicImport(() => import("@/components/hero-carousel").then((m) => m.GateWindow));
 
 export const metadata = {
   title: "GATE Mining (MN) · CrackGate",
