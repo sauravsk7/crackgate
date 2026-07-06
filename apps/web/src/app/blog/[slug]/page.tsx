@@ -93,7 +93,7 @@ export default async function BlogPostPage(props: { params: Promise<{ slug: stri
           <p className="text-muted mt-4 text-lg leading-relaxed">{post.description}</p>
         </div>
 
-        <div className="prose prose-slate max-w-none">
+        <div className="prose prose-slate dark:prose-invert max-w-none">
           {paragraphs.map((p, i) => {
             if (p.startsWith("## ")) {
               return <h2 key={i} className="text-2xl font-bold mt-10 mb-4">{p.replace("## ", "")}</h2>;

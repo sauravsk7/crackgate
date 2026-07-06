@@ -6,7 +6,7 @@ export const metadata = {
 };
 export default function Terms() {
   return (
-    <article className="prose prose-slate max-w-3xl mx-auto px-5 py-16">
+    <article className="prose prose-slate dark:prose-invert max-w-3xl mx-auto px-5 py-16">
       <h1>Terms of Service</h1>
       <p><em>Last updated: 1 June 2026</em></p>
       <h2>1. Account</h2>

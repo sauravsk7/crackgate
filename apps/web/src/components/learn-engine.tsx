@@ -39,9 +39,9 @@ function isCorrect(q: LearnQuestion, sel: Selection): boolean {
 }
 
 const DIFF_BADGE: Record<LearnQuestion["difficulty"], { label: string; cls: string }> = {
-  basic: { label: "BASIC", cls: "bg-emerald-100 text-emerald-800" },
-  medium: { label: "MEDIUM", cls: "bg-amber-100 text-amber-800" },
-  hard: { label: "HARD", cls: "bg-rose-100 text-rose-800" },
+  basic: { label: "BASIC", cls: "bg-emerald-100 text-emerald-800 dark:bg-emerald-500/20 dark:text-emerald-200" },
+  medium: { label: "MEDIUM", cls: "bg-amber-100 text-amber-800 dark:bg-amber-500/20 dark:text-amber-200" },
+  hard: { label: "HARD", cls: "bg-rose-100 text-rose-800 dark:bg-rose-500/20 dark:text-rose-200" },
 };
 
 export function LearnEngine({ topic }: { topic: LearnTopic }) {
@@ -150,7 +150,7 @@ export function LearnEngine({ topic }: { topic: LearnTopic }) {
                     <span
                       className={cn(
                         "ml-auto text-xs font-bold px-2 py-0.5 rounded",
-                        correct ? "bg-emerald-100 text-emerald-800" : "bg-rose-100 text-rose-800",
+                        correct ? "bg-emerald-100 text-emerald-800 dark:bg-emerald-500/20 dark:text-emerald-200" : "bg-rose-100 text-rose-800 dark:bg-rose-500/20 dark:text-rose-200",
                       )}
                     >
                       {correct ? `+${q.marks} ✓` : sel == null ? "Skipped" : "Incorrect ✗"}
