@@ -4,6 +4,7 @@ import { CIL_ROWS, getCilDiscipline, CIL_RECRUITMENT_URL } from "@/data/cil";
 import { CilMockPlan } from "@/components/cil-mock-plan";
 import { Breadcrumb } from "@/components/breadcrumb";
 import { ShareOnWhatsApp } from "@/components/share-on-whatsapp";
+import { NewsletterForm } from "@/components/newsletter-form";
 import { auth } from "@/lib/auth";
 import { hasEntitlement } from "@/lib/entitlements";
 
@@ -22,7 +23,7 @@ export async function generateMetadata(props: { params: Promise<{ discipline: st
   }
   return {
     title: `CIL ${row.discipline} · Mock Series · CrackGate`,
-    openGraph: { images: ["/api/og?subject=" + encodeURIComponent("CIL " + row.discipline) + "&title=Management+Trainee+Exam+Prep"] },
+    openGraph: { images: [{ url: "/api/og?subject=" + encodeURIComponent("CIL " + row.discipline) + "&title=" + encodeURIComponent("Management Trainee Exam Prep"), alt: `CIL ${row.discipline} Management Trainee Exam Prep` }] },
     description: `Crack Coal India Management Trainee ${row.discipline} exam. ${row.qualification}. Practice with mock tests tailored to the CIL exam pattern.`,
     alternates: { canonical: "/psu/cil/" + discipline },
   };
@@ -80,6 +81,18 @@ export default async function CilDisciplinePage(props: { params: Promise<{ disci
       </section>
 
       <CilMockPlan discipline={row.discipline} slug={row.slug} unlocked={unlocked} />
+
+      <section className="border-t border-line bg-paper/40">
+        <div className="max-w-3xl mx-auto px-5 py-12 text-center">
+          <h3 className="text-lg font-bold text-ink">Get CIL {row.discipline} exam updates</h3>
+          <p className="mt-1 text-sm text-muted">
+            New mock releases, CIL notification alerts, and prep tips — once a week.
+          </p>
+          <div className="mt-4 flex justify-center">
+            <NewsletterForm source="psu-cil-discipline" />
+          </div>
+        </div>
+      </section>
     </>
   );
 }

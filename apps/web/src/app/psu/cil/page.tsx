@@ -3,6 +3,7 @@ import { CIL_ROWS } from "@/data/cil";
 import { CIL_PATTERN } from "@/data/cil-mocks";
 import { CilAdBanner } from "@/components/cil-ad-banner";
 import { PsuCilHero } from "@/components/psu-cil-hero";
+import { NewsletterForm } from "@/components/newsletter-form";
 
 export const metadata = {
   title: "PSU · Coal India Limited (CIL) · CrackGate",
@@ -51,6 +52,19 @@ export default function PsuCilPage() {
       </section>
 
       <CilAdBanner className="pb-16" />
+
+      {/* NEWSLETTER */}
+      <section className="border-t border-line bg-paper/40">
+        <div className="max-w-3xl mx-auto px-5 py-16 text-center">
+          <h3 className="text-xl font-bold text-ink">Get CIL MT exam updates</h3>
+          <p className="mt-2 text-sm text-muted">
+            New mock releases, notification alerts, and prep tips for Coal India Management Trainee — once a week.
+          </p>
+          <div className="mt-5 flex justify-center">
+            <NewsletterForm source="psu-cil" />
+          </div>
+        </div>
+      </section>
     </>
   );
 }

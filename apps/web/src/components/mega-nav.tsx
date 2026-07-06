@@ -147,6 +147,11 @@ export function MegaNav() {
         Diploma
       </Link>
 
+      {/* Blog */}
+      <Link href="/blog" className={triggerCls("blog", ["/blog"])}>
+        Blog
+      </Link>
+
       {/* News */}
       <Link href="/news" className={triggerCls("news", ["/news"])}>
         News

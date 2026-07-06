@@ -7,6 +7,7 @@ import { SiteFooter } from "@/components/site-footer";
 import { DevPlanSwitcher } from "@/components/dev-plan-switcher";
 import { HideOnMiningSite, ShowOnMiningSite } from "@/components/mobile-nav";
 import { ThemeScript } from "@/components/theme-script";
+import { PostHogProvider } from "@/components/posthog-provider";
 import { auth } from "@/lib/auth";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter", display: "swap" });
@@ -26,7 +27,7 @@ export const metadata: Metadata = {
     url: "https://crackgate.in",
     title: "CrackGate.in — GATE Mining, Civil, Geology & PSU Exam Prep",
     description: "10+ full-length mocks · 1000+ practice questions · SWOT analytics · ₹0 first mock. Covers GATE MN, CE, GG, ES & PSU Coal India.",
-    images: ["/api/og"],
+    images: [{ url: "/api/og", alt: "CrackGate — GATE Mining, Civil, Geology & PSU Exam Prep" }],
   },
   twitter: { card: "summary_large_image" },
   icons: {
@@ -95,10 +96,12 @@ export default async function RootLayout({ children }: { children: React.ReactNo
       </head>
       <body>
         <a href="#main" className="skip-link">Skip to main content</a>
-        <HideOnMiningSite><SiteHeader /></HideOnMiningSite>
-        <ShowOnMiningSite><MiningHeader /></ShowOnMiningSite>
-        <main id="main">{children}</main>
-        <SiteFooter />
+        <PostHogProvider user={session?.user ? { id: session.user.id, email: session.user.email ?? undefined, name: session.user.name ?? undefined } : null}>
+          <HideOnMiningSite><SiteHeader /></HideOnMiningSite>
+          <ShowOnMiningSite><MiningHeader /></ShowOnMiningSite>
+          <main id="main">{children}</main>
+          <SiteFooter />
+        </PostHogProvider>
         {session?.user && <DevPlanSwitcher currentPlan={plan} />}
       </body>
     </html>

@@ -2,6 +2,7 @@ import type { MetadataRoute } from "next";
 import { LEARN_TOPICS } from "@/data/learn";
 import { STUDY_NOTES } from "@/data/study-notes";
 import { CIL_ROWS } from "@/data/cil";
+import { BLOG_POSTS } from "@/data/blog";
 import { liveGateSubjects, getGateSubject } from "@/data/gate/registry";
 
 const base = "https://crackgate.in";
@@ -77,6 +78,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
     // ── State & Diploma ──
     { url: `${base}/state`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
     { url: `${base}/diploma`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
+
+    // ── Blog ──
+    { url: `${base}/blog`, lastModified: now, changeFrequency: "weekly", priority: 0.9 },
+    ...BLOG_POSTS.map((p) => ({
+      url: `${base}/blog/${p.slug}`,
+      lastModified: new Date(p.date),
+      changeFrequency: "monthly" as const,
+      priority: 0.8,
+    })),
 
     // ── Info pages ──
     { url: `${base}/resources`, lastModified: now, changeFrequency: "monthly", priority: 0.6 },
