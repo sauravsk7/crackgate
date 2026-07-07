@@ -10,6 +10,7 @@
  *  Current queues:
  *   - whatsapp   : outbound WhatsApp messages (OTP, receipts, digests)
  *   - digest     : per-user weekly digest computation + send
+ *   - newsletter : scheduled newsletter broadcasts via Resend
  */
 import { Queue, Worker, type Job } from "bullmq";
 import IORedis from "ioredis";
@@ -41,6 +42,16 @@ export interface DigestJobData {
 }
 
 export const digestQueue = new Queue<DigestJobData>("digest", { connection });
+
+// ── Newsletter queue ────────────────────────────────────────────────────────
+// Recipients are fetched fresh at execution time to avoid stale lists.
+
+export interface NewsletterJobData {
+  subject: string;
+  html: string;
+}
+
+export const newsletterQueue = new Queue<NewsletterJobData>("newsletter", { connection });
 
 // ── Worker setup ────────────────────────────────────────────────────────────
 
@@ -147,5 +158,26 @@ export function startWorkers() {
       });
     },
     { connection, concurrency: 10 },
+  );
+
+  new Worker<NewsletterJobData>(
+    "newsletter",
+    async (job: Job<NewsletterJobData>) => {
+      const { db } = await import("@/lib/db");
+      const { sendNewsletter, newsletterHtml } = await import("@/lib/resend");
+      const { subject, html } = job.data;
+
+      const subscribers = await db.newsletterSubscriber.findMany({
+        where: { unsubscribed: false },
+        select: { email: true },
+      });
+
+      if (subscribers.length === 0) return;
+
+      const recipients = subscribers.map((s) => s.email);
+      const wrapped = newsletterHtml(html);
+      await sendNewsletter({ subject, html: wrapped, recipients });
+    },
+    { connection, concurrency: 1 },
   );
 }
