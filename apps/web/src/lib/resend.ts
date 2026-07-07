@@ -52,7 +52,7 @@ export async function sendNewsletter(opts: {
   html: string;
   recipients: string[];
 }): Promise<SendResult> {
-  const from = process.env.RESEND_FROM_EMAIL ?? "newsletter@crackgate.in";
+  const from = process.env.RESEND_FROM_EMAIL ?? "support@crackgate.in";
   const resend = getClient();
   const BATCH_SIZE = 50;
   let sent = 0;
