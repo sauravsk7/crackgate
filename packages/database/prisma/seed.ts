@@ -1,5 +1,5 @@
 /* Idempotent dev seed: an admin user + one demo learner with two attempts. */
-import { PrismaClient } from "@prisma/client";
+import { PrismaClient } from "../src/generated/client";
 const db = new PrismaClient();
 
 async function main() {
