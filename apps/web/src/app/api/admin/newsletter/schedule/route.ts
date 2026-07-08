@@ -2,7 +2,7 @@ import { NextResponse } from "next/server";
 import { z } from "zod";
 import { getAdminSession } from "@/lib/admin";
 import { db } from "@/lib/db";
-import { newsletterQueue } from "@/lib/queue";
+import { newsletterQueue, type NewsletterJobData } from "@/lib/queue";
 
 export const dynamic = "force-dynamic";
 
@@ -10,6 +10,7 @@ const bodySchema = z.object({
   subject: z.string().min(1).max(200),
   html: z.string().min(1),
   scheduledAt: z.string().datetime(),
+  recipients: z.array(z.string().email()).optional(),
 });
 
 export async function POST(request: Request) {
@@ -28,27 +29,34 @@ export async function POST(request: Request) {
     return NextResponse.json({ error: parsed.error.flatten().fieldErrors }, { status: 422 });
   }
 
-  const { subject, html, scheduledAt } = parsed.data;
+  const { subject, html, scheduledAt, recipients: explicitRecipients } = parsed.data;
   const scheduledDate = new Date(scheduledAt);
   const now = Date.now();
   const delay = Math.max(0, scheduledDate.getTime() - now);
 
-  const subscriberCount = await db.newsletterSubscriber.count({
-    where: { unsubscribed: false },
-  });
+  let recipientCount: number;
 
-  if (subscriberCount === 0) {
+  if (explicitRecipients && explicitRecipients.length > 0) {
+    recipientCount = explicitRecipients.length;
+  } else {
+    recipientCount = await db.newsletterSubscriber.count({
+      where: { unsubscribed: false },
+    });
+  }
+
+  if (recipientCount === 0) {
     return NextResponse.json({ recipients: 0, scheduled: false });
   }
 
-  await newsletterQueue.add(
-    "send",
-    { subject, html },
-    { delay },
-  );
+  const jobData: NewsletterJobData = { subject, html };
+  if (explicitRecipients && explicitRecipients.length > 0) {
+    jobData.recipients = explicitRecipients;
+  }
+
+  await newsletterQueue.add("send", jobData, { delay });
 
   return NextResponse.json({
-    recipients: subscriberCount,
+    recipients: recipientCount,
     scheduled: true,
     scheduledFor: scheduledDate.toISOString(),
   });

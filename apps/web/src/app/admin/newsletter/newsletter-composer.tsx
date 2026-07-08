@@ -4,7 +4,13 @@ import { useState } from "react";
 
 type SendMode = "instant" | "schedule";
 
-export default function NewsletterComposer({ subscriberCount }: { subscriberCount: number }) {
+export default function NewsletterComposer({
+  subscriberCount,
+  selectedEmails,
+}: {
+  subscriberCount: number;
+  selectedEmails: Set<string>;
+}) {
   const [subject, setSubject] = useState("");
   const [html, setHtml] = useState("");
   const [mode, setMode] = useState<SendMode>("instant");
@@ -29,7 +35,10 @@ export default function NewsletterComposer({ subscriberCount }: { subscriberCoun
     setLoading(true);
     try {
       const endpoint = mode === "instant" ? "/api/admin/newsletter/send" : "/api/admin/newsletter/schedule";
-      const body: Record<string, string> = { subject: subject.trim(), html: html.trim() };
+      const body: Record<string, unknown> = { subject: subject.trim(), html: html.trim() };
+      if (selectedEmails.size > 0) {
+        body.recipients = Array.from(selectedEmails);
+      }
       if (mode === "schedule") body.scheduledAt = new Date(scheduledAt).toISOString();
 
       const res = await fetch(endpoint, {
@@ -65,7 +74,11 @@ export default function NewsletterComposer({ subscriberCount }: { subscriberCoun
       <div className="card p-5">
         <div className="flex items-center justify-between">
           <h2 className="font-bold text-lg">Compose newsletter</h2>
-          <span className="text-sm text-muted">{subscriberCount} subscribers</span>
+          <span className="text-sm text-muted">
+            {selectedEmails.size > 0
+              ? `${selectedEmails.size} of ${subscriberCount} selected`
+              : `${subscriberCount} subscribers`}
+          </span>
         </div>
 
         <div className="mt-4 space-y-4">
@@ -140,8 +153,12 @@ export default function NewsletterComposer({ subscriberCount }: { subscriberCoun
                   {loading
                     ? "Sending…"
                     : mode === "instant"
-                      ? "Send newsletter"
-                      : "Schedule send"}
+                      ? selectedEmails.size > 0
+                        ? `Send to ${selectedEmails.size} selected`
+                        : "Send to all"
+                      : selectedEmails.size > 0
+                        ? `Schedule for ${selectedEmails.size} selected`
+                        : "Schedule for all"}
                 </button>
               </div>
             </div>
