@@ -7,9 +7,13 @@ type SendMode = "instant" | "schedule";
 export default function NewsletterComposer({
   subscriberCount,
   selectedEmails,
+  subscriberSelectedCount = 0,
+  userSelectedCount = 0,
 }: {
   subscriberCount: number;
   selectedEmails: Set<string>;
+  subscriberSelectedCount?: number;
+  userSelectedCount?: number;
 }) {
   const [subject, setSubject] = useState("");
   const [html, setHtml] = useState("");
@@ -76,7 +80,12 @@ export default function NewsletterComposer({
           <h2 className="font-bold text-lg">Compose newsletter</h2>
           <span className="text-sm text-muted">
             {selectedEmails.size > 0
-              ? `${selectedEmails.size} of ${subscriberCount} selected`
+              ? [
+                  subscriberSelectedCount > 0 && `${subscriberSelectedCount} subscriber${subscriberSelectedCount === 1 ? "" : "s"}`,
+                  userSelectedCount > 0 && `${userSelectedCount} user${userSelectedCount === 1 ? "" : "s"}`,
+                ]
+                  .filter(Boolean)
+                  .join(" + ") + " selected"
               : `${subscriberCount} subscribers`}
           </span>
         </div>

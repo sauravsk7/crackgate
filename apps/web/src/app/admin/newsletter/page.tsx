@@ -12,16 +12,29 @@ export default async function AdminNewsletterPage() {
     redirect("/login?next=/admin/newsletter");
   }
 
-  const rows = await db.newsletterSubscriber.findMany({
-    where: { unsubscribed: false },
-    orderBy: { subscribedAt: "desc" },
-    select: { email: true, source: true, subscribedAt: true },
-  });
+  const [subRows, userRows] = await Promise.all([
+    db.newsletterSubscriber.findMany({
+      where: { unsubscribed: false },
+      orderBy: { subscribedAt: "desc" },
+      select: { email: true, source: true, subscribedAt: true },
+    }),
+    db.user.findMany({
+      orderBy: { createdAt: "desc" },
+      select: { email: true, name: true, plan: true, createdAt: true },
+    }),
+  ]);
 
-  const subscribers = rows.map((r) => ({
+  const subscribers = subRows.map((r) => ({
     email: r.email,
     source: r.source,
     subscribedAt: r.subscribedAt.toISOString(),
+  }));
+
+  const users = userRows.map((r) => ({
+    email: r.email,
+    name: r.name,
+    plan: r.plan,
+    joinedAt: r.createdAt.toISOString(),
   }));
 
   return (
@@ -40,6 +53,8 @@ export default async function AdminNewsletterPage() {
       <NewsletterPageClient
         subscribers={subscribers}
         subscriberCount={subscribers.length}
+        users={users}
+        userCount={users.length}
       />
     </div>
   );
