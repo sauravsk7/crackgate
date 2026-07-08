@@ -2,7 +2,7 @@ import Link from "next/link";
 import { redirect } from "next/navigation";
 import { getAdminSession } from "@/lib/admin";
 import { db } from "@/lib/db";
-import NewsletterComposer from "./newsletter-composer";
+import NewsletterPageClient from "./newsletter-page-client";
 
 export const dynamic = "force-dynamic";
 
@@ -12,9 +12,17 @@ export default async function AdminNewsletterPage() {
     redirect("/login?next=/admin/newsletter");
   }
 
-  const subscriberCount = await db.newsletterSubscriber.count({
+  const rows = await db.newsletterSubscriber.findMany({
     where: { unsubscribed: false },
+    orderBy: { subscribedAt: "desc" },
+    select: { email: true, source: true, subscribedAt: true },
   });
+
+  const subscribers = rows.map((r) => ({
+    email: r.email,
+    source: r.source,
+    subscribedAt: r.subscribedAt.toISOString(),
+  }));
 
   return (
     <div className="max-w-4xl mx-auto px-5 py-10">
@@ -29,16 +37,10 @@ export default async function AdminNewsletterPage() {
         Logged in as <b>{admin.email}</b>
       </p>
 
-      <div className="mt-6 grid sm:grid-cols-3 gap-4">
-        <div className="card p-5">
-          <div className="text-3xl font-extrabold">{subscriberCount}</div>
-          <div className="text-sm text-muted mt-0.5">Active subscribers</div>
-        </div>
-      </div>
-
-      <div className="mt-8">
-        <NewsletterComposer subscriberCount={subscriberCount} />
-      </div>
+      <NewsletterPageClient
+        subscribers={subscribers}
+        subscriberCount={subscribers.length}
+      />
     </div>
   );
 }

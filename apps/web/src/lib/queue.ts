@@ -44,11 +44,12 @@ export interface DigestJobData {
 export const digestQueue = new Queue<DigestJobData>("digest", { connection });
 
 // ── Newsletter queue ────────────────────────────────────────────────────────
-// Recipients are fetched fresh at execution time to avoid stale lists.
+// Recipients are fetched fresh at execution time unless pre-selected by admin.
 
 export interface NewsletterJobData {
   subject: string;
   html: string;
+  recipients?: string[];
 }
 
 export const newsletterQueue = new Queue<NewsletterJobData>("newsletter", { connection });
@@ -165,16 +166,21 @@ export function startWorkers() {
     async (job: Job<NewsletterJobData>) => {
       const { db } = await import("@/lib/db");
       const { sendNewsletter, newsletterHtml } = await import("@/lib/resend");
-      const { subject, html } = job.data;
+      const { subject, html, recipients: explicitRecipients } = job.data;
 
-      const subscribers = await db.newsletterSubscriber.findMany({
-        where: { unsubscribed: false },
-        select: { email: true },
-      });
+      let recipients: string[];
 
-      if (subscribers.length === 0) return;
+      if (explicitRecipients && explicitRecipients.length > 0) {
+        recipients = explicitRecipients;
+      } else {
+        const subscribers = await db.newsletterSubscriber.findMany({
+          where: { unsubscribed: false },
+          select: { email: true },
+        });
+        if (subscribers.length === 0) return;
+        recipients = subscribers.map((s) => s.email);
+      }
 
-      const recipients = subscribers.map((s) => s.email);
       const wrapped = newsletterHtml(html);
       await sendNewsletter({ subject, html: wrapped, recipients });
     },

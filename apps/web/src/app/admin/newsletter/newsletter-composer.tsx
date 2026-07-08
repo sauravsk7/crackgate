@@ -4,7 +4,13 @@ import { useState } from "react";
 
 type SendMode = "instant" | "schedule";
 
-export default function NewsletterComposer({ subscriberCount }: { subscriberCount: number }) {
+export default function NewsletterComposer({
+  subscriberCount,
+  selectedEmails,
+}: {
+  subscriberCount: number;
+  selectedEmails: Set<string>;
+}) {
   const [subject, setSubject] = useState("");
   const [html, setHtml] = useState("");
   const [mode, setMode] = useState<SendMode>("instant");
@@ -29,7 +35,10 @@ export default function NewsletterComposer({ subscriberCount }: { subscriberCoun
     setLoading(true);
     try {
       const endpoint = mode === "instant" ? "/api/admin/newsletter/send" : "/api/admin/newsletter/schedule";
-      const body: Record<string, string> = { subject: subject.trim(), html: html.trim() };
+      const body: Record<string, unknown> = { subject: subject.trim(), html: html.trim() };
+      if (selectedEmails.size > 0) {
+        body.recipients = Array.from(selectedEmails);
+      }
       if (mode === "schedule") body.scheduledAt = new Date(scheduledAt).toISOString();
 
       const res = await fetch(endpoint, {
@@ -65,7 +74,11 @@ export default function NewsletterComposer({ subscriberCount }: { subscriberCoun
       <div className="card p-5">
         <div className="flex items-center justify-between">
           <h2 className="font-bold text-lg">Compose newsletter</h2>
-          <span className="text-sm text-muted">{subscriberCount} subscribers</span>
+          <span className="text-sm text-muted">
+            {selectedEmails.size > 0
+              ? `${selectedEmails.size} of ${subscriberCount} selected`
+              : `${subscriberCount} subscribers`}
+          </span>
         </div>
 
         <div className="mt-4 space-y-4">
@@ -98,41 +111,57 @@ export default function NewsletterComposer({ subscriberCount }: { subscriberCoun
             />
           </details>
 
-          <div className="flex flex-wrap items-center gap-3">
-            <button
-              type="button"
-              onClick={() => setMode("instant")}
-              className={`px-4 py-2 rounded-lg text-sm font-semibold transition ${mode === "instant" ? "bg-brand text-white" : "bg-surface text-muted hover:text-ink"}`}
-            >
-              Send now
-            </button>
-            <button
-              type="button"
-              onClick={() => setMode("schedule")}
-              className={`px-4 py-2 rounded-lg text-sm font-semibold transition ${mode === "schedule" ? "bg-brand text-white" : "bg-surface text-muted hover:text-ink"}`}
-            >
-              Schedule
-            </button>
-            {mode === "schedule" && (
-              <input
-                type="datetime-local"
-                value={scheduledAt}
-                onChange={(e) => setScheduledAt(e.target.value)}
-                min={minSchedule()}
-                className="input text-sm"
-              />
-            )}
-            <button
-              onClick={send}
-              disabled={loading}
-              className="btn btn-primary"
-            >
-              {loading
-                ? "Sending…"
-                : mode === "instant"
-                  ? "Send newsletter"
-                  : "Schedule"}
-            </button>
+          <div className="border-t border-line pt-4">
+            <div className="flex flex-wrap items-end gap-4">
+              <div>
+                <span className="text-xs text-muted font-medium">Mode</span>
+                <div className="mt-1 flex rounded-lg border border-line p-0.5 bg-canvas">
+                  <button
+                    type="button"
+                    onClick={() => setMode("instant")}
+                    className={`px-4 py-1.5 rounded-md text-sm font-semibold transition ${mode === "instant" ? "bg-brand text-white shadow-sm" : "text-muted hover:text-ink border border-transparent"}`}
+                  >
+                    Instant
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => setMode("schedule")}
+                    className={`px-4 py-1.5 rounded-md text-sm font-semibold transition ${mode === "schedule" ? "bg-brand text-white shadow-sm" : "text-muted hover:text-ink border border-transparent"}`}
+                  >
+                    Scheduled
+                  </button>
+                </div>
+              </div>
+              {mode === "schedule" && (
+                <div>
+                  <span className="text-xs text-muted font-medium">Send at</span>
+                  <input
+                    type="datetime-local"
+                    value={scheduledAt}
+                    onChange={(e) => setScheduledAt(e.target.value)}
+                    min={minSchedule()}
+                    className="input mt-1 text-sm"
+                  />
+                </div>
+              )}
+              <div className="flex-1 flex justify-end">
+                <button
+                  onClick={send}
+                  disabled={loading}
+                  className="btn btn-primary px-6"
+                >
+                  {loading
+                    ? "Sending…"
+                    : mode === "instant"
+                      ? selectedEmails.size > 0
+                        ? `Send to ${selectedEmails.size} selected`
+                        : "Send to all"
+                      : selectedEmails.size > 0
+                        ? `Schedule for ${selectedEmails.size} selected`
+                        : "Schedule for all"}
+                </button>
+              </div>
+            </div>
           </div>
 
           {error && <p className="text-sm text-bad mt-2">{error}</p>}

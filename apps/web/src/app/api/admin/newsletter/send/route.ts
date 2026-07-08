@@ -9,6 +9,7 @@ export const dynamic = "force-dynamic";
 const bodySchema = z.object({
   subject: z.string().min(1).max(200),
   html: z.string().min(1),
+  recipients: z.array(z.string().email()).optional(),
 });
 
 export async function POST(request: Request) {
@@ -27,18 +28,22 @@ export async function POST(request: Request) {
     return NextResponse.json({ error: parsed.error.flatten().fieldErrors }, { status: 422 });
   }
 
-  const { subject, html } = parsed.data;
+  const { subject, html, recipients: explicitRecipients } = parsed.data;
 
-  const subscribers = await db.newsletterSubscriber.findMany({
-    where: { unsubscribed: false },
-    select: { email: true },
-  });
+  let recipients: string[];
 
-  if (subscribers.length === 0) {
-    return NextResponse.json({ sent: 0, failed: 0, recipients: 0 });
+  if (explicitRecipients && explicitRecipients.length > 0) {
+    recipients = explicitRecipients;
+  } else {
+    const subscribers = await db.newsletterSubscriber.findMany({
+      where: { unsubscribed: false },
+      select: { email: true },
+    });
+    if (subscribers.length === 0) {
+      return NextResponse.json({ sent: 0, failed: 0, recipients: 0 });
+    }
+    recipients = subscribers.map((s) => s.email);
   }
-
-  const recipients = subscribers.map((s) => s.email);
   const wrapped = newsletterHtml(html);
   const result = await sendNewsletter({ subject, html: wrapped, recipients });
 
