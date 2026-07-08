@@ -1,5 +1,6 @@
 import NextAuth from "next-auth";
 import type { Provider } from "next-auth/providers";
+import { getLimiter, ipFromRequest } from "@/lib/rate-limit";
 import Google from "next-auth/providers/google";
 import Credentials from "next-auth/providers/credentials";
 import { PrismaAdapter } from "@auth/prisma-adapter";
@@ -62,9 +63,18 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
         phone: { label: "Phone", type: "tel" },
         code:  { label: "OTP",   type: "text" },
       },
-      async authorize(raw) {
+      async authorize(raw, req) {
         const phoneInput = String(raw?.phone ?? "");
         const code       = String(raw?.code ?? "");
+
+        // IP-based rate limiting: max 20 verify attempts per 10 min per IP.
+        // Uses in-memory sliding window (per-process, resets on restart).
+        const ip = req ? ipFromRequest(req) : "unknown";
+        const verifyLimiter = getLimiter({ windowMs: 10 * 60_000, max: 20, label: "otp-verify" });
+        if (!verifyLimiter.check(ip).allowed) {
+          console.warn(`[otp-verify] rate-limited by IP: ${ip}`);
+          return null;
+        }
         if (!/^\d{6}$/.test(code)) return null;
         const phone = normalizePhone(phoneInput);
         if (!isValidPhone(phone)) return null;
