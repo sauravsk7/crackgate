@@ -5,8 +5,8 @@ import { useRouter } from "next/navigation";
 import { CATALOG } from "@/data/catalog";
 
 const PLANS = [
-  { value: "pro", label: "Pro · ₹499" },
-  { value: "premium", label: "Premium · ₹899" },
+  { value: "pro", label: "Pro", price: "₹499" },
+  { value: "premium", label: "Premium", price: "₹899" },
 ] as const;
 
 type Result = {
@@ -151,13 +151,13 @@ export default function GrantAccessForm() {
                   type="button"
                   aria-pressed={active}
                   onClick={() => setPlan(p.value)}
-                  className={`px-3 py-2 rounded-md text-sm font-semibold transition ${
+                  className={`px-3 py-2 rounded-md text-sm font-semibold transition min-w-[120px] ${
                     active
                       ? "bg-ok text-white shadow-sm"
                       : "text-muted hover:text-ink"
                   }`}
                 >
-                  {p.label}
+                  {p.label} <span className={`text-sm ml-1 ${isTestUser ? "line-through text-bad" : "text-ink/70"}`}>· {p.price}</span>
                 </button>
               );
             })}
