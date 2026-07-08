@@ -16,6 +16,7 @@ type Result = {
   exam: string;
   subject: string;
   expiry: string;
+  isTestUser?: boolean;
 };
 
 export default function GrantAccessForm() {
@@ -29,6 +30,7 @@ export default function GrantAccessForm() {
     [exam],
   );
   const [subject, setSubject] = useState<string>(CATALOG[0].subjects[0].slug);
+  const [isTestUser, setIsTestUser] = useState(false);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [result, setResult] = useState<Result | null>(null);
@@ -55,6 +57,7 @@ export default function GrantAccessForm() {
           months,
           exam,
           subject,
+          isTestUser,
         }),
       });
       const data = await res.json().catch(() => ({}));
@@ -180,12 +183,37 @@ export default function GrantAccessForm() {
         </button>
       </div>
 
+      <label className="flex items-center gap-2 mt-4 cursor-pointer">
+        <input
+          type="checkbox"
+          checked={isTestUser}
+          onChange={(e) => setIsTestUser(e.target.checked)}
+          className="accent-brand"
+        />
+        <span className="text-sm text-muted">
+          Is test user — <span className="text-xs">skip payment record (no revenue impact)</span>
+        </span>
+      </label>
+
       {error && <p className="text-sm text-err mt-3">{error}</p>}
       {result && (
-        <p className="text-sm text-ok mt-3">
-          ✓ Granted <strong>{result.plan}</strong> ({result.exam} ·{" "}
-          {result.subject}) to {result.user.name ?? result.user.email} for{" "}
-          {result.months} months (until {result.expiry}).
+        <p className="text-sm mt-3">
+          <span className={result.isTestUser ? "text-accent" : "text-ok"}>
+            {result.isTestUser ? "🧪" : "✓"}
+          </span>{" "}
+          <span className={result.isTestUser ? "text-accent" : "text-ok"}>
+            {result.isTestUser ? "Test grant" : "Granted"}{" "}
+            <strong>{result.plan}</strong>
+          </span>{" "}
+          ({result.exam} · {result.subject}) to{" "}
+          {result.user.name ?? result.user.email} for {result.months} months
+          (until {result.expiry}).
+          {result.isTestUser && (
+            <span className="block text-xs text-muted mt-1">
+              No payment record created — won't appear in revenue or payments
+              table.
+            </span>
+          )}
         </p>
       )}
     </div>
