@@ -2694,8 +2694,8 @@
       "options": [
         "1",
         "0",
-        "1",
-        "1"
+        "100 kΩ",
+        "220 kΩ"
       ],
       "answer": 3,
       "solution": "NOR(0, 0) = 1.",
@@ -3123,9 +3123,9 @@
       "stem": "For the XOR gate shown with inputs A = 0 and B = 0, the output is:",
       "options": [
         "0",
-        "0",
+        "100 kΩ",
         "1",
-        "0"
+        "220 kΩ"
       ],
       "answer": 1,
       "solution": "XOR(0, 0) = 0.",
@@ -4036,8 +4036,8 @@
       "stem": "For the XOR gate shown with inputs A = 1 and B = 0, the output is:",
       "options": [
         "1",
-        "1",
-        "1",
+        "100 kΩ",
+        "220 kΩ",
         "0"
       ],
       "answer": 0,

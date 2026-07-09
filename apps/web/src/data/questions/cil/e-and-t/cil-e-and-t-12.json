@@ -2671,9 +2671,9 @@
       "difficulty": "medium",
       "stem": "In the logic circuit shown, Y = (A AND B) OR C with A = 1, B = 0, C = 1. The output Y is:",
       "options": [
-        "1 (alt 2)",
         "1",
-        "1 (alt 1)",
+        "100 kΩ",
+        "220 kΩ",
         "0"
       ],
       "answer": 1,
@@ -3035,7 +3035,7 @@
       "options": [
         "2.57mA",
         "11000000mA",
-        "2.57mA",
+        "25%",
         "0.05mA"
       ],
       "answer": 0,
@@ -3435,7 +3435,7 @@
         "33V",
         "30V",
         "3V",
-        "30V"
+        "25%"
       ],
       "answer": 0,
       "solution": "Vout = (1+Rf/R₁)·Vin = (1+100/10)×3 = 33V.",
@@ -3560,7 +3560,7 @@
       "options": [
         "70500000mA",
         "3.61mA",
-        "3.61mA",
+        "25%",
         "0.02mA"
       ],
       "answer": 1,
@@ -3902,7 +3902,7 @@
         "0.03mA",
         "99000000mA",
         "8.45mA",
-        "8.45mA"
+        "25%"
       ],
       "answer": 2,
       "solution": "Ic = β×Ib = 300×28.18μA = 8.45mA.",

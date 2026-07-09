@@ -2550,8 +2550,8 @@
       "difficulty": "easy",
       "stem": "The last three demands were 120, 130 and 140 units. The 3-period moving-average forecast is:",
       "options": [
-        "130 units (alt 1)",
         "130 units",
+        "Low",
         "140 units",
         "195 units"
       ],
@@ -2741,8 +2741,8 @@
       "options": [
         "14 days",
         "24 days",
-        "12 days (alt 1)",
-        "12 days"
+        "12 days",
+        "25%"
       ],
       "answer": 3,
       "solution": "Path durations: 1-2-4 = 12, 1-3-4 = 12. The critical path is the longest = 12 days.",
@@ -2767,7 +2767,7 @@
       "options": [
         "0.50",
         "1.50",
-        "1.50",
+        "25%",
         "1.00"
       ],
       "answer": 3,
@@ -3490,8 +3490,8 @@
       "stem": "Customers arrive at 15/hour and spend on average 1 hour in the system. The average number in the system is:",
       "options": [
         "17",
-        "15 (alt 1)",
         "15",
+        "Low",
         "0.07"
       ],
       "answer": 2,
@@ -3769,7 +3769,7 @@
       "options": [
         "1.00",
         "1.50",
-        "1.50",
+        "25%",
         "0.50"
       ],
       "answer": 0,
@@ -3810,9 +3810,9 @@
       "stem": "A process has USL = 112, LSL = 88, mean = 100, σ = 2. Its Cpk is about:",
       "options": [
         "4",
-        "2 (alt 1)",
+        "2",
         "2.3",
-        "2"
+        "25%"
       ],
       "answer": 3,
       "solution": "Cpk = min[(USL−μ)/3σ, (μ−LSL)/3σ] = min[(112−100)/6, (100−88)/6] = 2.",
@@ -3852,7 +3852,7 @@
       "stem": "FMEA: Risk Priority Number (RPN) = Severity × Occurrence × Detection. Max RPN:",
       "options": [
         "100",
-        "100",
+        "Low",
         "10000",
         "1000 (10×10×10)"
       ],
@@ -4063,8 +4063,8 @@
       "options": [
         "120 units",
         "165 units",
-        "110 units (alt 1)",
-        "110 units"
+        "110 units",
+        "Low"
       ],
       "answer": 3,
       "solution": "MA = (100 + 110 + 120)/3 = 110 units.",
@@ -4250,10 +4250,10 @@
       "difficulty": "medium",
       "stem": "A PERT activity has to = 2, tm = 6, tp = 10 days. Its expected time is:",
       "options": [
-        "6 days (alt 1)",
         "6 days",
+        "25%",
         "7 days",
-        "6 days (alt 2)"
+        "50%"
       ],
       "answer": 1,
       "solution": "te = (to + 4tm + tp)/6 = (2 + 4×6 + 10)/6 = 6 days.",

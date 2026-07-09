@@ -2293,10 +2293,10 @@
       "difficulty": "medium",
       "stem": "A refrigerator extracts 400 W of heat using 50 W of work. Its COP is:",
       "options": [
-        "8 (alt 1)",
+        "8",
         "0.13",
         "9",
-        "8"
+        "Low"
       ],
       "answer": 3,
       "solution": "COP = Q/W = 400/50 = 8.",
@@ -2545,13 +2545,13 @@
       "difficulty": "easy",
       "stem": "Pressure at depth 8 m in water (ρ = 1000 kg/m³) is:",
       "options": [
-        "108800 kPa",
-        "1067328 kPa",
+        "108.8 kPa",
+        "78.5 kPa",
         "1067.3 kPa",
-        "0.1 kPa"
+        "88.2 kPa"
       ],
-      "answer": 2,
-      "solution": "P = ρgh = 1000×9.81×8 = 78.5 kPa.",
+      "answer": 1,
+      "solution": "P = ρgh = 1000×9.81×8 = 78,480 Pa = 78.5 kPa",
       "estSec": 60,
       "topicWeight": 0.5,
       "source": "curated"

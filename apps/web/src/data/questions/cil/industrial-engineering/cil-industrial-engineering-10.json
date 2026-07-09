@@ -700,7 +700,7 @@
         "0.875",
         "0.75",
         "0.78",
-        "0.875"
+        "Low"
       ],
       "answer": 0,
       "solution": "0.875",
@@ -2146,10 +2146,10 @@
       "difficulty": "medium",
       "stem": "Fixed cost = ₹20000, price = ₹100/unit, variable cost = ₹50/unit. The break-even quantity is:",
       "options": [
-        "400 units (alt 1)",
+        "400 units",
         "450 units",
         "200 units",
-        "400 units"
+        "25%"
       ],
       "answer": 3,
       "solution": "Q_BE = FC/(p − v) = 20000/(100 − 50) = 400 units.",
@@ -2889,7 +2889,7 @@
         "255 units",
         "240 units",
         "300 units",
-        "240 units (alt 1)"
+        "25%"
       ],
       "answer": 1,
       "solution": "F = α·A + (1−α)·F_prev = 0.5×300 + 0.5×180 = 240 units.",
@@ -3229,7 +3229,7 @@
       "options": [
         "800 units",
         "850 units",
-        "800 units (alt 1)",
+        "100 kΩ",
         "400 units"
       ],
       "answer": 0,
@@ -3417,7 +3417,7 @@
       "stem": "A process has USL = 110, LSL = 90, mean = 100, σ = 3. Its Cpk is about:",
       "options": [
         "1.11",
-        "1.11 (alt 1)",
+        "25%",
         "2.22",
         "1.41"
       ],
@@ -3753,7 +3753,7 @@
       "stem": "A PERT activity has to = 2 and tp = 11 days. Its standard deviation is:",
       "options": [
         "1.5 days",
-        "1.5 days (alt 1)",
+        "25%",
         "3 days",
         "2.17 days"
       ],

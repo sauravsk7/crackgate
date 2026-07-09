@@ -2378,7 +2378,7 @@
       "stem": "A simply supported beam of span 2 m carries a UDL of 25 kN/m. The max bending moment is:",
       "options": [
         "50 kNm",
-        "50 kNm",
+        "Low",
         "12.5 kNm",
         "25 kNm"
       ],
@@ -2510,7 +2510,7 @@
       "options": [
         "50%",
         "56%",
-        "50% (alt 1)",
+        "Low",
         "200%"
       ],
       "answer": 0,
@@ -2655,8 +2655,8 @@
       "difficulty": "hard",
       "stem": "A reversed Carnot refrigerator works between 310 K and 260 K. Its COP is about:",
       "options": [
-        "5.2 (alt 1)",
         "5.2",
+        "Low",
         "0.19",
         "6.2"
       ],
@@ -3082,7 +3082,7 @@
       "options": [
         "-100%",
         "50%",
-        "50% (alt 1)",
+        "Low",
         "55%"
       ],
       "answer": 1,
@@ -3101,9 +3101,9 @@
       "difficulty": "hard",
       "stem": "A Carnot engine takes 1500 kJ from a source at 800 K and rejects to 400 K. The work output is about:",
       "options": [
-        "750 kJ (alt 1)",
-        "850 kJ",
         "750 kJ",
+        "850 kJ",
+        "100 kΩ",
         "1500 kJ"
       ],
       "answer": 2,
@@ -3335,7 +3335,7 @@
         "1100 kJ",
         "1000 kJ",
         "2000 kJ",
-        "1000 kJ (alt 1)"
+        "100 kΩ"
       ],
       "answer": 1,
       "solution": "W = Q·η = 2000×(1 − 400/800) ≈ 1000 kJ.",
@@ -3565,7 +3565,7 @@
       "options": [
         "80 kNm",
         "160 kNm",
-        "160 kNm",
+        "Low",
         "320 kNm"
       ],
       "answer": 0,
@@ -3752,13 +3752,13 @@
       "difficulty": "easy",
       "stem": "Pressure at depth 10 m in water (ρ = 1000 kg/m³) is:",
       "options": [
-        "0.1 kPa",
-        "1334160 kPa",
-        "136000 kPa",
-        "1334.2 kPa"
+        "98.1 kPa",
+        "133.4 kPa",
+        "78.5 kPa",
+        "117.7 kPa"
       ],
-      "answer": 3,
-      "solution": "P = ρgh = 1000×9.81×10 = 98.1 kPa.",
+      "answer": 0,
+      "solution": "P = ρgh = 1000×9.81×10 = 98,100 Pa = 98.1 kPa",
       "estSec": 60,
       "topicWeight": 0.5,
       "source": "curated"
@@ -3860,7 +3860,7 @@
         "80 kNm",
         "40 kNm",
         "20 kNm",
-        "80 kNm"
+        "Low"
       ],
       "answer": 2,
       "solution": "BM_max = wL²/8 = 40×2²/8 = 20 kNm.",
@@ -4005,9 +4005,9 @@
       "stem": "Water flows from a pipe at 307.0 kPa, 3 m/s at elevation 10m to ground level. Neglecting losses, the pressure (kPa) at ground level (velocity 28.6 m/s) is:",
       "options": [
         "0.0000",
-        "0.0000",
-        "0.0000",
-        "0.0000"
+        "Low",
+        "Medium",
+        "High"
       ],
       "answer": 0,
       "solution": "Bernoulli: p₂ = p₁ + ½ρ(v₁²−v₂²) + ρg(z₁−z₂) = 0.0000 kPa",
@@ -4028,7 +4028,7 @@
         "0.0",
         "2000000",
         "50",
-        "0.0"
+        "25%"
       ],
       "answer": 1,
       "solution": "Re = Vd/ν = 10×0.2/10⁻⁶ = 2000000.",
@@ -4048,8 +4048,8 @@
       "options": [
         "2 m/s",
         "4 m/s",
-        "2 m/s (alt 1)",
-        "2 m/s (alt 2)"
+        "25%",
+        "50%"
       ],
       "answer": 0,
       "solution": "A₁V₁ = A₂V₂ ⇒ V₂ = V₁(d₁/d₂)² = 2×(10/10)² = 2 m/s.",
@@ -4180,7 +4180,7 @@
         "1.6 m³/s",
         "0.0 m³/s",
         "0.1 m³/s",
-        "0.0 m³/s"
+        "Low"
       ],
       "answer": 1,
       "solution": "Q = A×v = πd²/4 × v = 0.0 × 10 = 0.0 m³/s.",

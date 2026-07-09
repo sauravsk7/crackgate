@@ -2188,9 +2188,9 @@
       "difficulty": "medium",
       "stem": "In the logic circuit shown, Y = (A AND B) OR C with A = 1, B = 0, C = 0. The output Y is:",
       "options": [
-        "0 (alt 2)",
         "0",
-        "0 (alt 1)",
+        "100 kΩ",
+        "220 kΩ",
         "1"
       ],
       "answer": 1,
@@ -2490,7 +2490,7 @@
         "0.03mA",
         "99000000mA",
         "8.45mA",
-        "8.45mA"
+        "25%"
       ],
       "answer": 2,
       "solution": "Ic = β×Ib = 300×28.18μA = 8.45mA.",
@@ -2930,7 +2930,7 @@
       "options": [
         "106.82V",
         "111.82V",
-        "106.82V",
+        "25%",
         "5V"
       ],
       "answer": 1,
@@ -3076,7 +3076,7 @@
       "stem": "AM with m=1.0, input SNR=30. Output SNR (envelope detector):",
       "options": [
         "30",
-        "30",
+        "100 kΩ",
         "90",
         "10"
       ],
@@ -3267,7 +3267,7 @@
         "50.00V",
         "0.50V",
         "50.50V",
-        "50.00V"
+        "25%"
       ],
       "answer": 2,
       "solution": "Vout = (1+Rf/R₁)·Vin = (1+220/2.2)×0.5 = 50.50V.",
@@ -3328,9 +3328,9 @@
       "stem": "An FM signal has peak deviation 5 kHz and message bandwidth 5 kHz. By Carson's rule the bandwidth is:",
       "options": [
         "10 kHz",
-        "20 kHz (alt 1)",
         "20 kHz",
-        "20 kHz (alt 2)"
+        "Low",
+        "Medium"
       ],
       "answer": 2,
       "solution": "B = 2(Δf + fm) = 2(5+5) = 20 kHz.",
@@ -3518,7 +3518,7 @@
       "options": [
         "1V",
         "4.55V",
-        "4.55V",
+        "25%",
         "5.55V"
       ],
       "answer": 3,
@@ -3608,7 +3608,7 @@
         "-2",
         "2",
         "-1",
-        "-1"
+        "25%"
       ],
       "answer": 2,
       "solution": "A = -Rf/Rin = -22.0/22.0 = -1.",
@@ -4154,7 +4154,7 @@
         "0.50V",
         "1.56V",
         "1.06V",
-        "1.06V"
+        "25%"
       ],
       "answer": 1,
       "solution": "Vout = (1+Rf/R₁)·Vin = (1+10/4.7)×0.5 = 1.56V.",

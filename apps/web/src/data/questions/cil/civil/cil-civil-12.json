@@ -3038,8 +3038,8 @@
       "options": [
         "0.1 m",
         "0.0 m",
-        "0.1 m",
-        "0.1 m"
+        "25%",
+        "50%"
       ],
       "answer": 0,
       "solution": "h_f = fLv²/(2gd) = 0.02×100×0.5²/(2×9.81×0.5) = 0.1 m.",
@@ -3141,8 +3141,8 @@
       "difficulty": "medium",
       "stem": "RL of a benchmark is 95.5 m. With back sight 1.2 m and fore sight 2.2 m, the RL of the next point is:",
       "options": [
-        "94.5 m (alt 1)",
         "94.5 m",
+        "Low",
         "98.9 m",
         "96.5 m"
       ],
@@ -3246,8 +3246,8 @@
       "difficulty": "medium",
       "stem": "A beam has overall depth 500 mm, clear cover 30 mm and 25 mm main bars. The effective depth is:",
       "options": [
-        "457.5 mm (alt 1)",
         "457.5 mm",
+        "Low",
         "445 mm",
         "470 mm"
       ],
@@ -3673,8 +3673,8 @@
       "options": [
         "0.0 m³/s",
         "0.1 m³/s",
-        "0.1 m³/s",
-        "0.1 m³/s"
+        "Low",
+        "Medium"
       ],
       "answer": 1,
       "solution": "$Q = A\\cdot v = \\pi d^2/4 \\cdot v = 0.1$ m³/s.",
@@ -3820,7 +3820,7 @@
       "options": [
         "0.3 m",
         "0.1 m",
-        "0.1 m",
+        "25%",
         "0.2 m"
       ],
       "answer": 1,
@@ -3929,7 +3929,7 @@
       "stem": "At a point the major and minor principal stresses are 90 MPa and 30 MPa. From Mohr's circle, the maximum in-plane shear stress is:",
       "options": [
         "30 MPa",
-        "30 MPa (alt 1)",
+        "Low",
         "60 MPa",
         "15 MPa"
       ],
@@ -4267,7 +4267,7 @@
       "options": [
         "4.5 m³/s",
         "5.5 m³/s",
-        "4.5 m³/s (alt 1)",
+        "Low",
         "2.25 m³/s"
       ],
       "answer": 0,

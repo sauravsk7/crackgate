@@ -4251,9 +4251,9 @@
       "stem": "A process has USL = 112, LSL = 88, mean = 100, σ = 2. Its Cpk is about:",
       "options": [
         "4",
-        "2 (alt 1)",
+        "2",
         "2.3",
-        "2"
+        "25%"
       ],
       "answer": 3,
       "solution": "Cpk = min[(USL−μ)/3σ, (μ−LSL)/3σ] = min[(112−100)/6, (100−88)/6] = 2.",

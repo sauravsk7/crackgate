@@ -2294,9 +2294,9 @@
       "stem": "Fixed cost = ₹50000, price = ₹50/unit, variable cost = ₹50/unit. The break-even quantity is:",
       "options": [
         "1000 units",
-        "Infinity units (alt 2)",
         "Infinity units",
-        "Infinity units (alt 1)"
+        "25%",
+        "50%"
       ],
       "answer": 2,
       "solution": "Q_BE = FC/(p − v) = 50000/(50 − 50) = Infinity units.",
@@ -2336,7 +2336,7 @@
       "stem": "With α = 0.5, last actual = 300 and last forecast = 280, the next exponential-smoothing forecast is:",
       "options": [
         "290 units",
-        "290 units (alt 1)",
+        "25%",
         "300 units",
         "305 units"
       ],
@@ -3983,9 +3983,9 @@
       "difficulty": "medium",
       "stem": "A worker's observed time is 6 min at a performance rating of 100%. The normal time is:",
       "options": [
-        "6 min (alt 1)",
-        "6 min (alt 2)",
         "6 min",
+        "25%",
+        "50%",
         "7 min"
       ],
       "answer": 2,

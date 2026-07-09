@@ -2588,7 +2588,7 @@
       "stem": "RL of a benchmark is 150 m. With back sight 1.5 m and fore sight 2.2 m, the RL of the next point is:",
       "options": [
         "149.3 m",
-        "149.3 m (alt 1)",
+        "Low",
         "153.7 m",
         "150.7 m"
       ],
@@ -2797,9 +2797,9 @@
       "difficulty": "medium",
       "stem": "A beam has overall depth 400 mm, clear cover 20 mm and 16 mm main bars. The effective depth is:",
       "options": [
-        "372 mm (alt 1)",
-        "364 mm",
         "372 mm",
+        "364 mm",
+        "Low",
         "380 mm"
       ],
       "answer": 2,
@@ -3128,7 +3128,7 @@
         "95.9 m",
         "95.1 m",
         "99.5 m",
-        "95.1 m (alt 1)"
+        "Low"
       ],
       "answer": 1,
       "solution": "RL = 95.5 + 1.8 − 2.2 = 95.1 m (rise and fall).",
@@ -3364,10 +3364,10 @@
       "difficulty": "medium",
       "stem": "A beam has overall depth 550 mm, clear cover 25 mm and 25 mm main bars. The effective depth is:",
       "options": [
-        "512.5 mm (alt 1)",
+        "512.5 mm",
         "525 mm",
         "500 mm",
-        "512.5 mm"
+        "Low"
       ],
       "answer": 3,
       "solution": "d = 550 − 25 − 25/2 = 512.5 mm.",
@@ -4196,8 +4196,8 @@
       "stem": "RL of a benchmark is 150 m. With back sight 1.5 m and fore sight 1 m, the RL of the next point is:",
       "options": [
         "152.5 m",
-        "150.5 m (alt 1)",
         "150.5 m",
+        "Low",
         "149.5 m"
       ],
       "answer": 2,

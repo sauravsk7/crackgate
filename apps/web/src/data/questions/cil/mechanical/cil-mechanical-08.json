@@ -2340,8 +2340,8 @@
       "difficulty": "medium",
       "stem": "A refrigerator extracts 200 W of heat using 150 W of work. Its COP is:",
       "options": [
-        "1.33 (alt 1)",
         "1.33",
+        "Low",
         "2.33",
         "0.75"
       ],
@@ -2871,7 +2871,7 @@
       "stem": "A Carnot engine works between 700 K and 350 K. Its efficiency is about:",
       "options": [
         "50%",
-        "50% (alt 1)",
+        "Low",
         "-100%",
         "55%"
       ],
@@ -3062,7 +3062,7 @@
         "100",
         "0.0",
         "1000000",
-        "0.0"
+        "25%"
       ],
       "answer": 2,
       "solution": "Re = Vd/ν = 10×0.1/10⁻⁶ = 1000000.",
@@ -3144,9 +3144,9 @@
       "stem": "Water flows from a pipe at 404.0 kPa, 2 m/s at elevation 10m to ground level. Neglecting losses, the pressure (kPa) at ground level (velocity 31.8 m/s) is:",
       "options": [
         "0.0000",
-        "0.0000",
-        "0.0000",
-        "0.0000"
+        "Low",
+        "Medium",
+        "High"
       ],
       "answer": 0,
       "solution": "Bernoulli: p₂ = p₁ + ½ρ(v₁²−v₂²) + ρg(z₁−z₂) = 0.0000 kPa",
@@ -3464,9 +3464,9 @@
       "stem": "Water flows from a pipe at 307.0 kPa, 3 m/s at elevation 10m to ground level. Neglecting losses, the pressure (kPa) at ground level (velocity 28.6 m/s) is:",
       "options": [
         "0.0000",
-        "0.0000",
-        "0.0000",
-        "0.0000"
+        "Low",
+        "Medium",
+        "High"
       ],
       "answer": 0,
       "solution": "Bernoulli: p₂ = p₁ + ½ρ(v₁²−v₂²) + ρg(z₁−z₂) = 0.0000 kPa",
@@ -3807,7 +3807,7 @@
         "7.8 kN",
         "78.5 kN",
         "39.2 kN",
-        "39.2 kN"
+        "100 kΩ"
       ],
       "answer": 2,
       "solution": "F = ρgȟA = 800×9.81×5×1 = 39.2 kN.",

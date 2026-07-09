@@ -1582,7 +1582,7 @@
         "Daughter",
         "Granddaughter",
         "Niece",
-        "Granddaughter"
+        "Low"
       ],
       "answer": 1,
       "solution": "Granddaughter",
@@ -2904,7 +2904,7 @@
       "options": [
         "98.7 m",
         "103.7 m",
-        "98.7 m (alt 1)",
+        "Low",
         "101.3 m"
       ],
       "answer": 0,
@@ -3538,9 +3538,9 @@
       "stem": "A soil has cohesion c = 0 kPa and friction angle φ = 20°. By the Mohr–Coulomb criterion, its shear strength on a plane with normal stress 60 kPa is:",
       "options": [
         "26.21 kPa",
-        "21.84 kPa (alt 1)",
+        "21.84 kPa",
         "60 kPa",
-        "21.84 kPa"
+        "25%"
       ],
       "answer": 3,
       "solution": "**Concept.** Mohr–Coulomb shear strength combines cohesion with frictional resistance proportional to normal stress.\n**Formula.** $\\tau=c+\\sigma\\tan\\phi$\n**Given.** c = 0 kPa, φ = 20°, σ = 60 kPa.\n**Working.** $=0+60\\times\\tan 20^\\circ$.\n**Answer.** $\\tau=21.84$ kPa.",
@@ -4152,9 +4152,9 @@
       "stem": "A beam has overall depth 500 mm, clear cover 20 mm and 20 mm main bars. The effective depth is:",
       "options": [
         "460 mm",
-        "470 mm (alt 1)",
+        "470 mm",
         "480 mm",
-        "470 mm"
+        "Low"
       ],
       "answer": 3,
       "solution": "d = 500 − 20 − 20/2 = 470 mm.",
@@ -4242,8 +4242,8 @@
       "options": [
         "99.8 m",
         "96.2 m",
-        "94.8 m (alt 1)",
-        "94.8 m"
+        "94.8 m",
+        "Low"
       ],
       "answer": 3,
       "solution": "RL = 95.5 + 1.8 − 2.5 = 94.8 m (rise and fall).",

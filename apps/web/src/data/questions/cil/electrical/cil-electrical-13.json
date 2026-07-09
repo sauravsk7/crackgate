@@ -2779,7 +2779,7 @@
         "0.05A",
         "594A",
         "1.80A",
-        "0.05A"
+        "25%"
       ],
       "answer": 2,
       "solution": "I_R2 = V/R2. In parallel, voltage same across both resistors.",
@@ -3765,7 +3765,7 @@
       "options": [
         "9A",
         "0.27A",
-        "0.27A",
+        "25%",
         "0.14A"
       ],
       "answer": 1,
@@ -4016,7 +4016,7 @@
       "stem": "R1=100Ω, R2=33Ω in parallel. Rp:",
       "options": [
         "49.62Ω",
-        "49.62Ω",
+        "25%",
         "24.81Ω",
         "133Ω"
       ],

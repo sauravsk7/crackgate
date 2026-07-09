@@ -2272,9 +2272,9 @@
       "difficulty": "hard",
       "stem": "A reversed Carnot refrigerator works between 320 K and 280 K. Its COP is about:",
       "options": [
-        "7 (alt 1)",
-        "0.14",
         "7",
+        "0.14",
+        "Low",
         "8"
       ],
       "answer": 2,
@@ -2463,7 +2463,7 @@
       "options": [
         "10 kNm",
         "5 kNm",
-        "10 kNm",
+        "Low",
         "2.5 kNm"
       ],
       "answer": 3,
@@ -3286,7 +3286,7 @@
       "stem": "A simply supported beam of span 8 m carries a UDL of 20 kN/m. The max bending moment is:",
       "options": [
         "160 kNm",
-        "160 kNm",
+        "Low",
         "640 kNm",
         "320 kNm"
       ],
@@ -3371,7 +3371,7 @@
       "options": [
         "1280 kNm",
         "320 kNm",
-        "320 kNm",
+        "Low",
         "640 kNm"
       ],
       "answer": 1,
@@ -3414,7 +3414,7 @@
         "60 kNm",
         "240 kNm",
         "120 kNm",
-        "120 kNm"
+        "Low"
       ],
       "answer": 0,
       "solution": "BM_max = wL²/8 = 30×4²/8 = 60 kNm.",
@@ -3561,7 +3561,7 @@
         "25",
         "0.0",
         "1000000",
-        "0.0"
+        "25%"
       ],
       "answer": 2,
       "solution": "Re = Vd/ν = 5×0.2/10⁻⁶ = 1000000.",
@@ -3642,13 +3642,13 @@
       "difficulty": "easy",
       "stem": "Pressure at depth 15 m in water (ρ = 1000 kg/m³) is:",
       "options": [
-        "2001.2 kPa",
-        "2001240 kPa",
-        "0.1 kPa",
-        "204000 kPa"
+        "147.2 kPa",
+        "200.1 kPa",
+        "106.7 kPa",
+        "166.8 kPa"
       ],
       "answer": 0,
-      "solution": "P = ρgh = 1000×9.81×15 = 147.2 kPa.",
+      "solution": "P = ρgh = 1000×9.81×15 = 147,150 Pa = 147.2 kPa",
       "estSec": 60,
       "topicWeight": 0.5,
       "source": "curated"
@@ -3844,7 +3844,7 @@
         "120 kNm",
         "30 kNm",
         "60 kNm",
-        "60 kNm"
+        "Low"
       ],
       "answer": 1,
       "solution": "BM_max = wL²/8 = 15×4²/8 = 30 kNm.",

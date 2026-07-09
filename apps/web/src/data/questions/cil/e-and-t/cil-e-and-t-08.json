@@ -2296,7 +2296,7 @@
         "3V",
         "-3V",
         "6V",
-        "-3V"
+        "25%"
       ],
       "answer": 1,
       "solution": "Vout = -(Rf/Rin)·Vin = -(22/22)×3 = -3V.",
@@ -2737,7 +2737,7 @@
         "0.99mA",
         "0.02mA",
         "23500000mA",
-        "0.99mA"
+        "25%"
       ],
       "answer": 0,
       "solution": "Ic = β×Ib = 50×19.79μA = 0.99mA.",
@@ -2777,7 +2777,7 @@
       "stem": "Non-inverting: Rf=47kΩ, R₁=2.2kΩ, Vin=0.5V. Vout:",
       "options": [
         "10.68V",
-        "10.68V",
+        "25%",
         "11.18V",
         "0.50V"
       ],
@@ -3029,9 +3029,9 @@
       "stem": "In the logic circuit shown, Y = (A AND B) OR C with A = 1, B = 1, C = 1. The output Y is:",
       "options": [
         "1",
-        "1 (alt 1)",
+        "100 kΩ",
         "0",
-        "1 (alt 2)"
+        "220 kΩ"
       ],
       "answer": 0,
       "solution": "(A·B) = 1; Y = (A·B) + C = 1 + 1 = 1.",
@@ -3117,10 +3117,10 @@
       "difficulty": "medium",
       "stem": "In the logic circuit shown, Y = (A AND B) OR C with A = 0, B = 1, C = 1. The output Y is:",
       "options": [
-        "1 (alt 2)",
-        "1 (alt 1)",
+        "1",
+        "100 kΩ",
         "0",
-        "1"
+        "220 kΩ"
       ],
       "answer": 3,
       "solution": "(A·B) = 0; Y = (A·B) + C = 0 + 1 = 1.",
@@ -3293,7 +3293,7 @@
         "5.55V",
         "1V",
         "4.55V",
-        "4.55V"
+        "25%"
       ],
       "answer": 0,
       "solution": "Vout = (1+Rf/R₁)·Vin = (1+10/2.2)×1 = 5.55V.",
@@ -3459,7 +3459,7 @@
       "stem": "Inverting amp: Rf=47.0kΩ, Rin=47.0kΩ. Gain:",
       "options": [
         "-1",
-        "-1",
+        "25%",
         "-2",
         "2"
       ],
@@ -3884,7 +3884,7 @@
       "stem": "Non-inverting: Rf=470kΩ, R₁=22kΩ, Vin=0.5V. Vout:",
       "options": [
         "10.68V",
-        "10.68V",
+        "25%",
         "11.18V",
         "0.50V"
       ],
@@ -4054,7 +4054,7 @@
         "-3 V",
         "-5 V",
         "5 V",
-        "-5 V (alt 1)"
+        "100 kΩ"
       ],
       "answer": 1,
       "solution": "Vo = −(Rf/R1·V1 + Rf/R2·V2) = −(10/5×2 + 10/10×1) = -5 V.",
@@ -4222,7 +4222,7 @@
         "20 dB",
         "10 dB",
         "40 dB",
-        "20 dB (alt 1)"
+        "Low"
       ],
       "answer": 0,
       "solution": "Gain(dB) = 20·log₁₀(10) ≈ 20 dB.",
