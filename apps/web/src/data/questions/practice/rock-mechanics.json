@@ -2073,7 +2073,7 @@
       "difficulty": "hard",
       "type": "NAT",
       "stem": "For the intact Hoek-Brown criterion with $\\sigma_c=100\\,\\text{MPa}$, $m=10$, $s=1$ and $\\sigma_3=10\\,\\text{MPa}$, $\\sigma_1$ is _____ MPa. Round to two decimals.",
-      "answer": 251.42,
+      "answer": 151.42,
       "tolerance": 0.5,
       "solution": "**Concept.** $\\sigma_1=\\sigma_3+\\sigma_c\\sqrt{m\\sigma_3/\\sigma_c+s}$.\n\n**Working.**\n$$\\sigma_1=10+100\\sqrt{\\frac{10\\times10}{100}+1}=10+100\\sqrt{2}=10+141.42=151.42.$$\n\n**Answer.** $\\approx 151.42\\,\\text{MPa}$.",
       "archetype": "B",

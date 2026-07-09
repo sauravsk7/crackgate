@@ -36,7 +36,7 @@
       "answer": 1,
       "solution": "**Concept.** Strip mining removes overburden in long parallel strips and casts it into the adjacent mined-out void.\n\n**Reasoning.** This geometry works only for flat-lying, tabular seams of roughly uniform thickness near the surface — typically coal and lignite.\n\n**Answer.** Flat-lying tabular near-surface deposits (coal/lignite).",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "sm-orig-003",
@@ -54,7 +54,7 @@
       "answer": 1,
       "solution": "**Concept.** In hilly terrain a seam outcrops along the hillside at a fairly constant elevation.\n\n**Reasoning.** Contour mining follows that outcrop around the hill along the contour line, removing overburden from the cropline inward until the stripping ratio becomes uneconomic.\n\n**Answer.** Seam outcropping along a hillside, cut following the contour.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "sm-orig-004",
@@ -90,7 +90,7 @@
       "answer": 1,
       "solution": "**Concept.** The walking dragline is an overburden-stripping machine, not a coal-loading machine.\n\n**Reasoning.** It sits on the highwall side, digs the blasted overburden and casts (sidecasts) it into the adjacent void from which coal has already been removed.\n\n**Answer.** Removes overburden and casts it into the de-coaled void.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "sm-orig-006",
@@ -152,7 +152,7 @@
       "answer": 1,
       "solution": "**Concept.** Berms break a tall slope into segments.\n\n**Reasoning.** A catch berm intercepts loose rock that ravels off the bench faces and, by flattening the overall slope, raises the factor of safety.\n\n**Answer.** To catch falling rock and improve slope stability.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "sm-orig-010",
@@ -196,7 +196,7 @@
       "tolerance": 1,
       "solution": "**Concept.** Loose volume $=$ bank volume $\\times(1+\\text{swell})$.\n\n**Working.**\n$$V_L=1000\\,(1+0.25)=1250\\ \\text{m}^3$$\n\n**Answer.** 1250 m³.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "sm-orig-013",
@@ -209,7 +209,7 @@
       "tolerance": 0.01,
       "solution": "**Concept.** Load factor $=\\dfrac{1}{1+\\text{swell}}=\\dfrac{\\text{bank}}{\\text{loose}}$.\n\n**Working.**\n$$LF=\\frac{1}{1.25}=0.80$$\n\n**Answer.** 0.80.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "sm-orig-014",
@@ -227,7 +227,7 @@
       "answer": 1,
       "solution": "**Concept.** Breaking rock creates voids between fragments.\n\n**Reasoning.** The broken (loose) material therefore occupies a greater volume than the same mass did in the bank; this volume increase is the swell or bulking.\n\n**Answer.** Loose rock occupies more volume than in place.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "sm-orig-015",
@@ -240,7 +240,7 @@
       "tolerance": 0.01,
       "solution": "**Concept.** Load factor $=\\dfrac{\\rho_{loose}}{\\rho_{bank}}$ (mass conserved).\n\n**Working.**\n$$LF=\\frac{2.0}{2.5}=0.80$$\n\n**Answer.** 0.80.",
       "archetype": "B",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "sm-orig-016",
@@ -271,7 +271,7 @@
       "answer": 1,
       "solution": "**Concept.** The BWE is a continuous, high-capacity digging machine with limited cutting force.\n\n**Reasoning.** It excels in soft, free-digging overburden (lignite mines) where no drilling/blasting is needed, feeding a continuous conveyor; it cannot dig hard rock.\n\n**Answer.** Continuous excavation of soft, unconsolidated overburden.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "sm-orig-018",
@@ -289,7 +289,7 @@
       "answer": 1,
       "solution": "**Concept.** The surface miner is a continuous cutting machine with a rotating drum.\n\n**Reasoning.** It mills the rock, sizes it and (optionally) loads it onto trucks/conveyor in a single operation, eliminating drilling and blasting in moderately hard, bedded deposits.\n\n**Answer.** Cuts, crushes and loads mineral without drilling and blasting.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "sm-orig-019",
@@ -302,7 +302,7 @@
       "tolerance": 0.1,
       "solution": "**Concept.** Minimum operating bench width is the sum of equipment footprints plus clearance.\n\n**Working.**\n$$W=10+6+4=20\\ \\text{m}$$\n\n**Answer.** 20 m.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "sm-orig-020",
@@ -338,7 +338,7 @@
       "answer": 1,
       "solution": "**Concept.** A scraper loads, transports and discharges material in a single unit.\n\n**Reasoning.** It is efficient in soft, free-digging ground over short-to-medium hauls, e.g. topsoil and soft overburden removal; it cannot handle hard rock.\n\n**Answer.** Loading, hauling and spreading loose material over short/medium distances.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "sm-orig-022",
@@ -351,7 +351,7 @@
       "tolerance": 1,
       "solution": "**Concept.** Block volume $=L\\times W\\times H$.\n\n**Working.**\n$$V=200\\times30\\times12=72{,}000\\ \\text{m}^3$$\n\n**Answer.** 72,000 m³.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "sm-orig-023",
@@ -364,7 +364,7 @@
       "tolerance": 10,
       "solution": "**Concept.** Tonnage $=$ volume $\\times$ density.\n\n**Working.**\n$$T=72{,}000\\times2.5=180{,}000\\ \\text{t}$$\n\n**Answer.** 180,000 t.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "sm-orig-024",
@@ -395,7 +395,7 @@
       "tolerance": 100,
       "solution": "**Concept.** Capacity $\\approx$ base area $\\times$ average height.\n\n**Working.**\n$$V=50{,}000\\times20=1{,}000{,}000\\ \\text{m}^3$$\n\n**Answer.** 1,000,000 m³.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "sm-orig-026",
@@ -413,7 +413,7 @@
       "answer": 1,
       "solution": "**Concept.** IPCC brings the crusher to the pit and conveys crushed rock out.\n\n**Reasoning.** Trucks need only make a short haul to the in-pit crusher; the belt does the long, deep lift. This cuts diesel, tyre and maintenance costs and truck fleet size.\n\n**Answer.** Reduced truck haulage distance and cost.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "sm-orig-027",
@@ -426,7 +426,7 @@
       "tolerance": 1,
       "solution": "**Concept.** Output $=$ advance $\\times$ width $\\times$ height.\n\n**Working.**\n$$V=5\\times30\\times12=1800\\ \\text{m}^3/\\text{shift}$$\n\n**Answer.** 1800 m³.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "sm-orig-028",
@@ -444,7 +444,7 @@
       "answer": 1,
       "solution": "**Concept.** Thick deposits are split into multiple benches.\n\n**Reasoning.** In terrace mining a number of horizontal benches are developed and worked concurrently, each with its own equipment, allowing high output from thick overburden/ore sequences.\n\n**Answer.** Several horizontal benches worked simultaneously.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "sm-orig-029",
@@ -475,7 +475,7 @@
       "answer": 1,
       "solution": "**Concept.** Rippability correlates with intactness/strength, indexed by seismic velocity.\n\n**Reasoning.** Low P-wave velocity indicates weak, fractured ground that can be ripped; high velocity indicates massive, strong rock requiring blasting. Manufacturers publish rippability charts versus seismic velocity.\n\n**Answer.** Seismic (P-wave) velocity.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "sm-orig-031",
@@ -488,7 +488,7 @@
       "tolerance": 0.01,
       "solution": "**Concept.** Actual loose load per pass $=$ rated capacity $\\times$ fill factor.\n\n**Working.**\n$$V=5\\times0.9=4.5\\ \\text{m}^3$$\n\n**Answer.** 4.5 m³ (loose).",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "sm-orig-032",
@@ -514,7 +514,7 @@
       "tolerance": 1,
       "solution": "**Concept.** Loose hourly output $=$ load per pass $\\times$ cycles per hour.\n\n**Working.**\n$$Q_L=4.5\\times120=540\\ \\text{m}^3/\\text{h}$$\n\n**Answer.** 540 m³/h (loose).",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "sm-orig-034",
@@ -540,7 +540,7 @@
       "tolerance": 0.01,
       "solution": "**Concept.** Passes $=\\dfrac{\\text{truck loose capacity}}{\\text{loose load per pass}}$.\n\n**Working.**\n$$N=\\frac{18}{4.5}=4$$\n\n**Answer.** 4 passes.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "sm-orig-036",
@@ -553,7 +553,7 @@
       "tolerance": 0.1,
       "solution": "**Concept.** Loading time $=$ passes $\\times$ cycle time.\n\n**Working.**\n$$t_L=4\\times30=120\\ \\text{s}$$\n\n**Answer.** 120 s (2 min).",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "sm-orig-037",
@@ -571,7 +571,7 @@
       "answer": 1,
       "solution": "**Concept.** Rated (struck) capacity assumes a perfectly filled, level bucket.\n\n**Reasoning.** In practice, fragmentation, bulking, diggability and operator skill leave the bucket partly empty, so the actual load is a fraction (the fill factor) of rated capacity.\n\n**Answer.** The bucket seldom fills to its rated capacity.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "sm-orig-038",
@@ -620,7 +620,7 @@
       "tolerance": 0.1,
       "solution": "**Concept.** Loose load $=$ bucket capacity $\\times$ fill factor.\n\n**Working.**\n$$V=40\\times0.85=34\\ \\text{m}^3$$\n\n**Answer.** 34 m³ (loose).",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "sm-orig-041",
@@ -646,7 +646,7 @@
       "tolerance": 1,
       "solution": "**Concept.** Loose hourly output $=$ load per cycle $\\times$ cycles/h.\n\n**Working.**\n$$Q_L=34\\times60=2040\\ \\text{m}^3/\\text{h}$$\n\n**Answer.** 2040 m³/h (loose).",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "sm-orig-043",
@@ -677,7 +677,7 @@
       "answer": 1,
       "solution": "**Concept.** Draglines are too heavy for crawlers; ground bearing pressure must be very low.\n\n**Reasoning.** The machine rests on a large circular tub (low bearing pressure) while digging, and 'walks' short distances on a pair of eccentric-driven shoes to reposition.\n\n**Answer.** Walking shoes, resting on a tub while digging.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "sm-orig-045",
@@ -695,7 +695,7 @@
       "answer": 1,
       "solution": "**Concept.** Dragline range is defined by digging reach, dig depth and dumping radius/height.\n\n**Reasoning.** The dumping radius is the horizontal distance from the rotation axis at which spoil can be discharged; together with dumping height it must clear the spoil pile.\n\n**Answer.** Horizontal distance from rotation centre to spoil discharge point.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "sm-orig-046",
@@ -713,7 +713,7 @@
       "answer": 0,
       "solution": "**Concept.** A dragline casts its bucket out and drags it back, excavating below its standing level.\n\n**Reasoning.** Digging depth is the greatest depth below the tub that the dragged bucket can reach; it limits the overburden thickness a dragline can strip in one pass.\n\n**Answer.** Maximum depth below the tub it can excavate.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "sm-orig-047",
@@ -726,7 +726,7 @@
       "tolerance": 0.1,
       "solution": "**Concept.** Discharges/min $=$ buckets on wheel $\\times$ wheel speed (rev/min).\n\n**Working.**\n$$d=12\\times4=48\\ \\text{discharges/min}$$\n\n**Answer.** 48.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "sm-orig-048",
@@ -739,7 +739,7 @@
       "tolerance": 0.1,
       "solution": "**Concept.** Output $=$ discharges/min $\\times$ bucket capacity.\n\n**Working.**\n$$Q=48\\times0.5=24\\ \\text{m}^3/\\text{min}$$\n\n**Answer.** 24 m³/min.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "sm-orig-049",
@@ -770,7 +770,7 @@
       "answer": 1,
       "solution": "**Concept.** Scrapers struggle to self-load in firmer ground.\n\n**Reasoning.** A pusher dozer adds tractive force during loading, filling the bowl faster and more fully, which raises scraper productivity in the load phase.\n\n**Answer.** Shorten loading time and improve bowl fill.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "sm-orig-051",
@@ -783,7 +783,7 @@
       "tolerance": 1,
       "solution": "**Concept.** Production $=\\dfrac{\\text{load per cycle}}{\\text{cycle time}}$.\n\n**Working.**\n$$Q=\\frac{3}{0.5}=6\\ \\text{m}^3/\\text{min}=6\\times60=360\\ \\text{m}^3/\\text{h}$$\n\n**Answer.** 360 m³/h (loose).",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "sm-orig-052",
@@ -801,7 +801,7 @@
       "answer": 0,
       "solution": "**Concept.** Availability isolates mechanical reliability from operating practice.\n\n**Reasoning.** It is the proportion of scheduled time the machine is up (not under repair). Utilization then measures how much of that up-time is actually used.\n\n**Answer.** Fraction of scheduled time it is fit to operate.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "sm-orig-053",
@@ -814,7 +814,7 @@
       "tolerance": 0.01,
       "solution": "**Concept.** Availability $=\\dfrac{\\text{scheduled}-\\text{downtime}}{\\text{scheduled}}$.\n\n**Working.**\n$$A=\\frac{16-4}{16}=\\frac{12}{16}=0.75$$\n\n**Answer.** 0.75.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "sm-orig-054",
@@ -827,7 +827,7 @@
       "tolerance": 0.01,
       "solution": "**Concept.** Utilization $=\\dfrac{\\text{operating time}}{\\text{available time}}$.\n\n**Working.**\n$$U=\\frac{9}{12}=0.75$$\n\n**Answer.** 0.75.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "sm-orig-055",
@@ -840,7 +840,7 @@
       "tolerance": 0.001,
       "solution": "**Concept.** Use-of-time $=\\dfrac{\\text{operating}}{\\text{scheduled}}=A\\times U$.\n\n**Working.**\n$$\\frac{9}{16}=0.5625\\quad(=0.75\\times0.75)$$\n\n**Answer.** 0.5625.",
       "archetype": "B",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "sm-orig-056",
@@ -884,7 +884,7 @@
       "tolerance": 1,
       "solution": "**Concept.** Shift output $=$ effective rate $\\times$ operating hours.\n\n**Working.**\n$$V=240\\times12=2880\\ \\text{m}^3$$\n\n**Answer.** 2880 m³.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "sm-orig-059",
@@ -897,7 +897,7 @@
       "tolerance": 0.01,
       "solution": "**Concept.** Number of units $=\\dfrac{\\text{required output}}{\\text{output per unit}}$.\n\n**Working.**\n$$N=\\frac{720}{240}=3$$\n\n**Answer.** 3 shovels.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "sm-orig-060",
@@ -915,7 +915,7 @@
       "answer": 1,
       "solution": "**Concept.** $MF=\\dfrac{\\text{truck arrival rate}}{\\text{shovel service rate}}$.\n\n**Reasoning.** $MF=1$ means trucks arrive exactly as fast as the shovel can load them: a balanced fleet with minimal queuing and minimal shovel idle time. $MF<1$ underutilises the shovel; $MF>1$ queues trucks.\n\n**Answer.** Balanced fleet, neither resource waiting.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "sm-orig-061",
@@ -954,7 +954,7 @@
       "tolerance": 0.05,
       "solution": "**Concept.** Cycle time is the sum of all phase times.\n\n**Working.**\n$$t_c=2+5+1+3+1=12\\ \\text{min}$$\n\n**Answer.** 12 min.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "sm-orig-064",
@@ -967,7 +967,7 @@
       "tolerance": 0.05,
       "solution": "**Concept.** Trips/h $=\\dfrac{60}{\\text{cycle time (min)}}$.\n\n**Working.**\n$$n=\\frac{60}{12}=5$$\n\n**Answer.** 5 trips/h.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "sm-orig-065",
@@ -980,7 +980,7 @@
       "tolerance": 1,
       "solution": "**Concept.** Output $=$ payload $\\times$ trips/h.\n\n**Working.**\n$$Q=50\\times5=250\\ \\text{t/h}$$\n\n**Answer.** 250 t/h.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "sm-orig-066",
@@ -993,7 +993,7 @@
       "tolerance": 0.01,
       "solution": "**Concept.** Fleet $=\\dfrac{\\text{required}}{\\text{per truck}}$.\n\n**Working.**\n$$N=\\frac{750}{250}=3$$\n\n**Answer.** 3 dumpers.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "sm-orig-067",
@@ -1011,7 +1011,7 @@
       "answer": 0,
       "solution": "**Concept.** Truck and shovel must be size-matched.\n\n**Reasoning.** Bigger trucks need fewer units for the same tonnage, but each takes more dipper passes to fill, increasing loading time and possibly shovel waiting. An ideal match uses 3–5 passes per truck.\n\n**Answer.** Fewer trucks but longer loading per truck.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "sm-orig-068",
@@ -1024,7 +1024,7 @@
       "tolerance": 0.01,
       "solution": "**Concept.** $MF=\\dfrac{N\\times t_{load}}{t_{cycle}}$; set $MF=1$.\n\n**Working.**\n$$N=\\frac{t_{cycle}}{t_{load}}=\\frac{12}{2}=6$$\n\n**Answer.** 6 trucks.",
       "archetype": "B",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "sm-orig-069",
@@ -1042,7 +1042,7 @@
       "answer": 1,
       "solution": "**Concept.** $MF>1$ means truck-loading demand exceeds shovel service capacity.\n\n**Reasoning.** Trucks accumulate at the shovel forming a queue; the shovel becomes the bottleneck and trucks lose time waiting.\n\n**Answer.** Trucks queue at the saturated shovel.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "sm-orig-070",
@@ -1055,7 +1055,7 @@
       "tolerance": 0.02,
       "solution": "**Concept.** $MF=\\dfrac{N\\times t_{load}}{t_{cycle}}$.\n\n**Working.**\n$$MF=\\frac{4\\times2}{12}=\\frac{8}{12}=0.67$$\n\n**Answer.** 0.67 (shovel under-utilised).",
       "archetype": "B",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "sm-orig-071",
@@ -1073,7 +1073,7 @@
       "answer": 1,
       "solution": "**Concept.** Several stripping ratios are defined.\n\n**Reasoning.** The overall (average) SR is the ratio of all waste to be moved to all ore to be recovered over the entire life of the pit; it sizes the total waste task.\n\n**Answer.** Total waste / total ore over mine life.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "sm-orig-072",
@@ -1091,7 +1091,7 @@
       "answer": 0,
       "solution": "**Concept.** Incremental SR is evaluated push-by-push.\n\n**Reasoning.** It is the waste removed to expose the ore in one particular increment (cut/pushback); it rises as the pit deepens and is compared against the break-even SR for that increment.\n\n**Answer.** Waste/ore for a specific increment of the pit.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "sm-orig-073",
@@ -1122,7 +1122,7 @@
       "answer": 0,
       "solution": "**Concept.** The pit limit is set where actual SR equals BESR.\n\n**Reasoning.** While the waste-to-ore ratio of the next increment is at or below the break-even value, the increment pays its way; once it exceeds BESR, further surface mining loses money and defines the ultimate pit limit.\n\n**Answer.** Actual SR $\\le$ BESR.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "sm-orig-075",
@@ -1135,7 +1135,7 @@
       "tolerance": 0.1,
       "solution": "**Concept.** Waste $=SR\\times$ ore.\n\n**Working.**\n$$W=3\\times10=30\\ \\text{Mt}$$\n\n**Answer.** 30 Mt.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "sm-orig-076",
@@ -1179,7 +1179,7 @@
       "tolerance": 0.01,
       "solution": "**Concept.** Benches $=\\dfrac{\\text{depth}}{\\text{bench height}}$; berms $=$ benches $-1$.\n\n**Working.**\n$$\\text{benches}=\\frac{60}{12}=5,\\quad \\text{berms}=5-1=4$$\n\n**Answer.** 4 berms.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "sm-orig-079",
@@ -1210,7 +1210,7 @@
       "answer": 1,
       "solution": "**Concept.** Slope angle trades stripping cost against stability.\n\n**Reasoning.** A flatter wall pushes the crest back, exposing more waste to be removed (higher SR), but the lower, less-steep wall has a higher factor of safety.\n\n**Answer.** More waste but greater stability.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "sm-orig-081",
@@ -1223,7 +1223,7 @@
       "tolerance": 5,
       "solution": "**Concept.** $Q=3600\\,A\\,v\\,\\rho$ (with $A$ in m², $v$ in m/s, $\\rho$ in t/m³).\n\n**Working.**\n$$Q=3600\\times0.2\\times2.5\\times1.6=2880\\ \\text{t/h}$$\n\n**Answer.** 2880 t/h.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "sm-orig-082",
@@ -1254,7 +1254,7 @@
       "answer": 1,
       "solution": "**Concept.** Conveyors are continuous, fixed-path systems.\n\n**Reasoning.** They move large, steady tonnages economically, can climb grades far steeper than truck ramps, and have low energy/labour cost per tonne — provided the route is fixed.\n\n**Answer.** Continuous high-volume haulage up steep grades on a fixed route.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "sm-orig-084",
@@ -1285,7 +1285,7 @@
       "answer": 1,
       "solution": "**Concept.** Topsoil carries the nutrients, seeds and microbes needed for plant growth.\n\n**Reasoning.** Preserving it separately allows it to be replaced over the regraded spoil during reclamation, enabling successful revegetation and land restoration.\n\n**Answer.** Respread during reclamation to support revegetation.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "sm-orig-086",
@@ -1298,7 +1298,7 @@
       "tolerance": 100,
       "solution": "**Concept.** Loose volume $=$ bank volume $\\times(1+\\text{swell})$.\n\n**Working.**\n$$V_L=1{,}000{,}000\\times1.25=1{,}250{,}000\\ \\text{m}^3$$\n\n**Answer.** 1,250,000 m³.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "sm-orig-087",
@@ -1316,7 +1316,7 @@
       "answer": 1,
       "solution": "**Concept.** Dump stability follows the same slope principles as pit walls.\n\n**Reasoning.** Terracing breaks the height into stable lifts, flattening the overall slope toward the angle of repose; good foundation preparation and drainage prevent pore-pressure-driven failure.\n\n**Answer.** Terrace the dump and limit overall slope angle.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "sm-orig-088",
@@ -1329,7 +1329,7 @@
       "tolerance": 10,
       "solution": "**Concept.** Area $=\\dfrac{\\text{volume}}{\\text{average height}}$.\n\n**Working.**\n$$A=\\frac{1{,}250{,}000}{25}=50{,}000\\ \\text{m}^2$$\n\n**Answer.** 50,000 m².",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "sm-orig-089",
@@ -1342,7 +1342,7 @@
       "tolerance": 0.5,
       "solution": "**Concept.** Unit cost $=\\dfrac{\\text{hourly cost}}{\\text{hourly output}}$.\n\n**Working.**\n$$c=\\frac{30000}{240}=125\\ \\text{Rs/m}^3$$\n\n**Answer.** Rs 125 per bank m³.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "sm-orig-090",
@@ -1360,7 +1360,7 @@
       "answer": 1,
       "solution": "**Concept.** Productivity scales with equipment size and freedom of operation.\n\n**Reasoning.** Open workings impose no roof-span, ventilation or gallery-size limits, so very large shovels, draglines and trucks can be deployed, giving much higher output per worker than confined underground operations.\n\n**Answer.** Large equipment usable with few size/ventilation constraints.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "sm-orig-091",
@@ -1378,7 +1378,7 @@
       "answer": 1,
       "solution": "**Concept.** Highwall mining recovers reserves left beyond the economic stripping limit of an opencast pit.\n\n**Reasoning.** A remotely operated continuous miner or auger is driven horizontally into the coal seam exposed in the final highwall, recovering coal in a series of parallel entries without removing further overburden.\n\n**Answer.** Remotely extracts coal from the exposed highwall seam.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "sm-orig-092",
@@ -1396,7 +1396,7 @@
       "answer": 1,
       "solution": "**Concept.** Augering is the simplest form of highwall extraction.\n\n**Reasoning.** Large-diameter augers bore horizontally into the exposed seam, the flights conveying broken coal back to the bench; a web of coal is left between holes for support.\n\n**Answer.** Boring parallel holes into the highwall seam.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "sm-orig-093",
@@ -1409,7 +1409,7 @@
       "tolerance": 0.05,
       "solution": "**Concept.** Rolling resistance force $=RR\\%\\times W g$.\n\n**Working.**\n$$F_{RR}=0.02\\times100{,}000\\times9.81=19620\\ \\text{N}=19.62\\ \\text{kN}$$\n\n**Answer.** 19.62 kN.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "sm-orig-094",
@@ -1422,7 +1422,7 @@
       "tolerance": 0.1,
       "solution": "**Concept.** Grade resistance $\\approx$ grade(fraction)$\\times W g$.\n\n**Working.**\n$$F_{GR}=0.08\\times100{,}000\\times9.81=78480\\ \\text{N}=78.48\\ \\text{kN}$$\n\n**Answer.** 78.48 kN.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "sm-orig-095",
@@ -1466,7 +1466,7 @@
       "answer": 1,
       "solution": "**Concept.** Rolling resistance can be expressed as an equivalent grade.\n\n**Reasoning.** The truck's engine sees the sum of the actual climb and the rolling drag; adding the two percentages gives one effective grade against which rimpull/speed are read from performance charts.\n\n**Answer.** Grade % + rolling-resistance %.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "sm-orig-098",
@@ -1497,7 +1497,7 @@
       "answer": 1,
       "solution": "**Concept.** Descending a loaded truck releases large gravitational energy.\n\n**Reasoning.** A retarder (hydraulic/electric/engine) dissipates this energy to hold a safe steady speed on long downgrades, sparing the friction service brakes from overheating.\n\n**Answer.** Controls speed on downgrades.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "sm-orig-100",
@@ -1515,7 +1515,7 @@
       "answer": 1,
       "solution": "**Concept.** Wall failures are preceded by accelerating displacement.\n\n**Reasoning.** Ground-based radar scans the wall continuously and detects sub-millimetre movement over large areas, allowing alarms to be raised and the area evacuated before collapse.\n\n**Answer.** Real-time movement monitoring / early warning.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "sm-orig-101",
@@ -1533,7 +1533,7 @@
       "answer": 0,
       "solution": "**Concept.** Continuous systems link digging, transport and dumping in an uninterrupted chain.\n\n**Reasoning.** A bucket-wheel excavator feeds a belt conveyor that feeds a spreader, moving material as a steady stream — eliminating the cyclic load/haul/dump pattern of shovel-truck operation. It suits soft, free-digging ground.\n\n**Answer.** Continuous material flow rather than discrete loads.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "sm-orig-102",
@@ -1564,7 +1564,7 @@
       "tolerance": 10,
       "solution": "**Concept.** Daily output $=$ hourly rate $\\times$ operating hours.\n\n**Working.**\n$$V=1440\\times20=28{,}800\\ \\text{m}^3/\\text{day}$$\n\n**Answer.** 28,800 m³/day.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "sm-orig-104",
@@ -1579,7 +1579,11 @@
         "Rope (cable) shovel",
         "Bucket chain excavator"
       ],
-      "answer": [0, 1, 3],
+      "answer": [
+        0,
+        1,
+        3
+      ],
       "solution": "**Concept.** Continuous machines dig without a discrete load-swing-dump cycle.\n\n**Reasoning.** The bucket wheel excavator, surface miner and bucket chain excavator all excavate in a continuous stream. A rope shovel is the classic cyclic (discontinuous) digger.\n\n**Answer.** BWE, surface miner and bucket chain excavator.",
       "archetype": "A",
       "marks": 2
@@ -1600,7 +1604,7 @@
       "answer": 0,
       "solution": "**Concept.** The pit is expanded only while each increment is profitable.\n\n**Reasoning.** The ultimate (final) pit is the largest outline for which every boundary increment still satisfies actual SR $\\le$ BESR; expanding further would add waste worth more than the ore it exposes.\n\n**Answer.** Profit-maximising final outline (boundary at SR = BESR).",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "sm-orig-106",
@@ -1618,7 +1622,7 @@
       "answer": 1,
       "solution": "**Concept.** Not all the waste in the final pit need be moved at once.\n\n**Reasoning.** Dividing the pit into nested phases lets early phases target low-stripping, high-grade ore, deferring deeper waste. This brings revenue forward and reduces the present value of stripping cost, raising NPV.\n\n**Answer.** Defer waste, expose ore early, improve NPV.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "sm-orig-107",
@@ -1644,7 +1648,7 @@
       "tolerance": 0.01,
       "solution": "**Concept.** Faces $=\\dfrac{\\text{required volume}}{\\text{volume per face}}$.\n\n**Working.**\n$$N=\\frac{480{,}000}{240{,}000}=2$$\n\n**Answer.** 2 faces.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "sm-orig-109",
@@ -1662,7 +1666,7 @@
       "answer": 1,
       "solution": "**Concept.** A turning truck experiences an outward centrifugal force.\n\n**Reasoning.** Tilting the road surface inward (super-elevation) resolves part of the truck's weight to balance this force, preventing skidding/rollover and allowing safe cornering.\n\n**Answer.** Counteracts lateral force for safe cornering.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "sm-orig-110",
@@ -1680,7 +1684,7 @@
       "answer": 1,
       "solution": "**Concept.** Keeping surface water out reduces pumping load and slope saturation.\n\n**Reasoning.** Garland drains are perimeter channels that catch catchment runoff before it can enter the pit, diverting it to settling ponds, thereby protecting slopes and cutting dewatering cost.\n\n**Answer.** Intercept and divert surface runoff away from the pit.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "sm-orig-111",
@@ -1693,7 +1697,7 @@
       "tolerance": 0.1,
       "solution": "**Concept.** Net dewatering $=$ pumping rate $-$ inflow.\n\n**Working.**\n$$\\dot V=600-500=100\\ \\text{m}^3/\\text{h}$$\n\n**Answer.** 100 m³/h.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "sm-orig-112",
@@ -1724,7 +1728,7 @@
       },
       "solution": "**Concept.** For equal areas, the volumetric SR is the thickness ratio.\n\n**Working.**\n$$SR=\\frac{t_{OB}}{t_{coal}}=\\frac{24}{6}=4\\ \\text{m}^3/\\text{m}^3$$\n\n**Answer.** 4.",
       "archetype": "C",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "sm-orig-114",
@@ -1755,7 +1759,7 @@
       "answer": 1,
       "solution": "**Concept.** Limited reach forces some spoil to be cast twice.\n\n**Reasoning.** When the void cannot accept all spoil in one cast, material is placed temporarily and later re-excavated and recast — rehandle — which consumes dragline cycles without removing new overburden, lowering effective production.\n\n**Answer.** Spoil moved a second time, reducing prime output.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "sm-orig-116",
@@ -1768,7 +1772,7 @@
       "tolerance": 5,
       "solution": "**Concept.** Prime output $=$ gross output $\\times(1-\\text{rehandle fraction})$.\n\n**Working.**\n$$Q_{prime}=2000\\times(1-0.20)=1600\\ \\text{m}^3/\\text{h}$$\n\n**Answer.** 1600 m³/h.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "sm-orig-117",
@@ -1783,7 +1787,10 @@
         "Can selectively mine narrow, high-grade ore veins",
         "Provides continuous belt haulage of ore"
       ],
-      "answer": [0, 1],
+      "answer": [
+        0,
+        1
+      ],
       "solution": "**Concept.** The dragline is a long-reach sidecasting machine.\n\n**Reasoning.** It moves spoil straight into the de-coaled void without trucks and, for thick overburden within its reach, gives a low unit stripping cost. It is not a selective ore miner and does not provide belt haulage.\n\n**Answer.** Direct sidecasting (no trucks) and low unit stripping cost.",
       "archetype": "A",
       "marks": 2
@@ -1804,7 +1811,7 @@
       "answer": 1,
       "solution": "**Concept.** Dragline range is geometrically fixed by boom length.\n\n**Reasoning.** Digging depth, dumping radius and dumping height set a fixed envelope; overburden thicker than this cannot be stripped in a single pass without rehandle or pre-stripping by other equipment.\n\n**Answer.** Fixed reach/dig depth limits overburden thickness.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "sm-orig-119",
@@ -1835,7 +1842,7 @@
       "answer": 1,
       "solution": "**Concept.** Equipment must match the ground and the geometry.\n\n**Reasoning.** Hard, blasted rock and a deep, expanding pit rule out continuous diggers (BWE/surface miner — soft ground only) and scrapers (soft, short-haul). A large rope shovel loading rear-dump trucks handles blasted hard rock and flexible deep haul routes.\n\n**Answer.** Large rope shovel with truck haulage.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "sm-orig-121",
@@ -1929,7 +1936,14 @@
       "difficulty": "medium",
       "marks": 2,
       "stem": "For the production bench shown (bench height 12 m, burden 4 m, spacing 5 m), compute the in-situ rock volume broken per blasthole (m³).",
-      "figure": {"kind": "bench", "benchHeight": 12, "burden": 4, "spacing": 5, "holes": 3, "slopeAngle": 65},
+      "figure": {
+        "kind": "bench",
+        "benchHeight": 12,
+        "burden": 4,
+        "spacing": 5,
+        "holes": 3,
+        "slopeAngle": 65
+      },
       "options": [],
       "answer": 240,
       "tolerance": 0.5,
@@ -1944,7 +1958,11 @@
       "difficulty": "easy",
       "marks": 1,
       "stem": "An open pit reaches a depth of 60 m and is worked in 15 m high benches as shown. How many benches are required?",
-      "figure": {"kind": "svg", "caption": "Bench staircase", "markup": "<svg viewBox='0 0 220 160' xmlns='http://www.w3.org/2000/svg'><polyline points='20,30 80,30 80,60 120,60 120,90 160,90 160,120 200,120 200,140 20,140' fill='#fde9c8' stroke='#92400e'/><line x1='20' y1='30' x2='20' y2='140' stroke='#475569'/><text x='28' y='152' font-size='8'>depth 60 m, bench 15 m</text></svg>"},
+      "figure": {
+        "kind": "svg",
+        "caption": "Bench staircase",
+        "markup": "<svg viewBox='0 0 220 160' xmlns='http://www.w3.org/2000/svg'><polyline points='20,30 80,30 80,60 120,60 120,90 160,90 160,120 200,120 200,140 20,140' fill='#fde9c8' stroke='#92400e'/><line x1='20' y1='30' x2='20' y2='140' stroke='#475569'/><text x='28' y='152' font-size='8'>depth 60 m, bench 15 m</text></svg>"
+      },
       "options": [],
       "answer": 4,
       "tolerance": 0.1,
@@ -1959,7 +1977,11 @@
       "difficulty": "medium",
       "marks": 2,
       "stem": "From the cross-section shown, with overburden cross-sectional area 400 m² and coal cross-sectional area 80 m² per metre of strike, compute the stripping ratio.",
-      "figure": {"kind": "svg", "caption": "Pit cross-section", "markup": "<svg viewBox='0 0 240 160' xmlns='http://www.w3.org/2000/svg'><rect x='30' y='30' width='180' height='70' fill='#d6d3d1' stroke='#475569'/><text x='120' y='70' font-size='9' text-anchor='middle'>overburden 400 m^2</text><rect x='30' y='100' width='180' height='30' fill='#1f2937'/><text x='120' y='120' font-size='9' text-anchor='middle' fill='#fff'>coal 80 m^2</text></svg>"},
+      "figure": {
+        "kind": "svg",
+        "caption": "Pit cross-section",
+        "markup": "<svg viewBox='0 0 240 160' xmlns='http://www.w3.org/2000/svg'><rect x='30' y='30' width='180' height='70' fill='#d6d3d1' stroke='#475569'/><text x='120' y='70' font-size='9' text-anchor='middle'>overburden 400 m^2</text><rect x='30' y='100' width='180' height='30' fill='#1f2937'/><text x='120' y='120' font-size='9' text-anchor='middle' fill='#fff'>coal 80 m^2</text></svg>"
+      },
       "options": [],
       "answer": 5,
       "tolerance": 0.05,
@@ -1974,7 +1996,11 @@
       "difficulty": "medium",
       "marks": 2,
       "stem": "Using the unit values shown (coal selling price ₹50/t, production cost ₹20/t, stripping cost ₹6 per unit), compute the break-even stripping ratio (BESR).",
-      "figure": {"kind": "svg", "caption": "Unit economics", "markup": "<svg viewBox='0 0 220 150' xmlns='http://www.w3.org/2000/svg'><line x1='30' y1='130' x2='200' y2='130' stroke='#475569'/><rect x='50' y='40' width='30' height='90' fill='#16a34a'/><text x='42' y='32' font-size='7'>price 50</text><rect x='100' y='80' width='30' height='50' fill='#f59e0b'/><text x='96' y='72' font-size='7'>cost 20</text><rect x='150' y='110' width='30' height='20' fill='#dc2626'/><text x='144' y='102' font-size='7'>strip 6</text></svg>"},
+      "figure": {
+        "kind": "svg",
+        "caption": "Unit economics",
+        "markup": "<svg viewBox='0 0 220 150' xmlns='http://www.w3.org/2000/svg'><line x1='30' y1='130' x2='200' y2='130' stroke='#475569'/><rect x='50' y='40' width='30' height='90' fill='#16a34a'/><text x='42' y='32' font-size='7'>price 50</text><rect x='100' y='80' width='30' height='50' fill='#f59e0b'/><text x='96' y='72' font-size='7'>cost 20</text><rect x='150' y='110' width='30' height='20' fill='#dc2626'/><text x='144' y='102' font-size='7'>strip 6</text></svg>"
+      },
       "options": [],
       "answer": 5,
       "tolerance": 0.05,
@@ -1989,7 +2015,11 @@
       "difficulty": "medium",
       "marks": 2,
       "stem": "A haul ramp descends to a depth of 90 m at a ruling gradient of 9% as shown. Compute the horizontal length (m) of the ramp.",
-      "figure": {"kind": "svg", "caption": "Descending ramp", "markup": "<svg viewBox='0 0 240 150' xmlns='http://www.w3.org/2000/svg'><polygon points='20,30 220,130 20,130' fill='#fde9c8' stroke='#92400e'/><line x1='20' y1='30' x2='20' y2='130' stroke='#475569'/><text x='26' y='80' font-size='8'>depth 90 m</text><text x='100' y='108' font-size='8' transform='rotate(27 100 108)'>grade 9%</text></svg>"},
+      "figure": {
+        "kind": "svg",
+        "caption": "Descending ramp",
+        "markup": "<svg viewBox='0 0 240 150' xmlns='http://www.w3.org/2000/svg'><polygon points='20,30 220,130 20,130' fill='#fde9c8' stroke='#92400e'/><line x1='20' y1='30' x2='20' y2='130' stroke='#475569'/><text x='26' y='80' font-size='8'>depth 90 m</text><text x='100' y='108' font-size='8' transform='rotate(27 100 108)'>grade 9%</text></svg>"
+      },
       "options": [],
       "answer": 1000,
       "tolerance": 1,
@@ -2004,7 +2034,11 @@
       "difficulty": "easy",
       "marks": 1,
       "stem": "From the cycle diagram shown, compute the total truck cycle time (minutes) given load 2, haul 8, dump 1 and return 6 minutes.",
-      "figure": {"kind": "svg", "caption": "Truck cycle", "markup": "<svg viewBox='0 0 220 150' xmlns='http://www.w3.org/2000/svg'><circle cx='110' cy='75' r='50' fill='none' stroke='#475569' stroke-dasharray='4 3'/><text x='110' y='20' font-size='8' text-anchor='middle'>load 2</text><text x='180' y='78' font-size='8' text-anchor='middle'>haul 8</text><text x='110' y='140' font-size='8' text-anchor='middle'>dump 1</text><text x='38' y='78' font-size='8' text-anchor='middle'>return 6</text></svg>"},
+      "figure": {
+        "kind": "svg",
+        "caption": "Truck cycle",
+        "markup": "<svg viewBox='0 0 220 150' xmlns='http://www.w3.org/2000/svg'><circle cx='110' cy='75' r='50' fill='none' stroke='#475569' stroke-dasharray='4 3'/><text x='110' y='20' font-size='8' text-anchor='middle'>load 2</text><text x='180' y='78' font-size='8' text-anchor='middle'>haul 8</text><text x='110' y='140' font-size='8' text-anchor='middle'>dump 1</text><text x='38' y='78' font-size='8' text-anchor='middle'>return 6</text></svg>"
+      },
       "options": [],
       "answer": 17,
       "tolerance": 0.1,
@@ -2019,9 +2053,13 @@
       "difficulty": "hard",
       "marks": 2,
       "stem": "A loader serves the fleet shown: 5 trucks, loading time 3 min per truck and truck cycle time 15 min. Compute the match factor.",
-      "figure": {"kind": "svg", "caption": "Loader and truck fleet", "markup": "<svg viewBox='0 0 260 120' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='60' r='24' fill='#fde68a' stroke='#b45309'/><text x='50' y='64' font-size='8' text-anchor='middle'>loader</text><g fill='#bfdbfe' stroke='#475569'><rect x='110' y='45' width='28' height='20'/><rect x='150' y='45' width='28' height='20'/><rect x='190' y='45' width='28' height='20'/></g><text x='105' y='90' font-size='8'>5 trucks, load 3 min, cycle 15 min</text></svg>"},
+      "figure": {
+        "kind": "svg",
+        "caption": "Loader and truck fleet",
+        "markup": "<svg viewBox='0 0 260 120' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='60' r='24' fill='#fde68a' stroke='#b45309'/><text x='50' y='64' font-size='8' text-anchor='middle'>loader</text><g fill='#bfdbfe' stroke='#475569'><rect x='110' y='45' width='28' height='20'/><rect x='150' y='45' width='28' height='20'/><rect x='190' y='45' width='28' height='20'/></g><text x='105' y='90' font-size='8'>5 trucks, load 3 min, cycle 15 min</text></svg>"
+      },
       "options": [],
-      "answer": 1.0,
+      "answer": 1,
       "tolerance": 0.02,
       "solution": "**Concept.** Match factor $= \\dfrac{N_t \\times t_{load}}{T_{cycle}}$; MF = 1 means loader and trucks are balanced.\n\n**Working.**\n$$MF = \\frac{5 \\times 3}{15} = \\frac{15}{15} = 1.0$$\n\n**Answer.** $\\mathbf{1.0}$ (balanced fleet).",
       "archetype": "C"
@@ -2032,9 +2070,13 @@
       "subject": "Surface Mining",
       "topic": "Shovel Productivity",
       "difficulty": "medium",
-      "marks": 1,
+      "marks": 2,
       "stem": "A shovel with a 5 m³ dipper has a cycle time of 30 s as shown. Compute its ideal output (loose m³ per hour) assuming a full bucket each cycle.",
-      "figure": {"kind": "svg", "caption": "Shovel dipper", "markup": "<svg viewBox='0 0 220 130' xmlns='http://www.w3.org/2000/svg'><rect x='40' y='70' width='60' height='30' fill='#94a3b8' stroke='#475569'/><line x1='100' y1='80' x2='150' y2='50' stroke='#475569' stroke-width='3'/><path d='M150 50 q20 0 18 20 l-18 -2 z' fill='#fbbf24' stroke='#b45309'/><text x='52' y='120' font-size='8'>bucket 5 m^3, cycle 30 s</text></svg>"},
+      "figure": {
+        "kind": "svg",
+        "caption": "Shovel dipper",
+        "markup": "<svg viewBox='0 0 220 130' xmlns='http://www.w3.org/2000/svg'><rect x='40' y='70' width='60' height='30' fill='#94a3b8' stroke='#475569'/><line x1='100' y1='80' x2='150' y2='50' stroke='#475569' stroke-width='3'/><path d='M150 50 q20 0 18 20 l-18 -2 z' fill='#fbbf24' stroke='#b45309'/><text x='52' y='120' font-size='8'>bucket 5 m^3, cycle 30 s</text></svg>"
+      },
       "options": [],
       "answer": 600,
       "tolerance": 1,
@@ -2049,7 +2091,11 @@
       "difficulty": "medium",
       "marks": 2,
       "stem": "A truck climbs a 5% grade as shown, with a rolling resistance of 20 kg/t. Taking grade resistance as 10 kg/t per 1% of grade, compute the total resistance (kg/t).",
-      "figure": {"kind": "svg", "caption": "Truck on grade", "markup": "<svg viewBox='0 0 240 140' xmlns='http://www.w3.org/2000/svg'><line x1='20' y1='120' x2='220' y2='40' stroke='#92400e' stroke-width='2'/><rect x='120' y='52' width='34' height='18' fill='#bfdbfe' stroke='#475569' transform='rotate(-18 137 61)'/><text x='30' y='115' font-size='8'>grade 5%, rolling res 20 kg/t</text></svg>"},
+      "figure": {
+        "kind": "svg",
+        "caption": "Truck on grade",
+        "markup": "<svg viewBox='0 0 240 140' xmlns='http://www.w3.org/2000/svg'><line x1='20' y1='120' x2='220' y2='40' stroke='#92400e' stroke-width='2'/><rect x='120' y='52' width='34' height='18' fill='#bfdbfe' stroke='#475569' transform='rotate(-18 137 61)'/><text x='30' y='115' font-size='8'>grade 5%, rolling res 20 kg/t</text></svg>"
+      },
       "options": [],
       "answer": 70,
       "tolerance": 0.5,
@@ -2064,7 +2110,11 @@
       "difficulty": "medium",
       "marks": 2,
       "stem": "For a fully loaded truck of gross weight 100 t with total resistance 70 kg/t (as shown), compute the rimpull (kg) required to keep it moving up the grade.",
-      "figure": {"kind": "svg", "caption": "Loaded truck on grade", "markup": "<svg viewBox='0 0 240 140' xmlns='http://www.w3.org/2000/svg'><line x1='20' y1='120' x2='220' y2='40' stroke='#92400e' stroke-width='2'/><rect x='120' y='52' width='34' height='18' fill='#bfdbfe' stroke='#475569' transform='rotate(-18 137 61)'/><text x='28' y='115' font-size='8'>GVW 100 t, total res 70 kg/t</text></svg>"},
+      "figure": {
+        "kind": "svg",
+        "caption": "Loaded truck on grade",
+        "markup": "<svg viewBox='0 0 240 140' xmlns='http://www.w3.org/2000/svg'><line x1='20' y1='120' x2='220' y2='40' stroke='#92400e' stroke-width='2'/><rect x='120' y='52' width='34' height='18' fill='#bfdbfe' stroke='#475569' transform='rotate(-18 137 61)'/><text x='28' y='115' font-size='8'>GVW 100 t, total res 70 kg/t</text></svg>"
+      },
       "options": [],
       "answer": 7000,
       "tolerance": 5,
@@ -2079,7 +2129,11 @@
       "difficulty": "medium",
       "marks": 2,
       "stem": "A belt conveyor carries material of bulk density 1.5 t/m³ at a belt speed of 2 m/s with a load cross-sectional area of 0.1 m² (as shown). Compute the throughput (t/h).",
-      "figure": {"kind": "svg", "caption": "Belt conveyor", "markup": "<svg viewBox='0 0 250 110' xmlns='http://www.w3.org/2000/svg'><circle cx='40' cy='60' r='18' fill='none' stroke='#475569' stroke-width='2'/><circle cx='210' cy='60' r='18' fill='none' stroke='#475569' stroke-width='2'/><line x1='40' y1='42' x2='210' y2='42' stroke='#475569' stroke-width='2'/><line x1='40' y1='78' x2='210' y2='78' stroke='#475569' stroke-width='2'/><path d='M70 42 q20 -14 40 0' fill='#a16207'/><text x='52' y='100' font-size='8'>A=0.1 m^2, v=2 m/s, rho=1.5 t/m^3</text></svg>"},
+      "figure": {
+        "kind": "svg",
+        "caption": "Belt conveyor",
+        "markup": "<svg viewBox='0 0 250 110' xmlns='http://www.w3.org/2000/svg'><circle cx='40' cy='60' r='18' fill='none' stroke='#475569' stroke-width='2'/><circle cx='210' cy='60' r='18' fill='none' stroke='#475569' stroke-width='2'/><line x1='40' y1='42' x2='210' y2='42' stroke='#475569' stroke-width='2'/><line x1='40' y1='78' x2='210' y2='78' stroke='#475569' stroke-width='2'/><path d='M70 42 q20 -14 40 0' fill='#a16207'/><text x='52' y='100' font-size='8'>A=0.1 m^2, v=2 m/s, rho=1.5 t/m^3</text></svg>"
+      },
       "options": [],
       "answer": 1080,
       "tolerance": 1,
@@ -2092,9 +2146,13 @@
       "subject": "Surface Mining",
       "topic": "Truck Productivity",
       "difficulty": "medium",
-      "marks": 1,
+      "marks": 2,
       "stem": "A truck of payload 100 t has a cycle time of 15 min (as shown). Compute its hourly output (t/h).",
-      "figure": {"kind": "svg", "caption": "Haul truck", "markup": "<svg viewBox='0 0 220 110' xmlns='http://www.w3.org/2000/svg'><rect x='40' y='45' width='70' height='30' fill='#bfdbfe' stroke='#475569'/><circle cx='58' cy='80' r='8' fill='#1f2937'/><circle cx='95' cy='80' r='8' fill='#1f2937'/><text x='48' y='40' font-size='8'>payload 100 t</text><text x='44' y='102' font-size='8'>cycle 15 min</text></svg>"},
+      "figure": {
+        "kind": "svg",
+        "caption": "Haul truck",
+        "markup": "<svg viewBox='0 0 220 110' xmlns='http://www.w3.org/2000/svg'><rect x='40' y='45' width='70' height='30' fill='#bfdbfe' stroke='#475569'/><circle cx='58' cy='80' r='8' fill='#1f2937'/><circle cx='95' cy='80' r='8' fill='#1f2937'/><text x='48' y='40' font-size='8'>payload 100 t</text><text x='44' y='102' font-size='8'>cycle 15 min</text></svg>"
+      },
       "options": [],
       "answer": 400,
       "tolerance": 1,
@@ -2109,7 +2167,11 @@
       "difficulty": "hard",
       "marks": 2,
       "stem": "For the pit wall shown with vertical height 60 m and horizontal projection 120 m, compute the overall slope angle (degrees).",
-      "figure": {"kind": "svg", "caption": "Overall pit slope", "markup": "<svg viewBox='0 0 240 150' xmlns='http://www.w3.org/2000/svg'><polygon points='20,30 200,130 20,130' fill='#fde9c8' stroke='#92400e'/><line x1='20' y1='30' x2='20' y2='130' stroke='#475569'/><text x='10' y='84' font-size='8' transform='rotate(-90 12 84)'>H=60</text><text x='92' y='145' font-size='8'>L=120</text></svg>"},
+      "figure": {
+        "kind": "svg",
+        "caption": "Overall pit slope",
+        "markup": "<svg viewBox='0 0 240 150' xmlns='http://www.w3.org/2000/svg'><polygon points='20,30 200,130 20,130' fill='#fde9c8' stroke='#92400e'/><line x1='20' y1='30' x2='20' y2='130' stroke='#475569'/><text x='10' y='84' font-size='8' transform='rotate(-90 12 84)'>H=60</text><text x='92' y='145' font-size='8'>L=120</text></svg>"
+      },
       "options": [],
       "answer": 26.57,
       "tolerance": 0.3,
@@ -2124,7 +2186,11 @@
       "difficulty": "easy",
       "marks": 1,
       "stem": "How many truck loads are needed to remove the block shown (4000 m³) with a truck of 20 m³ capacity?",
-      "figure": {"kind": "svg", "caption": "Block to remove", "markup": "<svg viewBox='0 0 220 120' xmlns='http://www.w3.org/2000/svg'><rect x='30' y='40' width='120' height='60' fill='#d6d3d1' stroke='#475569'/><text x='90' y='75' font-size='9' text-anchor='middle'>4000 m^3</text><rect x='165' y='60' width='40' height='30' fill='#bfdbfe' stroke='#475569'/><text x='158' y='110' font-size='8'>truck 20 m^3</text></svg>"},
+      "figure": {
+        "kind": "svg",
+        "caption": "Block to remove",
+        "markup": "<svg viewBox='0 0 220 120' xmlns='http://www.w3.org/2000/svg'><rect x='30' y='40' width='120' height='60' fill='#d6d3d1' stroke='#475569'/><text x='90' y='75' font-size='9' text-anchor='middle'>4000 m^3</text><rect x='165' y='60' width='40' height='30' fill='#bfdbfe' stroke='#475569'/><text x='158' y='110' font-size='8'>truck 20 m^3</text></svg>"
+      },
       "options": [],
       "answer": 200,
       "tolerance": 0.5,
@@ -2139,7 +2205,11 @@
       "difficulty": "easy",
       "marks": 1,
       "stem": "A 100 bank-m³ of rock is excavated. With a swell factor of 1.25 (as shown), compute the loose volume (m³).",
-      "figure": {"kind": "svg", "caption": "Bank vs loose volume", "markup": "<svg viewBox='0 0 220 130' xmlns='http://www.w3.org/2000/svg'><rect x='30' y='60' width='60' height='50' fill='#a8a29e' stroke='#475569'/><text x='60' y='90' font-size='8' text-anchor='middle'>bank 100</text><rect x='130' y='40' width='60' height='70' fill='#d6d3d1' stroke='#475569'/><text x='160' y='80' font-size='8' text-anchor='middle'>loose</text><text x='46' y='125' font-size='8'>swell factor 1.25</text></svg>"},
+      "figure": {
+        "kind": "svg",
+        "caption": "Bank vs loose volume",
+        "markup": "<svg viewBox='0 0 220 130' xmlns='http://www.w3.org/2000/svg'><rect x='30' y='60' width='60' height='50' fill='#a8a29e' stroke='#475569'/><text x='60' y='90' font-size='8' text-anchor='middle'>bank 100</text><rect x='130' y='40' width='60' height='70' fill='#d6d3d1' stroke='#475569'/><text x='160' y='80' font-size='8' text-anchor='middle'>loose</text><text x='46' y='125' font-size='8'>swell factor 1.25</text></svg>"
+      },
       "options": [],
       "answer": 125,
       "tolerance": 0.5,
@@ -2152,9 +2222,13 @@
       "subject": "Surface Mining",
       "topic": "Excavator Bucket",
       "difficulty": "medium",
-      "marks": 1,
+      "marks": 2,
       "stem": "A 5 m³ bucket digs with a fill factor of 0.9 (as shown). Compute the actual payload per pass (m³).",
-      "figure": {"kind": "svg", "caption": "Bucket fill", "markup": "<svg viewBox='0 0 200 120' xmlns='http://www.w3.org/2000/svg'><path d='M50 40 L150 40 L135 95 L65 95 Z' fill='#fde68a' stroke='#b45309'/><path d='M58 70 L142 70 L135 95 L65 95 Z' fill='#a16207'/><text x='62' y='32' font-size='8'>capacity 5 m^3</text><text x='66' y='112' font-size='8'>fill factor 0.9</text></svg>"},
+      "figure": {
+        "kind": "svg",
+        "caption": "Bucket fill",
+        "markup": "<svg viewBox='0 0 200 120' xmlns='http://www.w3.org/2000/svg'><path d='M50 40 L150 40 L135 95 L65 95 Z' fill='#fde68a' stroke='#b45309'/><path d='M58 70 L142 70 L135 95 L65 95 Z' fill='#a16207'/><text x='62' y='32' font-size='8'>capacity 5 m^3</text><text x='66' y='112' font-size='8'>fill factor 0.9</text></svg>"
+      },
       "options": [],
       "answer": 4.5,
       "tolerance": 0.05,
@@ -2169,7 +2243,11 @@
       "difficulty": "easy",
       "marks": 1,
       "stem": "A truck hauls over a one-way distance of 2 km at an average loaded speed of 30 km/h (as shown). Compute the loaded haul time (minutes).",
-      "figure": {"kind": "svg", "caption": "Haul segment", "markup": "<svg viewBox='0 0 240 100' xmlns='http://www.w3.org/2000/svg'><line x1='20' y1='60' x2='220' y2='60' stroke='#475569' stroke-width='2'/><rect x='20' y='45' width='30' height='18' fill='#bfdbfe' stroke='#475569'/><text x='80' y='50' font-size='8'>2 km @ 30 km/h</text></svg>"},
+      "figure": {
+        "kind": "svg",
+        "caption": "Haul segment",
+        "markup": "<svg viewBox='0 0 240 100' xmlns='http://www.w3.org/2000/svg'><line x1='20' y1='60' x2='220' y2='60' stroke='#475569' stroke-width='2'/><rect x='20' y='45' width='30' height='18' fill='#bfdbfe' stroke='#475569'/><text x='80' y='50' font-size='8'>2 km @ 30 km/h</text></svg>"
+      },
       "options": [],
       "answer": 4,
       "tolerance": 0.05,
@@ -2184,7 +2262,11 @@
       "difficulty": "easy",
       "marks": 1,
       "stem": "Over the life of mine, 50 Mm³ of overburden must be moved to extract 10 Mt of ore (as shown). Compute the overall (life-of-mine) stripping ratio (m³/t).",
-      "figure": {"kind": "svg", "caption": "Life-of-mine volumes", "markup": "<svg viewBox='0 0 240 150' xmlns='http://www.w3.org/2000/svg'><rect x='30' y='30' width='180' height='70' fill='#d6d3d1' stroke='#475569'/><text x='120' y='70' font-size='9' text-anchor='middle'>OB 50 Mm^3</text><rect x='30' y='100' width='180' height='30' fill='#1f2937'/><text x='120' y='120' font-size='9' text-anchor='middle' fill='#fff'>ore 10 Mt</text></svg>"},
+      "figure": {
+        "kind": "svg",
+        "caption": "Life-of-mine volumes",
+        "markup": "<svg viewBox='0 0 240 150' xmlns='http://www.w3.org/2000/svg'><rect x='30' y='30' width='180' height='70' fill='#d6d3d1' stroke='#475569'/><text x='120' y='70' font-size='9' text-anchor='middle'>OB 50 Mm^3</text><rect x='30' y='100' width='180' height='30' fill='#1f2937'/><text x='120' y='120' font-size='9' text-anchor='middle' fill='#fff'>ore 10 Mt</text></svg>"
+      },
       "options": [],
       "answer": 5,
       "tolerance": 0.05,
@@ -2199,7 +2281,11 @@
       "difficulty": "easy",
       "marks": 1,
       "stem": "In the plot shown, the actual stripping ratio rises with depth while the break-even stripping ratio (BESR) is constant. The economic pit limit is reached where:",
-      "figure": {"kind": "svg", "caption": "Actual SR vs BESR", "markup": "<svg viewBox='0 0 240 130' xmlns='http://www.w3.org/2000/svg'><line x1='30' y1='110' x2='220' y2='110' stroke='#475569'/><line x1='30' y1='110' x2='30' y2='20' stroke='#475569'/><line x1='30' y1='30' x2='200' y2='30' stroke='#dc2626' stroke-dasharray='4 3'/><text x='150' y='25' font-size='8' fill='#dc2626'>BESR</text><polyline points='30,100 200,40' fill='none' stroke='#2563eb' stroke-width='2'/><text x='95' y='128' font-size='8'>actual SR rising with depth</text></svg>"},
+      "figure": {
+        "kind": "svg",
+        "caption": "Actual SR vs BESR",
+        "markup": "<svg viewBox='0 0 240 130' xmlns='http://www.w3.org/2000/svg'><line x1='30' y1='110' x2='220' y2='110' stroke='#475569'/><line x1='30' y1='110' x2='30' y2='20' stroke='#475569'/><line x1='30' y1='30' x2='200' y2='30' stroke='#dc2626' stroke-dasharray='4 3'/><text x='150' y='25' font-size='8' fill='#dc2626'>BESR</text><polyline points='30,100 200,40' fill='none' stroke='#2563eb' stroke-width='2'/><text x='95' y='128' font-size='8'>actual SR rising with depth</text></svg>"
+      },
       "options": [
         "the actual stripping ratio equals the BESR",
         "the actual stripping ratio is zero",
@@ -2218,7 +2304,11 @@
       "difficulty": "easy",
       "marks": 1,
       "stem": "The maximum stable slope of the loose spoil dump shown is governed primarily by:",
-      "figure": {"kind": "svg", "caption": "Spoil dump", "markup": "<svg viewBox='0 0 220 130' xmlns='http://www.w3.org/2000/svg'><polygon points='40,110 140,110 90,50' fill='#d6c0a3' stroke='#92400e'/><path d='M90 50 A50 50 0 0 0 40 110' fill='none' stroke='#475569' stroke-dasharray='3 2'/><text x='92' y='98' font-size='8'>repose angle</text></svg>"},
+      "figure": {
+        "kind": "svg",
+        "caption": "Spoil dump",
+        "markup": "<svg viewBox='0 0 220 130' xmlns='http://www.w3.org/2000/svg'><polygon points='40,110 140,110 90,50' fill='#d6c0a3' stroke='#92400e'/><path d='M90 50 A50 50 0 0 0 40 110' fill='none' stroke='#475569' stroke-dasharray='3 2'/><text x='92' y='98' font-size='8'>repose angle</text></svg>"
+      },
       "options": [
         "the angle of repose of the material",
         "the bench height",
@@ -2237,7 +2327,11 @@
       "difficulty": "easy",
       "marks": 1,
       "stem": "The machine shown sits on top of the bench and casts overburden directly to the spoil side. It is a:",
-      "figure": {"kind": "svg", "caption": "Stripping machine", "markup": "<svg viewBox='0 0 240 140' xmlns='http://www.w3.org/2000/svg'><rect x='30' y='70' width='50' height='30' fill='#94a3b8' stroke='#475569'/><line x1='70' y1='80' x2='180' y2='30' stroke='#475569' stroke-width='3'/><line x1='180' y1='30' x2='170' y2='95' stroke='#475569' stroke-dasharray='3 2'/><path d='M160 95 q12 6 20 -4 l-8 -8 z' fill='#fbbf24' stroke='#b45309'/><text x='44' y='125' font-size='8'>casting overburden to spoil</text></svg>"},
+      "figure": {
+        "kind": "svg",
+        "caption": "Stripping machine",
+        "markup": "<svg viewBox='0 0 240 140' xmlns='http://www.w3.org/2000/svg'><rect x='30' y='70' width='50' height='30' fill='#94a3b8' stroke='#475569'/><line x1='70' y1='80' x2='180' y2='30' stroke='#475569' stroke-width='3'/><line x1='180' y1='30' x2='170' y2='95' stroke='#475569' stroke-dasharray='3 2'/><path d='M160 95 q12 6 20 -4 l-8 -8 z' fill='#fbbf24' stroke='#b45309'/><text x='44' y='125' font-size='8'>casting overburden to spoil</text></svg>"
+      },
       "options": [
         "walking dragline",
         "hydraulic backhoe truck-loading shovel",
@@ -2254,9 +2348,13 @@
       "subject": "Surface Mining",
       "topic": "Shovel-Truck Matching",
       "difficulty": "medium",
-      "marks": 1,
+      "marks": 2,
       "stem": "For the loader–truck arrangement shown the match factor is less than 1. This means:",
-      "figure": {"kind": "svg", "caption": "Under-trucked loader", "markup": "<svg viewBox='0 0 260 120' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='60' r='24' fill='#fde68a' stroke='#b45309'/><text x='50' y='64' font-size='8' text-anchor='middle'>loader</text><g fill='#bfdbfe' stroke='#475569'><rect x='120' y='45' width='28' height='20'/></g><text x='100' y='95' font-size='8'>too few trucks (MF &lt; 1)</text></svg>"},
+      "figure": {
+        "kind": "svg",
+        "caption": "Under-trucked loader",
+        "markup": "<svg viewBox='0 0 260 120' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='60' r='24' fill='#fde68a' stroke='#b45309'/><text x='50' y='64' font-size='8' text-anchor='middle'>loader</text><g fill='#bfdbfe' stroke='#475569'><rect x='120' y='45' width='28' height='20'/></g><text x='100' y='95' font-size='8'>too few trucks (MF &lt; 1)</text></svg>"
+      },
       "options": [
         "the loader waits idle for trucks (loader under-utilised)",
         "the trucks queue and wait for the loader",
@@ -2275,7 +2373,11 @@
       "difficulty": "easy",
       "marks": 1,
       "stem": "The green horizontal strip left on the pit wall in the figure is a catch berm. Its main purpose is to:",
-      "figure": {"kind": "svg", "caption": "Catch berm on pit wall", "markup": "<svg viewBox='0 0 220 150' xmlns='http://www.w3.org/2000/svg'><polyline points='20,30 70,30 70,60 120,60 120,90 170,90 170,120 200,120' fill='none' stroke='#92400e' stroke-width='2'/><rect x='70' y='55' width='50' height='5' fill='#16a34a'/><text x='74' y='52' font-size='7' fill='#16a34a'>catch berm</text></svg>"},
+      "figure": {
+        "kind": "svg",
+        "caption": "Catch berm on pit wall",
+        "markup": "<svg viewBox='0 0 220 150' xmlns='http://www.w3.org/2000/svg'><polyline points='20,30 70,30 70,60 120,60 120,90 170,90 170,120 200,120' fill='none' stroke='#92400e' stroke-width='2'/><rect x='70' y='55' width='50' height='5' fill='#16a34a'/><text x='74' y='52' font-size='7' fill='#16a34a'>catch berm</text></svg>"
+      },
       "options": [
         "catch falling rock and improve wall safety",
         "increase the overall slope angle",
@@ -2292,9 +2394,13 @@
       "subject": "Surface Mining",
       "topic": "Stripping Ratio",
       "difficulty": "medium",
-      "marks": 1,
+      "marks": 2,
       "stem": "From the cross-section shown (overburden 300 m², coal 100 m² per metre strike), compute the instantaneous stripping ratio.",
-      "figure": {"kind": "svg", "caption": "Section at current face", "markup": "<svg viewBox='0 0 240 150' xmlns='http://www.w3.org/2000/svg'><rect x='30' y='30' width='180' height='60' fill='#d6d3d1' stroke='#475569'/><text x='120' y='65' font-size='9' text-anchor='middle'>overburden 300 m^2</text><rect x='30' y='90' width='180' height='40' fill='#1f2937'/><text x='120' y='115' font-size='9' text-anchor='middle' fill='#fff'>coal 100 m^2</text></svg>"},
+      "figure": {
+        "kind": "svg",
+        "caption": "Section at current face",
+        "markup": "<svg viewBox='0 0 240 150' xmlns='http://www.w3.org/2000/svg'><rect x='30' y='30' width='180' height='60' fill='#d6d3d1' stroke='#475569'/><text x='120' y='65' font-size='9' text-anchor='middle'>overburden 300 m^2</text><rect x='30' y='90' width='180' height='40' fill='#1f2937'/><text x='120' y='115' font-size='9' text-anchor='middle' fill='#fff'>coal 100 m^2</text></svg>"
+      },
       "options": [],
       "answer": 3,
       "tolerance": 0.05,
@@ -2309,7 +2415,11 @@
       "difficulty": "medium",
       "marks": 2,
       "stem": "A bench face is 15 m high with a horizontal toe-to-crest offset of 8.66 m as shown. Compute the bench face angle (degrees).",
-      "figure": {"kind": "svg", "caption": "Bench face", "markup": "<svg viewBox='0 0 220 150' xmlns='http://www.w3.org/2000/svg'><polygon points='40,30 40,120 100,120' fill='#fde9c8' stroke='#92400e'/><text x='22' y='80' font-size='8' transform='rotate(-90 24 80)'>H=15</text><text x='52' y='135' font-size='8'>horiz 8.66</text></svg>"},
+      "figure": {
+        "kind": "svg",
+        "caption": "Bench face",
+        "markup": "<svg viewBox='0 0 220 150' xmlns='http://www.w3.org/2000/svg'><polygon points='40,30 40,120 100,120' fill='#fde9c8' stroke='#92400e'/><text x='22' y='80' font-size='8' transform='rotate(-90 24 80)'>H=15</text><text x='52' y='135' font-size='8'>horiz 8.66</text></svg>"
+      },
       "options": [],
       "answer": 60,
       "tolerance": 0.5,
@@ -2324,7 +2434,11 @@
       "difficulty": "easy",
       "marks": 1,
       "stem": "An open pit must remove $8\\ \\text{Mm}^3$ of waste to win $2\\ \\text{Mm}^3$ of ore (figure). Compute the overall stripping ratio.",
-      "figure": {"kind": "svg", "caption": "Waste over ore cross-section", "markup": "<svg viewBox='0 0 240 150' xmlns='http://www.w3.org/2000/svg'><polygon points='20,40 220,40 180,90 60,90' fill='#cbd5e1' stroke='#475569'/><rect x='80' y='90' width='80' height='30' fill='#92400e' stroke='#475569'/><text x='88' y='70' font-size='8'>waste 8 Mm^3</text><text x='98' y='110' font-size='8' fill='#ffffff'>ore 2 Mm^3</text></svg>"},
+      "figure": {
+        "kind": "svg",
+        "caption": "Waste over ore cross-section",
+        "markup": "<svg viewBox='0 0 240 150' xmlns='http://www.w3.org/2000/svg'><polygon points='20,40 220,40 180,90 60,90' fill='#cbd5e1' stroke='#475569'/><rect x='80' y='90' width='80' height='30' fill='#92400e' stroke='#475569'/><text x='88' y='70' font-size='8'>waste 8 Mm^3</text><text x='98' y='110' font-size='8' fill='#ffffff'>ore 2 Mm^3</text></svg>"
+      },
       "options": [],
       "answer": 4,
       "tolerance": 0.05,
@@ -2339,7 +2453,11 @@
       "difficulty": "medium",
       "marks": 2,
       "stem": "A bench block is $200\\ \\text{m}$ long, $30\\ \\text{m}$ wide and $15\\ \\text{m}$ high (figure). Compute the in-place volume ($\\mathrm{m^3}$).",
-      "figure": {"kind": "svg", "caption": "Bench block", "markup": "<svg viewBox='0 0 220 150' xmlns='http://www.w3.org/2000/svg'><polygon points='40,100 160,100 200,70 80,70' fill='#a8a29e' stroke='#475569'/><polygon points='40,100 40,130 160,130 160,100' fill='#cbd5e1' stroke='#475569'/><polygon points='160,100 160,130 200,100 200,70' fill='#9ca3af' stroke='#475569'/><text x='28' y='145' font-size='8'>L=200, W=30, H=15</text></svg>"},
+      "figure": {
+        "kind": "svg",
+        "caption": "Bench block",
+        "markup": "<svg viewBox='0 0 220 150' xmlns='http://www.w3.org/2000/svg'><polygon points='40,100 160,100 200,70 80,70' fill='#a8a29e' stroke='#475569'/><polygon points='40,100 40,130 160,130 160,100' fill='#cbd5e1' stroke='#475569'/><polygon points='160,100 160,130 200,100 200,70' fill='#9ca3af' stroke='#475569'/><text x='28' y='145' font-size='8'>L=200, W=30, H=15</text></svg>"
+      },
       "options": [],
       "answer": 90000,
       "tolerance": 1,
@@ -2354,7 +2472,11 @@
       "difficulty": "medium",
       "marks": 2,
       "stem": "A shovel with a $5\\ \\mathrm{m^3}$ bucket completes $120$ cycles per hour at a fill factor of $0.9$ (figure). Compute the hourly output ($\\mathrm{m^3/hr}$).",
-      "figure": {"kind": "svg", "caption": "Power shovel", "markup": "<svg viewBox='0 0 200 150' xmlns='http://www.w3.org/2000/svg'><rect x='40' y='80' width='50' height='30' fill='#94a3b8' stroke='#475569'/><line x1='90' y1='90' x2='140' y2='60' stroke='#475569' stroke-width='3'/><path d='M140 60 L160 70 L150 90 L135 80 Z' fill='#6b7280' stroke='#475569'/><text x='25' y='135' font-size='8'>bucket 5 m^3, 120 cycles/hr</text></svg>"},
+      "figure": {
+        "kind": "svg",
+        "caption": "Power shovel",
+        "markup": "<svg viewBox='0 0 200 150' xmlns='http://www.w3.org/2000/svg'><rect x='40' y='80' width='50' height='30' fill='#94a3b8' stroke='#475569'/><line x1='90' y1='90' x2='140' y2='60' stroke='#475569' stroke-width='3'/><path d='M140 60 L160 70 L150 90 L135 80 Z' fill='#6b7280' stroke='#475569'/><text x='25' y='135' font-size='8'>bucket 5 m^3, 120 cycles/hr</text></svg>"
+      },
       "options": [],
       "answer": 540,
       "tolerance": 2,
@@ -2369,7 +2491,11 @@
       "difficulty": "easy",
       "marks": 1,
       "stem": "A haul truck cycle comprises loading $2\\ \\text{min}$, hauling $5\\ \\text{min}$, dumping $1\\ \\text{min}$ and returning $4\\ \\text{min}$ (figure). Compute the cycle time (min).",
-      "figure": {"kind": "svg", "caption": "Truck haulage cycle", "markup": "<svg viewBox='0 0 200 150' xmlns='http://www.w3.org/2000/svg'><circle cx='100' cy='75' r='50' fill='none' stroke='#2563eb' stroke-width='2'/><polygon points='100,25 108,33 100,41 92,33' fill='#dc2626'/><text x='58' y='80' font-size='8'>load+haul+</text><text x='60' y='95' font-size='8'>dump+return</text></svg>"},
+      "figure": {
+        "kind": "svg",
+        "caption": "Truck haulage cycle",
+        "markup": "<svg viewBox='0 0 200 150' xmlns='http://www.w3.org/2000/svg'><circle cx='100' cy='75' r='50' fill='none' stroke='#2563eb' stroke-width='2'/><polygon points='100,25 108,33 100,41 92,33' fill='#dc2626'/><text x='58' y='80' font-size='8'>load+haul+</text><text x='60' y='95' font-size='8'>dump+return</text></svg>"
+      },
       "options": [],
       "answer": 12,
       "tolerance": 0.1,
@@ -2384,7 +2510,11 @@
       "difficulty": "easy",
       "marks": 1,
       "stem": "A shovel loads one truck every $3\\ \\text{min}$ and each truck has a cycle time of $12\\ \\text{min}$ (figure). Compute the number of trucks needed to keep the shovel fully occupied.",
-      "figure": {"kind": "svg", "caption": "Truck-shovel matching", "markup": "<svg viewBox='0 0 220 130' xmlns='http://www.w3.org/2000/svg'><rect x='20' y='50' width='40' height='25' fill='#94a3b8' stroke='#475569'/><g fill='#bfdbfe' stroke='#475569'><rect x='90' y='50' width='25' height='18'/><rect x='125' y='50' width='25' height='18'/><rect x='160' y='50' width='25' height='18'/></g><text x='25' y='100' font-size='8'>1 shovel, fleet of trucks</text></svg>"},
+      "figure": {
+        "kind": "svg",
+        "caption": "Truck-shovel matching",
+        "markup": "<svg viewBox='0 0 220 130' xmlns='http://www.w3.org/2000/svg'><rect x='20' y='50' width='40' height='25' fill='#94a3b8' stroke='#475569'/><g fill='#bfdbfe' stroke='#475569'><rect x='90' y='50' width='25' height='18'/><rect x='125' y='50' width='25' height='18'/><rect x='160' y='50' width='25' height='18'/></g><text x='25' y='100' font-size='8'>1 shovel, fleet of trucks</text></svg>"
+      },
       "options": [],
       "answer": 4,
       "tolerance": 0.1,
@@ -2399,7 +2529,11 @@
       "difficulty": "easy",
       "marks": 1,
       "stem": "A haul road rises $30\\ \\text{m}$ over a horizontal distance of $300\\ \\text{m}$ (figure). Compute the road gradient (%).",
-      "figure": {"kind": "svg", "caption": "Haul road gradient", "markup": "<svg viewBox='0 0 220 130' xmlns='http://www.w3.org/2000/svg'><polygon points='30,100 200,100 200,40' fill='#d6d3d1' stroke='#475569'/><line x1='200' y1='100' x2='200' y2='40' stroke='#dc2626' marker-end='url(#g)' marker-start='url(#g)'/><line x1='30' y1='112' x2='200' y2='112' stroke='#2563eb'/><defs><marker id='g' markerWidth='8' markerHeight='8' refX='3' refY='3' orient='auto'><path d='M0 0 L6 3 L0 6 Z' fill='#475569'/></marker></defs><text x='205' y='75' font-size='8'>30</text><text x='90' y='125' font-size='8'>run 300</text></svg>"},
+      "figure": {
+        "kind": "svg",
+        "caption": "Haul road gradient",
+        "markup": "<svg viewBox='0 0 220 130' xmlns='http://www.w3.org/2000/svg'><polygon points='30,100 200,100 200,40' fill='#d6d3d1' stroke='#475569'/><line x1='200' y1='100' x2='200' y2='40' stroke='#dc2626' marker-end='url(#g)' marker-start='url(#g)'/><line x1='30' y1='112' x2='200' y2='112' stroke='#2563eb'/><defs><marker id='g' markerWidth='8' markerHeight='8' refX='3' refY='3' orient='auto'><path d='M0 0 L6 3 L0 6 Z' fill='#475569'/></marker></defs><text x='205' y='75' font-size='8'>30</text><text x='90' y='125' font-size='8'>run 300</text></svg>"
+      },
       "options": [],
       "answer": 10,
       "tolerance": 0.1,
@@ -2414,7 +2548,11 @@
       "difficulty": "easy",
       "marks": 1,
       "stem": "A rear-dump truck carries $10\\ \\mathrm{m^3}$ of rock with a loose density of $2\\ \\mathrm{t/m^3}$ (figure). Compute the payload (t).",
-      "figure": {"kind": "svg", "caption": "Loaded dump truck", "markup": "<svg viewBox='0 0 200 130' xmlns='http://www.w3.org/2000/svg'><polygon points='40,50 130,50 140,80 30,80' fill='#94a3b8' stroke='#475569'/><circle cx='55' cy='95' r='12' fill='#1f2937'/><circle cx='115' cy='95' r='12' fill='#1f2937'/><text x='28' y='120' font-size='8'>10 m^3 at 2 t/m^3</text></svg>"},
+      "figure": {
+        "kind": "svg",
+        "caption": "Loaded dump truck",
+        "markup": "<svg viewBox='0 0 200 130' xmlns='http://www.w3.org/2000/svg'><polygon points='40,50 130,50 140,80 30,80' fill='#94a3b8' stroke='#475569'/><circle cx='55' cy='95' r='12' fill='#1f2937'/><circle cx='115' cy='95' r='12' fill='#1f2937'/><text x='28' y='120' font-size='8'>10 m^3 at 2 t/m^3</text></svg>"
+      },
       "options": [],
       "answer": 20,
       "tolerance": 0.1,
@@ -2429,7 +2567,11 @@
       "difficulty": "medium",
       "marks": 2,
       "stem": "An overall pit slope rises $H=120\\ \\text{m}$ over a horizontal projection of $80\\ \\text{m}$ (figure). Compute the overall slope angle (degrees, two decimals).",
-      "figure": {"kind": "svg", "caption": "Overall pit slope", "markup": "<svg viewBox='0 0 220 150' xmlns='http://www.w3.org/2000/svg'><polygon points='30,30 30,120 190,120' fill='#d6d3d1' stroke='#475569'/><line x1='30' y1='30' x2='190' y2='120' stroke='#dc2626' stroke-width='2'/><text x='35' y='70' font-size='8'>H=120</text><text x='95' y='133' font-size='8'>horizontal 80</text></svg>"},
+      "figure": {
+        "kind": "svg",
+        "caption": "Overall pit slope",
+        "markup": "<svg viewBox='0 0 220 150' xmlns='http://www.w3.org/2000/svg'><polygon points='30,30 30,120 190,120' fill='#d6d3d1' stroke='#475569'/><line x1='30' y1='30' x2='190' y2='120' stroke='#dc2626' stroke-width='2'/><text x='35' y='70' font-size='8'>H=120</text><text x='95' y='133' font-size='8'>horizontal 80</text></svg>"
+      },
       "options": [],
       "answer": 56.31,
       "tolerance": 0.1,
@@ -2444,7 +2586,11 @@
       "difficulty": "easy",
       "marks": 1,
       "stem": "The narrow horizontal shelf left on the pit slope (highlighted in the figure) is a:",
-      "figure": {"kind": "svg", "caption": "Catch berm on a slope", "markup": "<svg viewBox='0 0 220 150' xmlns='http://www.w3.org/2000/svg'><polygon points='20,30 80,30 80,60 140,60 140,90 200,90 200,130 20,130' fill='#d6d3d1' stroke='#475569'/><rect x='80' y='52' width='60' height='8' fill='#16a34a'/><text x='30' y='145' font-size='8'>shelf on the bench face</text></svg>"},
+      "figure": {
+        "kind": "svg",
+        "caption": "Catch berm on a slope",
+        "markup": "<svg viewBox='0 0 220 150' xmlns='http://www.w3.org/2000/svg'><polygon points='20,30 80,30 80,60 140,60 140,90 200,90 200,130 20,130' fill='#d6d3d1' stroke='#475569'/><rect x='80' y='52' width='60' height='8' fill='#16a34a'/><text x='30' y='145' font-size='8'>shelf on the bench face</text></svg>"
+      },
       "options": [
         "safety (catch) berm to retain falling rock and provide access",
         "ramp for haul trucks to climb the pit",
@@ -2463,7 +2609,11 @@
       "difficulty": "easy",
       "marks": 1,
       "stem": "The machine shown casts overburden by dragging a bucket on ropes toward itself. It is a:",
-      "figure": {"kind": "svg", "caption": "Dragline boom and bucket", "markup": "<svg viewBox='0 0 220 150' xmlns='http://www.w3.org/2000/svg'><rect x='30' y='90' width='40' height='25' fill='#94a3b8' stroke='#475569'/><line x1='60' y1='95' x2='170' y2='40' stroke='#475569' stroke-width='3'/><line x1='170' y1='40' x2='160' y2='100' stroke='#6b7280'/><path d='M150 100 L170 100 L165 115 L148 112 Z' fill='#6b7280' stroke='#475569'/><text x='28' y='140' font-size='8'>boom and dragged bucket</text></svg>"},
+      "figure": {
+        "kind": "svg",
+        "caption": "Dragline boom and bucket",
+        "markup": "<svg viewBox='0 0 220 150' xmlns='http://www.w3.org/2000/svg'><rect x='30' y='90' width='40' height='25' fill='#94a3b8' stroke='#475569'/><line x1='60' y1='95' x2='170' y2='40' stroke='#475569' stroke-width='3'/><line x1='170' y1='40' x2='160' y2='100' stroke='#6b7280'/><path d='M150 100 L170 100 L165 115 L148 112 Z' fill='#6b7280' stroke='#475569'/><text x='28' y='140' font-size='8'>boom and dragged bucket</text></svg>"
+      },
       "options": [
         "dragline that digs below its standing level",
         "front-end loader that digs above grade only",
@@ -2482,7 +2632,11 @@
       "difficulty": "easy",
       "marks": 1,
       "stem": "A bench of $90000\\ \\mathrm{m^3}$ is removed over $30\\ \\text{working days}$ (figure). Compute the average daily production ($\\mathrm{m^3/day}$).",
-      "figure": {"kind": "svg", "caption": "Production over time", "markup": "<svg viewBox='0 0 220 130' xmlns='http://www.w3.org/2000/svg'><line x1='30' y1='100' x2='200' y2='100' stroke='#475569'/><line x1='30' y1='100' x2='30' y2='20' stroke='#475569'/><polyline points='30,90 80,70 130,50 180,30' fill='none' stroke='#2563eb' stroke-width='2'/><text x='40' y='120' font-size='8'>90000 m^3 in 30 days</text></svg>"},
+      "figure": {
+        "kind": "svg",
+        "caption": "Production over time",
+        "markup": "<svg viewBox='0 0 220 130' xmlns='http://www.w3.org/2000/svg'><line x1='30' y1='100' x2='200' y2='100' stroke='#475569'/><line x1='30' y1='100' x2='30' y2='20' stroke='#475569'/><polyline points='30,90 80,70 130,50 180,30' fill='none' stroke='#2563eb' stroke-width='2'/><text x='40' y='120' font-size='8'>90000 m^3 in 30 days</text></svg>"
+      },
       "options": [],
       "answer": 3000,
       "tolerance": 1,
@@ -2497,7 +2651,11 @@
       "difficulty": "easy",
       "marks": 1,
       "stem": "In the loader-and-fleet arrangement shown, the fleet is best matched to the loader when:",
-      "figure": {"kind": "svg", "caption": "Loader with truck fleet", "markup": "<svg viewBox='0 0 220 130' xmlns='http://www.w3.org/2000/svg'><rect x='20' y='50' width='35' height='22' fill='#94a3b8' stroke='#475569'/><g fill='#bfdbfe' stroke='#475569'><rect x='80' y='52' width='22' height='16'/><rect x='112' y='52' width='22' height='16'/><rect x='144' y='52' width='22' height='16'/><rect x='176' y='52' width='22' height='16'/></g><text x='25' y='100' font-size='8'>matching trucks to loader</text></svg>"},
+      "figure": {
+        "kind": "svg",
+        "caption": "Loader with truck fleet",
+        "markup": "<svg viewBox='0 0 220 130' xmlns='http://www.w3.org/2000/svg'><rect x='20' y='50' width='35' height='22' fill='#94a3b8' stroke='#475569'/><g fill='#bfdbfe' stroke='#475569'><rect x='80' y='52' width='22' height='16'/><rect x='112' y='52' width='22' height='16'/><rect x='144' y='52' width='22' height='16'/><rect x='176' y='52' width='22' height='16'/></g><text x='25' y='100' font-size='8'>matching trucks to loader</text></svg>"
+      },
       "options": [
         "the trucks arrive just as the loader finishes the previous one, minimising waiting on both sides",
         "as many trucks as possible queue so the loader never idles, regardless of truck waiting",
@@ -2516,7 +2674,11 @@
       "difficulty": "medium",
       "marks": 2,
       "stem": "A bank volume of $100\\ \\mathrm{m^3}$ of rock has a swell of $25\\%$ when excavated (figure). Compute the loose (in-truck) volume ($\\mathrm{m^3}$).",
-      "figure": {"kind": "svg", "caption": "Bank versus loose volume", "markup": "<svg viewBox='0 0 220 140' xmlns='http://www.w3.org/2000/svg'><rect x='30' y='60' width='60' height='60' fill='#a8a29e' stroke='#475569'/><rect x='130' y='40' width='70' height='80' fill='#cbd5e1' stroke='#475569'/><text x='30' y='135' font-size='8'>bank 100 m^3</text><text x='130' y='135' font-size='8'>loose +25%</text></svg>"},
+      "figure": {
+        "kind": "svg",
+        "caption": "Bank versus loose volume",
+        "markup": "<svg viewBox='0 0 220 140' xmlns='http://www.w3.org/2000/svg'><rect x='30' y='60' width='60' height='60' fill='#a8a29e' stroke='#475569'/><rect x='130' y='40' width='70' height='80' fill='#cbd5e1' stroke='#475569'/><text x='30' y='135' font-size='8'>bank 100 m^3</text><text x='130' y='135' font-size='8'>loose +25%</text></svg>"
+      },
       "options": [],
       "answer": 125,
       "tolerance": 0.5,
@@ -2531,7 +2693,11 @@
       "difficulty": "easy",
       "marks": 1,
       "stem": "The excavator shown (a rotating wheel of buckets feeding a conveyor) is classified as:",
-      "figure": {"kind": "svg", "caption": "Bucket-wheel excavator", "markup": "<svg viewBox='0 0 220 150' xmlns='http://www.w3.org/2000/svg'><circle cx='60' cy='70' r='30' fill='none' stroke='#475569' stroke-width='2'/><g fill='#6b7280'><rect x='56' y='38' width='8' height='8'/><rect x='86' y='66' width='8' height='8'/><rect x='56' y='94' width='8' height='8'/><rect x='26' y='66' width='8' height='8'/></g><line x1='90' y1='80' x2='190' y2='110' stroke='#94a3b8' stroke-width='6'/><text x='30' y='140' font-size='8'>wheel of buckets and conveyor</text></svg>"},
+      "figure": {
+        "kind": "svg",
+        "caption": "Bucket-wheel excavator",
+        "markup": "<svg viewBox='0 0 220 150' xmlns='http://www.w3.org/2000/svg'><circle cx='60' cy='70' r='30' fill='none' stroke='#475569' stroke-width='2'/><g fill='#6b7280'><rect x='56' y='38' width='8' height='8'/><rect x='86' y='66' width='8' height='8'/><rect x='56' y='94' width='8' height='8'/><rect x='26' y='66' width='8' height='8'/></g><line x1='90' y1='80' x2='190' y2='110' stroke='#94a3b8' stroke-width='6'/><text x='30' y='140' font-size='8'>wheel of buckets and conveyor</text></svg>"
+      },
       "options": [
         "a continuous excavator that digs and conveys without a load-haul cycle",
         "a cyclic excavator that loads discrete buckets into trucks",
