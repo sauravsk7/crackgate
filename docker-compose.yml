@@ -97,6 +97,9 @@ services:
       RAZORPAY_WEBHOOK_SECRET: ${RAZORPAY_WEBHOOK_SECRET}
       # Observability (server-side DSN; PostHog public bits are build args)
       SENTRY_DSN: ${SENTRY_DSN:-}
+      # Resend (transactional & newsletter email)
+      RESEND_API_KEY: ${RESEND_API_KEY}
+      RESEND_FROM_EMAIL: ${RESEND_FROM_EMAIL:-support@crackgate.in}
     healthcheck:
       test: ["CMD", "curl", "-fsS", "http://127.0.0.1:3000/api/healthz"]
       interval: 30s
