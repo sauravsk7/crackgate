@@ -658,7 +658,7 @@
         "0.875",
         "0.75",
         "0.78",
-        "0.875"
+        "0.825"
       ],
       "answer": 0,
       "solution": "0.875",
@@ -3245,8 +3245,8 @@
       "options": [
         "1.3 Gyr",
         "2.6 Gyr",
-        "1.3 Gyr (alt 2)",
-        "1.3 Gyr (alt 1)"
+        "3.9 Gyr",
+        "0.65 Gyr"
       ],
       "answer": 0,
       "solution": "50% remaining ⇒ 1 half-lives ⇒ age = 1×1.3 = 1.3 Gyr.",
@@ -3753,9 +3753,9 @@
       "stem": "A coal sample (proximate analysis) has 5% moisture, 30% volatile matter and 20% ash. Its fixed carbon is:",
       "options": [
         "45%",
+        "60%",
         "95%",
-        "50%",
-        "45% (alt 1)"
+        "30%"
       ],
       "answer": 0,
       "solution": "Fixed C = 100 − (moisture + VM + ash) = 100 − (5+30+20) = 45%.",
@@ -3818,7 +3818,7 @@
         "55°",
         "45°",
         "22.5°",
-        "45° (alt 1)"
+        "67.5°"
       ],
       "answer": 1,
       "solution": "dip = tan⁻¹(rise/run) = tan⁻¹(10/10) ≈ 45°.",
@@ -4026,8 +4026,8 @@
       "stem": "A coal sample (proximate analysis) has 5% moisture, 35% volatile matter and 10% ash. Its fixed carbon is:",
       "options": [
         "55%",
+        "65%",
         "50%",
-        "50% (alt 1)",
         "95%"
       ],
       "answer": 1,

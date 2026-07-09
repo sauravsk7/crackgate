@@ -742,7 +742,7 @@
         "3:4:2",
         "5:4:3",
         "4:3:2",
-        "5:4:3"
+        "2:3:4"
       ],
       "answer": 2,
       "solution": "4:3:2",
@@ -2758,7 +2758,7 @@
         "28.6 Mt",
         "14.3 Mt",
         "16.8 Mt",
-        "14.3 Mt (alt 1)"
+        "21.4 Mt"
       ],
       "answer": 1,
       "solution": "Mineable = area×thickness×density×recovery = 4M m²×3×1.4×0.85 ≈ 14.3 Mt.",
@@ -3008,7 +3008,7 @@
       "stem": "A 6 m seam over 2 km² (density 1.4 t/m³) has a recovery factor of 0.75. The mineable reserve is about:",
       "options": [
         "12.6 Mt",
-        "12.6 Mt (alt 1)",
+        "18.9 Mt",
         "25.2 Mt",
         "16.8 Mt"
       ],
@@ -3916,9 +3916,9 @@
       "stem": "A rock retains 50% of its original parent isotope (half-life 4.47 Gyr). Its radiometric age is about:",
       "options": [
         "8.94 Gyr",
-        "4.47 Gyr (alt 1)",
-        "4.47 Gyr (alt 2)",
-        "4.47 Gyr"
+        "4.47 Gyr",
+        "2.24 Gyr",
+        "6.71 Gyr"
       ],
       "answer": 3,
       "solution": "50% remaining ⇒ 1 half-lives ⇒ age = 1×4.47 = 4.47 Gyr.",

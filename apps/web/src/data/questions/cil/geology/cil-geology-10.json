@@ -4128,7 +4128,7 @@
         "28.6 Mt",
         "14.3 Mt",
         "16.8 Mt",
-        "14.3 Mt (alt 1)"
+        "21.4 Mt"
       ],
       "answer": 1,
       "solution": "Mineable = area×thickness×density×recovery = 4M m²×3×1.4×0.85 ≈ 14.3 Mt.",

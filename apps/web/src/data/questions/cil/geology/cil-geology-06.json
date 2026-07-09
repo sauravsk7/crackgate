@@ -3029,9 +3029,9 @@
       "stem": "A coal sample (proximate analysis) has 5% moisture, 20% volatile matter and 15% ash. Its fixed carbon is:",
       "options": [
         "60%",
-        "60% (alt 1)",
+        "75%",
         "95%",
-        "65%"
+        "45%"
       ],
       "answer": 0,
       "solution": "Fixed C = 100 − (moisture + VM + ash) = 100 − (5+20+15) = 60%.",
@@ -3722,9 +3722,9 @@
       "stem": "A bed dipping at 45° shows a width of 40 m across a horizontal surface. Its true (perpendicular) thickness is about:",
       "options": [
         "40 m",
-        "28.28 m (alt 1)",
         "28.28 m",
-        "33.28 m"
+        "33.28 m",
+        "23.28 m"
       ],
       "answer": 2,
       "solution": "True thickness = width × sin(dip) = 40×sin45° ≈ 28.28 m.",
@@ -3828,8 +3828,8 @@
       "options": [
         "30.2 Mt",
         "25.2 Mt",
-        "15.1 Mt (alt 1)",
-        "15.1 Mt"
+        "15.1 Mt",
+        "20.1 Mt"
       ],
       "answer": 3,
       "solution": "Mineable = area×thickness×density×recovery = 6M m²×3×1.4×0.6 ≈ 15.1 Mt.",
@@ -3957,10 +3957,10 @@
       "difficulty": "hard",
       "stem": "A rock retains 50% of its original parent isotope (half-life 0.7 Gyr). Its radiometric age is about:",
       "options": [
-        "0.7 Gyr (alt 1)",
-        "0.7 Gyr (alt 2)",
+        "0.7 Gyr",
         "1.4 Gyr",
-        "0.7 Gyr"
+        "2.1 Gyr",
+        "0.35 Gyr"
       ],
       "answer": 3,
       "solution": "50% remaining ⇒ 1 half-lives ⇒ age = 1×0.7 = 0.7 Gyr.",

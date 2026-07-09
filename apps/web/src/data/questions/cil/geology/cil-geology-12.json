@@ -2023,7 +2023,7 @@
         "She lost not only her wallet but also.",
         "She lost not only her wallet but also her phone.",
         "She not only lost her wallet but also lost.",
-        "She not only lost her wallet but also her phone."
+        "She lost her wallet and also her phone."
       ],
       "answer": 1,
       "solution": "She lost not only her wallet but also her phone.",
@@ -3202,9 +3202,9 @@
       "stem": "A coal sample (proximate analysis) has 5% moisture, 25% volatile matter and 8% ash. Its fixed carbon is:",
       "options": [
         "62%",
+        "75%",
         "95%",
-        "62% (alt 1)",
-        "67%"
+        "45%"
       ],
       "answer": 0,
       "solution": "Fixed C = 100 − (moisture + VM + ash) = 100 − (5+25+8) = 62%.",
@@ -3960,7 +3960,7 @@
         "37.8 Mt",
         "25.2 Mt",
         "18.9 Mt",
-        "18.9 Mt (alt 1)"
+        "31.5 Mt"
       ],
       "answer": 2,
       "solution": "Mineable = area×thickness×density×recovery = 6M m²×3×1.4×0.75 ≈ 18.9 Mt.",

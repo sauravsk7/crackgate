@@ -3362,12 +3362,12 @@
       "type": "MCQ",
       "marks": 1,
       "difficulty": "medium",
-      "stem": "A mineral has passed through 1 half-lives of an isotope whose half-life is 4.5 (in the given time units). Its age is:",
+      "stem": "A mineral has passed through 1 half-life of an isotope whose half-life is 4.5 (in the given time units). Its age is:",
       "options": [
-        "4.5 (alt 2)",
+        "4.5",
         "9",
-        "4.5 (alt 1)",
-        "4.5"
+        "6.75",
+        "2.25"
       ],
       "answer": 3,
       "solution": "Age = number of half-lives × half-life = 1×4.5 = 4.5.",
@@ -3890,9 +3890,9 @@
       "stem": "A bed dipping at 45° shows a width of 30 m across a horizontal surface. Its true (perpendicular) thickness is about:",
       "options": [
         "30 m",
-        "21.21 m (alt 1)",
         "21.21 m",
-        "26.21 m"
+        "26.21 m",
+        "18.21 m"
       ],
       "answer": 2,
       "solution": "True thickness = width × sin(dip) = 30×sin45° ≈ 21.21 m.",
