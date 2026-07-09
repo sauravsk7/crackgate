@@ -2676,8 +2676,8 @@
       "difficulty": "medium",
       "stem": "On the break-even chart shown (fixed cost ₹20000, price ₹80, variable cost ₹40/unit), the marked point where revenue meets total cost occurs at:",
       "options": [
-        "500 units (alt 1)",
         "500 units",
+        "Low",
         "540 units",
         "250 units"
       ],
@@ -2897,8 +2897,8 @@
       "stem": "On the break-even chart shown (fixed cost ₹10000, price ₹80, variable cost ₹40/unit), the marked point where revenue meets total cost occurs at:",
       "options": [
         "290 units",
-        "250 units (alt 1)",
         "250 units",
+        "Low",
         "125 units"
       ],
       "answer": 2,
@@ -2945,8 +2945,8 @@
       "options": [
         "790 units",
         "375 units",
-        "750 units (alt 1)",
-        "750 units"
+        "750 units",
+        "Low"
       ],
       "answer": 3,
       "solution": "BEP = FC/(p − v) = 30000/(80 − 40) = 750 units, where total revenue = total cost.",
@@ -3317,8 +3317,8 @@
       "options": [
         "120 units",
         "165 units",
-        "110 units (alt 1)",
-        "110 units"
+        "110 units",
+        "Low"
       ],
       "answer": 3,
       "solution": "MA = (100 + 110 + 120)/3 = 110 units.",
@@ -3696,7 +3696,7 @@
         "300 units",
         "260 units",
         "275 units",
-        "260 units (alt 1)"
+        "25%"
       ],
       "answer": 1,
       "solution": "F = α·A + (1−α)·F_prev = 0.5×300 + 0.5×220 = 260 units.",
@@ -4011,7 +4011,7 @@
         "255 units",
         "240 units",
         "300 units",
-        "240 units (alt 1)"
+        "25%"
       ],
       "answer": 1,
       "solution": "F = α·A + (1−α)·F_prev = 0.5×300 + 0.5×180 = 240 units.",

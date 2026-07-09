@@ -3449,9 +3449,9 @@
       "stem": "For the NAND gate shown with inputs A = 0 and B = 0, the output is:",
       "options": [
         "1",
-        "1",
+        "100 kΩ",
         "0",
-        "1"
+        "220 kΩ"
       ],
       "answer": 3,
       "solution": "NAND(0, 0) = 1.",

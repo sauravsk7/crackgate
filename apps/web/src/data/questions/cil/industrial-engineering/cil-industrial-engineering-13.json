@@ -868,7 +868,7 @@
         "3:4:2",
         "5:4:3",
         "4:3:2",
-        "5:4:3"
+        "Low"
       ],
       "answer": 2,
       "solution": "4:3:2",
@@ -3575,7 +3575,7 @@
       "stem": "For the CPM network shown (path 1-2-4 = A+B = 5+6, path 1-3-4 = C+D = 2+9), the project duration (critical path) is:",
       "options": [
         "11 days",
-        "11 days (alt 1)",
+        "25%",
         "22 days",
         "13 days"
       ],

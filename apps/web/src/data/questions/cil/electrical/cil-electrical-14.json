@@ -2768,7 +2768,7 @@
         "3141.60Ω",
         "31.42Ω",
         "0.03Ω",
-        "0.03Ω"
+        "Low"
       ],
       "answer": 1,
       "solution": "XL = 2πfL = 2π×50×0.1 = 31.42Ω.",
@@ -3891,7 +3891,7 @@
         "0.44A",
         "0.14A",
         "0.02A",
-        "0.02A"
+        "25%"
       ],
       "answer": 2,
       "solution": "I_R2 = V/R2. In parallel, voltage same across both resistors.",
@@ -3910,7 +3910,7 @@
       "stem": "Inductor 50mH at 100Hz. Inductive reactance:",
       "options": [
         "0.03Ω",
-        "0.03Ω",
+        "Low",
         "31.42Ω",
         "12566.40Ω"
       ],
@@ -3932,7 +3932,7 @@
       "options": [
         "0.03A",
         "0.15A",
-        "0.03A",
+        "25%",
         "1.10A"
       ],
       "answer": 0,
@@ -3953,7 +3953,7 @@
       "options": [
         "1000W",
         "10000W",
-        "1000W",
+        "25%",
         "100000W"
       ],
       "answer": 0,
@@ -4078,9 +4078,9 @@
       "stem": "Voltage divider: R1=330Ω, R2=330Ω, V=30V. V across R2:",
       "options": [
         "30V",
-        "30V",
+        "25%",
         "15V",
-        "15V"
+        "50%"
       ],
       "answer": 2,
       "solution": "V_R2 = V·R2/(R1+R2) = 30×330/(330+330) = 15V.",
@@ -4164,7 +4164,7 @@
         "0.15A",
         "0.07A",
         "15A",
-        "0.15A"
+        "25%"
       ],
       "answer": 0,
       "solution": "I_R2 = V/R2. In parallel, voltage same across both resistors.",

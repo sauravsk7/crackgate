@@ -2777,7 +2777,7 @@
       "stem": "Non-inverting: Rf=220kΩ, R₁=4.7kΩ, Vin=3V. Vout:",
       "options": [
         "140.43V",
-        "140.43V",
+        "25%",
         "3V",
         "143.43V"
       ],
@@ -2987,9 +2987,9 @@
       "stem": "An 4-bit ADC provides how many quantization levels?",
       "options": [
         "8",
-        "16 (alt 1)",
+        "16",
         "15",
-        "16"
+        "Low"
       ],
       "answer": 3,
       "solution": "Levels = 2ⁿ = 2^4 = 16.",
@@ -3112,9 +3112,9 @@
       "difficulty": "medium",
       "stem": "In the logic circuit shown, Y = (A AND B) OR C with A = 1, B = 1, C = 0. The output Y is:",
       "options": [
-        "1 (alt 1)",
         "1",
-        "1 (alt 2)",
+        "100 kΩ",
+        "220 kΩ",
         "0"
       ],
       "answer": 1,
@@ -3224,7 +3224,7 @@
       "options": [
         "10",
         "30",
-        "10",
+        "100 kΩ",
         "3.33"
       ],
       "answer": 3,
@@ -3246,7 +3246,7 @@
         "5000000mA",
         "5.65mA",
         "0.11mA",
-        "5.65mA"
+        "25%"
       ],
       "answer": 1,
       "solution": "Ic = β×Ib = 50×113.00μA = 5.65mA.",
@@ -3691,7 +3691,7 @@
       "options": [
         "22.73V",
         "23.23V",
-        "22.73V",
+        "25%",
         "0.50V"
       ],
       "answer": 1,
@@ -3795,7 +3795,7 @@
       "stem": "Non-inverting: Rf=100kΩ, R₁=1kΩ, Vin=0.5V. Vout:",
       "options": [
         "50V",
-        "50V",
+        "25%",
         "50.50V",
         "0.50V"
       ],
@@ -3860,7 +3860,7 @@
         "66.83V",
         "3V",
         "63.83V",
-        "63.83V"
+        "25%"
       ],
       "answer": 0,
       "solution": "Vout = (1+Rf/R₁)·Vin = (1+100/4.7)×3 = 66.83V.",

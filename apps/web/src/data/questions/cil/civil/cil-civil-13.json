@@ -2629,8 +2629,8 @@
       "stem": "The superelevation for a design speed of 60 km/h and radius 300 m (e = V²/127R) is about:",
       "options": [
         "0.05",
-        "0.09 (alt 1)",
         "0.09",
+        "25%",
         "0.14"
       ],
       "answer": 2,
@@ -3192,8 +3192,8 @@
       "difficulty": "medium",
       "stem": "RL of a benchmark is 95.5 m. With back sight 1.2 m and fore sight 0.8 m, the RL of the next point is:",
       "options": [
-        "95.9 m (alt 1)",
         "95.9 m",
+        "Low",
         "95.1 m",
         "97.5 m"
       ],
@@ -3321,7 +3321,7 @@
         "120.7 m",
         "119.3 m",
         "123.7 m",
-        "119.3 m (alt 1)"
+        "Low"
       ],
       "answer": 1,
       "solution": "RL = 120 + 1.5 − 2.2 = 119.3 m (rise and fall).",
@@ -3425,7 +3425,7 @@
       "options": [
         "4.5 m³/s",
         "5.5 m³/s",
-        "4.5 m³/s (alt 1)",
+        "Low",
         "2.25 m³/s"
       ],
       "answer": 0,
@@ -3567,7 +3567,7 @@
         "0.3 m³/s",
         "0.2 m³/s",
         "0.1 m³/s",
-        "0.1 m³/s"
+        "Low"
       ],
       "answer": 2,
       "solution": "$Q = A\\cdot v = \\pi d^2/4 \\cdot v = 0.1$ m³/s.",
@@ -3609,7 +3609,7 @@
         "5 kN",
         "15 kN",
         "30 kN",
-        "15 kN"
+        "Low"
       ],
       "answer": 1,
       "solution": "Rₐ = P(L-a)/L = 30×(6-3)/6 = 15 kN.",
@@ -3762,7 +3762,7 @@
       "options": [
         "20 MPa",
         "10 MPa",
-        "20 MPa (alt 1)",
+        "Low",
         "40 MPa"
       ],
       "answer": 0,
@@ -3816,7 +3816,7 @@
         "64 kNm",
         "16 kNm",
         "32 kNm",
-        "32 kNm"
+        "Low"
       ],
       "answer": 0,
       "solution": "BM_max = wL²/2 = 8×4²/2 = 64 kNm at fixed end.",

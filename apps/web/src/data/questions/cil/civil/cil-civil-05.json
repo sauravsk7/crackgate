@@ -216,7 +216,7 @@
       "options": [
         "₹2,000",
         "₹500",
-        "₹2,000",
+        "Low",
         "₹100"
       ],
       "answer": 0,
@@ -803,7 +803,7 @@
       "stem": "The HCF and LCM of two numbers are 84 and 840. If both numbers are 3-digit numbers, their sum is:",
       "options": [
         "924",
-        "924",
+        "Low",
         "1008",
         "756"
       ],
@@ -2149,7 +2149,7 @@
         "504 mm",
         "520 mm",
         "512 mm",
-        "512 mm (alt 1)"
+        "Low"
       ],
       "answer": 2,
       "solution": "d = 550 − 30 − 16/2 = 512 mm.",
@@ -2934,7 +2934,7 @@
         "2.5 kN",
         "7.5 kN",
         "15 kN",
-        "7.5 kN"
+        "Low"
       ],
       "answer": 1,
       "solution": "Rₐ = P(L-a)/L = 15×(6-3)/6 = 7.5 kN.",
@@ -3637,9 +3637,9 @@
       "stem": "Water flows through a pipe of diameter 0.1 m at 1.5 m/s. The discharge is:",
       "options": [
         "0.0 m³/s",
-        "0.0 m³/s",
-        "0.0 m³/s",
-        "0.0 m³/s"
+        "Low",
+        "Medium",
+        "High"
       ],
       "answer": 0,
       "solution": "$Q = A\\cdot v = \\pi d^2/4 \\cdot v = 0.0$ m³/s.",
@@ -3680,7 +3680,7 @@
       "options": [
         "3 kN",
         "12 kN",
-        "3 kN",
+        "Low",
         "15 kN"
       ],
       "answer": 1,
@@ -3867,8 +3867,8 @@
       "difficulty": "hard",
       "stem": "The principal stresses at a point are 90 MPa and 30 MPa. The normal stress on the plane carrying the maximum shear stress is:",
       "options": [
-        "60 MPa (alt 1)",
         "60 MPa",
+        "Low",
         "30 MPa",
         "90 MPa"
       ],

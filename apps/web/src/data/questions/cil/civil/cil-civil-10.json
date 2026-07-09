@@ -2706,7 +2706,7 @@
       "options": [
         "50 MPa",
         "25 MPa",
-        "50 MPa (alt 1)",
+        "Low",
         "100 MPa"
       ],
       "answer": 0,
@@ -2901,7 +2901,7 @@
       "options": [
         "80 kNm",
         "40 kNm",
-        "40 kNm",
+        "Low",
         "20 kNm"
       ],
       "answer": 0,
@@ -3328,9 +3328,9 @@
       "stem": "Water flows through a pipe of diameter 0.1 m at 1 m/s. The discharge is:",
       "options": [
         "0.0 m³/s",
-        "0.0 m³/s",
-        "0.0 m³/s",
-        "0.0 m³/s"
+        "Low",
+        "Medium",
+        "High"
       ],
       "answer": 0,
       "solution": "$Q = A\\cdot v = \\pi d^2/4 \\cdot v = 0.0$ m³/s.",
@@ -3454,8 +3454,8 @@
       "stem": "Water flows at 1 m/s through a pipe of diameter 0.3 m. The discharge is:",
       "options": [
         "0.1 m³/s",
-        "0.1 m³/s",
-        "0.1 m³/s",
+        "Low",
+        "Medium",
         "0.0 m³/s"
       ],
       "answer": 0,
@@ -3476,8 +3476,8 @@
       "options": [
         "0.1 m³/s",
         "0.0 m³/s",
-        "0.1 m³/s",
-        "0.1 m³/s"
+        "Low",
+        "Medium"
       ],
       "answer": 0,
       "solution": "Q = A×v = π×(0.2/2)²×2 = 0.1 m³/s.",
@@ -3496,9 +3496,9 @@
       "stem": "Water flows through a pipe of diameter 0.1 m at 3 m/s. The discharge is:",
       "options": [
         "0.0 m³/s",
-        "0.0 m³/s",
-        "0.0 m³/s",
-        "0.0 m³/s"
+        "Low",
+        "Medium",
+        "High"
       ],
       "answer": 0,
       "solution": "$Q = A\\cdot v = \\pi d^2/4 \\cdot v = 0.0$ m³/s.",
@@ -3664,9 +3664,9 @@
       "stem": "Water flows through a pipe of diameter 0.15 m at 2.5 m/s. The discharge is:",
       "options": [
         "0.1 m³/s",
-        "0.1 m³/s",
+        "Low",
         "0.0 m³/s",
-        "0.0 m³/s"
+        "Medium"
       ],
       "answer": 2,
       "solution": "$Q = A\\cdot v = \\pi d^2/4 \\cdot v = 0.0$ m³/s.",
@@ -3749,7 +3749,7 @@
       "options": [
         "20 MPa",
         "40 MPa",
-        "40 MPa (alt 1)",
+        "Low",
         "60 MPa"
       ],
       "answer": 1,
@@ -3939,7 +3939,7 @@
       "stem": "A simply supported beam of span 3 m carries a point load of 40 kN at 3 m from the left support. The reaction at the left support is:",
       "options": [
         "40 kN",
-        "40 kN",
+        "Low",
         "13.3 kN",
         "0 kN"
       ],

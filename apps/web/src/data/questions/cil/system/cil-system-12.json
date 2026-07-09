@@ -656,7 +656,7 @@
       "stem": "The HCF and LCM of two numbers are 84 and 840. If both numbers are 3-digit numbers, their sum is:",
       "options": [
         "924",
-        "924",
+        "Low",
         "1008",
         "756"
       ],
@@ -2210,9 +2210,9 @@
       "stem": "For the NAND gate shown with inputs A = 0 and B = 1, the output is:",
       "options": [
         "1",
-        "1",
+        "100 kΩ",
         "0",
-        "1"
+        "220 kΩ"
       ],
       "answer": 3,
       "solution": "NAND(0, 1) = 1.",
@@ -2383,8 +2383,8 @@
       "stem": "For the XOR gate shown with inputs A = 1 and B = 1, the output is:",
       "options": [
         "0",
-        "0",
-        "0",
+        "100 kΩ",
+        "220 kΩ",
         "1"
       ],
       "answer": 1,
@@ -2472,8 +2472,8 @@
       "stem": "For the AND gate shown with inputs A = 0 and B = 0, the output is:",
       "options": [
         "0",
-        "0",
-        "0",
+        "100 kΩ",
+        "220 kΩ",
         "1"
       ],
       "answer": 2,
@@ -2897,8 +2897,8 @@
       "stem": "For the NAND gate shown with inputs A = 1 and B = 1, the output is:",
       "options": [
         "0",
-        "0",
-        "0",
+        "100 kΩ",
+        "220 kΩ",
         "1"
       ],
       "answer": 2,
@@ -2986,9 +2986,9 @@
       "stem": "For the OR gate shown with inputs A = 1 and B = 1, the output is:",
       "options": [
         "1",
-        "1",
+        "100 kΩ",
         "0",
-        "1"
+        "220 kΩ"
       ],
       "answer": 3,
       "solution": "OR(1, 1) = 1.",
@@ -3244,8 +3244,8 @@
       "options": [
         "1",
         "0",
-        "1",
-        "1"
+        "100 kΩ",
+        "220 kΩ"
       ],
       "answer": 3,
       "solution": "AND(1, 1) = 1.",

@@ -489,7 +489,7 @@
       "options": [
         "₹2,000",
         "₹500",
-        "₹2,000",
+        "Low",
         "₹100"
       ],
       "answer": 0,
@@ -3023,9 +3023,9 @@
       "stem": "The last three demands were 140, 150 and 160 units. The 3-period moving-average forecast is:",
       "options": [
         "225 units",
-        "150 units (alt 1)",
+        "150 units",
         "160 units",
-        "150 units"
+        "Low"
       ],
       "answer": 3,
       "solution": "MA = (140 + 150 + 160)/3 = 150 units.",
@@ -3172,7 +3172,7 @@
         "333.3 units",
         "716.7 units",
         "666.7 units",
-        "666.7 units (alt 1)"
+        "100 kΩ"
       ],
       "answer": 2,
       "solution": "Q = (FC + target profit)/(p − v) = (20000 + 20000)/(120 − 60) = 666.7 units.",

@@ -677,7 +677,7 @@
       "stem": "The HCF and LCM of two numbers are 84 and 840. If both numbers are 3-digit numbers, their sum is:",
       "options": [
         "924",
-        "924",
+        "Low",
         "1008",
         "756"
       ],
@@ -2800,7 +2800,7 @@
         "100A",
         "1A",
         "1000mA",
-        "1A"
+        "Low"
       ],
       "answer": 2,
       "solution": "I = V/R = 10/10 = 1000mA.",
@@ -3428,7 +3428,7 @@
       "stem": "A current of 2 A flows through a 12 Ω resistor. The power dissipated is:",
       "options": [
         "48 W",
-        "48 W (alt 1)",
+        "Low",
         "24 W",
         "60 W"
       ],
@@ -3472,7 +3472,7 @@
         "9.57Ω",
         "230Ω",
         "19.13Ω",
-        "19.13Ω"
+        "25%"
       ],
       "answer": 0,
       "solution": "Rp = (10×220)/(10+220) = 9.57Ω.",
@@ -3492,7 +3492,7 @@
       "options": [
         "9.71A",
         "0.01A",
-        "0.01A",
+        "25%",
         "0.04A"
       ],
       "answer": 3,
@@ -3598,7 +3598,7 @@
         "0.14A",
         "0.15A",
         "1.50A",
-        "1.50A"
+        "25%"
       ],
       "answer": 1,
       "solution": "I_R2 = V/R2. In parallel, voltage same across both resistors.",
@@ -3723,7 +3723,7 @@
       "options": [
         "80.95Ω",
         "40.48Ω",
-        "80.95Ω",
+        "25%",
         "168Ω"
       ],
       "answer": 1,
@@ -4038,8 +4038,8 @@
       "options": [
         "9V",
         "4.50V",
-        "9V",
-        "4.50V"
+        "25%",
+        "50%"
       ],
       "answer": 1,
       "solution": "V_R2 = V·R2/(R1+R2) = 9×33/(33+33) = 4.50V.",
@@ -4060,7 +4060,7 @@
         "20.62Ω",
         "352Ω",
         "41.25Ω",
-        "41.25Ω"
+        "25%"
       ],
       "answer": 0,
       "solution": "Rp = (330×22)/(330+22) = 20.62Ω.",
@@ -4206,7 +4206,7 @@
       "options": [
         "300Ω",
         "150Ω",
-        "150Ω",
+        "25%",
         "75Ω"
       ],
       "answer": 3,
@@ -4227,7 +4227,7 @@
       "options": [
         "377Ω",
         "82.28Ω",
-        "82.28Ω",
+        "25%",
         "41.14Ω"
       ],
       "answer": 3,

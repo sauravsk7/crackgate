@@ -2773,7 +2773,7 @@
         "16 subnets, 30 hosts",
         "8 subnets, 32 hosts",
         "8 subnets, 30 hosts",
-        "8 subnets, 30 hosts"
+        "Low"
       ],
       "answer": 2,
       "solution": "Subnets = 2^3 = 8; host bits = 5 ⇒ 2^5 − 2 = 30 hosts each.",
@@ -2794,7 +2794,7 @@
         "510",
         "511",
         "512",
-        "511"
+        "Low"
       ],
       "answer": 1,
       "solution": "777₈ = 7×64 + 7×8 + 7 = 448 + 56 + 7 = 511.",

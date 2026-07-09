@@ -2279,8 +2279,8 @@
       "options": [
         "1",
         "0",
-        "1",
-        "1"
+        "100 kΩ",
+        "220 kΩ"
       ],
       "answer": 2,
       "solution": "OR(1, 0) = 1.",
@@ -2367,8 +2367,8 @@
       "stem": "For the NOR gate shown with inputs A = 1 and B = 1, the output is:",
       "options": [
         "0",
-        "0",
-        "0",
+        "100 kΩ",
+        "220 kΩ",
         "1"
       ],
       "answer": 1,
@@ -2709,8 +2709,8 @@
       "options": [
         "0",
         "1",
-        "0",
-        "0"
+        "100 kΩ",
+        "220 kΩ"
       ],
       "answer": 2,
       "solution": "NOR(0, 1) = 0.",
@@ -3133,9 +3133,9 @@
       "stem": "For the NOR gate shown with inputs A = 1 and B = 0, the output is:",
       "options": [
         "0",
-        "0",
+        "100 kΩ",
         "1",
-        "0"
+        "220 kΩ"
       ],
       "answer": 1,
       "solution": "NOR(1, 0) = 0.",
@@ -3306,8 +3306,8 @@
       "stem": "For the XOR gate shown with inputs A = 1 and B = 0, the output is:",
       "options": [
         "1",
-        "1",
-        "1",
+        "100 kΩ",
+        "220 kΩ",
         "0"
       ],
       "answer": 0,
@@ -3754,7 +3754,7 @@
         "8 subnets, 62 hosts",
         "4 subnets, 62 hosts",
         "4 subnets, 64 hosts",
-        "4 subnets, 62 hosts"
+        "Low"
       ],
       "answer": 1,
       "solution": "Subnets = 2^2 = 4; host bits = 6 ⇒ 2^6 − 2 = 62 hosts each.",

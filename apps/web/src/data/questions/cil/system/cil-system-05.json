@@ -1540,7 +1540,7 @@
         "3025",
         "3125",
         "4096",
-        "3125"
+        "25%"
       ],
       "answer": 1,
       "solution": "3125",
@@ -3701,7 +3701,7 @@
       "stem": "A perfect binary tree of height 3 (root at height 1) has how many nodes?",
       "options": [
         "7",
-        "7",
+        "100 kΩ",
         "8",
         "6"
       ],

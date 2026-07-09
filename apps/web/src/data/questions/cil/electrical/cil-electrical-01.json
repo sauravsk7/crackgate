@@ -2650,8 +2650,8 @@
       "difficulty": "hard",
       "stem": "The balanced Wheatstone bridge shown has P = 10 Ω, Q = 10 Ω and S = 30 Ω (galvanometer reads zero). The unknown resistance R is:",
       "options": [
-        "30 Ω (alt 1)",
         "30 Ω",
+        "25%",
         "3.33 Ω",
         "35 Ω"
       ],
@@ -4158,7 +4158,7 @@
       "options": [
         "160Ω",
         "18.75Ω",
-        "18.75Ω",
+        "25%",
         "9.38Ω"
       ],
       "answer": 3,

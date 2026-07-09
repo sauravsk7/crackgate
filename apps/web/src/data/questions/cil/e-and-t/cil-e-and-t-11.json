@@ -2442,7 +2442,7 @@
       "options": [
         "-0.50V",
         "0.50V",
-        "-0.50V",
+        "25%",
         "-1V"
       ],
       "answer": 0,
@@ -2799,7 +2799,7 @@
       "options": [
         "5.03mA",
         "0.03mA",
-        "5.03mA",
+        "25%",
         "66000000mA"
       ],
       "answer": 0,
@@ -3451,7 +3451,7 @@
         "0.50V",
         "2.85V",
         "2.35V",
-        "2.35V"
+        "25%"
       ],
       "answer": 1,
       "solution": "Vout = (1+Rf/R₁)·Vin = (1+47/10)×0.5 = 2.85V.",
@@ -3470,7 +3470,7 @@
       "stem": "BJT: Vcc=10V, Rb=470kΩ, β=100. Collector current Ic:",
       "options": [
         "1.98mA",
-        "1.98mA",
+        "25%",
         "0.02mA",
         "47000000mA"
       ],
@@ -3708,7 +3708,7 @@
         "44000000mA",
         "0.04mA",
         "7.55mA",
-        "7.55mA"
+        "25%"
       ],
       "answer": 2,
       "solution": "Ic = β×Ib = 200×37.73μA = 7.55mA.",
@@ -4128,7 +4128,7 @@
         "15000000mA",
         "0.11mA",
         "16.95mA",
-        "16.95mA"
+        "25%"
       ],
       "answer": 2,
       "solution": "Ic = β×Ib = 150×113.00μA = 16.95mA.",
@@ -4230,10 +4230,10 @@
       "difficulty": "medium",
       "stem": "In the logic circuit shown, Y = (A AND B) OR C with A = 0, B = 0, C = 1. The output Y is:",
       "options": [
-        "1 (alt 1)",
-        "0",
         "1",
-        "1 (alt 2)"
+        "0",
+        "100 kΩ",
+        "220 kΩ"
       ],
       "answer": 2,
       "solution": "(A·B) = 0; Y = (A·B) + C = 0 + 1 = 1.",

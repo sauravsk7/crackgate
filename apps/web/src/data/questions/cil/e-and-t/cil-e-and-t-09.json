@@ -2989,7 +2989,7 @@
         "15000000mA",
         "0.09mA",
         "13.95mA",
-        "13.95mA"
+        "25%"
       ],
       "answer": 2,
       "solution": "Ic = β×Ib = 150×93.00μA = 13.95mA.",
@@ -3010,7 +3010,7 @@
         "232.27V",
         "5V",
         "227.27V",
-        "227.27V"
+        "25%"
       ],
       "answer": 0,
       "solution": "Vout = (1+Rf/R₁)·Vin = (1+100/2.2)×5 = 232.27V.",
@@ -3308,8 +3308,8 @@
       "options": [
         "120 dB",
         "30 dB",
-        "60 dB (alt 1)",
-        "60 dB"
+        "60 dB",
+        "Low"
       ],
       "answer": 3,
       "solution": "Gain(dB) = 20·log₁₀(1000) ≈ 60 dB.",
@@ -3454,8 +3454,8 @@
       "stem": "Non-inverting: Rf=10kΩ, R₁=10kΩ, Vin=0.5V. Vout:",
       "options": [
         "0.50V",
-        "0.50V",
-        "0.50V",
+        "25%",
+        "50%",
         "1V"
       ],
       "answer": 3,
@@ -3521,9 +3521,9 @@
       "difficulty": "hard",
       "stem": "A summing op-amp (Rf = 10 kΩ) has inputs 2 V via 5 kΩ and 3 V via 10 kΩ. The output is:",
       "options": [
-        "-7 V (alt 1)",
-        "7 V",
         "-7 V",
+        "7 V",
+        "100 kΩ",
         "-5 V"
       ],
       "answer": 2,
@@ -3775,7 +3775,7 @@
       "options": [
         "4.56mA",
         "0.03mA",
-        "4.56mA",
+        "25%",
         "70500000mA"
       ],
       "answer": 0,
@@ -3817,7 +3817,7 @@
       "options": [
         "30000000mA",
         "42.90mA",
-        "42.90mA",
+        "25%",
         "0.14mA"
       ],
       "answer": 1,
@@ -3839,7 +3839,7 @@
         "9.41V",
         "6.41V",
         "3V",
-        "6.41V"
+        "25%"
       ],
       "answer": 0,
       "solution": "Vout = (1+Rf/R₁)·Vin = (1+47/22)×3 = 9.41V.",
@@ -3860,7 +3860,7 @@
         "5.50V",
         "0.50V",
         "5V",
-        "5V"
+        "25%"
       ],
       "answer": 0,
       "solution": "Vout = (1+Rf/R₁)·Vin = (1+10/1)×0.5 = 5.50V.",
@@ -4006,8 +4006,8 @@
       "options": [
         "20 dB",
         "80 dB",
-        "40 dB (alt 1)",
-        "40 dB"
+        "40 dB",
+        "Low"
       ],
       "answer": 3,
       "solution": "Gain(dB) = 20·log₁₀(100) ≈ 40 dB.",
@@ -4152,7 +4152,7 @@
       "stem": "Non-inverting: Rf=100kΩ, R₁=1kΩ, Vin=0.5V. Vout:",
       "options": [
         "50V",
-        "50V",
+        "25%",
         "50.50V",
         "0.50V"
       ],

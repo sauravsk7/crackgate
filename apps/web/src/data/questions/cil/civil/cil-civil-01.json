@@ -765,8 +765,8 @@
         "36 L",
         "32 L"
       ],
-      "answer": 0,
-      "solution": "40 L",
+      "answer": 1,
+      "solution": "48 L",
       "estSec": 120,
       "topicWeight": 0.125,
       "source": "curated"
@@ -2501,7 +2501,7 @@
       "options": [
         "64 kNm",
         "256 kNm",
-        "64 kNm",
+        "Low",
         "128 kNm"
       ],
       "answer": 1,
@@ -2674,7 +2674,7 @@
       "options": [
         "10 kNm",
         "20 kNm",
-        "10 kNm",
+        "Low",
         "40 kNm"
       ],
       "answer": 0,
@@ -3000,7 +3000,7 @@
         "12.9 m³/s",
         "26.8 m³/s",
         "13.5 m³/s",
-        "26.8 m³/s"
+        "25%"
       ],
       "answer": 1,
       "solution": "Q = (1/n)AR^(2/3)S^(1/2) with A = b×3, P = b+23.",
@@ -3439,8 +3439,8 @@
       "stem": "RL of a benchmark is 150 m. With back sight 1.5 m and fore sight 1 m, the RL of the next point is:",
       "options": [
         "152.5 m",
-        "150.5 m (alt 1)",
         "150.5 m",
+        "Low",
         "149.5 m"
       ],
       "answer": 2,

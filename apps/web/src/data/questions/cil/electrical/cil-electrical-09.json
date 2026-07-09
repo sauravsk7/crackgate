@@ -1498,7 +1498,7 @@
         "Daughter",
         "Granddaughter",
         "Niece",
-        "Granddaughter"
+        "Low"
       ],
       "answer": 1,
       "solution": "Granddaughter",
@@ -2422,7 +2422,7 @@
         "0 J",
         "0.01 J",
         "0.02 J",
-        "0.01 J (alt 1)"
+        "Low"
       ],
       "answer": 1,
       "solution": "E = ½CV² = 0.5×100µF×10² = 0.01 J.",
@@ -2716,7 +2716,7 @@
         "0.14A",
         "0.02A",
         "20.45A",
-        "0.02A"
+        "25%"
       ],
       "answer": 0,
       "solution": "I_R2 = V/R2. In parallel, voltage same across both resistors.",
@@ -2756,8 +2756,8 @@
       "stem": "The impedance triangle shown has R = 6 Ω and X = 6 Ω. The impedance phase angle is about:",
       "options": [
         "55°",
-        "45° (alt 1)",
         "45°",
+        "25%",
         "22.5°"
       ],
       "answer": 2,
@@ -2951,7 +2951,7 @@
       "options": [
         "220Ω",
         "440Ω",
-        "220Ω",
+        "25%",
         "110Ω"
       ],
       "answer": 3,
@@ -2993,8 +2993,8 @@
       "options": [
         "2.50V",
         "5V",
-        "2.50V",
-        "5V"
+        "25%",
+        "50%"
       ],
       "answer": 0,
       "solution": "V_R2 = V·R2/(R1+R2) = 5×10/(10+10) = 2.50V.",
@@ -3036,7 +3036,7 @@
         "0.18A",
         "0.02A",
         "0.60A",
-        "0.02A"
+        "25%"
       ],
       "answer": 1,
       "solution": "I_R2 = V/R2. In parallel, voltage same across both resistors.",
@@ -3120,7 +3120,7 @@
         "0.03A",
         "10A",
         "0.02A",
-        "0.03A"
+        "25%"
       ],
       "answer": 0,
       "solution": "I_R2 = V/R2. In parallel, voltage same across both resistors.",

@@ -1162,7 +1162,7 @@
         "Daughter",
         "Granddaughter",
         "Niece",
-        "Granddaughter"
+        "Low"
       ],
       "answer": 1,
       "solution": "Granddaughter",
@@ -2190,7 +2190,7 @@
       "options": [
         "20V",
         "22V",
-        "20V",
+        "25%",
         "2V"
       ],
       "answer": 1,
@@ -2506,7 +2506,7 @@
         "66000000mA",
         "0.01mA",
         "2.61mA",
-        "2.61mA"
+        "25%"
       ],
       "answer": 2,
       "solution": "Ic = β×Ib = 200×13.03μA = 2.61mA.",
@@ -2569,7 +2569,7 @@
         "-1",
         "2",
         "1",
-        "2"
+        "25%"
       ],
       "answer": 0,
       "solution": "A_v = -Rf/Rin = -10/10 = -1.",
@@ -2986,10 +2986,10 @@
       "difficulty": "medium",
       "stem": "An FM signal has peak deviation 15 kHz and message bandwidth 15 kHz. By Carson's rule the bandwidth is:",
       "options": [
-        "60 kHz (alt 2)",
+        "60 kHz",
         "30 kHz",
-        "60 kHz (alt 1)",
-        "60 kHz"
+        "Low",
+        "Medium"
       ],
       "answer": 3,
       "solution": "B = 2(Δf + fm) = 2(15+15) = 60 kHz.",
@@ -3754,7 +3754,7 @@
       "options": [
         "-2V",
         "-4V",
-        "-2V",
+        "25%",
         "2V"
       ],
       "answer": 0,
@@ -3838,7 +3838,7 @@
       "options": [
         "48V",
         "47V",
-        "47V",
+        "25%",
         "1V"
       ],
       "answer": 0,
@@ -3859,7 +3859,7 @@
       "options": [
         "1V",
         "21.28V",
-        "21.28V",
+        "25%",
         "22.28V"
       ],
       "answer": 3,
@@ -4131,7 +4131,7 @@
       "stem": "BJT: Vcc=12V, Rb=220kΩ, β=100. Collector current Ic:",
       "options": [
         "5.14mA",
-        "5.14mA",
+        "25%",
         "22000000mA",
         "0.05mA"
       ],
