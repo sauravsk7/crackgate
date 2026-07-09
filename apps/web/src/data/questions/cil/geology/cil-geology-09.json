@@ -1582,7 +1582,7 @@
         "Daughter",
         "Granddaughter",
         "Niece",
-        "Granddaughter"
+        "Sister"
       ],
       "answer": 1,
       "solution": "Granddaughter",
@@ -3218,9 +3218,9 @@
       "stem": "A rock retains 50% of its original parent isotope (half-life 4.47 Gyr). Its radiometric age is about:",
       "options": [
         "8.94 Gyr",
-        "4.47 Gyr (alt 1)",
-        "4.47 Gyr (alt 2)",
-        "4.47 Gyr"
+        "4.47 Gyr",
+        "2.24 Gyr",
+        "6.71 Gyr"
       ],
       "answer": 3,
       "solution": "50% remaining ⇒ 1 half-lives ⇒ age = 1×4.47 = 4.47 Gyr.",
@@ -3661,7 +3661,7 @@
         "37.8 Mt",
         "25.2 Mt",
         "18.9 Mt",
-        "18.9 Mt (alt 1)"
+        "31.5 Mt"
       ],
       "answer": 2,
       "solution": "Mineable = area×thickness×density×recovery = 6M m²×3×1.4×0.75 ≈ 18.9 Mt.",

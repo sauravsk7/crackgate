@@ -216,7 +216,7 @@
       "options": [
         "₹2,000",
         "₹500",
-        "₹2,000",
+        "₹10,000",
         "₹100"
       ],
       "answer": 0,
@@ -803,7 +803,7 @@
       "stem": "The HCF and LCM of two numbers are 84 and 840. If both numbers are 3-digit numbers, their sum is:",
       "options": [
         "924",
-        "924",
+        "840",
         "1008",
         "756"
       ],
@@ -3343,10 +3343,10 @@
       "difficulty": "hard",
       "stem": "A 4 m seam over 4 km² (density 1.4 t/m³) has a recovery factor of 0.85. The mineable reserve is about:",
       "options": [
-        "19 Mt (alt 1)",
         "19 Mt",
         "22.4 Mt",
-        "38 Mt"
+        "38 Mt",
+        "28.5 Mt"
       ],
       "answer": 1,
       "solution": "Mineable = area×thickness×density×recovery = 4M m²×4×1.4×0.85 ≈ 19 Mt.",

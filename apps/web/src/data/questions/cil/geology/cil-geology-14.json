@@ -2698,9 +2698,9 @@
       "stem": "A 6 m seam over 6 km² (density 1.4 t/m³) has a recovery factor of 0.85. The mineable reserve is about:",
       "options": [
         "85.6 Mt",
-        "42.8 Mt (alt 1)",
         "42.8 Mt",
-        "50.4 Mt"
+        "50.4 Mt",
+        "64.2 Mt"
       ],
       "answer": 2,
       "solution": "Mineable = area×thickness×density×recovery = 6M m²×6×1.4×0.85 ≈ 42.8 Mt.",
@@ -3117,10 +3117,10 @@
       "difficulty": "hard",
       "stem": "A rock retains 50% of its original parent isotope (half-life 0.7 Gyr). Its radiometric age is about:",
       "options": [
-        "0.7 Gyr (alt 1)",
-        "0.7 Gyr (alt 2)",
+        "0.7 Gyr",
         "1.4 Gyr",
-        "0.7 Gyr"
+        "2.1 Gyr",
+        "0.35 Gyr"
       ],
       "answer": 3,
       "solution": "50% remaining ⇒ 1 half-lives ⇒ age = 1×0.7 = 0.7 Gyr.",
@@ -3409,12 +3409,12 @@
       "type": "MCQ",
       "marks": 1,
       "difficulty": "medium",
-      "stem": "A mineral has passed through 1 half-lives of an isotope whose half-life is 5.73 (in the given time units). Its age is:",
+      "stem": "A mineral has passed through 1 half-life of an isotope whose half-life is 5.73 (in the given time units). Its age is:",
       "options": [
         "11.46",
-        "5.73 (alt 2)",
         "5.73",
-        "5.73 (alt 1)"
+        "8.595",
+        "2.865"
       ],
       "answer": 2,
       "solution": "Age = number of half-lives × half-life = 1×5.73 = 5.73.",
@@ -3881,7 +3881,7 @@
         "10 m",
         "5 m",
         "8.66 m",
-        "5 m (alt 1)"
+        "12 m"
       ],
       "answer": 1,
       "solution": "True thickness = width × sin(dip) = 10×sin30° ≈ 5 m.",
@@ -4196,12 +4196,12 @@
       "type": "MCQ",
       "marks": 1,
       "difficulty": "medium",
-      "stem": "A mineral has passed through 1 half-lives of an isotope whose half-life is 4.5 (in the given time units). Its age is:",
+      "stem": "A mineral has passed through 1 half-life of an isotope whose half-life is 4.5 (in the given time units). Its age is:",
       "options": [
-        "4.5 (alt 2)",
+        "4.5",
         "9",
-        "4.5 (alt 1)",
-        "4.5"
+        "6.75",
+        "2.25"
       ],
       "answer": 3,
       "solution": "Age = number of half-lives × half-life = 1×4.5 = 4.5.",
@@ -4241,7 +4241,7 @@
       "stem": "A 6 m seam over 2 km² (density 1.4 t/m³) has a recovery factor of 0.75. The mineable reserve is about:",
       "options": [
         "12.6 Mt",
-        "12.6 Mt (alt 1)",
+        "18.9 Mt",
         "25.2 Mt",
         "16.8 Mt"
       ],

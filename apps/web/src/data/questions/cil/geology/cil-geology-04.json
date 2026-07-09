@@ -2249,10 +2249,10 @@
       "type": "MCQ",
       "marks": 1,
       "difficulty": "medium",
-      "stem": "After 1 half-lives, the percentage of the original radioactive parent isotope remaining is:",
+      "stem": "After 1 half-life, the percentage of the original radioactive parent isotope remaining is:",
       "options": [
-        "50% (alt 1)",
         "50%",
+        "75%",
         "100%",
         "25%"
       ],
@@ -3026,12 +3026,12 @@
       "type": "MCQ",
       "marks": 1,
       "difficulty": "medium",
-      "stem": "A mineral has passed through 1 half-lives of an isotope whose half-life is 1.3 (in the given time units). Its age is:",
+      "stem": "A mineral has passed through 1 half-life of an isotope whose half-life is 1.3 (in the given time units). Its age is:",
       "options": [
         "2.6",
-        "1.3 (alt 2)",
         "1.3",
-        "1.3 (alt 1)"
+        "3.9",
+        "0.65"
       ],
       "answer": 2,
       "solution": "Age = number of half-lives × half-life = 1×1.3 = 1.3.",
@@ -3996,7 +3996,7 @@
         "10 m",
         "5 m",
         "8.66 m",
-        "5 m (alt 1)"
+        "12 m"
       ],
       "answer": 1,
       "solution": "True thickness = width × sin(dip) = 10×sin30° ≈ 5 m.",

@@ -1435,7 +1435,7 @@
         "3025",
         "3125",
         "4096",
-        "3125"
+        "625"
       ],
       "answer": 1,
       "solution": "3125",
@@ -3534,8 +3534,8 @@
       "options": [
         "14.2 Mt",
         "8.4 Mt",
-        "7.1 Mt (alt 1)",
-        "7.1 Mt"
+        "7.1 Mt",
+        "10.7 Mt"
       ],
       "answer": 3,
       "solution": "Mineable = area×thickness×density×recovery = 2M m²×3×1.4×0.85 ≈ 7.1 Mt.",
@@ -3764,8 +3764,8 @@
       "stem": "A coal sample (proximate analysis) has 5% moisture, 35% volatile matter and 20% ash. Its fixed carbon is:",
       "options": [
         "45%",
+        "55%",
         "40%",
-        "40% (alt 1)",
         "95%"
       ],
       "answer": 1,

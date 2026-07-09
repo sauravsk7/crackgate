@@ -1370,9 +1370,9 @@
       "stem": "If mirror is placed to the right of the word EXAM, the image shows:",
       "options": [
         "maxe",
-        "EXAM",
+        "XAME",
         "MAXE",
-        "MAxE"
+        "EMAX"
       ],
       "answer": 2,
       "solution": "MAXE",
@@ -4046,10 +4046,10 @@
       "difficulty": "hard",
       "stem": "A rock retains 50% of its original parent isotope (half-life 0.7 Gyr). Its radiometric age is about:",
       "options": [
-        "0.7 Gyr (alt 1)",
-        "0.7 Gyr (alt 2)",
+        "0.7 Gyr",
         "1.4 Gyr",
-        "0.7 Gyr"
+        "2.1 Gyr",
+        "0.35 Gyr"
       ],
       "answer": 3,
       "solution": "50% remaining ⇒ 1 half-lives ⇒ age = 1×0.7 = 0.7 Gyr.",

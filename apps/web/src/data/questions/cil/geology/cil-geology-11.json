@@ -2820,8 +2820,8 @@
       "options": [
         "20 m",
         "19.14 m",
-        "14.14 m (alt 1)",
-        "14.14 m"
+        "14.14 m",
+        "24.14 m"
       ],
       "answer": 3,
       "solution": "True thickness = width × sin(dip) = 20×sin45° ≈ 14.14 m.",
@@ -3880,8 +3880,8 @@
       "options": [
         "10 m",
         "7.07 m",
-        "7.07 m (alt 1)",
-        "12.07 m"
+        "12.07 m",
+        "5.07 m"
       ],
       "answer": 1,
       "solution": "True thickness = width × sin(dip) = 10×sin45° ≈ 7.07 m.",
