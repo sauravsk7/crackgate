@@ -95,6 +95,7 @@ export default async function AdminPage() {
         </div>
         <div className="flex gap-2 flex-wrap text-sm">
           <Link href="/admin/questions" className="btn btn-primary text-sm">📚 Question bank</Link>
+          <Link href="/admin/newsletter" className="btn text-sm">📧 Newsletter</Link>
           <Link
             href="/admin/upi"
             className={`btn text-sm ${upiPending > 0 ? "btn-accent" : ""}`}
