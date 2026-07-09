@@ -87,6 +87,8 @@ services:
       RAZORPAY_KEY_SECRET: ${RAZORPAY_KEY_SECRET}
       RAZORPAY_WEBHOOK_SECRET: ${RAZORPAY_WEBHOOK_SECRET}
       SENTRY_DSN: ${SENTRY_DSN:-}
+      RESEND_API_KEY: ${RESEND_API_KEY}
+      RESEND_FROM_EMAIL: ${RESEND_FROM_EMAIL:-support@crackgate.in}
       AWS_REGION: ${AWS_REGION:-ap-south-1}
       UPLOADS_BUCKET: ${UPLOADS_BUCKET:-crackgate-uploads}
     healthcheck:
