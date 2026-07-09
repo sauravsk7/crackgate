@@ -41,7 +41,7 @@ export function NewsletterForm({ source = "landing" }: { source?: string }) {
         placeholder="you@example.com"
         required
         disabled={status === "loading"}
-        className="flex-1 rounded-lg border border-line bg-white px-4 py-2.5 text-sm text-ink placeholder:text-muted focus:outline-none focus:ring-2 focus:ring-brand/40 disabled:opacity-50"
+        className="flex-1 rounded-lg border border-line bg-white px-4 py-2.5 text-sm text-gray-900 placeholder:text-muted focus:outline-none focus:ring-2 focus:ring-brand/40 disabled:opacity-50"
       />
       <button
         type="submit"
