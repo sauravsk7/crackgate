@@ -28,7 +28,7 @@
     "next": "^16.2.9",
     "next-auth": "^5.0.0-beta.25",
     "posthog-js": "^1.396.6",
-    "posthog-node": "^5.40.0",
+    "posthog-node": "^4.18.0",
     "qrcode": "^1.5.4",
     "razorpay": "^2.9.5",
     "react": "19.2.7",

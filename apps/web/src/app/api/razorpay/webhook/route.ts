@@ -127,15 +127,20 @@ export async function POST(req: Request) {
       where: { id: payment.id },
       data: { status: "failed", raw: evt as object },
     });
-    getPostHogClient()?.capture({
-      distinctId: payment.userId,
-      event: "payment_failed",
-      properties: {
-        plan: payment.plan,
-        amount_paise: p.amount,
-        razorpay_order_id: p.order_id,
-      },
-    });
+    try {
+      getPostHogClient()?.capture({
+        distinctId: payment.userId,
+        event: "payment_failed",
+        properties: {
+          plan: payment.plan,
+          amount_paise: p.amount,
+          razorpay_order_id: p.order_id,
+        },
+      });
+      getPostHogClient()?.flush();
+    } catch (e) {
+      console.warn("[rzp-webhook] PostHog capture failed:", (e as Error).message);
+    }
   }
 
   return NextResponse.json({ ok: true });

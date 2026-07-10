@@ -169,10 +169,21 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
       // For Google, the PrismaAdapter has just created/linked the User row,
       // so we bump lastLoginAt + capture the latest profile picture here.
       if (account?.provider === "google" && user.email) {
+        // Detect first-ever Google login: if the user has exactly one Google
+        // Account record, the adapter just created it (this is a signup).
+        // This is more reliable than comparing createdAt === updatedAt which
+        // breaks because Prisma's @updatedAt directive auto-bumps the timestamp.
         const dbUser = await db.user.findUnique({
           where: { email: user.email },
-          select: { id: true, createdAt: true, updatedAt: true },
+          select: { id: true, createdAt: true },
         }).catch(() => null);
+        let isNew = false;
+        if (dbUser?.id) {
+          const accountCount = await db.account.count({
+            where: { userId: dbUser.id, provider: "google" },
+          }).catch(() => 0);
+          isNew = accountCount <= 1;
+        }
         await db.user.update({
           where: { email: user.email },
           data: {
@@ -182,7 +193,6 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
           },
         }).catch(() => {/* first sign-in: adapter creates the user right after */});
         if (dbUser?.id) {
-          const isNew = dbUser.createdAt.getTime() === dbUser.updatedAt.getTime();
           if (isNew) {
             getPostHogClient()?.capture({
               distinctId: dbUser.id,
