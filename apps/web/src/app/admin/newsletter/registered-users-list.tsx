@@ -145,7 +145,7 @@ export default function RegisteredUsersList({ users, selectedEmails, onSelection
                       ? "bg-emerald-50 text-emerald-700 border border-emerald-200"
                       : "bg-slate-50 text-slate-600 border border-slate-200"
                   }`}>
-                    {u.isPaid ? u.plan : "free"}
+                    {u.isPaid ? "paid" : "free"}
                   </span>
                 </td>
                 <td className="py-2.5 px-3 text-muted whitespace-nowrap">
