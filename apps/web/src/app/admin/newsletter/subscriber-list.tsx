@@ -7,6 +7,7 @@ interface Subscriber {
   source: string;
   subscribedAt: string;
   plan: string | null;
+  isPaid: boolean;
 }
 
 interface Props {
@@ -23,8 +24,8 @@ export default function SubscriberList({ subscribers, selectedEmails, onSelectio
 
   const filtered = useMemo(() => {
     return subscribers.filter((s) => {
-      if (planFilter === "paid" && (!s.plan || s.plan === "free")) return false;
-      if (planFilter === "free" && s.plan && s.plan !== "free") return false;
+      if (planFilter === "paid" && !s.isPaid) return false;
+      if (planFilter === "free" && s.isPaid) return false;
       if (search && !s.email.toLowerCase().includes(search.toLowerCase())) return false;
       return true;
     });
@@ -34,7 +35,7 @@ export default function SubscriberList({ subscribers, selectedEmails, onSelectio
   const allSelected = filtered.length > 0 && filtered.every((s) => selectedEmails.has(s.email));
   const someSelected = filtered.some((s) => selectedEmails.has(s.email)) && !allSelected;
 
-  const paidCount = subscribers.filter((s) => s.plan && s.plan !== "free").length;
+  const paidCount = subscribers.filter((s) => s.isPaid).length;
   const freeCount = subscribers.length - paidCount;
 
   function toggleAll() {
@@ -136,11 +137,11 @@ export default function SubscriberList({ subscribers, selectedEmails, onSelectio
                 <td className="py-2.5 px-3 font-medium truncate max-w-[240px]">{s.email}</td>
                 <td className="py-2.5 px-3">
                   <span className={`inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium ${
-                    s.plan && s.plan !== "free"
+                    s.isPaid
                       ? "bg-emerald-50 text-emerald-700 border border-emerald-200"
                       : "bg-slate-50 text-slate-600 border border-slate-200"
                   }`}>
-                    {s.plan && s.plan !== "free" ? s.plan : "free"}
+                    {s.isPaid ? (s.plan ?? "paid") : "free"}
                   </span>
                 </td>
                 <td className="py-2.5 px-3 text-muted truncate max-w-[120px]">{s.source}</td>

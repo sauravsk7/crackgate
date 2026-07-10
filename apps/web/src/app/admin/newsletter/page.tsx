@@ -20,23 +20,36 @@ export default async function AdminNewsletterPage() {
     }),
     db.user.findMany({
       orderBy: { createdAt: "desc" },
-      select: { email: true, name: true, plan: true, createdAt: true },
+      select: {
+        email: true,
+        name: true,
+        plan: true,
+        createdAt: true,
+        entitlements: { select: { tier: true }, where: { expiry: { gt: new Date() } } },
+      },
     }),
   ]);
 
-  const userEmailSet = new Map(userRows.map((u) => [u.email, u.plan]));
+  const userEmailToPlan = new Map(userRows.map((u) => [u.email, u.plan]));
+  const userEmailToPaid = new Map(
+    userRows.map((u) => [u.email, u.entitlements.length > 0]),
+  );
 
   const subscribers = subRows.map((r) => ({
     email: r.email,
     source: r.source,
     subscribedAt: r.subscribedAt.toISOString(),
-    plan: userEmailSet.get(r.email) ?? null,
+    plan: userEmailToPaid.get(r.email)
+      ? (userEmailToPlan.get(r.email) ?? "pro")
+      : (userEmailToPlan.get(r.email) ?? null),
+    isPaid: userEmailToPaid.get(r.email) ?? false,
   }));
 
   const users = userRows.map((r) => ({
     email: r.email,
     name: r.name,
     plan: r.plan,
+    isPaid: r.entitlements.length > 0,
     joinedAt: r.createdAt.toISOString(),
   }));
 

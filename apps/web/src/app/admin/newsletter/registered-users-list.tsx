@@ -6,6 +6,7 @@ interface RegisteredUser {
   email: string;
   name: string | null;
   plan: string;
+  isPaid: boolean;
   joinedAt: string;
 }
 
@@ -23,8 +24,8 @@ export default function RegisteredUsersList({ users, selectedEmails, onSelection
 
   const filtered = useMemo(() => {
     return users.filter((u) => {
-      if (planFilter === "paid" && (!u.plan || u.plan === "free")) return false;
-      if (planFilter === "free" && u.plan && u.plan !== "free") return false;
+      if (planFilter === "paid" && !u.isPaid) return false;
+      if (planFilter === "free" && u.isPaid) return false;
       if (search) {
         const q = search.toLowerCase();
         if (!u.email.toLowerCase().includes(q) && !(u.name ?? "").toLowerCase().includes(q)) return false;
@@ -37,7 +38,7 @@ export default function RegisteredUsersList({ users, selectedEmails, onSelection
   const allSelected = filtered.length > 0 && filtered.every((u) => selectedEmails.has(u.email));
   const someSelected = filtered.some((u) => selectedEmails.has(u.email)) && !allSelected;
 
-  const paidCount = users.filter((u) => u.plan && u.plan !== "free").length;
+  const paidCount = users.filter((u) => u.isPaid).length;
   const freeCount = users.length - paidCount;
 
   function toggleAll() {
@@ -140,11 +141,11 @@ export default function RegisteredUsersList({ users, selectedEmails, onSelection
                 <td className="py-2.5 px-3 text-muted truncate max-w-[150px]">{u.name ?? "—"}</td>
                 <td className="py-2.5 px-3">
                   <span className={`inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium ${
-                    u.plan && u.plan !== "free"
+                    u.isPaid
                       ? "bg-emerald-50 text-emerald-700 border border-emerald-200"
                       : "bg-slate-50 text-slate-600 border border-slate-200"
                   }`}>
-                    {u.plan && u.plan !== "free" ? u.plan : "free"}
+                    {u.isPaid ? u.plan : "free"}
                   </span>
                 </td>
                 <td className="py-2.5 px-3 text-muted whitespace-nowrap">
