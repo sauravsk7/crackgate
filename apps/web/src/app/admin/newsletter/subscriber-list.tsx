@@ -141,7 +141,7 @@ export default function SubscriberList({ subscribers, selectedEmails, onSelectio
                       ? "bg-emerald-50 text-emerald-700 border border-emerald-200"
                       : "bg-slate-50 text-slate-600 border border-slate-200"
                   }`}>
-                    {s.isPaid ? (s.plan ?? "paid") : "free"}
+                    {s.isPaid ? "paid" : "free"}
                   </span>
                 </td>
                 <td className="py-2.5 px-3 text-muted truncate max-w-[120px]">{s.source}</td>
