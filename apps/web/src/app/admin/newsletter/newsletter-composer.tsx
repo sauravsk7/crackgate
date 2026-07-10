@@ -125,6 +125,9 @@ export default function NewsletterComposer({
             ) : (
               <p className="mt-2 text-sm text-muted italic">Type some content above to see a preview.</p>
             )}
+          </div>
+
+          <div className="border-t border-line pt-4">
             <div className="flex flex-wrap items-end gap-4">
               <div>
                 <span className="text-xs text-muted font-medium">Mode</span>

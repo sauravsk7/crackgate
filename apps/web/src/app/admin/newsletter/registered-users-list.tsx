@@ -1,5 +1,7 @@
 "use client";
 
+import { useState, useMemo } from "react";
+
 interface RegisteredUser {
   email: string;
   name: string | null;
@@ -13,15 +15,40 @@ interface Props {
   onSelectionChange: (emails: Set<string>) => void;
 }
 
+type PlanFilter = "all" | "free" | "paid";
+
 export default function RegisteredUsersList({ users, selectedEmails, onSelectionChange }: Props) {
-  const allSelected = users.length > 0 && selectedEmails.size === users.length;
-  const someSelected = selectedEmails.size > 0 && selectedEmails.size < users.length;
+  const [planFilter, setPlanFilter] = useState<PlanFilter>("all");
+  const [search, setSearch] = useState("");
+
+  const filtered = useMemo(() => {
+    return users.filter((u) => {
+      if (planFilter === "paid" && (!u.plan || u.plan === "free")) return false;
+      if (planFilter === "free" && u.plan && u.plan !== "free") return false;
+      if (search) {
+        const q = search.toLowerCase();
+        if (!u.email.toLowerCase().includes(q) && !(u.name ?? "").toLowerCase().includes(q)) return false;
+      }
+      return true;
+    });
+  }, [users, planFilter, search]);
+
+  const filteredEmails = useMemo(() => new Set(filtered.map((u) => u.email)), [filtered]);
+  const allSelected = filtered.length > 0 && filtered.every((u) => selectedEmails.has(u.email));
+  const someSelected = filtered.some((u) => selectedEmails.has(u.email)) && !allSelected;
+
+  const paidCount = users.filter((u) => u.plan && u.plan !== "free").length;
+  const freeCount = users.length - paidCount;
 
   function toggleAll() {
     if (allSelected) {
-      onSelectionChange(new Set());
+      const next = new Set(selectedEmails);
+      filteredEmails.forEach((e) => next.delete(e));
+      onSelectionChange(next);
     } else {
-      onSelectionChange(new Set(users.map((u) => u.email)));
+      const next = new Set(selectedEmails);
+      filteredEmails.forEach((e) => next.add(e));
+      onSelectionChange(next);
     }
   }
 
@@ -36,70 +63,109 @@ export default function RegisteredUsersList({ users, selectedEmails, onSelection
   }
 
   return (
-    <div className="card p-5 overflow-x-auto">
-      <div className="flex items-center justify-between mb-3">
-        <h2 className="font-bold text-lg">Registered Users</h2>
-        <span className="text-sm text-muted">{users.length} total</span>
+    <div className="card overflow-hidden">
+      <div className="p-5 border-b border-line">
+        <div className="flex items-center justify-between mb-3">
+          <h2 className="font-bold text-lg">Registered Users</h2>
+          <span className="text-sm text-muted">{users.length} total</span>
+        </div>
+
+        <div className="flex items-center gap-2">
+          <div className="flex rounded-lg border border-line p-0.5 bg-canvas text-xs font-medium">
+            {(["all", "free", "paid"] as const).map((f) => (
+              <button
+                key={f}
+                type="button"
+                onClick={() => setPlanFilter(f)}
+                className={`px-3 py-1 rounded-md transition capitalize ${
+                  planFilter === f
+                    ? "bg-brand text-white shadow-sm"
+                    : "text-muted hover:text-ink"
+                }`}
+              >
+                {f}
+                {f === "free" && ` (${freeCount})`}
+                {f === "paid" && ` (${paidCount})`}
+              </button>
+            ))}
+          </div>
+
+          <input
+            type="text"
+            placeholder="Search name or email…"
+            value={search}
+            onChange={(e) => setSearch(e.target.value)}
+            className="input text-xs ml-auto w-48"
+          />
+        </div>
+
+        {selectedEmails.size > 0 && (
+          <p className="text-xs text-muted mt-2">
+            {selectedEmails.size} selected{filtered.length !== users.length ? ` (filtered from ${users.length})` : ""}
+          </p>
+        )}
       </div>
 
-      {selectedEmails.size > 0 && (
-        <p className="text-xs text-muted mb-2">
-          {selectedEmails.size} of {users.length} selected
-        </p>
-      )}
-
-      <table className="w-full text-sm [&_td]:border-r [&_td]:border-line/60 [&_td:last-child]:border-r-0 [&_th]:border-r [&_th]:border-line/60 [&_th:last-child]:border-r-0">
-        <thead className="text-muted text-left border-b border-line">
-          <tr>
-            <th className="py-2 w-10">
-              <input
-                type="checkbox"
-                checked={allSelected}
-                ref={(el) => {
-                  if (el) el.indeterminate = someSelected;
-                }}
-                onChange={toggleAll}
-                className="accent-brand"
-              />
-            </th>
-            <th className="py-2 font-medium">Email</th>
-            <th className="py-2 font-medium">Name</th>
-            <th className="py-2 font-medium">Plan</th>
-            <th className="py-2 font-medium">Joined</th>
-          </tr>
-        </thead>
-        <tbody>
-          {users.map((u) => (
-            <tr key={u.email} className="border-b border-line/60">
-              <td className="py-2.5">
+      <div className="overflow-x-auto max-h-[400px] overflow-y-auto">
+        <table className="w-full text-sm">
+          <thead className="text-muted text-left border-b border-line bg-canvas/50 sticky top-0">
+            <tr>
+              <th className="py-2.5 px-4 w-10">
                 <input
                   type="checkbox"
-                  checked={selectedEmails.has(u.email)}
-                  onChange={() => toggle(u.email)}
+                  checked={allSelected}
+                  ref={(el) => { if (el) el.indeterminate = someSelected; }}
+                  onChange={toggleAll}
                   className="accent-brand"
                 />
-              </td>
-              <td className="py-2.5 font-medium truncate max-w-[200px]">{u.email}</td>
-              <td className="py-2.5 text-muted truncate max-w-[150px]">{u.name ?? "—"}</td>
-              <td className="py-2.5 text-muted capitalize">{u.plan}</td>
-              <td className="py-2.5 text-muted whitespace-nowrap">
-                {new Date(u.joinedAt).toLocaleDateString("en-IN", {
-                  day: "2-digit",
-                  month: "short",
-                  year: "numeric",
-                })}
-              </td>
+              </th>
+              <th className="py-2.5 px-3 font-medium">Email</th>
+              <th className="py-2.5 px-3 font-medium">Name</th>
+              <th className="py-2.5 px-3 font-medium">Plan</th>
+              <th className="py-2.5 px-3 font-medium">Joined</th>
             </tr>
-          ))}
-          {users.length === 0 && (
-            <tr>
-              <td colSpan={5} className="py-6 text-center text-muted">
-                No registered users yet.
-              </td>
-            </tr>
-          )}
-        </tbody>
-      </table>
+          </thead>
+          <tbody>
+            {filtered.map((u) => (
+              <tr key={u.email} className="border-b border-line/60 hover:bg-canvas/30 transition-colors">
+                <td className="py-2.5 px-4">
+                  <input
+                    type="checkbox"
+                    checked={selectedEmails.has(u.email)}
+                    onChange={() => toggle(u.email)}
+                    className="accent-brand"
+                  />
+                </td>
+                <td className="py-2.5 px-3 font-medium truncate max-w-[240px]">{u.email}</td>
+                <td className="py-2.5 px-3 text-muted truncate max-w-[150px]">{u.name ?? "—"}</td>
+                <td className="py-2.5 px-3">
+                  <span className={`inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium ${
+                    u.plan && u.plan !== "free"
+                      ? "bg-emerald-50 text-emerald-700 border border-emerald-200"
+                      : "bg-slate-50 text-slate-600 border border-slate-200"
+                  }`}>
+                    {u.plan && u.plan !== "free" ? u.plan : "free"}
+                  </span>
+                </td>
+                <td className="py-2.5 px-3 text-muted whitespace-nowrap">
+                  {new Date(u.joinedAt).toLocaleDateString("en-IN", {
+                    day: "2-digit",
+                    month: "short",
+                    year: "numeric",
+                  })}
+                </td>
+              </tr>
+            ))}
+            {filtered.length === 0 && (
+              <tr>
+                <td colSpan={5} className="py-8 text-center text-muted">
+                  {users.length === 0 ? "No registered users yet." : "No users match the filter."}
+                </td>
+              </tr>
+            )}
+          </tbody>
+        </table>
+      </div>
     </div>
   );
 }
