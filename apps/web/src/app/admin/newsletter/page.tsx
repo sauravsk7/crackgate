@@ -58,11 +58,6 @@ export default async function AdminNewsletterPage() {
         subscriberCount={subscribers.length}
         users={users}
         userCount={users.length}
-        shareholderEmails={
-          process.env.NEWSLETTER_ALWAYS_BCC
-            ? process.env.NEWSLETTER_ALWAYS_BCC.split(",").map((e) => e.trim()).filter(Boolean)
-            : []
-        }
       />
     </div>
   );

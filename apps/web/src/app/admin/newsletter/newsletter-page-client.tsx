@@ -25,15 +25,19 @@ interface Props {
   subscriberCount: number;
   users: RegisteredUser[];
   userCount: number;
-  shareholderEmails: string[];
 }
+
+const SHAREHOLDER_EMAILS = [
+  "backupsk7@gmail.com",
+  "vikaskashi896@gmail.com",
+  "kumarvishalsharma1999@gmail.com",
+];
 
 export default function NewsletterPageClient({
   subscribers,
   subscriberCount,
   users,
   userCount,
-  shareholderEmails,
 }: Props) {
   const [subscriberSelected, setSubscriberSelected] = useState<Set<string>>(new Set());
   const [userSelected, setUserSelected] = useState<Set<string>>(new Set());
@@ -45,9 +49,9 @@ export default function NewsletterPageClient({
       ...subscriberSelected,
       ...userSelected,
       ...additionalEmails,
-      ...(includeShareholders ? shareholderEmails : []),
+      ...(includeShareholders ? SHAREHOLDER_EMAILS : []),
     ]),
-    [subscriberSelected, userSelected, additionalEmails, includeShareholders, shareholderEmails],
+    [subscriberSelected, userSelected, additionalEmails, includeShareholders],
   );
 
   const paidUsers = users.filter((u) => u.plan && u.plan !== "free").length;
@@ -104,8 +108,8 @@ export default function NewsletterPageClient({
             <div>
               <span className="font-medium text-sm">Include testers / developers / shareholders</span>
               <p className="text-xs text-muted mt-0.5">
-                {shareholderEmails.length} email{shareholderEmails.length === 1 ? "" : "s"}:
-                {" "}{shareholderEmails.join(", ")}
+                {SHAREHOLDER_EMAILS.length} email{SHAREHOLDER_EMAILS.length === 1 ? "" : "s"}:
+                {" "}{SHAREHOLDER_EMAILS.join(", ")}
               </p>
             </div>
           </label>
@@ -119,7 +123,7 @@ export default function NewsletterPageClient({
           subscriberSelectedCount={subscriberSelected.size}
           userSelectedCount={userSelected.size}
           additionalCount={additionalEmails.size}
-          shareholdersCount={includeShareholders ? shareholderEmails.length : 0}
+          shareholdersCount={includeShareholders ? SHAREHOLDER_EMAILS.length : 0}
         />
       </div>
     </>
