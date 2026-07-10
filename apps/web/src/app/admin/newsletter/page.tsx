@@ -24,10 +24,13 @@ export default async function AdminNewsletterPage() {
     }),
   ]);
 
+  const userEmailSet = new Map(userRows.map((u) => [u.email, u.plan]));
+
   const subscribers = subRows.map((r) => ({
     email: r.email,
     source: r.source,
     subscribedAt: r.subscribedAt.toISOString(),
+    plan: userEmailSet.get(r.email) ?? null,
   }));
 
   const users = userRows.map((r) => ({
@@ -38,7 +41,7 @@ export default async function AdminNewsletterPage() {
   }));
 
   return (
-    <div className="max-w-4xl mx-auto px-5 py-10">
+    <div className="max-w-6xl mx-auto px-5 py-10">
       <div className="flex items-baseline justify-between">
         <h1 className="text-2xl font-extrabold">Newsletter</h1>
         <Link href="/admin" className="text-sm text-muted underline">
