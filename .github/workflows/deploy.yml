@@ -86,8 +86,8 @@ jobs:
           tags: |
             ${{ steps.meta.outputs.uri }}
             ${{ secrets.ECR_REGISTRY }}/${{ env.ECR_REPO }}:latest
-          cache-from: type=gha
-          cache-to: type=gha,mode=max
+          cache-from: type=gha,scope=deploy-bust-${{ github.run_id }}
+          cache-to: type=gha,mode=max,scope=deploy-bust-${{ github.run_id }}
           build-args: |
             NEXT_PUBLIC_GOOGLE_ENABLED=${{ vars.NEXT_PUBLIC_GOOGLE_ENABLED }}
             NEXT_PUBLIC_WHATSAPP_ENABLED=${{ vars.NEXT_PUBLIC_WHATSAPP_ENABLED }}
