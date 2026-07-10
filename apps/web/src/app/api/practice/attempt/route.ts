@@ -8,6 +8,7 @@ import { NextResponse } from "next/server";
 import { auth } from "@/lib/auth";
 import { db } from "@/lib/db";
 import { getLimiter, rateLimitResponse } from "@/lib/rate-limit";
+import { getPostHogClient } from "@/lib/posthog";
 
 const attemptLimiter = getLimiter({ windowMs: 60_000, max: 60, label: "practice:post" });
 
@@ -43,6 +44,19 @@ export async function POST(req: Request) {
         difficulty: body.difficulty ?? "medium",
         correct: body.correct,
       },
+    },
+  });
+
+  getPostHogClient()?.capture({
+    distinctId: session.user.id,
+    event: "practice_question_answered",
+    properties: {
+      subject_slug: body.subjectSlug,
+      subject_name: body.subjectName ?? body.subjectSlug,
+      question_id: body.qid,
+      topic: body.topic ?? null,
+      difficulty: body.difficulty ?? "medium",
+      correct: body.correct,
     },
   });
 
