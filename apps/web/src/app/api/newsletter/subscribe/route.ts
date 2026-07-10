@@ -2,6 +2,7 @@ import { NextResponse } from "next/server";
 import { z } from "zod";
 import { db } from "@crackgate/database";
 import { getLimiter, ipFromRequest, rateLimitResponse } from "@/lib/rate-limit";
+import { getPostHogClient } from "@/lib/posthog";
 
 const subscribeLimiter = getLimiter({ windowMs: 60 * 60 * 1000, max: 5, label: "newsletter:post" });
 
@@ -30,6 +31,11 @@ export async function POST(request: Request) {
   try {
     await db.newsletterSubscriber.create({
       data: { email, source, ip },
+    });
+    getPostHogClient()?.capture({
+      distinctId: email,
+      event: "newsletter_subscribed",
+      properties: { source },
     });
     return NextResponse.json({ ok: true });
   } catch (err: unknown) {

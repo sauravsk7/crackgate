@@ -6,6 +6,7 @@ import { z } from "zod";
 import { resolveMock } from "@/lib/mock-registry";
 import { hasEntitlement } from "@/lib/entitlements";
 import { getLimiter, ipFromRequest, rateLimitResponse } from "@/lib/rate-limit";
+import { getPostHogClient } from "@/lib/posthog";
 
 const submitLimiter = getLimiter({ windowMs: 60_000, max: 10, label: "attempts:post" });
 
@@ -34,6 +35,9 @@ export async function GET() {
     return NextResponse.json({ attempts });
   } catch (error) {
     console.error("GET /api/attempts:", error);
+    if (error instanceof Error) {
+      getPostHogClient()?.captureException(error);
+    }
     return NextResponse.json({ error: "Internal server error" }, { status: 500 });
   }
 }
@@ -103,6 +107,22 @@ export async function POST(req: Request) {
       userId: session.user.id,
       type: `${parsed.data.kind}_submit`,
       payload: { refId: parsed.data.refId, score: result.scored, total: result.total },
+    },
+  });
+
+  getPostHogClient()?.capture({
+    distinctId: session.user.id,
+    event: "mock_submitted",
+    properties: {
+      ref_id: parsed.data.refId,
+      mock_title: bank.title,
+      score: result.scored,
+      total: result.total,
+      correct: result.correct,
+      wrong: result.wrong,
+      skipped: result.skipped,
+      duration_sec: parsed.data.durationSec,
+      negative_marking: bank.negativeMarking,
     },
   });
 

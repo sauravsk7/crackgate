@@ -3,6 +3,7 @@ import { db } from "@/lib/db";
 import { NextResponse } from "next/server";
 import { z } from "zod";
 import { getLimiter, rateLimitResponse } from "@/lib/rate-limit";
+import { getPostHogClient } from "@/lib/posthog";
 
 export const runtime = "nodejs";
 
@@ -62,9 +63,24 @@ export async function POST(req: Request) {
       },
     });
 
+    getPostHogClient()?.capture({
+      distinctId: session.user.id,
+      event: "question_reported",
+      properties: {
+        mock_ref_id: parsed.data.mockRefId,
+        question_key: parsed.data.questionKey,
+        issue_type: parsed.data.issueType,
+        exam,
+        subject,
+      },
+    });
+
     return NextResponse.json({ ok: true });
   } catch (error) {
     console.error("POST /api/reports:", error);
+    if (error instanceof Error) {
+      getPostHogClient()?.captureException(error);
+    }
     return NextResponse.json({ error: "Internal server error" }, { status: 500 });
   }
 }
