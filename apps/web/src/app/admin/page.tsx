@@ -1,18 +1,28 @@
 import Link from "next/link";
 import { redirect } from "next/navigation";
+import { ArrowRight } from "lucide-react";
 import { getAdminSession } from "@/lib/admin";
 import { db } from "@/lib/db";
-import { fmtDate } from "@/lib/utils";
+import { cn, fmtDate } from "@/lib/utils";
 import dynamicImport from "next/dynamic";
+import { AdminKpiCard } from "@/components/admin/admin-kpi-card";
+import { AdminCommandBar } from "@/components/admin/admin-command-bar";
+import { AdminSectionHeader } from "@/components/admin/admin-section-header";
+import {
+  AdminEmptyState,
+  AdminDataTableEmpty,
+} from "@/components/admin/admin-empty-state";
 
-const AdminCharts = dynamicImport(() => import("@/components/admin-charts").then((m) => m.AdminCharts));
+const AdminCharts = dynamicImport(() =>
+  import("@/components/admin-charts").then((m) => m.AdminCharts)
+);
 
 export const dynamic = "force-dynamic";
 
 const EXAM_LABELS: Record<string, string> = {
   GATE: "GATE",
   PSU: "PSU",
-  STATE: "State Level",
+  STATE: "State",
   DIPLOMA: "Diploma",
 };
 
@@ -36,8 +46,17 @@ function inr(paise: number): string {
   return "₹" + Math.round(paise / 100).toLocaleString("en-IN");
 }
 
-function entitlementLabel(e: { exam: string; subject: string; tier: string }): string {
-  return `${EXAM_LABELS[e.exam] ?? e.exam} · ${SUBJECT_LABELS[e.subject] ?? e.subject} (${e.tier})`;
+function pctChange(
+  a: number,
+  b: number
+): { dir: "up" | "down" | "flat"; label: string } {
+  if (b === 0)
+    return { dir: a > 0 ? "up" : "flat", label: a > 0 ? "+∞" : "—" };
+  const diff = ((a - b) / b) * 100;
+  const rounded = Math.round(Math.abs(diff));
+  if (diff > 0) return { dir: "up", label: `+${rounded}%` };
+  if (diff < 0) return { dir: "down", label: `-${rounded}%` };
+  return { dir: "flat", label: "0%" };
 }
 
 export default async function AdminPage() {
@@ -50,6 +69,7 @@ export default async function AdminPage() {
   const since30 = new Date(now.getTime() - 30 * 86400_000);
   const since7 = new Date(now.getTime() - 7 * 86400_000);
   const since1 = new Date(now.getTime() - 86400_000);
+  const prev7 = new Date(now.getTime() - 14 * 86400_000);
 
   const [
     totalUsers,
@@ -57,11 +77,15 @@ export default async function AdminPage() {
     signups1,
     signups7,
     signups30,
+    signupsPrev7,
     activeUsers7,
+    activeUsersPrev7,
     attempts1,
     attempts7,
     attempts30,
+    attemptsPrev7,
     revenue30,
+    revenuePrev30,
     revenueLifetime,
     recentUsers,
     recentPayments,
@@ -83,12 +107,20 @@ export default async function AdminPage() {
     db.user.count({ where: { createdAt: { gte: since1 } } }),
     db.user.count({ where: { createdAt: { gte: since7 } } }),
     db.user.count({ where: { createdAt: { gte: since30 } } }),
+    db.user.count({ where: { createdAt: { gte: prev7, lt: since7 } } }),
     db.user.count({ where: { lastLoginAt: { gte: since7 } } }),
+    db.user.count({ where: { lastLoginAt: { gte: prev7, lt: since7 } } }),
     db.attempt.count({ where: { takenAt: { gte: since1 } } }),
     db.attempt.count({ where: { takenAt: { gte: since7 } } }),
     db.attempt.count({ where: { takenAt: { gte: since30 } } }),
+    db.attempt.count({ where: { takenAt: { gte: prev7, lt: since7 } } }),
     db.payment.aggregate({
       where: { status: "captured", capturedAt: { gte: since30 } },
+      _sum: { amount: true },
+      _count: { _all: true },
+    }),
+    db.payment.aggregate({
+      where: { status: "captured", capturedAt: { gte: prev7, lt: since30 } },
       _sum: { amount: true },
       _count: { _all: true },
     }),
@@ -99,20 +131,27 @@ export default async function AdminPage() {
     }),
     db.user.findMany({
       orderBy: { createdAt: "desc" },
-      take: 10,
+      take: 8,
       select: {
-        id: true, email: true, name: true, plan: true, createdAt: true, lastLoginAt: true,
-        entitlements: { select: { exam: true, subject: true, tier: true, expiry: true } },
+        id: true,
+        email: true,
+        name: true,
+        plan: true,
+        createdAt: true,
+        lastLoginAt: true,
+        entitlements: {
+          select: { exam: true, subject: true, tier: true, expiry: true },
+        },
       },
     }),
     db.payment.findMany({
       orderBy: { createdAt: "desc" },
-      take: 10,
+      take: 8,
       include: { user: { select: { email: true, name: true } } },
     }),
     db.activity.findMany({
       orderBy: { ts: "desc" },
-      take: 15,
+      take: 12,
       include: { user: { select: { email: true } } },
     }),
     db.upiPayment.count({ where: { status: "pending" } }),
@@ -122,7 +161,7 @@ export default async function AdminPage() {
     db.questionReport.groupBy({ by: ["exam"], _count: { _all: true } }),
     db.questionReport.findMany({
       orderBy: { createdAt: "desc" },
-      take: 10,
+      take: 6,
       include: { user: { select: { email: true, name: true } } },
     }),
     db.entitlement.count(),
@@ -138,114 +177,153 @@ export default async function AdminPage() {
   const planMap: Record<string, number> = { free: 0, pro: 0, premium: 0 };
   for (const r of usersByPlan) planMap[r.plan] = r._count._all;
 
-  // Paid users = users with any entitlement (the real source of truth)
   const paidUsers = usersWithEntitlements.length;
-  const conversionPct = totalUsers ? Math.round((paidUsers / totalUsers) * 1000) / 10 : 0;
-
-  // Free users = total - paid
   const freeUsers = totalUsers - paidUsers;
+  const conversionPct = totalUsers
+    ? Math.round((paidUsers / totalUsers) * 1000) / 10
+    : 0;
+
+  const signupsTrend = pctChange(signups7, signupsPrev7);
+  const activeTrend = pctChange(activeUsers7, activeUsersPrev7);
+  const revenueTrend = pctChange(
+    revenue30._sum.amount ?? 0,
+    revenuePrev30._sum.amount ?? 0
+  );
+
+  const rev30 = revenue30._sum.amount ?? 0;
+  const revPrev = revenuePrev30._sum.amount ?? 0;
+
+  function reportStatusBadge(status: string) {
+    if (status === "pending")
+      return "bg-amber-100 text-amber-800 dark:bg-amber-900/30 dark:text-amber-400";
+    if (status === "resolved")
+      return "bg-emerald-100 text-emerald-800 dark:bg-emerald-900/30 dark:text-emerald-400";
+    return "bg-slate-100 text-slate-500 dark:bg-slate-800 dark:text-slate-400";
+  }
 
   return (
-    <div className="max-w-7xl mx-auto px-5 py-10">
-      <div className="flex flex-wrap items-end justify-between gap-3">
+    <div className="max-w-[1400px] mx-auto px-5 py-10">
+      {/* Header */}
+      <div className="flex flex-wrap items-end justify-between gap-4">
         <div>
-          <h1 className="text-3xl font-extrabold">Founder Console</h1>
-          <p className="text-muted mt-1">
-            Logged in as <b>{admin.email}</b> ·{" "}
-            <span className="text-xs">access via {admin.source === "env" ? "ADMIN_EMAILS" : "User.role"}</span>
+          <h1 className="text-3xl font-extrabold tracking-tight">
+            Founder Console
+          </h1>
+          <p className="text-muted mt-1 text-sm">
+            Command center for CrackGate operations
           </p>
         </div>
-        <div className="flex gap-2 flex-wrap text-sm">
-          <Link href="/admin/questions" className="btn btn-primary text-sm">📚 Question bank</Link>
-          <Link
-            href="/admin/reports"
-            className={`btn text-sm ${pendingReports > 0 ? "btn-accent" : ""}`}
-          >
-            🚩 Reports{pendingReports > 0 ? ` (${pendingReports})` : ""}
-          </Link>
-          <Link href="/admin/newsletter" className="btn text-sm">📧 Newsletter</Link>
-          <Link
-            href="/admin/upi"
-            className={`btn text-sm ${upiPending > 0 ? "btn-accent" : ""}`}
-          >
-            💸 UPI claims{upiPending > 0 ? ` (${upiPending})` : ""}
-          </Link>
-          <a
-            href="https://app.posthog.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="btn btn-ghost text-sm"
-          >
-            📊 Analytics ↗
-          </a>
-          <ExportBtn dataset="users" label="📥 Users CSV" />
-          <ExportBtn dataset="payments" label="💰 Payments CSV" />
-          <ExportBtn dataset="attempts" label="🧪 Attempts CSV" />
-          <ExportBtn dataset="activity" label="📜 Activity CSV" />
-          <ExportBtn dataset="reports" label="🚩 Reports CSV" />
-          <ExportBtn dataset="entitlements" label="🔑 Entitlements CSV" />
-        </div>
+        <AdminCommandBar
+          pendingReports={pendingReports}
+          pendingUpi={upiPending}
+        />
       </div>
 
-      {/* Top KPI row */}
-      <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 mt-8">
-        <Kpi label="Total users" value={totalUsers} sub={`${signups1} today · ${signups7} this week`} icon="👥" />
-        <Kpi label="Paid users" value={paidUsers} sub={`${conversionPct}% conversion · ${freeUsers} free`} icon="💎" tone="ok" />
-        <Kpi label="Active (7d)" value={activeUsers7} sub={`${attempts7} attempts in last 7 days`} icon="📈" />
-        <Kpi
-          label="Revenue (30d)"
-          value={inr(revenue30._sum.amount ?? 0)}
-          sub={`${revenue30._count._all} payments · lifetime ${inr(revenueLifetime._sum.amount ?? 0)}`}
-          icon="🪙"
+      {/* KPI Row */}
+      <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4 mt-8">
+        <AdminKpiCard
+          label="Total Users"
+          value={totalUsers}
+          subtitle={`${signups1} today · ${signups7} this week`}
+          icon="Users"
+          trend={signupsTrend.dir}
+          trendValue={signupsTrend.label}
+          sparkData={[signupsPrev7, signups7]}
+          tone="brand"
+        />
+        <AdminKpiCard
+          label="Paid Users"
+          value={paidUsers}
+          subtitle={`${conversionPct}% conversion · ${freeUsers} free`}
+          icon="Crown"
           tone="ok"
         />
-        <Kpi
-          label="Reported issues"
+        <AdminKpiCard
+          label="Active (7d)"
+          value={activeUsers7}
+          subtitle={`${attempts7} attempts this week`}
+          icon="Activity"
+          trend={activeTrend.dir}
+          trendValue={activeTrend.label}
+          sparkData={[activeUsersPrev7, activeUsers7]}
+        />
+        <AdminKpiCard
+          label="Revenue (30d)"
+          value={inr(rev30)}
+          subtitle={`${revenue30._count._all} payments · lifetime ${inr(revenueLifetime._sum.amount ?? 0)}`}
+          icon="IndianRupee"
+          trend={revenueTrend.dir}
+          trendValue={revenueTrend.label}
+          sparkData={[revPrev, rev30]}
+          tone="ok"
+        />
+        <AdminKpiCard
+          label="Pending Issues"
           value={totalReports}
-          sub={`${pendingReports} pending review`}
-          icon="🚩"
-          tone={pendingReports > 0 ? "accent" : undefined}
+          subtitle={`${pendingReports} pending review`}
+          icon="Flag"
+          tone={pendingReports > 0 ? "accent" : "default"}
         />
       </div>
 
-      <AdminCharts />
+      {/* Charts */}
+      <div className="mt-8">
+        <AdminCharts />
+      </div>
 
-      {/* Plan breakdown + Entitlements + Engagement */}
-      <section className="mt-10 grid lg:grid-cols-3 gap-6">
-        {/* Entitlements breakdown (the real paid access) */}
+      {/* Entitlements + Engagement */}
+      <section className="mt-8 grid lg:grid-cols-3 gap-6">
         <div className="card p-6 lg:col-span-2">
-          <div className="flex justify-between items-end flex-wrap gap-2">
-            <div>
-              <h2 className="font-bold text-lg">Entitlements</h2>
-              <p className="text-xs text-muted mt-0.5">{totalEntitlements} total across {usersWithEntitlements.length} users</p>
-            </div>
-          </div>
+          <AdminSectionHeader
+            title="Entitlements"
+            subtitle={`${totalEntitlements} total across ${usersWithEntitlements.length} users`}
+          />
           {totalEntitlements === 0 ? (
-            <p className="text-sm text-muted mt-4">No entitlements yet — paid access appears here after UPI approval.</p>
+            <AdminEmptyState
+              icon="Flag"
+              title="No entitlements yet"
+              description="Paid access appears here after UPI approval."
+            />
           ) : (
             <>
-              <div className="mt-4 space-y-3">
+              <div className="mt-5 space-y-3">
                 {entitlementsByExam.map((r) => {
-                  const pct = totalEntitlements ? Math.round((r._count._all / totalEntitlements) * 100) : 0;
+                  const pct = totalEntitlements
+                    ? Math.round((r._count._all / totalEntitlements) * 100)
+                    : 0;
                   return (
                     <div key={r.exam}>
                       <div className="flex justify-between text-sm mb-1">
-                        <span className="font-semibold">{EXAM_LABELS[r.exam] ?? r.exam}</span>
-                        <span className="text-muted">{r._count._all} <span className="text-xs">({pct}%)</span></span>
+                        <span className="font-semibold">
+                          {EXAM_LABELS[r.exam] ?? r.exam}
+                        </span>
+                        <span className="text-muted tabular-nums">
+                          {r._count._all}{" "}
+                          <span className="text-xs">({pct}%)</span>
+                        </span>
                       </div>
-                      <div className="h-2 bg-slate-100 rounded-full overflow-hidden">
-                        <div className="h-full bg-brand" style={{ width: `${Math.max(2, pct)}%` }} />
+                      <div className="h-2 bg-slate-100 dark:bg-slate-800 rounded-full overflow-hidden">
+                        <div
+                          className="h-full bg-brand rounded-full"
+                          style={{ width: `${Math.max(2, pct)}%` }}
+                        />
                       </div>
                     </div>
                   );
                 })}
               </div>
-              <div className="mt-4 pt-4 border-t border-line">
-                <h3 className="text-xs font-semibold text-muted uppercase tracking-wider mb-2">By subject</h3>
+              <div className="mt-5 pt-5 border-t border-line">
+                <h3 className="text-xs font-semibold text-muted uppercase tracking-wider mb-2">
+                  By subject
+                </h3>
                 <div className="flex flex-wrap gap-2">
                   {entitlementsBySubject.map((r) => (
-                    <span key={r.subject} className="px-2 py-1 rounded-full text-xs font-medium bg-brand/10 text-brand">
-                      {SUBJECT_LABELS[r.subject] ?? r.subject}: {r._count._all}
+                    <span
+                      key={r.subject}
+                      className="px-2.5 py-1 rounded-full text-xs font-medium bg-brand/10 text-brand"
+                    >
+                      {SUBJECT_LABELS[r.subject] ?? r.subject}:{" "}
+                      {r._count._all}
                     </span>
                   ))}
                 </div>
@@ -255,291 +333,470 @@ export default async function AdminPage() {
         </div>
 
         <div className="card p-6">
-          <h2 className="font-bold text-lg">Engagement</h2>
-          <ul className="text-sm mt-4 space-y-2">
-            <li className="flex justify-between"><span>Attempts today</span><b>{attempts1}</b></li>
-            <li className="flex justify-between"><span>Attempts last 7d</span><b>{attempts7}</b></li>
-            <li className="flex justify-between"><span>Attempts last 30d</span><b>{attempts30}</b></li>
-            <li className="flex justify-between"><span>New signups today</span><b>{signups1}</b></li>
-            <li className="flex justify-between"><span>New signups last 30d</span><b>{signups30}</b></li>
+          <AdminSectionHeader title="Engagement" />
+          <ul className="text-sm mt-5 space-y-3">
+            <li className="flex justify-between items-center">
+              <span className="text-muted">Attempts today</span>
+              <b className="tabular-nums">{attempts1}</b>
+            </li>
+            <li className="flex justify-between items-center">
+              <span className="text-muted">Attempts last 7d</span>
+              <b className="tabular-nums">{attempts7}</b>
+            </li>
+            <li className="flex justify-between items-center">
+              <span className="text-muted">Attempts last 30d</span>
+              <b className="tabular-nums">{attempts30}</b>
+            </li>
+            <li className="flex justify-between items-center border-t border-line pt-3">
+              <span className="text-muted">New signups today</span>
+              <b className="tabular-nums">{signups1}</b>
+            </li>
+            <li className="flex justify-between items-center">
+              <span className="text-muted">New signups last 7d</span>
+              <b className="tabular-nums">{signups7}</b>
+            </li>
+            <li className="flex justify-between items-center">
+              <span className="text-muted">New signups last 30d</span>
+              <b className="tabular-nums">{signups30}</b>
+            </li>
           </ul>
         </div>
       </section>
 
-      {/* Recent users */}
-      <section className="mt-10 card p-6 overflow-x-auto">
-        <div className="flex justify-between items-end flex-wrap gap-2">
-          <h2 className="font-bold text-lg">Recent signups</h2>
-          <a href="/api/admin/export?dataset=users" className="text-sm text-brand hover:underline">Download all users (CSV) →</a>
+      {/* Recent Signups */}
+      <section className="mt-8 card overflow-hidden">
+        <div className="p-6 pb-0">
+          <AdminSectionHeader
+            title="Recent Signups"
+            subtitle={`${recentUsers.length} of ${totalUsers} users`}
+            actionHref="/api/admin/export?dataset=users"
+            actionLabel="Export CSV"
+          />
         </div>
-        <table className="w-full text-sm mt-4">
-          <thead className="text-muted text-left border-b border-line">
-            <tr>
-              <th className="py-2">Email</th>
-              <th className="py-2">Name</th>
-              <th className="py-2">Access</th>
-              <th className="py-2">Joined</th>
-              <th className="py-2">Last login</th>
-            </tr>
-          </thead>
-          <tbody>
-            {recentUsers.map((u) => (
-              <tr key={u.id} className="border-b border-line/60">
-                <td className="py-2.5 font-medium">{u.email}</td>
-                <td className="py-2.5">{u.name}</td>
-                <td className="py-2.5">
-                  {u.entitlements.length > 0 ? (
-                    <div className="flex flex-wrap gap-1">
-                      {u.entitlements.map((e, i) => (
-                        <span key={i} className="px-2 py-0.5 rounded-full text-xs font-medium bg-brand/10 text-brand">
-                          {SUBJECT_LABELS[e.subject] ?? e.subject}
-                          <span className="ml-1 text-brand/60">{e.tier}</span>
+        <div className="overflow-x-auto">
+          <table className="w-full text-sm mt-4">
+            <thead className="text-xs text-muted uppercase tracking-wider border-b border-line">
+              <tr>
+                <th className="px-6 py-3 text-left">User</th>
+                <th className="px-6 py-3 text-left">Access</th>
+                <th className="px-6 py-3 text-left">Joined</th>
+                <th className="px-6 py-3 text-left">Last login</th>
+              </tr>
+            </thead>
+            <tbody className="divide-y divide-line/50">
+              {recentUsers.length === 0 ? (
+                <AdminDataTableEmpty
+                  colSpan={4}
+                  icon="Users"
+                  title="No users yet"
+                  description="Users will appear here after signups."
+                />
+              ) : (
+                recentUsers.map((u) => (
+                  <tr
+                    key={u.id}
+                    className="hover:bg-paper/50 transition-colors"
+                  >
+                    <td className="px-6 py-3">
+                      <div className="font-medium">{u.email}</div>
+                      {u.name && (
+                        <div className="text-xs text-muted">{u.name}</div>
+                      )}
+                    </td>
+                    <td className="px-6 py-3">
+                      {u.entitlements.length > 0 ? (
+                        <div className="flex flex-wrap gap-1">
+                          {u.entitlements.map((e, i) => (
+                            <span
+                              key={i}
+                              className="px-2 py-0.5 rounded-full text-xs font-medium bg-brand/10 text-brand"
+                            >
+                              {SUBJECT_LABELS[e.subject] ?? e.subject}
+                              <span className="ml-1 text-brand/60">
+                                {e.tier}
+                              </span>
+                            </span>
+                          ))}
+                        </div>
+                      ) : (
+                        <span className="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium bg-slate-100 text-slate-600 dark:bg-slate-800 dark:text-slate-400">
+                          {u.plan.charAt(0).toUpperCase() + u.plan.slice(1)}
                         </span>
-                      ))}
-                    </div>
-                  ) : (
-                    <span className="badge">{u.plan.toUpperCase()}</span>
-                  )}
-                </td>
-                <td className="py-2.5 text-muted">{fmtDate(u.createdAt)}</td>
-                <td className="py-2.5 text-muted">{u.lastLoginAt ? fmtDate(u.lastLoginAt) : "—"}</td>
-              </tr>
-            ))}
-            {recentUsers.length === 0 && (
-              <tr><td colSpan={5} className="py-6 text-center text-muted">No users yet.</td></tr>
-            )}
-          </tbody>
-        </table>
-      </section>
-
-      {/* Recent entitlements */}
-      {allEntitlements.length > 0 && (
-        <section className="mt-10 card p-6 overflow-x-auto">
-          <div className="flex justify-between items-end flex-wrap gap-2">
-            <h2 className="font-bold text-lg">Recent entitlements</h2>
-            <p className="text-xs text-muted">{totalEntitlements} total</p>
-          </div>
-          <table className="w-full text-sm mt-4">
-            <thead className="text-muted text-left border-b border-line">
-              <tr>
-                <th className="py-2">User</th>
-                <th className="py-2">Exam</th>
-                <th className="py-2">Subject</th>
-                <th className="py-2">Tier</th>
-                <th className="py-2">Source</th>
-                <th className="py-2">Expiry</th>
-              </tr>
-            </thead>
-            <tbody>
-              {allEntitlements.slice(0, 10).map((e) => (
-                <tr key={e.id} className="border-b border-line/60">
-                  <td className="py-2.5 font-medium">{e.user.email}</td>
-                  <td className="py-2.5"><span className="badge bg-brand/10 text-brand text-xs">{EXAM_LABELS[e.exam] ?? e.exam}</span></td>
-                  <td className="py-2.5">{SUBJECT_LABELS[e.subject] ?? e.subject}</td>
-                  <td className="py-2.5"><span className="badge">{e.tier}</span></td>
-                  <td className="py-2.5 text-muted">{e.source}</td>
-                  <td className="py-2.5 text-muted">{e.expiry ? fmtDate(e.expiry) : "∞"}</td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        </section>
-      )}
-
-      {/* Recent payments */}
-      <section className="mt-10 card p-6 overflow-x-auto">
-        <div className="flex justify-between items-end flex-wrap gap-2">
-          <h2 className="font-bold text-lg">Recent payments</h2>
-          <a href="/api/admin/export?dataset=payments" className="text-sm text-brand hover:underline">Download all payments (CSV) →</a>
-        </div>
-        <table className="w-full text-sm mt-4">
-          <thead className="text-muted text-left border-b border-line">
-            <tr>
-              <th className="py-2">Email</th>
-              <th className="py-2">Plan</th>
-              <th className="py-2">Amount</th>
-              <th className="py-2">Status</th>
-              <th className="py-2">Created</th>
-              <th className="py-2">Captured</th>
-            </tr>
-          </thead>
-          <tbody>
-            {recentPayments.map((p) => (
-              <tr key={p.id} className="border-b border-line/60">
-                <td className="py-2.5 font-medium">{p.user.email}</td>
-                <td className="py-2.5"><span className="badge">{p.plan.toUpperCase()}</span></td>
-                <td className="py-2.5">{inr(p.amount)}</td>
-                <td className="py-2.5">
-                  <span className={p.status === "captured" ? "text-ok" : p.status === "failed" ? "text-bad" : "text-accent"}>
-                    {p.status}
-                  </span>
-                </td>
-                <td className="py-2.5 text-muted">{fmtDate(p.createdAt)}</td>
-                <td className="py-2.5 text-muted">{p.capturedAt ? fmtDate(p.capturedAt) : "—"}</td>
-              </tr>
-            ))}
-            {recentPayments.length === 0 && (
-              <tr><td colSpan={6} className="py-6 text-center text-muted">No payments yet — once Razorpay is live, captures show here.</td></tr>
-            )}
-          </tbody>
-        </table>
-      </section>
-
-      {/* Recent activity */}
-      <section className="mt-10 card p-6 overflow-x-auto">
-        <div className="flex justify-between items-end flex-wrap gap-2">
-          <h2 className="font-bold text-lg">Recent activity</h2>
-          <a href="/api/admin/export?dataset=activity" className="text-sm text-brand hover:underline">Download activity log (CSV) →</a>
-        </div>
-        <table className="w-full text-sm mt-4">
-          <thead className="text-muted text-left border-b border-line">
-            <tr>
-              <th className="py-2">When</th>
-              <th className="py-2">User</th>
-              <th className="py-2">Event</th>
-            </tr>
-          </thead>
-          <tbody>
-            {recentActivity.map((a) => (
-              <tr key={a.id} className="border-b border-line/60">
-                <td className="py-2.5 text-muted">{fmtDate(a.ts)}</td>
-                <td className="py-2.5">{a.user.email}</td>
-                <td className="py-2.5"><span className="badge">{a.type}</span></td>
-              </tr>
-            ))}
-            {recentActivity.length === 0 && (
-              <tr><td colSpan={3} className="py-6 text-center text-muted">No activity yet.</td></tr>
-            )}
-          </tbody>
-        </table>
-      </section>
-
-      {/* Reported issues summary */}
-      <section className="mt-10 grid lg:grid-cols-3 gap-6">
-        <div className="card p-6">
-          <div className="flex justify-between items-end flex-wrap gap-2">
-            <h2 className="font-bold text-lg">By exam</h2>
-            <Link href="/admin/reports" className="text-sm text-brand hover:underline">View all →</Link>
-          </div>
-          <div className="mt-4 space-y-3">
-            {reportsByExam.length === 0 && (
-              <p className="text-sm text-muted">No reports yet.</p>
-            )}
-            {reportsByExam.map((r) => {
-              const pct = totalReports ? Math.round((r._count._all / totalReports) * 100) : 0;
-              return (
-                <div key={r.exam}>
-                  <div className="flex justify-between text-sm mb-1">
-                    <span className="font-semibold">{r.exam}</span>
-                    <span className="text-muted">{r._count._all} <span className="text-xs">({pct}%)</span></span>
-                  </div>
-                  <div className="h-2 bg-slate-100 rounded-full overflow-hidden">
-                    <div className="h-full bg-brand" style={{ width: `${Math.max(2, pct)}%` }} />
-                  </div>
-                </div>
-              );
-            })}
-          </div>
-        </div>
-
-        <div className="card p-6">
-          <div className="flex justify-between items-end flex-wrap gap-2">
-            <h2 className="font-bold text-lg">By issue type</h2>
-            <Link href="/admin/reports" className="text-sm text-brand hover:underline">View all →</Link>
-          </div>
-          <div className="mt-4 space-y-3">
-            {reportsByType.length === 0 && (
-              <p className="text-sm text-muted">No reports yet.</p>
-            )}
-            {reportsByType.map((r) => {
-              const pct = totalReports ? Math.round((r._count._all / totalReports) * 100) : 0;
-              const label = r.issueType.replace(/_/g, " ");
-              return (
-                <div key={r.issueType}>
-                  <div className="flex justify-between text-sm mb-1">
-                    <span className="capitalize font-semibold">{label}</span>
-                    <span className="text-muted">{r._count._all} <span className="text-xs">({pct}%)</span></span>
-                  </div>
-                  <div className="h-2 bg-slate-100 rounded-full overflow-hidden">
-                    <div className="h-full bg-accent" style={{ width: `${Math.max(2, pct)}%` }} />
-                  </div>
-                </div>
-              );
-            })}
-          </div>
-        </div>
-
-        <div className="card p-6 overflow-x-auto">
-          <div className="flex justify-between items-end flex-wrap gap-2">
-            <h2 className="font-bold text-lg">Recent reports</h2>
-            <Link href="/admin/reports" className="text-sm text-brand hover:underline">Manage all →</Link>
-          </div>
-          <table className="w-full text-sm mt-4">
-            <thead className="text-muted text-left border-b border-line">
-              <tr>
-                <th className="py-2">When</th>
-                <th className="py-2">User</th>
-                <th className="py-2">Exam</th>
-                <th className="py-2">Question</th>
-                <th className="py-2">Status</th>
-              </tr>
-            </thead>
-            <tbody>
-              {recentReports.map((r) => (
-                <tr key={r.id} className="border-b border-line/60">
-                  <td className="py-2.5 text-muted">{fmtDate(r.createdAt)}</td>
-                  <td className="py-2.5">{r.user.email}</td>
-                  <td className="py-2.5"><span className="badge bg-brand/10 text-brand text-xs">{r.exam}</span></td>
-                  <td className="py-2.5 font-mono text-xs">{r.questionKey}</td>
-                  <td className="py-2.5">
-                    <span className={`badge ${r.status === "pending" ? "bg-amber-100 text-amber-800" : r.status === "resolved" ? "bg-emerald-100 text-emerald-800" : ""}`}>
-                      {r.status}
-                    </span>
-                  </td>
-                </tr>
-              ))}
-              {recentReports.length === 0 && (
-                <tr><td colSpan={5} className="py-6 text-center text-muted">No reports yet.</td></tr>
+                      )}
+                    </td>
+                    <td className="px-6 py-3 text-muted">
+                      {fmtDate(u.createdAt)}
+                    </td>
+                    <td className="px-6 py-3 text-muted">
+                      {u.lastLoginAt ? fmtDate(u.lastLoginAt) : "—"}
+                    </td>
+                  </tr>
+                ))
               )}
             </tbody>
           </table>
         </div>
       </section>
 
+      {/* Recent Entitlements */}
+      {allEntitlements.length > 0 && (
+        <section className="mt-8 card overflow-hidden">
+          <div className="p-6 pb-0">
+            <AdminSectionHeader
+              title="Recent Entitlements"
+              subtitle={`${allEntitlements.length} of ${totalEntitlements} total`}
+            />
+          </div>
+          <div className="overflow-x-auto">
+            <table className="w-full text-sm mt-4">
+              <thead className="text-xs text-muted uppercase tracking-wider border-b border-line">
+                <tr>
+                  <th className="px-6 py-3 text-left">User</th>
+                  <th className="px-6 py-3 text-left">Exam</th>
+                  <th className="px-6 py-3 text-left">Subject</th>
+                  <th className="px-6 py-3 text-left">Tier</th>
+                  <th className="px-6 py-3 text-left">Source</th>
+                  <th className="px-6 py-3 text-left">Expiry</th>
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-line/50">
+                {allEntitlements.slice(0, 10).map((e) => (
+                  <tr
+                    key={e.id}
+                    className="hover:bg-paper/50 transition-colors"
+                  >
+                    <td className="px-6 py-3 font-medium">
+                      {e.user.email}
+                    </td>
+                    <td className="px-6 py-3">
+                      <span className="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium bg-brand/10 text-brand">
+                        {EXAM_LABELS[e.exam] ?? e.exam}
+                      </span>
+                    </td>
+                    <td className="px-6 py-3">
+                      {SUBJECT_LABELS[e.subject] ?? e.subject}
+                    </td>
+                    <td className="px-6 py-3">
+                      <span className="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium bg-slate-100 text-slate-600 dark:bg-slate-800 dark:text-slate-400">
+                        {e.tier}
+                      </span>
+                    </td>
+                    <td className="px-6 py-3 text-muted">{e.source}</td>
+                    <td className="px-6 py-3 text-muted">
+                      {e.expiry ? fmtDate(e.expiry) : "∞"}
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </section>
+      )}
+
+      {/* Recent Payments */}
+      <section className="mt-8 card overflow-hidden">
+        <div className="p-6 pb-0">
+          <AdminSectionHeader
+            title="Recent Payments"
+            subtitle={`${revenueLifetime._count._all} total · lifetime ${inr(revenueLifetime._sum.amount ?? 0)}`}
+            actionHref="/api/admin/export?dataset=payments"
+            actionLabel="Export CSV"
+          />
+        </div>
+        <div className="overflow-x-auto">
+          <table className="w-full text-sm mt-4">
+            <thead className="text-xs text-muted uppercase tracking-wider border-b border-line">
+              <tr>
+                <th className="px-6 py-3 text-left">User</th>
+                <th className="px-6 py-3 text-left">Plan</th>
+                <th className="px-6 py-3 text-left">Amount</th>
+                <th className="px-6 py-3 text-left">Status</th>
+                <th className="px-6 py-3 text-left">Created</th>
+                <th className="px-6 py-3 text-left">Captured</th>
+              </tr>
+            </thead>
+            <tbody className="divide-y divide-line/50">
+              {recentPayments.length === 0 ? (
+                <AdminDataTableEmpty
+                  colSpan={6}
+                  icon="CreditCard"
+                  title="No payments yet"
+                  description="Once Razorpay is live, captures show here."
+                />
+              ) : (
+                recentPayments.map((p) => (
+                  <tr
+                    key={p.id}
+                    className="hover:bg-paper/50 transition-colors"
+                  >
+                    <td className="px-6 py-3 font-medium">
+                      <div>{p.user.email}</div>
+                      {p.user.name && (
+                        <div className="text-xs text-muted">{p.user.name}</div>
+                      )}
+                    </td>
+                    <td className="px-6 py-3">
+                      <span className="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium bg-slate-100 text-slate-600 dark:bg-slate-800 dark:text-slate-400">
+                        {p.plan.charAt(0).toUpperCase() + p.plan.slice(1)}
+                      </span>
+                    </td>
+                    <td className="px-6 py-3 tabular-nums font-medium">
+                      {inr(p.amount)}
+                    </td>
+                    <td className="px-6 py-3">
+                      <span
+                        className={cn(
+                          "inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium",
+                          p.status === "captured"
+                            ? "bg-emerald-100 text-emerald-800 dark:bg-emerald-900/30 dark:text-emerald-400"
+                            : p.status === "failed"
+                              ? "bg-red-100 text-red-800 dark:bg-red-900/30 dark:text-red-400"
+                              : "bg-amber-100 text-amber-800 dark:bg-amber-900/30 dark:text-amber-400"
+                        )}
+                      >
+                        {p.status}
+                      </span>
+                    </td>
+                    <td className="px-6 py-3 text-muted">
+                      {fmtDate(p.createdAt)}
+                    </td>
+                    <td className="px-6 py-3 text-muted">
+                      {p.capturedAt ? fmtDate(p.capturedAt) : "—"}
+                    </td>
+                  </tr>
+                ))
+              )}
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      {/* Recent Activity */}
+      <section className="mt-8 card overflow-hidden">
+        <div className="p-6 pb-0">
+          <AdminSectionHeader
+            title="Recent Activity"
+            subtitle="Last 12 events"
+            actionHref="/api/admin/export?dataset=activity"
+            actionLabel="Export CSV"
+          />
+        </div>
+        <div className="overflow-x-auto">
+          <table className="w-full text-sm mt-4">
+            <thead className="text-xs text-muted uppercase tracking-wider border-b border-line">
+              <tr>
+                <th className="px-6 py-3 text-left">When</th>
+                <th className="px-6 py-3 text-left">User</th>
+                <th className="px-6 py-3 text-left">Event</th>
+              </tr>
+            </thead>
+            <tbody className="divide-y divide-line/50">
+              {recentActivity.length === 0 ? (
+                <AdminDataTableEmpty
+                  colSpan={3}
+                  icon="BarChart3"
+                  title="No activity yet"
+                  description="Activity events will appear here."
+                />
+              ) : (
+                recentActivity.map((a) => (
+                  <tr
+                    key={a.id}
+                    className="hover:bg-paper/50 transition-colors"
+                  >
+                    <td className="px-6 py-3 text-muted">
+                      {fmtDate(a.ts)}
+                    </td>
+                    <td className="px-6 py-3 font-medium">
+                      {a.user.email}
+                    </td>
+                    <td className="px-6 py-3">
+                      <span className="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium bg-slate-100 text-slate-600 dark:bg-slate-800 dark:text-slate-400">
+                        {a.type}
+                      </span>
+                    </td>
+                  </tr>
+                ))
+              )}
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      {/* Reports Overview */}
+      <section className="mt-8 grid lg:grid-cols-3 gap-6">
+        <div className="card p-6">
+          <AdminSectionHeader
+            title="Reports by Exam"
+            actionHref="/admin/reports"
+            actionLabel="View all"
+          />
+          {reportsByExam.length === 0 ? (
+            <AdminEmptyState
+              icon="ClipboardList"
+              title="No reports yet"
+              description="Issue reports from users will appear here."
+            />
+          ) : (
+            <div className="mt-5 space-y-3">
+              {reportsByExam.map((r) => {
+                const pct = totalReports
+                  ? Math.round((r._count._all / totalReports) * 100)
+                  : 0;
+                return (
+                  <div key={r.exam}>
+                    <div className="flex justify-between text-sm mb-1">
+                      <span className="font-semibold">
+                        {EXAM_LABELS[r.exam] ?? r.exam}
+                      </span>
+                      <span className="text-muted tabular-nums">
+                        {r._count._all}{" "}
+                        <span className="text-xs">({pct}%)</span>
+                      </span>
+                    </div>
+                    <div className="h-2 bg-slate-100 dark:bg-slate-800 rounded-full overflow-hidden">
+                      <div
+                        className="h-full bg-brand rounded-full"
+                        style={{ width: `${Math.max(2, pct)}%` }}
+                      />
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+          )}
+        </div>
+
+        <div className="card p-6">
+          <AdminSectionHeader
+            title="Reports by Type"
+            actionHref="/admin/reports"
+            actionLabel="View all"
+          />
+          {reportsByType.length === 0 ? (
+            <AdminEmptyState
+              icon="FileText"
+              title="No reports yet"
+              description="Issue type breakdown will appear here."
+            />
+          ) : (
+            <div className="mt-5 space-y-3">
+              {reportsByType.map((r) => {
+                const pct = totalReports
+                  ? Math.round((r._count._all / totalReports) * 100)
+                  : 0;
+                const label = r.issueType.replace(/_/g, " ");
+                return (
+                  <div key={r.issueType}>
+                    <div className="flex justify-between text-sm mb-1">
+                      <span className="capitalize font-semibold">{label}</span>
+                      <span className="text-muted tabular-nums">
+                        {r._count._all}{" "}
+                        <span className="text-xs">({pct}%)</span>
+                      </span>
+                    </div>
+                    <div className="h-2 bg-slate-100 dark:bg-slate-800 rounded-full overflow-hidden">
+                      <div
+                        className="h-full bg-accent rounded-full"
+                        style={{ width: `${Math.max(2, pct)}%` }}
+                      />
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+          )}
+        </div>
+
+        <div className="card overflow-hidden">
+          <div className="p-6 pb-0">
+            <AdminSectionHeader
+              title="Recent Reports"
+              actionHref="/admin/reports"
+              actionLabel="Manage all"
+            />
+          </div>
+          <div className="overflow-x-auto">
+            <table className="w-full text-sm mt-4">
+              <thead className="text-xs text-muted uppercase tracking-wider border-b border-line">
+                <tr>
+                  <th className="px-6 py-3 text-left">When</th>
+                  <th className="px-6 py-3 text-left">User</th>
+                  <th className="px-6 py-3 text-left">Exam</th>
+                  <th className="px-6 py-3 text-left">Status</th>
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-line/50">
+                {recentReports.length === 0 ? (
+                  <AdminDataTableEmpty
+                    colSpan={4}
+                    icon="Flag"
+                    title="No reports yet"
+                    description="Issue reports will appear here."
+                  />
+                ) : (
+                  recentReports.map((r) => (
+                    <tr
+                      key={r.id}
+                      className={cn(
+                        "hover:bg-paper/50 transition-colors",
+                        r.status === "pending" && "bg-amber-50/50 dark:bg-amber-900/10"
+                      )}
+                    >
+                      <td className="px-6 py-3 text-muted">
+                        {fmtDate(r.createdAt)}
+                      </td>
+                      <td className="px-6 py-3">{r.user.email}</td>
+                      <td className="px-6 py-3">
+                        <span className="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium bg-brand/10 text-brand">
+                          {EXAM_LABELS[r.exam] ?? r.exam}
+                        </span>
+                      </td>
+                      <td className="px-6 py-3">
+                        <span
+                          className={cn(
+                            "inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium",
+                            reportStatusBadge(r.status)
+                          )}
+                        >
+                          {r.status}
+                        </span>
+                      </td>
+                    </tr>
+                  ))
+                )}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      {/* Footer */}
       <p className="text-xs text-muted mt-10 text-center">
-        Founder-only view · grant access by setting <code>ADMIN_EMAILS=&quot;you@example.com&quot;</code> in <code>.env.local</code> or
-        updating <code>User.role = &quot;admin&quot;</code> in the database.
+        Founder-only view · grant access by setting{" "}
+        <code className="px-1 py-0.5 rounded bg-slate-100 dark:bg-slate-800 text-[11px]">
+          ADMIN_EMAILS=&quot;you@example.com&quot;
+        </code>{" "}
+        in{" "}
+        <code className="px-1 py-0.5 rounded bg-slate-100 dark:bg-slate-800 text-[11px]">
+          .env.local
+        </code>{" "}
+        or updating{" "}
+        <code className="px-1 py-0.5 rounded bg-slate-100 dark:bg-slate-800 text-[11px]">
+          User.role = &quot;admin&quot;
+        </code>{" "}
+        in the database.
         <br />
-        <Link href="/dashboard" className="text-brand hover:underline">← Back to user dashboard</Link>
+        <Link
+          href="/dashboard"
+          className="inline-flex items-center gap-1 text-brand hover:text-brand-2 transition-colors mt-1"
+        >
+          <ArrowRight className="w-3 h-3 rotate-180" />
+          Back to user dashboard
+        </Link>
       </p>
     </div>
   );
 }
 
-function Kpi({
-  label, value, sub, icon, tone,
-}: {
-  label: string;
-  value: string | number;
-  sub?: string;
-  icon: string;
-  tone?: "ok" | "accent" | "bad";
-}) {
-  const toneClass = tone === "ok" ? "text-ok" : tone === "bad" ? "text-bad" : tone === "accent" ? "text-accent" : "";
-  return (
-    <div className="card p-5">
-      <div className="text-2xl">{icon}</div>
-      <div className={`text-3xl font-extrabold mt-2 ${toneClass}`}>{value}</div>
-      <div className="text-sm text-muted mt-0.5">{label}</div>
-      {sub && <div className="text-xs text-muted mt-2">{sub}</div>}
-    </div>
-  );
-}
 
-function ExportBtn({ dataset, label }: { dataset: string; label: string }) {
-  return (
-    <a href={`/api/admin/export?dataset=${dataset}`} className="btn btn-ghost text-sm">
-      {label}
-    </a>
-  );
-}
