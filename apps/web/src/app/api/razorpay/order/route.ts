@@ -4,6 +4,7 @@ import { NextResponse } from "next/server";
 import { z } from "zod";
 import Razorpay from "razorpay";
 import { getLimiter, rateLimitResponse } from "@/lib/rate-limit";
+import { getPostHogClient } from "@/lib/posthog";
 
 const orderLimiter = getLimiter({ windowMs: 60_000, max: 5, label: "razorpay:order" });
 
@@ -72,6 +73,18 @@ export async function POST(req: Request) {
       },
     });
 
+    getPostHogClient()?.capture({
+      distinctId: session.user.id,
+      event: "payment_order_created",
+      properties: {
+        plan,
+        amount_paise: cfg.amount,
+        amount_rupees: Math.round(cfg.amount / 100),
+        period_months: cfg.months,
+        razorpay_order_id: order.id,
+      },
+    });
+
     return NextResponse.json({
       orderId: order.id,
       amount: cfg.amount,
@@ -81,6 +94,7 @@ export async function POST(req: Request) {
   } catch (e) {
     const err = e as { statusCode?: number; error?: { description?: string }; message?: string };
     console.error("[razorpay/order]", err);
+    getPostHogClient()?.captureException(e);
     return NextResponse.json(
       {
         error: "razorpay_error",

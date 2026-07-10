@@ -7,6 +7,7 @@ import { NextResponse } from "next/server";
 import { z } from "zod";
 import { isValidPhone, normalizePhone } from "@/lib/whatsapp";
 import { hasEntitlement } from "@/lib/entitlements";
+import { getPostHogClient } from "@/lib/posthog";
 
 export const runtime = "nodejs";
 
@@ -156,6 +157,20 @@ export async function POST(req: Request) {
         .update({ where: { id: session.user.id }, data: { phone } })
         .catch(() => {});
     }
+
+    getPostHogClient()?.capture({
+      distinctId: session.user.id,
+      event: "upi_payment_submitted",
+      properties: {
+        plan,
+        exam_name: examName,
+        subject,
+        amount_paise: cfg.amountPaise,
+        amount_rupees: Math.round(cfg.amountPaise / 100),
+        period_months: cfg.months,
+        upi_app: upiApp ?? null,
+      },
+    });
 
     return NextResponse.json({ ok: true, claim: row });
   } catch (e) {

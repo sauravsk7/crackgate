@@ -8,6 +8,7 @@ import bcrypt from "bcryptjs";
 import { db } from "@/lib/db";
 import { isValidPhone, normalizePhone } from "@/lib/whatsapp";
 import { authConfig } from "@/lib/auth.config";
+import { getPostHogClient } from "@/lib/posthog";
 
 // Only register Google if it's actually configured. Otherwise NextAuth crashes
 // at boot trying to discover OAuth endpoints with empty client credentials.
@@ -104,6 +105,18 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
               lastLoginAt: new Date(),
             },
           });
+          getPostHogClient()?.capture({
+            distinctId: user.id,
+            event: "user_signed_up",
+            properties: { method: "whatsapp_otp" },
+          });
+          getPostHogClient()?.identify({
+            distinctId: user.id,
+            properties: {
+              $set: { name: user.name, phone },
+              $set_once: { signed_up_at: new Date().toISOString(), signup_method: "whatsapp_otp" },
+            },
+          });
         } else {
           await db.user.update({
             where: { id: user.id },
@@ -156,6 +169,10 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
       // For Google, the PrismaAdapter has just created/linked the User row,
       // so we bump lastLoginAt + capture the latest profile picture here.
       if (account?.provider === "google" && user.email) {
+        const dbUser = await db.user.findUnique({
+          where: { email: user.email },
+          select: { id: true, createdAt: true, updatedAt: true },
+        }).catch(() => null);
         await db.user.update({
           where: { email: user.email },
           data: {
@@ -164,6 +181,23 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
             picture: user.image ?? undefined,
           },
         }).catch(() => {/* first sign-in: adapter creates the user right after */});
+        if (dbUser?.id) {
+          const isNew = dbUser.createdAt.getTime() === dbUser.updatedAt.getTime();
+          if (isNew) {
+            getPostHogClient()?.capture({
+              distinctId: dbUser.id,
+              event: "user_signed_up",
+              properties: { method: "google" },
+            });
+          }
+          getPostHogClient()?.identify({
+            distinctId: dbUser.id,
+            properties: {
+              $set: { name: user.name ?? null },
+              $set_once: { signed_up_at: dbUser.createdAt.toISOString(), signup_method: "google" },
+            },
+          });
+        }
       }
       return true;
     },

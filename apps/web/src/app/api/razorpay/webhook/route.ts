@@ -6,6 +6,7 @@ import { db } from "@/lib/db";
 import { NextResponse } from "next/server";
 import crypto from "node:crypto";
 import { whatsappQueue } from "@/lib/queue";
+import { getPostHogClient } from "@/lib/posthog";
 
 export const runtime = "nodejs";
 
@@ -84,6 +85,19 @@ export async function POST(req: Request) {
       }),
     ]);
 
+    getPostHogClient()?.capture({
+      distinctId: payment.userId,
+      event: "payment_captured",
+      properties: {
+        plan: payment.plan,
+        amount_paise: p.amount,
+        amount_rupees: Math.round(p.amount / 100),
+        period_months: months,
+        razorpay_payment_id: p.id,
+        razorpay_order_id: p.order_id,
+      },
+    });
+
     // Queue WhatsApp receipt — never block the webhook response.
     try {
       const u = await db.user.findUnique({
@@ -109,6 +123,15 @@ export async function POST(req: Request) {
     await db.payment.update({
       where: { id: payment.id },
       data: { status: "failed", raw: evt as object },
+    });
+    getPostHogClient()?.capture({
+      distinctId: payment.userId,
+      event: "payment_failed",
+      properties: {
+        plan: payment.plan,
+        amount_paise: p.amount,
+        razorpay_order_id: p.order_id,
+      },
     });
   }
 
