@@ -200,23 +200,6 @@ export default async function GateSubjectHome(props: { params: Promise<{ subject
         </div>
       </section>
 
-      {/* CREDIBILITY */}
-      <section className="bg-paper/40 border-y border-line">
-        <div className="max-w-3xl mx-auto px-5 py-16 text-center">
-          <span className="badge bg-brand/10 text-brand">Authored, not scraped</span>
-          <h2 className="mt-3 text-3xl font-extrabold">Built by IIT Kharagpur alumni, from the standard texts.</h2>
-          <p className="mt-3 text-muted">
-            Every concept is written from the books GATE {meta.code} toppers actually use — Kreyszig and B.S. Grewal
-            for mathematics, Punmia, C.S. Reddy, Duggal and S.K. Khanna for structures and transportation, Gopal Ranjan
-            for geotech, Subramanya and S.K. Garg for water and environment — and cross-checked against NPTEL–GATE
-            previous-year papers (2007–2022).
-          </p>
-          <Link href={`/gate/${subject}/learn`} className="btn btn-ghost btn-lg mt-6 inline-flex">
-            Browse the Learn library →
-          </Link>
-        </div>
-      </section>
-
     </>
   );
 }
