@@ -112,15 +112,19 @@ export default function NewsletterComposer({
             />
           </label>
 
-          <details className="text-sm text-muted">
-            <summary className="cursor-pointer hover:text-ink">Preview (snippet)</summary>
-            <div
-              className="mt-2 rounded-lg border border-line bg-surface p-4 text-sm prose prose-sm max-w-none"
-              dangerouslySetInnerHTML={{ __html: html.slice(0, 1000) }}
-            />
-          </details>
-
           <div className="border-t border-line pt-4">
+            <span className="text-xs text-muted font-medium">Preview</span>
+            {html.trim() ? (
+              <iframe
+                srcDoc={html}
+                title="Newsletter preview"
+                sandbox="allow-same-origin"
+                className="mt-2 w-full rounded-lg border border-line bg-white"
+                style={{ height: "400px" }}
+              />
+            ) : (
+              <p className="mt-2 text-sm text-muted italic">Type some content above to see a preview.</p>
+            )}
             <div className="flex flex-wrap items-end gap-4">
               <div>
                 <span className="text-xs text-muted font-medium">Mode</span>
