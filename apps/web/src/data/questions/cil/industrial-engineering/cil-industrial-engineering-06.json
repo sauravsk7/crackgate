@@ -1204,7 +1204,7 @@
         "Daughter",
         "Granddaughter",
         "Niece",
-        "Granddaughter"
+        "Low"
       ],
       "answer": 1,
       "solution": "Granddaughter",
@@ -2587,8 +2587,8 @@
       "difficulty": "easy",
       "stem": "The last three demands were 100, 150 and 140 units. The 3-period moving-average forecast is:",
       "options": [
-        "130 units (alt 1)",
         "130 units",
+        "Low",
         "140 units",
         "195 units"
       ],
@@ -4196,7 +4196,7 @@
         "255 units",
         "240 units",
         "300 units",
-        "240 units (alt 1)"
+        "25%"
       ],
       "answer": 1,
       "solution": "F = α·A + (1−α)·F_prev = 0.5×300 + 0.5×180 = 240 units.",

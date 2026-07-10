@@ -2358,7 +2358,7 @@
       "options": [
         "32Ω",
         "13.75Ω",
-        "13.75Ω",
+        "25%",
         "6.88Ω"
       ],
       "answer": 3,
@@ -3078,7 +3078,7 @@
         "0.16",
         "6.28",
         "1",
-        "1"
+        "25%"
       ],
       "answer": 2,
       "solution": "Q = 2πf_rL/R = 1.",
@@ -3540,7 +3540,7 @@
         "1.00",
         "6.28",
         "0.16",
-        "1.00"
+        "25%"
       ],
       "answer": 0,
       "solution": "Q = 2πf_r·L/R = 1.00.",
@@ -4127,7 +4127,7 @@
       "options": [
         "10Ω",
         "20Ω",
-        "10Ω",
+        "25%",
         "5Ω"
       ],
       "answer": 3,
@@ -4231,8 +4231,8 @@
       "stem": "In a divider, 24 V is applied across 6 Ω and 6 Ω in series. The voltage across the 6 Ω resistor is:",
       "options": [
         "12 V",
-        "12 V (alt 1)",
-        "12 V (alt 2)",
+        "Low",
+        "Medium",
         "13 V"
       ],
       "answer": 0,

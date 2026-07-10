@@ -658,7 +658,7 @@
         "0.875",
         "0.75",
         "0.78",
-        "0.875"
+        "Low"
       ],
       "answer": 0,
       "solution": "0.875",
@@ -2608,10 +2608,10 @@
       "difficulty": "hard",
       "stem": "A soil has cohesion c = 0 kPa and friction angle φ = 30°. By the Mohr–Coulomb criterion, its shear strength on a plane with normal stress 80 kPa is:",
       "options": [
-        "46.19 kPa (alt 1)",
+        "46.19 kPa",
         "55.43 kPa",
         "80 kPa",
-        "46.19 kPa"
+        "25%"
       ],
       "answer": 3,
       "solution": "**Concept.** Mohr–Coulomb shear strength combines cohesion with frictional resistance proportional to normal stress.\n**Formula.** $\\tau=c+\\sigma\\tan\\phi$\n**Given.** c = 0 kPa, φ = 30°, σ = 80 kPa.\n**Working.** $=0+80\\times\\tan 30^\\circ$.\n**Answer.** $\\tau=46.19$ kPa.",
@@ -2637,10 +2637,10 @@
       "difficulty": "medium",
       "stem": "A beam has overall depth 600 mm, clear cover 25 mm and 16 mm main bars. The effective depth is:",
       "options": [
-        "567 mm (alt 1)",
+        "567 mm",
         "575 mm",
         "559 mm",
-        "567 mm"
+        "Low"
       ],
       "answer": 3,
       "solution": "d = 600 − 25 − 16/2 = 567 mm.",
@@ -2784,10 +2784,10 @@
       "difficulty": "medium",
       "stem": "A beam has overall depth 450 mm, clear cover 30 mm and 16 mm main bars. The effective depth is:",
       "options": [
-        "412 mm (alt 1)",
+        "412 mm",
         "404 mm",
         "420 mm",
-        "412 mm"
+        "Low"
       ],
       "answer": 3,
       "solution": "d = 450 − 30 − 16/2 = 412 mm.",
@@ -3617,7 +3617,7 @@
       "options": [
         "0.2 m",
         "0.1 m",
-        "0.2 m",
+        "25%",
         "0.0 m"
       ],
       "answer": 1,
@@ -3878,7 +3878,7 @@
         "8.3 kN",
         "10 kN",
         "1.7 kN",
-        "1.7 kN"
+        "Low"
       ],
       "answer": 0,
       "solution": "Rₐ = P(L-a)/L = 10×(6-1)/6 = 8.3 kN.",
@@ -4236,8 +4236,8 @@
       "stem": "Water flows at 1 m/s through a pipe of diameter 0.3 m. The discharge is:",
       "options": [
         "0.1 m³/s",
-        "0.1 m³/s",
-        "0.1 m³/s",
+        "Low",
+        "Medium",
         "0.0 m³/s"
       ],
       "answer": 0,

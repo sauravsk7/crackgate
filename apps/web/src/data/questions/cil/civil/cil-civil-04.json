@@ -2474,7 +2474,7 @@
       "options": [
         "6 kN",
         "30 kN",
-        "6 kN",
+        "Low",
         "24 kN"
       ],
       "answer": 3,
@@ -2667,8 +2667,8 @@
       "stem": "A simply supported beam of span 8 m carries two equal 10 kN point loads placed 1 m from each support. The maximum bending moment (constant between the loads) is:",
       "options": [
         "20 kNm",
-        "10 kNm (alt 1)",
         "10 kNm",
+        "Low",
         "5 kNm"
       ],
       "answer": 2,
@@ -2983,7 +2983,7 @@
       "options": [
         "150.4 m",
         "149.6 m",
-        "150.4 m (alt 1)",
+        "Low",
         "152 m"
       ],
       "answer": 0,
@@ -3311,7 +3311,7 @@
       "options": [
         "1.63 m",
         "0.82 m",
-        "0.82 m (alt 1)",
+        "Low",
         "0.41 m"
       ],
       "answer": 1,
@@ -3395,8 +3395,8 @@
       "options": [
         "0.0 m³/s",
         "0.1 m³/s",
-        "0.0 m³/s",
-        "0.0 m³/s"
+        "Low",
+        "Medium"
       ],
       "answer": 0,
       "solution": "$Q = A\\cdot v = \\pi d^2/4 \\cdot v = 0.0$ m³/s.",
@@ -3572,7 +3572,7 @@
         "30 kN",
         "10 kN",
         "40 kN",
-        "10 kN"
+        "Low"
       ],
       "answer": 0,
       "solution": "Rₐ = P(L-a)/L = 40×(4-1)/4 = 30 kN.",
@@ -3698,7 +3698,7 @@
         "240 kNm",
         "480 kNm",
         "960 kNm",
-        "240 kNm"
+        "Low"
       ],
       "answer": 2,
       "solution": "BM_max = wL²/2 = 30×8²/2 = 960 kNm at fixed end.",
@@ -4051,7 +4051,7 @@
         "12.9 m³/s",
         "26.8 m³/s",
         "13.5 m³/s",
-        "26.8 m³/s"
+        "25%"
       ],
       "answer": 1,
       "solution": "Q = (1/n)AR^(2/3)S^(1/2) with A = b×3, P = b+23.",

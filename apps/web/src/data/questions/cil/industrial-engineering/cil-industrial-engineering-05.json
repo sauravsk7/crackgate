@@ -1603,7 +1603,7 @@
         "3025",
         "3125",
         "4096",
-        "3125"
+        "25%"
       ],
       "answer": 1,
       "solution": "3125",
@@ -2146,10 +2146,10 @@
       "difficulty": "medium",
       "stem": "A PERT activity has to = 2, tm = 6, tp = 10 days. Its expected time is:",
       "options": [
-        "6 days (alt 1)",
         "6 days",
+        "25%",
         "7 days",
-        "6 days (alt 2)"
+        "50%"
       ],
       "answer": 1,
       "solution": "te = (to + 4tm + tp)/6 = (2 + 4×6 + 10)/6 = 6 days.",
@@ -3075,10 +3075,10 @@
       "difficulty": "hard",
       "stem": "Fixed cost ₹20000, price ₹100, variable cost ₹60/unit. The output needed for a target profit of ₹20000 is:",
       "options": [
-        "1000 units (alt 1)",
+        "1000 units",
         "500 units",
         "1050 units",
-        "1000 units"
+        "100 kΩ"
       ],
       "answer": 3,
       "solution": "Q = (FC + target profit)/(p − v) = (20000 + 20000)/(100 − 60) = 1000 units.",

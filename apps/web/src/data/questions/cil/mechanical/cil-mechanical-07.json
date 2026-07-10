@@ -826,7 +826,7 @@
         "0.875",
         "0.75",
         "0.78",
-        "0.875"
+        "Low"
       ],
       "answer": 0,
       "solution": "0.875",
@@ -2189,9 +2189,9 @@
       "stem": "Water flows from a pipe at 211.0 kPa, 2 m/s at elevation 10m to ground level. Neglecting losses, the pressure (kPa) at ground level (velocity 24.9 m/s) is:",
       "options": [
         "-0.0000",
-        "-0.0000",
-        "-0.0000",
-        "-0.0000"
+        "Low",
+        "Medium",
+        "High"
       ],
       "answer": 0,
       "solution": "Bernoulli: p₂ = p₁ + ½ρ(v₁²−v₂²) + ρg(z₁−z₂) = -0.0000 kPa",
@@ -2401,7 +2401,7 @@
         "9",
         "10",
         "0.11",
-        "9 (alt 1)"
+        "Low"
       ],
       "answer": 0,
       "solution": "COP = T_cold/(T_hot − T_cold) = 270/(300−270) = 9.",
@@ -2421,7 +2421,7 @@
       "options": [
         "150",
         "0.0",
-        "0.0",
+        "25%",
         "1500000"
       ],
       "answer": 3,
@@ -2485,7 +2485,7 @@
         "8.314 J/kgK",
         "1000 J/kgK",
         "287 J/kgK",
-        "287 J/kgK"
+        "Low"
       ],
       "answer": 2,
       "solution": "R_air = 287 J/kgK. Universal R = 8.314 kJ/kmolK.",
@@ -2656,9 +2656,9 @@
       "stem": "Water flows from a pipe at 483.0 kPa, 3 m/s at elevation 10m to ground level. Neglecting losses, the pressure (kPa) at ground level (velocity 34.2 m/s) is:",
       "options": [
         "-0.0000",
-        "-0.0000",
-        "-0.0000",
-        "-0.0000"
+        "Low",
+        "Medium",
+        "High"
       ],
       "answer": 0,
       "solution": "Bernoulli: p₂ = p₁ + ½ρ(v₁²−v₂²) + ρg(z₁−z₂) = -0.0000 kPa",
@@ -2845,9 +2845,9 @@
       "stem": "In a cycle, 1000 kJ of heat is added and 500 kJ rejected per cycle. The thermal efficiency is:",
       "options": [
         "200%",
-        "50% (alt 1)",
+        "50%",
         "56%",
-        "50%"
+        "Low"
       ],
       "answer": 3,
       "solution": "η = 1 − Q_rejected/Q_added = 1 − 500/1000 = 50%.",
@@ -3617,7 +3617,7 @@
       "options": [
         "78.5 kN",
         "7.8 kN",
-        "78.5 kN",
+        "100 kΩ",
         "157.0 kN"
       ],
       "answer": 0,
@@ -3660,7 +3660,7 @@
         "0.0",
         "2000000",
         "50",
-        "0.0"
+        "25%"
       ],
       "answer": 1,
       "solution": "Re = Vd/ν = 10×0.2/10⁻⁶ = 2000000.",
@@ -3723,7 +3723,7 @@
         "60 kNm",
         "30 kNm",
         "15 kNm",
-        "60 kNm"
+        "Low"
       ],
       "answer": 2,
       "solution": "BM_max = wL²/8 = 30×2²/8 = 15 kNm.",
@@ -3744,7 +3744,7 @@
         "40",
         "0.0",
         "100000.0",
-        "0.0"
+        "25%"
       ],
       "answer": 2,
       "solution": "Re = Vd/ν = 2×0.05/10⁻⁶ = 100000.0.",
@@ -3847,7 +3847,7 @@
       "stem": "A simply supported beam of span 4 m carries a UDL of 10 kN/m. The max bending moment is:",
       "options": [
         "40 kNm",
-        "40 kNm",
+        "Low",
         "20 kNm",
         "80 kNm"
       ],
@@ -4016,7 +4016,7 @@
       "options": [
         "10 kNm",
         "5 kNm",
-        "10 kNm",
+        "Low",
         "2.5 kNm"
       ],
       "answer": 3,
@@ -4056,8 +4056,8 @@
       "difficulty": "medium",
       "stem": "A refrigerator extracts 300 W of heat using 100 W of work. Its COP is:",
       "options": [
-        "3 (alt 1)",
         "3",
+        "Low",
         "4",
         "0.33"
       ],
@@ -4164,7 +4164,7 @@
         "100",
         "0.0",
         "1000000",
-        "0.0"
+        "25%"
       ],
       "answer": 2,
       "solution": "Re = Vd/ν = 10×0.1/10⁻⁶ = 1000000.",

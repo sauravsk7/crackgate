@@ -572,7 +572,7 @@
       "stem": "The HCF and LCM of two numbers are 84 and 840. If both numbers are 3-digit numbers, their sum is:",
       "options": [
         "924",
-        "924",
+        "Low",
         "1008",
         "756"
       ],
@@ -2590,7 +2590,7 @@
         "2V",
         "96V",
         "94V",
-        "94V"
+        "25%"
       ],
       "answer": 1,
       "solution": "Vout = (1+Rf/R₁)·Vin = (1+47/1)×2 = 96V.",
@@ -2734,8 +2734,8 @@
       "difficulty": "medium",
       "stem": "The free-space wavelength of a 300 MHz signal is:",
       "options": [
-        "1 m (alt 1)",
         "1 m",
+        "Low",
         "0.5 m",
         "2 m"
       ],
@@ -3364,9 +3364,9 @@
       "stem": "For the inverting op-amp shown (Rin = 10 kΩ, Rf = 10 kΩ, Vin = 1 V), the output voltage is:",
       "options": [
         "2 V",
-        "-1 V (alt 1)",
+        "-1 V",
         "1 V",
-        "-1 V"
+        "100 kΩ"
       ],
       "answer": 3,
       "solution": "Vout = −(Rf/Rin)·Vin = −(10/10)×1 = -1 V.",
@@ -3433,7 +3433,7 @@
       "options": [
         "20",
         "60",
-        "20",
+        "100 kΩ",
         "6.67"
       ],
       "answer": 3,
@@ -3454,7 +3454,7 @@
       "options": [
         "-1",
         "2",
-        "-1 (alt 1)",
+        "25%",
         "1"
       ],
       "answer": 0,
@@ -3737,7 +3737,7 @@
       "options": [
         "6.45mA",
         "15000000mA",
-        "6.45mA",
+        "25%",
         "0.04mA"
       ],
       "answer": 0,
@@ -3822,7 +3822,7 @@
         "0.46mA",
         "0.01mA",
         "23500000mA",
-        "0.46mA"
+        "25%"
       ],
       "answer": 0,
       "solution": "Ic = β×Ib = 50×9.15μA = 0.46mA.",
@@ -3947,7 +3947,7 @@
       "options": [
         "5.03mA",
         "0.03mA",
-        "5.03mA",
+        "25%",
         "66000000mA"
       ],
       "answer": 0,
@@ -4221,7 +4221,7 @@
         "-0.50V",
         "-1V",
         "0.50V",
-        "-0.50V"
+        "25%"
       ],
       "answer": 0,
       "solution": "Vout = -(Rf/Rin)×Vin = -1×0.5 = -0.50V.",
@@ -4263,7 +4263,7 @@
         "0.50V",
         "23.40V",
         "23.90V",
-        "23.40V"
+        "25%"
       ],
       "answer": 2,
       "solution": "Vout = (1+Rf/R₁)·Vin = (1+220/4.7)×0.5 = 23.90V.",

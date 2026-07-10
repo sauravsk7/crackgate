@@ -782,7 +782,7 @@
       "stem": "The HCF and LCM of two numbers are 84 and 840. If both numbers are 3-digit numbers, their sum is:",
       "options": [
         "924",
-        "924",
+        "Low",
         "1008",
         "756"
       ],
@@ -3117,9 +3117,9 @@
       "difficulty": "medium",
       "stem": "A worker's observed time is 6 min at a performance rating of 100%. The normal time is:",
       "options": [
-        "6 min (alt 1)",
-        "6 min (alt 2)",
         "6 min",
+        "25%",
+        "50%",
         "7 min"
       ],
       "answer": 2,
@@ -3539,8 +3539,8 @@
       "options": [
         "1.97",
         "3.34",
-        "1.67 (alt 1)",
-        "1.67"
+        "1.67",
+        "25%"
       ],
       "answer": 3,
       "solution": "Cpk = min[(USL−μ)/3σ, (μ−LSL)/3σ] = min[(110−100)/6, (100−90)/6] = 1.67.",
@@ -3958,9 +3958,9 @@
       "stem": "Fixed cost = ₹10000, price = ₹100/unit, variable cost = ₹50/unit. The break-even quantity is:",
       "options": [
         "100 units",
-        "200 units (alt 1)",
+        "200 units",
         "250 units",
-        "200 units"
+        "25%"
       ],
       "answer": 3,
       "solution": "Q_BE = FC/(p − v) = 10000/(100 − 50) = 200 units.",
@@ -4000,7 +4000,7 @@
       "stem": "A PERT activity has to = 2 and tp = 11 days. Its standard deviation is:",
       "options": [
         "1.5 days",
-        "1.5 days (alt 1)",
+        "25%",
         "3 days",
         "2.17 days"
       ],

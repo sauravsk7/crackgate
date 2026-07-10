@@ -2511,7 +2511,7 @@
         "16",
         "15",
         "8",
-        "16"
+        "100 kΩ"
       ],
       "answer": 3,
       "solution": "4 bits give 2^4 = 16 distinct patterns.",

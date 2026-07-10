@@ -4066,9 +4066,9 @@
       "difficulty": "medium",
       "stem": "Fixed cost = ₹20000, price = ₹50/unit, variable cost = ₹50/unit. The break-even quantity is:",
       "options": [
-        "Infinity units (alt 2)",
-        "Infinity units (alt 1)",
         "Infinity units",
+        "25%",
+        "50%",
         "400 units"
       ],
       "answer": 2,
@@ -4109,8 +4109,8 @@
       "stem": "Customers arrive at 15/hour and spend on average 1 hour in the system. The average number in the system is:",
       "options": [
         "17",
-        "15 (alt 1)",
         "15",
+        "Low",
         "0.07"
       ],
       "answer": 2,

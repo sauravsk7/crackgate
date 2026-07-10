@@ -54,7 +54,7 @@
       "answer": 1,
       "solution": "**Concept.** Declines suit rubber-tyred, trackless operations.\n\n**Reasoning.** A spiral/straight decline lets LHDs and trucks travel between surface and workings under their own power, ideal at moderate depth; shafts force transfer to hoists.\n\n**Answer.** When trackless mobile equipment must drive in and out.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "ug-orig-004",
@@ -72,7 +72,7 @@
       "answer": 1,
       "solution": "**Concept.** Bord-and-pillar works in two passes.\n\n**Reasoning.** First, galleries (bords) are driven on a grid leaving coal pillars that support the roof (development/first working); later the pillars themselves are extracted on retreat (depillaring/second working).\n\n**Answer.** Development and depillaring.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "ug-orig-005",
@@ -116,7 +116,7 @@
       "answer": 1,
       "solution": "**Concept.** Pillars carry the overburden load during development.\n\n**Reasoning.** Only the gallery coal is won initially; the bulk stays in standing pillars to keep the roof up, so first-working extraction is typically 25–40%.\n\n**Answer.** Most coal is locked in support pillars.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "ug-orig-008",
@@ -134,7 +134,7 @@
       "answer": 1,
       "solution": "**Concept.** Pillar extraction is done in retreat for safety.\n\n**Reasoning.** Pillars are split and lifted while the line of extraction retreats toward the shaft; the de-stressed roof caves into the goaf behind the working line, keeping fresh workings ahead of the caved zone.\n\n**Answer.** Retreating toward the shaft, caving behind.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "ug-orig-009",
@@ -191,7 +191,7 @@
       "answer": 1,
       "solution": "**Concept.** Load is shared on a per-pillar basis.\n\n**Reasoning.** The theory allots to each pillar the full column of overburden over the unit cell (pillar + half the adjacent galleries), giving $\\sigma_p=\\sigma_v/(1-e)$. It is conservative as it ignores any arching/abutment relief.\n\n**Answer.** Each pillar carries the overburden over its tributary area.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "ug-orig-013",
@@ -253,7 +253,7 @@
       "answer": 1,
       "solution": "**Concept.** Pillar strength formulas increase with $w/h$.\n\n**Reasoning.** A squatter pillar confines its core, raising the triaxial strength of the central material; slender pillars (low $w/h$) fail more readily.\n\n**Answer.** Stronger as w/h increases.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "ug-orig-017",
@@ -284,7 +284,7 @@
       "tolerance": 0.1,
       "solution": "**Concept.** Bieniawski pillar strength: $S_p=S_1(0.64+0.36\\,w/h)$.\n\n**Working.**\n$$S_p=5\\,(0.64+0.36\\times5)=5\\times2.44=12.2\\ \\text{MPa}$$\n\n**Answer.** 12.2 MPa.",
       "archetype": "B",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "ug-orig-019",
@@ -302,7 +302,7 @@
       "answer": 1,
       "solution": "**Concept.** Strength decreases with specimen size (Gaddy/Holland).\n\n**Reasoning.** Larger volumes statistically contain more and larger flaws, lowering strength until a critical size is reached beyond which strength is roughly constant. Cube-strength formulas correct for this.\n\n**Answer.** Weaker (more flaws).",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "ug-orig-020",
@@ -315,7 +315,7 @@
       "tolerance": 0.1,
       "solution": "**Concept.** Pillars per side $=\\dfrac{\\text{panel dimension}}{\\text{centre spacing}}$.\n\n**Working.**\n$$\\left(\\frac{500}{25}\\right)^2=20\\times20=400$$\n\n**Answer.** 400 pillars.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "ug-orig-021",
@@ -333,7 +333,7 @@
       "answer": 1,
       "solution": "**Concept.** Longwall is a near-total-extraction caving method.\n\n**Reasoning.** A long face (100–300 m) is mined in slices; powered supports hold the immediate roof at the face and the strata cave into the goaf as the face advances, giving very high recovery.\n\n**Answer.** Full-seam single-pass face with caving behind.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "ug-orig-022",
@@ -351,7 +351,7 @@
       "answer": 1,
       "solution": "**Concept.** Retreat mining develops the boundary first.\n\n**Reasoning.** Both gate roads are driven out to the far end of the panel in solid coal; the face is then installed at the boundary and retreats back toward the shaft, leaving caved goaf behind in already-developed ground.\n\n**Answer.** Develop to boundary, then retreat toward the shaft.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "ug-orig-023",
@@ -369,7 +369,7 @@
       "answer": 1,
       "solution": "**Concept.** Longwall maximises recovery.\n\n**Reasoning.** Because pillars are not left in the panel, recovery reaches 80–90% with high, concentrated production from a single face — at the cost of high capital equipment and planned surface subsidence.\n\n**Answer.** High percentage extraction and concentrated output.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "ug-orig-024",
@@ -395,7 +395,7 @@
       "tolerance": 1,
       "solution": "**Concept.** Per-cut tonnage $=$ face length $\\times$ web $\\times$ height $\\times$ density.\n\n**Working.**\n$$Q=200\\times0.8\\times2\\times1.4=448\\ \\text{t/cut}$$\n\n**Answer.** 448 t.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "ug-orig-026",
@@ -413,7 +413,7 @@
       "answer": 1,
       "solution": "**Concept.** The supports protect the working space and march with the face.\n\n**Reasoning.** Hydraulic shields hold the immediate roof over the face conveyor and walkway; after each cut they lower, advance and reset, deliberately letting the unsupported roof behind cave into the goaf.\n\n**Answer.** Support the face roof and self-advance, caving behind.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "ug-orig-027",
@@ -444,7 +444,7 @@
       "tolerance": 0.05,
       "solution": "**Concept.** Advance $=$ web $\\times$ cuts/day.\n\n**Working.**\n$$a=0.8\\times10=8\\ \\text{m/day}$$\n\n**Answer.** 8 m/day.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "ug-orig-029",
@@ -457,7 +457,7 @@
       "tolerance": 0.5,
       "solution": "**Concept.** Time $=\\dfrac{\\text{panel length}}{\\text{advance rate}}$.\n\n**Working.**\n$$t=\\frac{1500}{8}=187.5\\ \\text{days}$$\n\n**Answer.** 187.5 days.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "ug-orig-030",
@@ -475,7 +475,7 @@
       "answer": 1,
       "solution": "**Concept.** Total extraction with caving causes prompt subsidence.\n\n**Reasoning.** As the roof caves behind a longwall face the overburden settles almost immediately, producing a travelling, predictable subsidence trough — unlike bord-and-pillar where standing pillars may delay or render subsidence uncertain.\n\n**Answer.** Immediate, predictable subsidence trough following the face.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "ug-orig-031",
@@ -501,7 +501,7 @@
       "tolerance": 0.001,
       "solution": "**Concept.** $e=1-\\dfrac{w^2}{(w+B)^2}$.\n\n**Working.**\n$$e=1-\\frac{15^2}{20^2}=1-0.5625=0.4375$$\n\n**Answer.** 0.4375.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "ug-orig-033",
@@ -532,7 +532,7 @@
       },
       "solution": "**Concept.** Tributary area $=(w+B)^2$.\n\n**Working.**\n$$A=(15+5)^2=20^2=400\\ \\text{m}^2$$\n\n**Answer.** 400 m².",
       "archetype": "C",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "ug-orig-035",
@@ -576,7 +576,7 @@
       "answer": 1,
       "solution": "**Concept.** $FS$ rises with strength and falls with stress.\n\n**Reasoning.** Larger pillars lower $e$ (so $\\sigma_p=\\sigma_v/(1-e)$ falls) and raise $w/h$ (so $S_p$ rises) — both increase $FS$. The penalty is lower recovery.\n\n**Answer.** Enlarge pillars / reduce extraction ratio.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "ug-orig-038",
@@ -594,7 +594,7 @@
       "answer": 1,
       "solution": "**Concept.** Pillars are reduced in stages during extraction.\n\n**Reasoning.** A stook is the small final remnant of a pillar kept momentarily to hold the roof until the goaf is ready to cave; it is then blasted/withdrawn under controlled retreat.\n\n**Answer.** A small temporary pillar remnant during lifting.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "ug-orig-039",
@@ -612,7 +612,7 @@
       "answer": 1,
       "solution": "**Concept.** The AFC is the face transport spine.\n\n**Reasoning.** It runs the full face length carrying cut coal to the maingate, and the shearer hauls itself along the AFC's rack/guide; it is also pushed over by the supports to advance the face.\n\n**Answer.** Conveys coal and guides the shearer along the face.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "ug-orig-040",
@@ -630,7 +630,7 @@
       "answer": 1,
       "solution": "**Concept.** The BSL links the face conveyor to the gate belt.\n\n**Reasoning.** At the maingate the BSL receives coal from the right-angle AFC discharge, sizes it through a crusher, and loads it onto the gate (trunk) conveyor for transport out.\n\n**Answer.** Transfers/crushes coal from AFC to the maingate belt.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "ug-orig-041",
@@ -643,7 +643,7 @@
       "tolerance": 0.1,
       "solution": "**Concept.** Time $=\\dfrac{\\text{face length}}{\\text{cutting speed}}$.\n\n**Working.**\n$$t=\\frac{200}{6}=33.33\\ \\text{min}$$\n\n**Answer.** 33.33 min.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "ug-orig-042",
@@ -669,7 +669,7 @@
       "tolerance": 1,
       "solution": "**Concept.** Multiply per-minute rate by 60.\n\n**Working.**\n$$\\dot Q=13.44\\times60=806.4\\ \\text{t/h}$$\n\n**Answer.** 806.4 t/h.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "ug-orig-044",
@@ -687,7 +687,7 @@
       "answer": 1,
       "solution": "**Concept.** The main roof caves in periodic steps behind the face.\n\n**Reasoning.** As the face advances, the main roof cantilever lengthens until it breaks; just before each break the supports feel a load surge (weighting). The first (main) fall occurs at a larger span; subsequent falls recur at the periodic weighting interval.\n\n**Answer.** Cyclic support-load surges as the main roof breaks and caves.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "ug-orig-045",
@@ -700,7 +700,7 @@
       "tolerance": 0.1,
       "solution": "**Concept.** Number $=\\dfrac{\\text{face length}}{\\text{support spacing}}$.\n\n**Working.**\n$$N=\\frac{200}{2}=100$$\n\n**Answer.** 100 supports.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "ug-orig-046",
@@ -718,7 +718,7 @@
       "answer": 1,
       "solution": "**Concept.** Spontaneous heating needs reactive coal plus a slow air supply.\n\n**Reasoning.** Crushed, oxidation-prone coal in the goaf generates heat; if air leaks through at a rate fast enough to supply oxygen but too slow to carry heat away, temperature builds to ignition. Sealing or flooding the goaf reduces the risk.\n\n**Answer.** Prone coal with slow air leakage through the goaf.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "ug-orig-047",
@@ -736,7 +736,7 @@
       "answer": 1,
       "solution": "**Concept.** Longwall equipment is expensive and inflexible.\n\n**Reasoning.** Its economics depend on long, uninterrupted runs, so it favours large, regular, gently dipping seams of fairly uniform thickness free of major faults and washouts.\n\n**Answer.** Regular, large, undisturbed seams of uniform thickness.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "ug-orig-048",
@@ -754,7 +754,7 @@
       "answer": 1,
       "solution": "**Concept.** Stowing replaces caving with a solid fill.\n\n**Reasoning.** Sand transported hydraulically fills the mined-out space, limiting roof convergence and surface subsidence — important under surface structures or water bodies — while also reducing fire risk in the goaf.\n\n**Answer.** Fill the goaf to control subsidence and support the roof.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "ug-orig-049",
@@ -803,7 +803,7 @@
       "answer": 1,
       "solution": "**Concept.** Bolts are active reinforcement, not passive props.\n\n**Reasoning.** By the suspension mechanism they hang weak immediate roof from a competent bed; by the beam-building mechanism they clamp thin laminations into a thicker, stiffer beam — both reduce sag and improve roof stability.\n\n**Answer.** Reinforce strata (suspension / beam-building).",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "ug-orig-052",
@@ -847,7 +847,7 @@
       "answer": 1,
       "solution": "**Concept.** Some ground deforms too much for rigid support.\n\n**Reasoning.** In squeezing/weak strata, sliding-joint steel arches yield (shorten) under load, releasing strain energy gradually instead of failing brittlely, maintaining the roadway profile.\n\n**Answer.** Roadways in weak, squeezing ground.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "ug-orig-055",
@@ -883,7 +883,7 @@
       "answer": 1,
       "solution": "**Concept.** Stress closes the opening.\n\n**Reasoning.** Convergence is the measured closure of an opening — roof sag plus floor heave (or rib squeeze) — used to monitor strata behaviour and support performance.\n\n**Answer.** Reduction in roof-floor / rib-rib distance.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "ug-orig-057",
@@ -896,7 +896,7 @@
       "tolerance": 1,
       "solution": "**Concept.** Closure $=$ convergence fraction $\\times$ original height.\n\n**Working.**\n$$\\Delta=0.07\\times3500=245\\ \\text{mm}$$\n\n**Answer.** 245 mm.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "ug-orig-058",
@@ -914,7 +914,7 @@
       "answer": 1,
       "solution": "**Concept.** Sometimes it is better for a pillar to fail softly.\n\n**Reasoning.** Small yield pillars are sized to crush in a controlled manner, shedding load to solid abutments and avoiding sudden stress concentration/bumps near roadways — a strategy used in some longwall gate-road designs.\n\n**Answer.** Yield to shed load to abutments.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "ug-orig-059",
@@ -932,7 +932,7 @@
       "answer": 1,
       "solution": "**Concept.** Barrier pillars are large protective separators.\n\n**Reasoning.** Left between panels or around mains, they prevent inrush of water/gas from old workings, shield main roadways from panel abutment stress, and limit propagation of failures.\n\n**Answer.** Isolate workings and protect mains.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "ug-orig-060",
@@ -945,7 +945,7 @@
       "tolerance": 0.01,
       "solution": "**Concept.** Recoverable $=$ in-situ $\\times$ recovery.\n\n**Working.**\n$$R=5\\times0.85=4.25\\ \\text{Mt}$$\n\n**Answer.** 4.25 Mt.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "ug-orig-061",
@@ -963,7 +963,7 @@
       "answer": 1,
       "solution": "**Concept.** The classic classification is by ground-support strategy.\n\n**Reasoning.** Methods are grouped as naturally supported/open (e.g. sublevel and room-and-pillar), artificially supported (e.g. cut-and-fill, square-set) and caving (e.g. block and sublevel caving).\n\n**Answer.** Unsupported, supported and caving methods.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "ug-orig-062",
@@ -981,7 +981,7 @@
       "answer": 1,
       "solution": "**Concept.** Open stoping leaves large unsupported voids during mining.\n\n**Reasoning.** This is only safe where both ore and wall rock are strong and the orebody is steep and regular, so the open stope stands until backfilled or left.\n\n**Answer.** Strong ore and walls, steep and regular.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "ug-orig-063",
@@ -999,7 +999,7 @@
       "answer": 1,
       "solution": "**Concept.** The broken muck pile itself is the support and floor.\n\n**Reasoning.** Miners work upward standing on the broken ore; because broken ore swells, a portion (~one-third) is drawn after each blast to keep working height, and the remaining ~two-thirds is drawn only after the stope is fully mined.\n\n**Answer.** Broken ore retained as platform/support, drawn at the end.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "ug-orig-064",
@@ -1012,7 +1012,7 @@
       "tolerance": 0.01,
       "solution": "**Concept.** The drawn fraction equals the swell expressed over the loose volume: $\\dfrac{\\text{swell}}{1+\\text{swell}}$.\n\n**Working.**\n$$f=\\frac{0.5}{1.5}=0.33$$\n\n**Answer.** 0.33 (about one-third).",
       "archetype": "B",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "ug-orig-065",
@@ -1030,7 +1030,7 @@
       "answer": 1,
       "solution": "**Concept.** Cut-and-fill alternates extraction with filling.\n\n**Reasoning.** A slice of ore is mined, then the void is filled (hydraulic/paste/rock fill); the fill supports the walls, controls subsidence and gives a platform to mine the next slice. It suits weak walls and high-grade, irregular orebodies.\n\n**Answer.** Slice-by-slice mining with backfill between slices.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "ug-orig-066",
@@ -1048,7 +1048,7 @@
       "answer": 1,
       "solution": "**Concept.** Fill is a structural element of the method.\n\n**Reasoning.** It confines the wall rock (raising its strength), gives a stable floor for the next lift, and limits convergence/subsidence across the mine. Cemented fill can even stand as a free wall for adjacent extraction.\n\n**Answer.** Wall support, platform and regional stability.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "ug-orig-067",
@@ -1079,7 +1079,7 @@
       "answer": 1,
       "solution": "**Concept.** Square-setting builds a structural skeleton as it mines.\n\n**Reasoning.** Interlocking timber 'sets' fill the mined space, supporting extremely weak ground for high-grade, irregular orebodies. It is labour- and timber-intensive and now largely superseded by cut-and-fill.\n\n**Answer.** Interlocking timber framework for very weak, high-grade ground.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "ug-orig-069",
@@ -1097,7 +1097,7 @@
       "answer": 1,
       "solution": "**Concept.** Caving substitutes gravity for drilling/blasting of the ore column.\n\n**Reasoning.** A massive, fairly low-grade orebody is undercut so the block caves and fragments under gravity, then is drawn from below. The very low cost per tonne offsets the low grade; surface subsidence must be acceptable.\n\n**Answer.** Large, low-grade, massive, caveable orebodies.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "ug-orig-070",
@@ -1115,7 +1115,7 @@
       "answer": 1,
       "solution": "**Concept.** Caving relies on the rock breaking itself.\n\n**Reasoning.** Adequate caveability — governed by jointing, strength and stress — ensures the block propagates upward and fragments to a drawable size after undercutting. Massive, unjointed ore may not cave or may produce oversize.\n\n**Answer.** It must cave/fragment readily after undercutting.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "ug-orig-071",
@@ -1128,7 +1128,7 @@
       "tolerance": 0.5,
       "solution": "**Concept.** Drawn height $=$ draw fraction $\\times$ column height.\n\n**Working.**\n$$h=0.8\\times100=80\\ \\text{m}$$\n\n**Answer.** 80 m.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "ug-orig-072",
@@ -1146,7 +1146,7 @@
       "answer": 1,
       "solution": "**Concept.** Sublevel caving caves the waste, not the ore.\n\n**Reasoning.** Rings of upward holes are drilled and blasted on sublevels; the ore is drawn under an overlying mat of caved waste that follows it down — so some waste dilution is unavoidable and draw control is essential.\n\n**Answer.** Ring-blasted ore drawn under caved waste (inherent dilution).",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "ug-orig-073",
@@ -1203,7 +1203,7 @@
       "answer": 1,
       "solution": "**Concept.** VCR applies crater-blasting theory to large downholes.\n\n**Reasoning.** Concentrated spherical charges at optimum depth crater the ore into horizontal slabs; the stope retreats upward, broken ore being drawn from drawpoints below — no personnel enter the stope.\n\n**Answer.** Spherical charges in downholes blasting upward-retreating slices.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "ug-orig-077",
@@ -1221,7 +1221,7 @@
       "answer": 1,
       "solution": "**Concept.** Dilution adds barren tonnage.\n\n**Reasoning.** Mixing waste with ore reduces the feed grade and forces the plant to treat more tonnes per unit of contained metal, increasing unit processing cost and possibly reducing recovery.\n\n**Answer.** Lower head grade, higher processing cost per unit metal.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "ug-orig-078",
@@ -1236,7 +1236,11 @@
         "Cut-and-fill stoping",
         "Top slicing"
       ],
-      "answer": [0, 1, 3],
+      "answer": [
+        0,
+        1,
+        3
+      ],
       "solution": "**Concept.** Caving methods deliberately induce the rock mass to collapse.\n\n**Reasoning.** Block caving, sublevel caving and top slicing all rely on caving of ore and/or overlying waste. Cut-and-fill is a supported (filled) method, not a caving one.\n\n**Answer.** Block caving, sublevel caving and top slicing.",
       "archetype": "A",
       "marks": 2
@@ -1254,7 +1258,11 @@
         "Cut-and-fill stoping",
         "Room-and-pillar (metal)"
       ],
-      "answer": [0, 1, 3],
+      "answer": [
+        0,
+        1,
+        3
+      ],
       "solution": "**Concept.** Open methods leave the opening self-supporting during mining.\n\n**Reasoning.** Sublevel stoping, shrinkage stoping and room-and-pillar all rely on the inherent strength of the ground (and/or pillars/broken ore). Cut-and-fill is an artificially supported method using backfill.\n\n**Answer.** Sublevel stoping, shrinkage stoping and room-and-pillar.",
       "archetype": "A",
       "marks": 2
@@ -1275,7 +1283,7 @@
       "answer": 1,
       "solution": "**Concept.** Room-and-pillar suits bedded, low-dip deposits.\n\n**Reasoning.** Rooms are mined leaving regular pillars to hold the roof; the geometry works for flat/gently dipping tabular orebodies (e.g. limestone, salt, some base metals) where depth/stress allow economic pillar sizes.\n\n**Answer.** Flat-lying tabular deposits at moderate depth.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "ug-orig-081",
@@ -1288,7 +1296,7 @@
       "tolerance": 0.001,
       "solution": "**Concept.** $e=1-\\dfrac{w^2}{(w+B)^2}$.\n\n**Working.**\n$$e=1-\\frac{12^2}{18^2}=1-0.4444=0.5556$$\n\n**Answer.** 0.5556.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "ug-orig-082",
@@ -1301,7 +1309,7 @@
       "tolerance": 0.01,
       "solution": "**Concept.** Recoverable $=$ in-situ $\\times$ recovery.\n\n**Working.**\n$$R=2\\times0.70=1.4\\ \\text{Mt}$$\n\n**Answer.** 1.4 Mt.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "ug-orig-083",
@@ -1319,7 +1327,7 @@
       "answer": 1,
       "solution": "**Concept.** Method selection is a multi-factor engineering decision.\n\n**Reasoning.** Geometry sets which methods are geometrically feasible; ore and wall strength set the support strategy; grade/value and the dilution/recovery balance set the economics. Production rate and capital also matter.\n\n**Answer.** Geometry, ground conditions, grade/value and dilution/recovery.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "ug-orig-084",
@@ -1337,7 +1345,7 @@
       "answer": 1,
       "solution": "**Concept.** Weak ground plus high grade demands tight control.\n\n**Reasoning.** Cut-and-fill supports the weak walls with backfill and follows irregular boundaries selectively, minimising dilution of valuable ore — justifying its higher cost for high-grade orebodies.\n\n**Answer.** Cut-and-fill / square-set stoping.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "ug-orig-085",
@@ -1355,7 +1363,7 @@
       "answer": 1,
       "solution": "**Concept.** Low grade demands the cheapest possible mining.\n\n**Reasoning.** Block caving uses gravity to break and move ore at very low operating cost per tonne, making low-grade massive deposits economic where caving/subsidence is permissible.\n\n**Answer.** Block caving.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "ug-orig-086",
@@ -1386,7 +1394,7 @@
       "answer": 1,
       "solution": "**Concept.** Draw geometry controls recovery and dilution.\n\n**Reasoning.** Spacing matched to fragmentation lets adjacent draw ellipsoids overlap (interactive draw), giving a near-uniform descent of the ore-waste interface; too-wide spacing leaves pillars of ore and lets waste finger down early.\n\n**Answer.** So draw columns interact for uniform draw.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "ug-orig-088",
@@ -1399,7 +1407,7 @@
       "tolerance": 10,
       "solution": "**Concept.** Output $=$ drawpoints $\\times$ tonnage per drawpoint.\n\n**Working.**\n$$Q=50\\times500=25{,}000\\ \\text{t/day}$$\n\n**Answer.** 25,000 t/day.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "ug-orig-089",
@@ -1417,7 +1425,7 @@
       "answer": 1,
       "solution": "**Concept.** Caving must be initiated by removing the floor support.\n\n**Reasoning.** A continuous undercut is blasted at the base of the block; once support is gone, the overlying ore loses confinement and caves progressively upward under gravity and induced stress.\n\n**Answer.** Remove a basal slice to initiate caving.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "ug-orig-090",
@@ -1448,7 +1456,7 @@
       "answer": 1,
       "solution": "**Concept.** Drum winders store the rope on a drum.\n\n**Reasoning.** The rope is physically coiled onto a cylindrical drum; winding depth is limited by drum rope capacity. Double-drum winders allow balanced hoisting of two conveyances.\n\n**Answer.** Rope wound onto a rotating drum.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "ug-orig-092",
@@ -1466,7 +1474,7 @@
       "answer": 1,
       "solution": "**Concept.** The Koepe principle uses traction, not storage.\n\n**Reasoning.** The rope passes over a friction sheave with conveyances on each side; a tail rope balances the head-rope weight. With no drum to store rope, it suits great depths and shares load across multiple ropes.\n\n**Answer.** Friction over a sheave with a balancing tail rope.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "ug-orig-093",
@@ -1492,7 +1500,7 @@
       "tolerance": 0.5,
       "solution": "**Concept.** With balanced conveyances the winder need only lift the payload imbalance.\n\n**Working.**\n$$F=10000\\times9.81=98{,}100\\ \\text{N}=98.1\\ \\text{kN}$$\n\n**Answer.** 98.1 kN.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "ug-orig-095",
@@ -1554,7 +1562,7 @@
       "answer": 1,
       "solution": "**Concept.** As one conveyance rises, the head rope on its side shortens while the other lengthens, creating an unbalanced rope weight.\n\n**Reasoning.** A tail rope of equal mass hung in a loop beneath the conveyances compensates this changing head-rope weight, so the out-of-balance torque (and motor load) stays nearly constant through the wind.\n\n**Answer.** Balances head-rope weight for constant torque.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "ug-orig-099",
@@ -1580,7 +1588,7 @@
       "tolerance": 1,
       "solution": "**Concept.** Mass $=$ length $\\times$ linear mass.\n\n**Working.**\n$$m=650\\times4=2600\\ \\text{kg}$$\n\n**Answer.** 2600 kg.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "ug-orig-101",
@@ -1611,7 +1619,7 @@
       "answer": 1,
       "solution": "**Concept.** Winding safety devices guard against the most dangerous winder faults.\n\n**Reasoning.** Overwind (winding the conveyance into the headgear) and overspeed are catastrophic; the controller monitors position/speed and trips the brakes if safe limits are approached.\n\n**Answer.** Prevents overwind/overspeed.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "ug-orig-103",
@@ -1655,7 +1663,7 @@
       "answer": 1,
       "solution": "**Concept.** Spreading load across ropes overcomes single-rope limits.\n\n**Reasoning.** At great depth a single rope would be impractically heavy/large; sharing the load over 4–6 ropes keeps each rope small and the traction sheave compact, enabling deep, high-capacity hoisting.\n\n**Answer.** Load shared across ropes for compact deep winding.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "ug-orig-106",
@@ -1673,7 +1681,7 @@
       "answer": 1,
       "solution": "**Concept.** The LHD combines loader and short-haul truck.\n\n**Reasoning.** A low-profile, articulated, rubber-tyred machine scoops muck at the drawpoint/face, trams it to an orepass or truck, and dumps — ideal for trackless underground metal mining and decline access.\n\n**Answer.** Trackless load-haul-dump machine.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "ug-orig-107",
@@ -1691,7 +1699,7 @@
       "answer": 1,
       "solution": "**Concept.** SDLs are compact development loaders.\n\n**Reasoning.** The SDL gathers coal and discharges to the side onto a conveyor/shuttle, suited to the lower headroom and layout of bord-and-pillar development; LHDs are larger, front-dumping machines for metal mines.\n\n**Answer.** A smaller side-discharge loader for coal development.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "ug-orig-108",
@@ -1717,7 +1725,7 @@
       "tolerance": 1,
       "solution": "**Concept.** Tonnage $=$ volume rate $\\times$ loose density.\n\n**Working.**\n$$Q=144\\times1.8=259.2\\ \\text{t/h}$$\n\n**Answer.** 259.2 t/h.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "ug-orig-110",
@@ -1735,7 +1743,7 @@
       "answer": 1,
       "solution": "**Concept.** Shuttle cars bridge the face to the main transport.\n\n**Reasoning.** They shuttle back and forth between the continuous miner and the section feeder-breaker/belt, providing flexible, trackless face haulage in room-and-pillar mining.\n\n**Answer.** Carries coal from continuous miner to feeder/conveyor.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "ug-orig-111",
@@ -1779,7 +1787,7 @@
       "tolerance": 0.05,
       "solution": "**Concept.** Grade resistance $=$ gradient $\\times W g$.\n\n**Working.**\n$$F=\\frac{1}{100}\\times40000\\times9.81=3924\\ \\text{N}=3.92\\ \\text{kN}$$\n\n**Answer.** 3.92 kN.",
       "archetype": "B",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "ug-orig-114",
@@ -1797,7 +1805,7 @@
       "answer": 1,
       "solution": "**Concept.** Bulk cars must be emptied mechanically.\n\n**Reasoning.** A tippler rotates the car (or its body) to dump the contents into a bunker/skip-loading pocket, allowing rapid, continuous unloading of rail-borne mineral.\n\n**Answer.** Discharges cars by tipping/rotating them.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "ug-orig-115",
@@ -1815,7 +1823,7 @@
       "answer": 1,
       "solution": "**Concept.** Water gravitates to low points and is lifted out.\n\n**Reasoning.** Drainage channels lead water to sumps (lodgements) at shaft/winze bottoms, from where pumps lift it to surface — directly or in stages for deep mines — keeping workings dry.\n\n**Answer.** Sump collection and staged pumping to surface.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "ug-orig-116",
@@ -1846,7 +1854,7 @@
       "answer": 1,
       "solution": "**Concept.** Fill is both a structural and an environmental tool.\n\n**Reasoning.** Placed in mined voids, fill confines walls and adjacent pillars (allowing them to be recovered), controls subsidence, and provides a route to dispose of mill tailings (especially as paste) underground.\n\n**Answer.** Stability, tailings disposal and higher extraction.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "ug-orig-118",
@@ -1859,7 +1867,7 @@
       "tolerance": 10,
       "solution": "**Concept.** Mass $=$ volume $\\times$ bulk density.\n\n**Working.**\n$$m=50{,}000\\times1.6=80{,}000\\ \\text{t}$$\n\n**Answer.** 80,000 t.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "ug-orig-119",
@@ -1895,7 +1903,7 @@
       "answer": 1,
       "solution": "**Concept.** Traction drive has a slip limit.\n\n**Reasoning.** The Koepe winder transmits force only through friction between rope and sheave; if the load (or out-of-balance) exceeds the available traction, the rope slips. Payload is therefore capped by the friction grip, unlike a positively wound drum.\n\n**Answer.** Friction grip limits load to avoid rope slip.",
       "archetype": "A",
-      "marks": 1
+      "marks": 2
     },
     {
       "id": "ug-orig-121",
@@ -1981,7 +1989,11 @@
       "difficulty": "medium",
       "marks": 2,
       "stem": "For the bord-and-pillar layout shown with square pillars 20 m wide separated by 5 m wide galleries, compute the extraction ratio.",
-      "figure": {"kind": "svg", "caption": "Bord-and-pillar plan", "markup": "<svg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'><rect x='10' y='10' width='180' height='180' fill='#e5e7eb'/><g fill='#1f2937'><rect x='30' y='30' width='50' height='50'/><rect x='110' y='30' width='50' height='50'/><rect x='30' y='110' width='50' height='50'/><rect x='110' y='110' width='50' height='50'/></g><text x='86' y='60' font-size='9' fill='#475569'>B=5</text><text x='42' y='58' font-size='9' fill='#fff'>W=20</text></svg>"},
+      "figure": {
+        "kind": "svg",
+        "caption": "Bord-and-pillar plan",
+        "markup": "<svg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'><rect x='10' y='10' width='180' height='180' fill='#e5e7eb'/><g fill='#1f2937'><rect x='30' y='30' width='50' height='50'/><rect x='110' y='30' width='50' height='50'/><rect x='30' y='110' width='50' height='50'/><rect x='110' y='110' width='50' height='50'/></g><text x='86' y='60' font-size='9' fill='#475569'>B=5</text><text x='42' y='58' font-size='9' fill='#fff'>W=20</text></svg>"
+      },
       "options": [],
       "answer": 0.36,
       "tolerance": 0.01,
@@ -1996,7 +2008,11 @@
       "difficulty": "medium",
       "marks": 2,
       "stem": "Using the tributary-area method for the layout shown (vertical stress 10 MPa, pillar 20 m, gallery 5 m), compute the average pillar stress (MPa).",
-      "figure": {"kind": "svg", "caption": "Tributary area", "markup": "<svg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'><rect x='10' y='10' width='180' height='180' fill='#e5e7eb'/><rect x='40' y='40' width='80' height='80' fill='none' stroke='#dc2626' stroke-dasharray='4 3'/><rect x='40' y='40' width='64' height='64' fill='#1f2937'/><text x='150' y='105' font-size='9' fill='#475569'>sigma_v=10</text></svg>"},
+      "figure": {
+        "kind": "svg",
+        "caption": "Tributary area",
+        "markup": "<svg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'><rect x='10' y='10' width='180' height='180' fill='#e5e7eb'/><rect x='40' y='40' width='80' height='80' fill='none' stroke='#dc2626' stroke-dasharray='4 3'/><rect x='40' y='40' width='64' height='64' fill='#1f2937'/><text x='150' y='105' font-size='9' fill='#475569'>sigma_v=10</text></svg>"
+      },
       "options": [],
       "answer": 15.625,
       "tolerance": 0.05,
@@ -2011,7 +2027,11 @@
       "difficulty": "medium",
       "marks": 2,
       "stem": "A pillar has a strength of 40 MPa and carries an average stress of 16 MPa (as shown). Compute its factor of safety.",
-      "figure": {"kind": "svg", "caption": "Pillar loading", "markup": "<svg viewBox='0 0 160 180' xmlns='http://www.w3.org/2000/svg'><rect x='50' y='50' width='60' height='90' fill='#94a3b8' stroke='#475569'/><g stroke='#dc2626' stroke-width='2'><line x1='60' y1='30' x2='60' y2='48' marker-end='url(#pl)'/><line x1='80' y1='30' x2='80' y2='48' marker-end='url(#pl)'/><line x1='100' y1='30' x2='100' y2='48' marker-end='url(#pl)'/></g><defs><marker id='pl' markerWidth='8' markerHeight='8' refX='4' refY='6' orient='auto'><path d='M0 0 L4 6 L8 0 Z' fill='#dc2626'/></marker></defs><text x='30' y='160' font-size='8'>strength 40, stress 16 MPa</text></svg>"},
+      "figure": {
+        "kind": "svg",
+        "caption": "Pillar loading",
+        "markup": "<svg viewBox='0 0 160 180' xmlns='http://www.w3.org/2000/svg'><rect x='50' y='50' width='60' height='90' fill='#94a3b8' stroke='#475569'/><g stroke='#dc2626' stroke-width='2'><line x1='60' y1='30' x2='60' y2='48' marker-end='url(#pl)'/><line x1='80' y1='30' x2='80' y2='48' marker-end='url(#pl)'/><line x1='100' y1='30' x2='100' y2='48' marker-end='url(#pl)'/></g><defs><marker id='pl' markerWidth='8' markerHeight='8' refX='4' refY='6' orient='auto'><path d='M0 0 L4 6 L8 0 Z' fill='#dc2626'/></marker></defs><text x='30' y='160' font-size='8'>strength 40, stress 16 MPa</text></svg>"
+      },
       "options": [],
       "answer": 2.5,
       "tolerance": 0.02,
@@ -2026,7 +2046,11 @@
       "difficulty": "hard",
       "marks": 2,
       "stem": "For the longwall face shown (face length 200 m, web depth 0.8 m, seam height 2 m, coal density 1.4 t/m³), compute the coal produced per shear (tonnes).",
-      "figure": {"kind": "svg", "caption": "Longwall face", "markup": "<svg viewBox='0 0 240 160' xmlns='http://www.w3.org/2000/svg'><rect x='30' y='30' width='180' height='100' fill='#e5e7eb' stroke='#475569'/><rect x='30' y='30' width='180' height='14' fill='#1f2937'/><text x='120' y='40' font-size='8' fill='#fff' text-anchor='middle'>face L=200 m</text><rect x='30' y='44' width='12' height='86' fill='#94a3b8'/><text x='60' y='85' font-size='8'>web 0.8 m, h=2 m</text><text x='60' y='105' font-size='8'>rho=1.4 t/m^3</text></svg>"},
+      "figure": {
+        "kind": "svg",
+        "caption": "Longwall face",
+        "markup": "<svg viewBox='0 0 240 160' xmlns='http://www.w3.org/2000/svg'><rect x='30' y='30' width='180' height='100' fill='#e5e7eb' stroke='#475569'/><rect x='30' y='30' width='180' height='14' fill='#1f2937'/><text x='120' y='40' font-size='8' fill='#fff' text-anchor='middle'>face L=200 m</text><rect x='30' y='44' width='12' height='86' fill='#94a3b8'/><text x='60' y='85' font-size='8'>web 0.8 m, h=2 m</text><text x='60' y='105' font-size='8'>rho=1.4 t/m^3</text></svg>"
+      },
       "options": [],
       "answer": 448,
       "tolerance": 1,
@@ -2041,7 +2065,11 @@
       "difficulty": "easy",
       "marks": 1,
       "stem": "If the longwall shown advances by one 0.8 m web per shear and takes 10 shears per day, compute the daily face advance (m/day).",
-      "figure": {"kind": "svg", "caption": "Longwall advance", "markup": "<svg viewBox='0 0 240 130' xmlns='http://www.w3.org/2000/svg'><rect x='30' y='30' width='180' height='70' fill='#e5e7eb' stroke='#475569'/><rect x='30' y='30' width='14' height='70' fill='#94a3b8'/><line x1='44' y1='115' x2='62' y2='115' stroke='#475569' marker-end='url(#aa)'/><defs><marker id='aa' markerWidth='8' markerHeight='8' refX='6' refY='3' orient='auto'><path d='M0 0 L6 3 L0 6 Z' fill='#475569'/></marker></defs><text x='70' y='119' font-size='8'>web 0.8 m, 10 shears/day</text></svg>"},
+      "figure": {
+        "kind": "svg",
+        "caption": "Longwall advance",
+        "markup": "<svg viewBox='0 0 240 130' xmlns='http://www.w3.org/2000/svg'><rect x='30' y='30' width='180' height='70' fill='#e5e7eb' stroke='#475569'/><rect x='30' y='30' width='14' height='70' fill='#94a3b8'/><line x1='44' y1='115' x2='62' y2='115' stroke='#475569' marker-end='url(#aa)'/><defs><marker id='aa' markerWidth='8' markerHeight='8' refX='6' refY='3' orient='auto'><path d='M0 0 L6 3 L0 6 Z' fill='#475569'/></marker></defs><text x='70' y='119' font-size='8'>web 0.8 m, 10 shears/day</text></svg>"
+      },
       "options": [],
       "answer": 8,
       "tolerance": 0.1,
@@ -2056,7 +2084,11 @@
       "difficulty": "easy",
       "marks": 1,
       "stem": "A development panel is 200 m wide and pillars are laid out on 25 m centres (as shown). How many pillar centres span the panel width?",
-      "figure": {"kind": "svg", "caption": "Pillar row", "markup": "<svg viewBox='0 0 250 100' xmlns='http://www.w3.org/2000/svg'><g fill='#1f2937'><rect x='20' y='40' width='18' height='30'/><rect x='48' y='40' width='18' height='30'/><rect x='76' y='40' width='18' height='30'/><rect x='104' y='40' width='18' height='30'/><rect x='132' y='40' width='18' height='30'/><rect x='160' y='40' width='18' height='30'/><rect x='188' y='40' width='18' height='30'/><rect x='216' y='40' width='18' height='30'/></g><text x='60' y='90' font-size='8'>panel 200 m, centres 25 m</text></svg>"},
+      "figure": {
+        "kind": "svg",
+        "caption": "Pillar row",
+        "markup": "<svg viewBox='0 0 250 100' xmlns='http://www.w3.org/2000/svg'><g fill='#1f2937'><rect x='20' y='40' width='18' height='30'/><rect x='48' y='40' width='18' height='30'/><rect x='76' y='40' width='18' height='30'/><rect x='104' y='40' width='18' height='30'/><rect x='132' y='40' width='18' height='30'/><rect x='160' y='40' width='18' height='30'/><rect x='188' y='40' width='18' height='30'/><rect x='216' y='40' width='18' height='30'/></g><text x='60' y='90' font-size='8'>panel 200 m, centres 25 m</text></svg>"
+      },
       "options": [],
       "answer": 8,
       "tolerance": 0.1,
@@ -2071,7 +2103,11 @@
       "difficulty": "hard",
       "marks": 2,
       "stem": "A single-rope winder lifts a cage of mass 10 t carrying a 5 t load (as shown). Taking g = 9.81 m/s², compute the static rope tension (kN), ignoring rope weight.",
-      "figure": {"kind": "svg", "caption": "Winding headgear", "markup": "<svg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'><circle cx='100' cy='40' r='18' fill='none' stroke='#475569' stroke-width='3'/><line x1='100' y1='58' x2='100' y2='150' stroke='#475569' stroke-width='2'/><rect x='85' y='150' width='30' height='30' fill='#94a3b8' stroke='#475569'/><text x='122' y='166' font-size='8'>cage 10 t</text><text x='122' y='180' font-size='8'>load 5 t</text></svg>"},
+      "figure": {
+        "kind": "svg",
+        "caption": "Winding headgear",
+        "markup": "<svg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'><circle cx='100' cy='40' r='18' fill='none' stroke='#475569' stroke-width='3'/><line x1='100' y1='58' x2='100' y2='150' stroke='#475569' stroke-width='2'/><rect x='85' y='150' width='30' height='30' fill='#94a3b8' stroke='#475569'/><text x='122' y='166' font-size='8'>cage 10 t</text><text x='122' y='180' font-size='8'>load 5 t</text></svg>"
+      },
       "options": [],
       "answer": 147.15,
       "tolerance": 0.2,
@@ -2086,7 +2122,11 @@
       "difficulty": "medium",
       "marks": 2,
       "stem": "In the balanced (two-cage) winder shown, the cage masses balance each other. Compute the out-of-balance force (kN) due to a 10 t payload alone (g = 9.81 m/s²).",
-      "figure": {"kind": "svg", "caption": "Balanced winder", "markup": "<svg viewBox='0 0 220 200' xmlns='http://www.w3.org/2000/svg'><circle cx='110' cy='35' r='16' fill='none' stroke='#475569' stroke-width='3'/><line x1='95' y1='45' x2='95' y2='150' stroke='#475569'/><line x1='125' y1='45' x2='125' y2='150' stroke='#475569'/><rect x='80' y='150' width='30' height='28' fill='#94a3b8' stroke='#475569'/><rect x='112' y='120' width='28' height='26' fill='#cbd5e1' stroke='#475569'/><text x='52' y='196' font-size='8'>balanced winder, payload 10 t</text></svg>"},
+      "figure": {
+        "kind": "svg",
+        "caption": "Balanced winder",
+        "markup": "<svg viewBox='0 0 220 200' xmlns='http://www.w3.org/2000/svg'><circle cx='110' cy='35' r='16' fill='none' stroke='#475569' stroke-width='3'/><line x1='95' y1='45' x2='95' y2='150' stroke='#475569'/><line x1='125' y1='45' x2='125' y2='150' stroke='#475569'/><rect x='80' y='150' width='30' height='28' fill='#94a3b8' stroke='#475569'/><rect x='112' y='120' width='28' height='26' fill='#cbd5e1' stroke='#475569'/><text x='52' y='196' font-size='8'>balanced winder, payload 10 t</text></svg>"
+      },
       "options": [],
       "answer": 98.1,
       "tolerance": 0.2,
@@ -2101,7 +2141,11 @@
       "difficulty": "easy",
       "marks": 1,
       "stem": "Roof bolts are installed on a 1.25 m × 1.25 m square pattern as shown. Compute the bolt density (bolts per m²).",
-      "figure": {"kind": "svg", "caption": "Roof bolt grid", "markup": "<svg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'><rect x='20' y='20' width='140' height='140' fill='#e5e7eb' stroke='#475569'/><g fill='#1f2937'><circle cx='50' cy='50' r='4'/><circle cx='90' cy='50' r='4'/><circle cx='130' cy='50' r='4'/><circle cx='50' cy='90' r='4'/><circle cx='90' cy='90' r='4'/><circle cx='130' cy='90' r='4'/><circle cx='50' cy='130' r='4'/><circle cx='90' cy='130' r='4'/><circle cx='130' cy='130' r='4'/></g><text x='32' y='175' font-size='8'>spacing 1.25 m square</text></svg>"},
+      "figure": {
+        "kind": "svg",
+        "caption": "Roof bolt grid",
+        "markup": "<svg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'><rect x='20' y='20' width='140' height='140' fill='#e5e7eb' stroke='#475569'/><g fill='#1f2937'><circle cx='50' cy='50' r='4'/><circle cx='90' cy='50' r='4'/><circle cx='130' cy='50' r='4'/><circle cx='50' cy='90' r='4'/><circle cx='90' cy='90' r='4'/><circle cx='130' cy='90' r='4'/><circle cx='50' cy='130' r='4'/><circle cx='90' cy='130' r='4'/><circle cx='130' cy='130' r='4'/></g><text x='32' y='175' font-size='8'>spacing 1.25 m square</text></svg>"
+      },
       "options": [],
       "answer": 0.64,
       "tolerance": 0.01,
@@ -2116,7 +2160,11 @@
       "difficulty": "medium",
       "marks": 2,
       "stem": "A roof bolt must suspend the loose rock block shown (1.5 m × 1.5 m plan, 1 m thick, unit weight 25 kN/m³). Compute the dead load (kN) carried by one bolt supporting this block.",
-      "figure": {"kind": "svg", "caption": "Suspension bolting", "markup": "<svg viewBox='0 0 220 160' xmlns='http://www.w3.org/2000/svg'><rect x='30' y='30' width='160' height='30' fill='#a16207'/><rect x='30' y='60' width='160' height='40' fill='#d6c0a3' stroke='#92400e'/><text x='70' y='85' font-size='8'>loose rock block</text><line x1='110' y1='100' x2='110' y2='45' stroke='#1f2937' stroke-width='3'/><text x='34' y='130' font-size='8'>block 1.5x1.5x1 m, 25 kN/m^3</text></svg>"},
+      "figure": {
+        "kind": "svg",
+        "caption": "Suspension bolting",
+        "markup": "<svg viewBox='0 0 220 160' xmlns='http://www.w3.org/2000/svg'><rect x='30' y='30' width='160' height='30' fill='#a16207'/><rect x='30' y='60' width='160' height='40' fill='#d6c0a3' stroke='#92400e'/><text x='70' y='85' font-size='8'>loose rock block</text><line x1='110' y1='100' x2='110' y2='45' stroke='#1f2937' stroke-width='3'/><text x='34' y='130' font-size='8'>block 1.5x1.5x1 m, 25 kN/m^3</text></svg>"
+      },
       "options": [],
       "answer": 56.25,
       "tolerance": 0.2,
@@ -2131,7 +2179,11 @@
       "difficulty": "easy",
       "marks": 1,
       "stem": "A heading is driven with 3 blasting rounds per day, each pulling 1.5 m (as shown). Compute the daily drivage rate (m/day).",
-      "figure": {"kind": "svg", "caption": "Heading advance", "markup": "<svg viewBox='0 0 220 120' xmlns='http://www.w3.org/2000/svg'><polygon points='30,90 30,40 60,30 90,40 90,90' fill='#cbd5e1' stroke='#475569'/><line x1='90' y1='65' x2='190' y2='65' stroke='#475569' stroke-dasharray='4 3' marker-end='url(#da)'/><defs><marker id='da' markerWidth='8' markerHeight='8' refX='6' refY='3' orient='auto'><path d='M0 0 L6 3 L0 6 Z' fill='#475569'/></marker></defs><text x='44' y='110' font-size='8'>3 rounds/day, pull 1.5 m</text></svg>"},
+      "figure": {
+        "kind": "svg",
+        "caption": "Heading advance",
+        "markup": "<svg viewBox='0 0 220 120' xmlns='http://www.w3.org/2000/svg'><polygon points='30,90 30,40 60,30 90,40 90,90' fill='#cbd5e1' stroke='#475569'/><line x1='90' y1='65' x2='190' y2='65' stroke='#475569' stroke-dasharray='4 3' marker-end='url(#da)'/><defs><marker id='da' markerWidth='8' markerHeight='8' refX='6' refY='3' orient='auto'><path d='M0 0 L6 3 L0 6 Z' fill='#475569'/></marker></defs><text x='44' y='110' font-size='8'>3 rounds/day, pull 1.5 m</text></svg>"
+      },
       "options": [],
       "answer": 4.5,
       "tolerance": 0.05,
@@ -2146,7 +2198,11 @@
       "difficulty": "medium",
       "marks": 2,
       "stem": "An inclined drift reaches a vertical depth of 100 m at an inclination of 30° to the horizontal (as shown). Compute the length of the drift (m).",
-      "figure": {"kind": "svg", "caption": "Inclined drift", "markup": "<svg viewBox='0 0 240 150' xmlns='http://www.w3.org/2000/svg'><line x1='20' y1='30' x2='200' y2='130' stroke='#92400e' stroke-width='3'/><line x1='200' y1='30' x2='200' y2='130' stroke='#475569' stroke-dasharray='3 2'/><text x='205' y='85' font-size='8'>depth 100 m</text><text x='66' y='72' font-size='8' transform='rotate(29 66 72)'>30 deg</text></svg>"},
+      "figure": {
+        "kind": "svg",
+        "caption": "Inclined drift",
+        "markup": "<svg viewBox='0 0 240 150' xmlns='http://www.w3.org/2000/svg'><line x1='20' y1='30' x2='200' y2='130' stroke='#92400e' stroke-width='3'/><line x1='200' y1='30' x2='200' y2='130' stroke='#475569' stroke-dasharray='3 2'/><text x='205' y='85' font-size='8'>depth 100 m</text><text x='66' y='72' font-size='8' transform='rotate(29 66 72)'>30 deg</text></svg>"
+      },
       "options": [],
       "answer": 200,
       "tolerance": 1,
@@ -2161,7 +2217,11 @@
       "difficulty": "easy",
       "marks": 1,
       "stem": "For a layout of 15 m square pillars separated by 5 m galleries (as shown), compute the extraction ratio.",
-      "figure": {"kind": "svg", "caption": "Pillar plan", "markup": "<svg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'><rect x='10' y='10' width='180' height='180' fill='#e5e7eb'/><g fill='#1f2937'><rect x='35' y='35' width='45' height='45'/><rect x='115' y='35' width='45' height='45'/><rect x='35' y='115' width='45' height='45'/><rect x='115' y='115' width='45' height='45'/></g><text x='88' y='62' font-size='9' fill='#475569'>B=5</text><text x='44' y='62' font-size='9' fill='#fff'>W=15</text></svg>"},
+      "figure": {
+        "kind": "svg",
+        "caption": "Pillar plan",
+        "markup": "<svg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'><rect x='10' y='10' width='180' height='180' fill='#e5e7eb'/><g fill='#1f2937'><rect x='35' y='35' width='45' height='45'/><rect x='115' y='35' width='45' height='45'/><rect x='35' y='115' width='45' height='45'/><rect x='115' y='115' width='45' height='45'/></g><text x='88' y='62' font-size='9' fill='#475569'>B=5</text><text x='44' y='62' font-size='9' fill='#fff'>W=15</text></svg>"
+      },
       "options": [],
       "answer": 0.4375,
       "tolerance": 0.01,
@@ -2176,7 +2236,11 @@
       "difficulty": "medium",
       "marks": 2,
       "stem": "For the same 15 m pillars with 5 m galleries (as shown) under a vertical stress of 12 MPa, compute the average pillar stress (MPa) by the tributary-area method.",
-      "figure": {"kind": "svg", "caption": "Tributary area", "markup": "<svg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'><rect x='10' y='10' width='180' height='180' fill='#e5e7eb'/><rect x='40' y='40' width='80' height='80' fill='none' stroke='#dc2626' stroke-dasharray='4 3'/><rect x='40' y='40' width='60' height='60' fill='#1f2937'/><text x='150' y='105' font-size='9' fill='#475569'>sigma_v=12</text></svg>"},
+      "figure": {
+        "kind": "svg",
+        "caption": "Tributary area",
+        "markup": "<svg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'><rect x='10' y='10' width='180' height='180' fill='#e5e7eb'/><rect x='40' y='40' width='80' height='80' fill='none' stroke='#dc2626' stroke-dasharray='4 3'/><rect x='40' y='40' width='60' height='60' fill='#1f2937'/><text x='150' y='105' font-size='9' fill='#475569'>sigma_v=12</text></svg>"
+      },
       "options": [],
       "answer": 21.33,
       "tolerance": 0.1,
@@ -2191,7 +2255,11 @@
       "difficulty": "easy",
       "marks": 1,
       "stem": "Compute the vertical in-situ stress (MPa) at the depth shown (H = 400 m, unit weight 25 kN/m³).",
-      "figure": {"kind": "svg", "caption": "Overburden column", "markup": "<svg viewBox='0 0 160 180' xmlns='http://www.w3.org/2000/svg'><rect x='50' y='20' width='60' height='130' fill='#d6c0a3' stroke='#92400e'/><line x1='80' y1='20' x2='80' y2='150' stroke='#475569'/><text x='28' y='170' font-size='8'>H=400 m, gamma=25 kN/m^3</text></svg>"},
+      "figure": {
+        "kind": "svg",
+        "caption": "Overburden column",
+        "markup": "<svg viewBox='0 0 160 180' xmlns='http://www.w3.org/2000/svg'><rect x='50' y='20' width='60' height='130' fill='#d6c0a3' stroke='#92400e'/><line x1='80' y1='20' x2='80' y2='150' stroke='#475569'/><text x='28' y='170' font-size='8'>H=400 m, gamma=25 kN/m^3</text></svg>"
+      },
       "options": [],
       "answer": 10,
       "tolerance": 0.1,
@@ -2206,7 +2274,11 @@
       "difficulty": "easy",
       "marks": 1,
       "stem": "The layout shown — coal extracted in galleries leaving regular square pillars to support the roof — is which method?",
-      "figure": {"kind": "svg", "caption": "Method plan", "markup": "<svg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'><rect x='10' y='10' width='180' height='180' fill='#e5e7eb'/><g fill='#1f2937'><rect x='30' y='30' width='45' height='45'/><rect x='115' y='30' width='45' height='45'/><rect x='30' y='115' width='45' height='45'/><rect x='115' y='115' width='45' height='45'/></g></svg>"},
+      "figure": {
+        "kind": "svg",
+        "caption": "Method plan",
+        "markup": "<svg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'><rect x='10' y='10' width='180' height='180' fill='#e5e7eb'/><g fill='#1f2937'><rect x='30' y='30' width='45' height='45'/><rect x='115' y='30' width='45' height='45'/><rect x='30' y='115' width='45' height='45'/><rect x='115' y='115' width='45' height='45'/></g></svg>"
+      },
       "options": [
         "bord-and-pillar (room-and-pillar)",
         "longwall retreat",
@@ -2225,7 +2297,11 @@
       "difficulty": "easy",
       "marks": 1,
       "stem": "In the method shown, a long face is supported by powered chock shields and the roof behind the supports is allowed to cave. This is:",
-      "figure": {"kind": "svg", "caption": "Long face with caving", "markup": "<svg viewBox='0 0 240 150' xmlns='http://www.w3.org/2000/svg'><rect x='30' y='30' width='150' height='80' fill='#e5e7eb' stroke='#475569'/><rect x='30' y='30' width='12' height='80' fill='#94a3b8'/><g fill='#fca5a5'><rect x='185' y='30' width='10' height='12'/><rect x='200' y='45' width='10' height='12'/><rect x='190' y='60' width='10' height='12'/></g><text x='185' y='130' font-size='8'>goaf (caved)</text><text x='50' y='128' font-size='8'>powered supports</text></svg>"},
+      "figure": {
+        "kind": "svg",
+        "caption": "Long face with caving",
+        "markup": "<svg viewBox='0 0 240 150' xmlns='http://www.w3.org/2000/svg'><rect x='30' y='30' width='150' height='80' fill='#e5e7eb' stroke='#475569'/><rect x='30' y='30' width='12' height='80' fill='#94a3b8'/><g fill='#fca5a5'><rect x='185' y='30' width='10' height='12'/><rect x='200' y='45' width='10' height='12'/><rect x='190' y='60' width='10' height='12'/></g><text x='185' y='130' font-size='8'>goaf (caved)</text><text x='50' y='128' font-size='8'>powered supports</text></svg>"
+      },
       "options": [
         "longwall mining with caving",
         "bord-and-pillar development",
@@ -2244,7 +2320,11 @@
       "difficulty": "easy",
       "marks": 1,
       "stem": "The wide barrier (chain) pillar shown between two longwall panels is left primarily to:",
-      "figure": {"kind": "svg", "caption": "Barrier pillar", "markup": "<svg viewBox='0 0 240 130' xmlns='http://www.w3.org/2000/svg'><rect x='20' y='30' width='80' height='70' fill='#e5e7eb' stroke='#475569'/><rect x='100' y='30' width='40' height='70' fill='#1f2937'/><rect x='140' y='30' width='80' height='70' fill='#e5e7eb' stroke='#475569'/><text x='102' y='118' font-size='8'>barrier pillar</text></svg>"},
+      "figure": {
+        "kind": "svg",
+        "caption": "Barrier pillar",
+        "markup": "<svg viewBox='0 0 240 130' xmlns='http://www.w3.org/2000/svg'><rect x='20' y='30' width='80' height='70' fill='#e5e7eb' stroke='#475569'/><rect x='100' y='30' width='40' height='70' fill='#1f2937'/><rect x='140' y='30' width='80' height='70' fill='#e5e7eb' stroke='#475569'/><text x='102' y='118' font-size='8'>barrier pillar</text></svg>"
+      },
       "options": [
         "isolate and protect the adjacent panel/roadways from abutment loads",
         "increase the overall extraction ratio",
@@ -2263,7 +2343,11 @@
       "difficulty": "easy",
       "marks": 1,
       "stem": "The self-advancing support shown on a longwall face, which holds the roof and pushes the conveyor forward, is a:",
-      "figure": {"kind": "svg", "caption": "Powered support", "markup": "<svg viewBox='0 0 200 160' xmlns='http://www.w3.org/2000/svg'><rect x='40' y='30' width='120' height='12' fill='#475569'/><rect x='40' y='118' width='120' height='12' fill='#475569'/><line x1='70' y1='42' x2='70' y2='118' stroke='#94a3b8' stroke-width='6'/><line x1='130' y1='42' x2='130' y2='118' stroke='#94a3b8' stroke-width='6'/><text x='52' y='150' font-size='8'>hydraulic chock shield</text></svg>"},
+      "figure": {
+        "kind": "svg",
+        "caption": "Powered support",
+        "markup": "<svg viewBox='0 0 200 160' xmlns='http://www.w3.org/2000/svg'><rect x='40' y='30' width='120' height='12' fill='#475569'/><rect x='40' y='118' width='120' height='12' fill='#475569'/><line x1='70' y1='42' x2='70' y2='118' stroke='#94a3b8' stroke-width='6'/><line x1='130' y1='42' x2='130' y2='118' stroke='#94a3b8' stroke-width='6'/><text x='52' y='150' font-size='8'>hydraulic chock shield</text></svg>"
+      },
       "options": [
         "powered (hydraulic) roof support / chock shield",
         "rigid timber prop",
@@ -2282,7 +2366,11 @@
       "difficulty": "easy",
       "marks": 1,
       "stem": "In the stope shown, broken ore is left in the stope to support the walls and provide a working floor, only ~35% being drawn during mining. This is:",
-      "figure": {"kind": "svg", "caption": "Ore-filled stope", "markup": "<svg viewBox='0 0 180 200' xmlns='http://www.w3.org/2000/svg'><rect x='40' y='20' width='100' height='160' fill='#fde9c8' stroke='#92400e'/><rect x='40' y='90' width='100' height='90' fill='#d6c0a3'/><text x='90' y='140' font-size='9' text-anchor='middle'>broken ore</text><text x='90' y='55' font-size='9' text-anchor='middle'>void</text></svg>"},
+      "figure": {
+        "kind": "svg",
+        "caption": "Ore-filled stope",
+        "markup": "<svg viewBox='0 0 180 200' xmlns='http://www.w3.org/2000/svg'><rect x='40' y='20' width='100' height='160' fill='#fde9c8' stroke='#92400e'/><rect x='40' y='90' width='100' height='90' fill='#d6c0a3'/><text x='90' y='140' font-size='9' text-anchor='middle'>broken ore</text><text x='90' y='55' font-size='9' text-anchor='middle'>void</text></svg>"
+      },
       "options": [
         "shrinkage stoping",
         "cut-and-fill stoping",
@@ -2301,7 +2389,11 @@
       "difficulty": "easy",
       "marks": 1,
       "stem": "The stope shown is mined in horizontal slices, each mined-out slice being backfilled before the next is taken. This method is:",
-      "figure": {"kind": "svg", "caption": "Backfilled stope", "markup": "<svg viewBox='0 0 180 200' xmlns='http://www.w3.org/2000/svg'><rect x='40' y='20' width='100' height='160' fill='#fde9c8' stroke='#92400e'/><rect x='40' y='120' width='100' height='60' fill='#cbd5e1'/><text x='90' y='155' font-size='9' text-anchor='middle'>backfill</text><text x='90' y='90' font-size='9' text-anchor='middle'>ore</text></svg>"},
+      "figure": {
+        "kind": "svg",
+        "caption": "Backfilled stope",
+        "markup": "<svg viewBox='0 0 180 200' xmlns='http://www.w3.org/2000/svg'><rect x='40' y='20' width='100' height='160' fill='#fde9c8' stroke='#92400e'/><rect x='40' y='120' width='100' height='60' fill='#cbd5e1'/><text x='90' y='155' font-size='9' text-anchor='middle'>backfill</text><text x='90' y='90' font-size='9' text-anchor='middle'>ore</text></svg>"
+      },
       "options": [
         "cut-and-fill stoping",
         "shrinkage stoping",
@@ -2320,7 +2412,11 @@
       "difficulty": "easy",
       "marks": 1,
       "stem": "The mass-mining method depicted — undercutting a large ore column so it caves under its own weight and is drawn from drawpoints below — is:",
-      "figure": {"kind": "svg", "caption": "Caving column", "markup": "<svg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'><rect x='40' y='20' width='120' height='120' fill='#d6c0a3' stroke='#92400e'/><polygon points='40,140 160,140 130,175 70,175' fill='#cbd5e1' stroke='#475569'/><g fill='#1f2937'><polygon points='80,175 95,175 90,190 85,190'/><polygon points='110,175 125,175 120,190 115,190'/></g><text x='62' y='198' font-size='8'>drawpoints</text></svg>"},
+      "figure": {
+        "kind": "svg",
+        "caption": "Caving column",
+        "markup": "<svg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'><rect x='40' y='20' width='120' height='120' fill='#d6c0a3' stroke='#92400e'/><polygon points='40,140 160,140 130,175 70,175' fill='#cbd5e1' stroke='#475569'/><g fill='#1f2937'><polygon points='80,175 95,175 90,190 85,190'/><polygon points='110,175 125,175 120,190 115,190'/></g><text x='62' y='198' font-size='8'>drawpoints</text></svg>"
+      },
       "options": [
         "block caving",
         "cut-and-fill",
@@ -2339,7 +2435,11 @@
       "difficulty": "easy",
       "marks": 1,
       "stem": "The large block of mineral left unworked around the shaft in the plan shown is a:",
-      "figure": {"kind": "svg", "caption": "Shaft pillar", "markup": "<svg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'><rect x='10' y='10' width='180' height='180' fill='#e5e7eb'/><circle cx='100' cy='100' r='55' fill='#1f2937'/><circle cx='100' cy='100' r='10' fill='#fff' stroke='#475569'/><text x='84' y='80' font-size='8' fill='#fff'>shaft pillar</text></svg>"},
+      "figure": {
+        "kind": "svg",
+        "caption": "Shaft pillar",
+        "markup": "<svg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'><rect x='10' y='10' width='180' height='180' fill='#e5e7eb'/><circle cx='100' cy='100' r='55' fill='#1f2937'/><circle cx='100' cy='100' r='10' fill='#fff' stroke='#475569'/><text x='84' y='80' font-size='8' fill='#fff'>shaft pillar</text></svg>"
+      },
       "options": [
         "shaft (safety) pillar protecting shaft from subsidence",
         "barrier pillar between two collieries",
@@ -2356,9 +2456,13 @@
       "subject": "Underground Mining",
       "topic": "Strata Support",
       "difficulty": "medium",
-      "marks": 1,
+      "marks": 2,
       "stem": "Roof bolts are set on a 1.5 m × 1.5 m square grid. How many bolts are needed to support a roof area of 90 m² (as shown)?",
-      "figure": {"kind": "svg", "caption": "Bolt coverage", "markup": "<svg viewBox='0 0 200 160' xmlns='http://www.w3.org/2000/svg'><rect x='20' y='20' width='160' height='120' fill='#e5e7eb' stroke='#475569'/><g fill='#1f2937'><circle cx='50' cy='50' r='3'/><circle cx='90' cy='50' r='3'/><circle cx='130' cy='50' r='3'/><circle cx='50' cy='90' r='3'/><circle cx='90' cy='90' r='3'/><circle cx='130' cy='90' r='3'/></g><text x='30' y='152' font-size='8'>area 90 m^2, grid 1.5x1.5 m</text></svg>"},
+      "figure": {
+        "kind": "svg",
+        "caption": "Bolt coverage",
+        "markup": "<svg viewBox='0 0 200 160' xmlns='http://www.w3.org/2000/svg'><rect x='20' y='20' width='160' height='120' fill='#e5e7eb' stroke='#475569'/><g fill='#1f2937'><circle cx='50' cy='50' r='3'/><circle cx='90' cy='50' r='3'/><circle cx='130' cy='50' r='3'/><circle cx='50' cy='90' r='3'/><circle cx='90' cy='90' r='3'/><circle cx='130' cy='90' r='3'/></g><text x='30' y='152' font-size='8'>area 90 m^2, grid 1.5x1.5 m</text></svg>"
+      },
       "options": [],
       "answer": 40,
       "tolerance": 0.5,
@@ -2373,7 +2477,11 @@
       "difficulty": "medium",
       "marks": 2,
       "stem": "Using the per-shear output of the longwall shown (448 t per shear) with 12 shears completed in a day, compute the daily coal output (tonnes).",
-      "figure": {"kind": "svg", "caption": "Longwall output", "markup": "<svg viewBox='0 0 240 140' xmlns='http://www.w3.org/2000/svg'><rect x='30' y='30' width='180' height='80' fill='#e5e7eb' stroke='#475569'/><rect x='30' y='30' width='180' height='12' fill='#1f2937'/><text x='120' y='39' font-size='8' fill='#fff' text-anchor='middle'>448 t per shear</text><text x='70' y='95' font-size='8'>12 shears/day</text></svg>"},
+      "figure": {
+        "kind": "svg",
+        "caption": "Longwall output",
+        "markup": "<svg viewBox='0 0 240 140' xmlns='http://www.w3.org/2000/svg'><rect x='30' y='30' width='180' height='80' fill='#e5e7eb' stroke='#475569'/><rect x='30' y='30' width='180' height='12' fill='#1f2937'/><text x='120' y='39' font-size='8' fill='#fff' text-anchor='middle'>448 t per shear</text><text x='70' y='95' font-size='8'>12 shears/day</text></svg>"
+      },
       "options": [],
       "answer": 5376,
       "tolerance": 1,
@@ -2388,7 +2496,11 @@
       "difficulty": "medium",
       "marks": 2,
       "stem": "A room-and-pillar layout has square pillars $10\\ \\text{m}\\times10\\ \\text{m}$ on $20\\ \\text{m}\\times20\\ \\text{m}$ centres (figure). Compute the extraction ratio.",
-      "figure": {"kind": "svg", "caption": "Room-and-pillar plan", "markup": "<svg viewBox='0 0 200 205' xmlns='http://www.w3.org/2000/svg'><rect x='20' y='20' width='160' height='160' fill='#cbd5e1'/><g fill='#78716c' stroke='#475569'><rect x='40' y='40' width='40' height='40'/><rect x='120' y='40' width='40' height='40'/><rect x='40' y='120' width='40' height='40'/><rect x='120' y='120' width='40' height='40'/></g><text x='28' y='198' font-size='8'>pillar 10x10, centres 20x20</text></svg>"},
+      "figure": {
+        "kind": "svg",
+        "caption": "Room-and-pillar plan",
+        "markup": "<svg viewBox='0 0 200 205' xmlns='http://www.w3.org/2000/svg'><rect x='20' y='20' width='160' height='160' fill='#cbd5e1'/><g fill='#78716c' stroke='#475569'><rect x='40' y='40' width='40' height='40'/><rect x='120' y='40' width='40' height='40'/><rect x='40' y='120' width='40' height='40'/><rect x='120' y='120' width='40' height='40'/></g><text x='28' y='198' font-size='8'>pillar 10x10, centres 20x20</text></svg>"
+      },
       "options": [],
       "answer": 0.75,
       "tolerance": 0.01,
@@ -2403,7 +2515,11 @@
       "difficulty": "medium",
       "marks": 2,
       "stem": "For the tributary-area pillar shown, the vertical stress is $10\\ \\text{MPa}$ and the extraction ratio is $0.75$. Compute the pillar stress (MPa).",
-      "figure": {"kind": "svg", "caption": "Tributary-area loading", "markup": "<svg viewBox='0 0 200 180' xmlns='http://www.w3.org/2000/svg'><rect x='30' y='30' width='140' height='100' fill='#cbd5e1' stroke='#475569' stroke-dasharray='4 3'/><rect x='80' y='65' width='40' height='40' fill='#78716c' stroke='#475569'/><g stroke='#dc2626' stroke-width='2'><line x1='60' y1='18' x2='60' y2='30'/><line x1='100' y1='18' x2='100' y2='30'/><line x1='140' y1='18' x2='140' y2='30'/></g><text x='28' y='160' font-size='8'>stress over tributary area</text></svg>"},
+      "figure": {
+        "kind": "svg",
+        "caption": "Tributary-area loading",
+        "markup": "<svg viewBox='0 0 200 180' xmlns='http://www.w3.org/2000/svg'><rect x='30' y='30' width='140' height='100' fill='#cbd5e1' stroke='#475569' stroke-dasharray='4 3'/><rect x='80' y='65' width='40' height='40' fill='#78716c' stroke='#475569'/><g stroke='#dc2626' stroke-width='2'><line x1='60' y1='18' x2='60' y2='30'/><line x1='100' y1='18' x2='100' y2='30'/><line x1='140' y1='18' x2='140' y2='30'/></g><text x='28' y='160' font-size='8'>stress over tributary area</text></svg>"
+      },
       "options": [],
       "answer": 40,
       "tolerance": 0.5,
@@ -2418,7 +2534,11 @@
       "difficulty": "hard",
       "marks": 2,
       "stem": "Using the Obert-Duvall formula $S_p=S_1\\left(0.778+0.222\\frac{W}{H}\\right)$ with $S_1=30\\ \\text{MPa}$, $W=4\\ \\text{m}$ and $H=2\\ \\text{m}$ (figure), compute the pillar strength (MPa, two decimals).",
-      "figure": {"kind": "svg", "caption": "Pillar width and height", "markup": "<svg viewBox='0 0 200 170' xmlns='http://www.w3.org/2000/svg'><rect x='60' y='50' width='80' height='60' fill='#78716c' stroke='#475569'/><text x='92' y='130' font-size='8'>W=4</text><text x='18' y='85' font-size='8'>H=2</text></svg>"},
+      "figure": {
+        "kind": "svg",
+        "caption": "Pillar width and height",
+        "markup": "<svg viewBox='0 0 200 170' xmlns='http://www.w3.org/2000/svg'><rect x='60' y='50' width='80' height='60' fill='#78716c' stroke='#475569'/><text x='92' y='130' font-size='8'>W=4</text><text x='18' y='85' font-size='8'>H=2</text></svg>"
+      },
       "options": [],
       "answer": 36.66,
       "tolerance": 0.1,
@@ -2433,7 +2553,11 @@
       "difficulty": "easy",
       "marks": 1,
       "stem": "A pillar has a strength of $40\\ \\text{MPa}$ and carries a stress of $20\\ \\text{MPa}$ (figure). Compute the factor of safety.",
-      "figure": {"kind": "svg", "caption": "Pillar under load", "markup": "<svg viewBox='0 0 200 160' xmlns='http://www.w3.org/2000/svg'><rect x='70' y='40' width='60' height='80' fill='#78716c' stroke='#475569'/><g stroke='#dc2626' stroke-width='2'><line x1='80' y1='18' x2='80' y2='36'/><line x1='100' y1='18' x2='100' y2='36'/><line x1='120' y1='18' x2='120' y2='36'/></g><text x='28' y='145' font-size='8'>strength 40, stress 20 MPa</text></svg>"},
+      "figure": {
+        "kind": "svg",
+        "caption": "Pillar under load",
+        "markup": "<svg viewBox='0 0 200 160' xmlns='http://www.w3.org/2000/svg'><rect x='70' y='40' width='60' height='80' fill='#78716c' stroke='#475569'/><g stroke='#dc2626' stroke-width='2'><line x1='80' y1='18' x2='80' y2='36'/><line x1='100' y1='18' x2='100' y2='36'/><line x1='120' y1='18' x2='120' y2='36'/></g><text x='28' y='145' font-size='8'>strength 40, stress 20 MPa</text></svg>"
+      },
       "options": [],
       "answer": 2,
       "tolerance": 0.05,
@@ -2448,7 +2572,11 @@
       "difficulty": "medium",
       "marks": 2,
       "stem": "A longwall shearer cuts a $150\\ \\text{m}$ face with a web of $0.6\\ \\text{m}$ in a $3\\ \\text{m}$ seam of density $1.5\\ \\mathrm{t/m^3}$ (figure). Compute the tonnage produced per pass (t).",
-      "figure": {"kind": "svg", "caption": "Longwall face", "markup": "<svg viewBox='0 0 220 140' xmlns='http://www.w3.org/2000/svg'><rect x='30' y='50' width='160' height='20' fill='#1f2937'/><rect x='30' y='70' width='160' height='30' fill='#a16207'/><g fill='#94a3b8' stroke='#475569'><rect x='40' y='40' width='12' height='30'/><rect x='90' y='40' width='12' height='30'/><rect x='140' y='40' width='12' height='30'/></g><text x='28' y='125' font-size='8'>face 150 m, web 0.6, h 3</text></svg>"},
+      "figure": {
+        "kind": "svg",
+        "caption": "Longwall face",
+        "markup": "<svg viewBox='0 0 220 140' xmlns='http://www.w3.org/2000/svg'><rect x='30' y='50' width='160' height='20' fill='#1f2937'/><rect x='30' y='70' width='160' height='30' fill='#a16207'/><g fill='#94a3b8' stroke='#475569'><rect x='40' y='40' width='12' height='30'/><rect x='90' y='40' width='12' height='30'/><rect x='140' y='40' width='12' height='30'/></g><text x='28' y='125' font-size='8'>face 150 m, web 0.6, h 3</text></svg>"
+      },
       "options": [],
       "answer": 405,
       "tolerance": 1,
@@ -2463,7 +2591,11 @@
       "difficulty": "medium",
       "marks": 2,
       "stem": "A room-and-pillar panel has square pillars $8\\ \\text{m}\\times8\\ \\text{m}$ on $20\\ \\text{m}\\times20\\ \\text{m}$ centres (figure). Compute the recovery (%).",
-      "figure": {"kind": "svg", "caption": "Room-and-pillar recovery", "markup": "<svg viewBox='0 0 200 205' xmlns='http://www.w3.org/2000/svg'><rect x='20' y='20' width='160' height='160' fill='#cbd5e1'/><g fill='#78716c' stroke='#475569'><rect x='40' y='40' width='32' height='32'/><rect x='120' y='40' width='32' height='32'/><rect x='40' y='120' width='32' height='32'/><rect x='120' y='120' width='32' height='32'/></g><text x='26' y='198' font-size='8'>pillar 8x8, centres 20x20</text></svg>"},
+      "figure": {
+        "kind": "svg",
+        "caption": "Room-and-pillar recovery",
+        "markup": "<svg viewBox='0 0 200 205' xmlns='http://www.w3.org/2000/svg'><rect x='20' y='20' width='160' height='160' fill='#cbd5e1'/><g fill='#78716c' stroke='#475569'><rect x='40' y='40' width='32' height='32'/><rect x='120' y='40' width='32' height='32'/><rect x='40' y='120' width='32' height='32'/><rect x='120' y='120' width='32' height='32'/></g><text x='26' y='198' font-size='8'>pillar 8x8, centres 20x20</text></svg>"
+      },
       "options": [],
       "answer": 84,
       "tolerance": 0.5,
@@ -2478,7 +2610,11 @@
       "difficulty": "easy",
       "marks": 1,
       "stem": "A hoisting skip lifts $10\\ \\text{t}$ per trip and completes $30\\ \\text{trips per hour}$ (figure). Compute the hoisting rate (t/hr).",
-      "figure": {"kind": "svg", "caption": "Headframe and skip", "markup": "<svg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'><polygon points='60,30 120,30 100,160 80,160' fill='none' stroke='#475569' stroke-width='2'/><circle cx='90' cy='40' r='12' fill='none' stroke='#475569' stroke-width='2'/><rect x='80' y='90' width='20' height='25' fill='#94a3b8' stroke='#475569'/><text x='22' y='175' font-size='8'>skip 10 t, 30 trips/hr</text></svg>"},
+      "figure": {
+        "kind": "svg",
+        "caption": "Headframe and skip",
+        "markup": "<svg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'><polygon points='60,30 120,30 100,160 80,160' fill='none' stroke='#475569' stroke-width='2'/><circle cx='90' cy='40' r='12' fill='none' stroke='#475569' stroke-width='2'/><rect x='80' y='90' width='20' height='25' fill='#94a3b8' stroke='#475569'/><text x='22' y='175' font-size='8'>skip 10 t, 30 trips/hr</text></svg>"
+      },
       "options": [],
       "answer": 300,
       "tolerance": 1,
@@ -2493,7 +2629,11 @@
       "difficulty": "easy",
       "marks": 1,
       "stem": "A development heading is advanced by $3\\ \\text{rounds per shift}$, each pulling $2.5\\ \\text{m}$ (figure). Compute the advance per shift (m).",
-      "figure": {"kind": "svg", "caption": "Heading rounds", "markup": "<svg viewBox='0 0 220 130' xmlns='http://www.w3.org/2000/svg'><rect x='20' y='40' width='180' height='50' fill='#d6d3d1' stroke='#475569'/><line x1='90' y1='40' x2='90' y2='90' stroke='#475569' stroke-dasharray='3 2'/><line x1='140' y1='40' x2='140' y2='90' stroke='#475569' stroke-dasharray='3 2'/><text x='25' y='115' font-size='8'>3 rounds x 2.5 m pull</text></svg>"},
+      "figure": {
+        "kind": "svg",
+        "caption": "Heading rounds",
+        "markup": "<svg viewBox='0 0 220 130' xmlns='http://www.w3.org/2000/svg'><rect x='20' y='40' width='180' height='50' fill='#d6d3d1' stroke='#475569'/><line x1='90' y1='40' x2='90' y2='90' stroke='#475569' stroke-dasharray='3 2'/><line x1='140' y1='40' x2='140' y2='90' stroke='#475569' stroke-dasharray='3 2'/><text x='25' y='115' font-size='8'>3 rounds x 2.5 m pull</text></svg>"
+      },
       "options": [],
       "answer": 7.5,
       "tolerance": 0.05,
@@ -2508,7 +2648,11 @@
       "difficulty": "medium",
       "marks": 2,
       "stem": "A stope yields $18\\ \\text{t}$ of ore together with $2\\ \\text{t}$ of wall waste (figure). Compute the dilution (%).",
-      "figure": {"kind": "svg", "caption": "Ore with wall dilution", "markup": "<svg viewBox='0 0 200 150' xmlns='http://www.w3.org/2000/svg'><rect x='50' y='40' width='100' height='60' fill='#a16207' stroke='#475569'/><rect x='50' y='40' width='100' height='10' fill='#cbd5e1' stroke='#475569'/><text x='62' y='78' font-size='8' fill='#ffffff'>ore 18</text><text x='58' y='128' font-size='8'>wall dilution 2</text></svg>"},
+      "figure": {
+        "kind": "svg",
+        "caption": "Ore with wall dilution",
+        "markup": "<svg viewBox='0 0 200 150' xmlns='http://www.w3.org/2000/svg'><rect x='50' y='40' width='100' height='60' fill='#a16207' stroke='#475569'/><rect x='50' y='40' width='100' height='10' fill='#cbd5e1' stroke='#475569'/><text x='62' y='78' font-size='8' fill='#ffffff'>ore 18</text><text x='58' y='128' font-size='8'>wall dilution 2</text></svg>"
+      },
       "options": [],
       "answer": 10,
       "tolerance": 0.1,
@@ -2523,7 +2667,11 @@
       "difficulty": "easy",
       "marks": 1,
       "stem": "The method shown removes ore in horizontal slices and places backfill in the void after each slice. It is:",
-      "figure": {"kind": "svg", "caption": "Cut-and-fill stoping", "markup": "<svg viewBox='0 0 200 160' xmlns='http://www.w3.org/2000/svg'><rect x='40' y='100' width='120' height='30' fill='#cbd5e1' stroke='#475569'/><rect x='40' y='70' width='120' height='30' fill='#a16207' stroke='#475569'/><text x='52' y='120' font-size='8'>backfill</text><text x='58' y='90' font-size='8' fill='#fff'>ore slice</text><text x='30' y='150' font-size='8'>fill rises with extraction</text></svg>"},
+      "figure": {
+        "kind": "svg",
+        "caption": "Cut-and-fill stoping",
+        "markup": "<svg viewBox='0 0 200 160' xmlns='http://www.w3.org/2000/svg'><rect x='40' y='100' width='120' height='30' fill='#cbd5e1' stroke='#475569'/><rect x='40' y='70' width='120' height='30' fill='#a16207' stroke='#475569'/><text x='52' y='120' font-size='8'>backfill</text><text x='58' y='90' font-size='8' fill='#fff'>ore slice</text><text x='30' y='150' font-size='8'>fill rises with extraction</text></svg>"
+      },
       "options": [
         "cut-and-fill stoping",
         "sublevel caving",
@@ -2542,7 +2690,11 @@
       "difficulty": "easy",
       "marks": 1,
       "stem": "In the layout shown, ore is blasted into sublevels and drawn off while the overlying rock caves to fill the void. The method is:",
-      "figure": {"kind": "svg", "caption": "Sublevel caving", "markup": "<svg viewBox='0 0 200 175' xmlns='http://www.w3.org/2000/svg'><g stroke='#475569'><line x1='30' y1='50' x2='170' y2='50'/><line x1='30' y1='90' x2='170' y2='90'/><line x1='30' y1='130' x2='170' y2='130'/></g><polygon points='90,40 110,40 130,150 70,150' fill='#cbd5e1' opacity='0.6'/><text x='28' y='168' font-size='8'>caved waste flows over drifts</text></svg>"},
+      "figure": {
+        "kind": "svg",
+        "caption": "Sublevel caving",
+        "markup": "<svg viewBox='0 0 200 175' xmlns='http://www.w3.org/2000/svg'><g stroke='#475569'><line x1='30' y1='50' x2='170' y2='50'/><line x1='30' y1='90' x2='170' y2='90'/><line x1='30' y1='130' x2='170' y2='130'/></g><polygon points='90,40 110,40 130,150 70,150' fill='#cbd5e1' opacity='0.6'/><text x='28' y='168' font-size='8'>caved waste flows over drifts</text></svg>"
+      },
       "options": [
         "sublevel caving",
         "room and pillar",
@@ -2561,7 +2713,11 @@
       "difficulty": "easy",
       "marks": 1,
       "stem": "Roof bolts are installed across a $4.8\\ \\text{m}$ wide roadway at $1.2\\ \\text{m}$ spacing, with bolts at both ribs (figure). Compute the number of bolts in one row.",
-      "figure": {"kind": "svg", "caption": "Roof bolt row", "markup": "<svg viewBox='0 0 220 130' xmlns='http://www.w3.org/2000/svg'><rect x='20' y='30' width='180' height='15' fill='#a16207'/><g stroke='#1f2937' stroke-width='2'><line x1='40' y1='45' x2='40' y2='75'/><line x1='80' y1='45' x2='80' y2='75'/><line x1='120' y1='45' x2='120' y2='75'/><line x1='160' y1='45' x2='160' y2='75'/><line x1='200' y1='45' x2='200' y2='75'/></g><text x='24' y='108' font-size='8'>span 4.8 m, spacing 1.2 m</text></svg>"},
+      "figure": {
+        "kind": "svg",
+        "caption": "Roof bolt row",
+        "markup": "<svg viewBox='0 0 220 130' xmlns='http://www.w3.org/2000/svg'><rect x='20' y='30' width='180' height='15' fill='#a16207'/><g stroke='#1f2937' stroke-width='2'><line x1='40' y1='45' x2='40' y2='75'/><line x1='80' y1='45' x2='80' y2='75'/><line x1='120' y1='45' x2='120' y2='75'/><line x1='160' y1='45' x2='160' y2='75'/><line x1='200' y1='45' x2='200' y2='75'/></g><text x='24' y='108' font-size='8'>span 4.8 m, spacing 1.2 m</text></svg>"
+      },
       "options": [],
       "answer": 5,
       "tolerance": 0.1,
@@ -2576,7 +2732,11 @@
       "difficulty": "easy",
       "marks": 1,
       "stem": "In the figure, an undercut ore column caves under its own weight and is removed through openings at the base. These openings are:",
-      "figure": {"kind": "svg", "caption": "Block caving draw points", "markup": "<svg viewBox='0 0 200 175' xmlns='http://www.w3.org/2000/svg'><rect x='40' y='30' width='120' height='90' fill='#cbd5e1' stroke='#475569'/><g fill='#94a3b8'><polygon points='50,120 70,120 60,150'/><polygon points='90,120 110,120 100,150'/><polygon points='130,120 150,120 140,150'/></g><text x='28' y='168' font-size='8'>openings below the caving block</text></svg>"},
+      "figure": {
+        "kind": "svg",
+        "caption": "Block caving draw points",
+        "markup": "<svg viewBox='0 0 200 175' xmlns='http://www.w3.org/2000/svg'><rect x='40' y='30' width='120' height='90' fill='#cbd5e1' stroke='#475569'/><g fill='#94a3b8'><polygon points='50,120 70,120 60,150'/><polygon points='90,120 110,120 100,150'/><polygon points='130,120 150,120 140,150'/></g><text x='28' y='168' font-size='8'>openings below the caving block</text></svg>"
+      },
       "options": [
         "draw points through which caved ore is extracted",
         "ventilation raises for exhaust air",
@@ -2595,7 +2755,11 @@
       "difficulty": "easy",
       "marks": 1,
       "stem": "A square pillar has a $10\\ \\text{m}\\times10\\ \\text{m}$ plan and is $8\\ \\text{m}$ high (figure). Compute its volume ($\\mathrm{m^3}$).",
-      "figure": {"kind": "svg", "caption": "Square pillar", "markup": "<svg viewBox='0 0 200 175' xmlns='http://www.w3.org/2000/svg'><polygon points='60,60 120,60 150,40 90,40' fill='#9ca3af' stroke='#475569'/><rect x='60' y='60' width='60' height='70' fill='#78716c' stroke='#475569'/><polygon points='120,60 150,40 150,110 120,130' fill='#6b7280' stroke='#475569'/><text x='26' y='160' font-size='8'>plan 10x10, height 8</text></svg>"},
+      "figure": {
+        "kind": "svg",
+        "caption": "Square pillar",
+        "markup": "<svg viewBox='0 0 200 175' xmlns='http://www.w3.org/2000/svg'><polygon points='60,60 120,60 150,40 90,40' fill='#9ca3af' stroke='#475569'/><rect x='60' y='60' width='60' height='70' fill='#78716c' stroke='#475569'/><polygon points='120,60 150,40 150,110 120,130' fill='#6b7280' stroke='#475569'/><text x='26' y='160' font-size='8'>plan 10x10, height 8</text></svg>"
+      },
       "options": [],
       "answer": 800,
       "tolerance": 1,

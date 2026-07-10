@@ -2251,10 +2251,10 @@
       "difficulty": "medium",
       "stem": "A beam has overall depth 600 mm, clear cover 25 mm and 25 mm main bars. The effective depth is:",
       "options": [
-        "562.5 mm (alt 1)",
+        "562.5 mm",
         "575 mm",
         "550 mm",
-        "562.5 mm"
+        "Low"
       ],
       "answer": 3,
       "solution": "d = 600 − 25 − 25/2 = 562.5 mm.",
@@ -3047,7 +3047,7 @@
         "40 kNm",
         "80 kNm",
         "160 kNm",
-        "40 kNm"
+        "Low"
       ],
       "answer": 2,
       "solution": "BM_max = wL²/2 = 5×8²/2 = 160 kNm at fixed end.",
@@ -3172,7 +3172,7 @@
       "options": [
         "39.2 kN",
         "78.5 kN",
-        "39.2 kN",
+        "100 kΩ",
         "26.2 kN"
       ],
       "answer": 0,
@@ -3215,7 +3215,7 @@
         "wL⁴/(384EI)",
         "5wL⁴/(384EI)",
         "wL⁴/(8EI)",
-        "5wL⁴/(384EI)"
+        "Low"
       ],
       "answer": 1,
       "solution": "Maximum deflection = 5wL⁴/(384EI) at mid-span for SSB with UDL.",

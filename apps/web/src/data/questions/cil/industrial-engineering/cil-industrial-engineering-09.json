@@ -2294,8 +2294,8 @@
       "stem": "A PERT activity has to = 2 and tp = 8 days. Its standard deviation is:",
       "options": [
         "1.67 days",
-        "1 days (alt 1)",
         "1 days",
+        "25%",
         "2 days"
       ],
       "answer": 2,
@@ -2797,10 +2797,10 @@
       "difficulty": "medium",
       "stem": "A PERT activity has to = 2 and tp = 14 days. Its standard deviation is:",
       "options": [
-        "2 days (alt 1)",
+        "2 days",
         "4 days",
         "2.67 days",
-        "2 days"
+        "25%"
       ],
       "answer": 3,
       "solution": "σ = (tp − to)/6 = (14 − 2)/6 = 2 days.",
@@ -3689,10 +3689,10 @@
       "difficulty": "hard",
       "stem": "Customers arrive at 20/hour and spend on average 1 hour in the system. The average number in the system is:",
       "options": [
-        "20 (alt 1)",
+        "20",
         "0.05",
         "22",
-        "20"
+        "Low"
       ],
       "answer": 3,
       "solution": "Little's law: L = λ·W = 20×1 = 20.",
@@ -3713,7 +3713,7 @@
         "6 days",
         "8 days",
         "7 days",
-        "6 days (alt 1)"
+        "25%"
       ],
       "answer": 0,
       "solution": "te = (to + 4tm + tp)/6 = (2 + 4×5 + 14)/6 = 6 days.",
@@ -3731,10 +3731,10 @@
       "difficulty": "medium",
       "stem": "With α = 0.5, last actual = 250 and last forecast = 180, the next exponential-smoothing forecast is:",
       "options": [
-        "215 units (alt 1)",
+        "215 units",
         "250 units",
         "230 units",
-        "215 units"
+        "25%"
       ],
       "answer": 3,
       "solution": "F = α·A + (1−α)·F_prev = 0.5×250 + 0.5×180 = 215 units.",

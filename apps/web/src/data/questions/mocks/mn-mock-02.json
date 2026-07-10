@@ -1105,14 +1105,14 @@
       "marks": 2,
       "difficulty": "medium",
       "stem": "For the 33-hole pattern shown (burden 3 m, spacing 4 m, bench height 10 m), compute the total in-situ rock volume broken (m³).",
-      "answer": 39600,
+      "answer": 3960,
       "tolerance": 1,
       "figure": {
         "kind": "svg",
         "caption": "Blast block",
         "markup": "<svg viewBox='0 0 240 140' xmlns='http://www.w3.org/2000/svg'><g fill='#1f2937'><circle cx='40' cy='40' r='4'/><circle cx='75' cy='40' r='4'/><circle cx='110' cy='40' r='4'/><circle cx='145' cy='40' r='4'/><circle cx='180' cy='40' r='4'/><circle cx='40' cy='75' r='4'/><circle cx='75' cy='75' r='4'/><circle cx='110' cy='75' r='4'/><circle cx='145' cy='75' r='4'/><circle cx='180' cy='75' r='4'/><circle cx='40' cy='110' r='4'/><circle cx='75' cy='110' r='4'/><circle cx='110' cy='110' r='4'/><circle cx='145' cy='110' r='4'/><circle cx='180' cy='110' r='4'/></g><text x='30' y='132' font-size='8'>33 holes, B=3, S=4, H=10 m</text></svg>"
       },
-      "solution": "**Concept.** Volume = burden × spacing × height × number of holes.\n\n**Working.**\n$$V = 3 \\times 4 \\times 10 \\times 33 = 39600$$\n\n**Answer.** $\\mathbf{39600}$ m³."
+      "solution": "**Concept.** Volume = burden × spacing × height × number of holes.\n\n**Working.**\n$$V = 3 \\times 4 \\times 10 \\times 33 = 3960$$\n\n**Answer.** $\\mathbf{39600}$ m³."
     }
   ]
 }

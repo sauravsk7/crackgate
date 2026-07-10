@@ -2745,9 +2745,9 @@
       "stem": "Fixed cost = ₹10000, price = ₹100/unit, variable cost = ₹50/unit. The break-even quantity is:",
       "options": [
         "100 units",
-        "200 units (alt 1)",
+        "200 units",
         "250 units",
-        "200 units"
+        "25%"
       ],
       "answer": 3,
       "solution": "Q_BE = FC/(p − v) = 10000/(100 − 50) = 200 units.",
@@ -3311,10 +3311,10 @@
       "difficulty": "medium",
       "stem": "A worker's observed time is 4 min at a performance rating of 100%. The normal time is:",
       "options": [
-        "4 min (alt 2)",
+        "4 min",
         "5 min",
-        "4 min (alt 1)",
-        "4 min"
+        "25%",
+        "50%"
       ],
       "answer": 3,
       "solution": "Normal time = observed × rating = 4×100% = 4 min.",
@@ -4132,8 +4132,8 @@
       "options": [
         "790 units",
         "375 units",
-        "750 units (alt 1)",
-        "750 units"
+        "750 units",
+        "Low"
       ],
       "answer": 3,
       "solution": "BEP = FC/(p − v) = 30000/(80 − 40) = 750 units, where total revenue = total cost.",

@@ -2170,7 +2170,7 @@
         "4.36V",
         "3V",
         "1.36V",
-        "1.36V"
+        "25%"
       ],
       "answer": 0,
       "solution": "Vout = (1+Rf/R₁)·Vin = (1+10/22)×3 = 4.36V.",
@@ -2866,7 +2866,7 @@
       "stem": "Non-inverting: Rf=220kΩ, R₁=10kΩ, Vin=5V. Vout:",
       "options": [
         "110V",
-        "110V",
+        "25%",
         "115V",
         "5V"
       ],
@@ -3033,10 +3033,10 @@
       "difficulty": "medium",
       "stem": "In the logic circuit shown, Y = (A AND B) OR C with A = 0, B = 0, C = 1. The output Y is:",
       "options": [
-        "1 (alt 1)",
-        "0",
         "1",
-        "1 (alt 2)"
+        "0",
+        "100 kΩ",
+        "220 kΩ"
       ],
       "answer": 2,
       "solution": "(A·B) = 0; Y = (A·B) + C = 0 + 1 = 1.",
@@ -3255,8 +3255,8 @@
       "options": [
         "20 dB",
         "80 dB",
-        "40 dB (alt 1)",
-        "40 dB"
+        "40 dB",
+        "Low"
       ],
       "answer": 3,
       "solution": "Gain(dB) = 20·log₁₀(100) ≈ 40 dB.",
@@ -3403,7 +3403,7 @@
         "43.3%",
         "50%",
         "33.3%",
-        "33.3% (alt 1)"
+        "25%"
       ],
       "answer": 2,
       "solution": "η = μ²/(2 + μ²) = 1²/(2 + 1²) ≈ 33.3%.",
@@ -3464,7 +3464,7 @@
       "stem": "Inverting amp: Rf=22.0kΩ, Rin=22.0kΩ, Vin=0.5V. Vout:",
       "options": [
         "-0.50V",
-        "-0.50V",
+        "25%",
         "-1V",
         "0.50V"
       ],
@@ -3571,7 +3571,7 @@
         "0.50V",
         "23.40V",
         "23.90V",
-        "23.40V"
+        "25%"
       ],
       "answer": 2,
       "solution": "Vout = (1+Rf/R₁)·Vin = (1+220/4.7)×0.5 = 23.90V.",
@@ -3684,7 +3684,7 @@
       "stem": "Non-inverting: Rf=220kΩ, R₁=10kΩ, Vin=2V. Vout:",
       "options": [
         "44V",
-        "44V",
+        "25%",
         "2V",
         "46V"
       ],
@@ -3748,7 +3748,7 @@
       "options": [
         "42.73V",
         "44.73V",
-        "42.73V",
+        "25%",
         "2V"
       ],
       "answer": 1,
@@ -3770,7 +3770,7 @@
         "15000000mA",
         "0.11mA",
         "16.95mA",
-        "16.95mA"
+        "25%"
       ],
       "answer": 2,
       "solution": "Ic = β×Ib = 150×113.00μA = 16.95mA.",
@@ -3853,7 +3853,7 @@
       "options": [
         "4.33mA",
         "33000000mA",
-        "4.33mA",
+        "25%",
         "0.04mA"
       ],
       "answer": 0,

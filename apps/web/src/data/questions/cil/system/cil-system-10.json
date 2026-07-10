@@ -2956,7 +2956,7 @@
       "options": [
         "16 subnets, 14 hosts",
         "16 subnets, 16 hosts",
-        "16 subnets, 14 hosts",
+        "Low",
         "32 subnets, 14 hosts"
       ],
       "answer": 0,
@@ -3946,8 +3946,8 @@
       "stem": "For the AND gate shown with inputs A = 0 and B = 0, the output is:",
       "options": [
         "0",
-        "0",
-        "0",
+        "100 kΩ",
+        "220 kΩ",
         "1"
       ],
       "answer": 2,

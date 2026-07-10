@@ -468,7 +468,7 @@
       "options": [
         "₹2,000",
         "₹500",
-        "₹2,000",
+        "Low",
         "₹100"
       ],
       "answer": 0,
@@ -784,7 +784,7 @@
         "3:4:2",
         "5:4:3",
         "4:3:2",
-        "5:4:3"
+        "Low"
       ],
       "answer": 2,
       "solution": "4:3:2",
@@ -3685,9 +3685,9 @@
       "stem": "Transferring 100 MB at 100 MB/s takes about:",
       "options": [
         "1 s",
-        "1 s",
+        "Low",
         "2 s",
-        "1 s"
+        "Medium"
       ],
       "answer": 0,
       "solution": "time = size/rate = 100/100 = 1 s.",

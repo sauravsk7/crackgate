@@ -531,7 +531,7 @@
       "options": [
         "₹2,000",
         "₹500",
-        "₹2,000",
+        "Low",
         "₹100"
       ],
       "answer": 0,
@@ -2425,7 +2425,7 @@
       "stem": "A refrigerator extracts 400 W of heat using 100 W of work. Its COP is:",
       "options": [
         "4",
-        "4 (alt 1)",
+        "Low",
         "0.25",
         "5"
       ],
@@ -2805,7 +2805,7 @@
         "0.0",
         "4000000",
         "100",
-        "0.0"
+        "25%"
       ],
       "answer": 1,
       "solution": "Re = Vd/ν = 20×0.2/10⁻⁶ = 4000000.",
@@ -3439,7 +3439,7 @@
       "options": [
         "66.7",
         "0.0",
-        "0.0",
+        "25%",
         "1500000"
       ],
       "answer": 3,
@@ -3676,7 +3676,7 @@
         "π²EI/L²",
         "P_cr = π²EI/(KL)². K = end condition factor",
         "π²EI/(KL)",
-        "π²EI/(KL)"
+        "Low"
       ],
       "answer": 1,
       "solution": "Pinned-pinned: K=1. Fixed-fixed: K=0.5. Fixed-free: K=2. Fixed-pinned: K=0.7.",
@@ -3739,7 +3739,7 @@
         "7.8 kN",
         "125.6 kN",
         "62.8 kN",
-        "62.8 kN"
+        "100 kΩ"
       ],
       "answer": 2,
       "solution": "F = ρgȟA = 800×9.81×8×1 = 62.8 kN.",
@@ -4104,8 +4104,8 @@
       "stem": "Flow velocity 5 m/s in a pipe of dia 50 mm gives discharge:",
       "options": [
         "0.0 m³/s",
-        "0.0 m³/s",
-        "0.0 m³/s",
+        "Low",
+        "Medium",
         "0.8 m³/s"
       ],
       "answer": 0,

@@ -2671,10 +2671,10 @@
       "difficulty": "medium",
       "stem": "In the logic circuit shown, Y = (A AND B) OR C with A = 0, B = 1, C = 0. The output Y is:",
       "options": [
-        "0 (alt 2)",
-        "0 (alt 1)",
+        "0",
+        "100 kΩ",
         "1",
-        "0"
+        "220 kΩ"
       ],
       "answer": 3,
       "solution": "(A·B) = 0; Y = (A·B) + C = 0 + 0 = 0.",
@@ -2870,8 +2870,8 @@
       "difficulty": "medium",
       "stem": "How many bits are needed to encode 32 distinct quantization levels?",
       "options": [
-        "5 (alt 1)",
         "5",
+        "Low",
         "6",
         "4"
       ],
@@ -3361,7 +3361,7 @@
         "0.50V",
         "5V",
         "5.50V",
-        "5V"
+        "25%"
       ],
       "answer": 2,
       "solution": "Vout = (1+Rf/R₁)·Vin = (1+220/22)×0.5 = 5.50V.",
@@ -3665,7 +3665,7 @@
         "-1",
         "2",
         "1",
-        "2"
+        "25%"
       ],
       "answer": 0,
       "solution": "A_v = -Rf/Rin = -22/22 = -1.",
@@ -3810,7 +3810,7 @@
       "stem": "Non-inverting: Rf=220kΩ, R₁=4.7kΩ, Vin=5V. Vout:",
       "options": [
         "234.04V",
-        "234.04V",
+        "25%",
         "239.04V",
         "5V"
       ],
@@ -4200,7 +4200,7 @@
         "0.50V",
         "2.85V",
         "2.35V",
-        "2.35V"
+        "25%"
       ],
       "answer": 1,
       "solution": "Vout = (1+Rf/R₁)·Vin = (1+47/10)×0.5 = 2.85V.",
@@ -4263,7 +4263,7 @@
         "0.07mA",
         "44000000mA",
         "13.00mA",
-        "13.00mA"
+        "25%"
       ],
       "answer": 2,
       "solution": "Ic = β×Ib = 200×65.00μA = 13.00mA.",

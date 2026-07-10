@@ -1374,7 +1374,11 @@
         "Placer (mechanical) concentration",
         "Development of schistosity"
       ],
-      "answer": [0, 1, 2],
+      "answer": [
+        0,
+        1,
+        2
+      ],
       "solution": "**Concept.** Ore deposits form by physical and chemical concentration.\n\n**Reasoning.** Magmatic segregation, hydrothermal precipitation and mechanical (placer) sorting all concentrate valuable minerals. Schistosity is a metamorphic fabric, not an ore-forming process.\n\n**Answer.** Magmatic, hydrothermal, placer.",
       "archetype": "A",
       "marks": 2
@@ -1392,7 +1396,11 @@
         "Seismic survey",
         "Proximate analysis"
       ],
-      "answer": [0, 1, 2],
+      "answer": [
+        0,
+        1,
+        2
+      ],
       "solution": "**Concept.** Geophysics maps subsurface physical-property contrasts.\n\n**Reasoning.** Gravity, magnetic and seismic surveys (with electrical and electromagnetic methods) detect density, magnetic and elastic variations underground. Proximate analysis is a laboratory test of coal composition, not a geophysical method.\n\n**Answer.** Gravity, magnetic, seismic.",
       "archetype": "A",
       "marks": 2
@@ -1516,7 +1524,8 @@
       "answer": 16.1,
       "tolerance": 0.3,
       "solution": "**Concept.** $\\tan(\\text{apparent dip})=\\tan(\\text{true dip})\\times\\sin\\theta$, where $\\theta$ is the angle between the section and the strike.\n\n**Working.**\n$$\\tan\\alpha=\\tan30^\\circ\\times\\sin30^\\circ=0.5774\\times0.5=0.2887\\Rightarrow\\alpha=16.1^\\circ$$\n\n**Answer.** $\\approx 16.1^\\circ$.",
-      "archetype": "C"
+      "archetype": "C",
+      "marks": 2
     },
     {
       "id": "mg-orig-087",
@@ -1534,7 +1543,8 @@
       "answer": 10,
       "tolerance": 0.2,
       "solution": "**Concept.** Throw $=$ net slip $\\times\\sin(\\text{fault dip})$.\n\n**Working.**\n$$\\text{throw}=20\\sin30^\\circ=20\\times0.5=10\\ \\text{m}$$\n\n**Answer.** $10$ m.",
-      "archetype": "C"
+      "archetype": "C",
+      "marks": 1
     },
     {
       "id": "mg-orig-088",
@@ -1552,7 +1562,8 @@
       "answer": 17.32,
       "tolerance": 0.2,
       "solution": "**Concept.** Heave $=$ net slip $\\times\\cos(\\text{fault dip})$.\n\n**Working.**\n$$\\text{heave}=20\\cos30^\\circ=20\\times0.8660=17.32\\ \\text{m}$$\n\n**Answer.** $\\approx 17.3\\ \\text{m}$.",
-      "archetype": "C"
+      "archetype": "C",
+      "marks": 2
     },
     {
       "id": "mg-orig-089",
@@ -1570,7 +1581,8 @@
       "answer": 26.57,
       "tolerance": 0.3,
       "solution": "**Concept.** $\\text{dip}=\\arctan\\left(\\dfrac{\\text{vertical drop}}{\\text{horizontal distance}}\\right)$.\n\n**Working.**\n$$\\text{dip}=\\arctan\\left(\\frac{50}{100}\\right)=\\arctan(0.5)=26.57^\\circ$$\n\n**Answer.** $\\approx 26.6^\\circ$.",
-      "archetype": "C"
+      "archetype": "C",
+      "marks": 2
     },
     {
       "id": "mg-orig-090",
@@ -1588,7 +1600,8 @@
       "answer": 45,
       "tolerance": 0.3,
       "solution": "**Concept.** $\\text{dip}=\\arctan\\left(\\dfrac{\\Delta\\text{depth}}{\\text{spacing}}\\right)$.\n\n**Working.**\n$$\\text{dip}=\\arctan\\left(\\frac{40}{40}\\right)=\\arctan(1)=45^\\circ$$\n\n**Answer.** $45^\\circ$.",
-      "archetype": "C"
+      "archetype": "C",
+      "marks": 1
     },
     {
       "id": "mg-orig-091",
@@ -1606,7 +1619,8 @@
       "answer": 280000,
       "tolerance": 100,
       "solution": "**Concept.** Tonnage $=$ area $\\times$ thickness $\\times$ density.\n\n**Working.**\n$$T=100000\\times2\\times1.4=280000\\ \\text{t}$$\n\n**Answer.** $280{,}000$ t.",
-      "archetype": "C"
+      "archetype": "C",
+      "marks": 2
     },
     {
       "id": "mg-orig-092",
@@ -1624,7 +1638,8 @@
       "answer": 224000,
       "tolerance": 100,
       "solution": "**Concept.** Recoverable reserve $=$ in-situ reserve $\\times$ recovery factor.\n\n**Working.**\n$$T_r=280000\\times0.80=224000\\ \\text{t}$$\n\n**Answer.** $224{,}000$ t.",
-      "archetype": "C"
+      "archetype": "C",
+      "marks": 2
     },
     {
       "id": "mg-orig-093",
@@ -1642,7 +1657,8 @@
       "answer": 75,
       "tolerance": 0.5,
       "solution": "**Concept.** $\\text{RQD}=\\dfrac{\\sum(\\text{intact pieces}\\ge10\\ \\text{cm})}{\\text{total run length}}\\times100$.\n\n**Working.**\n$$\\text{RQD}=\\frac{75}{100}\\times100=75\\%$$\n\n**Answer.** $75\\%$ (good rock mass).",
-      "archetype": "C"
+      "archetype": "C",
+      "marks": 1
     },
     {
       "id": "mg-orig-094",
@@ -1664,7 +1680,8 @@
         "markup": "<svg viewBox='0 0 180 160' xmlns='http://www.w3.org/2000/svg'><line x1='40' y1='80' x2='140' y2='80' stroke='#1f2937' stroke-width='2'/><line x1='90' y1='80' x2='90' y2='105' stroke='#1f2937' stroke-width='2'/><text x='96' y='100' font-size='9'>30</text><text x='28' y='140' font-size='8'>strike and dip symbol</text></svg>"
       },
       "solution": "**Concept.** A strike-and-dip symbol encodes both the strike line and the dip.\n\n**Reasoning.** The long line is drawn along strike, the short tick points in the down-dip direction (perpendicular to strike), and the adjacent number gives the dip amount in degrees.\n\n**Answer.** The long line is strike, the tick points down-dip, and 30 is the dip amount.",
-      "archetype": "C"
+      "archetype": "C",
+      "marks": 1
     },
     {
       "id": "mg-orig-095",
@@ -1686,7 +1703,8 @@
         "markup": "<svg viewBox='0 0 220 150' xmlns='http://www.w3.org/2000/svg'><g fill='none' stroke='#b45309' stroke-width='3'><path d='M20 120 Q110 50 200 120'/><path d='M20 135 Q110 70 200 135'/></g><line x1='110' y1='55' x2='110' y2='120' stroke='#1f2937' stroke-dasharray='3 2'/><text x='55' y='145' font-size='8'>limbs dip away from the axis</text></svg>"
       },
       "solution": "**Concept.** In an anticline the limbs dip outward (away) from the fold axis.\n\n**Reasoning.** Such an up-arching fold brings the stratigraphically oldest beds to its core, the diagnostic feature distinguishing it from a syncline.\n\n**Answer.** An anticline, with the oldest beds in its core.",
-      "archetype": "C"
+      "archetype": "C",
+      "marks": 1
     },
     {
       "id": "mg-orig-096",
@@ -1708,7 +1726,8 @@
         "markup": "<svg viewBox='0 0 220 160' xmlns='http://www.w3.org/2000/svg'><rect x='20' y='90' width='180' height='50' fill='#9ca3af' stroke='#475569'/><line x1='20' y1='90' x2='200' y2='90' stroke='#1f2937' stroke-width='2' stroke-dasharray='5 3'/><g stroke='#16a34a' stroke-width='3'><line x1='20' y1='70' x2='200' y2='70'/><line x1='20' y1='55' x2='200' y2='55'/></g><text x='55' y='120' font-size='9'>igneous / metamorphic</text><text x='28' y='40' font-size='8'>sediments over crystalline rock</text></svg>"
       },
       "solution": "**Concept.** A nonconformity separates sedimentary strata from underlying crystalline (igneous or metamorphic) rock.\n\n**Reasoning.** The basement was eroded before the overlying sediments were deposited, so younger bedded rocks lie directly on non-stratified crystalline rock.\n\n**Answer.** A nonconformity.",
-      "archetype": "C"
+      "archetype": "C",
+      "marks": 1
     },
     {
       "id": "mg-orig-097",
@@ -1730,7 +1749,8 @@
         "markup": "<svg viewBox='0 0 220 150' xmlns='http://www.w3.org/2000/svg'><polygon points='30,110 150,110 190,70 70,70' fill='#e5e7eb' stroke='#475569'/><line x1='70' y1='70' x2='150' y2='110' stroke='#dc2626' stroke-width='2'/><line x1='30' y1='110' x2='150' y2='110' stroke='#2563eb' stroke-width='2'/><text x='40' y='98' font-size='8'>true dip</text><text x='55' y='128' font-size='8'>apparent dip (oblique)</text></svg>"
       },
       "solution": "**Concept.** $\\tan(\\text{apparent})=\\tan(\\text{true})\\sin\\theta$, and $\\sin\\theta\\le1$.\n\n**Reasoning.** Because $\\sin\\theta$ cannot exceed one, the apparent dip can never exceed the true dip; it equals the true dip only when the section is perpendicular to strike.\n\n**Answer.** Less than or equal to the true dip.",
-      "archetype": "C"
+      "archetype": "C",
+      "marks": 1
     },
     {
       "id": "mg-orig-098",
@@ -1742,9 +1762,14 @@
       "options": [],
       "answer": 26.57,
       "tolerance": 0.1,
-      "figure": {"kind": "svg", "caption": "Dipping bed cross-section", "markup": "<svg viewBox='0 0 220 150' xmlns='http://www.w3.org/2000/svg'><line x1='20' y1='40' x2='200' y2='120' stroke='#a16207' stroke-width='4'/><line x1='20' y1='120' x2='200' y2='120' stroke='#475569'/><line x1='20' y1='40' x2='20' y2='120' stroke='#475569'/><text x='24' y='82' font-size='8'>drop 50</text><text x='98' y='135' font-size='8'>horizontal 100</text></svg>"},
+      "figure": {
+        "kind": "svg",
+        "caption": "Dipping bed cross-section",
+        "markup": "<svg viewBox='0 0 220 150' xmlns='http://www.w3.org/2000/svg'><line x1='20' y1='40' x2='200' y2='120' stroke='#a16207' stroke-width='4'/><line x1='20' y1='120' x2='200' y2='120' stroke='#475569'/><line x1='20' y1='40' x2='20' y2='120' stroke='#475569'/><text x='24' y='82' font-size='8'>drop 50</text><text x='98' y='135' font-size='8'>horizontal 100</text></svg>"
+      },
       "solution": "**Concept.** $\\text{dip}=\\tan^{-1}\\!\\left(\\dfrac{\\text{vertical}}{\\text{horizontal}}\\right)$.\n\n**Working.**\n$$\\delta=\\tan^{-1}\\!\\left(\\frac{50}{100}\\right)=\\tan^{-1}(0.5)=26.57^\\circ$$\n\n**Answer.** $26.57^\\circ$.",
-      "archetype": "C"
+      "archetype": "C",
+      "marks": 2
     },
     {
       "id": "mg-orig-099",
@@ -1760,9 +1785,14 @@
         "a recumbent fold with a horizontal axial plane"
       ],
       "answer": 0,
-      "figure": {"kind": "svg", "caption": "Arched fold", "markup": "<svg viewBox='0 0 220 140' xmlns='http://www.w3.org/2000/svg'><path d='M20 110 Q110 30 200 110' fill='none' stroke='#a16207' stroke-width='3'/><path d='M20 125 Q110 50 200 125' fill='none' stroke='#92400e' stroke-width='3'/><text x='72' y='132' font-size='8'>beds arch upward</text></svg>"},
+      "figure": {
+        "kind": "svg",
+        "caption": "Arched fold",
+        "markup": "<svg viewBox='0 0 220 140' xmlns='http://www.w3.org/2000/svg'><path d='M20 110 Q110 30 200 110' fill='none' stroke='#a16207' stroke-width='3'/><path d='M20 125 Q110 50 200 125' fill='none' stroke='#92400e' stroke-width='3'/><text x='72' y='132' font-size='8'>beds arch upward</text></svg>"
+      },
       "solution": "**Concept.** Fold nomenclature.\n\n**Reasoning.** Limbs dipping away from a crest, with the oldest strata exposed in the core, define an anticline.\n\n**Answer.** An anticline, with the oldest beds in the core and limbs dipping away from the axis.",
-      "archetype": "C"
+      "archetype": "C",
+      "marks": 1
     },
     {
       "id": "mg-orig-100",
@@ -1774,9 +1804,14 @@
       "options": [],
       "answer": 20,
       "tolerance": 0.1,
-      "figure": {"kind": "svg", "caption": "Normal fault offset", "markup": "<svg viewBox='0 0 220 150' xmlns='http://www.w3.org/2000/svg'><rect x='20' y='50' width='90' height='15' fill='#a16207'/><rect x='110' y='70' width='90' height='15' fill='#a16207'/><line x1='110' y1='30' x2='110' y2='130' stroke='#dc2626' stroke-width='2' stroke-dasharray='4 3'/><text x='24' y='130' font-size='8'>marker offset 20 m vertical</text></svg>"},
+      "figure": {
+        "kind": "svg",
+        "caption": "Normal fault offset",
+        "markup": "<svg viewBox='0 0 220 150' xmlns='http://www.w3.org/2000/svg'><rect x='20' y='50' width='90' height='15' fill='#a16207'/><rect x='110' y='70' width='90' height='15' fill='#a16207'/><line x1='110' y1='30' x2='110' y2='130' stroke='#dc2626' stroke-width='2' stroke-dasharray='4 3'/><text x='24' y='130' font-size='8'>marker offset 20 m vertical</text></svg>"
+      },
       "solution": "**Concept.** Throw is the vertical component of fault displacement.\n\n**Working.** The same horizon sits $20\\ \\text{m}$ lower across the fault, so the throw equals $20\\ \\text{m}$.\n\n**Answer.** $20$ m.",
-      "archetype": "C"
+      "archetype": "C",
+      "marks": 1
     },
     {
       "id": "mg-orig-101",
@@ -1788,9 +1823,14 @@
       "options": [],
       "answer": 60,
       "tolerance": 0.5,
-      "figure": {"kind": "svg", "caption": "Outcrop of a dipping bed", "markup": "<svg viewBox='0 0 220 150' xmlns='http://www.w3.org/2000/svg'><polygon points='40,120 160,120 120,40' fill='#a16207' stroke='#475569'/><line x1='40' y1='130' x2='160' y2='130' stroke='#2563eb'/><text x='58' y='145' font-size='8'>outcrop width?</text><text x='92' y='92' font-size='8'>t=30, dip 30 deg</text></svg>"},
+      "figure": {
+        "kind": "svg",
+        "caption": "Outcrop of a dipping bed",
+        "markup": "<svg viewBox='0 0 220 150' xmlns='http://www.w3.org/2000/svg'><polygon points='40,120 160,120 120,40' fill='#a16207' stroke='#475569'/><line x1='40' y1='130' x2='160' y2='130' stroke='#2563eb'/><text x='58' y='145' font-size='8'>outcrop width?</text><text x='92' y='92' font-size='8'>t=30, dip 30 deg</text></svg>"
+      },
       "solution": "**Concept.** On flat ground $w=\\dfrac{t}{\\sin\\delta}$.\n\n**Working.**\n$$w=\\frac{30}{\\sin30^\\circ}=\\frac{30}{0.5}=60\\ \\text{m}$$\n\n**Answer.** $60$ m.",
-      "archetype": "C"
+      "archetype": "C",
+      "marks": 2
     },
     {
       "id": "mg-orig-102",
@@ -1806,9 +1846,14 @@
         "an igneous intrusion"
       ],
       "answer": 0,
-      "figure": {"kind": "svg", "caption": "Angular unconformity", "markup": "<svg viewBox='0 0 220 150' xmlns='http://www.w3.org/2000/svg'><g stroke='#475569'><line x1='20' y1='60' x2='200' y2='60'/><line x1='20' y1='72' x2='200' y2='72'/></g><path d='M20 90 Q110 70 200 90' fill='none' stroke='#dc2626' stroke-width='2'/><g stroke='#92400e' stroke-width='2'><line x1='30' y1='110' x2='90' y2='130'/><line x1='110' y1='100' x2='170' y2='125'/></g><text x='28' y='148' font-size='8'>tilted beds below, flat above</text></svg>"},
+      "figure": {
+        "kind": "svg",
+        "caption": "Angular unconformity",
+        "markup": "<svg viewBox='0 0 220 150' xmlns='http://www.w3.org/2000/svg'><g stroke='#475569'><line x1='20' y1='60' x2='200' y2='60'/><line x1='20' y1='72' x2='200' y2='72'/></g><path d='M20 90 Q110 70 200 90' fill='none' stroke='#dc2626' stroke-width='2'/><g stroke='#92400e' stroke-width='2'><line x1='30' y1='110' x2='90' y2='130'/><line x1='110' y1='100' x2='170' y2='125'/></g><text x='28' y='148' font-size='8'>tilted beds below, flat above</text></svg>"
+      },
       "solution": "**Concept.** Unconformities mark gaps in the record.\n\n**Reasoning.** Tilted, eroded older beds overlain by flat younger beds at an angular discordance define an angular unconformity.\n\n**Answer.** An angular unconformity.",
-      "archetype": "C"
+      "archetype": "C",
+      "marks": 1
     },
     {
       "id": "mg-orig-103",
@@ -1820,9 +1865,14 @@
       "options": [],
       "answer": 34.64,
       "tolerance": 0.1,
-      "figure": {"kind": "svg", "caption": "Vertical hole through a dipping bed", "markup": "<svg viewBox='0 0 220 160' xmlns='http://www.w3.org/2000/svg'><line x1='110' y1='20' x2='110' y2='140' stroke='#1f2937' stroke-width='2'/><polygon points='40,60 200,100 200,115 40,75' fill='#a16207' stroke='#475569'/><text x='114' y='92' font-size='8'>vertical hole</text><text x='28' y='152' font-size='8'>intercept 40, dip 30 deg</text></svg>"},
+      "figure": {
+        "kind": "svg",
+        "caption": "Vertical hole through a dipping bed",
+        "markup": "<svg viewBox='0 0 220 160' xmlns='http://www.w3.org/2000/svg'><line x1='110' y1='20' x2='110' y2='140' stroke='#1f2937' stroke-width='2'/><polygon points='40,60 200,100 200,115 40,75' fill='#a16207' stroke='#475569'/><text x='114' y='92' font-size='8'>vertical hole</text><text x='28' y='152' font-size='8'>intercept 40, dip 30 deg</text></svg>"
+      },
       "solution": "**Concept.** True thickness $t=h\\cos\\delta$ for a vertical hole.\n\n**Working.**\n$$t=40\\cos30^\\circ=40\\times0.8660=34.64\\ \\text{m}$$\n\n**Answer.** $34.64$ m.",
-      "archetype": "C"
+      "archetype": "C",
+      "marks": 2
     },
     {
       "id": "mg-orig-104",
@@ -1838,9 +1888,14 @@
         "the trend of a lineation"
       ],
       "answer": 0,
-      "figure": {"kind": "svg", "caption": "Strike and dip on a plane", "markup": "<svg viewBox='0 0 200 160' xmlns='http://www.w3.org/2000/svg'><line x1='40' y1='60' x2='160' y2='60' stroke='#1f2937' stroke-width='3'/><line x1='100' y1='60' x2='100' y2='100' stroke='#dc2626' stroke-width='2'/><polygon points='100,100 95,90 105,90' fill='#dc2626'/><text x='46' y='50' font-size='8'>strike line</text><text x='106' y='90' font-size='8'>dip</text></svg>"},
+      "figure": {
+        "kind": "svg",
+        "caption": "Strike and dip on a plane",
+        "markup": "<svg viewBox='0 0 200 160' xmlns='http://www.w3.org/2000/svg'><line x1='40' y1='60' x2='160' y2='60' stroke='#1f2937' stroke-width='3'/><line x1='100' y1='60' x2='100' y2='100' stroke='#dc2626' stroke-width='2'/><polygon points='100,100 95,90 105,90' fill='#dc2626'/><text x='46' y='50' font-size='8'>strike line</text><text x='106' y='90' font-size='8'>dip</text></svg>"
+      },
       "solution": "**Concept.** Strike and dip are orthogonal.\n\n**Reasoning.** The horizontal line of intersection of the bedding plane with a horizontal surface is the strike, always perpendicular to the dip direction.\n\n**Answer.** The strike, which is horizontal and perpendicular to the dip direction.",
-      "archetype": "C"
+      "archetype": "C",
+      "marks": 1
     },
     {
       "id": "mg-orig-105",
@@ -1856,9 +1911,14 @@
         "a monocline"
       ],
       "answer": 0,
-      "figure": {"kind": "svg", "caption": "Trough fold", "markup": "<svg viewBox='0 0 220 140' xmlns='http://www.w3.org/2000/svg'><path d='M20 40 Q110 120 200 40' fill='none' stroke='#a16207' stroke-width='3'/><path d='M20 25 Q110 100 200 25' fill='none' stroke='#92400e' stroke-width='3'/><text x='76' y='130' font-size='8'>beds sag downward</text></svg>"},
+      "figure": {
+        "kind": "svg",
+        "caption": "Trough fold",
+        "markup": "<svg viewBox='0 0 220 140' xmlns='http://www.w3.org/2000/svg'><path d='M20 40 Q110 120 200 40' fill='none' stroke='#a16207' stroke-width='3'/><path d='M20 25 Q110 100 200 25' fill='none' stroke='#92400e' stroke-width='3'/><text x='76' y='130' font-size='8'>beds sag downward</text></svg>"
+      },
       "solution": "**Concept.** Fold nomenclature.\n\n**Reasoning.** Limbs dipping toward a central trough with the youngest beds preserved in the core define a syncline.\n\n**Answer.** A syncline, with the youngest beds in the core and limbs dipping toward the axis.",
-      "archetype": "C"
+      "archetype": "C",
+      "marks": 1
     },
     {
       "id": "mg-orig-106",
@@ -1870,9 +1930,14 @@
       "options": [],
       "answer": 11.31,
       "tolerance": 0.1,
-      "figure": {"kind": "svg", "caption": "Structure contours", "markup": "<svg viewBox='0 0 220 150' xmlns='http://www.w3.org/2000/svg'><g stroke='#2563eb'><line x1='40' y1='30' x2='40' y2='120'/><line x1='90' y1='30' x2='90' y2='120'/><line x1='140' y1='30' x2='140' y2='120'/><line x1='190' y1='30' x2='190' y2='120'/></g><text x='28' y='140' font-size='8'>VI=10 m, spacing 50 m</text></svg>"},
+      "figure": {
+        "kind": "svg",
+        "caption": "Structure contours",
+        "markup": "<svg viewBox='0 0 220 150' xmlns='http://www.w3.org/2000/svg'><g stroke='#2563eb'><line x1='40' y1='30' x2='40' y2='120'/><line x1='90' y1='30' x2='90' y2='120'/><line x1='140' y1='30' x2='140' y2='120'/><line x1='190' y1='30' x2='190' y2='120'/></g><text x='28' y='140' font-size='8'>VI=10 m, spacing 50 m</text></svg>"
+      },
       "solution": "**Concept.** $\\text{dip}=\\tan^{-1}\\!\\left(\\dfrac{\\text{vertical interval}}{\\text{horizontal spacing}}\\right)$.\n\n**Working.**\n$$\\delta=\\tan^{-1}\\!\\left(\\frac{10}{50}\\right)=\\tan^{-1}(0.2)=11.31^\\circ$$\n\n**Answer.** $11.31^\\circ$.",
-      "archetype": "C"
+      "archetype": "C",
+      "marks": 2
     },
     {
       "id": "mg-orig-107",
@@ -1888,9 +1953,14 @@
         "a syncline"
       ],
       "answer": 0,
-      "figure": {"kind": "svg", "caption": "Down-dropped block", "markup": "<svg viewBox='0 0 220 150' xmlns='http://www.w3.org/2000/svg'><rect x='20' y='50' width='50' height='15' fill='#a16207'/><rect x='90' y='90' width='40' height='15' fill='#a16207'/><rect x='150' y='50' width='50' height='15' fill='#a16207'/><g stroke='#dc2626' stroke-dasharray='4 3'><line x1='75' y1='40' x2='90' y2='120'/><line x1='145' y1='40' x2='130' y2='120'/></g><text x='38' y='140' font-size='8'>central block down-dropped</text></svg>"},
+      "figure": {
+        "kind": "svg",
+        "caption": "Down-dropped block",
+        "markup": "<svg viewBox='0 0 220 150' xmlns='http://www.w3.org/2000/svg'><rect x='20' y='50' width='50' height='15' fill='#a16207'/><rect x='90' y='90' width='40' height='15' fill='#a16207'/><rect x='150' y='50' width='50' height='15' fill='#a16207'/><g stroke='#dc2626' stroke-dasharray='4 3'><line x1='75' y1='40' x2='90' y2='120'/><line x1='145' y1='40' x2='130' y2='120'/></g><text x='38' y='140' font-size='8'>central block down-dropped</text></svg>"
+      },
       "solution": "**Concept.** Extensional fault blocks.\n\n**Reasoning.** A central block lowered between two normal faults dipping toward each other is a graben; the opposite (up-thrown) block is a horst.\n\n**Answer.** A graben, a block down-dropped between two normal faults.",
-      "archetype": "C"
+      "archetype": "C",
+      "marks": 1
     },
     {
       "id": "mg-orig-108",
@@ -1902,9 +1972,14 @@
       "options": [],
       "answer": 50,
       "tolerance": 0.5,
-      "figure": {"kind": "svg", "caption": "Outcrop width to thickness", "markup": "<svg viewBox='0 0 220 150' xmlns='http://www.w3.org/2000/svg'><polygon points='40,110 140,110 100,50' fill='#a16207' stroke='#475569'/><line x1='40' y1='122' x2='140' y2='122' stroke='#2563eb'/><text x='52' y='138' font-size='8'>map width 100, dip 30 deg</text></svg>"},
+      "figure": {
+        "kind": "svg",
+        "caption": "Outcrop width to thickness",
+        "markup": "<svg viewBox='0 0 220 150' xmlns='http://www.w3.org/2000/svg'><polygon points='40,110 140,110 100,50' fill='#a16207' stroke='#475569'/><line x1='40' y1='122' x2='140' y2='122' stroke='#2563eb'/><text x='52' y='138' font-size='8'>map width 100, dip 30 deg</text></svg>"
+      },
       "solution": "**Concept.** On flat ground $t=w\\sin\\delta$.\n\n**Working.**\n$$t=100\\sin30^\\circ=100\\times0.5=50\\ \\text{m}$$\n\n**Answer.** $50$ m.",
-      "archetype": "C"
+      "archetype": "C",
+      "marks": 1
     }
   ]
 }

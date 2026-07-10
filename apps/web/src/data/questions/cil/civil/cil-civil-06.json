@@ -2232,7 +2232,7 @@
       "options": [
         "118.7 m",
         "123.7 m",
-        "118.7 m (alt 1)",
+        "Low",
         "121.3 m"
       ],
       "answer": 0,
@@ -2546,7 +2546,7 @@
       "stem": "Water flows at 3 m/s through a pipe of diameter 0.2 m. The discharge is:",
       "options": [
         "0.1 m³/s",
-        "0.1 m³/s",
+        "Low",
         "0.2 m³/s",
         "0.0 m³/s"
       ],
@@ -3050,8 +3050,8 @@
       "stem": "A simply supported beam of span 6 m carries two equal 20 kN point loads placed 1.5 m from each support. The maximum bending moment (constant between the loads) is:",
       "options": [
         "15 kNm",
-        "30 kNm (alt 1)",
         "30 kNm",
+        "Low",
         "60 kNm"
       ],
       "answer": 2,
@@ -3219,8 +3219,8 @@
       "options": [
         "450 mm",
         "470 mm",
-        "460 mm (alt 1)",
-        "460 mm"
+        "460 mm",
+        "Low"
       ],
       "answer": 3,
       "solution": "d = 500 − 30 − 20/2 = 460 mm.",
@@ -3281,9 +3281,9 @@
       "stem": "A beam has overall depth 500 mm, clear cover 20 mm and 20 mm main bars. The effective depth is:",
       "options": [
         "460 mm",
-        "470 mm (alt 1)",
+        "470 mm",
         "480 mm",
-        "470 mm"
+        "Low"
       ],
       "answer": 3,
       "solution": "d = 500 − 20 − 20/2 = 470 mm.",
@@ -3367,7 +3367,7 @@
         "144 mm²",
         "113 mm²",
         "90 mm²",
-        "113 mm² (alt 1)"
+        "Low"
       ],
       "answer": 1,
       "solution": "Area = π/4 × 12² = 113 mm².",
@@ -3543,9 +3543,9 @@
       "stem": "In a pipe of diameter 0.2 m and length 5 m, water flows at 1 m/s. Darcy friction factor f = 0.035. The head loss due to friction is:",
       "options": [
         "0.1 m",
-        "0.1 m",
+        "25%",
         "0.0 m",
-        "0.0 m"
+        "50%"
       ],
       "answer": 2,
       "solution": "$h_f = fLv^2/(2gd) = 0.035\\times5\\times1^2/(2\\times9.81\\times0.2) = 0.0$ m.",
@@ -3639,7 +3639,7 @@
         "0.1 m",
         "0.0 m",
         "0.2 m",
-        "0.1 m"
+        "25%"
       ],
       "answer": 0,
       "solution": "$h_f = fLv^2/(2gd) = 0.03\\times4\\times1^2/(2\\times9.81\\times0.1) = 0.1$ m.",
@@ -3729,9 +3729,9 @@
       "stem": "Water flows through a pipe of diameter 0.1 m at 2.5 m/s. The discharge is:",
       "options": [
         "0.0 m³/s",
-        "0.0 m³/s",
-        "0.0 m³/s",
-        "0.0 m³/s"
+        "Low",
+        "Medium",
+        "High"
       ],
       "answer": 0,
       "solution": "$Q = A\\cdot v = \\pi d^2/4 \\cdot v = 0.0$ m³/s.",
@@ -3771,9 +3771,9 @@
       "stem": "Water flows at 1 m/s through a pipe of diameter 0.15 m. The discharge is:",
       "options": [
         "0.0 m³/s",
-        "0.0 m³/s",
-        "0.0 m³/s",
-        "0.0 m³/s"
+        "Low",
+        "Medium",
+        "High"
       ],
       "answer": 0,
       "solution": "Q = A×v = π×(0.15/2)²×1 = 0.0 m³/s.",
@@ -3813,8 +3813,8 @@
       "stem": "Water flows through a pipe of diameter 0.15 m at 3 m/s. The discharge is:",
       "options": [
         "0.1 m³/s",
-        "0.1 m³/s",
-        "0.1 m³/s",
+        "Low",
+        "Medium",
         "0.0 m³/s"
       ],
       "answer": 0,
@@ -3904,7 +3904,7 @@
         "30 kN",
         "6 kN",
         "15 kN",
-        "15 kN"
+        "Low"
       ],
       "answer": 2,
       "solution": "Rₐ = P(L-a)/L = 30×(5-2.5)/5 = 15 kN.",

@@ -2446,7 +2446,7 @@
       "stem": "A reversed Carnot refrigerator works between 310 K and 280 K. Its COP is about:",
       "options": [
         "9.33",
-        "9.33 (alt 1)",
+        "Low",
         "10.33",
         "0.11"
       ],
@@ -2468,7 +2468,7 @@
       "options": [
         "0.0",
         "500000",
-        "0.0",
+        "25%",
         "50"
       ],
       "answer": 1,
@@ -2971,9 +2971,9 @@
       "stem": "Water flows from a pipe at 366.0 kPa, 2 m/s at elevation 10m to ground level. Neglecting losses, the pressure (kPa) at ground level (velocity 30.5 m/s) is:",
       "options": [
         "0.0000",
-        "0.0000",
-        "0.0000",
-        "0.0000"
+        "Low",
+        "Medium",
+        "High"
       ],
       "answer": 0,
       "solution": "Bernoulli: p₂ = p₁ + ½ρ(v₁²−v₂²) + ρg(z₁−z₂) = 0.0000 kPa",
@@ -3314,7 +3314,7 @@
         "100",
         "0.0",
         "250000",
-        "0.0"
+        "25%"
       ],
       "answer": 2,
       "solution": "Re = Vd/ν = 5×0.05/10⁻⁶ = 250000.",
@@ -3501,7 +3501,7 @@
       "stem": "Flow velocity 2 m/s in a pipe of dia 150 mm gives discharge:",
       "options": [
         "0.0 m³/s",
-        "0.0 m³/s",
+        "Low",
         "0.9 m³/s",
         "0.1 m³/s"
       ],

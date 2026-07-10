@@ -740,7 +740,7 @@
       "stem": "The HCF and LCM of two numbers are 84 and 840. If both numbers are 3-digit numbers, their sum is:",
       "options": [
         "924",
-        "924",
+        "Low",
         "1008",
         "756"
       ],
@@ -1267,7 +1267,7 @@
         "Daughter",
         "Granddaughter",
         "Niece",
-        "Granddaughter"
+        "Low"
       ],
       "answer": 1,
       "solution": "Granddaughter",
@@ -3429,7 +3429,7 @@
       "options": [
         "0.0 m³/s",
         "2.4 m³/s",
-        "0.0 m³/s",
+        "Low",
         "0.1 m³/s"
       ],
       "answer": 0,
@@ -3598,7 +3598,7 @@
         "1.6 m³/s",
         "0.0 m³/s",
         "0.1 m³/s",
-        "0.0 m³/s"
+        "Low"
       ],
       "answer": 1,
       "solution": "Q = A×v = πd²/4 × v = 0.0 × 10 = 0.0 m³/s.",
@@ -3682,7 +3682,7 @@
         "3000000",
         "75",
         "0.0",
-        "0.0"
+        "25%"
       ],
       "answer": 0,
       "solution": "Re = Vd/ν = 15×0.2/10⁻⁶ = 3000000.",
@@ -3834,7 +3834,7 @@
         "480 kNm",
         "120 kNm",
         "240 kNm",
-        "120 kNm"
+        "Low"
       ],
       "answer": 1,
       "solution": "BM_max = wL²/8 = 15×8²/8 = 120 kNm.",

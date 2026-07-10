@@ -994,7 +994,7 @@
         "3:4:2",
         "5:4:3",
         "4:3:2",
-        "5:4:3"
+        "Low"
       ],
       "answer": 2,
       "solution": "4:3:2",
@@ -2378,9 +2378,9 @@
       "stem": "Water flows through the contracting pipe shown from diameter 10 cm (V₁ = 4 m/s) to 10 cm. The velocity in the smaller section is:",
       "options": [
         "4 m/s",
-        "4 m/s (alt 1)",
+        "25%",
         "6 m/s",
-        "4 m/s (alt 2)"
+        "50%"
       ],
       "answer": 0,
       "solution": "A₁V₁ = A₂V₂ ⇒ V₂ = V₁(d₁/d₂)² = 4×(10/10)² = 4 m/s.",
@@ -2593,7 +2593,7 @@
       "stem": "A refrigerator extracts 200 W of heat using 100 W of work. Its COP is:",
       "options": [
         "2",
-        "2 (alt 1)",
+        "Low",
         "3",
         "0.5"
       ],
@@ -3313,7 +3313,7 @@
       "options": [
         "100 kNm",
         "200 kNm",
-        "100 kNm",
+        "Low",
         "50 kNm"
       ],
       "answer": 3,
@@ -3334,7 +3334,7 @@
       "options": [
         "960 kNm",
         "240 kNm",
-        "240 kNm",
+        "Low",
         "480 kNm"
       ],
       "answer": 1,
@@ -3571,7 +3571,7 @@
         "4002.5 kN",
         "2001.2 kN",
         "133.4 kN",
-        "2001.2 kN"
+        "100 kΩ"
       ],
       "answer": 1,
       "solution": "F = ρgȟA = 13600×9.81×15×1 = 2001.2 kN.",
@@ -3697,7 +3697,7 @@
         "3000000",
         "133.3",
         "0.0",
-        "0.0"
+        "25%"
       ],
       "answer": 0,
       "solution": "Re = Vd/ν = 20×0.15/10⁻⁶ = 3000000.",
@@ -3737,7 +3737,7 @@
       "stem": "Total pressure on a vertical gate of area 1 m² submerged with centroid at depth 2 m:",
       "options": [
         "15.7 kN",
-        "15.7 kN",
+        "100 kΩ",
         "31.4 kN",
         "7.8 kN"
       ],
@@ -4120,9 +4120,9 @@
       "stem": "Water flows from a pipe at 211.0 kPa, 2 m/s at elevation 10m to ground level. Neglecting losses, the pressure (kPa) at ground level (velocity 24.9 m/s) is:",
       "options": [
         "-0.0000",
-        "-0.0000",
-        "-0.0000",
-        "-0.0000"
+        "Low",
+        "Medium",
+        "High"
       ],
       "answer": 0,
       "solution": "Bernoulli: p₂ = p₁ + ½ρ(v₁²−v₂²) + ρg(z₁−z₂) = -0.0000 kPa",
