@@ -57,6 +57,7 @@ export async function GET() {
     activity30,
     recentUsers,
     recentActivity,
+    reports30,
   ] = await Promise.all([
     db.user.count(),
     db.user.groupBy({ by: ["plan"], _count: { _all: true } }),
@@ -97,12 +98,18 @@ export async function GET() {
       take: 15,
       include: { user: { select: { email: true } } },
     }),
+    db.questionReport.findMany({
+      where: { createdAt: { gte: since30 } },
+      select: { createdAt: true, status: true },
+      take: 10_000,
+    }),
   ]);
 
-  // Build daily signup + attempt + activity series for the last 30 days.
+  // Build daily signup + attempt + activity + reports series for the last 30 days.
   const signupSeries = fillDailySeries(30);
   const attemptSeries = fillDailySeries(30);
   const activitySeries = fillDailySeries(30);
+  const reportSeries = fillDailySeries(30);
   const dauSet = new Map<string, Set<string>>();
 
   const signups30Rows = await db.user.findMany({
@@ -128,6 +135,10 @@ export async function GET() {
     if (activitySeries.has(k)) activitySeries.set(k, (activitySeries.get(k) ?? 0) + 1);
     if (!dauSet.has(k)) dauSet.set(k, new Set());
     dauSet.get(k)!.add(r.userId);
+  }
+  for (const r of reports30) {
+    const k = dateKey(r.createdAt);
+    if (reportSeries.has(k)) reportSeries.set(k, (reportSeries.get(k) ?? 0) + 1);
   }
   const dauSeries = Array.from(signupSeries.keys()).map((d) => ({
     date: d,
@@ -166,6 +177,7 @@ export async function GET() {
       signups: Array.from(signupSeries, ([date, count]) => ({ date, count })),
       attempts: Array.from(attemptSeries, ([date, count]) => ({ date, count })),
       activity: Array.from(activitySeries, ([date, count]) => ({ date, count })),
+      reports: Array.from(reportSeries, ([date, count]) => ({ date, count })),
       dau: dauSeries,
     },
     recent: {

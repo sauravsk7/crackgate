@@ -5,13 +5,14 @@ import { cn } from "@/lib/utils";
 import { QuestionTypeTag } from "@/components/question-extras";
 import { QuestionFigure, type QuestionFigure as Figure } from "@/components/question-figure";
 import { MathText } from "@/components/math-text";
+import { ReportIssueModal } from "@/components/report-issue-modal";
 import type { CilItemStat } from "@/lib/cil-analytics";
 
 /* A question as stored in the mock / PYQ banks. */
 type ReviewQuestion =
-  | { type: "MCQ"; marks: number; subject: string; stem: string; options: string[]; answer: number; solution?: string; figure?: Figure }
-  | { type: "MSQ"; marks: number; subject: string; stem: string; options: string[]; answer: number[]; solution?: string; figure?: Figure }
-  | { type: "NAT"; marks: number; subject: string; stem: string; answer: number; tolerance?: number; solution?: string; figure?: Figure };
+  | { id?: string; type: "MCQ"; marks: number; subject: string; stem: string; options: string[]; answer: number; solution?: string; figure?: Figure }
+  | { id?: string; type: "MSQ"; marks: number; subject: string; stem: string; options: string[]; answer: number[]; solution?: string; figure?: Figure }
+  | { id?: string; type: "NAT"; marks: number; subject: string; stem: string; answer: number; tolerance?: number; solution?: string; figure?: Figure };
 
 type Answer = number | number[] | string | null | undefined;
 
@@ -47,13 +48,15 @@ function deltaFor(q: ReviewQuestion, a: Answer): number {
  * answer and the full worked solution (GATE pattern).
  */
 export function ResultReview({
-  questions, answers, itemStats,
+  questions, answers, itemStats, mockRefId,
 }: {
   questions: ReviewQuestion[];
   answers: Record<string, Answer>;
   itemStats?: (CilItemStat | undefined)[] | null;
+  mockRefId: string;
 }) {
   const [filter, setFilter] = useState<"all" | "wrong" | "skipped">("all");
+  const [reportKey, setReportKey] = useState<string | null>(null);
 
   const rows = questions.map((q, i) => {
     const a = answers[String(i)];
@@ -154,12 +157,26 @@ export function ResultReview({
                 <MathText className="mt-1.5 leading-relaxed cg-solution">{q.solution}</MathText>
               </div>
             )}
+
+            <button
+              onClick={() => setReportKey(q.id ?? String(i))}
+              className="mt-3 text-xs text-muted hover:text-brand transition"
+            >
+              🚩 Report issue
+            </button>
           </article>
         ))}
         {shown.length === 0 && (
           <p className="text-sm text-muted text-center py-6">Nothing to show for this filter. 🎉</p>
         )}
       </div>
+
+      <ReportIssueModal
+        open={reportKey !== null}
+        onClose={() => setReportKey(null)}
+        questionKey={reportKey ?? ""}
+        mockRefId={mockRefId}
+      />
     </div>
   );
 }

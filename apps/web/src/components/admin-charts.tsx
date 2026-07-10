@@ -14,6 +14,7 @@ type Overview = {
     signups: Point[];
     attempts: Point[];
     activity: Point[];
+    reports: Point[];
     dau: Point[];
   };
 };
@@ -41,6 +42,7 @@ export function AdminCharts() {
   const signups = data.series.signups.map((p) => ({ ...p, label: shortDate(p.date) }));
   const attempts = data.series.attempts.map((p) => ({ ...p, label: shortDate(p.date) }));
   const dau = data.series.dau.map((p) => ({ ...p, label: shortDate(p.date) }));
+  const reports = data.series.reports.map((p) => ({ ...p, label: shortDate(p.date) }));
 
   return (
     <section className="mt-8 grid lg:grid-cols-2 gap-6">
@@ -88,6 +90,22 @@ export function AdminCharts() {
               <YAxis tick={{ fontSize: 11 }} allowDecimals={false} />
               <Tooltip />
               <Bar dataKey="count" fill="#10b981" radius={[4, 4, 0, 0]} />
+            </BarChart>
+          </ResponsiveContainer>
+        </div>
+      </div>
+
+      <div className="card p-6 lg:col-span-2">
+        <h2 className="font-bold text-lg">Reports per day (30 days)</h2>
+        <p className="text-sm text-muted">User-submitted question issues.</p>
+        <div className="w-full h-64 mt-4">
+          <ResponsiveContainer>
+            <BarChart data={reports} margin={{ top: 10, right: 10, left: 0, bottom: 0 }}>
+              <CartesianGrid strokeDasharray="3 3" stroke="rgba(0,0,0,0.06)" />
+              <XAxis dataKey="label" tick={{ fontSize: 11 }} interval={2} />
+              <YAxis tick={{ fontSize: 11 }} allowDecimals={false} />
+              <Tooltip />
+              <Bar dataKey="count" fill="#f59e0b" radius={[4, 4, 0, 0]} />
             </BarChart>
           </ResponsiveContainer>
         </div>

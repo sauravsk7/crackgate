@@ -9,6 +9,7 @@ import { QuestionTypeTag, CommunitySuccessRate } from "@/components/question-ext
 import { OfflineToast } from "@/components/offline-toast";
 import { QuestionFigure, type QuestionFigure as Figure } from "@/components/question-figure";
 import { MathText } from "@/components/math-text";
+import { ReportIssueModal } from "@/components/report-issue-modal";
 
 /* ------------------------------------------------------------------ */
 /* Types                                                              */
@@ -783,6 +784,7 @@ function PracticeReview({
 }) {
   const pct = totals.totalPossible > 0 ? (totals.score / totals.totalPossible) * 100 : 0;
   const skipped = questions.length - totals.attempted;
+  const [reportKey, setReportKey] = useState<string | null>(null);
   return (
     <div className="min-h-screen bg-canvas -mt-px">
       <header className="bg-gradient-to-r from-brand-2 to-brand text-white px-4 sm:px-5 py-4">
@@ -859,11 +861,25 @@ function PracticeReview({
                   <MathText className="mt-1.5 leading-relaxed cg-solution">{qq.solution}</MathText>
                   <CommunitySuccessRate qid={qq.id} difficulty={qq.difficulty} />
                 </div>
+
+                <button
+                  onClick={() => setReportKey(qq.id)}
+                  className="mt-3 text-xs text-muted hover:text-brand transition"
+                >
+                  🚩 Report issue
+                </button>
               </article>
             );
           })}
         </div>
       </div>
+
+      <ReportIssueModal
+        open={reportKey !== null}
+        onClose={() => setReportKey(null)}
+        questionKey={reportKey ?? ""}
+        mockRefId={subjectName}
+      />
     </div>
   );
 }
