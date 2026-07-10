@@ -115,7 +115,7 @@ export default async function HomePage() {
       {/* ---------- ABOUT US ---------- */}
       <section className="max-w-7xl mx-auto px-5 py-20">
         <div className="text-center">
-          <span className="badge bg-brand/10 text-brand">About us</span>
+          <span className="badge bg-brand/10 text-brand">About Us</span>
           <h2 className="mt-3 text-3xl font-extrabold text-ink">Built by toppers, for every serious aspirant.</h2>
           <p className="mt-3 text-muted max-w-2xl mx-auto">
             Built by IIT Kharagpur alumni who&apos;ve cracked GATE themselves. Every question and solution is crafted by experts who know what it takes to succeed.
