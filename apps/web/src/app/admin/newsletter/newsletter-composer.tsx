@@ -10,12 +10,14 @@ export default function NewsletterComposer({
   subscriberSelectedCount = 0,
   userSelectedCount = 0,
   additionalCount = 0,
+  shareholdersCount = 0,
 }: {
   subscriberCount: number;
   selectedEmails: Set<string>;
   subscriberSelectedCount?: number;
   userSelectedCount?: number;
   additionalCount?: number;
+  shareholdersCount?: number;
 }) {
   const [subject, setSubject] = useState("");
   const [html, setHtml] = useState("");
@@ -86,6 +88,7 @@ export default function NewsletterComposer({
                   subscriberSelectedCount > 0 && `${subscriberSelectedCount} subscriber${subscriberSelectedCount === 1 ? "" : "s"}`,
                   userSelectedCount > 0 && `${userSelectedCount} user${userSelectedCount === 1 ? "" : "s"}`,
                   additionalCount > 0 && `${additionalCount} additional`,
+                  shareholdersCount > 0 && `${shareholdersCount} testers/dev`,
                 ]
                   .filter(Boolean)
                   .join(" + ") + " selected"

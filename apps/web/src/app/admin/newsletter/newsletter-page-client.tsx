@@ -25,6 +25,7 @@ interface Props {
   subscriberCount: number;
   users: RegisteredUser[];
   userCount: number;
+  shareholderEmails: string[];
 }
 
 export default function NewsletterPageClient({
@@ -32,14 +33,21 @@ export default function NewsletterPageClient({
   subscriberCount,
   users,
   userCount,
+  shareholderEmails,
 }: Props) {
   const [subscriberSelected, setSubscriberSelected] = useState<Set<string>>(new Set());
   const [userSelected, setUserSelected] = useState<Set<string>>(new Set());
   const [additionalEmails, setAdditionalEmails] = useState<Set<string>>(new Set());
+  const [includeShareholders, setIncludeShareholders] = useState(false);
 
   const allSelected = useMemo(
-    () => new Set([...subscriberSelected, ...userSelected, ...additionalEmails]),
-    [subscriberSelected, userSelected, additionalEmails],
+    () => new Set([
+      ...subscriberSelected,
+      ...userSelected,
+      ...additionalEmails,
+      ...(includeShareholders ? shareholderEmails : []),
+    ]),
+    [subscriberSelected, userSelected, additionalEmails, includeShareholders, shareholderEmails],
   );
 
   const paidUsers = users.filter((u) => u.plan && u.plan !== "free").length;
@@ -79,11 +87,29 @@ export default function NewsletterPageClient({
         />
       </div>
 
-      <div className="mt-6 max-w-2xl">
+      <div className="mt-6 grid lg:grid-cols-2 gap-6">
         <AdditionalEmails
           additionalEmails={additionalEmails}
           onChange={setAdditionalEmails}
         />
+
+        <div className="card p-5 flex flex-col justify-center">
+          <label className="flex items-start gap-3 cursor-pointer">
+            <input
+              type="checkbox"
+              checked={includeShareholders}
+              onChange={(e) => setIncludeShareholders(e.target.checked)}
+              className="mt-0.5"
+            />
+            <div>
+              <span className="font-medium text-sm">Include testers / developers / shareholders</span>
+              <p className="text-xs text-muted mt-0.5">
+                {shareholderEmails.length} email{shareholderEmails.length === 1 ? "" : "s"}:
+                {" "}{shareholderEmails.join(", ")}
+              </p>
+            </div>
+          </label>
+        </div>
       </div>
 
       <div className="mt-6">
@@ -93,6 +119,7 @@ export default function NewsletterPageClient({
           subscriberSelectedCount={subscriberSelected.size}
           userSelectedCount={userSelected.size}
           additionalCount={additionalEmails.size}
+          shareholdersCount={includeShareholders ? shareholderEmails.length : 0}
         />
       </div>
     </>
