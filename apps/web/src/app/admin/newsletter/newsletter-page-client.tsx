@@ -3,6 +3,7 @@
 import { useState, useMemo } from "react";
 import SubscriberList from "./subscriber-list";
 import RegisteredUsersList from "./registered-users-list";
+import AdditionalEmails from "./additional-emails";
 import NewsletterComposer from "./newsletter-composer";
 
 interface Subscriber {
@@ -34,10 +35,11 @@ export default function NewsletterPageClient({
 }: Props) {
   const [subscriberSelected, setSubscriberSelected] = useState<Set<string>>(new Set());
   const [userSelected, setUserSelected] = useState<Set<string>>(new Set());
+  const [additionalEmails, setAdditionalEmails] = useState<Set<string>>(new Set());
 
   const allSelected = useMemo(
-    () => new Set([...subscriberSelected, ...userSelected]),
-    [subscriberSelected, userSelected],
+    () => new Set([...subscriberSelected, ...userSelected, ...additionalEmails]),
+    [subscriberSelected, userSelected, additionalEmails],
   );
 
   const paidUsers = users.filter((u) => u.plan && u.plan !== "free").length;
@@ -77,12 +79,20 @@ export default function NewsletterPageClient({
         />
       </div>
 
+      <div className="mt-6 max-w-2xl">
+        <AdditionalEmails
+          additionalEmails={additionalEmails}
+          onChange={setAdditionalEmails}
+        />
+      </div>
+
       <div className="mt-6">
         <NewsletterComposer
           subscriberCount={subscriberCount}
           selectedEmails={allSelected}
           subscriberSelectedCount={subscriberSelected.size}
           userSelectedCount={userSelected.size}
+          additionalCount={additionalEmails.size}
         />
       </div>
     </>

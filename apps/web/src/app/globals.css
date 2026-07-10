@@ -99,6 +99,13 @@ body {
   [data-theme="dark"] .badge {
     @apply bg-slate-700 text-slate-200;
   }
+  .chip-email {
+    @apply inline-flex items-center gap-1 px-2 py-0.5 rounded-md text-xs font-medium bg-brand/10 text-brand border border-brand/20;
+  }
+  [data-theme="dark"] .chip-email {
+    @apply bg-slate-700 text-ink border;
+    border-color: rgb(116 62 228);
+  }
   .badge-free    { @apply bg-slate-100 text-slate-700; }
   .badge-pro     { @apply bg-amber-100 text-amber-800; }
   .badge-premium { @apply bg-gradient-to-r from-amber-400 to-amber-600 text-white; }
