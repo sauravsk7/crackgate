@@ -45,28 +45,6 @@ export default async function GateMiningPage() {
         </div>
       </section>
 
-      {/* ---------- ABOUT US ---------- */}
-      <section className="max-w-7xl mx-auto px-5 py-20">
-        <div className="text-center">
-          <span className="badge bg-brand/10 text-brand">About Us</span>
-          <h2 className="mt-3 text-3xl font-extrabold text-ink">Built by toppers, for every serious aspirant.</h2>
-          <p className="mt-3 text-muted max-w-2xl mx-auto">
-            CrackGate is created by IIT Kharagpur alumni who&apos;ve cracked GATE themselves — and now help thousands
-            of aspirants reach the same goal. Every question, solution and analytic is crafted by experts who
-            know exactly what it takes to succeed.
-          </p>
-        </div>
-        <div className="mt-10 grid gap-5 sm:grid-cols-2 max-w-3xl mx-auto">
-          <TeamCard initials="VY" name="Vikas Yadav" role="Founder" credentials="M.Tech, IIT Kharagpur" />
-          <TeamCard initials="VK" name="Vishal Kumar" role="Co-founder" credentials="B.Tech, BIT Sindri · M.Tech, IIT Kharagpur · Coal India Limited" />
-        </div>
-        <div className="mt-8 text-center">
-          <Link href="/about" className="text-sm font-semibold text-brand hover:underline">
-            Read our story →
-          </Link>
-        </div>
-      </section>
-
       {/* ---------- CTA ---------- */}
       {!session?.user && (
         <section className="bg-slate-900 text-white">
@@ -78,21 +56,6 @@ export default async function GateMiningPage() {
         </section>
       )}
     </>
-  );
-}
-
-function TeamCard({ initials, name, role, credentials }: { initials: string; name: string; role: string; credentials: string }) {
-  return (
-    <div className="card p-5 flex items-center gap-4">
-      <div className="shrink-0 w-14 h-14 rounded-full bg-brand/10 text-brand grid place-items-center font-bold text-lg">
-        {initials}
-      </div>
-      <div className="min-w-0">
-        <div className="font-bold text-ink">{name}</div>
-        <div className="text-xs uppercase tracking-wider text-muted font-semibold">{role}</div>
-        <div className="text-sm text-ink/80 mt-1">{credentials}</div>
-      </div>
-    </div>
   );
 }
 
