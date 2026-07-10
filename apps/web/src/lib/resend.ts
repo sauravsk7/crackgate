@@ -54,25 +54,26 @@ export async function sendNewsletter(opts: {
 }): Promise<SendResult> {
   const from = process.env.RESEND_FROM_EMAIL ?? "support@crackgate.in";
   const resend = getClient();
-  const BATCH_SIZE = 50;
+  const CONCURRENCY = 10;
   let sent = 0;
   let failed = 0;
 
-  for (let i = 0; i < opts.recipients.length; i += BATCH_SIZE) {
-    const batch = opts.recipients.slice(i, i + BATCH_SIZE);
-    const { error } = await resend.emails.send({
-      from,
-      to: [from],
-      bcc: batch,
-      subject: opts.subject,
-      html: opts.html,
-    });
+  for (let i = 0; i < opts.recipients.length; i += CONCURRENCY) {
+    const batch = opts.recipients.slice(i, i + CONCURRENCY);
+    const results = await Promise.all(
+      batch.map(async (email) => {
+        const { error } = await resend.emails.send({
+          from,
+          to: [email],
+          subject: opts.subject,
+          html: opts.html,
+        });
+        return !error;
+      }),
+    );
 
-    if (error) {
-      failed += batch.length;
-    } else {
-      sent += batch.length;
-    }
+    sent += results.filter(Boolean).length;
+    failed += results.filter((r) => !r).length;
   }
 
   return { sent, failed };
