@@ -27,6 +27,12 @@ interface Props {
   userCount: number;
 }
 
+const SHAREHOLDER_EMAILS = [
+  "backupsk7@gmail.com",
+  "vikaskashi896@gmail.com",
+  "kumarvishalsharma1999@gmail.com",
+];
+
 export default function NewsletterPageClient({
   subscribers,
   subscriberCount,
@@ -36,10 +42,16 @@ export default function NewsletterPageClient({
   const [subscriberSelected, setSubscriberSelected] = useState<Set<string>>(new Set());
   const [userSelected, setUserSelected] = useState<Set<string>>(new Set());
   const [additionalEmails, setAdditionalEmails] = useState<Set<string>>(new Set());
+  const [includeShareholders, setIncludeShareholders] = useState(false);
 
   const allSelected = useMemo(
-    () => new Set([...subscriberSelected, ...userSelected, ...additionalEmails]),
-    [subscriberSelected, userSelected, additionalEmails],
+    () => new Set([
+      ...subscriberSelected,
+      ...userSelected,
+      ...additionalEmails,
+      ...(includeShareholders ? SHAREHOLDER_EMAILS : []),
+    ]),
+    [subscriberSelected, userSelected, additionalEmails, includeShareholders],
   );
 
   const paidUsers = users.filter((u) => u.plan && u.plan !== "free").length;
@@ -79,11 +91,35 @@ export default function NewsletterPageClient({
         />
       </div>
 
-      <div className="mt-6 max-w-2xl">
+      <div className="mt-6 grid lg:grid-cols-2 gap-6">
         <AdditionalEmails
           additionalEmails={additionalEmails}
           onChange={setAdditionalEmails}
         />
+
+        <div className="card p-5">
+          <h2 className="font-bold text-lg mb-3">Quick add</h2>
+          <label className="flex items-start gap-3 cursor-pointer group">
+            <input
+              type="checkbox"
+              checked={includeShareholders}
+              onChange={(e) => setIncludeShareholders(e.target.checked)}
+              className="accent-brand mt-1 shrink-0"
+            />
+            <div className="min-w-0">
+              <span className="text-sm font-semibold group-hover:text-brand transition-colors">
+                Include testers / developers / shareholders
+              </span>
+              <ul className="mt-2 space-y-0.5">
+                {SHAREHOLDER_EMAILS.map((email) => (
+                  <li key={email} className="text-xs font-mono text-muted truncate">
+                    {email}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </label>
+        </div>
       </div>
 
       <div className="mt-6">
@@ -93,6 +129,7 @@ export default function NewsletterPageClient({
           subscriberSelectedCount={subscriberSelected.size}
           userSelectedCount={userSelected.size}
           additionalCount={additionalEmails.size}
+          shareholdersCount={includeShareholders ? SHAREHOLDER_EMAILS.length : 0}
         />
       </div>
     </>
