@@ -11,12 +11,14 @@ interface Subscriber {
   source: string;
   subscribedAt: string;
   plan: string | null;
+  isPaid: boolean;
 }
 
 interface RegisteredUser {
   email: string;
   name: string | null;
   plan: string;
+  isPaid: boolean;
   joinedAt: string;
 }
 
@@ -54,8 +56,8 @@ export default function NewsletterPageClient({
     [subscriberSelected, userSelected, additionalEmails, includeShareholders],
   );
 
-  const paidUsers = users.filter((u) => u.plan && u.plan !== "free").length;
-  const paidSubscribers = subscribers.filter((s) => s.plan && s.plan !== "free").length;
+  const paidUsers = users.filter((u) => u.isPaid).length;
+  const paidSubscribers = subscribers.filter((s) => s.isPaid).length;
 
   return (
     <>
