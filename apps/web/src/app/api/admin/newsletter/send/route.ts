@@ -44,8 +44,13 @@ export async function POST(request: Request) {
     }
     recipients = subscribers.map((s) => s.email);
   }
-  const wrapped = newsletterHtml(html);
-  const result = await sendNewsletter({ subject, html: wrapped, recipients });
-
-  return NextResponse.json({ ...result, recipients: recipients.length });
+  try {
+    const wrapped = newsletterHtml(html);
+    const result = await sendNewsletter({ subject, html: wrapped, recipients });
+    return NextResponse.json({ ...result, recipients: recipients.length });
+  } catch (err) {
+    console.error("[newsletter/send]", err);
+    const message = err instanceof Error ? err.message : "Send failed";
+    return NextResponse.json({ error: message, sent: 0, failed: recipients.length }, { status: 500 });
+  }
 }

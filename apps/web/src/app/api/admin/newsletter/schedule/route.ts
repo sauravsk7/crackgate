@@ -53,7 +53,13 @@ export async function POST(request: Request) {
     jobData.recipients = explicitRecipients;
   }
 
-  await newsletterQueue.add("send", jobData, { delay });
+  try {
+    await newsletterQueue.add("send", jobData, { delay });
+  } catch (err) {
+    console.error("[newsletter/schedule]", err);
+    const message = err instanceof Error ? err.message : "Schedule failed";
+    return NextResponse.json({ error: message }, { status: 500 });
+  }
 
   return NextResponse.json({
     recipients: recipientCount,
