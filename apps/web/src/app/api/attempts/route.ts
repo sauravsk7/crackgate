@@ -35,7 +35,9 @@ export async function GET() {
     return NextResponse.json({ attempts });
   } catch (error) {
     console.error("GET /api/attempts:", error);
-    getPostHogClient()?.captureException(error);
+    if (error instanceof Error) {
+      getPostHogClient()?.captureException(error);
+    }
     return NextResponse.json({ error: "Internal server error" }, { status: 500 });
   }
 }

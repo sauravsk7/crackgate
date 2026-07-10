@@ -78,7 +78,9 @@ export async function POST(req: Request) {
     return NextResponse.json({ ok: true });
   } catch (error) {
     console.error("POST /api/reports:", error);
-    getPostHogClient()?.captureException(error);
+    if (error instanceof Error) {
+      getPostHogClient()?.captureException(error);
+    }
     return NextResponse.json({ error: "Internal server error" }, { status: 500 });
   }
 }

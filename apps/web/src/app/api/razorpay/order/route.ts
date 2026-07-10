@@ -94,7 +94,9 @@ export async function POST(req: Request) {
   } catch (e) {
     const err = e as { statusCode?: number; error?: { description?: string }; message?: string };
     console.error("[razorpay/order]", err);
-    getPostHogClient()?.captureException(e);
+    if (e instanceof Error) {
+      getPostHogClient()?.captureException(e);
+    }
     return NextResponse.json(
       {
         error: "razorpay_error",

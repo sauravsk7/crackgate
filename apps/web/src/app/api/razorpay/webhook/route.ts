@@ -97,6 +97,9 @@ export async function POST(req: Request) {
         razorpay_order_id: p.order_id,
       },
     });
+    // Ensure the payment_captured event reaches PostHog even if the process
+    // is killed shortly after (e.g. deploy restart).
+    getPostHogClient()?.flush();
 
     // Queue WhatsApp receipt — never block the webhook response.
     try {

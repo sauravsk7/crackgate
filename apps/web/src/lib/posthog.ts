@@ -10,6 +10,10 @@ export function getPostHogClient(): PostHog | null {
       host: process.env.NEXT_PUBLIC_POSTHOG_HOST || "https://us.i.posthog.com",
       enableExceptionAutocapture: true,
     });
+    // Flush buffered events before the process exits so deploys / restarts
+    // don't silently drop analytics.
+    process.on("SIGTERM", () => { _client?.flush(); });
+    process.on("SIGINT",  () => { _client?.flush(); });
   }
   return _client;
 }
