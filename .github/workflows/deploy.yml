@@ -164,9 +164,6 @@ jobs:
             # swapped yet the job still exits 0. (Cost us a week of "phantom"
             # green deploys that never updated the running container.)
             if [ "${SKIP_MIGRATE}" != "true" ]; then
-              # Clear any failed migrations that block new ones from applying
-              docker compose -f docker-compose.aws.yml --env-file .env.production \\
-                run --rm -T web node ./node_modules/prisma/build/index.js migrate resolve --rolled-back 20260710064500_add_report_audit_fields --schema=packages/database/prisma/schema.prisma </dev/null || true
               docker compose -f docker-compose.aws.yml --env-file .env.production \\
                 run --rm -T web node ./node_modules/prisma/build/index.js migrate deploy --schema=packages/database/prisma/schema.prisma </dev/null
             fi
