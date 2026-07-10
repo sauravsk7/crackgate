@@ -47,11 +47,25 @@ async function buildDataset(dataset: string): Promise<{ headers: string[]; rows:
           id: true, email: true, name: true, phone: true, plan: true, planExpiry: true,
           role: true, targetYear: true, currentStatus: true,
           createdAt: true, lastLoginAt: true,
+          entitlements: { select: { exam: true, subject: true, tier: true } },
         },
       });
       return {
-        headers: ["id", "email", "name", "phone", "plan", "planExpiry", "role", "targetYear", "currentStatus", "createdAt", "lastLoginAt"],
-        rows: users as unknown as Row[],
+        headers: ["id", "email", "name", "phone", "plan", "planExpiry", "entitlements", "role", "targetYear", "currentStatus", "createdAt", "lastLoginAt"],
+        rows: users.map((u) => ({
+          id: u.id,
+          email: u.email,
+          name: u.name,
+          phone: u.phone,
+          plan: u.plan,
+          planExpiry: u.planExpiry,
+          entitlements: u.entitlements.map((e) => `${e.exam}:${e.subject}:${e.tier}`).join("; ") || null,
+          role: u.role,
+          targetYear: u.targetYear,
+          currentStatus: u.currentStatus,
+          createdAt: u.createdAt,
+          lastLoginAt: u.lastLoginAt,
+        })),
       };
     }
     case "attempts": {
@@ -118,6 +132,26 @@ async function buildDataset(dataset: string): Promise<{ headers: string[]; rows:
         })),
       };
     }
+    case "entitlements": {
+      const entitlements = await db.entitlement.findMany({
+        orderBy: { createdAt: "desc" },
+        include: { user: { select: { email: true, name: true } } },
+      });
+      return {
+        headers: ["id", "email", "userName", "exam", "subject", "tier", "source", "expiry", "createdAt"],
+        rows: entitlements.map((e) => ({
+          id: e.id,
+          email: e.user.email,
+          userName: e.user.name,
+          exam: e.exam,
+          subject: e.subject,
+          tier: e.tier,
+          source: e.source,
+          expiry: e.expiry,
+          createdAt: e.createdAt,
+        })),
+      };
+    }
     case "reports": {
       const reports = await db.questionReport.findMany({
         orderBy: { createdAt: "desc" },
@@ -158,7 +192,7 @@ export async function GET(req: NextRequest) {
     const dataset = req.nextUrl.searchParams.get("dataset") ?? "";
     const data = await buildDataset(dataset);
     if (!data) {
-      return new Response("unknown dataset (use users|attempts|activity|payments|reports)", { status: 400 });
+      return new Response("unknown dataset (use users|attempts|activity|payments|reports|entitlements)", { status: 400 });
     }
     const csv = toCsv(data.rows, data.headers);
     const stamp = new Date().toISOString().slice(0, 10);

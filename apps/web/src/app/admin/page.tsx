@@ -9,8 +9,35 @@ const AdminCharts = dynamicImport(() => import("@/components/admin-charts").then
 
 export const dynamic = "force-dynamic";
 
+const EXAM_LABELS: Record<string, string> = {
+  GATE: "GATE",
+  PSU: "PSU",
+  STATE: "State Level",
+  DIPLOMA: "Diploma",
+};
+
+const SUBJECT_LABELS: Record<string, string> = {
+  mining: "Mining",
+  civil: "Civil",
+  environment: "Environment",
+  geology: "Geology",
+  electrical: "Electrical",
+  mechanical: "Mechanical",
+  system: "System",
+  "e-and-t": "E&T",
+  "industrial-engineering": "Ind. Engg.",
+  "rpsc-ame": "RPSC AME",
+  "cgpsc-mining-officer": "CGPSC",
+  "coal-sirdar": "Coal Sirdar",
+  "coal-overman": "Coal Overman",
+};
+
 function inr(paise: number): string {
   return "₹" + Math.round(paise / 100).toLocaleString("en-IN");
+}
+
+function entitlementLabel(e: { exam: string; subject: string; tier: string }): string {
+  return `${EXAM_LABELS[e.exam] ?? e.exam} · ${SUBJECT_LABELS[e.subject] ?? e.subject} (${e.tier})`;
 }
 
 export default async function AdminPage() {
@@ -45,6 +72,11 @@ export default async function AdminPage() {
     reportsByType,
     reportsByExam,
     recentReports,
+    totalEntitlements,
+    entitlementsByExam,
+    entitlementsBySubject,
+    usersWithEntitlements,
+    allEntitlements,
   ] = await Promise.all([
     db.user.count(),
     db.user.groupBy({ by: ["plan"], _count: { _all: true } }),
@@ -68,7 +100,10 @@ export default async function AdminPage() {
     db.user.findMany({
       orderBy: { createdAt: "desc" },
       take: 10,
-      select: { id: true, email: true, name: true, plan: true, createdAt: true, lastLoginAt: true },
+      select: {
+        id: true, email: true, name: true, plan: true, createdAt: true, lastLoginAt: true,
+        entitlements: { select: { exam: true, subject: true, tier: true, expiry: true } },
+      },
     }),
     db.payment.findMany({
       orderBy: { createdAt: "desc" },
@@ -90,12 +125,25 @@ export default async function AdminPage() {
       take: 10,
       include: { user: { select: { email: true, name: true } } },
     }),
+    db.entitlement.count(),
+    db.entitlement.groupBy({ by: ["exam"], _count: { _all: true } }),
+    db.entitlement.groupBy({ by: ["subject"], _count: { _all: true } }),
+    db.entitlement.findMany({ select: { userId: true }, distinct: ["userId"] }),
+    db.entitlement.findMany({
+      orderBy: { createdAt: "desc" },
+      include: { user: { select: { email: true, name: true } } },
+    }),
   ]);
 
   const planMap: Record<string, number> = { free: 0, pro: 0, premium: 0 };
   for (const r of usersByPlan) planMap[r.plan] = r._count._all;
-  const paidUsers = planMap.pro + planMap.premium;
+
+  // Paid users = users with any entitlement (the real source of truth)
+  const paidUsers = usersWithEntitlements.length;
   const conversionPct = totalUsers ? Math.round((paidUsers / totalUsers) * 1000) / 10 : 0;
+
+  // Free users = total - paid
+  const freeUsers = totalUsers - paidUsers;
 
   return (
     <div className="max-w-7xl mx-auto px-5 py-10">
@@ -135,13 +183,14 @@ export default async function AdminPage() {
           <ExportBtn dataset="attempts" label="🧪 Attempts CSV" />
           <ExportBtn dataset="activity" label="📜 Activity CSV" />
           <ExportBtn dataset="reports" label="🚩 Reports CSV" />
+          <ExportBtn dataset="entitlements" label="🔑 Entitlements CSV" />
         </div>
       </div>
 
       {/* Top KPI row */}
       <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 mt-8">
         <Kpi label="Total users" value={totalUsers} sub={`${signups1} today · ${signups7} this week`} icon="👥" />
-        <Kpi label="Paid users" value={paidUsers} sub={`${planMap.pro} Pro · ${planMap.premium} Premium · ${conversionPct}% conversion`} icon="💎" tone="ok" />
+        <Kpi label="Paid users" value={paidUsers} sub={`${conversionPct}% conversion · ${freeUsers} free`} icon="💎" tone="ok" />
         <Kpi label="Active (7d)" value={activeUsers7} sub={`${attempts7} attempts in last 7 days`} icon="📈" />
         <Kpi
           label="Revenue (30d)"
@@ -161,35 +210,48 @@ export default async function AdminPage() {
 
       <AdminCharts />
 
-      {/* Plan breakdown + funnel */}
+      {/* Plan breakdown + Entitlements + Engagement */}
       <section className="mt-10 grid lg:grid-cols-3 gap-6">
+        {/* Entitlements breakdown (the real paid access) */}
         <div className="card p-6 lg:col-span-2">
-          <h2 className="font-bold text-lg">Plan breakdown</h2>
-          <div className="mt-4 space-y-3">
-            {(["free", "pro", "premium"] as const).map((plan) => {
-              const n = planMap[plan];
-              const pct = totalUsers ? Math.round((n / totalUsers) * 100) : 0;
-              return (
-                <div key={plan}>
-                  <div className="flex justify-between text-sm mb-1">
-                    <span className="capitalize font-semibold">{plan}</span>
-                    <span className="text-muted">
-                      {n} <span className="text-xs">({pct}%)</span>
-                    </span>
-                  </div>
-                  <div className="h-2 bg-slate-100 rounded-full overflow-hidden">
-                    <div
-                      className="h-full"
-                      style={{
-                        width: `${Math.max(2, pct)}%`,
-                        background: plan === "premium" ? "var(--brand-2, #7c3aed)" : plan === "pro" ? "var(--brand, #4f46e5)" : "var(--muted, #94a3b8)",
-                      }}
-                    />
-                  </div>
-                </div>
-              );
-            })}
+          <div className="flex justify-between items-end flex-wrap gap-2">
+            <div>
+              <h2 className="font-bold text-lg">Entitlements</h2>
+              <p className="text-xs text-muted mt-0.5">{totalEntitlements} total across {usersWithEntitlements.length} users</p>
+            </div>
           </div>
+          {totalEntitlements === 0 ? (
+            <p className="text-sm text-muted mt-4">No entitlements yet — paid access appears here after UPI approval.</p>
+          ) : (
+            <>
+              <div className="mt-4 space-y-3">
+                {entitlementsByExam.map((r) => {
+                  const pct = totalEntitlements ? Math.round((r._count._all / totalEntitlements) * 100) : 0;
+                  return (
+                    <div key={r.exam}>
+                      <div className="flex justify-between text-sm mb-1">
+                        <span className="font-semibold">{EXAM_LABELS[r.exam] ?? r.exam}</span>
+                        <span className="text-muted">{r._count._all} <span className="text-xs">({pct}%)</span></span>
+                      </div>
+                      <div className="h-2 bg-slate-100 rounded-full overflow-hidden">
+                        <div className="h-full bg-brand" style={{ width: `${Math.max(2, pct)}%` }} />
+                      </div>
+                    </div>
+                  );
+                })}
+              </div>
+              <div className="mt-4 pt-4 border-t border-line">
+                <h3 className="text-xs font-semibold text-muted uppercase tracking-wider mb-2">By subject</h3>
+                <div className="flex flex-wrap gap-2">
+                  {entitlementsBySubject.map((r) => (
+                    <span key={r.subject} className="px-2 py-1 rounded-full text-xs font-medium bg-brand/10 text-brand">
+                      {SUBJECT_LABELS[r.subject] ?? r.subject}: {r._count._all}
+                    </span>
+                  ))}
+                </div>
+              </div>
+            </>
+          )}
         </div>
 
         <div className="card p-6">
@@ -215,7 +277,7 @@ export default async function AdminPage() {
             <tr>
               <th className="py-2">Email</th>
               <th className="py-2">Name</th>
-              <th className="py-2">Plan</th>
+              <th className="py-2">Access</th>
               <th className="py-2">Joined</th>
               <th className="py-2">Last login</th>
             </tr>
@@ -226,7 +288,18 @@ export default async function AdminPage() {
                 <td className="py-2.5 font-medium">{u.email}</td>
                 <td className="py-2.5">{u.name}</td>
                 <td className="py-2.5">
-                  <span className={`badge ${u.plan !== "free" ? "badge-pro" : ""}`}>{u.plan.toUpperCase()}</span>
+                  {u.entitlements.length > 0 ? (
+                    <div className="flex flex-wrap gap-1">
+                      {u.entitlements.map((e, i) => (
+                        <span key={i} className="px-2 py-0.5 rounded-full text-xs font-medium bg-brand/10 text-brand">
+                          {SUBJECT_LABELS[e.subject] ?? e.subject}
+                          <span className="ml-1 text-brand/60">{e.tier}</span>
+                        </span>
+                      ))}
+                    </div>
+                  ) : (
+                    <span className="badge">{u.plan.toUpperCase()}</span>
+                  )}
                 </td>
                 <td className="py-2.5 text-muted">{fmtDate(u.createdAt)}</td>
                 <td className="py-2.5 text-muted">{u.lastLoginAt ? fmtDate(u.lastLoginAt) : "—"}</td>
@@ -238,6 +311,40 @@ export default async function AdminPage() {
           </tbody>
         </table>
       </section>
+
+      {/* Recent entitlements */}
+      {allEntitlements.length > 0 && (
+        <section className="mt-10 card p-6 overflow-x-auto">
+          <div className="flex justify-between items-end flex-wrap gap-2">
+            <h2 className="font-bold text-lg">Recent entitlements</h2>
+            <p className="text-xs text-muted">{totalEntitlements} total</p>
+          </div>
+          <table className="w-full text-sm mt-4">
+            <thead className="text-muted text-left border-b border-line">
+              <tr>
+                <th className="py-2">User</th>
+                <th className="py-2">Exam</th>
+                <th className="py-2">Subject</th>
+                <th className="py-2">Tier</th>
+                <th className="py-2">Source</th>
+                <th className="py-2">Expiry</th>
+              </tr>
+            </thead>
+            <tbody>
+              {allEntitlements.slice(0, 10).map((e) => (
+                <tr key={e.id} className="border-b border-line/60">
+                  <td className="py-2.5 font-medium">{e.user.email}</td>
+                  <td className="py-2.5"><span className="badge bg-brand/10 text-brand text-xs">{EXAM_LABELS[e.exam] ?? e.exam}</span></td>
+                  <td className="py-2.5">{SUBJECT_LABELS[e.subject] ?? e.subject}</td>
+                  <td className="py-2.5"><span className="badge">{e.tier}</span></td>
+                  <td className="py-2.5 text-muted">{e.source}</td>
+                  <td className="py-2.5 text-muted">{e.expiry ? fmtDate(e.expiry) : "∞"}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </section>
+      )}
 
       {/* Recent payments */}
       <section className="mt-10 card p-6 overflow-x-auto">
