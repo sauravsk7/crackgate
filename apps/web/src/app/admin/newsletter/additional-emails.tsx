@@ -125,7 +125,7 @@ export default function AdditionalEmails({ additionalEmails, onChange }: Props) 
           {[...additionalEmails].map((email) => (
             <span
               key={email}
-              className="inline-flex items-center gap-1 px-2 py-0.5 rounded-md text-xs font-medium bg-brand/10 text-brand border border-brand/20"
+              className="chip-email"
             >
               {email}
               <button
