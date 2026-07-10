@@ -159,7 +159,7 @@ export function MegaNav() {
 
       {/* About */}
       <Link href="/about" className={triggerCls("about", ["/about"])}>
-        About us
+        About Us
       </Link>
     </div>
   );

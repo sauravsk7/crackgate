@@ -48,7 +48,7 @@ export default async function GateMiningPage() {
       {/* ---------- ABOUT US ---------- */}
       <section className="max-w-7xl mx-auto px-5 py-20">
         <div className="text-center">
-          <span className="badge bg-brand/10 text-brand">About us</span>
+          <span className="badge bg-brand/10 text-brand">About Us</span>
           <h2 className="mt-3 text-3xl font-extrabold text-ink">Built by toppers, for every serious aspirant.</h2>
           <p className="mt-3 text-muted max-w-2xl mx-auto">
             CrackGate is created by IIT Kharagpur alumni who&apos;ve cracked GATE themselves — and now help thousands
