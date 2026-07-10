@@ -97,20 +97,26 @@ export default function NewsletterPageClient({
           onChange={setAdditionalEmails}
         />
 
-        <div className="card p-5 flex flex-col justify-center">
-          <label className="flex items-start gap-3 cursor-pointer">
+        <div className="card p-5">
+          <h2 className="font-bold text-lg mb-3">Quick add</h2>
+          <label className="flex items-start gap-3 cursor-pointer group">
             <input
               type="checkbox"
               checked={includeShareholders}
               onChange={(e) => setIncludeShareholders(e.target.checked)}
-              className="mt-0.5"
+              className="accent-brand mt-1 shrink-0"
             />
-            <div>
-              <span className="font-medium text-sm">Include testers / developers / shareholders</span>
-              <p className="text-xs text-muted mt-0.5">
-                {SHAREHOLDER_EMAILS.length} email{SHAREHOLDER_EMAILS.length === 1 ? "" : "s"}:
-                {" "}{SHAREHOLDER_EMAILS.join(", ")}
-              </p>
+            <div className="min-w-0">
+              <span className="text-sm font-semibold group-hover:text-brand transition-colors">
+                Include testers / developers / shareholders
+              </span>
+              <ul className="mt-2 space-y-0.5">
+                {SHAREHOLDER_EMAILS.map((email) => (
+                  <li key={email} className="text-xs font-mono text-muted truncate">
+                    {email}
+                  </li>
+                ))}
+              </ul>
             </div>
           </label>
         </div>

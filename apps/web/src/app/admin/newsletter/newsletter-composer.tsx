@@ -38,15 +38,17 @@ export default function NewsletterComposer({
 
     if (!subject.trim()) { setError("Subject is required."); return; }
     if (!html.trim()) { setError("Content is required."); return; }
+    if (selectedEmails.size === 0) { setError("Select at least one recipient."); return; }
     if (mode === "schedule" && !scheduledAt) { setError("Pick a date & time to schedule."); return; }
 
     setLoading(true);
     try {
       const endpoint = mode === "instant" ? "/api/admin/newsletter/send" : "/api/admin/newsletter/schedule";
-      const body: Record<string, unknown> = { subject: subject.trim(), html: html.trim() };
-      if (selectedEmails.size > 0) {
-        body.recipients = Array.from(selectedEmails);
-      }
+      const body: Record<string, unknown> = {
+        subject: subject.trim(),
+        html: html.trim(),
+        recipients: Array.from(selectedEmails),
+      };
       if (mode === "schedule") body.scheduledAt = new Date(scheduledAt).toISOString();
 
       const res = await fetch(endpoint, {
@@ -92,7 +94,7 @@ export default function NewsletterComposer({
                 ]
                   .filter(Boolean)
                   .join(" + ") + " selected"
-              : `${subscriberCount} subscribers`}
+              : "no recipients"}
           </span>
         </div>
 
@@ -174,13 +176,11 @@ export default function NewsletterComposer({
                 >
                   {loading
                     ? "Sending…"
-                    : mode === "instant"
-                      ? selectedEmails.size > 0
+                    : selectedEmails.size === 0
+                      ? "Select recipients"
+                      : mode === "instant"
                         ? `Send to ${selectedEmails.size} selected`
-                        : "Send to all"
-                      : selectedEmails.size > 0
-                        ? `Schedule for ${selectedEmails.size} selected`
-                        : "Schedule for all"}
+                        : `Schedule for ${selectedEmails.size} selected`}
                 </button>
               </div>
             </div>
