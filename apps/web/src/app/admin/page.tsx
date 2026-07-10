@@ -40,6 +40,11 @@ export default async function AdminPage() {
     recentPayments,
     recentActivity,
     upiPending,
+    pendingReports,
+    totalReports,
+    reportsByType,
+    reportsByExam,
+    recentReports,
   ] = await Promise.all([
     db.user.count(),
     db.user.groupBy({ by: ["plan"], _count: { _all: true } }),
@@ -76,6 +81,15 @@ export default async function AdminPage() {
       include: { user: { select: { email: true } } },
     }),
     db.upiPayment.count({ where: { status: "pending" } }),
+    db.questionReport.count({ where: { status: "pending" } }),
+    db.questionReport.count(),
+    db.questionReport.groupBy({ by: ["issueType"], _count: { _all: true } }),
+    db.questionReport.groupBy({ by: ["exam"], _count: { _all: true } }),
+    db.questionReport.findMany({
+      orderBy: { createdAt: "desc" },
+      take: 10,
+      include: { user: { select: { email: true, name: true } } },
+    }),
   ]);
 
   const planMap: Record<string, number> = { free: 0, pro: 0, premium: 0 };
@@ -95,6 +109,12 @@ export default async function AdminPage() {
         </div>
         <div className="flex gap-2 flex-wrap text-sm">
           <Link href="/admin/questions" className="btn btn-primary text-sm">📚 Question bank</Link>
+          <Link
+            href="/admin/reports"
+            className={`btn text-sm ${pendingReports > 0 ? "btn-accent" : ""}`}
+          >
+            🚩 Reports{pendingReports > 0 ? ` (${pendingReports})` : ""}
+          </Link>
           <Link href="/admin/newsletter" className="btn text-sm">📧 Newsletter</Link>
           <Link
             href="/admin/upi"
@@ -114,6 +134,7 @@ export default async function AdminPage() {
           <ExportBtn dataset="payments" label="💰 Payments CSV" />
           <ExportBtn dataset="attempts" label="🧪 Attempts CSV" />
           <ExportBtn dataset="activity" label="📜 Activity CSV" />
+          <ExportBtn dataset="reports" label="🚩 Reports CSV" />
         </div>
       </div>
 
@@ -128,6 +149,13 @@ export default async function AdminPage() {
           sub={`${revenue30._count._all} payments · lifetime ${inr(revenueLifetime._sum.amount ?? 0)}`}
           icon="🪙"
           tone="ok"
+        />
+        <Kpi
+          label="Reported issues"
+          value={totalReports}
+          sub={`${pendingReports} pending review`}
+          icon="🚩"
+          tone={pendingReports > 0 ? "accent" : undefined}
         />
       </div>
 
@@ -277,6 +305,98 @@ export default async function AdminPage() {
             )}
           </tbody>
         </table>
+      </section>
+
+      {/* Reported issues summary */}
+      <section className="mt-10 grid lg:grid-cols-3 gap-6">
+        <div className="card p-6">
+          <div className="flex justify-between items-end flex-wrap gap-2">
+            <h2 className="font-bold text-lg">By exam</h2>
+            <Link href="/admin/reports" className="text-sm text-brand hover:underline">View all →</Link>
+          </div>
+          <div className="mt-4 space-y-3">
+            {reportsByExam.length === 0 && (
+              <p className="text-sm text-muted">No reports yet.</p>
+            )}
+            {reportsByExam.map((r) => {
+              const pct = totalReports ? Math.round((r._count._all / totalReports) * 100) : 0;
+              return (
+                <div key={r.exam}>
+                  <div className="flex justify-between text-sm mb-1">
+                    <span className="font-semibold">{r.exam}</span>
+                    <span className="text-muted">{r._count._all} <span className="text-xs">({pct}%)</span></span>
+                  </div>
+                  <div className="h-2 bg-slate-100 rounded-full overflow-hidden">
+                    <div className="h-full bg-brand" style={{ width: `${Math.max(2, pct)}%` }} />
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+
+        <div className="card p-6">
+          <div className="flex justify-between items-end flex-wrap gap-2">
+            <h2 className="font-bold text-lg">By issue type</h2>
+            <Link href="/admin/reports" className="text-sm text-brand hover:underline">View all →</Link>
+          </div>
+          <div className="mt-4 space-y-3">
+            {reportsByType.length === 0 && (
+              <p className="text-sm text-muted">No reports yet.</p>
+            )}
+            {reportsByType.map((r) => {
+              const pct = totalReports ? Math.round((r._count._all / totalReports) * 100) : 0;
+              const label = r.issueType.replace(/_/g, " ");
+              return (
+                <div key={r.issueType}>
+                  <div className="flex justify-between text-sm mb-1">
+                    <span className="capitalize font-semibold">{label}</span>
+                    <span className="text-muted">{r._count._all} <span className="text-xs">({pct}%)</span></span>
+                  </div>
+                  <div className="h-2 bg-slate-100 rounded-full overflow-hidden">
+                    <div className="h-full bg-accent" style={{ width: `${Math.max(2, pct)}%` }} />
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+
+        <div className="card p-6 overflow-x-auto">
+          <div className="flex justify-between items-end flex-wrap gap-2">
+            <h2 className="font-bold text-lg">Recent reports</h2>
+            <Link href="/admin/reports" className="text-sm text-brand hover:underline">Manage all →</Link>
+          </div>
+          <table className="w-full text-sm mt-4">
+            <thead className="text-muted text-left border-b border-line">
+              <tr>
+                <th className="py-2">When</th>
+                <th className="py-2">User</th>
+                <th className="py-2">Exam</th>
+                <th className="py-2">Question</th>
+                <th className="py-2">Status</th>
+              </tr>
+            </thead>
+            <tbody>
+              {recentReports.map((r) => (
+                <tr key={r.id} className="border-b border-line/60">
+                  <td className="py-2.5 text-muted">{fmtDate(r.createdAt)}</td>
+                  <td className="py-2.5">{r.user.email}</td>
+                  <td className="py-2.5"><span className="badge bg-brand/10 text-brand text-xs">{r.exam}</span></td>
+                  <td className="py-2.5 font-mono text-xs">{r.questionKey}</td>
+                  <td className="py-2.5">
+                    <span className={`badge ${r.status === "pending" ? "bg-amber-100 text-amber-800" : r.status === "resolved" ? "bg-emerald-100 text-emerald-800" : ""}`}>
+                      {r.status}
+                    </span>
+                  </td>
+                </tr>
+              ))}
+              {recentReports.length === 0 && (
+                <tr><td colSpan={5} className="py-6 text-center text-muted">No reports yet.</td></tr>
+              )}
+            </tbody>
+          </table>
+        </div>
       </section>
 
       <p className="text-xs text-muted mt-10 text-center">

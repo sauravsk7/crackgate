@@ -85,7 +85,7 @@ export default async function ResultPage(props: { params: Promise<{ id: string }
 
       {cilData && <CilResultAnalytics data={cilData} />}
 
-      {bank && <ResultReview questions={bank as never} answers={answers} itemStats={cilData?.itemStats ?? null} />}
+      {bank && <ResultReview questions={bank as never} answers={answers} itemStats={cilData?.itemStats ?? null} mockRefId={att.refId} />}
     </div>
   );
 }

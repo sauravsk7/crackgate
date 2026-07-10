@@ -55,13 +55,14 @@ model User {
   updatedAt     DateTime   @updatedAt
   lastLoginAt   DateTime?
 
-  attempts      Attempt[]
-  activity      Activity[]
-  payments      Payment[]
-  upiPayments   UpiPayment[]
-  entitlements  Entitlement[]
-  accounts      Account[]
-  sessions      Session[]
+  attempts       Attempt[]
+  activity       Activity[]
+  payments       Payment[]
+  upiPayments    UpiPayment[]
+  entitlements   Entitlement[]
+  questionReports QuestionReport[]
+  accounts       Account[]
+  sessions       Session[]
 
   @@index([plan])
   @@index([createdAt])
@@ -224,6 +225,29 @@ model NewsletterSubscriber {
   unsubscribed Boolean  @default(false)
 
   @@index([subscribedAt(sort: Desc)])
+}
+
+model QuestionReport {
+  id          String    @id @default(cuid())
+  userId      String
+  mockRefId   String                              // e.g. "mock-01", "cil-01-mining"
+  questionKey String                              // question ID or "mock-01:3" (refId:index)
+  exam        String                              // GATE | PSU | STATE | DIPLOMA | PYQ
+  subject     String                              // mining | civil | geology | environment | etc.
+  issueType   String                              // factual_error | typo | unclear_explanation | wrong_answer | other
+  description String   @db.Text
+  status      String   @default("pending")        // pending | reviewed | resolved | dismissed
+  adminNote   String?  @db.Text                   // admin annotation on resolution
+  reviewedAt  DateTime?                           // when status last changed from pending
+  reviewedBy  String?                             // admin email who reviewed
+  createdAt   DateTime @default(now())
+
+  user        User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([questionKey])
+  @@index([exam, subject])
+  @@index([userId, createdAt(sort: Desc)])
+  @@index([status, createdAt(sort: Desc)])
 }
 
 /// WhatsApp / SMS OTP codes. We store a bcrypt hash, never the raw code.

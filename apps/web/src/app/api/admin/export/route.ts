@@ -118,6 +118,32 @@ async function buildDataset(dataset: string): Promise<{ headers: string[]; rows:
         })),
       };
     }
+    case "reports": {
+      const reports = await db.questionReport.findMany({
+        orderBy: { createdAt: "desc" },
+        take: 20000,
+        include: { user: { select: { email: true, name: true } } },
+      });
+      return {
+        headers: ["id", "email", "userName", "mockRefId", "questionKey", "exam", "subject", "issueType", "description", "status", "adminNote", "reviewedBy", "reviewedAt", "createdAt"],
+        rows: reports.map((r) => ({
+          id: r.id,
+          email: r.user.email,
+          userName: r.user.name,
+          mockRefId: r.mockRefId,
+          questionKey: r.questionKey,
+          exam: r.exam,
+          subject: r.subject,
+          issueType: r.issueType,
+          description: r.description,
+          status: r.status,
+          adminNote: r.adminNote,
+          reviewedBy: r.reviewedBy,
+          reviewedAt: r.reviewedAt,
+          createdAt: r.createdAt,
+        })),
+      };
+    }
     default:
       return null;
   }
@@ -132,7 +158,7 @@ export async function GET(req: NextRequest) {
     const dataset = req.nextUrl.searchParams.get("dataset") ?? "";
     const data = await buildDataset(dataset);
     if (!data) {
-      return new Response("unknown dataset (use users|attempts|activity|payments)", { status: 400 });
+      return new Response("unknown dataset (use users|attempts|activity|payments|reports)", { status: 400 });
     }
     const csv = toCsv(data.rows, data.headers);
     const stamp = new Date().toISOString().slice(0, 10);
