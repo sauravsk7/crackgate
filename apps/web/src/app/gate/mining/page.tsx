@@ -50,8 +50,8 @@ export default async function GateMiningPage() {
         <section className="bg-slate-900 text-white">
           <div className="max-w-3xl mx-auto px-5 py-16 text-center">
             <h2 className="text-3xl font-extrabold">Start your free mock now.</h2>
-            <p className="mt-3 text-slate-300">No credit card. Takes 5 seconds with Google.</p>
-            <Link href="/login" className="btn btn-accent btn-lg mt-6 inline-flex">Continue with Google →</Link>
+            <p className="mt-3 text-slate-300">No credit card. Takes 5 seconds.</p>
+            <Link href="/login" className="btn btn-accent btn-lg mt-6 inline-flex">Get Started →</Link>
           </div>
         </section>
       )}
