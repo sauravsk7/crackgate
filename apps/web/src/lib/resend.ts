@@ -62,7 +62,8 @@ export async function sendNewsletter(opts: {
     const batch = opts.recipients.slice(i, i + BATCH_SIZE);
     const { error } = await resend.emails.send({
       from,
-      to: batch,
+      to: [from],
+      bcc: batch,
       subject: opts.subject,
       html: opts.html,
     });
