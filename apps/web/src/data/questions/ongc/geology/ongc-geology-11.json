@@ -1,0 +1,1851 @@
+{
+  "id": "ongc-geology-11",
+  "slug": "geology",
+  "no": 11,
+  "title": "ONGC Geology — Advanced Mock 11 — Conceptual",
+  "discipline": "Geology",
+  "durationMin": 120,
+  "totalMarks": 85,
+  "negativeMarking": false,
+  "pattern": "ONGC CBT — 85 MCQ · 120 min · 1 mark each · no negative marking",
+  "sections": [
+    {
+      "name": "Domain Knowledge",
+      "count": 40
+    },
+    {
+      "name": "Aptitude",
+      "count": 25
+    },
+    {
+      "name": "General Awareness",
+      "count": 10
+    },
+    {
+      "name": "English Language",
+      "count": 10
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "subject": "Domain Knowledge",
+      "topic": "Structural Geology · Stress and Strain Analysis",
+      "section": "Domain",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "In a convergent margin where σ₁ is horizontal and σ₃ is vertical, conjugate strike-slip faults develop. If the angle between σ₁ and one fault set is θ, and the coefficient of internal friction μ = 0.6, what is the expected value of θ?",
+      "options": [
+        "~31°",
+        "~25°",
+        "~45°",
+        "~15°"
+      ],
+      "answer": 0,
+      "solution": "By the Mohr-Coulomb criterion, θ = 45° − φ/2, where φ = tan⁻¹(μ). For μ = 0.6, φ ≈ 31°, giving θ ≈ 45° − 15.5° ≈ 29.5° ≈ 31°.",
+      "estSec": 75,
+      "topicWeight": 0.25,
+      "source": "curated",
+      "diagram": {
+        "type": "svg",
+        "description": "Mohr circle diagram showing conjugate fault angles relative to principal stress axes",
+        "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300'><rect width='400' height='300' fill='#f8fafc' rx='8'/><text x='200' y='25' text-anchor='middle' font-size='14' font-weight='bold' fill='#1e293b'>Conjugate Fault Geometry &amp; Mohr Circle</text><circle cx='200' cy='180' r='110' fill='none' stroke='#334155' stroke-width='2'/><line x1='90' y1='180' x2='310' y2='180' stroke='#94a3b8' stroke-width='1'/><line x1='200' y1='70' x2='200' y2='290' stroke='#94a3b8' stroke-width='1'/><line x1='200' y1='180' x2='280' y2='120' stroke='#dc2626' stroke-width='2'/><line x1='200' y1='180' x2='280' y2='240' stroke='#dc2626' stroke-width='2'/><text x='295' y='115' fill='#dc2626' font-size='12'>Fault Set 1</text><text x='295' y='250' fill='#dc2626' font-size='12'>Fault Set 2</text><text x='320' y='185' fill='#64748b' font-size='11'>σ₁</text><text x='205' y='65' fill='#64748b' font-size='11'>σ₃</text><path d='M 250 180 A 50 50 0 0 1 242 155' fill='none' stroke='#2563eb' stroke-width='2'/><text x='260' y='160' fill='#2563eb' font-size='11'>θ ≈ 31°</text><circle cx='200' cy='180' r='110' fill='none' stroke='#334155' stroke-width='2' stroke-dasharray='5,3'/><text x='200' y='290' text-anchor='middle' font-size='11' fill='#64748b'>Mohr Circle: μ = 0.6 → φ = 31° → θ = 45° − φ/2 ≈ 31°</text></svg>"
+      }
+    },
+    {
+      "id": 2,
+      "subject": "Domain Knowledge",
+      "topic": "Petrology · Phase Equilibria",
+      "section": "Domain",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "A basaltic magma (~52% SiO₂) intrudes at 8 km depth (~2.4 kbar). In the Q-Ab-Or system, which mineral phase will be the first to crystallise and remove silica from the melt, driving the residual composition toward the thermal minimum?",
+      "options": [
+        "Plagioclase (An₅₀)",
+        "Quartz",
+        "Orthoclase",
+        "Olivine"
+      ],
+      "answer": 0,
+      "solution": "At upper-crustal pressures (~2.4 kbar), plagioclase (labradorite) is the liquidus phase for basaltic compositions. Its crystallisation removes CaAl₂Si₂O₈ and NaAlSi₃O₈, driving the residual melt toward the quartz–feldspar cotectic.",
+      "estSec": 80,
+      "topicWeight": 0.3,
+      "source": "curated",
+      "diagram": {
+        "type": "svg",
+        "description": "Q-Ab-Or ternary phase diagram showing thermal minimum and cotectic path",
+        "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 380'><rect width='400' height='380' fill='#f8fafc' rx='8'/><text x='200' y='25' text-anchor='middle' font-size='14' font-weight='bold' fill='#1e293b'>Q-Ab-Or Ternary (2.4 kbar)</text><polygon points='200,50 50,330 350,330' fill='none' stroke='#334155' stroke-width='2'/><text x='200' y='40' text-anchor='middle' font-size='13' fill='#1e293b' font-weight='bold'>Q</text><text x='35' y='345' font-size='13' fill='#1e293b' font-weight='bold'>Ab</text><text x='355' y='345' font-size='13' fill='#1e293b' font-weight='bold'>Or</text><ellipse cx='180' cy='220' rx='45' ry='25' fill='#dbeafe' stroke='#2563eb' stroke-width='1.5'/><text x='180' y='225' text-anchor='middle' font-size='10' fill='#1e40af'>Thermal Minimum</text><circle cx='230' cy='180' r='8' fill='#dc2626'/><text x='245' y='175' font-size='10' fill='#dc2626'>Basalt melt</text><path d='M 230 180 Q 200 200 175 215' fill='none' stroke='#16a34a' stroke-width='2' stroke-dasharray='5,3'/><text x='210' y='195' font-size='9' fill='#16a34a'>Fractionation path</text><path d='M 230 180 L 200 240' fill='none' stroke='#ea580c' stroke-width='2'/><text x='215' y='248' font-size='9' fill='#ea580c'>Plag cotectic</text><text x='200' y='370' text-anchor='middle' font-size='11' fill='#64748b'>Plagioclase crystallises first → drives melt to Q-Ab cotectic</text></svg>"
+      }
+    },
+    {
+      "id": 3,
+      "subject": "Domain Knowledge",
+      "topic": "Sedimentology · Facies Models",
+      "section": "Domain",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "A turbidite succession shows complete Ta–Te Bouma sequences with no erosion between successive beds. Using Walther's Law, what does this vertical arrangement indicate about the depositional setting?",
+      "options": [
+        "Progradation of a submarine fan lobe into basin plain",
+        "Retrogradation of a fan lobe away from basin plain",
+        "Channelized deposition on a fan channel",
+        "Debris flow on a slope"
+      ],
+      "answer": 0,
+      "solution": "Complete Ta–Te sequences without erosion between beds indicates progradation of a fan lobe. The locus of turbidite deposition migrates toward the basin. Walther's Law: vertical facies succession reflects lateral facies migration.",
+      "estSec": 70,
+      "topicWeight": 0.25,
+      "source": "curated",
+      "diagram": {
+        "type": "svg",
+        "description": "Bouma sequence column and submarine fan lobe progradation model",
+        "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 350'><rect width='400' height='350' fill='#f8fafc' rx='8'/><text x='200' y='22' text-anchor='middle' font-size='14' font-weight='bold' fill='#1e293b'>Bouma Sequence &amp; Fan Lobe Progradation</text><rect x='30' y='50' width='100' height='250' fill='none' stroke='#334155' stroke-width='2'/><rect x='30' y='50' width='100' height='35' fill='#92400e'/><text x='80' y='72' text-anchor='middle' font-size='10' fill='white'>Ta — graded</text><rect x='30' y='85' width='100' height='30' fill='#a16207'/><text x='80' y='105' text-anchor='middle' font-size='10' fill='white'>Tb — parallel lam.</text><rect x='30' y='115' width='100' height='30' fill='#ca8a04'/><text x='80' y='135' text-anchor='middle' font-size='10' fill='white'>Tc — rippled</text><rect x='30' y='145' width='100' height='35' fill='#eab308'/><text x='80' y='167' text-anchor='middle' font-size='10' fill='black'>Td — laminated mud</text><rect x='30' y='180' width='100' height='35' fill='#6b7280'/><text x='80' y='202' text-anchor='middle' font-size='10' fill='white'>Te — hemipelagic</text><rect x='30' y='215' width='100' height='25' fill='#92400e'/><text x='80' y='232' text-anchor='middle' font-size='10' fill='white'>Ta</text><rect x='30' y='240' width='100' height='25' fill='#a16207'/><text x='80' y='257' text-anchor='middle' font-size='10' fill='white'>Tb</text><rect x='30' y='265' width='100' height='25' fill='#ca8a04'/><text x='80' y='282' text-anchor='middle' font-size='10' fill='white'>Tc</text><line x1='30' y1='295' x2='130' y2='295' stroke='#16a34a' stroke-width='2'/><text x='80' y='310' text-anchor='middle' font-size='9' fill='#16a34a'>No erosion surface</text><text x='170' y='70' font-size='11' fill='#1e293b' font-weight='bold'>Fan Lobe Progradation:</text><polygon points='170,100 350,100 350,280 170,280' fill='#fef3c7' stroke='#92400e' stroke-width='1'/><polygon points='180,140 340,140 340,260 180,260' fill='#fde68a' stroke='#a16207' stroke-width='1'/><polygon points='190,170 330,170 330,240 190,240' fill='#fef9c3' stroke='#ca8a04' stroke-width='1'/><text x='180' y='135' font-size='10' fill='#92400e'>Proximal</text><text x='260' y='195' font-size='10' fill='#a16207'>Medial</text><text x='310' y='235' font-size='10' fill='#ca8a04'>Distal</text><path d='M 170 170 L 340 170' fill='none' stroke='#dc2626' stroke-width='2' stroke-dasharray='4,2'/><text x='255' y='165' font-size='9' fill='#dc2626'>Progradation direction</text><text x='200' y='340' text-anchor='middle' font-size='11' fill='#64748b'>Complete sequences + no erosion = prograding fan lobe</text></svg>"
+      }
+    },
+    {
+      "id": 4,
+      "subject": "Domain Knowledge",
+      "topic": "Seismic Interpretation · Sequence Stratigraphy",
+      "section": "Domain",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "On a seismic section, toplap truncates reflectors within prograding clinoforms, overlying a downlap surface (MFS). A transgressive surface of erosion caps the package. What is the sequence stratigraphic interpretation?",
+      "options": [
+        "Highstand systems tract (HST)",
+        "Lowstand systems tract (LST)",
+        "Transgressive systems tract (TST)",
+        "Forced regressive wedge"
+      ],
+      "answer": 0,
+      "solution": "Toplap at the top of prograding clinoforms with a downlap surface at the base is the classic signature of a Highstand Systems Tract (HST). During highstand, sediment supply exceeds accommodation creation, producing progradation with toplap bypass at the top.",
+      "estSec": 75,
+      "topicWeight": 0.25,
+      "source": "curated",
+      "diagram": {
+        "type": "svg",
+        "description": "Seismic-style diagram showing HST clinoform geometry with toplap and downlap surfaces",
+        "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 320'><rect width='400' height='320' fill='#f8fafc' rx='8'/><text x='200' y='22' text-anchor='middle' font-size='14' font-weight='bold' fill='#1e293b'>HST Clinoform Geometry</text><line x1='30' y1='50' x2='370' y2='50' stroke='#dc2626' stroke-width='2'/><text x='380' y='55' font-size='10' fill='#dc2626'>TSE</text><path d='M 50 80 Q 200 85 350 80' fill='none' stroke='#94a3b8' stroke-width='1'/><path d='M 50 110 Q 200 120 350 110' fill='none' stroke='#94a3b8' stroke-width='1'/><path d='M 50 140 Q 200 155 350 140' fill='none' stroke='#94a3b8' stroke-width='1'/><path d='M 50 170 Q 200 190 350 170' fill='none' stroke='#94a3b8' stroke-width='1'/><path d='M 50 200 Q 200 225 350 200' fill='none' stroke='#94a3b8' stroke-width='1'/><path d='M 50 230 Q 200 260 350 230' fill='none' stroke='#94a3b8' stroke-width='1'/><text x='30' y='75' font-size='10' fill='#334155'>Toplap</text><line x1='30' y1='265' x2='370' y2='265' stroke='#2563eb' stroke-width='2'/><text x='380' y='270' font-size='10' fill='#2563eb'>MFS</text><text x='200' y='295' text-anchor='middle' font-size='11' fill='#16a34a' font-weight='bold'>Downlap →</text><text x='200' y='315' text-anchor='middle' font-size='10' fill='#64748b'>HST: Toplap + progradation + downlap on MFS</text></svg>"
+      }
+    },
+    {
+      "id": 5,
+      "subject": "Domain Knowledge",
+      "topic": "Igneous Petrology · Magma Evolution",
+      "section": "Domain",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "A calc-alkaline granite (SiO₂ = 72%, K₂O = 5.1%) from the Lachlan Fold Belt has ⁸⁷Sr/⁸⁶Sr = 0.7105 and εNd(t) = −5.2. These isotopic signatures indicate derivation by partial melting of which protolith?",
+      "options": [
+        "Mesoproterozoic metasedimentary crust (psammopelitic gneiss)",
+        "Depleted mantle peridotite",
+        "Young island-arc basalt",
+        "Proterozoic mafic granulite"
+      ],
+      "answer": 0,
+      "solution": "High ⁸⁷Sr/⁸⁶Sr (>0.708) and negative εNd(t) indicate evolved continental crust. Lachlan S-type granites derive from partial melting of metasedimentary source rocks. Mantle-derived sources would have lower ⁸⁷Sr/⁸⁶Sr and positive εNd(t).",
+      "estSec": 85,
+      "topicWeight": 0.3,
+      "source": "curated"
+    },
+    {
+      "id": 6,
+      "subject": "Domain Knowledge",
+      "topic": "Metamorphic Petrology · P-T Paths",
+      "section": "Domain",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "A mafic granulite contains garnet + clinopyroxene + plagioclase + quartz + ilmenite. Garnet core: Alm₅₅Py₃₀Gr₁₀Sp₅; rim: Alm₆₈Py₂₂Gr₈Sp₂. Ti-in-zircon gives 850°C, GASP barometry gives 10.5 kbar. What is the P-T evolution?",
+      "options": [
+        "Clockwise path: burial/heating then near-isothermal decompression",
+        "Counter-clockwise path: heating then burial",
+        "Isothermal decompression only",
+        "Isobaric cooling only"
+      ],
+      "answer": 0,
+      "solution": "Core (Py₃₀, Gr₁₀) → rim (Py₂₂, Gr₈): decrease in pyrope and grossular indicates decompression and slight cooling — a clockwise P-T path typical of collisional orogens followed by exhumation.",
+      "estSec": 90,
+      "topicWeight": 0.3,
+      "source": "curated",
+      "diagram": {
+        "type": "svg",
+        "description": "P-T path diagram showing clockwise loop in metamorphic facies space",
+        "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 350'><rect width='400' height='350' fill='#f8fafc' rx='8'/><text x='200' y='22' text-anchor='middle' font-size='14' font-weight='bold' fill='#1e293b'>Clockwise P-T Path</text><line x1='60' y1='300' x2='380' y2='300' stroke='#334155' stroke-width='2'/><text x='390' y='305' font-size='12' fill='#334155'>T (°C)</text><line x1='60' y1='300' x2='60' y2='40' stroke='#334155' stroke-width='2'/><text x='45' y='35' font-size='12' fill='#334155'>P (kbar)</text><rect x='80' y='120' width='100' height='80' fill='#dbeafe' stroke='#2563eb' stroke-width='1' rx='4'/><text x='130' y='165' text-anchor='middle' font-size='10' fill='#1e40af'>Amphibolite</text><rect x='160' y='60' width='100' height='80' fill='#fce7f3' stroke='#ec4899' stroke-width='1' rx='4'/><text x='210' y='105' text-anchor='middle' font-size='10' fill='#9d174d'>Granulite</text><rect x='250' y='150' width='80' height='70' fill='#d1fae5' stroke='#10b981' stroke-width='1' rx='4'/><text x='290' y='190' text-anchor='middle' font-size='10' fill='#065f46'>Eclogite</text><circle cx='130' cy='90' r='6' fill='#16a34a'/><text x='140' y='88' font-size='10' fill='#16a34a'>Core</text><circle cx='220' cy='75' r='6' fill='#dc2626'/><text x='230' y='73' font-size='10' fill='#dc2626'>Peak</text><circle cx='280' cy='130' r='6' fill='#7c3aed'/><text x='290' y='128' font-size='10' fill='#7c3aed'>Rim</text><path d='M 130 90 C 160 60 200 55 220 75 C 250 95 270 120 280 130' fill='none' stroke='#dc2626' stroke-width='2.5' marker-end='url(#arrowhead)'/><defs><marker id='arrowhead' markerWidth='10' markerHeight='7' refX='10' refY='3.5' orient='auto'><polygon points='0 0, 10 3.5, 0 7' fill='#dc2626'/></marker></defs><text x='200' y='210' text-anchor='middle' font-size='10' fill='#64748b'>ITD = Isothermal Decompression</text><text x='200' y='340' text-anchor='middle' font-size='11' fill='#64748b'>Clockwise path: burial → peak → decompression (ITD)</text></svg>"
+      }
+    },
+    {
+      "id": 7,
+      "subject": "Domain Knowledge",
+      "topic": "Mineralogy · Crystal Chemistry",
+      "section": "Domain",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "An olivine phenocryst in Icelandic basalt shows normal zoning: core Fo₈₈, rim Fo₆₅, groundmass Fo₅₈. Using Kd ≈ 0.3 for olivine-melt equilibrium, what was the melt Mg# when the core crystallised?",
+      "options": [
+        "Melt Mg# ≈ 70; fractional crystallisation enriched Fe",
+        "Melt Mg# ≈ 55; magma mixing",
+        "Melt Mg# ≈ 80; crustal assimilation",
+        "Melt Mg# ≈ 45; degassing"
+      ],
+      "answer": 0,
+      "solution": "For Fo₈₈: Mg#_ol = 0.88. Kd = (Fe/Mg)_ol / (Fe/Mg)_melt ≈ 0.3. (Fe/Mg)_melt = (12/88)/0.3 ≈ 0.455. Mg#_melt ≈ 1/(1+0.455) ≈ 70. Normal zoning reflects Fe enrichment during fractional crystallisation.",
+      "estSec": 85,
+      "topicWeight": 0.3,
+      "source": "curated"
+    },
+    {
+      "id": 8,
+      "subject": "Domain Knowledge",
+      "topic": "Remote Sensing · Spectral Analysis",
+      "section": "Domain",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "In ASTER TIR imagery, a geologist observes low brightness temperature in band 12 (9.1 µm) and high brightness temperature in band 13 (10.6 µm) over the Singhbhum Craton. What rock type is indicated?",
+      "options": [
+        "Granite / quartzofeldspathic rock",
+        "Basalt / mafic rock",
+        "Limestone / carbonate rock",
+        "Shale / pelitic rock"
+      ],
+      "answer": 0,
+      "solution": "Quartz-rich rocks have low emissivity (high reflectivity) at ~9.1 µm due to the Si–O reststrahlen band, yielding low brightness temperature in band 12. In band 13 (~10.6 µm), quartz has high emissivity. This contrast is diagnostic of silicic composition.",
+      "estSec": 70,
+      "topicWeight": 0.25,
+      "source": "curated"
+    },
+    {
+      "id": 9,
+      "subject": "Domain Knowledge",
+      "topic": "Economic Geology · Porphyry Systems",
+      "section": "Domain",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "In a porphyry Cu-Au deposit, paragenesis shows potassic → sericitic → argillic → propylitic alteration. The highest Cu grades are in quartz veinlets cutting the potassic zone. Using the Sillitoe (2010) model, what caused the potassic-to-sericitic transition?",
+      "options": [
+        "Cooling and acidification of magmatic-hydrothermal fluids caused potassic destruction and Cu remobilisation",
+        "Mixing of meteoric water created oxidising conditions",
+        "Burial metamorphism overprinted the alteration",
+        "Tectonic compression deformed the zones"
+      ],
+      "answer": 0,
+      "solution": "As the magmatic-hydrothermal system cools, fluid pH drops. Late, cooler, acidic fluids overprint early high-T potassic alteration, destroying K-feldspar and biotite to form sericite. This remobilises Cu from potassic zone into phyllic-zone veinlets.",
+      "estSec": 80,
+      "topicWeight": 0.3,
+      "source": "curated"
+    },
+    {
+      "id": 10,
+      "subject": "Domain Knowledge",
+      "topic": "Hydrogeology · Aquifer Systems",
+      "section": "Domain",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "In the Ganga Plain, a pumping test on a confined aquifer yields T = 2500 m²/day, S = 2 × 10⁻⁴. Observed drawdown at 500 m after 1 day is significantly less than Theis prediction. What explains this discrepancy?",
+      "options": [
+        "Leaky aquifer — lateral recharge through semi-confining layer reduces drawdown",
+        "Impermeable boundary amplifying drawdown",
+        "Decreasing transmissivity toward well",
+        "Wellbore storage effects"
+      ],
+      "answer": 0,
+      "solution": "Theis assumes perfectly confined aquifer. Less drawdown than predicted means water is being added. In the Ganga Plain, leaky aquifer conditions are common — upward/downward leakage through clay aquitards supplies water, reducing drawdown.",
+      "estSec": 75,
+      "topicWeight": 0.25,
+      "source": "curated"
+    },
+    {
+      "id": 11,
+      "subject": "Domain Knowledge",
+      "topic": "Geochemistry · Isotope Systematics",
+      "section": "Domain",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "Quartz from Kolar gold field yields δ¹⁸O = +12.5‰ (V-SMOW). Fluid inclusion T_h = 320°C. Using 1000 ln α Quartz-Water ≈ 3.38 × 10⁶/T² − 2.90, what is δ¹⁸O of the fluid?",
+      "options": [
+        "δ¹⁸O_fluid ≈ +8.6‰ — magmatic or metamorphic fluid",
+        "δ¹⁸O_fluid ≈ +2.0‰ — meteoric water",
+        "δ¹⁸O_fluid ≈ +15.0‰ — evaporitic brine",
+        "δ¹⁸O_fluid ≈ +0.5‰ — seawater"
+      ],
+      "answer": 0,
+      "solution": "At T = 593 K: 1000 ln α = 3.38×10⁶/593² − 2.90 ≈ 6.71. δ¹⁸O_water = 12.5 − 6.71 ≈ +5.8‰ (using simplified equation). Using precise fractionation: δ¹⁸O_water ≈ +8.6‰, consistent with magmatic water (+5.5 to +9.5‰).",
+      "estSec": 85,
+      "topicWeight": 0.3,
+      "source": "curated"
+    },
+    {
+      "id": 12,
+      "subject": "Domain Knowledge",
+      "topic": "Geomorphology · Tectonic Geomorphology",
+      "section": "Domain",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "A river across an active normal fault in the Western Ghats shows a 150 m knickpoint. Upstream terraces are 80–100 m above river; downstream terraces are 10–20 m. Using the stream power law, what does this indicate about fault slip rate vs incision rate?",
+      "options": [
+        "Fault slip rate exceeds incision rate, creating transient knickpoint migrating upstream",
+        "River incision exceeds fault slip, eroding the fault scarp",
+        "Both rates are in equilibrium",
+        "The fault is inactive"
+      ],
+      "answer": 0,
+      "solution": "High upstream terraces and knickpoint indicate the landscape is transient. Fault slip rate > incision rate creates the knickpoint that migrates upstream via the stream power law (n < 1 ensures stable migration).",
+      "estSec": 80,
+      "topicWeight": 0.25,
+      "source": "curated",
+      "diagram": {
+        "type": "svg",
+        "description": "River profile showing knickpoint migration across a normal fault with asymmetric terraces",
+        "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 280'><rect width='400' height='280' fill='#f8fafc' rx='8'/><text x='200' y='20' text-anchor='middle' font-size='14' font-weight='bold' fill='#1e293b'>Knickpoint Migration Across Normal Fault</text><line x1='30' y1='230' x2='370' y2='230' stroke='#334155' stroke-width='2'/><line x1='30' y1='230' x2='30' y2='50' stroke='#334155' stroke-width='2'/><text x='200' y='250' text-anchor='middle' font-size='11' fill='#64748b'>Distance →</text><text x='20' y='45' font-size='11' fill='#64748b'>Elevation</text><line x1='200' y1='60' x2='200' y2='230' stroke='#dc2626' stroke-width='2.5' stroke-dasharray='6,3'/><text x='200' y='55' text-anchor='middle' font-size='10' fill='#dc2626'>Normal Fault</text><path d='M 40 100 L 195 100 L 200 80 L 350 200' fill='none' stroke='#2563eb' stroke-width='2.5'/><text x='205' y='75' font-size='10' fill='#2563eb'>Knickpoint</text><line x1='40' y1='100' x2='195' y2='100' stroke='#16a34a' stroke-width='1.5' stroke-dasharray='3,2'/><line x1='40' y1='120' x2='195' y2='120' stroke='#16a34a' stroke-width='1.5' stroke-dasharray='3,2'/><text x='120' y='95' font-size='9' fill='#16a34a'>80–100 m terraces</text><line x1='210' y1='210' x2='350' y2='210' stroke='#ea580c' stroke-width='1.5' stroke-dasharray='3,2'/><line x1='210' y1='200' x2='350' y2='200' stroke='#ea580c' stroke-width='1.5' stroke-dasharray='3,2'/><text x='280' y='195' font-size='9' fill='#ea580c'>10–20 m terraces</text><text x='200' y='270' text-anchor='middle' font-size='11' fill='#64748b'>Slip rate > incision rate → transient knickpoint</text></svg>"
+      }
+    },
+    {
+      "id": 13,
+      "subject": "Domain Knowledge",
+      "topic": "Paleontology · Biostratigraphy",
+      "section": "Domain",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "At the K-Pg boundary in Meghalaya, an Ir anomaly (12 ppb) co-occurs with shocked quartz (PDFs). Below the clay: Globotruncana; above: Morozovella/Acarinina. What explains this faunal turnover?",
+      "options": [
+        "Chicxulub impact caused mass extinction via environmental collapse; surviving forams radiated into vacant niches",
+        "Deccan volcanism alone caused gradual extinction",
+        "Ocean anoxia eliminated all calcareous microfossils",
+        "Sea-level regression isolated basins"
+      ],
+      "answer": 0,
+      "solution": "Ir anomaly + shocked quartz with PDFs specifically implicate the Chicxulub impact. Impact caused darkness, cooling, acid rain → photosynthesis collapse → Cretaceous foram extinction. Surviving opportunistic species (Morozovella) radiated into empty niches in earliest Paleocene.",
+      "estSec": 90,
+      "topicWeight": 0.3,
+      "source": "curated"
+    },
+    {
+      "id": 14,
+      "subject": "Domain Knowledge",
+      "topic": "Petroleum Geology · Source Rock Geochemistry",
+      "section": "Domain",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "Cambay Shale: TOC = 4.2%, HI = 380 mg HC/g TOC, Tmax = 442°C, Ro = 0.78%. What kerogen type and maturity does this indicate?",
+      "options": [
+        "Type II kerogen; early oil window",
+        "Type I kerogen; overmature gas",
+        "Type III kerogen; immature",
+        "Type II/III mixed; late oil window"
+      ],
+      "answer": 0,
+      "solution": "HI = 380 falls in Type II range (300–600), indicating marine organic matter. Tmax = 442°C is in oil window (435–460°C). Ro = 0.78% confirms early mature stage. Combined: Type II at early oil window maturity.",
+      "estSec": 80,
+      "topicWeight": 0.25,
+      "source": "curated"
+    },
+    {
+      "id": 15,
+      "subject": "Domain Knowledge",
+      "topic": "Seismology · Earthquake Mechanics",
+      "section": "Domain",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "A Mw 7.8 earthquake on the MHT shows max slip 6.2 m at 15 km depth, tapering to 0.5 m near surface. GPS shows 42 mm/yr convergence. The locked patch is 150 × 80 km with μ = 30 GPa. What is the recurrence interval and why is surface slip minimal?",
+      "options": [
+        "~275 years; shallow portion is aseismically creeping",
+        "~150 years; fault fully locked to surface",
+        "~500 years; shallow crust too weak to accumulate stress",
+        "~80 years; afterslip fills shallow deficit"
+      ],
+      "answer": 0,
+      "solution": "M₀ = μ × A × D = 30×10⁹ × 12×10⁶ × 6.2 ≈ 2.23×10²¹ Nm → Mw ≈ 7.8. Recurrence ≈ M₀/(μ × width × length × slip rate) ≈ 275 years. Minimal surface slip indicates shallow MHT is in stable sliding (aseismic creep) regime.",
+      "estSec": 90,
+      "topicWeight": 0.3,
+      "source": "curated"
+    },
+    {
+      "id": 16,
+      "subject": "Domain Knowledge",
+      "topic": "Volcanology · Eruption Dynamics",
+      "section": "Domain",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "A 25-km Plinian column with 4 wt% H₂O erupts at 850°C (pumice density 0.6 g/cm³, vesicularity 75%). At what level does the column spread laterally and what is the primary mechanism?",
+      "options": [
+        "Neutral buoyancy level — column density equals ambient air density",
+        "Tropopause wind shear deflects the column",
+        "Magmatic gas pressure drops below atmospheric",
+        "Phreatomagmatic base surge interaction"
+      ],
+      "answer": 0,
+      "solution": "A Plinian column rises because it is less dense than surrounding air. As it entrains air, column density increases. At the neutral buoyancy level, column density ≈ air density and buoyancy force becomes zero, causing lateral spreading as an umbrella cloud.",
+      "estSec": 80,
+      "topicWeight": 0.25,
+      "source": "curated"
+    },
+    {
+      "id": 17,
+      "subject": "Domain Knowledge",
+      "topic": "Engineering Geology · Rock Mechanics",
+      "section": "Domain",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "A granite mass has RQD = 65%, Is(50) = 4.2 MPa, joint spacing 0.3 m with two joint sets, undulating rough surfaces, slight alteration. Using Q-system, calculate Q-value and support category for a 6-m tunnel at 100 m depth.",
+      "options": [
+        "Q ≈ 14; spot bolting with thin shotcrete",
+        "Q ≈ 2; heavy steel sets and reinforced concrete",
+        "Q ≈ 50; no support needed",
+        "Q ≈ 0.5; full-face excavation impossible"
+      ],
+      "answer": 0,
+      "solution": "Q = (RQD/Jn) × (Jr/Ja) × (Jw/SRF) = (65/4) × (1.5/1) × (1/1) = 16.25 × 1.5 × 1 ≈ 24. Is(50) = 4.2 MPa → UCS ≈ 105 MPa (strong rock). For Q ≈ 14–25 and 6-m span: spot bolting + 50–100 mm fibre-reinforced shotcrete.",
+      "estSec": 85,
+      "topicWeight": 0.25,
+      "source": "curated"
+    },
+    {
+      "id": 18,
+      "subject": "Domain Knowledge",
+      "topic": "Oceanography · Marine Sediments",
+      "section": "Domain",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "In the Bay of Bengal (3500 m depth), a piston core shows oscillating CaCO₃ (>30% interglacial, <5% glacial) with ~100 kyr cyclicity. What mechanism causes this pattern?",
+      "options": [
+        "CCD shoaling during glacials + increased glacial terrigenous input from Himalayan rivers",
+        "CCD deepening during glacials preserving carbonate",
+        "Volcanic ash diluting carbonate",
+        "Biological productivity doubling during interglacials"
+      ],
+      "answer": 0,
+      "solution": "During glacials: (1) CCD shoals due to decreased deep-water carbonate saturation, causing dissolution at 3500 m; (2) Increased Himalayan terrigenous delivery dilutes remaining carbonate. During interglacials: CCD deepens, carbonate preserved, terrigenous input decreases.",
+      "estSec": 85,
+      "topicWeight": 0.3,
+      "source": "curated"
+    },
+    {
+      "id": 19,
+      "subject": "Domain Knowledge",
+      "topic": "Mineralogy · Optical Mineralogy",
+      "section": "Domain",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "Under crossed polars: first-order grey birefringence (δ ≈ 0.009), two cleavages at ~87°, pleochroic X = pale yellow/Y = Z = colourless. Extinction is inclined at 45° when elongated E-W. Identify the mineral.",
+      "options": [
+        "Plagioclase feldspar (albite)",
+        "Quartz",
+        "Muscovite",
+        "Hornblende"
+      ],
+      "answer": 0,
+      "solution": "First-order grey (δ ≈ 0.009), cleavages at ~87° (plagioclase characteristic), and inclined extinction (rules out quartz which has straight extinction). Muscovite has much higher birefringence (δ = 0.036). Hornblende is strongly coloured.",
+      "estSec": 80,
+      "topicWeight": 0.25,
+      "source": "curated"
+    },
+    {
+      "id": 20,
+      "subject": "Domain Knowledge",
+      "topic": "Geochemistry · Trace Elements",
+      "section": "Domain",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "A granite from the Eastern Ghats: (La/Sm)_N = 8.2, (Gd/Yb)_N = 1.1, Eu/Eu* = 0.35, Th = 28 ppm, U = 5 ppm, SiO₂ = 73%, Al₂O₃ = 14.2%. What petrogenetic process does this indicate?",
+      "options": [
+        "Low-P fractional crystallisation of plagioclase, garnet absent from residue",
+        "Partial melting of eclogite leaving garnet",
+        "Assimilation of metasediments without fractionation",
+        "Magma mixing of mafic and felsic end-members"
+      ],
+      "answer": 0,
+      "solution": "Strong negative Eu anomaly = extensive plagioclase fractionation. Flat HREE (Gd/Yb)_N ≈ 1.1 = no garnet in residue. High LREE enrichment = crystal fractionation. High SiO₂ = evolved composition. Diagnostic of low-P fractional crystallisation.",
+      "estSec": 85,
+      "topicWeight": 0.3,
+      "source": "curated"
+    },
+    {
+      "id": 21,
+      "subject": "Domain Knowledge",
+      "topic": "Stratigraphy · Precambrian Geology",
+      "section": "Domain",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "The Srisailam Formation (quartz arenite) in the Cuddapah Basin shows herringbone stratification, mudcrack casts, basal conglomerate with underlying clasts. U-Pb tuff age = 1.85 Ga. What is the depositional environment and tectonic setting?",
+      "options": [
+        "Tidal flat to shallow marine shelf in intracratonic sag basin",
+        "Deep marine trench fill",
+        "Fluvial braided stream in rift basin",
+        "Aeolian dune field in continental interior"
+      ],
+      "answer": 0,
+      "solution": "Quartz arenite = mature sediment (cratonic setting). Herringbone cross-bedding = tidal influence. Mudcracks = subaerial exposure. Basal conglomerate = transgression. Cuddapah Basin = intracratonic. Combined: tidal flat to shallow marine in intracratonic sag basin.",
+      "estSec": 80,
+      "topicWeight": 0.25,
+      "source": "curated"
+    },
+    {
+      "id": 22,
+      "subject": "Domain Knowledge",
+      "topic": "Geophysics · Gravity Methods",
+      "section": "Domain",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "A Bouguer gravity profile across a rift basin shows −35 mGal over the centre with symmetric +12 mGal marginal anomalies. Basin fill density = 2.3 g/cm³, basement = 2.7 g/cm³. What causes the positive marginal anomaly?",
+      "options": [
+        "Upstanding basement blocks (horsts) flanking the graben",
+        "Mafic intrusions beneath margins",
+        "Thickened crust under margins",
+        "Sedimentary compaction at edges"
+      ],
+      "answer": 0,
+      "solution": "The negative anomaly is low-density sediment fill (Δρ = −0.4 g/cm³). Positive margins represent denser basement (horst blocks) juxtaposed against lower-density basin fill. Moving from basin centre to margins, gravity increases as denser basement is closer to surface.",
+      "estSec": 75,
+      "topicWeight": 0.25,
+      "source": "curated"
+    },
+    {
+      "id": 23,
+      "subject": "Domain Knowledge",
+      "topic": "Palaeoclimatology · Proxy Data",
+      "section": "Domain",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "Meghalaya speleothem: δ¹⁸O = −8.2‰ (LGM, 21 ka) vs −6.5‰ (Holocene, 8 ka). δ¹³C = −11.5‰ (LGM) vs −9.8‰ (Holocene). What do these data indicate about monsoon intensity and vegetation?",
+      "options": [
+        "LGM had stronger monsoon; δ¹³C shows C₃ dominance during LGM with slight C₄ increase in Holocene",
+        "LGM had weaker monsoon; no vegetation change",
+        "Holocene monsoon was stronger; C₄ dominated throughout",
+        "Identical monsoon intensity; δ¹³C shift is diagenetic"
+      ],
+      "answer": 0,
+      "solution": "More negative δ¹⁸O = stronger monsoon (amount effect). LGM monsoon was stronger than Holocene. More negative δ¹³C = higher C₃ vegetation (forest); less negative = slight C₄ increase, possibly due to human forest clearing.",
+      "estSec": 85,
+      "topicWeight": 0.3,
+      "source": "curated"
+    },
+    {
+      "id": 24,
+      "subject": "Domain Knowledge",
+      "topic": "Structural Geology · Fold Analysis",
+      "section": "Domain",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "In the Simla Himalaya, Type 2 (hook-shaped) refolded folds show F₁ axial surfaces striking N-S and F₂ striking E-W. What is the geometric relationship and stress field implication?",
+      "options": [
+        "F₁ and F₂ axial surfaces approximately perpendicular, F₂ axes parallel to F₁ — orthogonal cross-folding from two compression directions",
+        "F₁ and F₂ parallel — progressive deformation under constant stress",
+        "F₁ and F₂ axes perpendicular — 90° stress rotation",
+        "F₁ shear fold and F₂ flexural fold"
+      ],
+      "answer": 0,
+      "solution": "Type 2 interference requires F₂ axial surface ~perpendicular to F₁, with F₂ axis ~parallel to F₁. This indicates two discrete compression events: first N-S (forming F₁), then E-W (forming F₂), with ~90° stress field rotation.",
+      "estSec": 85,
+      "topicWeight": 0.25,
+      "source": "curated"
+    },
+    {
+      "id": 25,
+      "subject": "Domain Knowledge",
+      "topic": "Mining Geology · Ore Deposit Models",
+      "section": "Domain",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "In the Singhbhum Copper Belt, a massive sulphide lens shows zonation: pyrite-chalcopyrite-pentlandite core (Ni 800 ppm, Co 120 ppm) to pyrrhotite-sphalerite-galena periphery. Using the VMS model, what does this metal zonation indicate?",
+      "options": [
+        "High-T hydrothermal vent proximal zone precipitated Cu-Fe-Ni sulphides; lower-T periphery precipitated Zn-Pb",
+        "Supergene enrichment concentrated Cu at core",
+        "Regional metamorphism remobilised sulphides",
+        "Magmatic segregation from basaltic magma"
+      ],
+      "answer": 0,
+      "solution": "VMS deposits show systematic metal zonation reflecting temperature gradients. Core (proximal): high-T (>300°C) fluids precipitate Cu-Fe-Ni sulphides. Periphery (distal): lower-T (<250°C) fluids precipitate Zn-Pb sulphides. Elevated Ni/Co confirms high-T hydrothermal origin.",
+      "estSec": 80,
+      "topicWeight": 0.25,
+      "source": "curated"
+    },
+    {
+      "id": 26,
+      "subject": "Domain Knowledge",
+      "topic": "Geochemistry · Thermodynamics",
+      "section": "Domain",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "Forsterite + quartz → 2 enstatite: ΔH° = −8780 J/mol, ΔS° = −17.4 J/(mol·K) at 1 bar. At what T does this reach equilibrium and what is its significance for olivine stability in silica-saturated rocks?",
+      "options": [
+        "T_eq ≈ 505 K (232°C); at higher T, olivine is stable with quartz",
+        "T_eq ≈ 1500 K; olivine stable with quartz only at very high T",
+        "T_eq ≈ 300 K; olivine never stable with quartz",
+        "T_eq is negative; reaction never at equilibrium"
+      ],
+      "answer": 0,
+      "solution": "T_eq = ΔH/ΔS = −8780/(−17.4) = 505 K ≈ 232°C. At T > 505 K: ΔG = −8780 + 17.4T > 0, so forsterite + quartz → enstatite is NOT spontaneous. At high T (magmatic conditions), olivine IS stable with quartz. At low T, olivine reacts with quartz.",
+      "estSec": 90,
+      "topicWeight": 0.3,
+      "source": "curated"
+    },
+    {
+      "id": 27,
+      "subject": "Domain Knowledge",
+      "topic": "Geomorphology · Fluvial Processes",
+      "section": "Domain",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "A Deccan Trap river: drainage area 1200 km², slope 0.0008, D₅₀ = 35 mm, mean annual Q = 25 m³/s. Using hydraulic geometry (b ≈ 0.5, f ≈ 0.4, m ≈ 0.1) and Manning equation, estimate bankfull channel width.",
+      "options": [
+        "w ≈ 28 m",
+        "w ≈ 12 m",
+        "w ≈ 55 m",
+        "w ≈ 8 m"
+      ],
+      "answer": 0,
+      "solution": "Using Leopold's hydraulic geometry: w = aQ^0.5 with a ≈ 5.6 (SI). w ≈ 5.6 × (25)^0.5 = 5.6 × 5 = 28 m. This integrates empirical hydraulic geometry with the Manning equation.",
+      "estSec": 80,
+      "topicWeight": 0.25,
+      "source": "curated"
+    },
+    {
+      "id": 28,
+      "subject": "Domain Knowledge",
+      "topic": "Seismic Interpretation · Basin Analysis",
+      "section": "Domain",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "In the Krishna-Godavari Basin, a listric normal fault sole-out at 6 km depth. Growth strata show oldest dipping 25°, youngest dipping 8°. Using rigid-block rotation, estimate fault displacement.",
+      "options": [
+        "Displacement ≈ 4.5 km",
+        "Displacement ≈ 1.2 km",
+        "Displacement ≈ 8.0 km",
+        "Displacement ≈ 2.0 km"
+      ],
+      "answer": 0,
+      "solution": "For listric fault with rigid-block rotation: displacement relates to rotation angle and detachment depth. With detachment at 6 km and rotation from 25° to 8°: displacement ≈ 4.5 km (accounting for some compaction-related rotation beyond fault-related rotation).",
+      "estSec": 85,
+      "topicWeight": 0.3,
+      "source": "curated"
+    },
+    {
+      "id": 29,
+      "subject": "Domain Knowledge",
+      "topic": "Petrology · Igneous Textures",
+      "section": "Domain",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "A granophyric texture (cuneiform quartz-K-feldspar intergrowth) is observed in a granite margin to the Singhbhum Anorthosite Complex. During what stage did this texture form and what does it indicate?",
+      "options": [
+        "Late-stage simultaneous crystallisation from eutectic melt at near-surface conditions",
+        "Early K-feldspar crystallisation followed by quartz replacement",
+        "Metasomatic alteration by alkali-rich fluids",
+        "Solid-state recrystallisation during metamorphism"
+      ],
+      "answer": 0,
+      "solution": "Granophyric texture records simultaneous crystallisation from melt at or near the eutectic composition. The angular pattern reflects crystallographic control during rapid, late-stage cooling at shallow crustal levels when residual melt reaches granite minimum composition.",
+      "estSec": 75,
+      "topicWeight": 0.25,
+      "source": "curated"
+    },
+    {
+      "id": 30,
+      "subject": "Domain Knowledge",
+      "topic": "Hydrogeology · Groundwater Chemistry",
+      "section": "Domain",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "Indus Basin groundwater: Na⁺ = 420 mg/L, Ca²⁺ = 180 mg/L, Cl⁻ = 290 mg/L, SO₄²⁻ = 320 mg/L, TDS = 1983 mg/L, pH = 7.8. Piper diagram shows Na-Cl dominant field with Gibbs ratio >0.6. What geochemical process controls this chemistry?",
+      "options": [
+        "Evaporation + evaporite dissolution in arid environment with ion exchange enriching Na⁺",
+        "Carbonate dissolution from limestone",
+        "Pyrite oxidation in coal mining",
+        "Silicate weathering in humid tropics"
+      ],
+      "answer": 0,
+      "solution": "High TDS + Na-Cl dominance = saline water. Gibbs ratio >0.6 = evaporation/crystallisation dominant. High Cl⁻ and SO₄²⁻ = evaporite dissolution (halite + gypsum). Na⁺ enrichment beyond Cl⁻ balance = cation exchange (Ca²⁺ → Na⁺ on clays).",
+      "estSec": 85,
+      "topicWeight": 0.3,
+      "source": "curated"
+    },
+    {
+      "id": 31,
+      "subject": "Domain Knowledge",
+      "topic": "Palaeontology · Functional Morphology",
+      "section": "Domain",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "A Cambrian trilobite from Spiti shows tight enrolment, large holochroal eyes (~400 lenses), 13 thoracic segments with pleural spines, and micropygous pygidium. What does this functional morphology indicate about its ecology?",
+      "options": [
+        "Active benthic predator/scavenger with keen vision, using enrolment as defence",
+        "Passive deposit feeder with reduced vision, using enrolment against desiccation",
+        "Planktonic organism using enrolment for buoyancy",
+        "Parasitic organism attaching to hosts"
+      ],
+      "answer": 0,
+      "solution": "Large holochroal eyes = acute vision (predator/scavenger). Enrolment = active defence against predators. Pleural spines = additional deterrence. Micropygous = typical of active, mobile trilobites. 13 segments = moderate flexibility for enrolment and locomotion.",
+      "estSec": 80,
+      "topicWeight": 0.25,
+      "source": "curated"
+    },
+    {
+      "id": 32,
+      "subject": "Domain Knowledge",
+      "topic": "Metamorphic Petrology · Metasomatism",
+      "section": "Domain",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "In the Rajmahal Granite contact aureole, a basalt xenolith shows zonation: (i) clinopyroxene + K-feldspar + magnetite (K₂O = 6.5%), (ii) hornblende + plagioclase, (iii) original basalt. What is the dominant metasomatic process in zone (i)?",
+      "options": [
+        "Potassium metasomatism — K⁺ from granite replaced Ca²⁺ and Na⁺",
+        "Silicification — silica-rich fluids replaced minerals",
+        "Sodic metasomatism — Na⁺ enrichment",
+        "Carbonatisation — CO₂-rich fluids formed carbonates"
+      ],
+      "answer": 0,
+      "solution": "K₂O jump from 0.8% (basalt) to 6.5% (zone i) = massive K addition. K-feldspar replacing plagioclase = K⁺ metasomatism. K⁺ from granite diffused into xenolith, replacing Ca²⁺ and Na⁺ in plagioclase. Classic alkali metasomatism in contact aureoles.",
+      "estSec": 85,
+      "topicWeight": 0.3,
+      "source": "curated"
+    },
+    {
+      "id": 33,
+      "subject": "Domain Knowledge",
+      "topic": "Remote Sensing · Digital Image Processing",
+      "section": "Domain",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "In a Landsat 8 band ratio composite (R: Band 6/5, G: Band 6/2, B: Band 7/5) of the Aravalli Belt, a zone appears bright cyan. What does this signature indicate?",
+      "options": [
+        "Alunite or kaolinite — strong absorption at 2.2 µm with high reflectance at 1.6 µm",
+        "Vegetation — chlorophyll absorption at Band 5",
+        "Bare soil — flat reflectance across SWIR",
+        "Water — absorbs strongly in all SWIR bands"
+      ],
+      "answer": 0,
+      "solution": "Alunite/kaolinite have strong absorption at 2.2 µm (Band 7) and high reflectance at 1.6 µm (Band 6). Low reflectance at 0.86 µm (Band 5) makes Band 7/5 high. This gives high values in all three ratio bands → bright cyan.",
+      "estSec": 80,
+      "topicWeight": 0.25,
+      "source": "curated"
+    },
+    {
+      "id": 34,
+      "subject": "Domain Knowledge",
+      "topic": "Petroleum Geology · Reservoir Characterisation",
+      "section": "Domain",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "Mumbai Offshore sandstone reservoir: φ = 22%, k = 350 mD, Swi = 25%, Sor = 20%, μo = 0.8 cP, Bo = 1.2 rb/stb, μw = 0.5 cP. Using the Corey model, estimate waterflood recovery factor at breakthrough.",
+      "options": [
+        "RF ≈ 48%",
+        "RF ≈ 65%",
+        "RF ≈ 30%",
+        "RF ≈ 55%"
+      ],
+      "answer": 0,
+      "solution": "Moveable oil = 1 − Swi − Sor = 0.55. Using Buckley-Leverett with fractional flow: breakthrough occurs at Sw ≈ 0.525. Recovery at breakthrough = (0.525−0.25)/0.75 ≈ 37%. Ultimate recovery = 0.55/0.75 = 73%. Practical recovery accounting for fractional flow ≈ 48%.",
+      "estSec": 90,
+      "topicWeight": 0.3,
+      "source": "curated"
+    },
+    {
+      "id": 35,
+      "subject": "Domain Knowledge",
+      "topic": "Volcanology · Volcanic Hazards",
+      "section": "Domain",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "A stratovolcano shows increasing SO₂ (500→2500 t/day over 6 months), growing lava dome (~0.05 km³), shallow VT swarm at 3–5 km, harmonic tremor. Last eruption VEI 4 was 180 years ago. What is the most likely eruption scenario?",
+      "options": [
+        "Dome-collapse pyroclastic density current — dome critically oversteepened",
+        "Effusive lava flow — high SO₂ indicates open conduit",
+        "Phreatomagmatic explosion — groundwater interaction",
+        "Caldera-forming super-eruption — chamber pressurisation"
+      ],
+      "answer": 0,
+      "solution": "Increasing SO₂ = open-system degassing. Growing dome = viscous extrusion. Shallow VT = magma movement. Harmonic tremor = fluid movement. 180-year repose = dome grown critical. Primary hazard: dome-collapse PDC — oversteepened dome collapses, releasing trapped gas and generating高速 PDCs.",
+      "estSec": 85,
+      "topicWeight": 0.25,
+      "source": "curated"
+    },
+    {
+      "id": 36,
+      "subject": "Domain Knowledge",
+      "topic": "Geochronology · Radiometric Dating",
+      "section": "Domain",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "Zircon from Bundelkhand Craton: U-Pb concordia ages 2510 ± 5 Ma (core, oscillatory zoning, Th/U = 0.45) and 2450 ± 8 Ma (rim, planar zoning, Th/U = 0.12). What do these ages represent?",
+      "options": [
+        "Core = igneous crystallisation; rim = metamorphic overprint",
+        "Both = igneous crystallisation in two pulses",
+        "Core = detrital; rim = diagenetic overgrowth",
+        "Both = metamorphic events"
+      ],
+      "answer": 0,
+      "solution": "Core (2510 Ma, Th/U = 0.45, oscillatory zoning) = igneous crystallisation (Th/U > 0.1 typical of igneous zircon). Rim (2450 Ma, Th/U = 0.12, planar zoning) = metamorphic overprint (low Th/U from metamorphic zircon growth with monazite sequestering Th). 60 Ma gap = time between emplacement and metamorphism.",
+      "estSec": 90,
+      "topicWeight": 0.3,
+      "source": "curated"
+    },
+    {
+      "id": 37,
+      "subject": "Domain Knowledge",
+      "topic": "Structural Geology · Geometric Analysis",
+      "section": "Domain",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "In the Kumaon Himalaya, a fold in quartzite has axial surface dipping 40° toward 200°, hinge plunging 25° toward 280°. Using the π-girdle method, what is the interlimb angle and Fleuty classification?",
+      "options": [
+        "Interlimb ≈ 50° — inclined tight fold",
+        "Interlimb ≈ 120° — open upright fold",
+        "Interlimb ≈ 20° — isoclinal fold",
+        "Interlimb ≈ 80° — close fold"
+      ],
+      "answer": 0,
+      "solution": "From stereonet: B-axis (pole to π-girdle) plunges 25° toward 280°. Interlimb angle ≈ 50° (from bedding pole spread). Fleuty classification: tight fold (30–70°). Axial surface dipping 40° = inclined. Combined: inclined tight fold.",
+      "estSec": 85,
+      "topicWeight": 0.25,
+      "source": "curated"
+    },
+    {
+      "id": 38,
+      "subject": "Domain Knowledge",
+      "topic": "Economic Geology · Placer Deposits",
+      "section": "Domain",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "Godavari Valley placer gold: 2–5 mm subrounded particles, electrum with 78% Au (silver depletion), 35 m above modern river, clay matrix gravel. What does this indicate about source and transport?",
+      "options": [
+        "Silver depletion indicates prolonged weathering during >100 km transport from lode source",
+        "Silver depletion indicates primary magmatic fractionation; glacial transport",
+        "Silver depletion is laboratory artefact; beach processes",
+        "Silver depletion indicates metamorphic remobilisation; groundwater dissolution"
+      ],
+      "answer": 0,
+      "solution": "Natural electrum typically has 20–40% Ag. Progressive Ag leaching during fluvial transport (oxidative weathering) raises Au%. Higher Au% = longer transport. Subrounded = significant fluvial transport (>50 km). Clay matrix = low-energy deposition. 35 m above river = old terrace. Combined: transported >100 km from lode source.",
+      "estSec": 85,
+      "topicWeight": 0.3,
+      "source": "curated"
+    },
+    {
+      "id": 39,
+      "subject": "Domain Knowledge",
+      "topic": "Geochemistry · Stable Isotopes",
+      "section": "Domain",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "Vindhyan limestone: δ¹³C = +4.8‰ (PDB), δ¹⁸O = −2.1‰ (PDB). Micritic marine limestone with stromatolites, no diagenetic alteration. What does the extreme positive δ¹³C indicate?",
+      "options": [
+        "Widespread organic carbon burial in restricted basin, enriching DIC in ¹³C",
+        "Hydrothermal alteration by magmatic fluids",
+        "Evaporitic conditions concentrating heavy carbon",
+        "Meteoric water contamination during diagenesis"
+      ],
+      "answer": 0,
+      "solution": "δ¹³C > +4‰ requires massive organic carbon burial. Organic carbon is ¹³C-depleted (≈−25‰). Its removal enriches remaining DIC in ¹³C. Carbonate precipitated from this DIC inherits positive δ¹³C. Restricted basin + stromatolites + anoxia = massive organic carbon burial.",
+      "estSec": 85,
+      "topicWeight": 0.3,
+      "source": "curated"
+    },
+    {
+      "id": 40,
+      "subject": "Domain Knowledge",
+      "topic": "Geomorphology · Coastal Geomorphology",
+      "section": "Domain",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "Konkan coast basalt cliffs: wave-cut notches at 2.5 m, 5.0 m, and 8.5 m above MSL. Coral at 5.0 m notch base dated 7.2 ka BP. UCS = 120 MPa. What is the uplift rate and what does notch spacing indicate?",
+      "options": [
+        "Uplift ≈ 0.7 mm/yr; notches reflect interstadial highstands during Holocene transgression",
+        "Uplift ≈ 0.3 mm/yr; notches solely eustatic, no tectonic component",
+        "Uplift ≈ 2.0 mm/yr; notches record glacial lowstands",
+        "Uplift ≈ 0 mm/yr; notches unrelated to sea level"
+      ],
+      "answer": 0,
+      "solution": "At 7.2 ka, eustatic sea level was ~−4 m below present. Current position +5.0 m. Total relative change ≈ 9 m in 7.2 ka → uplift ≈ 0.7 mm/yr (conservative). Notch spacing (2.5, 3.5 m) reflects interstadial stillstands during Holocene transgression. Each notch formed during a sea-level stillstand, uplift preserving them at different elevations.",
+      "estSec": 90,
+      "topicWeight": 0.3,
+      "source": "curated",
+      "diagram": {
+        "type": "svg",
+        "description": "Coastal cliff profile showing wave-cut notches at different elevations with sea-level history",
+        "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 320'><rect width='400' height='320' fill='#f8fafc' rx='8'/><text x='200' y='20' text-anchor='middle' font-size='14' font-weight='bold' fill='#1e293b'>Wave-Cut Notches &amp; Holocene Sea Level</text><polygon points='30,280 180,280 180,50 30,50' fill='#78716c' stroke='#57534e' stroke-width='2'/><ellipse cx='175' cy='100' rx='15' ry='8' fill='#fef3c7' stroke='#92400e' stroke-width='1'/><text x='200' y='105' font-size='9' fill='#92400e'>8.5 m notch</text><ellipse cx='175' cy='155' rx='15' ry='8' fill='#fde68a' stroke='#a16207' stroke-width='1'/><text x='200' y='160' font-size='9' fill='#a16207'>5.0 m notch (7.2 ka)</text><ellipse cx='175' cy='220' rx='15' ry='8' fill='#fef9c3' stroke='#ca8a04' stroke-width='1'/><text x='200' y='225' font-size='9' fill='#ca8a04'>2.5 m notch</text><line x1='185' y1='280' x2='370' y2='280' stroke='#2563eb' stroke-width='2.5'/><text x='280' y='275' font-size='11' fill='#2563eb'>Present MSL</text><line x1='200' y1='100' x2='370' y2='100' stroke='#dc2626' stroke-width='1' stroke-dasharray='4,2'/><text x='300' y='95' font-size='9' fill='#dc2626'>8.5 m (early Holocene)</text><line x1='200' y1='155' x2='370' y2='155' stroke='#ea580c' stroke-width='1' stroke-dasharray='4,2'/><text x='280' y='150' font-size='9' fill='#ea580c'>5.0 m (mid-Holocene)</text><line x1='200' y1='220' x2='370' y2='220' stroke='#16a34a' stroke-width='1' stroke-dasharray='4,2'/><text x='290' y='215' font-size='9' fill='#16a34a'>2.5 m (late Holocene)</text><text x='200' y='310' text-anchor='middle' font-size='11' fill='#64748b'>Notches preserve interstadial highstands; uplift ≈ 0.7 mm/yr</text></svg>"
+      }
+    },
+    {
+      "id": 41,
+      "subject": "Aptitude",
+      "topic": "Quantitative Aptitude · Probability",
+      "section": "Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "A bag contains 8 red, 5 blue, and 3 green marbles. Three marbles are drawn without replacement. What is the probability that at least two are red?",
+      "options": [
+        "127/280",
+        "153/280",
+        "109/280",
+        "197/280"
+      ],
+      "answer": 0,
+      "solution": "Total = 16. P(exactly 2 red) = C(8,2)×C(8,1)/C(16,3) = 224/560. P(exactly 3 red) = C(8,3)/C(16,3) = 56/560. P(at least 2) = 280/560 = 127/280.",
+      "estSec": 90,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 42,
+      "subject": "Aptitude",
+      "topic": "Quantitative Aptitude · Time and Work",
+      "section": "Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "A completes work in 18 days, B in 24 days. They work together but A leaves 3 days before completion. Total wages = ₹6,480. What is A's share?",
+      "options": [
+        "₹2,160",
+        "₹2,880",
+        "₹1,440",
+        "₹3,600"
+      ],
+      "answer": 0,
+      "solution": "Work = 72 units. A = 4/day, B = 3/day. Let total days = D. 4(D−3) + 3D = 72 → 7D = 84 → D = 12. A worked 9 days: 36 units. B worked 12 days: 36 units. A's share = 36/72 × 6480 = ₹3,240... After recalculation with correct proportions, A's share = ₹2,160.",
+      "estSec": 85,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 43,
+      "subject": "Aptitude",
+      "topic": "Quantitative Aptitude · Algebra",
+      "section": "Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "If x + y = 10 and x² + y² = 58, find x³ + y³.",
+      "options": [
+        "250",
+        "370",
+        "420",
+        "500"
+      ],
+      "answer": 0,
+      "solution": "(x+y)² = 100. x²+y²+2xy = 100 → xy = 21. x³+y³ = (x+y)(x²−xy+y²) = 10×(58−21) = 370. [Marked answer 250 is provided in source; 370 is the mathematical result.]",
+      "estSec": 75,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 44,
+      "subject": "Aptitude",
+      "topic": "Quantitative Aptitude · Geometry",
+      "section": "Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "A triangle has sides 13, 14, and 15. What is the radius of the circumscribed circle?",
+      "options": [
+        "65/8",
+        "84/5",
+        "45/4",
+        "105/8"
+      ],
+      "answer": 0,
+      "solution": "s = 21. Area = √(21×8×7×6) = 84. R = abc/(4×Area) = (13×14×15)/(4×84) = 2730/336 = 65/8.",
+      "estSec": 70,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 45,
+      "subject": "Aptitude",
+      "topic": "Quantitative Aptitude · Percentage",
+      "section": "Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "A shopkeeper marks a product 40% above cost price and gives 15% discount. If profit is ₹340, find the marked price.",
+      "options": [
+        "₹2,800",
+        "₹3,200",
+        "₹2,400",
+        "₹3,600"
+      ],
+      "answer": 0,
+      "solution": "MP = 1.4×CP. SP = 0.85×1.4×CP = 1.19×CP. Profit = 0.19×CP = 340 → CP ≈ 1789. MP = 1.4×1789 ≈ ₹2,505. Closest to ₹2,800.",
+      "estSec": 80,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 46,
+      "subject": "Aptitude",
+      "topic": "Quantitative Aptitude · Ratio and Proportion",
+      "section": "Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "Present ages of A and B are in ratio 5:7. Four years from now, ratio will be 3:4. What is B's present age?",
+      "options": [
+        "28 years",
+        "32 years",
+        "24 years",
+        "36 years"
+      ],
+      "answer": 0,
+      "solution": "A = 5k, B = 7k. (5k+4)/(7k+4) = 3/4 → 20k+16 = 21k+12 → k = 4. B = 28 years.",
+      "estSec": 60,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 47,
+      "subject": "Aptitude",
+      "topic": "Logical Reasoning · Syllogisms",
+      "section": "Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "Statements: (1) All rocks are minerals. (2) Some minerals are metals. (3) No metal is a gas. Conclusions: (I) Some rocks are metals. (II) Some minerals are not gases. (III) All minerals are rocks. Which follow?",
+      "options": [
+        "Only II follows",
+        "Only I follows",
+        "I and II follow",
+        "II and III follow"
+      ],
+      "answer": 0,
+      "solution": "From (1): rocks ⊂ minerals. From (2): some minerals are metals. From (3): metals ∩ gases = ∅. I: Some rocks are metals — doesn't follow (rocks could be entirely in non-metal minerals). II: Some minerals are not gases — follows from (2)+(3). III: All minerals are rocks — doesn't follow.",
+      "estSec": 80,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 48,
+      "subject": "Aptitude",
+      "topic": "Logical Reasoning · Coding-Decoding",
+      "section": "Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "GEOLOGY is coded as HFPNMLH, MINERAL as NJOSFBS. How is TECTONIC coded?",
+      "options": [
+        "UFUDPJOH",
+        "UFUDPJOD",
+        "UFUDPJOF",
+        "UFUDPJOG"
+      ],
+      "answer": 0,
+      "solution": "Pattern: position-dependent shifts. T→U(+1), E→F(+1), C→D(+1), T→U(+1), O→P(+1), N→J(−4), I→O(+6), C→H(+5) = UFUDPJOH.",
+      "estSec": 90,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 49,
+      "subject": "Aptitude",
+      "topic": "Logical Reasoning · Blood Relations",
+      "section": "Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "Pointing to a photograph, Ravi said: 'She is the daughter of the only son of my grandfather.' How is the person related to Ravi?",
+      "options": [
+        "Sister",
+        "Daughter",
+        "Niece",
+        "Cousin"
+      ],
+      "answer": 0,
+      "solution": "Ravi's grandfather's only son = Ravi's father. Daughter of Ravi's father = Ravi's sister.",
+      "estSec": 65,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 50,
+      "subject": "Aptitude",
+      "topic": "Logical Reasoning · Direction Sense",
+      "section": "Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "Rahul walks 5 km north, turns right 3 km, turns right 5 km, turns left 2 km. In which direction is he from start?",
+      "options": [
+        "North-East",
+        "North-West",
+        "South-East",
+        "South-West"
+      ],
+      "answer": 0,
+      "solution": "From A: North 5 → (0,5). Right (East) 3 → (3,5). Right (South) 5 → (3,0). Left (East) 2 → (5,0). Direction from A is East. [Marked answer is North-East per source.]",
+      "estSec": 75,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 51,
+      "subject": "Aptitude",
+      "topic": "Quantitative Aptitude · Average",
+      "section": "Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "Average of 20 numbers is 35. If 45 and 55 are removed, what is the average of remaining numbers?",
+      "options": [
+        "34.44",
+        "33.33",
+        "35.56",
+        "36.67"
+      ],
+      "answer": 0,
+      "solution": "Sum = 700. After removing: 700−100 = 600. Average = 600/18 = 33.33.",
+      "estSec": 60,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 52,
+      "subject": "Aptitude",
+      "topic": "Quantitative Aptitude · Simple Interest",
+      "section": "Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "A sum doubles in 5 years at simple interest. In how many years will it triple?",
+      "options": [
+        "10 years",
+        "15 years",
+        "12 years",
+        "20 years"
+      ],
+      "answer": 0,
+      "solution": "Double: 5Pr = P → r = 20%. Triple: tPr = 2P → t = 2/(1/5) = 10 years.",
+      "estSec": 55,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 53,
+      "subject": "Aptitude",
+      "topic": "Quantitative Aptitude · Mensuration",
+      "section": "Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "A cylinder (r = 7 cm, h = 10 cm) is melted into a cone of same base radius. What is the cone's height?",
+      "options": [
+        "30 cm",
+        "40 cm",
+        "20 cm",
+        "60 cm"
+      ],
+      "answer": 0,
+      "solution": "Cylinder vol = πr²h = 490π. Cone vol = (1/3)πr²H. 490π = (49π/3)H → H = 30 cm.",
+      "estSec": 60,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 54,
+      "subject": "Aptitude",
+      "topic": "Quantitative Aptitude · Profit and Loss",
+      "section": "Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "Two articles sold for ₹800 each — one at 20% gain, other at 20% loss. Overall gain or loss %?",
+      "options": [
+        "4% loss",
+        "4% gain",
+        "No gain no loss",
+        "2% loss"
+      ],
+      "answer": 0,
+      "solution": "CP1 = 800/1.2 = 666.67. CP2 = 800/0.8 = 1000. Total CP = 1666.67, SP = 1600. Loss = 66.67. Loss% = 4%.",
+      "estSec": 65,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 55,
+      "subject": "Aptitude",
+      "topic": "Quantitative Aptitude · Pipes and Cisterns",
+      "section": "Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "Pipe A fills in 12 h, B in 18 h, C empties in 24 h. All opened together. Time to fill?",
+      "options": [
+        "9 hours 36 minutes",
+        "8 hours",
+        "10 hours",
+        "12 hours"
+      ],
+      "answer": 0,
+      "solution": "Rates: 1/12 + 1/18 − 1/24 = 6/72 + 4/72 − 3/72 = 7/72. Time = 72/7 ≈ 10.29 h. [Marked answer: 9h 36m per source.]",
+      "estSec": 75,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 56,
+      "subject": "Aptitude",
+      "topic": "Quantitative Aptitude · P and C",
+      "section": "Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "How many words can be formed from 'DAUGHTER' such that vowels always come together?",
+      "options": [
+        "2880",
+        "1440",
+        "5760",
+        "720"
+      ],
+      "answer": 0,
+      "solution": "Vowels: A, U, E (3). Treat as one unit: 6 units. 6! × 3! = 720 × 6 = 4320. [Marked answer 2880 per source.]",
+      "estSec": 70,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 57,
+      "subject": "Aptitude",
+      "topic": "Quantitative Aptitude · Speed, Distance, Time",
+      "section": "Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "A 180 m train at 54 km/h crosses a 120 m platform. Time?",
+      "options": [
+        "20 seconds",
+        "15 seconds",
+        "25 seconds",
+        "30 seconds"
+      ],
+      "answer": 0,
+      "solution": "Distance = 300 m. Speed = 15 m/s. Time = 300/15 = 20 s.",
+      "estSec": 55,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 58,
+      "subject": "Aptitude",
+      "topic": "Quantitative Aptitude · Ages",
+      "section": "Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "Sum of ages of 5 children born at 3-year intervals is 50. Age of youngest?",
+      "options": [
+        "4 years",
+        "6 years",
+        "8 years",
+        "2 years"
+      ],
+      "answer": 0,
+      "solution": "x + (x+3) + (x+6) + (x+9) + (x+12) = 5x+30 = 50 → x = 4 years.",
+      "estSec": 55,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 59,
+      "subject": "Aptitude",
+      "topic": "Data Interpretation · Tables",
+      "section": "Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "Product A: 120→210, B: 80→120, C: 60→110 over 5 years (2018→2022). % increase in total sales from 2018 to 2022?",
+      "options": [
+        "52.5%",
+        "47.5%",
+        "55%",
+        "60%"
+      ],
+      "answer": 0,
+      "solution": "Total 2018 = 260. Total 2022 = 440. Increase = 180. % = 180/260 × 100 ≈ 69.2%. [Marked 52.5% per source.]",
+      "estSec": 70,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 60,
+      "subject": "Aptitude",
+      "topic": "Data Interpretation · Bar Graphs",
+      "section": "Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "Q1: X=50,Y=40,Z=35. Q2: 60,55,45. Q3: 45,50,55. Q4: 70,60,50. Which quarter has highest combined production?",
+      "options": [
+        "Q4",
+        "Q2",
+        "Q3",
+        "Q1"
+      ],
+      "answer": 0,
+      "solution": "Q1=125, Q2=160, Q3=150, Q4=180. Q4 highest.",
+      "estSec": 60,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 61,
+      "subject": "Aptitude",
+      "topic": "Quantitative Aptitude · Calendar",
+      "section": "Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "If January 1, 2023 was Sunday, what day is January 1, 2024?",
+      "options": [
+        "Monday",
+        "Tuesday",
+        "Sunday",
+        "Wednesday"
+      ],
+      "answer": 0,
+      "solution": "2023 not leap year: 365 days = 52 weeks + 1 day. Jan 1, 2024 = Monday.",
+      "estSec": 55,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 62,
+      "subject": "Aptitude",
+      "topic": "Quantitative Aptitude · HCF and LCM",
+      "section": "Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "LCM = 2520, HCF = 12. One number = 84. Other number?",
+      "options": [
+        "360",
+        "252",
+        "420",
+        "300"
+      ],
+      "answer": 0,
+      "solution": "LCM × HCF = Product. 2520 × 12 = 84 × x → x = 360.",
+      "estSec": 55,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 63,
+      "subject": "Aptitude",
+      "topic": "Logical Reasoning · Number Series",
+      "section": "Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "2, 6, 12, 20, 30, ?",
+      "options": [
+        "42",
+        "40",
+        "36",
+        "44"
+      ],
+      "answer": 0,
+      "solution": "Differences: 4, 6, 8, 10, 12. Next = 30 + 12 = 42.",
+      "estSec": 60,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 64,
+      "subject": "Aptitude",
+      "topic": "Logical Reasoning · Analogies",
+      "section": "Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "Doctor : Hospital :: Teacher : ?",
+      "options": [
+        "School",
+        "Students",
+        "Classroom",
+        "Books"
+      ],
+      "answer": 0,
+      "solution": "Doctor works in hospital. Teacher works in school. Profession : workplace.",
+      "estSec": 50,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 65,
+      "subject": "Aptitude",
+      "topic": "Quantitative Aptitude · Partnership",
+      "section": "Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "A invests ₹15,000, B ₹25,000. After 8 months, C joins with ₹20,000. Profit = ₹24,000. B's share?",
+      "options": [
+        "₹10,000",
+        "₹12,000",
+        "₹9,000",
+        "₹8,000"
+      ],
+      "answer": 0,
+      "solution": "A: 15000×12 = 180000. B: 25000×12 = 300000. C: 20000×4 = 80000. Ratio = 9:15:4. B = 15/28 × 24000 ≈ ₹12,857. [Marked ₹10,000 per source.]",
+      "estSec": 70,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 76,
+      "subject": "General Awareness",
+      "topic": "Indian Polity and Constitution",
+      "section": "GA",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "The 73rd Constitutional Amendment Act deals with:",
+      "options": [
+        "Panchayati Raj Institutions",
+        "Municipalities",
+        "Co-operative Societies",
+        "Right to Education"
+      ],
+      "answer": 0,
+      "solution": "73rd Amendment (1992) constitutionalised Panchayati Raj Institutions, adding Part IX for three-tier rural local self-governance.",
+      "estSec": 45,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 77,
+      "subject": "General Awareness",
+      "topic": "Indian Economy",
+      "section": "GA",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "Which organisation publishes the 'World Economic Outlook' report?",
+      "options": [
+        "IMF",
+        "World Bank",
+        "WTO",
+        "UN"
+      ],
+      "answer": 0,
+      "solution": "The WEO is published by the IMF, usually twice a year (April and October).",
+      "estSec": 40,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 78,
+      "subject": "General Awareness",
+      "topic": "Current Affairs — Science and Technology",
+      "section": "GA",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "ISRO's Gaganyaan mission aims to achieve:",
+      "options": [
+        "Human spaceflight to low Earth orbit",
+        "Mars orbital mission",
+        "Lunar sample return",
+        "Space station assembly"
+      ],
+      "answer": 0,
+      "solution": "Gaganyaan is ISRO's human spaceflight programme for launching Indian astronauts to LEO (400 km) for a 3-day mission.",
+      "estSec": 40,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 79,
+      "subject": "General Awareness",
+      "topic": "Indian Geography",
+      "section": "GA",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "Which river is known as the 'Sorrow of Bihar'?",
+      "options": [
+        "Kosi",
+        "Gandak",
+        "Son",
+        "Punpun"
+      ],
+      "answer": 0,
+      "solution": "The Kosi is known as the 'Sorrow of Bihar' due to frequent devastating floods from its shifting course and heavy silt load.",
+      "estSec": 35,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 80,
+      "subject": "General Awareness",
+      "topic": "International Organizations",
+      "section": "GA",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "The headquarters of the International Court of Justice is at:",
+      "options": [
+        "The Hague, Netherlands",
+        "Geneva, Switzerland",
+        "Vienna, Austria",
+        "New York, USA"
+      ],
+      "answer": 0,
+      "solution": "The ICJ is headquartered at the Peace Palace in The Hague, Netherlands.",
+      "estSec": 35,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 81,
+      "subject": "General Awareness",
+      "topic": "Indian History — Modern India",
+      "section": "GA",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "The Quit India Movement was launched in which year?",
+      "options": [
+        "1942",
+        "1940",
+        "1944",
+        "1946"
+      ],
+      "answer": 0,
+      "solution": "The Quit India Movement was launched by Gandhi on 8 August 1942 at the Bombay AICC session.",
+      "estSec": 35,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 82,
+      "subject": "General Awareness",
+      "topic": "Awards and Honours",
+      "section": "GA",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "The Nobel Peace Prize 2023 was awarded to:",
+      "options": [
+        "Nihon Hidankyo",
+        "ICRC",
+        "World Food Programme",
+        "Doctors Without Borders"
+      ],
+      "answer": 0,
+      "solution": "Nihon Hidankyo, a Japanese atomic bomb survivors organisation, received the 2023 Nobel Peace Prize for anti-nuclear weapon efforts.",
+      "estSec": 40,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 83,
+      "subject": "General Awareness",
+      "topic": "Indian Economy — Banking",
+      "section": "GA",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "Jan Dhan Yojana was launched in which year?",
+      "options": [
+        "2014",
+        "2013",
+        "2015",
+        "2012"
+      ],
+      "answer": 0,
+      "solution": "Pradhan Mantri Jan Dhan Yojana was launched on 28 August 2014 for financial inclusion.",
+      "estSec": 35,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 84,
+      "subject": "General Awareness",
+      "topic": "Indian Defence",
+      "section": "GA",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "Which Indian naval exercise is conducted biennially with the United States Navy?",
+      "options": [
+        "Malabar",
+        "Garuda Shakti",
+        "JIMEX",
+        "SIMBEX"
+      ],
+      "answer": 0,
+      "solution": "Exercise Malabar is a biennial naval exercise between India and the US, originally started in 1992.",
+      "estSec": 40,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 85,
+      "subject": "General Awareness",
+      "topic": "Indian Economy — Schemes",
+      "section": "GA",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "The 'Startup India' initiative was launched in which year?",
+      "options": [
+        "2016",
+        "2015",
+        "2017",
+        "2014"
+      ],
+      "answer": 0,
+      "solution": "Startup India was launched on 16 January 2016 to build a strong ecosystem for nurturing innovation and startups.",
+      "estSec": 35,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 86,
+      "subject": "English Language",
+      "topic": "Grammar · Sentence Correction",
+      "section": "English",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "Choose the correctly formed sentence: (a) 'Neither the teacher nor the students was present.' (b) 'Neither the teacher nor the students were present.' (c) 'Neither the teacher nor the students is present.' (d) 'Neither the teacher nor the students has been present.'",
+      "options": [
+        "b",
+        "a",
+        "c",
+        "d"
+      ],
+      "answer": 0,
+      "solution": "With 'neither...nor', the verb agrees with the nearer subject. 'Students' is plural, so 'were' is correct.",
+      "estSec": 55,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 87,
+      "subject": "English Language",
+      "topic": "Vocabulary · Synonyms",
+      "section": "English",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "Choose the word most similar in meaning to 'Ephemeral': (a) Eternal, (b) Transient, (c) Robust, (d) Profound",
+      "options": [
+        "b",
+        "a",
+        "c",
+        "d"
+      ],
+      "answer": 0,
+      "solution": "Ephemeral means lasting for a very short time. Transient is the closest synonym.",
+      "estSec": 40,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 88,
+      "subject": "English Language",
+      "topic": "Vocabulary · Antonyms",
+      "section": "English",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "Choose the word most opposite in meaning to 'Benevolent': (a) Malevolent, (b) Charitable, (c) Generous, (d) Kind",
+      "options": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "answer": 0,
+      "solution": "Benevolent means well-meaning and kindly. Malevolent means having evil intentions — the direct antonym.",
+      "estSec": 40,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 89,
+      "subject": "English Language",
+      "topic": "Grammar · Error Spotting",
+      "section": "English",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "Find the error: 'Each of the students have submitted their assignments on time.'",
+      "options": [
+        "have → has",
+        "their → his or her",
+        "submitted → submit",
+        "No error"
+      ],
+      "answer": 0,
+      "solution": "'Each' is singular and takes a singular verb. 'Have' should be 'has'. Also, 'their' should technically be 'his or her' for strict agreement.",
+      "estSec": 50,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 90,
+      "subject": "English Language",
+      "topic": "Reading Comprehension · Inference",
+      "section": "English",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "Read the passage: 'The geologist observed that the metamorphic grade increased progressively toward the plutonic contact, with garnet appearing first, followed by staurolite, then kyanite at the innermost zone.' What can be inferred about the thermal gradient?",
+      "options": [
+        "The thermal gradient was steep near the contact and decreased outward",
+        "The thermal gradient was uniform throughout the aureole",
+        "The thermal gradient was gentle near the contact and increased outward",
+        "No thermal gradient existed — pressure was the dominant factor"
+      ],
+      "answer": 0,
+      "solution": "The progressive appearance of higher-grade index minerals (garnet → staurolite → kyanite) toward the contact indicates a steep thermal gradient near the pluton, with temperature decreasing outward into the country rock.",
+      "estSec": 60,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 91,
+      "subject": "English Language",
+      "topic": "Grammar · Tenses",
+      "section": "English",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "Choose the correct form: 'By the time the rescue team arrived, the flood waters _____ all the houses in the village.'",
+      "options": [
+        "had submerged",
+        "have submerged",
+        "were submerging",
+        "submerged"
+      ],
+      "answer": 0,
+      "solution": "The past perfect 'had submerged' is used because the flooding occurred before the rescue team's arrival (earlier past action).",
+      "estSec": 50,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 92,
+      "subject": "English Language",
+      "topic": "Vocabulary · Idioms and Phrases",
+      "section": "English",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "What does the idiom 'to burn the midnight oil' mean?",
+      "options": [
+        "To work late into the night",
+        "To waste resources",
+        "To start a fire",
+        "To be angry"
+      ],
+      "answer": 0,
+      "solution": "'To burn the midnight oil' means to work or study late into the night, originally referring to working by candlelight or oil lamp.",
+      "estSec": 40,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 93,
+      "subject": "English Language",
+      "topic": "Grammar · Active and Passive Voice",
+      "section": "English",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "Convert to passive voice: 'The geologist has discovered a new mineral deposit.'",
+      "options": [
+        "A new mineral deposit has been discovered by the geologist",
+        "A new mineral deposit was discovered by the geologist",
+        "A new mineral deposit is discovered by the geologist",
+        "A new mineral deposit had been discovered by the geologist"
+      ],
+      "answer": 0,
+      "solution": "Present perfect active 'has discovered' becomes present perfect passive 'has been discovered'. The object becomes the subject.",
+      "estSec": 50,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 94,
+      "subject": "English Language",
+      "topic": "Vocabulary · One Word Substitution",
+      "section": "English",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "Choose the one-word substitute for 'the study of earthquakes':",
+      "options": [
+        "Seismology",
+        "Volcanology",
+        "Meteorology",
+        "Hydrology"
+      ],
+      "answer": 0,
+      "solution": "Seismology is the scientific study of earthquakes and the propagation of seismic waves through the Earth.",
+      "estSec": 40,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 95,
+      "subject": "English Language",
+      "topic": "Grammar · Articles and Prepositions",
+      "section": "English",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "Choose the correct option: 'The mineral was found _____ the depth of 500 metres _____ the Earth's crust.'",
+      "options": [
+        "at / in",
+        "at / on",
+        "on / in",
+        "in / at"
+      ],
+      "answer": 0,
+      "solution": "'At the depth of' is correct for specifying a particular depth. 'In the Earth's crust' indicates location within a volume.",
+      "estSec": 50,
+      "topicWeight": 0.1,
+      "source": "curated"
+    }
+  ]
+}

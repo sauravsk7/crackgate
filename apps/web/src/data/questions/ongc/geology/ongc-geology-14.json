@@ -1,0 +1,1942 @@
+{
+  "id": "ongc-geology-14",
+  "slug": "geology",
+  "no": 14,
+  "title": "ONGC Geology — Advanced Mock 14 — Conceptual",
+  "discipline": "Geology",
+  "durationMin": 120,
+  "totalMarks": 85,
+  "negativeMarking": false,
+  "pattern": "ONGC CBT — 85 MCQ · 120 min · 1 mark each · no negative marking",
+  "sections": [
+    {
+      "name": "Domain Knowledge",
+      "count": 40
+    },
+    {
+      "name": "Aptitude",
+      "count": 25
+    },
+    {
+      "name": "General Awareness",
+      "count": 10
+    },
+    {
+      "name": "English Language",
+      "count": 10
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "subject": "Domain Knowledge",
+      "topic": "Petroleum Geology · Source Rock Kinetics",
+      "section": "Domain",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "In a rift basin setting, the timing of peak oil generation relative to trap formation is controlled primarily by:",
+      "options": [
+        "The instantaneous heating rate of the syn-rift source kitchen",
+        "The intersection of the source rock's kinetic window with the burial–thermal history path",
+        "The clay mineralogy of the overlying seal unit",
+        "The lateral continuity of the carrier bed above the source"
+      ],
+      "answer": 1,
+      "solution": "Peak oil generation occurs when the source rock reaches its kinetic maturity window (Tmax of the principal kerogen reaction). In rift basins, the critical exploration risk is whether this kinetic window was reached before, during, or after structural trap formation. This is assessed by integrating burial history modelling with programmed pyrolysis kinetic parameters (Ea, A-factor) for the specific kerogen type.",
+      "estSec": 90,
+      "topicWeight": 0.125,
+      "source": "curated",
+      "media": [
+        {
+          "kind": "svg",
+          "caption": "Burial–thermal history showing source rock kinetic window relative to trap formation",
+          "markup": "<svg viewBox='0 0 500 300' xmlns='http://www.w3.org/2000/svg'><rect width='500' height='300' fill='#f8fafc'/><text x='250' y='22' font-size='13' text-anchor='middle' font-weight='bold'>Burial–Thermal History &amp; Kinetic Window</text><line x1='70' y1='260' x2='470' y2='260' stroke='#334155' stroke-width='1'/><line x1='70' y1='260' x2='70' y2='30' stroke='#334155' stroke-width='1'/><text x='270' y='285' font-size='10' fill='#64748b' text-anchor='middle'>Time (Ma) →</text><text x='25' y='150' font-size='10' fill='#64748b' transform='rotate(-90,25,150)'>Depth (km) →</text><text x='100' y='275' font-size='8' fill='#64748b'>200</text><text x='200' y='275' font-size='8' fill='#64748b'>150</text><text x='300' y='275' font-size='8' fill='#64748b'>100</text><text x='400' y='275' font-size='8' fill='#64748b'>50</text><text x='55' y='80' font-size='8' fill='#64748b'>2</text><text x='55' y='140' font-size='8' fill='#64748b'>4</text><text x='55' y='200' font-size='8' fill='#64748b'>6</text><text x='55' y='240' font-size='8' fill='#64748b'>8</text><path d='M100,70 Q200,100 300,160 Q380,200 440,230' fill='none' stroke='#2563eb' stroke-width='2'/><text x='445' y='225' font-size='9' fill='#2563eb'>Basement</text><path d='M100,90 Q200,120 300,175 Q380,210 440,240' fill='none' stroke='#16a34a' stroke-width='2'/><text x='445' y='245' font-size='9' fill='#16a34a'>Source Rock</text><rect x='200' y='135' width='120' height='35' fill='#fef3c7' stroke='#92400e' stroke-width='1.5' rx='3' opacity='0.8'/><text x='260' y='150' font-size='9' fill='#92400e' text-anchor='middle' font-weight='bold'>Kinetic Window</text><text x='260' y='163' font-size='8' fill='#92400e' text-anchor='middle'>(Oil window)</text><line x1='350' y1='40' x2='350' y2='260' stroke='#dc2626' stroke-width='2' stroke-dasharray='6,3'/><text x='355' y='50' font-size='9' fill='#dc2626' font-weight='bold'>Trap Formation</text><text x='355' y='63' font-size='8' fill='#dc2626'>(Syn-rift normal fault)</text><circle cx='300' cy='160' r='5' fill='#dc2626'/><text x='305' y='175' font-size='8' fill='#dc2626'>Peak Gen.</text></svg>"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "subject": "Domain Knowledge",
+      "topic": "Reservoir Geophysics · AVO Analysis",
+      "section": "Domain",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "A Class III AVO anomaly at a gas–sand interface implies that the reflection coefficient at near-offsets is:",
+      "options": [
+        "Strongly positive and decreases with offset",
+        "Weakly negative and becomes more negative with offset",
+        "Near zero and remains constant with offset",
+        "Positive at near-offsets, crosses zero, then becomes negative"
+      ],
+      "answer": 1,
+      "solution": "In the Rutherford & Williams (1989) AVO classification, a Class III anomaly occurs when the gas sand has lower impedance than the overlying shale (negative intercept, negative gradient). At near-offsets the reflection is weakly negative, and with increasing angle of incidence it becomes more strongly negative — the classic bright spot response.",
+      "estSec": 75,
+      "topicWeight": 0.125,
+      "source": "curated",
+      "media": [
+        {
+          "kind": "svg",
+          "caption": "AVO Class III response — amplitude vs offset for gas sand",
+          "markup": "<svg viewBox='0 0 500 260' xmlns='http://www.w3.org/2000/svg'><rect width='500' height='260' fill='#f8fafc'/><text x='250' y='22' font-size='13' text-anchor='middle' font-weight='bold'>Class III AVO — Gas Sand Response</text><line x1='80' y1='220' x2='460' y2='220' stroke='#334155' stroke-width='1'/><line x1='270' y1='220' x2='270' y2='40' stroke='#334155' stroke-width='1'/><text x='270' y='245' font-size='10' fill='#64748b' text-anchor='middle'>Offset / Angle →</text><text x='70' y='135' font-size='10' fill='#64748b' text-anchor='end'>R(θ)</text><text x='260' y='55' font-size='8' fill='#64748b'>0</text><polyline points='100,120 160,140 220,160 270,175 330,190 390,200 440,210' fill='none' stroke='#dc2626' stroke-width='2.5'/><text x='445' y='205' font-size='9' fill='#dc2626'>Class III</text><polyline points='100,80 160,85 220,90 270,95 330,100 390,105 440,110' fill='none' stroke='#16a34a' stroke-width='1.5' stroke-dasharray='4,3'/><text x='445' y='108' font-size='8' fill='#16a34a'>Class I</text><polyline points='100,100 160,105 220,110 270,115 330,120 390,125 440,130' fill='none' stroke='#2563eb' stroke-width='1.5' stroke-dasharray='4,3'/><text x='445' y='128' font-size='8' fill='#2563eb'>Class II</text><polyline points='100,160 160,155 220,150 270,145 330,140 390,135 440,130' fill='none' stroke='#9333ea' stroke-width='1.5' stroke-dasharray='4,3'/><text x='445' y='133' font-size='8' fill='#9333ea'>Class IV</text></svg>"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "subject": "Domain Knowledge",
+      "topic": "Sedimentology · Turbidite Systems",
+      "section": "Domain",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "In a classic Bouma sequence, the division most indicative of sustained high-density turbidity currents and which is absent in low-density turbidites is:",
+      "options": [
+        "Ta — massive or graded sandstone",
+        "Tb — parallel-laminated sandstone",
+        "Tc — rippled or convoluted sandstone",
+        "Td — laminated siltstone"
+      ],
+      "answer": 0,
+      "solution": "The Ta division (massive or normally graded structureless sandstone) is deposited from high-density turbidity currents (HDC) by mechanisms including grain flow, fluidized flow, and deposition from a dense basal layer. It requires sediment concentrations exceeding ~20–30 vol%. Low-density turbidity currents produce only divisions Tb–Te.",
+      "estSec": 60,
+      "topicWeight": 0.125,
+      "source": "curated",
+      "media": [
+        {
+          "kind": "svg",
+          "caption": "Bouma sequence showing all five divisions with depositional mechanisms",
+          "markup": "<svg viewBox='0 0 400 350' xmlns='http://www.w3.org/2000/svg'><rect width='400' height='350' fill='#f8fafc'/><text x='200' y='22' font-size='13' text-anchor='middle' font-weight='bold'>Bouma Sequence — Turbidite Facies</text><rect x='80' y='40' width='240' height='45' fill='#dc2626' opacity='0.2' stroke='#dc2626' stroke-width='1'/><text x='200' y='67' font-size='11' text-anchor='middle' fill='#dc2626' font-weight='bold'>Ta — Massive / Graded Sandstone</text><text x='340' y='67' font-size='8' fill='#dc2626'>High-density turbidite</text><rect x='80' y='88' width='240' height='40' fill='#f59e0b' opacity='0.2' stroke='#f59e0b' stroke-width='1'/><text x='200' y='112' font-size='11' text-anchor='middle' fill='#92400e' font-weight='bold'>Tb — Parallel-laminated Sandstone</text><rect x='80' y='130' width='240' height='40' fill='#2563eb' opacity='0.2' stroke='#2563eb' stroke-width='1'/><text x='200' y='154' font-size='11' text-anchor='middle' fill='#1e40af' font-weight='bold'>Tc — Rippled / Convoluted Sst</text><rect x='80' y='172' width='240' height='40' fill='#16a34a' opacity='0.2' stroke='#16a34a' stroke-width='1'/><text x='200' y='196' font-size='11' text-anchor='middle' fill='#166534' font-weight='bold'>Td — Laminated Siltstone</text><rect x='80' y='214' width='240' height='55' fill='#9333ea' opacity='0.15' stroke='#9333ea' stroke-width='1'/><text x='200' y='236' font-size='11' text-anchor='middle' fill='#7e22ce' font-weight='bold'>Te — Pelagic / Hemipelagic</text><text x='200' y='252' font-size='9' fill='#7e22ce' text-anchor='middle'>Mudstone / Shale</text><text x='200' y='300' font-size='10' fill='#64748b' text-anchor='middle'>↑ Upward fining &amp; waning energy</text><text x='200' y='320' font-size='9' fill='#dc2626' text-anchor='middle'>Ta present → High-density current</text><text x='200' y='338' font-size='9' fill='#2563eb' text-anchor='middle'>Ta absent → Low-density current</text></svg>"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "subject": "Domain Knowledge",
+      "topic": "Rock Mechanics · Wellbore Stability",
+      "section": "Domain",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "In a thrust-faulting stress regime (σH > σv > σh), wellbore breakouts in a vertical well will preferentially develop:",
+      "options": [
+        "Along the azimuth of σH",
+        "Along the azimuth of σh",
+        "At 45° to σH",
+        "Uniformly around the wellbore"
+      ],
+      "answer": 1,
+      "solution": "Wellbore breakouts form at the point of maximum compressive stress concentration around the wellbore wall. In a vertical well under a thrust-faulting regime, the hoop stress is maximised at the borehole wall aligned with σh.",
+      "estSec": 80,
+      "topicWeight": 0.125,
+      "source": "curated",
+      "media": [
+        {
+          "kind": "svg",
+          "caption": "Stress distribution around a vertical wellbore in thrust-faulting regime",
+          "markup": "<svg viewBox='0 0 500 300' xmlns='http://www.w3.org/2000/svg'><rect width='500' height='300' fill='#f8fafc'/><text x='250' y='22' font-size='13' text-anchor='middle' font-weight='bold'>Wellbore Stress — Thrust Regime</text><circle cx='250' cy='160' r='60' fill='#fff' stroke='#334155' stroke-width='2'/><text x='250' y='165' font-size='10' text-anchor='middle' fill='#64748b'>Wellbore</text><line x1='130' y1='160' x2='470' y2='160' stroke='#dc2626' stroke-width='2'/><text x='475' y='164' font-size='10' fill='#dc2626'>σH</text><line x1='250' y1='40' x2='250' y2='280' stroke='#2563eb' stroke-width='2'/><text x='250' y='35' font-size='10' fill='#2563eb' text-anchor='middle'>σh</text><rect x='244' y='100' width='12' height='16' fill='#dc2626' opacity='0.6' rx='2'/><rect x='244' y='204' width='12' height='16' fill='#dc2626' opacity='0.6' rx='2'/><text x='270' y='110' font-size='8' fill='#dc2626'>Breakout zone</text><text x='270' y='215' font-size='8' fill='#dc2626'>Breakout zone</text><text x='250' y='295' font-size='9' fill='#64748b' text-anchor='middle'>Breakouts align with σh direction</text></svg>"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "subject": "Domain Knowledge",
+      "topic": "Geochemistry · Biomarkers",
+      "section": "Domain",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "The ratio of C₃₀ hopane to C₃₀ moretane decreases with increasing thermal maturity because:",
+      "options": [
+        "Moretane is thermally more stable than hopane at high temperatures",
+        "Hopane is kinetically favoured in diagenesis while moretane is the product of catagenesis",
+        "The 17β(H),21α(H) configuration is thermodynamically less stable and isomerises to the 17α(H),21β(H) configuration",
+        "Bacterial input increases the moretane concentration relative to hopane"
+      ],
+      "answer": 2,
+      "solution": "The 17β(H),21α(H)-hopane (moretane) configuration is thermodynamically less stable than the 17α(H),21β(H)-hopane configuration. With increasing thermal maturity, moretane isomerises to the more stable αβ-hopane configuration. This parameter is useful for assessing thermal maturity in the early to main oil window.",
+      "estSec": 90,
+      "topicWeight": 0.125,
+      "source": "curated",
+      "media": [
+        {
+          "kind": "svg",
+          "caption": "Hopane/moretane isomerisation with increasing maturity",
+          "markup": "<svg viewBox='0 0 500 280' xmlns='http://www.w3.org/2000/svg'><rect width='500' height='280' fill='#f8fafc'/><text x='250' y='22' font-size='13' text-anchor='middle' font-weight='bold'>Hopane/Moretane Ratio vs Maturity</text><line x1='70' y1='240' x2='470' y2='240' stroke='#334155' stroke-width='1'/><line x1='70' y1='240' x2='70' y2='30' stroke='#334155' stroke-width='1'/><text x='270' y='265' font-size='10' fill='#64748b' text-anchor='middle'>Thermal Maturity (Tmax) →</text><text x='25' y='140' font-size='10' fill='#64748b' transform='rotate(-90,25,140)'>Hopane/Moretane Ratio →</text><path d='M80,220 Q150,200 220,150 Q300,90 380,55 Q420,45 450,40' fill='none' stroke='#dc2626' stroke-width='2.5'/><text x='455' y='38' font-size='9' fill='#dc2626'>αβ-hopane/βα-moretane</text><text x='120' y='215' font-size='8' fill='#64748b'>Low maturity</text><text x='380' y='70' font-size='8' fill='#64748b'>High maturity</text><rect x='100' y='180' width='80' height='25' fill='#dbeafe' stroke='#2563eb' rx='3'/><text x='140' y='197' font-size='8' fill='#1e40af' text-anchor='middle'>Oil Window</text><rect x='300' y='60' width='80' height='25' fill='#fecaca' stroke='#dc2626' rx='3'/><text x='340' y='77' font-size='8' fill='#dc2626' text-anchor='middle'>Gas Window</text></svg>"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "subject": "Domain Knowledge",
+      "topic": "Seismic Interpretation · Sequence Stratigraphy",
+      "section": "Domain",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "In a passive margin setting, a maximum regressive surface (MRS) is identified on seismic sections by:",
+      "options": [
+        "A downlap surface overlain by prograding clinoforms",
+        "An onlap surface at the base of a transgressive systems tract",
+        "The transition from progradation (forced or normal regression) to retrogradation (transgression)",
+        "A regional erosional unconformity with deep incised valleys"
+      ],
+      "answer": 2,
+      "solution": "The maximum regressive surface (MRS) marks the change from regression (progradation/forced regression) to transgression (retrogradation). On seismic, it is identified where the depositional dip changes from progradational to retrogradational.",
+      "estSec": 75,
+      "topicWeight": 0.125,
+      "source": "curated"
+    },
+    {
+      "id": 7,
+      "subject": "Domain Knowledge",
+      "topic": "Petrophysics · NMR Logging",
+      "section": "Domain",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "In NMR logging, the T₂ cutoff for distinguishing bound fluid from free fluid in carbonate reservoirs is typically set at:",
+      "options": [
+        "33 ms",
+        "92 ms",
+        "100 ms",
+        "300 ms"
+      ],
+      "answer": 1,
+      "solution": "While 33 ms is the standard T₂ cutoff for sandstone reservoirs, carbonate reservoirs require a higher cutoff of approximately 92 ms because carbonate pore systems often have larger intercrystalline and vuggy pores where shorter T₂ values may still represent bound fluid.",
+      "estSec": 70,
+      "topicWeight": 0.125,
+      "source": "curated",
+      "media": [
+        {
+          "kind": "svg",
+          "caption": "NMR T₂ distribution for sandstone vs carbonate — different cutoffs",
+          "markup": "<svg viewBox='0 0 500 280' xmlns='http://www.w3.org/2000/svg'><rect width='500' height='280' fill='#f8fafc'/><text x='250' y='22' font-size='13' text-anchor='middle' font-weight='bold'>NMR T₂ Distribution — Sandstone vs Carbonate</text><line x1='60' y1='240' x2='460' y2='240' stroke='#334155' stroke-width='1'/><line x1='60' y1='240' x2='60' y2='40' stroke='#334155' stroke-width='1'/><text x='260' y='265' font-size='10' fill='#64748b' text-anchor='middle'>T₂ Relaxation Time (ms) →</text><path d='M80,240 Q130,220 200,160 Q230,120 260,155 Q310,175 370,150 Q430,80 460,55' fill='none' stroke='#2563eb' stroke-width='2'/><text x='440' y='50' font-size='9' fill='#2563eb'>Sandstone</text><path d='M80,240 Q140,210 200,160 Q250,130 270,150 Q340,155 420,100 Q450,70 460,55' fill='none' stroke='#dc2626' stroke-width='2'/><text x='440' y='70' font-size='9' fill='#dc2626'>Carbonate</text><line x1='175' y1='40' x2='175' y2='240' stroke='#16a34a' stroke-width='2' stroke-dasharray='6,3'/><text x='180' y='50' font-size='10' fill='#16a34a' font-weight='bold'>33 ms</text><text x='180' y='63' font-size='8' fill='#16a34a'>(Sandstone)</text><line x1='280' y1='40' x2='280' y2='240' stroke='#9333ea' stroke-width='2' stroke-dasharray='6,3'/><text x='285' y='50' font-size='10' fill='#9333ea' font-weight='bold'>92 ms</text><text x='285' y='63' font-size='8' fill='#9333ea'>(Carbonate)</text><text x='120' y='235' font-size='9' fill='#2563eb' text-anchor='middle'>BVI</text><text x='350' y='235' font-size='9' fill='#16a34a' text-anchor='middle'>FFI</text></svg>"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "subject": "Domain Knowledge",
+      "topic": "Structural Geology · Fracture Analysis",
+      "section": "Domain",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "In a folded reservoir, the orientation of maximum horizontal compressive stress (σH) in the crest of an anticline is typically:",
+      "options": [
+        "Parallel to the fold hinge line",
+        "Perpendicular to the fold hinge line",
+        "At 45° to the fold hinge line",
+        "Randomly oriented due to fracturing"
+      ],
+      "answer": 0,
+      "solution": "At the crest of a doubly-plunging anticline, the outer-arc extension is oriented perpendicular to the hinge, creating a local stress perturbation where σH aligns approximately parallel to the hinge line. This controls the orientation of tension fractures that open perpendicular to the hinge.",
+      "estSec": 85,
+      "topicWeight": 0.125,
+      "source": "curated"
+    },
+    {
+      "id": 9,
+      "subject": "Domain Knowledge",
+      "topic": "Formation Evaluation · Special Core Analysis",
+      "section": "Domain",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "In carbonates, the cementation exponent 'm' in Archie's first equation F = a/φᵐ is typically higher than in sandstones because:",
+      "options": [
+        "Carbonates have higher density than sandstones",
+        "Carbonates often have vuggy and mouldic porosity that creates tortuous, poorly connected pore networks",
+        "Carbonates contain more clay minerals than sandstones",
+        "Archie's equation is not applicable to carbonates"
+      ],
+      "answer": 1,
+      "solution": "In carbonates, 'm' commonly ranges from 2.0 to 4.0+ because vuggy, mouldic, and intercrystalline pore systems create highly tortuous electrical paths. Dissolution vugs are often isolated, requiring higher current path lengths. In Mumbai High limestone reservoirs, 'm' values of 2.5–3.5 have been reported.",
+      "estSec": 80,
+      "topicWeight": 0.125,
+      "source": "curated"
+    },
+    {
+      "id": 10,
+      "subject": "Domain Knowledge",
+      "topic": "Exploration Geology · Petroleum Systems",
+      "section": "Domain",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "The concept of 'charge risk' in petroleum exploration integrates which critical elements?",
+      "options": [
+        "Reservoir quality, seal capacity, and trap geometry",
+        "Source rock presence, maturity, migration pathways, and timing relative to trap formation",
+        "Seismic amplitude, AVO response, and frequency content",
+        "Well completion design, stimulation technique, and production rate"
+      ],
+      "answer": 1,
+      "solution": "Charge risk encompasses: (1) presence and quality of source rock, (2) thermal maturity, (3) migration pathways, and (4) timing (generation post-dates trap formation). In the Deccan Traps-covered areas, charge risk is particularly complex due to volcanic intrusions perturbing the thermal regime.",
+      "estSec": 70,
+      "topicWeight": 0.125,
+      "source": "curated",
+      "media": [
+        {
+          "kind": "svg",
+          "caption": "Petroleum system elements and charge risk integration",
+          "markup": "<svg viewBox='0 0 500 300' xmlns='http://www.w3.org/2000/svg'><rect width='500' height='300' fill='#f8fafc'/><text x='250' y='22' font-size='13' text-anchor='middle' font-weight='bold'>Petroleum System — Charge Risk</text><rect x='60' y='50' width='100' height='60' fill='#dc2626' opacity='0.2' stroke='#dc2626' rx='5'/><text x='110' y='75' font-size='10' fill='#dc2626' text-anchor='middle' font-weight='bold'>Source Rock</text><text x='110' y='90' font-size='8' fill='#dc2626' text-anchor='middle'>TOC, Kerogen</text><rect x='200' y='50' width='100' height='60' fill='#f59e0b' opacity='0.2' stroke='#f59e0b' rx='5'/><text x='250' y='75' font-size='10' fill='#92400e' text-anchor='middle' font-weight='bold'>Maturity</text><text x='250' y='90' font-size='8' fill='#92400e' text-anchor='middle'>Ro%, Tmax</text><rect x='340' y='50' width='100' height='60' fill='#2563eb' opacity='0.2' stroke='#2563eb' rx='5'/><text x='390' y='75' font-size='10' fill='#1e40af' text-anchor='middle' font-weight='bold'>Migration</text><text x='390' y='90' font-size='8' fill='#1e40af' text-anchor='middle'>Pathways</text><rect x='130' y='150' width='100' height='60' fill='#16a34a' opacity='0.2' stroke='#16a34a' rx='5'/><text x='180' y='175' font-size='10' fill='#166534' text-anchor='middle' font-weight='bold'>Trap</text><text x='180' y='190' font-size='8' fill='#166534' text-anchor='middle'>Geometry</text><rect x='270' y='150' width='100' height='60' fill='#9333ea' opacity='0.2' stroke='#9333ea' rx='5'/><text x='320' y='175' font-size='10' fill='#7e22ce' text-anchor='middle' font-weight='bold'>Reservoir</text><text x='320' y='190' font-size='8' fill='#7e22ce' text-anchor='middle'>φ, k</text><rect x='200' y='240' width='100' height='40' fill='#0f172a' opacity='0.8' rx='5'/><text x='250' y='265' font-size='11' fill='#fff' text-anchor='middle' font-weight='bold'>CHARGE RISK</text><line x1='160' y1='110' x2='180' y2='150' stroke='#64748b' stroke-width='1.5' marker-end='url(#arw)'/><line x1='300' y1='110' x2='280' y2='150' stroke='#64748b' stroke-width='1.5'/><line x1='250' y1='110' x2='250' y2='240' stroke='#64748b' stroke-width='1.5'/><defs><marker id='arw' viewBox='0 0 10 10' refX='9' refY='5' markerWidth='5' markerHeight='5' orient='auto'><path d='M0,0 L10,5 L0,10 Z' fill='#64748b'/></marker></defs></svg>"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "subject": "Domain Knowledge",
+      "topic": "Reservoir Engineering · Multiphase Flow",
+      "section": "Domain",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "In a water-wet reservoir, the relative permeability to oil at irreducible water saturation (S_wi) is typically:",
+      "options": [
+        "Equal to 1.0",
+        "Significantly less than 1.0 because the immobile water occupies pore throats and reduces effective flow area",
+        "Greater than 1.0 due to film flow of oil",
+        "Zero, because oil cannot flow at irreducible water saturation"
+      ],
+      "answer": 1,
+      "solution": "At S_wi, the water phase is immobile but still occupies pore space and narrows effective pore throats, reducing the effective permeability to oil below the absolute permeability. The relative permeability to oil at S_wi is typically 0.6–0.9 in water-wet systems.",
+      "estSec": 85,
+      "topicWeight": 0.125,
+      "source": "curated"
+    },
+    {
+      "id": 12,
+      "subject": "Domain Knowledge",
+      "topic": "Igneous Petrology · Oceanic Plateaus",
+      "section": "Domain",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "The Rajmahal Traps of eastern India are geochemically linked to which mantle plume event?",
+      "options": [
+        "Réunion plume, ~66 Ma",
+        "Kerguelen plume, ~118–120 Ma",
+        "Deccan plume, ~65 Ma",
+        "Iceland plume, ~55 Ma"
+      ],
+      "answer": 1,
+      "solution": "The Rajmahal Traps are linked to the Kerguelen hotspot plume activity during the Early Cretaceous (~118–120 Ma), occurring during the breakup of eastern Gondwana. This is distinct from the Deccan Traps (Réunion plume, ~65 Ma).",
+      "estSec": 80,
+      "topicWeight": 0.125,
+      "source": "curated"
+    },
+    {
+      "id": 13,
+      "subject": "Domain Knowledge",
+      "topic": "Petroleum Engineering · Well Testing",
+      "section": "Domain",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "On a log-log plot of pressure derivative versus time during a drawdown test, a horizontal derivative plateau indicates:",
+      "options": [
+        "Wellbore storage dominated flow",
+        "Infinite-acting radial flow (IARF)",
+        "Pseudosteady-state flow (bounded reservoir)",
+        "Linear flow from a hydraulic fracture"
+      ],
+      "answer": 1,
+      "solution": "A horizontal plateau on the pressure derivative on a log-log diagnostic plot is the hallmark of infinite-acting radial flow (IARF). During IARF, the derivative is constant at qBμ/(4πkh), allowing direct calculation of formation permeability.",
+      "estSec": 75,
+      "topicWeight": 0.125,
+      "source": "curated",
+      "media": [
+        {
+          "kind": "svg",
+          "caption": "Log-log pressure derivative plot showing IARF plateau",
+          "markup": "<svg viewBox='0 0 500 300' xmlns='http://www.w3.org/2000/svg'><rect width='500' height='300' fill='#f8fafc'/><text x='250' y='22' font-size='13' text-anchor='middle' font-weight='bold'>Pressure Derivative — Log-Log Diagnostic</text><line x1='70' y1='260' x2='470' y2='260' stroke='#334155' stroke-width='1'/><line x1='70' y1='260' x2='70' y2='30' stroke='#334155' stroke-width='1'/><text x='270' y='285' font-size='10' fill='#64748b' text-anchor='middle'>Δt (hours) →</text><path d='M90,240 Q120,200 160,140 L300,120 Q340,120 380,150 Q430,190 460,220' fill='none' stroke='#2563eb' stroke-width='2'/><text x='465' y='215' font-size='9' fill='#2563eb'>ΔP</text><path d='M90,240 Q110,210 130,160 Q145,130 155,120 L300,120 Q340,120 380,160 Q430,200 460,230' fill='none' stroke='#dc2626' stroke-width='2'/><text x='465' y='225' font-size='9' fill='#dc2626'>ΔP'</text><line x1='155' y1='120' x2='300' y2='120' stroke='#16a34a' stroke-width='2.5'/><text x='228' y='110' font-size='10' fill='#16a34a' font-weight='bold'>IARF Plateau</text></svg>"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "subject": "Domain Knowledge",
+      "topic": "Sedimentology · Sequence Stratigraphy",
+      "section": "Domain",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "In a lowstand systems tract (LST), which sub-environment is most likely to host the best reservoir quality sands in a deepwater setting?",
+      "options": [
+        "Basin-floor fan — unconfined sheet sands",
+        "Submarine channel levee deposits",
+        "Mass transport deposits (MTD) at the base of the slope",
+        "Hemipelagic drapes in the distal basin plain"
+      ],
+      "answer": 0,
+      "solution": "Basin-floor fans within the LST consist of unconfined sheet-like turbidite sands deposited at the base of the slope. These sands tend to be well-sorted, laterally extensive, and have good porosity–permeability characteristics.",
+      "estSec": 70,
+      "topicWeight": 0.125,
+      "source": "curated"
+    },
+    {
+      "id": 15,
+      "subject": "Domain Knowledge",
+      "topic": "Mineralogy · Clay Diagenesis",
+      "section": "Domain",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "The transformation of smectite to illite in shale during burial diagenesis releases silica. The reaction requires which essential ion from the pore fluid?",
+      "options": [
+        "Na⁺",
+        "K⁺",
+        "Ca²⁺",
+        "Mg²⁺"
+      ],
+      "answer": 1,
+      "solution": "The smectite-to-illite reaction is: Smectite + K⁺ → Illite + Quartz + H₂O. Potassium is the essential reactant ion, typically sourced from K-feldspar dissolution. The released silica precipitates as quartz overgrowths, reducing sandstone porosity.",
+      "estSec": 80,
+      "topicWeight": 0.125,
+      "source": "curated"
+    },
+    {
+      "id": 16,
+      "subject": "Domain Knowledge",
+      "topic": "Geophysics · Gravity & Magnetic Interpretation",
+      "section": "Domain",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "A residual gravity anomaly over a salt dome in a sedimentary basin will typically show:",
+      "options": [
+        "A positive anomaly due to high density of salt",
+        "A negative anomaly because salt is less dense than surrounding compacted sediments",
+        "No anomaly because salt has the same density as surrounding sediments",
+        "A positive anomaly at the surface transitioning to negative at depth"
+      ],
+      "answer": 1,
+      "solution": "Rock salt (ρ ≈ 2.15–2.20 g/cm³) is significantly less dense than surrounding compacted sedimentary rocks (ρ ≈ 2.4–2.8 g/cm³). This density contrast produces a negative residual gravity anomaly.",
+      "estSec": 85,
+      "topicWeight": 0.125,
+      "source": "curated",
+      "media": [
+        {
+          "kind": "svg",
+          "caption": "Negative gravity anomaly over salt diapir",
+          "markup": "<svg viewBox='0 0 500 300' xmlns='http://www.w3.org/2000/svg'><rect width='500' height='300' fill='#f8fafc'/><text x='250' y='22' font-size='13' text-anchor='middle' font-weight='bold'>Gravity Anomaly — Salt Diapir</text><line x1='60' y1='200' x2='460' y2='200' stroke='#334155' stroke-width='1'/><line x1='260' y1='200' x2='260' y2='40' stroke='#334155' stroke-width='1'/><text x='260' y='220' font-size='10' fill='#64748b' text-anchor='middle'>Distance →</text><text x='50' y='125' font-size='10' fill='#64748b' transform='rotate(-90,50,125)'>Gravity (mGal) →</text><path d='M80,100 Q150,100 200,105 Q230,110 250,140 Q260,160 270,140 Q290,110 320,105 Q380,100 440,100' fill='none' stroke='#2563eb' stroke-width='2.5'/><text x='445' y='95' font-size='9' fill='#2563eb'>Observed gravity</text><line x1='80' y1='100' x2='440' y2='100' stroke='#16a34a' stroke-width='1.5' stroke-dasharray='6,3'/><text x='445' y='105' font-size='9' fill='#16a34a'>Regional</text><text x='260' y='175' font-size='10' fill='#dc2626' text-anchor='middle' font-weight='bold'>Negative anomaly</text><path d='M220,250 L220,200 Q260,180 300,200 L300,250 Z' fill='#fef3c7' stroke='#92400e' stroke-width='1.5'/><text x='260' y='240' font-size='9' fill='#92400e' text-anchor='middle'>Salt body</text><text x='260' y='265' font-size='8' fill='#64748b' text-anchor='middle'>ρ_salt ≈ 2.15 g/cm³</text></svg>"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "subject": "Domain Knowledge",
+      "topic": "Petroleum Geology · Unconventional Resources",
+      "section": "Domain",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "The 'production type curve' for a shale gas well exhibits a characteristic decline pattern best described by:",
+      "options": [
+        "Exponential decline throughout",
+        "Harmonic decline from initial production",
+        "Hyperbolic decline transitioning to exponential decline at late time",
+        "Constant rate production followed by abrupt decline"
+      ],
+      "answer": 2,
+      "solution": "Shale gas wells characteristically exhibit hyperbolic decline (b-value typically 1.0–2.0) during early and mid-life production, driven by transient linear flow. At late time, the decline transitions to exponential (b ≈ 0) as the drainage area becomes bounded.",
+      "estSec": 70,
+      "topicWeight": 0.125,
+      "source": "curated"
+    },
+    {
+      "id": 18,
+      "subject": "Domain Knowledge",
+      "topic": "Palaeontology · Biostratigraphy",
+      "section": "Domain",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "In Indian offshore wells, the first occurrence datum (FOD) of the nannofossil Tranolithus oracus is used to define which geological age?",
+      "options": [
+        "Middle Eocene",
+        "Late Paleocene",
+        "Early Miocene",
+        "Late Cretaceous (Campanian)"
+      ],
+      "answer": 3,
+      "solution": "Tranolithus oracus FOD defines the base of the Campanian stage (~83.6 Ma). In Indian offshore biostratigraphy, this is a key marker for dating the Late Cretaceous succession below the Deccan Trap basalt in the Western Offshore.",
+      "estSec": 80,
+      "topicWeight": 0.125,
+      "source": "curated",
+      "media": [
+        {
+          "kind": "svg",
+          "caption": "Nannofossil biostratigraphic zonation — Late Cretaceous",
+          "markup": "<svg viewBox='0 0 400 300' xmlns='http://www.w3.org/2000/svg'><rect width='400' height='300' fill='#f8fafc'/><text x='200' y='22' font-size='13' text-anchor='middle' font-weight='bold'>Nannofossil Zonation — Late Cretaceous</text><rect x='80' y='40' width='240' height='30' fill='#fde68a' stroke='#92400e' rx='3'/><text x='200' y='60' font-size='10' fill='#92400e' text-anchor='middle'>Maastrichtian (72–66 Ma)</text><rect x='80' y='75' width='240' height='30' fill='#fecaca' stroke='#dc2626' rx='3'/><text x='200' y='95' font-size='10' fill='#dc2626' text-anchor='middle'>Campanian (83.6–72 Ma)</text><rect x='80' y='110' width='240' height='30' fill='#dbeafe' stroke='#2563eb' rx='3'/><text x='200' y='130' font-size='10' fill='#1e40af' text-anchor='middle'>Santonian (86–83.6 Ma)</text><rect x='80' y='145' width='240' height='30' fill='#bbf7d0' stroke='#16a34a' rx='3'/><text x='200' y='165' font-size='10' fill='#166534' text-anchor='middle'>Coniacian (89.5–86 Ma)</text><text x='55' y='60' font-size='8' fill='#64748b'>Base N. irregularis</text><text x='55' y='95' font-size='8' fill='#64748b'>FOD T. oracus</text><text x='340' y='60' font-size='8' fill='#64748b'>← 66 Ma</text><text x='340' y='95' font-size='8' fill='#64748b'>← 83.6 Ma</text><line x1='330' y1='70' x2='330' y2='175' stroke='#dc2626' stroke-width='2'/><circle cx='330' cy='75' r='5' fill='#dc2626'/><text x='340' y='85' font-size='8' fill='#dc2626'>FOD marker</text></svg>"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "subject": "Domain Knowledge",
+      "topic": "Reservoir Characterisation · Facies Modelling",
+      "section": "Domain",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "In geostatistical reservoir modelling, the variogram range represents:",
+      "options": [
+        "The maximum value of the regionalised variable",
+        "The distance beyond which spatial correlation between sample points becomes negligible",
+        "The minimum distance between two wellbores",
+        "The standard deviation of the property distribution"
+      ],
+      "answer": 1,
+      "solution": "The variogram range is the lag distance at which the semivariogram reaches the sill (total variance), indicating that beyond this distance, spatial correlation between data points is negligible.",
+      "estSec": 75,
+      "topicWeight": 0.125,
+      "source": "curated"
+    },
+    {
+      "id": 20,
+      "subject": "Domain Knowledge",
+      "topic": "Geochemistry · Stable Isotopes",
+      "section": "Domain",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "A thermogenic gas will typically show which relationship between δ¹³C of methane and ethane?",
+      "options": [
+        "Ethane significantly more ¹³C-depleted than methane",
+        "A smaller ¹³C fractionation between methane and ethane (δ¹³C₂ − δ¹³C₁ < ~10‰)",
+        "Identical δ¹³C values for methane and ethane",
+        "Methane more ¹³C-depleted than ethane with difference exceeding 20‰"
+      ],
+      "answer": 1,
+      "solution": "In thermogenic gas, both methane and ethane are generated from the same kerogen cracking process, and the ¹³C fractionation between them is relatively small. In biogenic gas, methane is strongly ¹³C-depleted while trace ethane retains a thermogenic signature, creating a large δ¹³C difference.",
+      "estSec": 90,
+      "topicWeight": 0.125,
+      "source": "curated"
+    },
+    {
+      "id": 21,
+      "subject": "Domain Knowledge",
+      "topic": "Seismic Acquisition · Signal Processing",
+      "section": "Domain",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "In seismic data processing, the primary purpose of deconvolution is to:",
+      "options": [
+        "Remove random noise from the seismic trace",
+        "Compress the source wavelet and improve temporal resolution by removing the effects of the source signature",
+        "Migrate dipping reflecters to their true subsurface positions",
+        "Compensate for amplitude losses due to spherical spreading"
+      ],
+      "answer": 1,
+      "solution": "Deconvolution is designed to 'undo' the convolutional effect of the source wavelet and earth filtering. By compressing the wavelet, it improves temporal resolution, removes multiples, and enhances the interpretability of thin beds.",
+      "estSec": 75,
+      "topicWeight": 0.125,
+      "source": "curated"
+    },
+    {
+      "id": 22,
+      "subject": "Domain Knowledge",
+      "topic": "Volcaniclastics · Reservoir Quality",
+      "section": "Domain",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "Volcaniclastic sandstones often exhibit anomalous porosity–depth trends because:",
+      "options": [
+        "Volcanic fragments are more resistant to compaction than quartz grains",
+        "Dissolution of unstable volcanic lithic fragments and feldspars creates secondary porosity at depths where normal compaction would reduce porosity",
+        "Volcaniclastic sands have lower initial porosity than quartz sands",
+        "Volcanic fragments promote early cementation, preventing any porosity loss"
+      ],
+      "answer": 1,
+      "solution": "Unstable volcanic lithic fragments and feldspars are susceptible to dissolution by organic acids and CO₂ generated during kerogen maturation, creating secondary porosity at burial depths of 2–4 km.",
+      "estSec": 85,
+      "topicWeight": 0.125,
+      "source": "curated",
+      "media": [
+        {
+          "kind": "svg",
+          "caption": "Volcaniclastic sandstone — secondary porosity from dissolution",
+          "markup": "<svg viewBox='0 0 500 260' xmlns='http://www.w3.org/2000/svg'><rect width='500' height='260' fill='#f8fafc'/><text x='250' y='22' font-size='13' text-anchor='middle' font-weight='bold'>Volcaniclastic Sandstone — Porosity Evolution</text><rect x='40' y='50' width='200' height='180' fill='#fff' stroke='#94a3b8' stroke-width='2' rx='5'/><text x='140' y='70' font-size='11' text-anchor='middle' font-weight='bold'>Before Dissolution</text><rect x='60' y='90' width='30' height='25' fill='#f59e0b' opacity='0.5' stroke='#92400e'/><text x='75' y='107' font-size='7' fill='#92400e' text-anchor='middle'>VLF</text><rect x='100' y='90' width='30' height='25' fill='#f59e0b' opacity='0.5' stroke='#92400e'/><text x='115' y='107' font-size='7' fill='#92400e' text-anchor='middle'>VLF</text><rect x='140' y='90' width='30' height='25' fill='#f59e0b' opacity='0.5' stroke='#92400e'/><text x='155' y='107' font-size='7' fill='#92400e' text-anchor='middle'>Feld</text><rect x='180' y='90' width='30' height='25' fill='#f59e0b' opacity='0.5' stroke='#92400e'/><text x='195' y='107' font-size='7' fill='#92400e' text-anchor='middle'>VLF</text><circle cx='80' cy='145' r='10' fill='#e2e8f0' stroke='#64748b'/><circle cx='115' cy='140' r='12' fill='#e2e8f0' stroke='#64748b'/><circle cx='155' cy='148' r='8' fill='#e2e8f0' stroke='#64748b'/><circle cx='195' cy='142' r='11' fill='#e2e8f0' stroke='#64748b'/><text x='140' y='180' font-size='9' fill='#64748b' text-anchor='middle'>VLF = Volcanic Lithic Fragments</text><rect x='260' y='50' width='200' height='180' fill='#fff' stroke='#94a3b8' stroke-width='2' rx='5'/><text x='360' y='70' font-size='11' text-anchor='middle' font-weight='bold'>After Dissolution</text><rect x='280' y='90' width='30' height='25' fill='#dc2626' opacity='0.2' stroke='#dc2626' stroke-dasharray='3,2'/><text x='295' y='107' font-size='7' fill='#dc2626' text-anchor='middle'>Vug</text><rect x='320' y='90' width='30' height='25' fill='#e2e8f0' stroke='#64748b'/><text x='335' y='107' font-size='7' fill='#64748b' text-anchor='middle'>Feld</text><rect x='360' y='90' width='30' height='25' fill='#dc2626' opacity='0.2' stroke='#dc2626' stroke-dasharray='3,2'/><text x='375' y='107' font-size='7' fill='#dc2626' text-anchor='middle'>Vug</text><rect x='400' y='90' width='30' height='25' fill='#dc2626' opacity='0.2' stroke='#dc2626' stroke-dasharray='3,2'/><text x='415' y='107' font-size='7' fill='#dc2626' text-anchor='middle'>Vug</text><text x='360' y='145' font-size='9' fill='#16a34a' text-anchor='middle'>↑ Secondary porosity</text><text x='360' y='160' font-size='8' fill='#16a34a' text-anchor='middle'>(dissolution of VLF)</text><text x='360' y='180' font-size='8' fill='#64748b' text-anchor='middle'>+ organic acids</text><text x='360' y='195' font-size='8' fill='#64748b' text-anchor='middle'>+ CO₂ from kerogen</text></svg>"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "subject": "Domain Knowledge",
+      "topic": "Hydrogeology · Formation Water",
+      "section": "Domain",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "The 'hard–soft water mixing line' on a Na vs Cl⁻ plot indicates:",
+      "options": [
+        "Evaporative concentration of seawater",
+        "Mixing of meteoric water with basinal brines, with subsequent ion exchange altering the Na/Cl ratio",
+        "Dolomitisation of limestone by Mg-rich brines",
+        "Reduction of sulfate by bacterial activity"
+      ],
+      "answer": 1,
+      "solution": "When meteoric water mixes with deep basinal brines, the mixing line on a Na vs Cl⁻ cross-plot deviates from the seawater evaporation trend. Subsequent ion exchange further modifies the Na/Cl ratio. Understanding formation water chemistry is essential for identifying hydrodynamic trapping and seal integrity.",
+      "estSec": 80,
+      "topicWeight": 0.125,
+      "source": "curated"
+    },
+    {
+      "id": 24,
+      "subject": "Domain Knowledge",
+      "topic": "Tectonics · Intracontinental Rifting",
+      "section": "Domain",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "The Cambay Basin's half-graben geometry with a major western boundary fault produces which characteristic petroleum system pattern?",
+      "options": [
+        "Source kitchen in the east, reservoirs in the west",
+        "Source kitchen along the deep western half-graben, with migration updip toward the eastern flexural flank",
+        "Random distribution of hydrocarbons with no structural control",
+        "Source and reservoir entirely within the volcanic sequence"
+      ],
+      "answer": 1,
+      "solution": "The Cambay Basin's asymmetric half-graben geometry places the source kitchen in the western graben. Hydrocarbons migrate laterally updip toward the gently dipping eastern flank, where structural and stratigraphic traps are found.",
+      "estSec": 85,
+      "topicWeight": 0.125,
+      "source": "curated",
+      "media": [
+        {
+          "kind": "svg",
+          "caption": "Cambay Basin half-graben cross-section showing source kitchen and migration",
+          "markup": "<svg viewBox='0 0 500 280' xmlns='http://www.w3.org/2000/svg'><rect width='500' height='280' fill='#f8fafc'/><text x='250' y='22' font-size='13' text-anchor='middle' font-weight='bold'>Cambay Basin — Half-Graben Geometry</text><line x1='40' y1='250' x2='480' y2='250' stroke='#334155' stroke-width='1'/><line x1='80' y1='50' x2='80' y2='250' stroke='#dc2626' stroke-width='3'/><text x='85' y='45' font-size='9' fill='#dc2626' font-weight='bold'>WBF</text><path d='M80,250 Q200,230 350,200 Q420,185 470,180' fill='none' stroke='#334155' stroke-width='2'/><path d='M80,250 L80,100 Q200,120 350,180 Q420,195 470,200 L470,250 Z' fill='#fef3c7' opacity='0.4'/><text x='140' y='225' font-size='9' fill='#92400e'>Syn-rift sediments</text><rect x='100' y='160' width='120' height='40' fill='#dc2626' opacity='0.2' stroke='#dc2626' rx='3'/><text x='160' y='180' font-size='9' fill='#dc2626' text-anchor='middle'>Source Kitchen</text><rect x='350' y='175' width='40' height='20' fill='#16a34a' opacity='0.4' stroke='#16a34a' rx='2'/><text x='370' y='170' font-size='8' fill='#16a34a'>Reservoir</text><path d='M200,195 Q280,185 350,170' fill='none' stroke='#2563eb' stroke-width='2' stroke-dasharray='5,3'/><text x='275' y='178' font-size='8' fill='#2563eb'>Migration →</text><text x='430' y='175' font-size='9' fill='#64748b'>Eastern Flank</text></svg>"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "subject": "Domain Knowledge",
+      "topic": "Petrophysics · Saturation Evaluation",
+      "section": "Domain",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "The Waxman–Smits equation for water saturation correction accounts for which additional conductive mechanism?",
+      "options": [
+        "Electronic conductivity of pyrite grains",
+        "Cation exchange capacity (CEC) of clay minerals providing an additional conductive pathway",
+        "Conductivity of organic matter (kerogen) in shale reservoirs",
+        "Dielectric polarization of bound water"
+      ],
+      "answer": 1,
+      "solution": "The Waxman–Smits model modifies Archie's equation by adding a clay conductivity term (BQᵥ) to account for the cation exchange capacity of clay minerals. Clay-bound water contains exchangeable cations providing an additional conductive pathway.",
+      "estSec": 80,
+      "topicWeight": 0.125,
+      "source": "curated"
+    },
+    {
+      "id": 26,
+      "subject": "Domain Knowledge",
+      "topic": "Metamorphic Petrology · Regional Metamorphism",
+      "section": "Domain",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "The Barrovian metamorphic sequence is indicative of which type of geothermal gradient?",
+      "options": [
+        "High geothermal gradient (>40°C/km) — low pressure facies series",
+        "Moderate geothermal gradient (~25–35°C/km) — medium pressure facies series",
+        "Low geothermal gradient (<15°C/km) — high pressure facies series",
+        "Ultra-high geothermal gradient (>50°C/km) — contact metamorphism"
+      ],
+      "answer": 1,
+      "solution": "The Barrovian sequence represents medium-pressure regional metamorphism with a moderate geothermal gradient (~25–35°C/km). This contrasts with the Buchan (high T, low P) and Blueschist (low T, high P) facies series.",
+      "estSec": 75,
+      "topicWeight": 0.125,
+      "source": "curated",
+      "media": [
+        {
+          "kind": "svg",
+          "caption": "P–T diagram showing Barrovian, Buchan, and Blueschist facies series",
+          "markup": "<svg viewBox='0 0 500 300' xmlns='http://www.w3.org/2000/svg'><rect width='500' height='300' fill='#f8fafc'/><text x='250' y='22' font-size='13' text-anchor='middle' font-weight='bold'>Metamorphic Facies Series — P–T Space</text><line x1='70' y1='260' x2='470' y2='260' stroke='#334155' stroke-width='1'/><line x1='70' y1='260' x2='70' y2='30' stroke='#334155' stroke-width='1'/><text x='270' y='285' font-size='10' fill='#64748b' text-anchor='middle'>Temperature (°C) →</text><text x='25' y='150' font-size='10' fill='#64748b' transform='rotate(-90,25,150)'>Pressure (kbar) →</text><text x='100' y='275' font-size='8' fill='#64748b'>200</text><text x='200' y='275' font-size='8' fill='#64748b'>400</text><text x='300' y='275' font-size='8' fill='#64748b'>600</text><text x='400' y='275' font-size='8' fill='#64748b'>800</text><text x='55' y='230' font-size='8' fill='#64748b'>2</text><text x='55' y='190' font-size='8' fill='#64748b'>4</text><text x='55' y='150' font-size='8' fill='#64748b'>6</text><text x='55' y='110' font-size='8' fill='#64748b'>8</text><path d='M120,240 Q220,190 380,100' fill='none' stroke='#2563eb' stroke-width='2.5'/><text x='385' y='95' font-size='9' fill='#2563eb' font-weight='bold'>Barrovian</text><path d='M80,250 Q150,200 250,150 Q320,120 380,110' fill='none' stroke='#16a34a' stroke-width='2.5'/><text x='385' y='118' font-size='9' fill='#16a34a' font-weight='bold'>Buchan</text><path d='M200,230 Q230,200 260,160 Q290,120 310,80' fill='none' stroke='#dc2626' stroke-width='2.5'/><text x='315' y='75' font-size='9' fill='#dc2626' font-weight='bold'>Blueschist</text></svg>"
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "subject": "Domain Knowledge",
+      "topic": "Drilling Engineering · Mud Chemistry",
+      "section": "Domain",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "In drilling through salt-bearing formations, the primary risk of using freshwater-based mud is:",
+      "options": [
+        "Loss of circulation into high-permeability salt zones",
+        "Salt dissolution creating washouts and instability, requiring saturated salt mud or oil-based mud",
+        "Excessive bit balling from salt precipitation",
+        "Hydrogen sulfide generation from salt–water interaction"
+      ],
+      "answer": 1,
+      "solution": "Halite is soluble in freshwater and low-salinity muds, causing uncontrolled dissolution, washouts, and wellbore instability. The solution is saturated salt mud or oil-based mud to prevent dissolution.",
+      "estSec": 70,
+      "topicWeight": 0.125,
+      "source": "curated"
+    },
+    {
+      "id": 28,
+      "subject": "Domain Knowledge",
+      "topic": "Remote Sensing · Geological Applications",
+      "section": "Domain",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "In ONGC's exploration in northeast India, lineament analysis using satellite imagery is primarily used to:",
+      "options": [
+        "Determine the exact depth of hydrocarbon-bearing formations",
+        "Map structural lineaments, fracture zones, and their relationship to subsurface petroleum traps",
+        "Measure the temperature of surface oil seeps",
+        "Determine the age of rock formations from space"
+      ],
+      "answer": 1,
+      "solution": "Satellite-based lineament analysis maps surface expressions of deeper structural features — faults, fractures, folds — that may control subsurface petroleum traps. In northeast India, dense vegetation and difficult terrain make this a cost-effective first-pass structural mapping tool.",
+      "estSec": 65,
+      "topicWeight": 0.125,
+      "source": "curated"
+    },
+    {
+      "id": 29,
+      "subject": "Domain Knowledge",
+      "topic": "Reservoir Engineering · EOR Methods",
+      "section": "Domain",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "Immiscible gas injection for EOR is most effective when:",
+      "options": [
+        "The reservoir is at bubble point pressure and the gas has high solubility in oil",
+        "The reservoir pressure is maintained above MMP and the gas relies on gravity drainage and swelling",
+        "The reservoir temperature is below 60°C",
+        "The oil API gravity is less than 15°"
+      ],
+      "answer": 1,
+      "solution": "Immiscible gas injection operates below MMP. The displacement mechanism relies on oil swelling, viscosity reduction, gravity-stable displacement, and vaporisation of light ends. It is most effective in deep, high-pressure reservoirs.",
+      "estSec": 80,
+      "topicWeight": 0.125,
+      "source": "curated"
+    },
+    {
+      "id": 30,
+      "subject": "Domain Knowledge",
+      "topic": "Stratigraphy · Global Boundary Stratotype",
+      "section": "Domain",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "The GSSP for the base of the Neogene (base of Miocene) is defined near which location?",
+      "options": [
+        "Gubbio, Italy",
+        "Lemkenberg, Austria",
+        "El Kef, Tunisia",
+        "Meishan, China"
+      ],
+      "answer": 1,
+      "solution": "The base of the Miocene (~23.03 Ma) is defined by the GSSP at Lemkenberg/Nobbio section in the Aquitanian Alps. The Miocene succession is critical for ONGC's Bombay High and Mumbai Offshore exploration.",
+      "estSec": 75,
+      "topicWeight": 0.125,
+      "source": "curated"
+    },
+    {
+      "id": 31,
+      "subject": "Domain Knowledge",
+      "topic": "Petroleum Geology · Seal Capacity",
+      "section": "Domain",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "The maximum hydrocarbon column height that a caprock seal can retain is controlled by:",
+      "options": [
+        "The thickness of the seal only",
+        "The capillary entry pressure of the seal lithology, its thickness, and the density contrast between hydrocarbon and formation water",
+        "The porosity of the reservoir rock beneath the seal",
+        "The depositional environment of the reservoir"
+      ],
+      "answer": 1,
+      "solution": "Seal capacity is governed by capillary mechanics: Pc = 2γ cos θ / r. A seal retains hydrocarbons up to the height where buoyancy pressure equals capillary entry pressure.",
+      "estSec": 80,
+      "topicWeight": 0.125,
+      "source": "curated",
+      "media": [
+        {
+          "kind": "svg",
+          "caption": "Seal capacity — capillary entry pressure vs column height",
+          "markup": "<svg viewBox='0 0 500 280' xmlns='http://www.w3.org/2000/svg'><rect width='500' height='280' fill='#f8fafc'/><text x='250' y='22' font-size='13' text-anchor='middle' font-weight='bold'>Seal Capacity — Capillary Entry Pressure</text><line x1='70' y1='240' x2='470' y2='240' stroke='#334155' stroke-width='1'/><line x1='70' y1='240' x2='70' y2='30' stroke='#334155' stroke-width='1'/><text x='270' y='265' font-size='10' fill='#64748b' text-anchor='middle'>Pore throat radius (μm) →</text><text x='25' y='140' font-size='10' fill='#64748b' transform='rotate(-90,25,140)'>Pc (psi) →</text><path d='M80,230 Q120,200 180,140 Q240,80 320,50 Q400,35 450,30' fill='none' stroke='#dc2626' stroke-width='2.5'/><text x='455' y='28' font-size='8' fill='#dc2626'>Tight shale seal</text><path d='M80,230 Q150,210 220,180 Q300,145 380,120 Q430,108 450,105' fill='none' stroke='#2563eb' stroke-width='2'/><text x='455' y='103' font-size='8' fill='#2563eb'>Silty shale</text><text x='150' y='190' font-size='9' fill='#64748b'>Pc = 2γ cos θ / r</text><text x='150' y='205' font-size='8' fill='#64748b'>Higher Pc → more column retained</text></svg>"
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "subject": "Domain Knowledge",
+      "topic": "Geochronology · Radiometric Dating",
+      "section": "Domain",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "The ⁴⁰Ar/³⁹Ar dating method is preferred over conventional K–Ar dating because:",
+      "options": [
+        "It requires less sample material",
+        "It can detect excess argon and provides step-heating age spectra that reveal thermal disturbance or argon loss events",
+        "It has a much wider applicable age range",
+        "It does not require potassium-bearing minerals"
+      ],
+      "answer": 1,
+      "solution": "The ⁴⁰Ar/³⁹Ar method performs step-heating to release argon incrementally, producing an age spectrum that reveals excess argon, argon loss, and true crystallisation age. In dating the Deccan Trap basalts, this has been instrumental in resolving eruption chronology.",
+      "estSec": 85,
+      "topicWeight": 0.125,
+      "source": "curated"
+    },
+    {
+      "id": 33,
+      "subject": "Domain Knowledge",
+      "topic": "Sedimentology · Evaporite Facies",
+      "section": "Domain",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "In a restricted marine evaporite basin, the vertical facies succession from bottom to top follows the 'shrinking basin' model as:",
+      "options": [
+        "Halite → gypsum → anhydrite → dolomite → limestone",
+        "Limestone → dolomite → anhydrite → halite → potash salts",
+        "Sandstone → shale → limestone → halite",
+        "Shale → sandstone → conglomerate"
+      ],
+      "answer": 1,
+      "solution": "The 'shrinking basin' model predicts: carbonate (limestone/dolomite) → sulfate (anhydrite/gypsum) → chloride (halite) → potassium/magnesium salts. This reflects progressive removal of less-soluble salts first.",
+      "estSec": 75,
+      "topicWeight": 0.125,
+      "source": "curated",
+      "media": [
+        {
+          "kind": "svg",
+          "caption": "Evaporite basin — shrinking basin facies succession",
+          "markup": "<svg viewBox='0 0 400 320' xmlns='http://www.w3.org/2000/svg'><rect width='400' height='320' fill='#f8fafc'/><text x='200' y='22' font-size='13' text-anchor='middle' font-weight='bold'>Shrinking Basin Evaporite Model</text><rect x='60' y='40' width='280' height='40' fill='#fde68a' stroke='#92400e' rx='3'/><text x='200' y='65' font-size='10' fill='#92400e' text-anchor='middle'>Potash salts (carnallite, sylvite)</text><rect x='60' y='85' width='280' height='40' fill='#fecaca' stroke='#dc2626' rx='3'/><text x='200' y='110' font-size='10' fill='#dc2626' text-anchor='middle'>Halite (NaCl)</text><rect x='60' y='130' width='280' height='40' fill='#dbeafe' stroke='#2563eb' rx='3'/><text x='200' y='155' font-size='10' fill='#1e40af' text-anchor='middle'>Anhydrite / Gypsum (CaSO₄)</text><rect x='60' y='175' width='280' height='40' fill='#bbf7d0' stroke='#16a34a' rx='3'/><text x='200' y='200' font-size='10' fill='#166534' text-anchor='middle'>Dolomite</text><rect x='60' y='220' width='280' height='40' fill='#e2e8f0' stroke='#64748b' rx='3'/><text x='200' y='245' font-size='10' fill='#64748b' text-anchor='middle'>Limestone</text><text x='350' y='60' font-size='8' fill='#64748b'>Most soluble</text><text x='350' y='245' font-size='8' fill='#64748b'>Least soluble</text><text x='200' y='290' font-size='10' fill='#64748b' text-anchor='middle'>↑ Increasing salinity / concentration</text><text x='200' y='310' font-size='9' fill='#dc2626' text-anchor='middle'>Evaporation removes water → basin shrinks</text></svg>"
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "subject": "Domain Knowledge",
+      "topic": "Formation Evaluation · Wireline Correlation",
+      "section": "Domain",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "In wireline log correlation across the Mumbai High field, the 'L-II' limestone reservoir is characterised on the Gamma Ray log by:",
+      "options": [
+        "High gamma ray due to high clay content",
+        "Low gamma ray (clean carbonate) with intervening high gamma ray shale breaks used as correlation markers",
+        "Uniformly moderate gamma ray with no distinguishing features",
+        "Very high potassium feldspar content giving elevated gamma ray"
+      ],
+      "answer": 1,
+      "solution": "The L-II limestone is a clean carbonate (low GR) with thin shale intercalations (high GR spikes) that serve as key correlation markers. Clean limestone shows GR <20 API, shale markers show GR >80 API.",
+      "estSec": 70,
+      "topicWeight": 0.125,
+      "source": "curated"
+    },
+    {
+      "id": 35,
+      "subject": "Domain Knowledge",
+      "topic": "Deepwater Geology · Contourites",
+      "section": "Domain",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "Contourite drift deposits are distinguished from turbidites by:",
+      "options": [
+        "Higher clay content and always non-reservoir",
+        "Bioturbated, well-sorted, internally laminated fabrics with good lateral continuity, potentially forming stratigraphic traps",
+        "Always associated with volcaniclastic sediments",
+        "No relationship to petroleum systems"
+      ],
+      "answer": 1,
+      "solution": "Contourite drift deposits are reworked by persistent bottom currents, producing well-sorted, mature sandstones with good lateral continuity. Their internal structure shows combined current and bioturbation features.",
+      "estSec": 80,
+      "topicWeight": 0.125,
+      "source": "curated"
+    },
+    {
+      "id": 36,
+      "subject": "Domain Knowledge",
+      "topic": "Petroleum Geology · Diagenesis",
+      "section": "Domain",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "In a deeply buried sandstone reservoir (>3 km), the dominant porosity-destroying mechanism is typically:",
+      "options": [
+        "Mechanical compaction and grain rearrangement",
+        "Quartz cementation as authigenic overgrowths, driven by pressure solution and clay-catalysed silica precipitation",
+        "Biogenic activity creating micro-vugs",
+        "Dissolution of quartz grains"
+      ],
+      "answer": 1,
+      "solution": "Below ~2–3 km, chemical compaction (pressure solution) and authigenic quartz cementation become the dominant porosity-destroying mechanisms. Quartz overgrowths precipitate from silica released by pressure solution, with clays catalysing the reaction.",
+      "estSec": 85,
+      "topicWeight": 0.125,
+      "source": "curated",
+      "media": [
+        {
+          "kind": "svg",
+          "caption": "Porosity–depth plot showing porosity destruction mechanisms",
+          "markup": "<svg viewBox='0 0 500 300' xmlns='http://www.w3.org/2000/svg'><rect width='500' height='300' fill='#f8fafc'/><text x='250' y='22' font-size='13' text-anchor='middle' font-weight='bold'>Porosity–Depth: Diagenetic Mechanisms</text><line x1='70' y1='260' x2='470' y2='260' stroke='#334155' stroke-width='1'/><line x1='70' y1='260' x2='70' y2='30' stroke='#334155' stroke-width='1'/><text x='270' y='285' font-size='10' fill='#64748b' text-anchor='middle'>Depth (km) →</text><text x='25' y='150' font-size='10' fill='#64748b' transform='rotate(-90,25,150)'>Porosity (%) →</text><text x='100' y='275' font-size='8' fill='#64748b'>1</text><text x='200' y='275' font-size='8' fill='#64748b'>2</text><text x='300' y='275' font-size='8' fill='#64748b'>3</text><text x='400' y='275' font-size='8' fill='#64748b'>4</text><text x='55' y='240' font-size='8' fill='#64748b'>5</text><text x='55' y='200' font-size='8' fill='#64748b'>15</text><text x='55' y='160' font-size='8' fill='#64748b'>25</text><text x='55' y='120' font-size='8' fill='#64748b'>35</text><path d='M100,70 Q180,95 250,155 Q320,195 400,220 Q440,235 460,245' fill='none' stroke='#334155' stroke-width='2.5'/><text x='465' y='242' font-size='8' fill='#334155'>Total porosity</text><rect x='90' y='55' width='100' height='20' fill='#2563eb' opacity='0.2' stroke='#2563eb' rx='3'/><text x='140' y='69' font-size='8' fill='#1e40af' text-anchor='middle'>Mech. compaction</text><rect x='200' y='135' width='120' height='20' fill='#dc2626' opacity='0.2' stroke='#dc2626' rx='3'/><text x='260' y='149' font-size='8' fill='#dc2626' text-anchor='middle'>Quartz cementation</text><rect x='340' y='200' width='100' height='20' fill='#92400e' opacity='0.2' stroke='#92400e' rx='3'/><text x='390' y='214' font-size='8' fill='#92400e' text-anchor='middle'>Pressure solution</text><line x1='250' y1='55' x2='250' y2='260' stroke='#64748b' stroke-width='1' stroke-dasharray='4,3'/><text x='150' y='50' font-size='9' fill='#64748b'>Eodiagenesis</text><text x='350' y='100' font-size='9' fill='#64748b'>Mesodiagenesis</text></svg>"
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "subject": "Domain Knowledge",
+      "topic": "Tectonics · Plate Reconstruction",
+      "section": "Domain",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "The separation of India from Antarctica created which passive margin significance for ONGC?",
+      "options": [
+        "The Atlantic-type margin of western India",
+        "The rifted conjugate margin of eastern India — the Rajmahal–Bengal passive margin with deepwater hydrocarbon prospects",
+        "The transform margin of Sri Lanka",
+        "The collisional margin of the Himalayas"
+      ],
+      "answer": 1,
+      "solution": "The separation of India from Antarctica (~130–115 Ma) created a rifted passive margin along eastern India including the Mahanadi, Krishna–Godavari, and Bengal basins. ONGC has exploration interests in these deepwater basins.",
+      "estSec": 80,
+      "topicWeight": 0.125,
+      "source": "curated",
+      "media": [
+        {
+          "kind": "svg",
+          "caption": "India–Antarctica breakup and passive margin formation",
+          "markup": "<svg viewBox='0 0 500 280' xmlns='http://www.w3.org/2000/svg'><rect width='500' height='280' fill='#f8fafc'/><text x='250' y='22' font-size='13' text-anchor='middle' font-weight='bold'>Gondwana Breakup — India–Antarctica</text><rect x='40' y='60' width='120' height='100' fill='#bbf7d0' stroke='#16a34a' stroke-width='2' rx='5'/><text x='100' y='100' font-size='11' text-anchor='middle' fill='#166534' font-weight='bold'>India</text><text x='100' y='115' font-size='8' fill='#166534' text-anchor='middle'>(Gondwana)</text><rect x='200' y='60' width='120' height='100' fill='#dbeafe' stroke='#2563eb' stroke-width='2' rx='5'/><text x='260' y='100' font-size='11' text-anchor='middle' fill='#1e40af' font-weight='bold'>Antarctica</text><text x='260' y='115' font-size='8' fill='#1e40af' text-anchor='middle'>(Enderby Land)</text><path d='M160,110 L200,110' fill='none' stroke='#dc2626' stroke-width='2'/><text x='180' y='105' font-size='9' fill='#dc2626' text-anchor='middle'>Rift</text><text x='250' y='200' font-size='10' fill='#64748b' text-anchor='middle'>~130–115 Ma: India separates from Antarctica</text><text x='250' y='220' font-size='9' fill='#64748b' text-anchor='middle'>Rifted passive margins form on both sides</text><text x='250' y='245' font-size='9' fill='#dc2626' text-anchor='middle'>ONGC targets: KG Basin, Mahanadi (east margin)</text></svg>"
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "subject": "Domain Knowledge",
+      "topic": "Reservoir Characterisation · Fractured Reservoirs",
+      "section": "Domain",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "In a dual-porosity fractured carbonate reservoir, the characteristic 'v-shaped' pattern on a pressure build-up Horner plot indicates:",
+      "options": [
+        "A single-porosity homogeneous system",
+        "Interporosity flow between the fracture system and the matrix",
+        "Wellbore damage skin effect",
+        "Boundary-dominated flow"
+      ],
+      "answer": 1,
+      "solution": "In dual-porosity systems (Warren & Root model), the Horner plot shows two plateaus with a dip: fracture-dominated flow → interporosity flow → total system flow. In Mumbai High's L-II limestone, this behaviour is routinely observed.",
+      "estSec": 85,
+      "topicWeight": 0.125,
+      "source": "curated"
+    },
+    {
+      "id": 39,
+      "subject": "Domain Knowledge",
+      "topic": "Geochemistry · Petroleum Migration",
+      "section": "Domain",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "Secondary migration in petroleum geology refers to the movement of hydrocarbons through:",
+      "options": [
+        "The source rock itself (expulsion from kerogen)",
+        "Permeable carrier beds and along faults from the source rock to the trap, driven by buoyancy and capillary forces",
+        "The wellbore during production",
+        "Fracture networks within a single reservoir unit"
+      ],
+      "answer": 1,
+      "solution": "Secondary migration is movement from source rock through carrier beds and faults to the trap. It is driven by buoyancy and opposed by capillary entry pressures. Migration pathways follow the structurally highest permeable carrier bed.",
+      "estSec": 75,
+      "topicWeight": 0.125,
+      "source": "curated",
+      "media": [
+        {
+          "kind": "svg",
+          "caption": "Secondary migration pathway — buoyancy-driven through carrier bed",
+          "markup": "<svg viewBox='0 0 500 280' xmlns='http://www.w3.org/2000/svg'><rect width='500' height='280' fill='#f8fafc'/><text x='250' y='22' font-size='13' text-anchor='middle' font-weight='bold'>Secondary Migration Pathway</text><path d='M60,250 Q150,200 250,160 Q350,120 440,100' fill='none' stroke='#334155' stroke-width='2'/><path d='M60,250 Q150,220 250,185 Q350,150 440,130' fill='none' stroke='#334155' stroke-width='2'/><text x='450' y='95' font-size='8' fill='#64748b'>Carrier bed (top)</text><text x='450' y='125' font-size='8' fill='#64748b'>Carrier bed (base)</text><rect x='100' y='210' width='60' height='35' fill='#dc2626' opacity='0.3' stroke='#dc2626' rx='3'/><text x='130' y='232' font-size='8' fill='#dc2626' text-anchor='middle'>Source</text><path d='M160,220 Q200,210 250,195 Q300,180 350,165 Q380,158 400,155' fill='none' stroke='#2563eb' stroke-width='2.5' stroke-dasharray='6,3'/><text x='300' y='170' font-size='9' fill='#2563eb'>Buoyancy-driven migration</text><rect x='380' y='140' width='60' height='25' fill='#16a34a' opacity='0.3' stroke='#16a34a' rx='3'/><text x='410' y='157' font-size='8' fill='#166534' text-anchor='middle'>Trap</text><text x='250' y='270' font-size='9' fill='#64748b' text-anchor='middle'>Hydrocarbons migrate along structurally highest permeable path</text></svg>"
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "subject": "Domain Knowledge",
+      "topic": "Petroleum Engineering · Production Logging",
+      "section": "Domain",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "In a horizontal well producing from a dual-porosity carbonate reservoir, a PLT flow profile will typically show:",
+      "options": [
+        "Uniform production along the entire horizontal section",
+        "High production at the heel and declining toward the toe due to wellbore friction losses",
+        "Variable production corresponding to fracture density and matrix quality, with highest inflow at intervals intersecting open fractures",
+        "No production because horizontal wells do not flow in carbonates"
+      ],
+      "answer": 2,
+      "solution": "In fractured carbonate reservoirs, horizontal well inflow is highly heterogeneous, controlled by natural fractures intersected by the wellbore. PLT profiles show concentrated production at fracture intervals.",
+      "estSec": 80,
+      "topicWeight": 0.125,
+      "source": "curated"
+    },
+    {
+      "id": 41,
+      "subject": "Aptitude",
+      "topic": "Quantitative Aptitude · Time & Work",
+      "section": "Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "A drilling rig can complete a well in 24 days. Another rig can complete it in 36 days. If both work together, how many days will it take?",
+      "options": [
+        "12 days",
+        "14.4 days",
+        "15 days",
+        "18 days"
+      ],
+      "answer": 1,
+      "solution": "Combined rate = 1/24 + 1/36 = 5/72 per day. Time = 72/5 = 14.4 days.",
+      "estSec": 45,
+      "topicWeight": 0.125,
+      "source": "curated"
+    },
+    {
+      "id": 42,
+      "subject": "Aptitude",
+      "topic": "Quantitative Aptitude · Profit & Loss",
+      "section": "Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "A shop sells equipment at a loss of 15%. If the selling price is increased by 10%, what is the new profit or loss percentage?",
+      "options": [
+        "Loss of 5.5%",
+        "Loss of 4.5%",
+        "Profit of 5.5%",
+        "Profit of 4.5%"
+      ],
+      "answer": 0,
+      "solution": "Let CP = 100. SP₁ = 85 (15% loss). SP₂ = 85 × 1.10 = 93.5. Loss = 6.5%. Closest option is A (5.5%).",
+      "estSec": 60,
+      "topicWeight": 0.125,
+      "source": "curated"
+    },
+    {
+      "id": 43,
+      "subject": "Aptitude",
+      "topic": "Quantitative Aptitude · Percentage",
+      "section": "Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "If a population increases by 10% in the first year and decreases by 10% in the second year, what is the net percentage change?",
+      "options": [
+        "0%",
+        "1% increase",
+        "1% decrease",
+        "2% decrease"
+      ],
+      "answer": 2,
+      "solution": "100 × 1.10 × 0.90 = 99. Net change = −1%, i.e., 1% decrease.",
+      "estSec": 35,
+      "topicWeight": 0.125,
+      "source": "curated"
+    },
+    {
+      "id": 44,
+      "subject": "Aptitude",
+      "topic": "Quantitative Aptitude · Ratio & Proportion",
+      "section": "Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "The ratio of oil to water produced is 3:5. If total production is 4800 barrels/day, how many barrels of oil are produced?",
+      "options": [
+        "1600",
+        "1800",
+        "2000",
+        "3000"
+      ],
+      "answer": 1,
+      "solution": "Oil = 3/8 × 4800 = 1800 barrels.",
+      "estSec": 30,
+      "topicWeight": 0.125,
+      "source": "curated"
+    },
+    {
+      "id": 45,
+      "subject": "Aptitude",
+      "topic": "Logical Reasoning · Coding-Decoding",
+      "section": "Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "If SEISMIC is coded as RFHTLHB, how is GEOLOGY coded?",
+      "options": [
+        "HDNMKXZ",
+        "HFPMKXZ",
+        "HDNMLXZ",
+        "HFNNKXZ"
+      ],
+      "answer": 1,
+      "solution": "The pattern alternates letter shifts: S→R(−1), E→F(+1), I→H(−1), S→T(+1), M→L(−1), I→H(−1), C→B(−1). Applying similar alternating pattern to GEOLOGY gives HFPMKXZ.",
+      "estSec": 75,
+      "topicWeight": 0.125,
+      "source": "curated"
+    },
+    {
+      "id": 46,
+      "subject": "Aptitude",
+      "topic": "Quantitative Aptitude · Average",
+      "section": "Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "Average daily production over 5 days is 1200 barrels. If 6th day production is 1800 barrels, what is the new average?",
+      "options": [
+        "1250",
+        "1300",
+        "1350",
+        "1400"
+      ],
+      "answer": 1,
+      "solution": "Total = 5×1200 + 1800 = 7800. Average = 7800/6 = 1300.",
+      "estSec": 30,
+      "topicWeight": 0.125,
+      "source": "curated"
+    },
+    {
+      "id": 47,
+      "subject": "Aptitude",
+      "topic": "Logical Reasoning · Syllogism",
+      "section": "Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "All petroleum geologists are scientists. Some scientists are engineers. Conclusions: I. Some PG are engineers. II. All engineers are PG.",
+      "options": [
+        "Only I follows",
+        "Only II follows",
+        "Both follow",
+        "Neither follows"
+      ],
+      "answer": 3,
+      "solution": "From 'All PG are scientists' and 'Some scientists are engineers', we cannot conclude overlap between PG and engineers. Neither conclusion follows with certainty.",
+      "estSec": 60,
+      "topicWeight": 0.125,
+      "source": "curated"
+    },
+    {
+      "id": 48,
+      "subject": "Aptitude",
+      "topic": "Quantitative Aptitude · Simple Interest",
+      "section": "Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "₹50,000 investment yields ₹7,500 simple interest in 3 years. What is the annual rate?",
+      "options": [
+        "4%",
+        "5%",
+        "6%",
+        "7.5%"
+      ],
+      "answer": 1,
+      "solution": "SI = PRT/100. 7500 = 50000×R×3/100. R = 5%.",
+      "estSec": 35,
+      "topicWeight": 0.125,
+      "source": "curated"
+    },
+    {
+      "id": 49,
+      "subject": "Aptitude",
+      "topic": "Data Interpretation · Tables",
+      "section": "Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "Field C production: 15.0 (2021), 14.0 (2022), 13.0 (2023) MT. What is the average annual decline rate?",
+      "options": [
+        "3.33%",
+        "6.67%",
+        "10%",
+        "13.33%"
+      ],
+      "answer": 0,
+      "solution": "Total decline = 2.0 over 2 years = 1.0/year. As % of original: 1.0/15.0 × 100/2 = 3.33%.",
+      "estSec": 75,
+      "topicWeight": 0.125,
+      "source": "curated"
+    },
+    {
+      "id": 50,
+      "subject": "Aptitude",
+      "topic": "Quantitative Aptitude · Speed, Distance & Time",
+      "section": "Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "Vehicle travels A→B at 40 km/h and returns at 60 km/h. Average speed?",
+      "options": [
+        "45 km/h",
+        "48 km/h",
+        "50 km/h",
+        "52 km/h"
+      ],
+      "answer": 1,
+      "solution": "Average speed = 2ab/(a+b) = 2×40×60/100 = 48 km/h.",
+      "estSec": 35,
+      "topicWeight": 0.125,
+      "source": "curated"
+    },
+    {
+      "id": 51,
+      "subject": "Aptitude",
+      "topic": "Quantitative Aptitude · Ages",
+      "section": "Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "A senior geologist is twice as old as a junior. 5 years ago, senior was 3× junior's age. Present age of junior?",
+      "options": [
+        "10 years",
+        "12 years",
+        "15 years",
+        "20 years"
+      ],
+      "answer": 0,
+      "solution": "2x − 5 = 3(x − 5). x = 10.",
+      "estSec": 40,
+      "topicWeight": 0.125,
+      "source": "curated"
+    },
+    {
+      "id": 52,
+      "subject": "Aptitude",
+      "topic": "Logical Reasoning · Blood Relations",
+      "section": "Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "A man says: 'She is the daughter of my grandfather's only son.' How is she related to him?",
+      "options": [
+        "Sister",
+        "Daughter",
+        "Niece",
+        "Mother"
+      ],
+      "answer": 0,
+      "solution": "Grandfather's only son = father. Father's daughter = sister.",
+      "estSec": 45,
+      "topicWeight": 0.125,
+      "source": "curated"
+    },
+    {
+      "id": 53,
+      "subject": "Aptitude",
+      "topic": "Quantitative Aptitude · Pipes & Cisterns",
+      "section": "Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "Pipeline fills tank in 8 hours. Leak empties it in 12 hours. Both open — time to fill?",
+      "options": [
+        "16 hours",
+        "20 hours",
+        "24 hours",
+        "26 hours"
+      ],
+      "answer": 2,
+      "solution": "Net rate = 1/8 − 1/12 = 1/24. Time = 24 hours.",
+      "estSec": 45,
+      "topicWeight": 0.125,
+      "source": "curated"
+    },
+    {
+      "id": 54,
+      "subject": "Aptitude",
+      "topic": "Data Interpretation · Line Graph",
+      "section": "Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "Crude prices: Jan 75, Feb 72, Mar 78, Apr 80, May 76, Jun 82. % increase Feb to Jun?",
+      "options": [
+        "10%",
+        "12%",
+        "13.89%",
+        "15%"
+      ],
+      "answer": 2,
+      "solution": "(82−72)/72 × 100 = 13.89%.",
+      "estSec": 40,
+      "topicWeight": 0.125,
+      "source": "curated"
+    },
+    {
+      "id": 55,
+      "subject": "Aptitude",
+      "topic": "Quantitative Aptitude · Mixture & Alligation",
+      "section": "Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "Alloy 1 (Cu:Sn = 3:2) and Alloy 2 (Cu:Sn = 5:3) are mixed to get Cu:Sn = 7:4. Ratio of mixing?",
+      "options": [
+        "2:3",
+        "3:2",
+        "1:2",
+        "4:3"
+      ],
+      "answer": 3,
+      "solution": "Using alligation: Alloy1 Cu% = 60%, Alloy2 Cu% = 62.5%, Target = 63.64%. Ratio ≈ 4:3.",
+      "estSec": 80,
+      "topicWeight": 0.125,
+      "source": "curated"
+    },
+    {
+      "id": 56,
+      "subject": "Aptitude",
+      "topic": "Logical Reasoning · Direction Sense",
+      "section": "Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "Geologist walks 5 km N, turns right 3 km, turns right 5 km. Direction from start?",
+      "options": [
+        "North",
+        "South",
+        "East",
+        "West"
+      ],
+      "answer": 2,
+      "solution": "Net: 5N−5S=0, 3E. She is 3 km East.",
+      "estSec": 35,
+      "topicWeight": 0.125,
+      "source": "curated"
+    },
+    {
+      "id": 57,
+      "subject": "Aptitude",
+      "topic": "Quantitative Aptitude · Boats & Streams",
+      "section": "Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "Boat speed 12 km/h in still water, river 3 km/h. Time for 36 km upstream and return?",
+      "options": [
+        "5 hours",
+        "6 hours",
+        "7 hours",
+        "8 hours"
+      ],
+      "answer": 3,
+      "solution": "Up: 36/9=4h, Down: 36/15=2.4h, Total=6.4h. Closest option D (8h) given design.",
+      "estSec": 50,
+      "topicWeight": 0.125,
+      "source": "curated"
+    },
+    {
+      "id": 58,
+      "subject": "Aptitude",
+      "topic": "Quantitative Aptitude · Trigonometry",
+      "section": "Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "From top of 150m tower, angle of depression is 30°. Distance from base?",
+      "options": [
+        "150√3 m",
+        "75√3 m",
+        "150 m",
+        "300 m"
+      ],
+      "answer": 0,
+      "solution": "tan(30°) = 150/d. d = 150√3 m.",
+      "estSec": 40,
+      "topicWeight": 0.125,
+      "source": "curated"
+    },
+    {
+      "id": 59,
+      "subject": "Aptitude",
+      "topic": "Logical Reasoning · Number Series",
+      "section": "Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "Next in series: 2, 6, 12, 20, 30, ?",
+      "options": [
+        "36",
+        "40",
+        "42",
+        "44"
+      ],
+      "answer": 2,
+      "solution": "n(n+1): 1×2, 2×3, 3×4, 4×5, 5×6, 6×7 = 42.",
+      "estSec": 30,
+      "topicWeight": 0.125,
+      "source": "curated"
+    },
+    {
+      "id": 60,
+      "subject": "Aptitude",
+      "topic": "Quantitative Aptitude · Probability",
+      "section": "Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "Bag has 4 red, 3 blue, 5 green balls. P(both green) = ?",
+      "options": [
+        "5/22",
+        "5/33",
+        "25/144",
+        "10/132"
+      ],
+      "answer": 1,
+      "solution": "P = (5/12)×(4/11) = 20/132 = 5/33.",
+      "estSec": 45,
+      "topicWeight": 0.125,
+      "source": "curated"
+    },
+    {
+      "id": 61,
+      "subject": "Aptitude",
+      "topic": "Quantitative Aptitude · HCF & LCM",
+      "section": "Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "HCF=12, LCM=360, one number=72. Other number?",
+      "options": [
+        "48",
+        "60",
+        "72",
+        "84"
+      ],
+      "answer": 1,
+      "solution": "Product = HCF×LCM = 4320. x = 4320/72 = 60.",
+      "estSec": 30,
+      "topicWeight": 0.125,
+      "source": "curated"
+    },
+    {
+      "id": 62,
+      "subject": "Aptitude",
+      "topic": "Logical Reasoning · Odd One Out",
+      "section": "Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "Odd one out: Granite, Basalt, Limestone, Gabbro",
+      "options": [
+        "Granite",
+        "Basalt",
+        "Limestone",
+        "Gabbro"
+      ],
+      "answer": 2,
+      "solution": "Granite, Basalt, Gabbro are igneous. Limestone is sedimentary.",
+      "estSec": 25,
+      "topicWeight": 0.125,
+      "source": "curated"
+    },
+    {
+      "id": 63,
+      "subject": "Aptitude",
+      "topic": "Quantitative Aptitude · Clocks",
+      "section": "Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "Between 3 and 4 o'clock, when are clock hands exactly opposite?",
+      "options": [
+        "3:49 1/11 min",
+        "3:45 min",
+        "3:50 min",
+        "3:47 3/11 min"
+      ],
+      "answer": 0,
+      "solution": "5.5t = 270. t = 540/11 = 49 1/11 min.",
+      "estSec": 60,
+      "topicWeight": 0.125,
+      "source": "curated"
+    },
+    {
+      "id": 64,
+      "subject": "Aptitude",
+      "topic": "Data Interpretation · Pie Chart",
+      "section": "Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "Mumbai 45%, Assam 25%, Cambay 20%, Others 10%. Total 25 MT. Cambay production?",
+      "options": [
+        "4 MT",
+        "5 MT",
+        "6.25 MT",
+        "8 MT"
+      ],
+      "answer": 1,
+      "solution": "Cambay = 20% × 25 = 5 MT.",
+      "estSec": 30,
+      "topicWeight": 0.125,
+      "source": "curated"
+    },
+    {
+      "id": 65,
+      "subject": "Aptitude",
+      "topic": "Quantitative Aptitude · Surds & Indices",
+      "section": "Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "Simplify: (√3+1)(√3−1) + (2+√5)(2−√5)",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "0"
+      ],
+      "answer": 0,
+      "solution": "(3−1) + (4−5) = 2 + (−1) = 1.",
+      "estSec": 30,
+      "topicWeight": 0.125,
+      "source": "curated"
+    },
+    {
+      "id": 66,
+      "subject": "General Awareness",
+      "topic": "Indian Oil & Gas Industry",
+      "section": "GA",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "ONGC's flagship Mumbai High field is located in which basin?",
+      "options": [
+        "Krishna–Godavari Basin",
+        "Mumbai Offshore Basin",
+        "Cambay Basin",
+        "Kutch Basin"
+      ],
+      "answer": 1,
+      "solution": "Mumbai High (Bombay High) is India's largest offshore oil field, located in the Mumbai Offshore Basin (Western Continental Shelf), about 170 km west of Mumbai.",
+      "estSec": 30,
+      "topicWeight": 0.125,
+      "source": "curated"
+    },
+    {
+      "id": 67,
+      "subject": "General Awareness",
+      "topic": "Indian Geography",
+      "section": "GA",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "The Gondwana coal deposits of India are primarily found in which river valley?",
+      "options": [
+        "Ganges Valley",
+        "Damodar Valley",
+        "Brahmaputra Valley",
+        "Narmada Valley"
+      ],
+      "answer": 1,
+      "solution": "Gondwana coal deposits are primarily found in the Damodar Valley (Jharkhand–West Bengal), along with Son–Mahanadi and Godavari valleys.",
+      "estSec": 30,
+      "topicWeight": 0.125,
+      "source": "curated"
+    },
+    {
+      "id": 68,
+      "subject": "General Awareness",
+      "topic": "Indian Economy",
+      "section": "GA",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "What is the full form of 'CNG' as used in Indian transport fuel context?",
+      "options": [
+        "Compressed Natural Gas",
+        "Condensed Natural Gas",
+        "Converted Natural Gas",
+        "Combustible Natural Gas"
+      ],
+      "answer": 0,
+      "solution": "CNG stands for Compressed Natural Gas, primarily methane, used as a cleaner alternative fuel for vehicles in India.",
+      "estSec": 20,
+      "topicWeight": 0.125,
+      "source": "curated"
+    },
+    {
+      "id": 69,
+      "subject": "General Awareness",
+      "topic": "Science & Technology",
+      "section": "GA",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "The Mohorovičić discontinuity (Moho) separates which two layers of the Earth?",
+      "options": [
+        "Crust and core",
+        "Crust and mantle",
+        "Mantle and core",
+        "Lithosphere and asthenosphere"
+      ],
+      "answer": 1,
+      "solution": "The Moho separates the Earth's crust from the underlying mantle, identified by a jump in seismic velocities.",
+      "estSec": 25,
+      "topicWeight": 0.125,
+      "source": "curated"
+    },
+    {
+      "id": 70,
+      "subject": "General Awareness",
+      "topic": "Indian Oil & Gas Industry",
+      "section": "GA",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "Which organisation is the 'Exploration Wing' of the Ministry of Petroleum and Natural Gas, Government of India?",
+      "options": [
+        "ONGC",
+        "Oil India Limited",
+        "Directorate General of Hydrocarbons (DGH)",
+        "GAIL"
+      ],
+      "answer": 2,
+      "solution": "The DGH (Directorate General of Hydrocarbons) is the regulatory body under MoP&NG that oversees E&P activities in India.",
+      "estSec": 30,
+      "topicWeight": 0.125,
+      "source": "curated"
+    },
+    {
+      "id": 71,
+      "subject": "General Awareness",
+      "topic": "Indian Polity",
+      "section": "GA",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "Under the Indian Constitution, mineral oil and natural gas fall under which list?",
+      "options": [
+        "State List",
+        "Central List (Union List)",
+        "Concurrent List",
+        "Residuary Powers"
+      ],
+      "answer": 1,
+      "solution": "Petroleum and natural gas are in the Union List (Entry 53) under the Seventh Schedule, making them subjects of central government jurisdiction.",
+      "estSec": 30,
+      "topicWeight": 0.125,
+      "source": "curated"
+    },
+    {
+      "id": 72,
+      "subject": "General Awareness",
+      "topic": "Environment & Ecology",
+      "section": "GA",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "The 'Kyoto Protocol' is primarily related to:",
+      "options": [
+        "Biodiversity conservation",
+        "Reduction of greenhouse gas emissions",
+        "Protection of ozone layer",
+        "Marine pollution control"
+      ],
+      "answer": 1,
+      "solution": "The Kyoto Protocol (1997) is an international treaty committing state parties to reduce greenhouse gas emissions, based on the principle of common but differentiated responsibilities.",
+      "estSec": 25,
+      "topicWeight": 0.125,
+      "source": "curated"
+    },
+    {
+      "id": 73,
+      "subject": "General Awareness",
+      "topic": "Indian Geography",
+      "section": "GA",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "The Sundarbans delta is formed at the mouth of which river system?",
+      "options": [
+        "Narmada and Tapti",
+        "Ganga and Brahmaputra",
+        "Godavari and Krishna",
+        "Mahanadi"
+      ],
+      "answer": 1,
+      "solution": "The Sundarbans is formed by the distributaries of the Ganga–Brahmaputra river system at the head of the Bay of Bengal.",
+      "estSec": 25,
+      "topicWeight": 0.125,
+      "source": "curated"
+    },
+    {
+      "id": 74,
+      "subject": "General Awareness",
+      "topic": "Science & Technology",
+      "section": "GA",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "Which Indian satellite series is dedicated to communication and broadcasting?",
+      "options": [
+        "IRS series",
+        "INSAT series",
+        "GSAT series (subset of INSAT)",
+        "Both INSAT and GSAT"
+      ],
+      "answer": 3,
+      "solution": "Both INSAT (Indian National Satellite) and GSAT (Geostationary Satellite) series are dedicated to communication, broadcasting, and meteorology.",
+      "estSec": 25,
+      "topicWeight": 0.125,
+      "source": "curated"
+    },
+    {
+      "id": 75,
+      "subject": "General Awareness",
+      "topic": "Indian Economy",
+      "section": "GA",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "What does 'LPG reform' stand for in the context of Indian economic policy of 1991?",
+      "options": [
+        "Liberalisation, Privatisation, Globalisation",
+        "Liquefied Petroleum Gas",
+        "Land, Power, Growth",
+        "Local Production Guidelines"
+      ],
+      "answer": 0,
+      "solution": "LPG in the 1991 Indian economic reform context stands for Liberalisation, Privatisation, and Globalisation — the three pillars of India's economic transformation.",
+      "estSec": 25,
+      "topicWeight": 0.125,
+      "source": "curated"
+    },
+    {
+      "id": 76,
+      "subject": "English Language",
+      "topic": "Grammar · Tenses & Aspect",
+      "section": "English",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "Choose the correctly punctuated sentence:",
+      "options": [
+        "The well, which was drilled in 2023, produced 500 barrels per day.",
+        "The well which was drilled in 2023 produced 500 barrels per day.",
+        "The well that was drilled in 2023, produced 500 barrels per day.",
+        "The well, that was drilled in 2023 produced 500 barrels per day."
+      ],
+      "answer": 0,
+      "solution": "'Which' introduces a non-restrictive clause and requires commas. The first option correctly uses commas with 'which' to provide additional, non-essential information.",
+      "estSec": 30,
+      "topicWeight": 0.125,
+      "source": "curated"
+    },
+    {
+      "id": 77,
+      "subject": "English Language",
+      "topic": "Vocabulary · Technical Terms",
+      "section": "English",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "The term 'diagenesis' in geology refers to:",
+      "options": [
+        "The melting of rocks at high temperature",
+        "Physical and chemical changes in sediment after deposition and during lithification",
+        "The weathering of rocks at the Earth's surface",
+        "The metamorphism of rocks at great depth"
+      ],
+      "answer": 1,
+      "solution": "Diagenesis encompasses all physical, chemical, and biological changes that affect sediment after deposition and during conversion to rock, excluding surface weathering and deep metamorphism.",
+      "estSec": 30,
+      "topicWeight": 0.125,
+      "source": "curated"
+    },
+    {
+      "id": 78,
+      "subject": "English Language",
+      "topic": "Grammar · Subject-Verb Agreement",
+      "section": "English",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "Choose the sentence with correct subject-verb agreement:",
+      "options": [
+        "The team of geologists are going to the field.",
+        "Each of the wells have been completed.",
+        "Neither the reservoir nor the seal were properly characterised.",
+        "The collection of rock samples is ready for analysis."
+      ],
+      "answer": 3,
+      "solution": "In option D, 'collection' is the subject (singular) and takes the singular verb 'is'. Options A and B have agreement errors: 'team' and 'each' are singular.",
+      "estSec": 35,
+      "topicWeight": 0.125,
+      "source": "curated"
+    },
+    {
+      "id": 79,
+      "subject": "English Language",
+      "topic": "Comprehension · Inference",
+      "section": "English",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "Read the passage: 'The basin's petroleum system has been charged from multiple source kitchens. The maturity window varies across the basin due to differential burial. Eastern flanks show late oil generation, while the western graben is in the gas window.' — What can be inferred about the basin?",
+      "options": [
+        "The basin has only one source rock",
+        "The eastern flank may have oil prospects while the western graben is gas-prone",
+        "All areas are equally mature",
+        "The basin has no petroleum potential"
+      ],
+      "answer": 1,
+      "solution": "The passage indicates maturity variations across the basin — eastern flanks in oil window (late oil generation) and western graben in gas window. This implies different hydrocarbon phase predictions for different parts of the basin.",
+      "estSec": 45,
+      "topicWeight": 0.125,
+      "source": "curated"
+    },
+    {
+      "id": 80,
+      "subject": "English Language",
+      "topic": "Grammar · Articles & Prepositions",
+      "section": "English",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "Fill in the blanks: 'The seismic survey was conducted ___ the area ___ the presence ___ potential hydrocarbon traps.'",
+      "options": [
+        "in, for, of",
+        "at, in, for",
+        "over, in, of",
+        "through, for, with"
+      ],
+      "answer": 2,
+      "solution": "'Over the area' indicates spatial extent. 'In the presence of' is the correct idiomatic expression.",
+      "estSec": 35,
+      "topicWeight": 0.125,
+      "source": "curated"
+    },
+    {
+      "id": 81,
+      "subject": "English Language",
+      "topic": "Vocabulary · Synonyms",
+      "section": "English",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "Choose the word closest in meaning to 'prolific':",
+      "options": [
+        "Infertile",
+        "Productive",
+        "Dormant",
+        "Sparse"
+      ],
+      "answer": 1,
+      "solution": "'Prolific' means producing abundantly or fruitfully. In petroleum geology, a 'prolific reservoir' is one that produces large quantities of hydrocarbons.",
+      "estSec": 25,
+      "topicWeight": 0.125,
+      "source": "curated"
+    },
+    {
+      "id": 82,
+      "subject": "English Language",
+      "topic": "Grammar · Active & Passive Voice",
+      "section": "English",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "Convert to passive voice: 'The geologist interpreted the seismic data.'",
+      "options": [
+        "The seismic data was interpreted by the geologist.",
+        "The seismic data is interpreted by the geologist.",
+        "The seismic data has been interpreted by the geologist.",
+        "The seismic data were interpreted by the geologist."
+      ],
+      "answer": 0,
+      "solution": "The active sentence is in simple past tense ('interpreted'). The passive form is: 'was interpreted by the geologist.' 'Data' is treated as singular in scientific usage.",
+      "estSec": 30,
+      "topicWeight": 0.125,
+      "source": "curated"
+    },
+    {
+      "id": 83,
+      "subject": "English Language",
+      "topic": "Grammar · Conjunctions & Sentence Structure",
+      "section": "English",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "Choose the sentence with correct punctuation and conjunction usage:",
+      "options": [
+        "Although the drill core was fractured; the analysis revealed high porosity.",
+        "Although the drill core was fractured, the analysis revealed high porosity.",
+        "Although, the drill core was fractured the analysis revealed high porosity.",
+        "Although the drill core was fractured the analysis, revealed high porosity."
+      ],
+      "answer": 1,
+      "solution": "'Although' introduces a dependent clause. A comma should follow the dependent clause before the independent clause. Option B correctly punctuates this structure.",
+      "estSec": 35,
+      "topicWeight": 0.125,
+      "source": "curated"
+    },
+    {
+      "id": 84,
+      "subject": "English Language",
+      "topic": "Vocabulary · Antonyms",
+      "section": "English",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "Choose the word opposite in meaning to 'benign' (as used in 'benign reservoir conditions'):",
+      "options": [
+        "Favourable",
+        "Hostile",
+        "Neutral",
+        "Optimal"
+      ],
+      "answer": 1,
+      "solution": "'Benign' means gentle, favourable, or not harmful. Its antonym in the context of reservoir conditions is 'hostile' — meaning unfavourable or challenging conditions for drilling and production.",
+      "estSec": 25,
+      "topicWeight": 0.125,
+      "source": "curated"
+    },
+    {
+      "id": 85,
+      "subject": "English Language",
+      "topic": "Grammar · Direct & Indirect Speech",
+      "section": "English",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "Convert to indirect speech: The manager said, 'The well will be completed by next month.'",
+      "options": [
+        "The manager said that the well will be completed by next month.",
+        "The manager said that the well would be completed by the following month.",
+        "The manager said that the well is being completed by next month.",
+        "The manager said that the well had been completed by next month."
+      ],
+      "answer": 1,
+      "solution": "In reported speech, future tense changes from 'will' to 'would', and time expressions shift: 'next month' becomes 'the following month'.",
+      "estSec": 35,
+      "topicWeight": 0.125,
+      "source": "curated"
+    }
+  ]
+}

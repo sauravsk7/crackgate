@@ -9,6 +9,19 @@ import type { Question } from "@/lib/grading";
 
 import geologySet01 from "./questions/ongc/geology/ongc-geology-01.json";
 import geologySet02 from "./questions/ongc/geology/ongc-geology-02.json";
+import geologySet03 from "./questions/ongc/geology/ongc-geology-03.json";
+import geologySet04 from "./questions/ongc/geology/ongc-geology-04.json";
+import geologySet05 from "./questions/ongc/geology/ongc-geology-05.json";
+import geologySet06 from "./questions/ongc/geology/ongc-geology-06.json";
+import geologySet07 from "./questions/ongc/geology/ongc-geology-07.json";
+import geologySet08 from "./questions/ongc/geology/ongc-geology-08.json";
+import geologySet09 from "./questions/ongc/geology/ongc-geology-09.json";
+import geologySet10 from "./questions/ongc/geology/ongc-geology-10.json";
+import geologySet11 from "./questions/ongc/geology/ongc-geology-11.json";
+import geologySet12 from "./questions/ongc/geology/ongc-geology-12.json";
+import geologySet13 from "./questions/ongc/geology/ongc-geology-13.json";
+import geologySet14 from "./questions/ongc/geology/ongc-geology-14.json";
+import geologySet15 from "./questions/ongc/geology/ongc-geology-15.json";
 
 export type OngcSet = {
   /** Stable mock id, e.g. "ongc-geology-01". Drives the runner route /mocks/<id>. */
@@ -31,6 +44,19 @@ export type OngcSet = {
 const ONGC_SETS: OngcSet[] = [
   geologySet01 as unknown as OngcSet,
   geologySet02 as unknown as OngcSet,
+  geologySet03 as unknown as OngcSet,
+  geologySet04 as unknown as OngcSet,
+  geologySet05 as unknown as OngcSet,
+  geologySet06 as unknown as OngcSet,
+  geologySet07 as unknown as OngcSet,
+  geologySet08 as unknown as OngcSet,
+  geologySet09 as unknown as OngcSet,
+  geologySet10 as unknown as OngcSet,
+  geologySet11 as unknown as OngcSet,
+  geologySet12 as unknown as OngcSet,
+  geologySet13 as unknown as OngcSet,
+  geologySet14 as unknown as OngcSet,
+  geologySet15 as unknown as OngcSet,
 ];
 
 export const ONGC_MOCK_BANK: ReadonlyMap<string, OngcSet> = new Map(
