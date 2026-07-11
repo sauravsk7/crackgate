@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { notFound } from "next/navigation";
 import { CIL_ROWS, getCilDiscipline, CIL_RECRUITMENT_URL } from "@/data/cil";
 import { CilMockPlan } from "@/components/cil-mock-plan";
@@ -8,7 +9,6 @@ import { NewsletterForm } from "@/components/newsletter-form";
 import { auth } from "@/lib/auth";
 import { hasEntitlement } from "@/lib/entitlements";
 
-// Entitlement is per-user, so this page must render per-request.
 export const dynamic = "force-dynamic";
 
 export function generateStaticParams() {
@@ -34,8 +34,6 @@ export default async function CilDisciplinePage(props: { params: Promise<{ disci
   const row = getCilDiscipline(discipline);
   if (!row) notFound();
 
-  // Per-discipline access: a CIL purchase records an Entitlement(exam="PSU",
-  // subject=<slug>). Admins (role) see everything unlocked.
   const session = await auth();
   const userId = (session?.user as { id?: string } | undefined)?.id;
   const isAdmin = (session?.user as { role?: string } | undefined)?.role === "admin";
@@ -43,10 +41,23 @@ export default async function CilDisciplinePage(props: { params: Promise<{ disci
 
   return (
     <>
-      <section className="bg-gradient-to-r from-blue-950 to-slate-900 text-white">
-        <div className="max-w-7xl mx-auto px-5 py-14 lg:py-16">
+      <section className="relative overflow-hidden bg-[#0055A4] text-white">
+        {/* Background image — coal mine */}
+        <div className="absolute inset-0">
+          <Image
+            src="/images/cil/coal-mine-bg.jpg"
+            alt=""
+            fill
+            priority
+            className="object-cover opacity-20"
+            sizes="100vw"
+          />
+          <div className="absolute inset-0 bg-gradient-to-r from-[#0055A4] via-[#0055A4]/90 to-[#0055A4]/60" />
+        </div>
+
+        <div className="relative max-w-7xl mx-auto px-5 py-14 lg:py-16">
           <div className="flex items-start justify-between">
-            <Breadcrumb crumbs={[
+            <Breadcrumb className="text-white/60 [&_a]:hover:text-white [&_span]:text-white" crumbs={[
               { label: "Home", href: "/" },
               { label: "PSU", href: "/psu" },
               { label: "CIL", href: "/psu/cil" },
@@ -54,9 +65,19 @@ export default async function CilDisciplinePage(props: { params: Promise<{ disci
             ]} />
             <ShareOnWhatsApp />
           </div>
-          <span className="badge mt-4 border border-cyan-300/30 bg-cyan-300/10 text-cyan-300">
-            Post Code {row.code}
-          </span>
+          <div className="flex items-center gap-3 mt-4">
+            <Image
+              src="/images/cil/cil-logo.png"
+              alt="CIL logo"
+              width={48}
+              height={48}
+              className="rounded-lg"
+              priority
+            />
+            <span className="badge border border-cyan-300/30 bg-cyan-300/10 text-cyan-300">
+              Post Code {row.code}
+            </span>
+          </div>
           <h1 className="mt-3 text-4xl lg:text-5xl font-extrabold leading-tight">
             CIL {row.discipline} — Management Trainee
           </h1>
