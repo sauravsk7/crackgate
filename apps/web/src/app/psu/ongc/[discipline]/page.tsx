@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { notFound } from "next/navigation";
 import { ONGC_ROWS, getOngcDiscipline, ONGC_RECRUITMENT_URL } from "@/data/ongc";
 import { OngcMockPlan } from "@/components/ongc-mock-plan";
@@ -40,8 +41,21 @@ export default async function OngcDisciplinePage(props: { params: Promise<{ disc
 
   return (
     <>
-      <section className="bg-gradient-to-r from-amber-950 to-slate-900 text-white">
-        <div className="max-w-7xl mx-auto px-5 py-14 lg:py-16">
+      <section className="relative overflow-hidden bg-[#003580] text-white">
+        {/* Background image — oil rig */}
+        <div className="absolute inset-0">
+          <Image
+            src="/images/ongc/oil-rig-bg.jpg"
+            alt=""
+            fill
+            priority
+            className="object-cover opacity-20"
+            sizes="100vw"
+          />
+          <div className="absolute inset-0 bg-gradient-to-r from-[#003580] via-[#003580]/90 to-[#003580]/60" />
+        </div>
+
+        <div className="relative max-w-7xl mx-auto px-5 py-14 lg:py-16">
           <div className="flex items-start justify-between">
             <Breadcrumb crumbs={[
               { label: "Home", href: "/" },
@@ -51,9 +65,19 @@ export default async function OngcDisciplinePage(props: { params: Promise<{ disc
             ]} />
             <ShareOnWhatsApp />
           </div>
-          <span className="badge mt-4 border border-amber-300/30 bg-amber-300/10 text-amber-300">
-            ONGC CBT
-          </span>
+          <div className="flex items-center gap-3 mt-4">
+            <Image
+              src="/images/ongc/ongc-logo.png"
+              alt="ONGC logo"
+              width={48}
+              height={48}
+              className="rounded-lg"
+              priority
+            />
+            <span className="badge border border-blue-300/30 bg-blue-300/10 text-blue-300">
+              ONGC CBT
+            </span>
+          </div>
           <h1 className="mt-3 text-4xl lg:text-5xl font-extrabold leading-tight">
             ONGC {row.discipline}
           </h1>
@@ -63,7 +87,7 @@ export default async function OngcDisciplinePage(props: { params: Promise<{ disc
               href={ONGC_RECRUITMENT_URL}
               target="_blank"
               rel="noopener noreferrer"
-              className="cg-neon inline-flex items-center gap-2 rounded-lg border border-amber-400/70 bg-amber-400/10 px-5 py-3 text-sm font-semibold text-amber-100 transition hover:bg-amber-400/20"
+              className="cg-neon inline-flex items-center gap-2 rounded-lg border border-blue-300/70 bg-blue-300/10 px-5 py-3 text-sm font-semibold text-blue-100 transition hover:bg-blue-300/20"
             >
               Official Notification <span aria-hidden>↗</span>
             </a>

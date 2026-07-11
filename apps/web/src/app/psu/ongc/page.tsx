@@ -2,6 +2,9 @@ import Link from "next/link";
 import { ONGC_ROWS } from "@/data/ongc";
 import { ONGC_PATTERN } from "@/data/ongc-mocks";
 import { NewsletterForm } from "@/components/newsletter-form";
+import dynamic from "next/dynamic";
+
+const PsuOngcHero = dynamic(() => import("@/components/psu-ongc-hero").then((m) => m.PsuOngcHero));
 
 export const metadata = {
   title: "PSU · ONGC CBT · CrackGate",
@@ -13,28 +16,7 @@ export const metadata = {
 export default function PsuOngcPage() {
   return (
     <>
-      {/* HERO */}
-      <section className="bg-gradient-to-r from-amber-950 to-slate-900 text-white">
-        <div className="max-w-7xl mx-auto px-5 py-14 lg:py-20">
-          <span className="badge border border-amber-300/30 bg-amber-300/10 text-amber-300">ONGC CBT</span>
-          <h1 className="mt-4 text-4xl lg:text-5xl font-extrabold leading-tight">
-            Oil and Natural Gas Corporation
-          </h1>
-          <p className="mt-4 max-w-2xl text-white/80">
-            Prepare for ONGC&apos;s Computer-Based Test with discipline-specific mock tests.
-            {ONGC_PATTERN.questions} MCQs · {ONGC_PATTERN.durationMin / 60} hours · No negative marking.
-          </p>
-          <div className="mt-4 flex flex-wrap gap-4 text-sm text-white/60">
-            <span>Domain Knowledge · {ONGC_PATTERN.sections[0].count} Q</span>
-            <span>·</span>
-            <span>Aptitude · {ONGC_PATTERN.sections[1].count} Q</span>
-            <span>·</span>
-            <span>General Awareness · {ONGC_PATTERN.sections[2].count} Q</span>
-            <span>·</span>
-            <span>English · {ONGC_PATTERN.sections[3].count} Q</span>
-          </div>
-        </div>
-      </section>
+      <PsuOngcHero />
 
       {/* DISCIPLINE CARDS */}
       <section id="disciplines" className="max-w-7xl mx-auto px-5 py-16">
@@ -56,7 +38,7 @@ export default function PsuOngcPage() {
               className="card group flex flex-col p-6 transition hover:-translate-y-1 hover:shadow-pop"
             >
               <div className="flex items-center justify-between">
-                <span className="badge bg-amber-400/15 text-amber-700 dark:text-amber-300">CBT</span>
+                <span className="badge bg-[#003580]/15 text-[#003580] dark:text-blue-300">CBT</span>
                 <span className="badge badge-pro">15 mocks</span>
               </div>
               <h3 className="mt-4 text-lg font-bold text-ink">{r.discipline}</h3>

@@ -16,7 +16,7 @@ export type PsuCompany = {
 
 export const PSU_COMPANIES: PsuCompany[] = [
   { slug: "cil", short: "CIL(MT)", name: "Coal India Limited — Management Trainee", live: true },
-  { slug: "ongc", short: "ONGC", name: "Oil and Natural Gas Corporation", live: false },
+  { slug: "ongc", short: "ONGC", name: "Oil and Natural Gas Corporation", live: true },
   { slug: "cil-dgms", short: "CIL(DGMS)", name: "Coal India Limited — DGMS", live: false },
   { slug: "nmdc", short: "NMDC", name: "National Mineral Development Corporation", live: false },
   { slug: "moil", short: "MOIL", name: "Manganese Ore India Limited", live: false },
