@@ -1,6 +1,3 @@
-import Link from "next/link";
-
-
 export const metadata = {
   title: "News & Notifications · CrackGate",
   description:
@@ -8,24 +5,6 @@ export const metadata = {
   alternates: { canonical: "/news" },
 };
 
-type NewsItem = {
-  tag: string;
-  title: string;
-  date: string;
-  href: string;
-  external?: boolean;
-};
-
-const NEWS: NewsItem[] = [
-  {
-    tag: "Recruitment",
-    title: "ONGC — Graduate Trainee (E1 Level) via own CBT, Advt. No. 2/2026",
-    date: "Jul 2026",
-    href: "https://www.ongcindia.com/web/eng/detail?assetEntry=84777603&assetClassPK=84777498",
-    external: true,
-  },
-
-];
 
 export default function NewsPage() {
   return (
@@ -321,39 +300,7 @@ export default function NewsPage() {
 
 
 
-      <section className="max-w-7xl mx-auto px-5 py-14">
-        <h2 className="text-xl font-extrabold text-ink mb-5 dark:text-white">All Notifications</h2>
-        <div className="grid gap-3">
-          {NEWS.map((n) => {
-            const inner = (
-              <div className="group card flex items-center justify-between gap-4 p-5 transition-all duration-200 hover:shadow-lg hover:border-brand/30 hover:-translate-y-0.5">
-                <div className="flex items-center gap-4">
-                  <div className="shrink-0 w-10 h-10 rounded-xl bg-brand/10 grid place-items-center text-brand font-bold text-sm">
-                    {n.date.split(" ")[0]}
-                  </div>
-                  <div>
-                    <span className="badge bg-brand/10 text-brand">{n.tag}</span>
-                    <h3 className="mt-1.5 font-bold text-ink group-hover:text-brand transition-colors">{n.title}</h3>
-                    <p className="mt-0.5 text-xs text-muted">{n.date}</p>
-                  </div>
-                </div>
-                <span className="shrink-0 text-sm font-semibold text-brand opacity-60 group-hover:opacity-100 group-hover:translate-x-0.5 transition-all">
-                  {n.external ? "Open ↗" : "View →"}
-                </span>
-              </div>
-            );
-            return n.external ? (
-              <a key={n.title} href={n.href} target="_blank" rel="noopener noreferrer">
-                {inner}
-              </a>
-            ) : (
-              <Link key={n.title} href={n.href}>
-                {inner}
-              </Link>
-            );
-          })}
-        </div>
-      </section>
+      
     </>
   );
 }
