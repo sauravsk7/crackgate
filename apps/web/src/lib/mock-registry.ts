@@ -6,6 +6,7 @@
 
 import { MOCKS } from "@/data/mocks";
 import { CIL_MOCK_BANK, cilMockIds } from "@/data/cil-mock-bank";
+import { ONGC_MOCK_BANK, ongcMockIds } from "@/data/ongc-mock-bank";
 import { CE_MOCKS } from "@/data/gate/civil/mocks";
 import { ES_MOCKS } from "@/data/gate/environment/mocks";
 import { GG_MOCKS } from "@/data/gate/geology/mocks";
@@ -74,6 +75,19 @@ export function resolveMock(id: string): ResolvedMock | null {
     };
   }
 
+  if (id.startsWith("ongc-")) {
+    const set = ONGC_MOCK_BANK.get(id);
+    if (!set) return null;
+    return {
+      id,
+      title: set.title,
+      questions: set.questions,
+      durationSec: (set.durationMin ?? 120) * 60,
+      negativeMarking: set.negativeMarking ?? false,
+      gate: { type: "entitlement", exam: "PSU", subject: set.slug },
+    };
+  }
+
   if (id.startsWith("cil-")) {
     const set = CIL_MOCK_BANK.get(id);
     if (!set) return null;
@@ -127,6 +141,7 @@ export function allMockIds(): string[] {
     ...ES_MOCKS.map((m) => (m as { id: string }).id),
     ...GG_MOCKS.map((m) => (m as { id: string }).id),
     ...cilMockIds(),
+    ...ongcMockIds(),
     ...STATE_MOCKS.map((m) => (m as { id: string }).id),
     ...DIPLOMA_MOCKS.map((m) => (m as { id: string }).id),
   ];
