@@ -47,7 +47,7 @@ export function AdminEmptyState({
   return (
     <div
       className={cn(
-        "flex flex-col items-center justify-center py-12 px-6 text-center",
+        "flex flex-col items-center justify-center py-8 sm:py-12 px-4 sm:px-6 text-center",
         className
       )}
     >
