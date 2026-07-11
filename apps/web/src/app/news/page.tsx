@@ -187,10 +187,10 @@ export default function NewsPage() {
 
       {/* CIL Featured Recruitment Alert — Premium */}
       <section className="max-w-7xl mx-auto px-5 mt-8">
-        <div className="relative overflow-hidden rounded-3xl border border-red-200/60 bg-gradient-to-br from-red-50 via-white to-rose-50 shadow-lg shadow-red-100/40 dark:from-slate-800 dark:via-slate-800 dark:to-slate-900 dark:border-slate-700 dark:shadow-none">
+        <div className="relative overflow-hidden rounded-3xl border border-green-200/60 bg-gradient-to-br from-green-50 via-white to-emerald-50 shadow-lg shadow-green-100/40 dark:from-slate-800 dark:via-slate-800 dark:to-slate-900 dark:border-slate-700 dark:shadow-none">
           {/* Decorative corner accent */}
-          <div className="absolute -top-16 -right-16 w-48 h-48 bg-red-200/20 rounded-full blur-3xl" />
-          <div className="absolute -bottom-20 -left-20 w-56 h-56 bg-rose-200/15 rounded-full blur-3xl" />
+          <div className="absolute -top-16 -right-16 w-48 h-48 bg-green-200/20 rounded-full blur-3xl" />
+          <div className="absolute -bottom-20 -left-20 w-56 h-56 bg-emerald-200/15 rounded-full blur-3xl" />
 
           <div className="relative flex flex-col lg:flex-row">
             {/* Left — Brand Bar */}
@@ -201,7 +201,7 @@ export default function NewsPage() {
                 alt=""
                 className="absolute inset-0 w-full h-full object-cover"
               />
-              <div className="absolute inset-0 bg-gradient-to-b from-[#8B0000]/95 via-[#6B0000]/90 to-[#4A0000]/95" />
+              <div className="absolute inset-0 bg-gradient-to-b from-[#1a5c1a]/95 via-[#0d4d0d]/90 to-[#0a3d0a]/95" />
 
               {/* Content */}
               <div className="relative z-10 flex flex-col items-center">
@@ -229,22 +229,22 @@ export default function NewsPage() {
                 <div>
                   <div className="flex items-center gap-3 mb-2">
                     <h3 className="text-2xl sm:text-3xl font-extrabold text-ink tracking-tight dark:text-white">CIL Recruitment 2026</h3>
-                    <span className="hidden sm:inline-flex items-center gap-1.5 bg-red-500 text-white text-[10px] font-bold px-2.5 py-1 rounded-full uppercase tracking-wider shrink-0">
+                    <span className="hidden sm:inline-flex items-center gap-1.5 bg-green-600 text-white text-[10px] font-bold px-2.5 py-1 rounded-full uppercase tracking-wider shrink-0">
                       <span className="w-1.5 h-1.5 bg-white rounded-full animate-pulse" />
                       Live
                     </span>
                   </div>
                   <p className="text-sm text-muted dark:text-slate-400">Management Trainee — E-1 Grade · Advt. No. 03/2026</p>
                 </div>
-                <span className="sm:hidden inline-flex items-center gap-1.5 bg-red-500 text-white text-[10px] font-bold px-2.5 py-1 rounded-full uppercase tracking-wider w-fit">
+                <span className="sm:hidden inline-flex items-center gap-1.5 bg-green-600 text-white text-[10px] font-bold px-2.5 py-1 rounded-full uppercase tracking-wider w-fit">
                   <span className="w-1.5 h-1.5 bg-white rounded-full animate-pulse" />
                   Live
                 </span>
               </div>
 
               {/* Callout */}
-              <div className="bg-red-100/50 border border-red-200/60 rounded-xl px-5 py-3.5 mb-6 dark:bg-red-900/20 dark:border-red-800/40">
-                <p className="text-sm text-red-900 leading-relaxed dark:text-red-200">
+              <div className="bg-green-100/50 border border-green-200/60 rounded-xl px-5 py-3.5 mb-6 dark:bg-green-900/20 dark:border-green-800/40">
+                <p className="text-sm text-green-900 leading-relaxed dark:text-green-200">
                   Selection based <strong>entirely on CBT</strong> — <strong>no interview</strong>.
                   Two papers: General (100 marks) + Professional Knowledge (100 marks). 3 hours.
                 </p>
@@ -276,7 +276,7 @@ export default function NewsPage() {
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 mb-8">
                 <div className="bg-white border border-slate-100 rounded-xl px-4 py-3 shadow-sm dark:bg-slate-800 dark:border-slate-700">
                   <div className="flex items-center gap-2 mb-1">
-                    <svg className="w-3.5 h-3.5 text-red-500" fill="currentColor" viewBox="0 0 20 20"><path d="M10 2a8 8 0 100 16 8 8 0 000-16zm1 11H9v-2h2v2zm0-3H9V6h2v4z" /></svg>
+                    <svg className="w-3.5 h-3.5 text-green-600" fill="currentColor" viewBox="0 0 20 20"><path d="M10 2a8 8 0 100 16 8 8 0 000-16zm1 11H9v-2h2v2zm0-3H9V6h2v4z" /></svg>
                     <span className="text-[10px] font-bold text-muted/50 uppercase tracking-wider dark:text-slate-400">Pay Scale</span>
                   </div>
                   <p className="font-extrabold text-ink text-sm dark:text-white">₹60,000–₹1,80,000</p>
@@ -284,7 +284,7 @@ export default function NewsPage() {
                 </div>
                 <div className="bg-white border border-slate-100 rounded-xl px-4 py-3 shadow-sm dark:bg-slate-800 dark:border-slate-700">
                   <div className="flex items-center gap-2 mb-1">
-                    <svg className="w-3.5 h-3.5 text-blue-500" fill="currentColor" viewBox="0 0 20 20"><path d="M10 2a8 8 0 100 16 8 8 0 000-16zm1 11H9v-2h2v2zm0-3H9V6h2v4z" /></svg>
+                    <svg className="w-3.5 h-3.5 text-green-500" fill="currentColor" viewBox="0 0 20 20"><path d="M10 2a8 8 0 100 16 8 8 0 000-16zm1 11H9v-2h2v2zm0-3H9V6h2v4z" /></svg>
                     <span className="text-[10px] font-bold text-muted/50 uppercase tracking-wider dark:text-slate-400">Selection</span>
                   </div>
                   <p className="font-extrabold text-ink text-sm dark:text-white">CBT Only</p>
@@ -306,7 +306,7 @@ export default function NewsPage() {
                   href="https://cdn.digialm.com/EForms/configuredHtml/1258/97495/Index.html"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="group inline-flex items-center justify-center gap-2.5 bg-gradient-to-r from-red-500 to-rose-500 text-white font-bold px-7 py-3 rounded-xl hover:from-red-600 hover:to-rose-600 hover:shadow-lg hover:shadow-red-200/50 transition-all duration-200 text-sm"
+                  className="group inline-flex items-center justify-center gap-2.5 bg-gradient-to-r from-green-600 to-emerald-600 text-white font-bold px-7 py-3 rounded-xl hover:from-green-700 hover:to-emerald-700 hover:shadow-lg hover:shadow-green-200/50 transition-all duration-200 text-sm"
                 >
                   Apply Now
                   <svg className="w-4 h-4 group-hover:translate-x-0.5 transition-transform" fill="none" stroke="currentColor" strokeWidth="2.5" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
@@ -315,7 +315,7 @@ export default function NewsPage() {
                   href="https://www.coalindia.in/career-cil/jobs-coal-india/recruitment-of-management-trainee-through-computer-based-test-cbt-26/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="group inline-flex items-center justify-center gap-2.5 text-red-700 font-bold px-7 py-3 rounded-xl border-2 border-red-200 hover:bg-red-50 hover:border-red-300 transition-all duration-200 text-sm dark:text-red-400 dark:border-red-700 dark:hover:bg-red-900/20 dark:hover:border-red-600"
+                  className="group inline-flex items-center justify-center gap-2.5 text-green-700 font-bold px-7 py-3 rounded-xl border-2 border-green-200 hover:bg-green-50 hover:border-green-300 transition-all duration-200 text-sm dark:text-green-400 dark:border-green-700 dark:hover:bg-green-900/20 dark:hover:border-green-600"
                 >
                   View Notification
                   <svg className="w-4 h-4 group-hover:translate-x-0.5 transition-transform" fill="none" stroke="currentColor" strokeWidth="2.5" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
