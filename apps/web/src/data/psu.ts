@@ -12,12 +12,22 @@ export type PsuCompany = {
   name: string;
   /** Whether the track has live content / a dedicated page. */
   live: boolean;
+  /** Optional sub-items (e.g. CIL MT and CIL DGMS under CIL). */
+  children?: PsuCompany[];
 };
 
 export const PSU_COMPANIES: PsuCompany[] = [
-  { slug: "cil", short: "CIL(MT)", name: "Coal India Limited — Management Trainee", live: true },
+  {
+    slug: "cil",
+    short: "CIL",
+    name: "Coal India Limited",
+    live: false,
+    children: [
+      { slug: "cil", short: "CIL MT", name: "Management Trainee", live: true },
+      { slug: "cil-dgms", short: "CIL DGMS", name: "DGMS", live: false },
+    ],
+  },
   { slug: "ongc", short: "ONGC", name: "Oil and Natural Gas Corporation", live: true },
-  { slug: "cil-dgms", short: "CIL(DGMS)", name: "Coal India Limited — DGMS", live: false },
   { slug: "nmdc", short: "NMDC", name: "National Mineral Development Corporation", live: false },
   { slug: "moil", short: "MOIL", name: "Manganese Ore India Limited", live: false },
   { slug: "ntpc", short: "NTPC", name: "National Thermal Power Corporation", live: false },
