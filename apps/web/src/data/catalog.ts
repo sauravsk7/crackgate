@@ -9,6 +9,7 @@
 // into mock/practice/AITS gating is a separate follow-up — see /admin notes.
 
 import { CIL_ROWS } from "./cil";
+import { ONGC_ROWS } from "./ongc";
 
 export type ExamTrack = "GATE" | "PSU" | "STATE" | "DIPLOMA";
 
@@ -60,6 +61,15 @@ export const CATALOG: CatalogExam[] = [
     label: "PSU · Coal India (CIL)",
     // PSU CIL disciplines are not live yet — recorded for attribution only.
     subjects: CIL_ROWS.map((r) => ({
+      slug: r.slug,
+      label: r.discipline,
+      live: false,
+    })),
+  },
+  {
+    exam: "PSU",
+    label: "PSU · ONGC",
+    subjects: ONGC_ROWS.map((r) => ({
       slug: r.slug,
       label: r.discipline,
       live: false,
