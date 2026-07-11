@@ -1,15 +1,17 @@
 /**
  * GATE subject registry — the single source of truth that maps a GATE subject
  * slug (e.g. "civil") to its content modules (practice, mocks, learn, aits) and
- * access metadata. New subjects (geology, environment) register here once their
- * content exists; until then they are absent and render as "coming soon".
- *
- * Mining keeps its legacy flat routes and is NOT registered here — these
- * generic `/gate/[subject]/*` routes are for the newer per-subject sites.
+ * access metadata. New subjects register here once their content exists;
+ * until then they are absent and render as "coming soon".
  */
 import type { PracticeSubject } from "@/data/practice";
 import type { LearnTopic, LearnSyllabusSection, LearnSyllabusSubtopic } from "@/data/learn";
 import type { AitsTest } from "@/data/aits";
+
+import { PRACTICE as MN_PRACTICE } from "@/data/practice";
+import { MOCKS as MN_MOCKS } from "@/data/mocks";
+import { LEARN_TOPICS as MN_LEARN_TOPICS, getLearnTopic as getMiningLearnTopic, getLearnSyllabus as getMiningLearnSyllabus } from "@/data/learn";
+import { AITS as MN_AITS } from "@/data/aits";
 
 import { CE_PRACTICE } from "@/data/gate/civil/practice";
 import { CE_MOCKS } from "@/data/gate/civil/mocks";
@@ -65,6 +67,21 @@ export interface GateSubject {
 }
 
 const SUBJECTS: Record<string, GateSubject> = {
+  mining: {
+    slug: "mining",
+    label: "Mining Engineering",
+    code: "MN",
+    blurb:
+      "Full GATE Mining (MN) preparation — topic-wise learning, an exam-grade practice bank, full-length mocks and a scheduled All India Test Series.",
+    accessExam: "GATE",
+    accessSubject: "mining",
+    practice: MN_PRACTICE,
+    mocks: MN_MOCKS as unknown as readonly GateMock[],
+    learnTopics: MN_LEARN_TOPICS,
+    getLearnTopic: getMiningLearnTopic,
+    getLearnSyllabus: getMiningLearnSyllabus,
+    aits: MN_AITS,
+  },
   civil: {
     slug: "civil",
     label: "Civil Engineering",

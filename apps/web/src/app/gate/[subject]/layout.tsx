@@ -17,9 +17,9 @@ export default async function GateSubjectLayout(
   // Unknown slug that is neither live nor a known "coming soon" subject → 404.
   if (!meta && !KNOWN_COMING_SOON.has(subject)) notFound();
 
-  // Live subjects get their own mini-site header. Coming-soon subjects keep the
-  // global site header (rendered by the root layout) and just show a hub page.
-  if (!meta) return <>{props.children}</>;
+  // Mining has its own MiningHeader via the root layout's ShowOnMiningSite —
+  // skip SubjectHeader to avoid a duplicate nav.
+  if (!meta || subject === "mining") return <>{props.children}</>;
 
   return (
     <>
