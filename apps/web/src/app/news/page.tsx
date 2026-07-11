@@ -1,6 +1,5 @@
 import Link from "next/link";
-import { CilAdBanner } from "@/components/cil-ad-banner";
-import { CIL_RECRUITMENT_URL } from "@/data/cil";
+
 
 export const metadata = {
   title: "News & Notifications · CrackGate",
@@ -25,13 +24,7 @@ const NEWS: NewsItem[] = [
     href: "https://www.ongcindia.com/web/eng/detail?assetEntry=84777603&assetClassPK=84777498",
     external: true,
   },
-  {
-    tag: "Recruitment",
-    title: "Coal India Limited — Management Trainee 2026 notification",
-    date: "Jun 2026",
-    href: CIL_RECRUITMENT_URL,
-    external: true,
-  },
+
 ];
 
 export default function NewsPage() {
@@ -326,9 +319,7 @@ export default function NewsPage() {
         </div>
       </section>
 
-      <div className="mt-8">
-        <CilAdBanner />
-      </div>
+
 
       <section className="max-w-7xl mx-auto px-5 py-14">
         <h2 className="text-xl font-extrabold text-ink mb-5 dark:text-white">All Notifications</h2>
