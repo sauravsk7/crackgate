@@ -121,7 +121,7 @@ function MockCard({
 
       {canStart ? (
         <Link
-          href={`/mocks/ongc-${slug}-${String(mock.no).padStart(2, "0")}`}
+          href={`/mocks/${slug}-${String(mock.no).padStart(2, "0")}`}
           className="btn btn-primary mt-4 w-full justify-center"
         >
           Start Mock

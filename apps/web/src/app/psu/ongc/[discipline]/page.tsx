@@ -57,7 +57,7 @@ export default async function OngcDisciplinePage(props: { params: Promise<{ disc
 
         <div className="relative max-w-7xl mx-auto px-5 py-14 lg:py-16">
           <div className="flex items-start justify-between">
-            <Breadcrumb crumbs={[
+            <Breadcrumb className="text-white/60 [&_a]:hover:text-white [&_span]:text-white" crumbs={[
               { label: "Home", href: "/" },
               { label: "PSU", href: "/psu" },
               { label: "ONGC", href: "/psu/ongc" },

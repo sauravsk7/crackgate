@@ -40,6 +40,13 @@ const SUBJECT_LABELS: Record<string, string> = {
   "cgpsc-mining-officer": "CGPSC",
   "coal-sirdar": "Coal Sirdar",
   "coal-overman": "Coal Overman",
+  "ongc-mechanical": "ONGC Mech",
+  "ongc-petroleum": "ONGC Petrol",
+  "ongc-chemical": "ONGC Chem",
+  "ongc-electrical": "ONGC Elec",
+  "ongc-geology": "ONGC Geo",
+  "ongc-geophysics": "ONGC GeoPhys",
+  "ongc-physics": "ONGC Phys",
 };
 
 function inr(paise: number): string {
@@ -136,6 +143,7 @@ export default async function AdminPage() {
         id: true,
         email: true,
         name: true,
+        phone: true,
         plan: true,
         createdAt: true,
         lastLoginAt: true,
@@ -378,6 +386,7 @@ export default async function AdminPage() {
             <thead className="text-xs text-muted uppercase tracking-wider border-b border-line">
               <tr>
                 <th className="px-3 sm:px-6 py-3 text-left">User</th>
+                <th className="hidden md:table-cell px-3 sm:px-6 py-3 text-left">Phone</th>
                 <th className="px-3 sm:px-6 py-3 text-left">Access</th>
                 <th className="px-3 sm:px-6 py-3 text-left">Joined</th>
                 <th className="hidden sm:table-cell px-3 sm:px-6 py-3 text-left">Last login</th>
@@ -386,7 +395,7 @@ export default async function AdminPage() {
             <tbody className="divide-y divide-line/50">
               {recentUsers.length === 0 ? (
                 <AdminDataTableEmpty
-                  colSpan={4}
+                  colSpan={5}
                   icon="Users"
                   title="No users yet"
                   description="Users will appear here after signups."
@@ -402,6 +411,9 @@ export default async function AdminPage() {
                       {u.name && (
                         <div className="text-xs text-muted">{u.name}</div>
                       )}
+                    </td>
+                    <td className="hidden md:table-cell px-3 sm:px-6 py-3 text-muted text-xs">
+                      {u.phone ?? "—"}
                     </td>
                     <td className="px-3 sm:px-6 py-3">
                       {u.entitlements.length > 0 ? (

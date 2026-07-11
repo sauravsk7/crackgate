@@ -23,6 +23,7 @@ export default async function AdminNewsletterPage() {
       select: {
         email: true,
         name: true,
+        phone: true,
         plan: true,
         createdAt: true,
         entitlements: { select: { tier: true }, where: { expiry: { gt: new Date() } } },
@@ -48,6 +49,7 @@ export default async function AdminNewsletterPage() {
   const users = userRows.map((r) => ({
     email: r.email,
     name: r.name,
+    phone: r.phone,
     plan: r.plan,
     isPaid: r.entitlements.length > 0,
     joinedAt: r.createdAt.toISOString(),

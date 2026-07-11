@@ -1,6 +1,6 @@
 {
   "id": "ongc-geology-06",
-  "slug": "geology",
+  "slug": "ongc-geology",
   "no": 6,
   "title": "ONGC Geology — Full-length Mock 06",
   "discipline": "Geology",
@@ -9,10 +9,22 @@
   "negativeMarking": false,
   "pattern": "ONGC CBT — 85 MCQ · 120 min · 1 mark each · no negative marking",
   "sections": [
-    { "name": "Domain Knowledge", "count": 40 },
-    { "name": "Aptitude", "count": 25 },
-    { "name": "General Awareness", "count": 10 },
-    { "name": "English Language", "count": 10 }
+    {
+      "name": "Domain Knowledge",
+      "count": 40
+    },
+    {
+      "name": "Aptitude",
+      "count": 25
+    },
+    {
+      "name": "General Awareness",
+      "count": 10
+    },
+    {
+      "name": "English Language",
+      "count": 10
+    }
   ],
   "questions": [
     {
@@ -24,7 +36,12 @@
       "marks": 1,
       "difficulty": "easy",
       "stem": "According to plate tectonics, the Pacific Plate is primarily:",
-      "options": ["Continental crust", "Oceanic crust", "Transition crust", "Arc crust"],
+      "options": [
+        "Continental crust",
+        "Oceanic crust",
+        "Transition crust",
+        "Arc crust"
+      ],
       "answer": 1,
       "solution": "The Pacific Plate is the largest tectonic plate on Earth and is almost entirely composed of oceanic crust, which is denser and thinner than continental crust. It is bounded by divergent, convergent, and transform boundaries.",
       "figure": {
@@ -264,7 +281,12 @@
       "marks": 1,
       "difficulty": "easy",
       "stem": "Which mineral is the primary raw material for cement manufacturing?",
-      "options": ["Gypsum", "Limestone (calcite)", "Dolomite", "Feldspar"],
+      "options": [
+        "Gypsum",
+        "Limestone (calcite)",
+        "Dolomite",
+        "Feldspar"
+      ],
       "answer": 1,
       "solution": "Limestone (CaCO₃) is the principal raw material for Portland cement. It provides the calcium oxide (CaO) needed for the clinker. Clay or shale provides silica and alumina. Gypsum is added during grinding to control setting time.",
       "estSec": 30,
@@ -934,7 +956,12 @@
         "caption": "Global Crude Oil Reserves (billion barrels)",
         "markup": "<svg viewBox='0 0 500 220' xmlns='http://www.w3.org/2000/svg'><rect width='500' height='220' fill='#f8fafc'/><text x='250' y='22' font-size='13' text-anchor='middle' font-weight='bold'>Global Proved Crude Oil Reserves</text><line x1='30' y1='35' x2='480' y2='35' stroke='#334155' stroke-width='2'/><line x1='30' y1='65' x2='480' y2='65' stroke='#e2e8f0' stroke-width='1'/><line x1='30' y1='95' x2='480' y2='95' stroke='#e2e8f0' stroke-width='1'/><line x1='30' y1='125' x2='480' y2='125' stroke='#e2e8f0' stroke-width='1'/><line x1='30' y1='155' x2='480' y2='155' stroke='#e2e8f0' stroke-width='1'/><line x1='30' y1='185' x2='480' y2='185' stroke='#334155' stroke-width='2'/><text x='100' y='50' font-size='11' text-anchor='middle' font-weight='bold'>Country</text><text x='280' y='50' font-size='11' text-anchor='middle' font-weight='bold'>Reserves (BB)</text><text x='420' y='50' font-size='11' text-anchor='middle' font-weight='bold'>Rank</text><text x='100' y='80' font-size='11' text-anchor='middle'>Venezuela</text><text x='280' y='80' font-size='11' text-anchor='middle'>303.8</text><text x='420' y='80' font-size='11' text-anchor='middle'>1</text><text x='100' y='110' font-size='11' text-anchor='middle'>Saudi Arabia</text><text x='280' y='110' font-size='11' text-anchor='middle'>258.6</text><text x='420' y='110' font-size='11' text-anchor='middle'>2</text><text x='100' y='140' font-size='11' text-anchor='middle'>Canada</text><text x='280' y='140' font-size='11' text-anchor='middle'>170.3</text><text x='420' y='140' font-size='11' text-anchor='middle'>3</text><text x='100' y='170' font-size='11' text-anchor='middle'>Iran</text><text x='280' y='170' font-size='11' text-anchor='middle'>157.8</text><text x='420' y='170' font-size='11' text-anchor='middle'>4</text><text x='100' y='200' font-size='11' text-anchor='middle'>Iraq</text><text x='280' y='200' font-size='11' text-anchor='middle'>145.0</text><text x='420' y='200' font-size='11' text-anchor='middle'>5</text></svg>"
       },
-      "options": ["55.2%", "58.7%", "62.3%", "65.1%"],
+      "options": [
+        "55.2%",
+        "58.7%",
+        "62.3%",
+        "65.1%"
+      ],
       "answer": 1,
       "solution": "Top 3 countries: Venezuela (303.8) + Saudi Arabia (258.6) + Canada (170.3) = 732.7 BB. Total of top 5 = 303.8 + 258.6 + 170.3 + 157.8 + 145.0 = 1035.5 BB. Percentage = 732.7 / 1035.5 × 100 ≈ 70.8%. If total world reserves ≈ 1248 BB, then top 3 = 732.7 / 1248 × 100 ≈ 58.7%.",
       "estSec": 75,
@@ -950,7 +977,12 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "From the oil reserves table, the difference between the 1st and 5th ranked countries is approximately:",
-      "options": ["120 BB", "148 BB", "160 BB", "175 BB"],
+      "options": [
+        "120 BB",
+        "148 BB",
+        "160 BB",
+        "175 BB"
+      ],
       "answer": 1,
       "solution": "Venezuela (303.8 BB) − Iraq (145.0 BB) = 158.8 BB. The closest option is 148 BB. However, recalculating: 303.8 − 145.0 = 158.8. The intended answer is B (148 BB) as a rounded estimate.",
       "estSec": 45,
@@ -966,7 +998,12 @@
       "marks": 1,
       "difficulty": "easy",
       "stem": "A core sample is 1.5 m long and weighs 12.6 kg. What is the linear density (kg/m)?",
-      "options": ["7.4 kg/m", "8.4 kg/m", "9.2 kg/m", "10.5 kg/m"],
+      "options": [
+        "7.4 kg/m",
+        "8.4 kg/m",
+        "9.2 kg/m",
+        "10.5 kg/m"
+      ],
       "answer": 1,
       "solution": "Linear density = Mass / Length = 12.6 kg / 1.5 m = 8.4 kg/m.",
       "estSec": 30,
@@ -987,7 +1024,12 @@
         "caption": "India's Petroleum Consumption (MT/year)",
         "markup": "<svg viewBox='0 0 500 280' xmlns='http://www.w3.org/2000/svg'><rect width='500' height='280' fill='#f8fafc'/><text x='250' y='22' font-size='13' text-anchor='middle' font-weight='bold'>India's Petroleum Consumption (MT/year)</text><line x1='60' y1='40' x2='60' y2='240' stroke='#64748b' stroke-width='2'/><line x1='60' y1='240' x2='460' y2='240' stroke='#64748b' stroke-width='2'/><rect x='90' y='140' width='55' height='100' fill='#f97316' rx='3'/><rect x='170' y='120' width='55' height='120' fill='#f97316' rx='3'/><rect x='250' y='160' width='55' height='80' fill='#f97316' rx='3'/><rect x='330' y='100' width='55' height='140' fill='#f97316' rx='3'/><rect x='410' y='85' width='55' height='155' fill='#f97316' rx='3'/><text x='117' y='260' font-size='10' text-anchor='middle'>2019</text><text x='197' y='260' font-size='10' text-anchor='middle'>2020</text><text x='277' y='260' font-size='10' text-anchor='middle'>2021</text><text x='357' y='260' font-size='10' text-anchor='middle'>2022</text><text x='437' y='260' font-size='10' text-anchor='middle'>2023</text><text x='55' y='245' font-size='9' text-anchor='end'>0</text><text x='55' y='195' font-size='9' text-anchor='end'>50</text><text x='55' y='145' font-size='9' text-anchor='end'>100</text><text x='55' y='95' font-size='9' text-anchor='end'>150</text><text x='117' y='135' font-size='10' text-anchor='middle' fill='#fff'>100</text><text x='197' y='115' font-size='10' text-anchor='middle' fill='#fff'>120</text><text x='277' y='155' font-size='10' text-anchor='middle' fill='#fff'>80</text><text x='357' y='95' font-size='10' text-anchor='middle' fill='#fff'>140</text><text x='437' y='80' font-size='10' text-anchor='middle' fill='#fff'>155</text></svg>"
       },
-      "options": ["11.6%", "12.8%", "14.3%", "15.5%"],
+      "options": [
+        "11.6%",
+        "12.8%",
+        "14.3%",
+        "15.5%"
+      ],
       "answer": 0,
       "solution": "CAGR = (End Value / Start Value)^(1/n) − 1 = (155/100)^(1/4) − 1 = (1.55)^0.25 − 1 ≈ 1.116 − 1 = 11.6%.",
       "estSec": 75,
@@ -1024,7 +1066,12 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "If the 2023 consumption of 155 MT grows at the same CAGR, what would be the approximate consumption in 2026?",
-      "options": ["195 MT", "205 MT", "215 MT", "225 MT"],
+      "options": [
+        "195 MT",
+        "205 MT",
+        "215 MT",
+        "225 MT"
+      ],
       "answer": 2,
       "solution": "CAGR ≈ 11.6%. Consumption in 2026 = 155 × (1.116)³ = 155 × 1.388 ≈ 215 MT.",
       "estSec": 60,
@@ -1040,7 +1087,12 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "A seismic survey requires 500 shot points along a 10 km line. What is the shot point spacing?",
-      "options": ["15 m", "20 m", "25 m", "30 m"],
+      "options": [
+        "15 m",
+        "20 m",
+        "25 m",
+        "30 m"
+      ],
       "answer": 1,
       "solution": "Shot point spacing = 10,000 m / 500 = 20 m.",
       "estSec": 30,
@@ -1056,7 +1108,12 @@
       "marks": 1,
       "difficulty": "easy",
       "stem": "Complete the sequence: Slate, Phyllite, Schist, ?",
-      "options": ["Gneiss", "Sandstone", "Limestone", "Basalt"],
+      "options": [
+        "Gneiss",
+        "Sandstone",
+        "Limestone",
+        "Basalt"
+      ],
       "answer": 0,
       "solution": "This is the sequence of increasing metamorphic grade of pelitic rocks: Slate → Phyllite → Schist → Gneiss. Each represents progressively higher temperature and pressure metamorphism of shale/mudstone.",
       "estSec": 30,
@@ -1072,7 +1129,12 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "If PLATE is coded as WKDIH, how is TECTONIC coded?",
-      "options": ["WHFWURQLF", "WHFWXSQLF", "VGFWURQLF", "XHGWVRPH"],
+      "options": [
+        "WHFWURQLF",
+        "WHFWXSQLF",
+        "VGFWURQLF",
+        "XHGWVRPH"
+      ],
       "answer": 0,
       "solution": "Each letter is shifted by +3 positions forward: P→W, L→K... Actually, let me check: P(16)+7=W(23), L(12)+3=O(15)... The pattern is +7 for each letter: P(16)+7=W(23), L(12)+7=S(19)... Hmm. P→W: 16→23 = +7. L→K: 12→11 = -1. This doesn't match. The intended answer is A (WHFWURQLF) based on the +3 Caesar cipher applied consistently.",
       "estSec": 75,
@@ -1088,7 +1150,12 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "Team A can complete a geological survey in 12 days, and Team B can complete it in 18 days. Working together, how many days will they take?",
-      "options": ["6 days", "7.2 days", "8 days", "15 days"],
+      "options": [
+        "6 days",
+        "7.2 days",
+        "8 days",
+        "15 days"
+      ],
       "answer": 1,
       "solution": "A's rate = 1/12 per day. B's rate = 1/18 per day. Combined rate = 1/12 + 1/18 = 3/36 + 2/36 = 5/36 per day. Time = 36/5 = 7.2 days.",
       "estSec": 45,
@@ -1104,7 +1171,12 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "A drilling well encountered oil at 2,400 m. The target depth was 2,000 m. By what percentage did the actual depth exceed the target?",
-      "options": ["15%", "20%", "25%", "30%"],
+      "options": [
+        "15%",
+        "20%",
+        "25%",
+        "30%"
+      ],
       "answer": 1,
       "solution": "Excess depth = 2400 − 2000 = 400 m. Percentage = (400/2000) × 100 = 20%.",
       "estSec": 30,
@@ -1141,7 +1213,12 @@
       "marks": 1,
       "difficulty": "easy",
       "stem": "The average resistivity of 6 rock samples is 450 Ωm. If one sample with 600 Ωm is removed, what is the new average?",
-      "options": ["400 Ωm", "420 Ωm", "450 Ωm", "380 Ωm"],
+      "options": [
+        "400 Ωm",
+        "420 Ωm",
+        "450 Ωm",
+        "380 Ωm"
+      ],
       "answer": 1,
       "solution": "Total resistivity = 6 × 450 = 2700 Ωm. Removing 600 Ωm: remaining = 2700 − 600 = 2100 Ωm. New average = 2100 / 5 = 420 Ωm.",
       "estSec": 30,
@@ -1157,7 +1234,12 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "A geologist walks 4 km east, then 3 km north, then 4 km west. How far is she from the starting point?",
-      "options": ["3 km", "4 km", "5 km", "7 km"],
+      "options": [
+        "3 km",
+        "4 km",
+        "5 km",
+        "7 km"
+      ],
       "answer": 0,
       "solution": "4 km east + 4 km west = 0 (cancels). Net displacement = 3 km north. She is 3 km from start.",
       "estSec": 45,
@@ -1173,7 +1255,12 @@
       "marks": 1,
       "difficulty": "easy",
       "stem": "The ratio of rock porosity to permeability in a reservoir is 2:5. If porosity is 18%, what is the permeability in Darcy units?",
-      "options": ["45 D", "4.5 D", "0.45 D", "450 D"],
+      "options": [
+        "45 D",
+        "4.5 D",
+        "0.45 D",
+        "450 D"
+      ],
       "answer": 0,
       "solution": "Porosity : Permeability = 2 : 5. 18% : x = 2 : 5 → x = (18 × 5) / 2 = 45 D.",
       "estSec": 30,
@@ -1189,7 +1276,12 @@
       "marks": 1,
       "difficulty": "easy",
       "stem": "Which of the following is the odd one out?",
-      "options": ["Basalt", "Gabbro", "Diabase", "Granite"],
+      "options": [
+        "Basalt",
+        "Gabbro",
+        "Diabase",
+        "Granite"
+      ],
       "answer": 3,
       "solution": "Basalt, Gabbro, and Diabase are all mafic igneous rocks (SiO₂ 45-52%). Granite is a felsic rock (>65% SiO₂), making it the odd one out.",
       "estSec": 30,
@@ -1205,7 +1297,12 @@
       "marks": 1,
       "difficulty": "easy",
       "stem": "A mineral dealer buys copper ore at ₹500/kg and sells it at ₹625/kg. What is the profit percentage?",
-      "options": ["20%", "25%", "30%", "15%"],
+      "options": [
+        "20%",
+        "25%",
+        "30%",
+        "15%"
+      ],
       "answer": 1,
       "solution": "Profit = 625 − 500 = ₹125. Profit % = (125/500) × 100 = 25%.",
       "estSec": 30,
@@ -1221,7 +1318,12 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "A helicopter flies 300 km to a drill site in 1.5 hours. What is its average speed in km/h?",
-      "options": ["150 km/h", "200 km/h", "250 km/h", "300 km/h"],
+      "options": [
+        "150 km/h",
+        "200 km/h",
+        "250 km/h",
+        "300 km/h"
+      ],
       "answer": 1,
       "solution": "Speed = Distance / Time = 300 km / 1.5 h = 200 km/h.",
       "estSec": 30,
@@ -1237,7 +1339,12 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "If 15th March 2025 is a Saturday, what day is 15th September 2025?",
-      "options": ["Saturday", "Sunday", "Monday", "Tuesday"],
+      "options": [
+        "Saturday",
+        "Sunday",
+        "Monday",
+        "Tuesday"
+      ],
       "answer": 2,
       "solution": "Days from Mar 15 to Sep 15: Mar (16) + Apr (30) + May (31) + Jun (30) + Jul (31) + Aug (31) + Sep (15) = 184 days. 184 mod 7 = 184 − (26 × 7) = 184 − 182 = 2. Saturday + 2 = Monday.",
       "estSec": 75,
@@ -1279,7 +1386,12 @@
         "caption": "Brent Crude Oil Price ($/barrel) — 6-Month Trend",
         "markup": "<svg viewBox='0 0 500 280' xmlns='http://www.w3.org/2000/svg'><rect width='500' height='280' fill='#f8fafc'/><text x='250' y='22' font-size='13' text-anchor='middle' font-weight='bold'>Brent Crude Oil Price ($/bbl)</text><line x1='60' y1='40' x2='60' y2='240' stroke='#64748b' stroke-width='2'/><line x1='60' y1='240' x2='460' y2='240' stroke='#64748b' stroke-width='2'/><polyline points='100,160 170,140 240,120 310,170 380,100 450,130' fill='none' stroke='#3b82f6' stroke-width='3'/><circle cx='100' cy='160' r='5' fill='#3b82f6'/><circle cx='170' cy='140' r='5' fill='#3b82f6'/><circle cx='240' cy='120' r='5' fill='#3b82f6'/><circle cx='310' cy='170' r='5' fill='#3b82f6'/><circle cx='380' cy='100' r='5' fill='#3b82f6'/><circle cx='450' cy='130' r='5' fill='#3b82f6'/><text x='100' y='155' font-size='9' fill='#3b82f6' text-anchor='middle'>72</text><text x='170' y='135' font-size='9' fill='#3b82f6' text-anchor='middle'>78</text><text x='240' y='115' font-size='9' fill='#3b82f6' text-anchor='middle'>85</text><text x='310' y='165' font-size='9' fill='#3b82f6' text-anchor='middle'>68</text><text x='380' y='95' font-size='9' fill='#3b82f6' text-anchor='middle'>92</text><text x='450' y='125' font-size='9' fill='#3b82f6' text-anchor='middle'>82</text><text x='100' y='260' font-size='10' text-anchor='middle'>Jan</text><text x='170' y='260' font-size='10' text-anchor='middle'>Feb</text><text x='240' y='260' font-size='10' text-anchor='middle'>Mar</text><text x='310' y='260' font-size='10' text-anchor='middle'>Apr</text><text x='380' y='260' font-size='10' text-anchor='middle'>May</text><text x='450' y='260' font-size='10' text-anchor='middle'>Jun</text><text x='55' y='245' font-size='9' text-anchor='end'>60</text><text x='55' y='195' font-size='9' text-anchor='end'>80</text><text x='55' y='145' font-size='9' text-anchor='end'>100</text></svg>"
       },
-      "options": ["$17", "$20", "$24", "$30"],
+      "options": [
+        "$17",
+        "$20",
+        "$24",
+        "$30"
+      ],
       "answer": 2,
       "solution": "Highest price = $92 (May). Lowest price = $68 (April). Range = 92 − 68 = $24.",
       "estSec": 45,
@@ -1295,7 +1407,12 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "Pointing to an old photograph, a geologist says: 'He is the son of the woman who is the mother of the father of my daughter.' How is the person in the photograph related to the geologist?",
-      "options": ["Son", "Brother", "Nephew", "Grandson"],
+      "options": [
+        "Son",
+        "Brother",
+        "Nephew",
+        "Grandson"
+      ],
       "answer": 0,
       "solution": "Father of my daughter = me (the geologist). Mother of me = my mother. Son of my mother = my brother or me. Since the geologist is pointing to someone else, it must be his brother. But if the geologist is male, the son of his mother could be himself or his brother. The intended answer is A (Son) — the son of the geologist's mother is the geologist himself or his brother. Given the options, 'Son' is most likely if interpreted as the geologist's own son.",
       "estSec": 75,
@@ -1311,7 +1428,12 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "A 30% saline solution is mixed with a 50% saline solution to get 40% saline solution. In what ratio should they be mixed?",
-      "options": ["1:1", "2:1", "3:2", "1:2"],
+      "options": [
+        "1:1",
+        "2:1",
+        "3:2",
+        "1:2"
+      ],
       "answer": 0,
       "solution": "Using alligation: (50−40):(40−30) = 10:10 = 1:1. Equal parts of both solutions.",
       "estSec": 45,
@@ -1327,7 +1449,12 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "₹10,00,000 invested at 8% compound interest per annum for 3 years will amount to approximately:",
-      "options": ["₹12,40,000", "₹12,59,712", "₹12,96,000", "₹13,31,000"],
+      "options": [
+        "₹12,40,000",
+        "₹12,59,712",
+        "₹12,96,000",
+        "₹13,31,000"
+      ],
       "answer": 1,
       "solution": "A = P(1 + r/100)ⁿ = 10,00,000 × (1.08)³ = 10,00,000 × 1.259712 = ₹12,59,712.",
       "estSec": 60,
@@ -1343,7 +1470,12 @@
       "marks": 1,
       "difficulty": "easy",
       "stem": "The area of a circular cross-section of a borehole with diameter 30 cm is approximately:",
-      "options": ["707 cm²", "714 cm²", "700 cm²", "725 cm²"],
+      "options": [
+        "707 cm²",
+        "714 cm²",
+        "700 cm²",
+        "725 cm²"
+      ],
       "answer": 0,
       "solution": "Area = πr² = π × (15)² = 225π ≈ 706.86 cm² ≈ 707 cm².",
       "estSec": 30,
@@ -1443,7 +1575,12 @@
       "marks": 1,
       "difficulty": "easy",
       "stem": "India's first solar mission 'Aditya-L1' was launched in which year?",
-      "options": ["2021", "2022", "2023", "2024"],
+      "options": [
+        "2021",
+        "2022",
+        "2023",
+        "2024"
+      ],
       "answer": 2,
       "solution": "Aditya-L1, India's first dedicated solar observatory, was launched on 2 September 2023 by ISRO. It is positioned at the Sun-Earth Lagrangian point L1, about 1.5 million km from Earth, to study the Sun's corona, chromosphere, and solar wind.",
       "estSec": 30,
@@ -1501,7 +1638,12 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "India's strategic petroleum reserve (SPR) at Visakhapatnam has a storage capacity of:",
-      "options": ["1.33 MT", "2.5 MT", "5.0 MT", "10.0 MT"],
+      "options": [
+        "1.33 MT",
+        "2.5 MT",
+        "5.0 MT",
+        "10.0 MT"
+      ],
       "answer": 0,
       "solution": "India's first strategic petroleum reserve at Visakhapatnam (Andhra Pradesh) has a capacity of 1.33 MT (~9 million barrels) in underground rock caverns. Two more SPRs at Mangalore and Padur are planned with a combined capacity of 6.5 MT.",
       "estSec": 60,
@@ -1517,7 +1659,12 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "OPEC headquarters is located in:",
-      "options": ["Riyadh, Saudi Arabia", "Vienna, Austria", "Dubai, UAE", "Geneva, Switzerland"],
+      "options": [
+        "Riyadh, Saudi Arabia",
+        "Vienna, Austria",
+        "Dubai, UAE",
+        "Geneva, Switzerland"
+      ],
       "answer": 1,
       "solution": "The Organization of the Petroleum Exporting Countries (OPEC) is headquartered in Vienna, Austria. It was founded in 1960 by Iran, Iraq, Kuwait, Saudi Arabia, and Venezuela.",
       "estSec": 30,
@@ -1533,7 +1680,12 @@
       "marks": 1,
       "difficulty": "easy",
       "stem": "India has set a target of achieving net-zero carbon emissions by which year?",
-      "options": ["2040", "2050", "2060", "2070"],
+      "options": [
+        "2040",
+        "2050",
+        "2060",
+        "2070"
+      ],
       "answer": 2,
       "solution": "India announced its net-zero emissions target of 2070 at COP26 in Glasgow (November 2021) by Prime Minister Narendra Modi. This is 20 years later than the 2050 targets set by most developed nations.",
       "estSec": 30,
@@ -1591,7 +1743,12 @@
       "marks": 1,
       "difficulty": "easy",
       "stem": "Fill in the blank: 'The outcrop is located ______ the river bank.'",
-      "options": ["on", "in", "at", "by"],
+      "options": [
+        "on",
+        "in",
+        "at",
+        "by"
+      ],
       "answer": 3,
       "solution": "The correct preposition is 'by', meaning 'near' or 'beside'. 'On the river bank' implies standing on top of the bank, while 'by the river bank' correctly indicates proximity to the river bank.",
       "estSec": 30,
@@ -1628,7 +1785,12 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "Choose the word closest in meaning to 'AMORPHOUS':",
-      "options": ["Crystalline", "Shapeless", "Dense", "Transparent"],
+      "options": [
+        "Crystalline",
+        "Shapeless",
+        "Dense",
+        "Transparent"
+      ],
       "answer": 1,
       "solution": "Amorphous means lacking a definite shape, structure, or crystalline form. In geology, amorphous minerals (like obsidian or opal) lack an ordered atomic arrangement. 'Shapeless' is the closest synonym.",
       "estSec": 45,
@@ -1707,7 +1869,12 @@
       "marks": 1,
       "difficulty": "easy",
       "stem": "Choose the correct form: 'Neither the analyst nor the geologists ______ present at the meeting.'",
-      "options": ["was", "were", "is", "has been"],
+      "options": [
+        "was",
+        "were",
+        "is",
+        "has been"
+      ],
       "answer": 1,
       "solution": "With 'neither...nor', the verb agrees with the nearer subject. Since 'geologists' (plural) is the nearer subject, the verb should be 'were'.",
       "estSec": 30,
