@@ -202,7 +202,7 @@ export default async function AdminPage() {
   }
 
   return (
-    <div className="max-w-[1400px] mx-auto px-5 py-10">
+    <div className="max-w-[1400px] mx-auto px-3 sm:px-5 py-10">
       {/* Header */}
       <div className="flex flex-wrap items-end justify-between gap-4">
         <div>
@@ -377,10 +377,10 @@ export default async function AdminPage() {
           <table className="w-full text-sm mt-4">
             <thead className="text-xs text-muted uppercase tracking-wider border-b border-line">
               <tr>
-                <th className="px-6 py-3 text-left">User</th>
-                <th className="px-6 py-3 text-left">Access</th>
-                <th className="px-6 py-3 text-left">Joined</th>
-                <th className="px-6 py-3 text-left">Last login</th>
+                <th className="px-3 sm:px-6 py-3 text-left">User</th>
+                <th className="px-3 sm:px-6 py-3 text-left">Access</th>
+                <th className="px-3 sm:px-6 py-3 text-left">Joined</th>
+                <th className="hidden sm:table-cell px-3 sm:px-6 py-3 text-left">Last login</th>
               </tr>
             </thead>
             <tbody className="divide-y divide-line/50">
@@ -397,13 +397,13 @@ export default async function AdminPage() {
                     key={u.id}
                     className="hover:bg-paper/50 transition-colors"
                   >
-                    <td className="px-6 py-3">
+                    <td className="px-3 sm:px-6 py-3">
                       <div className="font-medium">{u.email}</div>
                       {u.name && (
                         <div className="text-xs text-muted">{u.name}</div>
                       )}
                     </td>
-                    <td className="px-6 py-3">
+                    <td className="px-3 sm:px-6 py-3">
                       {u.entitlements.length > 0 ? (
                         <div className="flex flex-wrap gap-1">
                           {u.entitlements.map((e, i) => (
@@ -424,10 +424,10 @@ export default async function AdminPage() {
                         </span>
                       )}
                     </td>
-                    <td className="px-6 py-3 text-muted">
+                    <td className="px-3 sm:px-6 py-3 text-muted">
                       {fmtDate(u.createdAt)}
                     </td>
-                    <td className="px-6 py-3 text-muted">
+                    <td className="hidden sm:table-cell px-3 sm:px-6 py-3 text-muted">
                       {u.lastLoginAt ? fmtDate(u.lastLoginAt) : "—"}
                     </td>
                   </tr>
@@ -451,12 +451,12 @@ export default async function AdminPage() {
             <table className="w-full text-sm mt-4">
               <thead className="text-xs text-muted uppercase tracking-wider border-b border-line">
                 <tr>
-                  <th className="px-6 py-3 text-left">User</th>
-                  <th className="px-6 py-3 text-left">Exam</th>
-                  <th className="px-6 py-3 text-left">Subject</th>
-                  <th className="px-6 py-3 text-left">Tier</th>
-                  <th className="px-6 py-3 text-left">Source</th>
-                  <th className="px-6 py-3 text-left">Expiry</th>
+                  <th className="px-3 sm:px-6 py-3 text-left">User</th>
+                  <th className="px-3 sm:px-6 py-3 text-left">Exam</th>
+                  <th className="px-3 sm:px-6 py-3 text-left">Subject</th>
+                  <th className="hidden sm:table-cell px-3 sm:px-6 py-3 text-left">Tier</th>
+                  <th className="hidden sm:table-cell px-3 sm:px-6 py-3 text-left">Source</th>
+                  <th className="px-3 sm:px-6 py-3 text-left">Expiry</th>
                 </tr>
               </thead>
               <tbody className="divide-y divide-line/50">
@@ -465,24 +465,24 @@ export default async function AdminPage() {
                     key={e.id}
                     className="hover:bg-paper/50 transition-colors"
                   >
-                    <td className="px-6 py-3 font-medium">
+                    <td className="px-3 sm:px-6 py-3 font-medium">
                       {e.user.email}
                     </td>
-                    <td className="px-6 py-3">
+                    <td className="px-3 sm:px-6 py-3">
                       <span className="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium bg-brand/10 text-brand">
                         {EXAM_LABELS[e.exam] ?? e.exam}
                       </span>
                     </td>
-                    <td className="px-6 py-3">
+                    <td className="px-3 sm:px-6 py-3">
                       {SUBJECT_LABELS[e.subject] ?? e.subject}
                     </td>
-                    <td className="px-6 py-3">
+                    <td className="hidden sm:table-cell px-3 sm:px-6 py-3">
                       <span className="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium bg-slate-100 text-slate-600 dark:bg-slate-800 dark:text-slate-400">
                         {e.tier}
                       </span>
                     </td>
-                    <td className="px-6 py-3 text-muted">{e.source}</td>
-                    <td className="px-6 py-3 text-muted">
+                    <td className="hidden sm:table-cell px-3 sm:px-6 py-3 text-muted">{e.source}</td>
+                    <td className="px-3 sm:px-6 py-3 text-muted">
                       {e.expiry ? fmtDate(e.expiry) : "∞"}
                     </td>
                   </tr>
@@ -507,12 +507,12 @@ export default async function AdminPage() {
           <table className="w-full text-sm mt-4">
             <thead className="text-xs text-muted uppercase tracking-wider border-b border-line">
               <tr>
-                <th className="px-6 py-3 text-left">User</th>
-                <th className="px-6 py-3 text-left">Plan</th>
-                <th className="px-6 py-3 text-left">Amount</th>
-                <th className="px-6 py-3 text-left">Status</th>
-                <th className="px-6 py-3 text-left">Created</th>
-                <th className="px-6 py-3 text-left">Captured</th>
+                <th className="px-3 sm:px-6 py-3 text-left">User</th>
+                <th className="px-3 sm:px-6 py-3 text-left">Plan</th>
+                <th className="px-3 sm:px-6 py-3 text-left">Amount</th>
+                <th className="px-3 sm:px-6 py-3 text-left">Status</th>
+                <th className="px-3 sm:px-6 py-3 text-left">Created</th>
+                <th className="hidden sm:table-cell px-3 sm:px-6 py-3 text-left">Captured</th>
               </tr>
             </thead>
             <tbody className="divide-y divide-line/50">
@@ -529,21 +529,21 @@ export default async function AdminPage() {
                     key={p.id}
                     className="hover:bg-paper/50 transition-colors"
                   >
-                    <td className="px-6 py-3 font-medium">
+                    <td className="px-3 sm:px-6 py-3 font-medium">
                       <div>{p.user.email}</div>
                       {p.user.name && (
                         <div className="text-xs text-muted">{p.user.name}</div>
                       )}
                     </td>
-                    <td className="px-6 py-3">
+                    <td className="px-3 sm:px-6 py-3">
                       <span className="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium bg-slate-100 text-slate-600 dark:bg-slate-800 dark:text-slate-400">
                         {p.plan.charAt(0).toUpperCase() + p.plan.slice(1)}
                       </span>
                     </td>
-                    <td className="px-6 py-3 tabular-nums font-medium">
+                    <td className="px-3 sm:px-6 py-3 tabular-nums font-medium">
                       {inr(p.amount)}
                     </td>
-                    <td className="px-6 py-3">
+                    <td className="px-3 sm:px-6 py-3">
                       <span
                         className={cn(
                           "inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium",
@@ -557,10 +557,10 @@ export default async function AdminPage() {
                         {p.status}
                       </span>
                     </td>
-                    <td className="px-6 py-3 text-muted">
+                    <td className="px-3 sm:px-6 py-3 text-muted">
                       {fmtDate(p.createdAt)}
                     </td>
-                    <td className="px-6 py-3 text-muted">
+                    <td className="hidden sm:table-cell px-3 sm:px-6 py-3 text-muted">
                       {p.capturedAt ? fmtDate(p.capturedAt) : "—"}
                     </td>
                   </tr>
@@ -585,9 +585,9 @@ export default async function AdminPage() {
           <table className="w-full text-sm mt-4">
             <thead className="text-xs text-muted uppercase tracking-wider border-b border-line">
               <tr>
-                <th className="px-6 py-3 text-left">When</th>
-                <th className="px-6 py-3 text-left">User</th>
-                <th className="px-6 py-3 text-left">Event</th>
+                <th className="px-3 sm:px-6 py-3 text-left">When</th>
+                <th className="px-3 sm:px-6 py-3 text-left">User</th>
+                <th className="px-3 sm:px-6 py-3 text-left">Event</th>
               </tr>
             </thead>
             <tbody className="divide-y divide-line/50">
@@ -604,13 +604,13 @@ export default async function AdminPage() {
                     key={a.id}
                     className="hover:bg-paper/50 transition-colors"
                   >
-                    <td className="px-6 py-3 text-muted">
+                    <td className="px-3 sm:px-6 py-3 text-muted">
                       {fmtDate(a.ts)}
                     </td>
-                    <td className="px-6 py-3 font-medium">
+                    <td className="px-3 sm:px-6 py-3 font-medium">
                       {a.user.email}
                     </td>
-                    <td className="px-6 py-3">
+                    <td className="px-3 sm:px-6 py-3">
                       <span className="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium bg-slate-100 text-slate-600 dark:bg-slate-800 dark:text-slate-400">
                         {a.type}
                       </span>
@@ -720,10 +720,10 @@ export default async function AdminPage() {
             <table className="w-full text-sm mt-4">
               <thead className="text-xs text-muted uppercase tracking-wider border-b border-line">
                 <tr>
-                  <th className="px-6 py-3 text-left">When</th>
-                  <th className="px-6 py-3 text-left">User</th>
-                  <th className="px-6 py-3 text-left">Exam</th>
-                  <th className="px-6 py-3 text-left">Status</th>
+                  <th className="px-3 sm:px-6 py-3 text-left">When</th>
+                  <th className="px-3 sm:px-6 py-3 text-left">User</th>
+                  <th className="px-3 sm:px-6 py-3 text-left">Exam</th>
+                  <th className="px-3 sm:px-6 py-3 text-left">Status</th>
                 </tr>
               </thead>
               <tbody className="divide-y divide-line/50">
@@ -743,16 +743,16 @@ export default async function AdminPage() {
                         r.status === "pending" && "bg-amber-50/50 dark:bg-amber-900/10"
                       )}
                     >
-                      <td className="px-6 py-3 text-muted">
+                      <td className="px-3 sm:px-6 py-3 text-muted">
                         {fmtDate(r.createdAt)}
                       </td>
-                      <td className="px-6 py-3">{r.user.email}</td>
-                      <td className="px-6 py-3">
+                      <td className="px-3 sm:px-6 py-3">{r.user.email}</td>
+                      <td className="px-3 sm:px-6 py-3">
                         <span className="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium bg-brand/10 text-brand">
                           {EXAM_LABELS[r.exam] ?? r.exam}
                         </span>
                       </td>
-                      <td className="px-6 py-3">
+                      <td className="px-3 sm:px-6 py-3">
                         <span
                           className={cn(
                             "inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium",

@@ -122,7 +122,7 @@ export function AdminKpiCard({
     <div className={cn("card group relative overflow-hidden", className)}>
       <div className="absolute inset-x-0 top-0 h-[2px] bg-gradient-to-r from-brand/40 via-brand/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
 
-      <div className="p-5">
+      <div className="p-3 sm:p-5">
         <div className="flex items-start justify-between gap-3">
           <div className="flex-1 min-w-0">
             <div className="flex items-center gap-2 mb-3">
@@ -149,7 +149,7 @@ export function AdminKpiCard({
 
             <div
               className={cn(
-                "text-2xl font-extrabold tracking-tight",
+                "text-xl sm:text-2xl font-extrabold tracking-tight",
                 toneColors[tone]
               )}
             >
