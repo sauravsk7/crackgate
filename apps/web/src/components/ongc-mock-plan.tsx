@@ -57,7 +57,7 @@ export function OngcMockPlan({
 
 function OngcPaywall({ discipline, payHref, count }: { discipline: string; payHref: string; count: number }) {
   return (
-    <div className="mt-6 overflow-hidden rounded-2xl border border-amber-400/30 bg-gradient-to-r from-amber-950 to-slate-900 text-white">
+    <div className="mt-6 overflow-hidden rounded-2xl border border-blue-400/30 bg-gradient-to-r from-[#003580] to-slate-900 text-white">
       <div className="flex flex-col gap-4 p-5 sm:flex-row sm:items-center sm:justify-between sm:p-6">
         <div className="flex items-start gap-3">
           <span aria-hidden className="mt-0.5 text-2xl">🔒</span>
@@ -76,7 +76,7 @@ function OngcPaywall({ discipline, payHref, count }: { discipline: string; payHr
           </div>
           <Link
             href={payHref}
-            className="cg-neon inline-flex items-center justify-center gap-2 rounded-lg border border-amber-400/70 bg-amber-400/10 px-6 py-3 text-sm font-semibold text-amber-100 transition hover:bg-amber-400/20"
+            className="cg-neon inline-flex items-center justify-center gap-2 rounded-lg border border-blue-300/70 bg-blue-300/10 px-6 py-3 text-sm font-semibold text-blue-100 transition hover:bg-blue-300/20"
           >
             Unlock now <span aria-hidden>→</span>
           </Link>
