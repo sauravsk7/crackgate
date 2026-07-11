@@ -57,7 +57,7 @@ function renderFigure(f: QuestionFigure) {
     case "stress-block": return <StressBlock {...f} />;
     case "stereonet": return <Stereonet {...f} />;
     case "pq-curve": return <PQCurve {...f} />;
-    case "svg": return <div dangerouslySetInnerHTML={{ __html: f.markup }} />;
+    case "svg": return <div className="w-full [&>svg]:w-full [&>svg]:h-auto" dangerouslySetInnerHTML={{ __html: f.markup }} />;
   }
 }
 
