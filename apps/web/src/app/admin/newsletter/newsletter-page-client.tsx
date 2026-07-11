@@ -17,6 +17,7 @@ interface Subscriber {
 interface RegisteredUser {
   email: string;
   name: string | null;
+  phone: string | null;
   plan: string;
   isPaid: boolean;
   joinedAt: string;

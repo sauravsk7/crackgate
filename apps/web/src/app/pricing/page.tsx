@@ -127,7 +127,8 @@ function PsuPlanCard({ plan }: { plan: typeof PSU_PLANS[number] }) {
   const router = useRouter();
   const devMode = process.env.NEXT_PUBLIC_DEV_TOOLS === "1";
 
-  async function buy(slug: string) {
+  async function buy(disciplineName: string) {
+    const slug = `${plan.id}-${disciplineName.toLowerCase()}`;
     if (devMode) {
       setLoading(true);
       try {
@@ -168,7 +169,7 @@ function PsuPlanCard({ plan }: { plan: typeof PSU_PLANS[number] }) {
         {plan.disciplines.map((d) => (
           <button
             key={d}
-            onClick={() => buy(d.toLowerCase())}
+            onClick={() => buy(d)}
             disabled={loading}
             className="btn btn-primary text-xs px-3 py-1.5"
           >

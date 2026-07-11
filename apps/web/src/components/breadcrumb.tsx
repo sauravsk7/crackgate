@@ -20,11 +20,11 @@ export function BreadcrumbJsonLd({ crumbs }: { crumbs: Crumb[] }) {
   );
 }
 
-export function Breadcrumb({ crumbs }: { crumbs: Crumb[] }) {
+export function Breadcrumb({ crumbs, className }: { crumbs: Crumb[]; className?: string }) {
   return (
     <>
       <BreadcrumbJsonLd crumbs={crumbs} />
-      <nav aria-label="Breadcrumb" className="mb-4">
+      <nav aria-label="Breadcrumb" className={`mb-4 ${className ?? ""}`}>
         <ol className="flex flex-wrap items-center gap-1.5 text-sm text-muted">
           {crumbs.map((c, i) => {
             const isLast = i === crumbs.length - 1;

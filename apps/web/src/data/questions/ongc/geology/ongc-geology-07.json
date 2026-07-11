@@ -1,6 +1,6 @@
 {
   "id": "ongc-geology-07",
-  "slug": "geology",
+  "slug": "ongc-geology",
   "no": 7,
   "title": "ONGC Geology — Full-length Mock 07",
   "discipline": "Geology",
@@ -9,10 +9,22 @@
   "negativeMarking": false,
   "pattern": "ONGC CBT — 85 MCQ · 120 min · 1 mark each · no negative marking",
   "sections": [
-    { "name": "Domain Knowledge", "count": 40 },
-    { "name": "Aptitude", "count": 25 },
-    { "name": "General Awareness", "count": 10 },
-    { "name": "English Language", "count": 10 }
+    {
+      "name": "Domain Knowledge",
+      "count": 40
+    },
+    {
+      "name": "Aptitude",
+      "count": 25
+    },
+    {
+      "name": "General Awareness",
+      "count": 10
+    },
+    {
+      "name": "English Language",
+      "count": 10
+    }
   ],
   "questions": [
     {
@@ -24,7 +36,12 @@
       "marks": 1,
       "difficulty": "easy",
       "stem": "In a normal fault, the hanging wall moves:",
-      "options": ["Up relative to the footwall", "Down relative to the footwall", "Horizontally only", "Obliquely without vertical displacement"],
+      "options": [
+        "Up relative to the footwall",
+        "Down relative to the footwall",
+        "Horizontally only",
+        "Obliquely without vertical displacement"
+      ],
       "answer": 1,
       "solution": "In a normal fault, the hanging wall moves downward relative to the footwall, typically caused by extensional (tensional) stresses pulling the crust apart.",
       "figure": {
@@ -45,7 +62,12 @@
       "marks": 1,
       "difficulty": "easy",
       "stem": "An anticline is a fold in which:",
-      "options": ["The youngest rocks are at the core", "The oldest rocks are at the core", "Rocks dip uniformly in one direction", "The axial plane is always vertical"],
+      "options": [
+        "The youngest rocks are at the core",
+        "The oldest rocks are at the core",
+        "Rocks dip uniformly in one direction",
+        "The axial plane is always vertical"
+      ],
       "answer": 1,
       "solution": "An anticline is a convex-upward fold where the oldest rocks occupy the core (centre) of the fold, and beds dip away from the axial plane.",
       "figure": {
@@ -66,7 +88,12 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "On a lower-hemisphere equal-area (Schmidt) net, a vertical plane plots as:",
-      "options": ["A point on the primitive circle", "A great circle passing through the centre", "A small circle", "A point at the centre of the net"],
+      "options": [
+        "A point on the primitive circle",
+        "A great circle passing through the centre",
+        "A small circle",
+        "A point at the centre of the net"
+      ],
       "answer": 1,
       "solution": "A vertical plane on a lower-hemisphere stereonet is represented by a great circle that passes through the centre of the net, connecting two antipodal points on the primitive circle.",
       "figure": {
@@ -87,7 +114,12 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "The method commonly used to determine subsurface geological structures by generating and recording seismic waves is:",
-      "options": ["Magnetotelluric survey", "Seismic refraction survey", "Ground-penetrating radar", "Radio-metric survey"],
+      "options": [
+        "Magnetotelluric survey",
+        "Seismic refraction survey",
+        "Ground-penetrating radar",
+        "Radio-metric survey"
+      ],
       "answer": 1,
       "solution": "Seismic refraction surveys measure the travel time of seismic waves refracted at geological boundaries, used to map subsurface structures and determine depths to various layers.",
       "figure": {
@@ -108,7 +140,12 @@
       "marks": 1,
       "difficulty": "easy",
       "stem": "The spatial resolution of a satellite sensor refers to:",
-      "options": ["The number of spectral bands", "The size of the smallest feature distinguishable on the ground", "The revisit time of the satellite", "The altitude of the satellite orbit"],
+      "options": [
+        "The number of spectral bands",
+        "The size of the smallest feature distinguishable on the ground",
+        "The revisit time of the satellite",
+        "The altitude of the satellite orbit"
+      ],
       "answer": 1,
       "solution": "Spatial resolution defines the smallest ground object that can be detected by the sensor's detector; it is determined by the instantaneous field of view (IFOV).",
       "estSec": 30,
@@ -124,7 +161,12 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "A strike-slip fault in which the opposite block moves to the left is classified as:",
-      "options": ["Right-lateral (dextral)", "Left-lateral (sinistral)", "Normal fault", "Thrust fault"],
+      "options": [
+        "Right-lateral (dextral)",
+        "Left-lateral (sinistral)",
+        "Normal fault",
+        "Thrust fault"
+      ],
       "answer": 1,
       "solution": "A left-lateral (sinistral) strike-slip fault is one where, when viewed from one side, the opposite block moves to the left. This is determined by the apparent horizontal offset.",
       "figure": {
@@ -145,7 +187,12 @@
       "marks": 1,
       "difficulty": "hard",
       "stem": "In structural geology, the angle between two planes on a stereonet is measured along:",
-      "options": ["A small circle", "A great circle", "The primitive circle", "A straight line through the centre"],
+      "options": [
+        "A small circle",
+        "A great circle",
+        "The primitive circle",
+        "A straight line through the centre"
+      ],
       "answer": 1,
       "solution": "The dihedral angle between two planes is measured along a great circle on the stereonet; the intersection of two great circles gives the line of intersection.",
       "figure": {
@@ -166,7 +213,12 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "Gravity anomalies that have been corrected for latitude, elevation, and the gravitational effect of surrounding terrain are called:",
-      "options": ["Free-air anomalies", "Bouguer anomalies", "Simple Bouguer anomalies", "Isostatic anomalies"],
+      "options": [
+        "Free-air anomalies",
+        "Bouguer anomalies",
+        "Simple Bouguer anomalies",
+        "Isostatic anomalies"
+      ],
       "answer": 1,
       "solution": "Bouguer anomalies include all standard corrections: latitude, free-air, and Bouguer slab correction (and terrain correction when applied), providing the most geologically meaningful gravity data.",
       "figure": {
@@ -187,7 +239,12 @@
       "marks": 1,
       "difficulty": "easy",
       "stem": "In remote sensing, the Normalised Difference Vegetation Index (NDVI) uses which two spectral bands?",
-      "options": ["Blue and Green", "Red and Near-Infrared", "Thermal Infrared and Microwave", "Green and Red"],
+      "options": [
+        "Blue and Green",
+        "Red and Near-Infrared",
+        "Thermal Infrared and Microwave",
+        "Green and Red"
+      ],
       "answer": 1,
       "solution": "NDVI = (NIR − Red) / (NIR + Red). Healthy vegetation strongly absorbs red light and reflects near-infrared light, so high NDVI indicates dense green vegetation.",
       "estSec": 30,
@@ -203,7 +260,12 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "A syncline with an axial plane dipping at approximately 45° is classified as:",
-      "options": ["An upright fold", "A reclined fold", "An inclined fold", "A recumbent fold"],
+      "options": [
+        "An upright fold",
+        "A reclined fold",
+        "An inclined fold",
+        "A recumbent fold"
+      ],
       "answer": 2,
       "solution": "An inclined fold has an axial plane dipping at an angle between 10° and 80° from horizontal. An upright fold has a near-vertical axial plane, while a recumbent fold is nearly horizontal.",
       "figure": {
@@ -224,7 +286,12 @@
       "marks": 1,
       "difficulty": "easy",
       "stem": "The magnetic method in exploration geophysics is primarily used to detect variations in the:",
-      "options": ["Electrical resistivity of rocks", "Density of rocks", "Magnetic susceptibility and remanent magnetisation of rocks", "Elastic properties of rocks"],
+      "options": [
+        "Electrical resistivity of rocks",
+        "Density of rocks",
+        "Magnetic susceptibility and remanent magnetisation of rocks",
+        "Elastic properties of rocks"
+      ],
       "answer": 2,
       "solution": "Magnetic surveys measure spatial variations in the Earth's magnetic field caused by differences in magnetic susceptibility and remanent magnetisation of subsurface rocks.",
       "estSec": 30,
@@ -240,7 +307,12 @@
       "marks": 1,
       "difficulty": "hard",
       "stem": "The rake (pitch) of a slickenside lineation on a fault plane is measured:",
-      "options": ["From the strike of the fault plane in the horizontal plane", "From the dip direction in the vertical plane of the fault", "From the horizontal along the fault plane", "From the vertical axis of the fault plane"],
+      "options": [
+        "From the strike of the fault plane in the horizontal plane",
+        "From the dip direction in the vertical plane of the fault",
+        "From the horizontal along the fault plane",
+        "From the vertical axis of the fault plane"
+      ],
       "answer": 2,
       "solution": "Rake (pitch) is the angle measured within a fault plane between the horizontal line (strike) and the lineation (slickenside), ranging from 0° (pure strike-slip) to 90° (pure dip-slip).",
       "figure": {
@@ -261,7 +333,12 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "In a Wenner electrode configuration, the spacing between adjacent electrodes is:",
-      "options": ["Variable and denoted as a", "Constant and equal for all four electrodes", "Half the array length", "Inversely proportional to depth of investigation"],
+      "options": [
+        "Variable and denoted as a",
+        "Constant and equal for all four electrodes",
+        "Half the array length",
+        "Inversely proportional to depth of investigation"
+      ],
       "answer": 1,
       "solution": "In the Wenner array, all four electrodes are equally spaced with constant spacing 'a'. The current electrodes are on the outside and potential electrodes on the inside.",
       "figure": {
@@ -282,7 +359,12 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "Synthetic Aperture Radar (SAR) images are affected by a characteristic distortion called:",
-      "options": ["Atmospheric scattering", "Foreshortening and layover", "Spectral mixing", "Aliasing"],
+      "options": [
+        "Atmospheric scattering",
+        "Foreshortening and layover",
+        "Spectral mixing",
+        "Aliasing"
+      ],
       "answer": 1,
       "solution": "Foreshortening and layover are geometric distortions in SAR imagery caused by the side-looking radar geometry, where steep terrain slopes facing the radar appear compressed or overlapped.",
       "figure": {
@@ -303,7 +385,12 @@
       "marks": 1,
       "difficulty": "hard",
       "stem": "In a parasitic fold (s-fold or z-fold) on the limb of a larger fold, the vergence indicates:",
-      "options": ["The direction of the nearest fold hinge", "The age of the fold", "The type of stress that formed the fold", "The dip of the axial plane"],
+      "options": [
+        "The direction of the nearest fold hinge",
+        "The age of the fold",
+        "The type of stress that formed the fold",
+        "The dip of the axial plane"
+      ],
       "answer": 0,
       "solution": "Parasitic folds show S, Z, or M vergence patterns that indicate the direction toward the hinge of the parent fold; S-folds and Z-folds are on opposite limbs.",
       "figure": {
@@ -324,7 +411,12 @@
       "marks": 1,
       "difficulty": "hard",
       "stem": "In seismic reflection processing, the term 'normal moveout' (NMO) refers to:",
-      "options": ["The change in reflection amplitude with offset", "The increase in travel time with increasing source-receiver offset", "The correction for topographic variations", "The alignment of reflectors after migration"],
+      "options": [
+        "The change in reflection amplitude with offset",
+        "The increase in travel time with increasing source-receiver offset",
+        "The correction for topographic variations",
+        "The alignment of reflectors after migration"
+      ],
       "answer": 1,
       "solution": "Normal moveout (NMO) is the increase in two-way travel time of a reflected wave as the offset between source and receiver increases, corrected using velocity analysis before stacking.",
       "estSec": 60,
@@ -340,7 +432,12 @@
       "marks": 1,
       "difficulty": "easy",
       "stem": "Band ratioing in remote sensing is useful for:",
-      "options": ["Enhancing spatial resolution", "Highlighting specific mineral and lithological features", "Correcting atmospheric effects", "Pan-sharpening multispectral images"],
+      "options": [
+        "Enhancing spatial resolution",
+        "Highlighting specific mineral and lithological features",
+        "Correcting atmospheric effects",
+        "Pan-sharpening multispectral images"
+      ],
       "answer": 1,
       "solution": "Band ratioing divides the digital numbers of one spectral band by another to highlight spectral differences, commonly used for iron oxide (B3/B2), clay (B5/B7), and carbonate (B6/B8) mapping.",
       "estSec": 30,
@@ -356,7 +453,12 @@
       "marks": 1,
       "difficulty": "hard",
       "stem": "The beta axis of a fold is determined on a stereonet by:",
-      "options": ["Finding the pole to the best-fit great circle of bedding poles", "Finding the intersection of multiple great circles", "Finding the centre of the small circle", "Measuring the angle between two poles"],
+      "options": [
+        "Finding the pole to the best-fit great circle of bedding poles",
+        "Finding the intersection of multiple great circles",
+        "Finding the centre of the small circle",
+        "Measuring the angle between two poles"
+      ],
       "answer": 1,
       "solution": "The beta axis (π-axis) is the line of intersection of the best-fit great circle through the poles to bedding; it represents the fold axis direction on a stereonet.",
       "figure": {
@@ -377,7 +479,12 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "Euler deconvolution in potential field interpretation is used to:",
-      "options": ["Filter noise from survey data", "Estimate the depth and position of magnetic or gravity sources", "Correct for diurnal variation", "Convert time-domain data to frequency domain"],
+      "options": [
+        "Filter noise from survey data",
+        "Estimate the depth and position of magnetic or gravity sources",
+        "Correct for diurnal variation",
+        "Convert time-domain data to frequency domain"
+      ],
       "answer": 1,
       "solution": "Euler deconvolution uses Euler's homogeneity equation to automatically estimate the depth and location of potential field sources (e.g., dykes, sills, basement) from magnetic or gravity data.",
       "estSec": 45,
@@ -393,7 +500,12 @@
       "marks": 1,
       "difficulty": "easy",
       "stem": "A reverse fault with a dip of less than approximately 45° is specifically called a:",
-      "options": ["Normal fault", "Strike-slip fault", "Thrust fault", "Oblique-slip fault"],
+      "options": [
+        "Normal fault",
+        "Strike-slip fault",
+        "Thrust fault",
+        "Oblique-slip fault"
+      ],
       "answer": 2,
       "solution": "A thrust fault is a low-angle reverse fault (dip < 45°) where the hanging wall moves up relative to the footwall, commonly associated with compressional tectonics.",
       "figure": {
@@ -414,7 +526,12 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "Thermal infrared remote sensing detects radiation in the wavelength range of approximately:",
-      "options": ["0.4–0.7 µm (visible)", "0.7–1.3 µm (near-infrared)", "3–14 µm (thermal infrared)", "1 mm–1 m (microwave)"],
+      "options": [
+        "0.4–0.7 µm (visible)",
+        "0.7–1.3 µm (near-infrared)",
+        "3–14 µm (thermal infrared)",
+        "1 mm–1 m (microwave)"
+      ],
       "answer": 2,
       "solution": "Thermal infrared (TIR) sensors operate in the 3–14 µm range, detecting emitted thermal radiation from the Earth's surface, useful for identifying lithological variations, hydrothermal alteration, and geothermal features.",
       "estSec": 30,
@@ -430,7 +547,12 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "The term 'interlimb angle' in fold classification refers to the angle between:",
-      "options": ["The two limbs of a fold measured in a cross-section", "The axial plane and the hinge line", "The fold axis and the strike of beds", "Two adjacent fold hinges"],
+      "options": [
+        "The two limbs of a fold measured in a cross-section",
+        "The axial plane and the hinge line",
+        "The fold axis and the strike of beds",
+        "Two adjacent fold hinges"
+      ],
       "answer": 0,
       "solution": "The interlimb angle is the angle between the two limbs of a fold in a profile plane perpendicular to the fold hinge; it classifies folds as tight (<30°), close (30–70°), open (70–120°), or gentle (>120°).",
       "estSec": 45,
@@ -446,7 +568,12 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "In time-domain electromagnetic (TDEM) surveys, the secondary magnetic field is generated by:",
-      "options": ["A permanently installed ground loop", "Induced eddy currents in conductive subsurface bodies after the primary field is switched off", "Natural telluric currents", "Piezoelectric effects in quartz-bearing rocks"],
+      "options": [
+        "A permanently installed ground loop",
+        "Induced eddy currents in conductive subsurface bodies after the primary field is switched off",
+        "Natural telluric currents",
+        "Piezoelectric effects in quartz-bearing rocks"
+      ],
       "answer": 1,
       "solution": "In TDEM, the primary field is abruptly terminated, inducing eddy currents in conductive bodies that decay and produce a secondary field measured by a receiver coil.",
       "estSec": 45,
@@ -462,7 +589,12 @@
       "marks": 1,
       "difficulty": "easy",
       "stem": "Airborne LiDAR (Light Detection and Ranging) is most useful in structural geology for:",
-      "options": ["Identifying mineral compositions", "Mapping fine-scale topographic lineaments and subtle fault scarps", "Measuring rock magnetic properties", "Determining subsurface density contrasts"],
+      "options": [
+        "Identifying mineral compositions",
+        "Mapping fine-scale topographic lineaments and subtle fault scarps",
+        "Measuring rock magnetic properties",
+        "Determining subsurface density contrasts"
+      ],
       "answer": 1,
       "solution": "LiDAR generates high-resolution Digital Elevation Models (DEMs) that reveal subtle topographic features such as fault scarps, fold-related scarps, and lineaments obscured by vegetation.",
       "estSec": 30,
@@ -478,7 +610,12 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "The density contouring of poles on a stereonet is used to:",
-      "options": ["Determine the age of rock formations", "Identify preferred orientations and statistical clustering of structural data", "Measure the dip of bedding planes", "Calculate the plunge of a fold axis"],
+      "options": [
+        "Determine the age of rock formations",
+        "Identify preferred orientations and statistical clustering of structural data",
+        "Measure the dip of bedding planes",
+        "Calculate the plunge of a fold axis"
+      ],
       "answer": 1,
       "solution": "Density contouring (using methods like Schmidt or Kamb) highlights clusters of structural data (poles to planes), revealing dominant orientations such as fold girdle or random patterns.",
       "figure": {
@@ -499,7 +636,12 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "The sonic (acoustic) log measures:",
-      "options": ["Natural gamma radiation of formations", "Transit time of compressional waves through the formation", "Resistivity of the formation fluids", "Density of the borehole wall"],
+      "options": [
+        "Natural gamma radiation of formations",
+        "Transit time of compressional waves through the formation",
+        "Resistivity of the formation fluids",
+        "Density of the borehole wall"
+      ],
       "answer": 1,
       "solution": "The sonic log measures the interval transit time (slowness, µs/ft) of compressional (P-waves) through the formation, used to determine porosity and for seismic tie calculations.",
       "estSec": 30,
@@ -515,7 +657,12 @@
       "marks": 1,
       "difficulty": "easy",
       "stem": "In a Geographic Information System (GIS), a 'raster' data model represents spatial information as:",
-      "options": ["A network of points, lines, and polygons", "A grid of equally sized cells (pixels)", "A set of vector coordinates", "A series of triangulated irregular networks (TIN)"],
+      "options": [
+        "A network of points, lines, and polygons",
+        "A grid of equally sized cells (pixels)",
+        "A set of vector coordinates",
+        "A series of triangulated irregular networks (TIN)"
+      ],
       "answer": 1,
       "solution": "Raster data represents space as a regular grid of cells, each with a value; it is ideal for continuous data such as satellite imagery, DEMs, and thematic maps.",
       "estSec": 30,
@@ -531,7 +678,12 @@
       "marks": 1,
       "difficulty": "hard",
       "stem": "According to Anderson's theory of faulting, a normal fault forms when the maximum principal stress (σ₁) is:",
-      "options": ["Horizontal and σ₃ is vertical", "Vertical and σ₃ is horizontal", "Inclined at 45° to the fault plane", "Equal to σ₂ and σ₃"],
+      "options": [
+        "Horizontal and σ₃ is vertical",
+        "Vertical and σ₃ is horizontal",
+        "Inclined at 45° to the fault plane",
+        "Equal to σ₂ and σ₃"
+      ],
       "answer": 1,
       "solution": "Anderson's theory states normal faults form when σ₁ is vertical (gravitational loading) and σ₃ is horizontal (extension), producing faults dipping at ~60°.",
       "figure": {
@@ -552,7 +704,12 @@
       "marks": 1,
       "difficulty": "easy",
       "stem": "The unit of measurement for gravity anomalies in exploration geophysics is commonly the:",
-      "options": ["Tesla (T)", "Milligal (mGal)", "Siemens (S)", "Henry (H)"],
+      "options": [
+        "Tesla (T)",
+        "Milligal (mGal)",
+        "Siemens (S)",
+        "Henry (H)"
+      ],
       "answer": 1,
       "solution": "The milligal (mGal = 10⁻⁵ m/s²) is the standard unit for gravity anomalies; 1 mGal ≈ 10⁻⁵ g, where g ≈ 981 Gal at the Earth's surface.",
       "estSec": 30,
@@ -568,7 +725,12 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "The key advantage of hyperspectral imagery over multispectral imagery is:",
-      "options": ["Higher spatial resolution", "Many narrow, contiguous spectral bands enabling detailed mineral identification", "Lower data storage requirements", "Better performance in cloudy conditions"],
+      "options": [
+        "Higher spatial resolution",
+        "Many narrow, contiguous spectral bands enabling detailed mineral identification",
+        "Lower data storage requirements",
+        "Better performance in cloudy conditions"
+      ],
       "answer": 1,
       "solution": "Hyperspectral sensors capture hundreds of narrow contiguous bands across the electromagnetic spectrum, enabling identification of specific minerals through their absorption features.",
       "estSec": 30,
@@ -584,7 +746,12 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "Slaty cleavage, schistosity, and gneissic banding represent increasing grades of:",
-      "options": ["Sedimentary bedding", "Metamorphic foliation development", "Igneous differentiation", "Diagenetic compaction"],
+      "options": [
+        "Sedimentary bedding",
+        "Metamorphic foliation development",
+        "Igneous differentiation",
+        "Diagenetic compaction"
+      ],
       "answer": 1,
       "solution": "These represent progressive metamorphic foliation: slaty cleavage (low grade) → schistosity (medium grade) → gneissic banding (high grade), reflecting increasing temperature and pressure.",
       "figure": {
@@ -605,7 +772,12 @@
       "marks": 1,
       "difficulty": "hard",
       "stem": "Magnetotelluric (MT) surveys use natural electromagnetic fields primarily generated by:",
-      "options": ["Solar wind interactions with the ionosphere and lightning discharges", "Artificial ground-based transmitters", "The Earth's radioactive decay", "Ocean tidal movements"],
+      "options": [
+        "Solar wind interactions with the ionosphere and lightning discharges",
+        "Artificial ground-based transmitters",
+        "The Earth's radioactive decay",
+        "Ocean tidal movements"
+      ],
       "answer": 0,
       "solution": "MT uses naturally occurring EM fields: at low frequencies from ionospheric/magnetospheric interactions with solar wind, and at high frequencies from global lightning activity (sferics).",
       "estSec": 45,
@@ -621,7 +793,12 @@
       "marks": 1,
       "difficulty": "easy",
       "stem": "Image differencing is a simple change detection technique in remote sensing that involves:",
-      "options": ["Comparing spectral indices of two dates of imagery", "Classifying each image independently and comparing maps", "Overlaying two vector layers", "Calculating principal components of a single image"],
+      "options": [
+        "Comparing spectral indices of two dates of imagery",
+        "Classifying each image independently and comparing maps",
+        "Overlaying two vector layers",
+        "Calculating principal components of a single image"
+      ],
       "answer": 0,
       "solution": "Image differencing subtracts pixel values of one date from another; pixels with significant differences indicate change (e.g., land cover change, subsidence, mining activity).",
       "estSec": 30,
@@ -637,7 +814,12 @@
       "marks": 1,
       "difficulty": "easy",
       "stem": "A systematic joint set is characterised by:",
-      "options": ["Random orientation and spacing", "A consistent orientation, spacing, and cross-cutting relationship", "Only occurring in igneous rocks", "Being always filled with mineral veins"],
+      "options": [
+        "Random orientation and spacing",
+        "A consistent orientation, spacing, and cross-cutting relationship",
+        "Only occurring in igneous rocks",
+        "Being always filled with mineral veins"
+      ],
       "answer": 1,
       "solution": "Systematic joints show consistent orientation (strike and dip), regular spacing patterns, and predictable cross-cutting relationships, reflecting a uniform stress field during formation.",
       "figure": {
@@ -658,7 +840,12 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "The 'bright spot' anomaly in seismic reflection data is often an indicator of:",
-      "options": ["Hard igneous basement", "Gas-bearing reservoir sands", "Salt diapir", "Coal seams"],
+      "options": [
+        "Hard igneous basement",
+        "Gas-bearing reservoir sands",
+        "Salt diapir",
+        "Coal seams"
+      ],
       "answer": 1,
       "solution": "Bright spots are high-amplitude reflections caused by the strong impedance contrast between gas-saturated and water-saturated sands, a direct hydrocarbon indicator (DHI).",
       "estSec": 30,
@@ -674,7 +861,12 @@
       "marks": 1,
       "difficulty": "easy",
       "stem": "The Landsat series of satellites is operated by:",
-      "options": ["European Space Agency (ESA)", "National Aeronautics and Space Administration (NASA) and USGS", "Indian Space Research Organisation (ISRO)", "Japan Aerospace Exploration Agency (JAXA)"],
+      "options": [
+        "European Space Agency (ESA)",
+        "National Aeronautics and Space Administration (NASA) and USGS",
+        "Indian Space Research Organisation (ISRO)",
+        "Japan Aerospace Exploration Agency (JAXA)"
+      ],
       "answer": 1,
       "solution": "Landsat is jointly managed by NASA (spacecraft) and USGS (data distribution), providing the longest continuous record of Earth's surface from space since 1972.",
       "estSec": 30,
@@ -690,7 +882,12 @@
       "marks": 1,
       "difficulty": "hard",
       "stem": "The strain ellipsoid has three principal axes X, Y, and Z. In plane strain deformation:",
-      "options": ["X = Y = Z", "X > Y > Z and Y remains unchanged", "X = Y and Z is shortened", "All axes are equal"],
+      "options": [
+        "X = Y = Z",
+        "X > Y > Z and Y remains unchanged",
+        "X = Y and Z is shortened",
+        "All axes are equal"
+      ],
       "answer": 1,
       "solution": "In plane strain, deformation occurs in two dimensions; the intermediate axis Y remains unchanged while X is extended and Z is shortened (flattening in one plane).",
       "estSec": 60,
@@ -706,7 +903,12 @@
       "marks": 1,
       "difficulty": "easy",
       "stem": "A caliper log is used to measure:",
-      "options": ["The borehole diameter", "The formation resistivity", "The natural gamma radiation", "The acoustic velocity"],
+      "options": [
+        "The borehole diameter",
+        "The formation resistivity",
+        "The natural gamma radiation",
+        "The acoustic velocity"
+      ],
       "answer": 0,
       "solution": "The caliper log measures borehole diameter using mechanical arms; it identifies cave zones, filter cakes, and is essential for borehole stability analysis and log correction.",
       "estSec": 30,
@@ -722,7 +924,12 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "Atmospheric correction of satellite imagery is necessary primarily to:",
-      "options": ["Improve spatial resolution", "Remove the effects of scattering and absorption by atmospheric gases and aerosols", "Convert digital numbers to reflectance values only", "Enhance edge features"],
+      "options": [
+        "Improve spatial resolution",
+        "Remove the effects of scattering and absorption by atmospheric gases and aerosols",
+        "Convert digital numbers to reflectance values only",
+        "Enhance edge features"
+      ],
       "answer": 1,
       "solution": "Atmospheric correction removes path radiance (scattering) and absorption effects, converting top-of-atmosphere radiance to surface reflectance for accurate spectral analysis.",
       "estSec": 30,
@@ -738,7 +945,12 @@
       "marks": 1,
       "difficulty": "hard",
       "stem": "Crystallographic preferred orientation (CPO) of quartz c-axes measured by EBSD typically indicates:",
-      "options": ["Sedimentary grain alignment", "Dislocation creep and crystal-plastic deformation mechanisms", "Rapid igneous crystallisation", "Diagenetic cementation"],
+      "options": [
+        "Sedimentary grain alignment",
+        "Dislocation creep and crystal-plastic deformation mechanisms",
+        "Rapid igneous crystallisation",
+        "Diagenetic cementation"
+      ],
       "answer": 1,
       "solution": "EBSD-measured quartz CPO patterns (e.g., crossed girdle, single girdle) result from dislocation creep during crystal-plastic deformation, indicating deformation conditions and kinematics.",
       "estSec": 60,
@@ -754,7 +966,12 @@
       "marks": 1,
       "difficulty": "easy",
       "stem": "A shopkeeper buys an article for ₹800 and sells it at a 25% profit. What is the selling price?",
-      "options": ["₹1,000", "₹1,050", "₹950", "₹1,100"],
+      "options": [
+        "₹1,000",
+        "₹1,050",
+        "₹950",
+        "₹1,100"
+      ],
       "answer": 0,
       "solution": "SP = CP × (1 + Profit%/100) = 800 × 1.25 = ₹1,000.",
       "estSec": 30,
@@ -770,7 +987,12 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "A can complete a task in 12 days and B can complete the same task in 18 days. Working together, how many days will they take?",
-      "options": ["7.2 days", "8 days", "6 days", "10 days"],
+      "options": [
+        "7.2 days",
+        "8 days",
+        "6 days",
+        "10 days"
+      ],
       "answer": 0,
       "solution": "Combined rate = 1/12 + 1/18 = 3/36 + 2/36 = 5/36. Days = 36/5 = 7.2 days.",
       "estSec": 45,
@@ -786,7 +1008,12 @@
       "marks": 1,
       "difficulty": "easy",
       "stem": "What is the sum of the first 20 terms of the arithmetic progression: 3, 7, 11, 15, ...?",
-      "options": ["820", "800", "840", "780"],
+      "options": [
+        "820",
+        "800",
+        "840",
+        "780"
+      ],
       "answer": 0,
       "solution": "S₂₀ = (20/2) × [2(3) + (20−1)(4)] = 10 × [6 + 76] = 10 × 82 = 820.",
       "estSec": 30,
@@ -802,7 +1029,12 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "Three numbers are in the ratio 2:3:5. If their sum is 120, find the largest number.",
-      "options": ["50", "60", "40", "45"],
+      "options": [
+        "50",
+        "60",
+        "40",
+        "45"
+      ],
       "answer": 1,
       "solution": "Let the numbers be 2x, 3x, 5x. Sum = 10x = 120, so x = 12. Largest = 5 × 12 = 60.",
       "estSec": 30,
@@ -818,7 +1050,12 @@
       "marks": 1,
       "difficulty": "easy",
       "stem": "If a population increases from 2,000 to 2,600 over two years, what is the percentage increase?",
-      "options": ["25%", "30%", "20%", "35%"],
+      "options": [
+        "25%",
+        "30%",
+        "20%",
+        "35%"
+      ],
       "answer": 1,
       "solution": "Increase = 600. Percentage = (600/2000) × 100 = 30%.",
       "estSec": 30,
@@ -834,7 +1071,12 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "₹10,000 invested at 10% per annum compound interest compounded annually for 3 years amounts to:",
-      "options": ["₹13,310", "₹13,000", "₹13,100", "₹13,210"],
+      "options": [
+        "₹13,310",
+        "₹13,000",
+        "₹13,100",
+        "₹13,210"
+      ],
       "answer": 0,
       "solution": "A = P(1 + r/100)ⁿ = 10,000 × (1.10)³ = 10,000 × 1.331 = ₹13,310.",
       "estSec": 45,
@@ -850,7 +1092,12 @@
       "marks": 1,
       "difficulty": "easy",
       "stem": "A car travels 360 km in 5 hours. What is its speed in m/s?",
-      "options": ["20 m/s", "18 m/s", "25 m/s", "22 m/s"],
+      "options": [
+        "20 m/s",
+        "18 m/s",
+        "25 m/s",
+        "22 m/s"
+      ],
       "answer": 0,
       "solution": "Speed = 360/5 = 72 km/h = 72 × (5/18) = 20 m/s.",
       "estSec": 30,
@@ -866,7 +1113,12 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "If 'GEODE' is coded as 'HGFEF', how is 'ROCKS' coded?",
-      "options": ["SPDLT", "SPDLT", "SPDLT", "SPDLT"],
+      "options": [
+        "SPDLT",
+        "SPDLT",
+        "SPDLT",
+        "SPDLT"
+      ],
       "answer": 0,
       "solution": "Each letter is shifted +1 in the alphabet: G→H, E→F, O→P, D→E, E→F. So ROCKS → SPDLT.",
       "estSec": 45,
@@ -882,7 +1134,12 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "Find the next number in the series: 2, 6, 12, 20, 30, ?",
-      "options": ["40", "42", "36", "44"],
+      "options": [
+        "40",
+        "42",
+        "36",
+        "44"
+      ],
       "answer": 1,
       "solution": "Differences: 4, 6, 8, 10, 12. Next term = 30 + 12 = 42. Alternatively, n(n+1): 1×2, 2×3, 3×4, 4×5, 5×6, 6×7 = 42.",
       "estSec": 45,
@@ -898,7 +1155,12 @@
       "marks": 1,
       "difficulty": "easy",
       "stem": "The average of 5 numbers is 42. If one number is excluded, the average becomes 38. What is the excluded number?",
-      "options": ["58", "56", "54", "60"],
+      "options": [
+        "58",
+        "56",
+        "54",
+        "60"
+      ],
       "answer": 0,
       "solution": "Sum of 5 = 210, Sum of 4 = 152. Excluded number = 210 − 152 = 58.",
       "estSec": 30,
@@ -914,7 +1176,12 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "A rectangle has a length of 15 cm and a breadth of 8 cm. What is the length of its diagonal?",
-      "options": ["17 cm", "16 cm", "18 cm", "15 cm"],
+      "options": [
+        "17 cm",
+        "16 cm",
+        "18 cm",
+        "15 cm"
+      ],
       "answer": 0,
       "solution": "Diagonal = √(15² + 8²) = √(225 + 64) = √289 = 17 cm.",
       "estSec": 30,
@@ -930,7 +1197,12 @@
       "marks": 1,
       "difficulty": "hard",
       "stem": "A says to B: 'Your mother's husband's sister is my aunt.' How is B related to A?",
-      "options": ["Niece/Nephew", "Brother/Sister", "Cousin", "Uncle/Aunt"],
+      "options": [
+        "Niece/Nephew",
+        "Brother/Sister",
+        "Cousin",
+        "Uncle/Aunt"
+      ],
       "answer": 0,
       "solution": "B's mother's husband = B's father. B's father's sister = B's paternal aunt. B's paternal aunt is A's aunt, so A and B are siblings or cousins. Since A calls her 'my aunt', B is A's niece or nephew.",
       "estSec": 60,
@@ -946,7 +1218,12 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "A die is rolled twice. What is the probability that the sum of the two numbers is 7?",
-      "options": ["1/6", "1/4", "5/36", "7/36"],
+      "options": [
+        "1/6",
+        "1/4",
+        "5/36",
+        "7/36"
+      ],
       "answer": 0,
       "solution": "Favourable outcomes: (1,6), (2,5), (3,4), (4,3), (5,2), (6,1) = 6. Total outcomes = 36. Probability = 6/36 = 1/6.",
       "estSec": 45,
@@ -962,7 +1239,12 @@
       "marks": 1,
       "difficulty": "hard",
       "stem": "In a class of 60 students, 35 play cricket, 25 play football, and 10 play both. How many students play neither?",
-      "options": ["10", "15", "12", "8"],
+      "options": [
+        "10",
+        "15",
+        "12",
+        "8"
+      ],
       "answer": 0,
       "solution": "Students playing at least one = 35 + 25 − 10 = 50. Students playing neither = 60 − 50 = 10.",
       "estSec": 45,
@@ -978,7 +1260,12 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "A 60-litre mixture of milk and water is in the ratio 3:1. How much water must be added to make the ratio 2:1?",
-      "options": ["5 litres", "10 litres", "15 litres", "8 litres"],
+      "options": [
+        "5 litres",
+        "10 litres",
+        "15 litres",
+        "8 litres"
+      ],
       "answer": 2,
       "solution": "Milk = 45 L, Water = 15 L. For ratio 2:1, water = 45/2 = 22.5 L. Extra water needed = 22.5 − 15 = 7.5 L. Nearest option is 15 L (note: exact answer is 7.5 L; option closest: 15L).",
       "estSec": 45,
@@ -994,7 +1281,12 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "Raj walks 5 km north, turns right and walks 3 km, turns right again and walks 5 km. In which direction is he from the starting point?",
-      "options": ["East", "West", "North-East", "South-East"],
+      "options": [
+        "East",
+        "West",
+        "North-East",
+        "South-East"
+      ],
       "answer": 0,
       "solution": "After walking north 5 km, east 3 km, and south 5 km, Raj is 3 km east of his starting point.",
       "estSec": 45,
@@ -1010,7 +1302,12 @@
       "marks": 1,
       "difficulty": "easy",
       "stem": "Pipe A can fill a tank in 10 hours and Pipe B can empty it in 15 hours. If both are open, how long will it take to fill the tank?",
-      "options": ["30 hours", "25 hours", "20 hours", "35 hours"],
+      "options": [
+        "30 hours",
+        "25 hours",
+        "20 hours",
+        "35 hours"
+      ],
       "answer": 0,
       "solution": "Net rate = 1/10 − 1/15 = 3/30 − 2/30 = 1/30 per hour. Time = 30 hours.",
       "estSec": 30,
@@ -1026,7 +1323,12 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "The present ages of A and B are in the ratio 5:7. After 6 years, the ratio becomes 3:4. What is B's present age?",
-      "options": ["42 years", "35 years", "49 years", "30 years"],
+      "options": [
+        "42 years",
+        "35 years",
+        "49 years",
+        "30 years"
+      ],
       "answer": 0,
       "solution": "5x + 6 : 7x + 6 = 3:4 → 4(5x+6) = 3(7x+6) → 20x+24 = 21x+18 → x = 6. B's age = 7(6) = 42 years.",
       "estSec": 45,
@@ -1042,7 +1344,12 @@
       "marks": 1,
       "difficulty": "hard",
       "stem": "Statements: All rocks are minerals. Some minerals are fossils. Conclusions: I. Some rocks are fossils. II. Some fossils are minerals.",
-      "options": ["Only II follows", "Only I follows", "Both I and II follow", "Neither I nor II follows"],
+      "options": [
+        "Only II follows",
+        "Only I follows",
+        "Both I and II follow",
+        "Neither I nor II follows"
+      ],
       "answer": 0,
       "solution": "Conclusion I does not follow (rocks are minerals but not all minerals are rocks, so no direct link). Conclusion II follows because 'some minerals are fossils' directly implies 'some fossils are minerals'.",
       "estSec": 60,
@@ -1058,7 +1365,12 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "In how many ways can the letters of the word 'STRUCTURE' be arranged?",
-      "options": ["45,360", "362,880", "90,720", "181,440"],
+      "options": [
+        "45,360",
+        "362,880",
+        "90,720",
+        "181,440"
+      ],
       "answer": 0,
       "solution": "STRUCTURE has 9 letters: S(1), T(2), R(2), U(2), C(1), E(1). Arrangements = 9!/(2!×2!×2!) = 362880/8 = 45,360.",
       "estSec": 60,
@@ -1074,7 +1386,12 @@
       "marks": 1,
       "difficulty": "easy",
       "stem": "A boat's speed in still water is 12 km/h. If the stream speed is 3 km/h, what is the time taken to travel 36 km downstream?",
-      "options": ["2.4 hours", "3 hours", "3.6 hours", "4 hours"],
+      "options": [
+        "2.4 hours",
+        "3 hours",
+        "3.6 hours",
+        "4 hours"
+      ],
       "answer": 0,
       "solution": "Downstream speed = 12 + 3 = 15 km/h. Time = 36/15 = 2.4 hours.",
       "estSec": 30,
@@ -1090,7 +1407,12 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "What is the value of (27^(2/3) × 8^(1/3)) / (4^(1/2) × 3^0)?",
-      "options": ["6", "9", "12", "18"],
+      "options": [
+        "6",
+        "9",
+        "12",
+        "18"
+      ],
       "answer": 1,
       "solution": "27^(2/3) = 9, 8^(1/3) = 2, 4^(1/2) = 2, 3^0 = 1. Result = (9 × 2)/(2 × 1) = 18/2 = 9.",
       "estSec": 45,
@@ -1106,7 +1428,12 @@
       "marks": 1,
       "difficulty": "hard",
       "stem": "If '+' means '÷', '−' means '×', '×' means '+', '÷' means '−', then evaluate: 6 + 3 − 2 × 4 ÷ 1 = ?",
-      "options": ["5", "7", "9", "11"],
+      "options": [
+        "5",
+        "7",
+        "9",
+        "11"
+      ],
       "answer": 1,
       "solution": "6 ÷ 3 × 2 + 4 − 1 = 2 × 2 + 4 − 1 = 4 + 4 − 1 = 7.",
       "estSec": 60,
@@ -1122,7 +1449,12 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "A cylinder has a radius of 7 cm and height of 10 cm. What is its volume? (Use π = 22/7)",
-      "options": ["1,540 cm³", "1,400 cm³", "1,232 cm³", "1,760 cm³"],
+      "options": [
+        "1,540 cm³",
+        "1,400 cm³",
+        "1,232 cm³",
+        "1,760 cm³"
+      ],
       "answer": 0,
       "solution": "V = πr²h = (22/7) × 49 × 10 = 22 × 7 × 10 = 1,540 cm³.",
       "estSec": 30,
@@ -1138,7 +1470,12 @@
       "marks": 1,
       "difficulty": "easy",
       "stem": "In a mirror placed on the right side, the mirror image of the clock showing 3:15 would appear as:",
-      "options": ["8:45", "9:45", "3:15", "9:15"],
+      "options": [
+        "8:45",
+        "9:45",
+        "3:15",
+        "9:15"
+      ],
       "answer": 0,
       "solution": "In a mirror, the image of a clock is reversed left-to-right. The mirror image of 3:15 appears as 8:45.",
       "estSec": 45,
@@ -1154,7 +1491,12 @@
       "marks": 1,
       "difficulty": "easy",
       "stem": "Which organisation conducts the census in India?",
-      "options": ["Ministry of Finance", "Registrar General and Census Commissioner of India", "NITI Aayog", "Ministry of Home Affairs"],
+      "options": [
+        "Ministry of Finance",
+        "Registrar General and Census Commissioner of India",
+        "NITI Aayog",
+        "Ministry of Home Affairs"
+      ],
       "answer": 1,
       "solution": "The Registrar General and Census Commissioner of India, under the Ministry of Home Affairs, conducts the decennial Census of India.",
       "estSec": 30,
@@ -1170,7 +1512,12 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "The 73rd Constitutional Amendment Act deals with:",
-      "options": ["Municipalities", "Panchayati Raj Institutions", "Cooperative Societies", "Right to Education"],
+      "options": [
+        "Municipalities",
+        "Panchayati Raj Institutions",
+        "Cooperative Societies",
+        "Right to Education"
+      ],
       "answer": 1,
       "solution": "The 73rd Amendment (1992) constitutionalised Panchayati Raj Institutions, adding Part IX to the Constitution with provisions for three-tier local self-governance in rural areas.",
       "estSec": 30,
@@ -1186,7 +1533,12 @@
       "marks": 1,
       "difficulty": "easy",
       "stem": "The headquarters of the International Court of Justice (ICJ) is located in:",
-      "options": ["New York", "Geneva", "The Hague", "Vienna"],
+      "options": [
+        "New York",
+        "Geneva",
+        "The Hague",
+        "Vienna"
+      ],
       "answer": 2,
       "solution": "The ICJ, the principal judicial organ of the UN, is headquartered in the Peace Palace at The Hague, Netherlands.",
       "estSec": 30,
@@ -1202,7 +1554,12 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "ISRO's Chandrayaan-3 successfully landed on the Moon's surface in which year?",
-      "options": ["2022", "2023", "2024", "2021"],
+      "options": [
+        "2022",
+        "2023",
+        "2024",
+        "2021"
+      ],
       "answer": 1,
       "solution": "Chandrayaan-3 successfully soft-landed on the Moon's south pole region on 23 August 2023, making India the fourth country to achieve a lunar soft landing.",
       "estSec": 30,
@@ -1218,7 +1575,12 @@
       "marks": 1,
       "difficulty": "easy",
       "stem": "Which of the following is a 'Ramsar Site' (wetland of international importance) in India?",
-      "options": ["Chilika Lake", "Dal Lake", "Lonar Lake", "All of the above"],
+      "options": [
+        "Chilika Lake",
+        "Dal Lake",
+        "Lonar Lake",
+        "All of the above"
+      ],
       "answer": 3,
       "solution": "Chilika Lake (Odisha), Wular Lake (J&K), and several other Indian wetlands are designated Ramsar Sites under the Ramsar Convention for wetland conservation.",
       "estSec": 30,
@@ -1234,7 +1596,12 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "The Tropic of Cancer passes through how many Indian states?",
-      "options": ["6", "7", "8", "9"],
+      "options": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
       "answer": 2,
       "solution": "The Tropic of Cancer (23.5°N) passes through 8 Indian states: Gujarat, Rajasthan, Madhya Pradesh, Chhattisgarh, Jharkhand, West Bengal, Tripura, and Mizoram.",
       "estSec": 30,
@@ -1250,7 +1617,12 @@
       "marks": 1,
       "difficulty": "easy",
       "stem": "Which Five-Year Plan adopted the objective of 'Growth with Social Justice and Equity'?",
-      "options": ["Eighth Five-Year Plan", "Ninth Five-Year Plan", "Tenth Five-Year Plan", "Eleventh Five-Year Plan"],
+      "options": [
+        "Eighth Five-Year Plan",
+        "Ninth Five-Year Plan",
+        "Tenth Five-Year Plan",
+        "Eleventh Five-Year Plan"
+      ],
       "answer": 1,
       "solution": "The Ninth Five-Year Plan (1997–2002) adopted the theme 'Growth with Social Justice and Equity', focusing on poverty reduction and human development.",
       "estSec": 30,
@@ -1266,7 +1638,12 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "Which index is published by the Reserve Bank of India to measure core inflation?",
-      "options": ["Consumer Price Index (CPI)", "Wholesale Price Index (WPI)", "Core CPI", "Producer Price Index"],
+      "options": [
+        "Consumer Price Index (CPI)",
+        "Wholesale Price Index (WPI)",
+        "Core CPI",
+        "Producer Price Index"
+      ],
       "answer": 2,
       "solution": "Core CPI, which excludes volatile food and fuel prices, is used by RBI to assess underlying inflation trends for monetary policy decisions.",
       "estSec": 30,
@@ -1282,7 +1659,12 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "The Right to Information Act was enacted in India in which year?",
-      "options": ["2001", "2003", "2005", "2007"],
+      "options": [
+        "2001",
+        "2003",
+        "2005",
+        "2007"
+      ],
       "answer": 2,
       "solution": "The RTI Act 2005 was enacted to promote transparency and accountability by enabling citizens to request information from public authorities.",
       "estSec": 30,
@@ -1298,7 +1680,12 @@
       "marks": 1,
       "difficulty": "easy",
       "stem": "The G20 summit held in 2023 under India's presidency was held in which city?",
-      "options": ["Mumbai", "New Delhi", "Bengaluru", "Kolkata"],
+      "options": [
+        "Mumbai",
+        "New Delhi",
+        "Bengaluru",
+        "Kolkata"
+      ],
       "answer": 1,
       "solution": "The 18th G20 Leaders' Summit was held on 9–10 September 2023 at Pragati Maidan, New Delhi, under India's G20 presidency.",
       "estSec": 30,
@@ -1314,7 +1701,12 @@
       "marks": 1,
       "difficulty": "easy",
       "stem": "Choose the correctly spelt word:",
-      "options": ["Occurrence", "Occurence", "Occurrance", "Ocurrence"],
+      "options": [
+        "Occurrence",
+        "Occurence",
+        "Occurrance",
+        "Ocurrence"
+      ],
       "answer": 0,
       "solution": "The correct spelling is 'occurrence' — double 'c' and double 'r'.",
       "estSec": 20,
@@ -1330,7 +1722,12 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "Identify the error: 'Neither the manager nor the employees was available for the meeting.'",
-      "options": ["Neither", "the manager", "was available", "for the meeting"],
+      "options": [
+        "Neither",
+        "the manager",
+        "was available",
+        "for the meeting"
+      ],
       "answer": 2,
       "solution": "With 'neither...nor', the verb agrees with the nearest subject. 'Employees' is plural, so the verb should be 'were available'.",
       "estSec": 30,
@@ -1346,7 +1743,12 @@
       "marks": 1,
       "difficulty": "easy",
       "stem": "Choose the word that is most similar in meaning to 'ambiguous':",
-      "options": ["Clear", "Vague", "Definite", "Precise"],
+      "options": [
+        "Clear",
+        "Vague",
+        "Definite",
+        "Precise"
+      ],
       "answer": 1,
       "solution": "'Ambiguous' means open to more than one interpretation; 'vague' is the closest synonym.",
       "estSec": 20,
@@ -1362,7 +1764,12 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "The scientist's ___ research on the mineral deposits earned her international recognition.",
-      "options": ["Pioneering", "Ordinary", "Trivial", "Secondary"],
+      "options": [
+        "Pioneering",
+        "Ordinary",
+        "Trivial",
+        "Secondary"
+      ],
       "answer": 0,
       "solution": "'Pioneering' means innovative and groundbreaking, fitting the context of internationally recognised research.",
       "estSec": 25,
@@ -1378,7 +1785,12 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "What does the idiom 'to add fuel to the fire' mean?",
-      "options": ["To make something worse", "To help someone in difficulty", "To extinguish a problem", "To work very hard"],
+      "options": [
+        "To make something worse",
+        "To help someone in difficulty",
+        "To extinguish a problem",
+        "To work very hard"
+      ],
       "answer": 0,
       "solution": "'To add fuel to the fire' means to make a bad situation even worse.",
       "estSec": 25,
@@ -1394,7 +1806,12 @@
       "marks": 1,
       "difficulty": "easy",
       "stem": "Choose the word opposite in meaning to 'abundant':",
-      "options": ["Plentiful", "Scarce", "Ample", "Copious"],
+      "options": [
+        "Plentiful",
+        "Scarce",
+        "Ample",
+        "Copious"
+      ],
       "answer": 1,
       "solution": "'Scarce' means insufficient or rare, the antonym of 'abundant'.",
       "estSec": 20,
@@ -1410,7 +1827,12 @@
       "marks": 1,
       "difficulty": "hard",
       "stem": "Choose the correct sentence: (A) 'The data suggests that the reservoir is depleting.' (B) 'The data suggest that the reservoir is depleting.'",
-      "options": ["Sentence A is correct", "Sentence B is correct", "Both are correct", "Both are incorrect"],
+      "options": [
+        "Sentence A is correct",
+        "Sentence B is correct",
+        "Both are correct",
+        "Both are incorrect"
+      ],
       "answer": 1,
       "solution": "'Data' is technically plural (singular: datum), so the verb should be 'suggest' (plural verb). Sentence B is grammatically correct.",
       "estSec": 30,
@@ -1426,7 +1848,12 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "Choose the one-word substitution: 'A person who studies rocks and the Earth's structure':",
-      "options": ["Archaeologist", "Geologist", "Meteorologist", "Seismologist"],
+      "options": [
+        "Archaeologist",
+        "Geologist",
+        "Meteorologist",
+        "Seismologist"
+      ],
       "answer": 1,
       "solution": "A 'geologist' is a scientist who studies the Earth's solid matter, including rocks and the processes by which they change.",
       "estSec": 20,
@@ -1463,7 +1890,12 @@
       "marks": 1,
       "difficulty": "hard",
       "stem": "Find the error: 'Each of the geologists have submitted their reports before the deadline.'",
-      "options": ["Each of the", "geologists have", "submitted their", "before the deadline"],
+      "options": [
+        "Each of the",
+        "geologists have",
+        "submitted their",
+        "before the deadline"
+      ],
       "answer": 1,
       "solution": "'Each' is singular, so it takes a singular verb: 'Each of the geologists has submitted...'. 'Have' should be 'has'.",
       "estSec": 30,

@@ -9,13 +9,13 @@ export type OngcRow = {
 };
 
 export const ONGC_ROWS: OngcRow[] = [
-  { slug: "mechanical", discipline: "Mechanical Engineering", qualification: "Degree in Mechanical Engineering with minimum 60% marks" },
-  { slug: "petroleum", discipline: "Petroleum Engineering", qualification: "Degree in Petroleum Engineering with minimum 60% marks" },
-  { slug: "chemical", discipline: "Chemical Engineering", qualification: "Degree in Chemical Engineering with minimum 60% marks" },
-  { slug: "electrical", discipline: "Electrical Engineering", qualification: "Degree in Electrical Engineering with minimum 60% marks" },
-  { slug: "geology", discipline: "Geology", qualification: "M.Sc. in Geology / Applied Geology with minimum 60% marks" },
-  { slug: "geophysics", discipline: "Geophysics", qualification: "M.Sc. in Geophysics / Applied Geophysics with minimum 60% marks" },
-  { slug: "physics", discipline: "Physics", qualification: "M.Sc. in Physics with minimum 60% marks" },
+  { slug: "ongc-mechanical", discipline: "Mechanical Engineering", qualification: "Degree in Mechanical Engineering with minimum 60% marks" },
+  { slug: "ongc-petroleum", discipline: "Petroleum Engineering", qualification: "Degree in Petroleum Engineering with minimum 60% marks" },
+  { slug: "ongc-chemical", discipline: "Chemical Engineering", qualification: "Degree in Chemical Engineering with minimum 60% marks" },
+  { slug: "ongc-electrical", discipline: "Electrical Engineering", qualification: "Degree in Electrical Engineering with minimum 60% marks" },
+  { slug: "ongc-geology", discipline: "Geology", qualification: "M.Sc. in Geology / Applied Geology with minimum 60% marks" },
+  { slug: "ongc-geophysics", discipline: "Geophysics", qualification: "M.Sc. in Geophysics / Applied Geophysics with minimum 60% marks" },
+  { slug: "ongc-physics", discipline: "Physics", qualification: "M.Sc. in Physics with minimum 60% marks" },
 ];
 
 /** Price to unlock a single ONGC discipline's 15-mock series, in paise (₹499). */

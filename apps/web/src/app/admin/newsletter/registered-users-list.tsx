@@ -5,6 +5,7 @@ import { useState, useMemo } from "react";
 interface RegisteredUser {
   email: string;
   name: string | null;
+  phone: string | null;
   plan: string;
   isPaid: boolean;
   joinedAt: string;
@@ -28,7 +29,7 @@ export default function RegisteredUsersList({ users, selectedEmails, onSelection
       if (planFilter === "free" && u.isPaid) return false;
       if (search) {
         const q = search.toLowerCase();
-        if (!u.email.toLowerCase().includes(q) && !(u.name ?? "").toLowerCase().includes(q)) return false;
+        if (!u.email.toLowerCase().includes(q) && !(u.name ?? "").toLowerCase().includes(q) && !(u.phone ?? "").includes(q)) return false;
       }
       return true;
     });
@@ -122,6 +123,7 @@ export default function RegisteredUsersList({ users, selectedEmails, onSelection
               </th>
               <th className="py-2.5 px-3 font-medium">Email</th>
               <th className="py-2.5 px-3 font-medium">Name</th>
+              <th className="hidden md:table-cell py-2.5 px-3 font-medium">Phone</th>
               <th className="py-2.5 px-3 font-medium">Plan</th>
               <th className="py-2.5 px-3 font-medium">Joined</th>
             </tr>
@@ -139,6 +141,7 @@ export default function RegisteredUsersList({ users, selectedEmails, onSelection
                 </td>
                 <td className="py-2.5 px-3 font-medium truncate max-w-[240px]">{u.email}</td>
                 <td className="py-2.5 px-3 text-muted truncate max-w-[150px]">{u.name ?? "—"}</td>
+                <td className="hidden md:table-cell py-2.5 px-3 text-muted text-xs">{u.phone ?? "—"}</td>
                 <td className="py-2.5 px-3">
                   <span className={`inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium ${
                     u.isPaid
@@ -159,7 +162,7 @@ export default function RegisteredUsersList({ users, selectedEmails, onSelection
             ))}
             {filtered.length === 0 && (
               <tr>
-                <td colSpan={5} className="py-8 text-center text-muted">
+                <td colSpan={6} className="py-8 text-center text-muted">
                   {users.length === 0 ? "No registered users yet." : "No users match the filter."}
                 </td>
               </tr>
