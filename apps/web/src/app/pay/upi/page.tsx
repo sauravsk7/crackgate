@@ -43,10 +43,14 @@ export default async function PayUpiPage({
   const subjectSlug = sp.subject?.trim();
   const defaultSubjectLabel =
     examCode === "PSU" && subjectSlug
-      ? (subjectSlug.startsWith("ongc-")
-          ? getOngcDiscipline(subjectSlug)?.discipline
-          : getCilDiscipline(subjectSlug)?.discipline)
-        ?? subjectSlug
+      ? (() => {
+          const isOngc = subjectSlug.startsWith("ongc-");
+          const company = isOngc ? "ONGC" : "CIL";
+          const discipline = isOngc
+            ? getOngcDiscipline(subjectSlug)?.discipline
+            : getCilDiscipline(subjectSlug)?.discipline;
+          return `PSU > ${company} > ${discipline ?? subjectSlug}`;
+        })()
       : subjectSlug
         ? getSubject(examCode, subjectSlug)?.label ?? subjectSlug
         : subjectSlug;
@@ -236,7 +240,7 @@ export default async function PayUpiPage({
             </li>
             <li className="flex gap-2">
               <span aria-hidden>🎓</span>
-              <span>Trusted by GATE Mining aspirants preparing for the 2027 cycle.</span>
+              <span>Trusted by aspirants across GATE, PSU, State Level & Diploma exams.</span>
             </li>
           </ul>
         </div>
