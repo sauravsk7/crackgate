@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { useRouter } from "next/navigation";
+import { useRouter, useSearchParams } from "next/navigation";
 
 const PLANS = [
   { id: "free",    name: "Free",     price: 0,    period: "forever",    cta: "Current plan", highlight: false, badge: "",
@@ -58,6 +58,9 @@ const PSU_PLANS = [
 ] as const;
 
 export default function PricingPage() {
+  const sp = useSearchParams();
+  const defaultSubject = sp.get("subject") ?? "";
+
   return (
     <div className="max-w-6xl mx-auto px-5 py-16">
       <div className="text-center">
@@ -72,7 +75,7 @@ export default function PricingPage() {
         <span className="inline-flex items-center gap-2 rounded-full bg-brand/10 px-4 py-1.5 text-sm font-semibold text-brand">GATE 2027</span>
       </div>
       <div className="grid md:grid-cols-3 gap-6 mt-6">
-        {PLANS.map((p) => <PlanCard key={p.id} plan={p} />)}
+        {PLANS.map((p) => <PlanCard key={p.id} plan={p} defaultSubject={defaultSubject} />)}
       </div>
 
       <FeatureMatrix />
@@ -238,13 +241,22 @@ function Cell({ v, highlight, accent }: { v: string | boolean; highlight?: boole
   );
 }
 
-function PlanCard({ plan }: { plan: typeof PLANS[number] }) {
+const GATE_SUBJECTS = [
+  { slug: "mining", label: "Mining (MN)" },
+  { slug: "civil", label: "Civil (CE)" },
+  { slug: "geology", label: "Geology (GG)" },
+  { slug: "environment", label: "Environment (ES)" },
+] as const;
+
+function PlanCard({ plan, defaultSubject = "" }: { plan: typeof PLANS[number]; defaultSubject?: string }) {
   const [loading, setLoading] = useState<"pro" | "premium" | null>(null);
+  const [subject, setSubject] = useState(defaultSubject);
   const router = useRouter();
   const devMode = process.env.NEXT_PUBLIC_DEV_TOOLS === "1";
 
   async function buy(tier: "pro" | "premium") {
     if (plan.id === "free") return router.push("/login");
+    if (!subject) return;
 
     // Dev-mode shortcut: skip checkout, flip the plan via the dev API.
     if (devMode) {
@@ -268,7 +280,7 @@ function PlanCard({ plan }: { plan: typeof PLANS[number] }) {
       return;
     }
 
-    router.push(`/pay/upi?plan=${tier}`);
+    router.push(`/pay/upi?plan=${tier}&exam=GATE&subject=${subject}`);
   }
 
   const isFree = plan.id === "free";
@@ -294,21 +306,39 @@ function PlanCard({ plan }: { plan: typeof PLANS[number] }) {
           Current plan
         </button>
       ) : (
-        <div className="mt-8 grid grid-cols-2 gap-3">
-          <button
-            onClick={() => buy("pro")}
-            disabled={loading !== null}
-            className="btn btn-primary"
-          >
-            {loading === "pro" ? "…" : devMode ? "⚙ Pro" : "Get Pro — ₹499"}
-          </button>
-          <button
-            onClick={() => buy("premium")}
-            disabled={loading !== null}
-            className="btn btn-accent"
-          >
-            {loading === "premium" ? "…" : devMode ? "⚙ Premium" : "Get Premium — ₹899"}
-          </button>
+        <div className="mt-8 space-y-3">
+          <div>
+            <label htmlFor={`subject-${plan.id}`} className="block text-xs font-semibold text-muted mb-1">
+              Subject
+            </label>
+            <select
+              id={`subject-${plan.id}`}
+              value={subject}
+              onChange={(e) => setSubject(e.target.value)}
+              className="input w-full"
+            >
+              <option value="">Select a subject...</option>
+              {GATE_SUBJECTS.map((s) => (
+                <option key={s.slug} value={s.slug}>{s.label}</option>
+              ))}
+            </select>
+          </div>
+          <div className="grid grid-cols-2 gap-3">
+            <button
+              onClick={() => buy("pro")}
+              disabled={loading !== null || !subject}
+              className="btn btn-primary"
+            >
+              {loading === "pro" ? "…" : devMode ? "⚙ Pro" : "Get Pro — ₹499"}
+            </button>
+            <button
+              onClick={() => buy("premium")}
+              disabled={loading !== null || !subject}
+              className="btn btn-accent"
+            >
+              {loading === "premium" ? "…" : devMode ? "⚙ Premium" : "Get Premium — ₹899"}
+            </button>
+          </div>
         </div>
       )}
       {!isFree && !devMode && (

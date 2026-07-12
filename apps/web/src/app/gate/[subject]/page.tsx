@@ -45,6 +45,7 @@ export default async function GateSubjectHome(props: { params: Promise<{ subject
     return (
       <TrackHub
         discipline={`${label} (${code})`}
+        subject={subject}
         tagline={`Full GATE ${label} preparation is being authored right now — learn, practice, mocks and AITS, all in one place.`}
         live={false}
         modules={GATE_MODULES}
