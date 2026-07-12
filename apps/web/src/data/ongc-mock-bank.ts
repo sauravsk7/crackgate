@@ -28,6 +28,16 @@ import geophysicsSet02 from "./questions/ongc/geophysics/ongc-geophysics-02.json
 import geophysicsSet03 from "./questions/ongc/geophysics/ongc-geophysics-03.json";
 import geophysicsSet04 from "./questions/ongc/geophysics/ongc-geophysics-04.json";
 import geophysicsSet05 from "./questions/ongc/geophysics/ongc-geophysics-05.json";
+import geophysicsSet06 from "./questions/ongc/geophysics/ongc-geophysics-06.json";
+import geophysicsSet07 from "./questions/ongc/geophysics/ongc-geophysics-07.json";
+import geophysicsSet08 from "./questions/ongc/geophysics/ongc-geophysics-08.json";
+import geophysicsSet09 from "./questions/ongc/geophysics/ongc-geophysics-09.json";
+import geophysicsSet10 from "./questions/ongc/geophysics/ongc-geophysics-10.json";
+import geophysicsSet11 from "./questions/ongc/geophysics/ongc-geophysics-11.json";
+import geophysicsSet12 from "./questions/ongc/geophysics/ongc-geophysics-12.json";
+import geophysicsSet13 from "./questions/ongc/geophysics/ongc-geophysics-13.json";
+import geophysicsSet14 from "./questions/ongc/geophysics/ongc-geophysics-14.json";
+import geophysicsSet15 from "./questions/ongc/geophysics/ongc-geophysics-15.json";
 
 export type OngcSet = {
   /** Stable mock id, e.g. "ongc-geology-01". Drives the runner route /mocks/<id>. */
@@ -68,6 +78,16 @@ const ONGC_SETS: OngcSet[] = [
   geophysicsSet03 as unknown as OngcSet,
   geophysicsSet04 as unknown as OngcSet,
   geophysicsSet05 as unknown as OngcSet,
+  geophysicsSet06 as unknown as OngcSet,
+  geophysicsSet07 as unknown as OngcSet,
+  geophysicsSet08 as unknown as OngcSet,
+  geophysicsSet09 as unknown as OngcSet,
+  geophysicsSet10 as unknown as OngcSet,
+  geophysicsSet11 as unknown as OngcSet,
+  geophysicsSet12 as unknown as OngcSet,
+  geophysicsSet13 as unknown as OngcSet,
+  geophysicsSet14 as unknown as OngcSet,
+  geophysicsSet15 as unknown as OngcSet,
 ];
 
 export const ONGC_MOCK_BANK: ReadonlyMap<string, OngcSet> = new Map(
