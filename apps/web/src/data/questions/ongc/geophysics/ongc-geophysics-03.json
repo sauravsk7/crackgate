@@ -1,0 +1,704 @@
+{
+  "id": "ongc-geophysics-03",
+  "slug": "ongc-geophysics",
+  "no": 3,
+  "title": "ONGC Geophysics — Full-length Mock 03",
+  "discipline": "Geophysics",
+  "durationMin": 120,
+  "totalMarks": 85,
+  "negativeMarking": false,
+  "pattern": "ONGC CBT — 85 MCQ · 120 min · 1 mark each · no negative marking",
+  "sections": [
+    { "name": "Domain Knowledge", "count": 40 },
+    { "name": "Aptitude", "count": 25 },
+    { "name": "General Awareness", "count": 10 },
+    { "name": "English Language", "count": 10 }
+  ],
+  "questions": [
+    {
+      "id": 1, "subject": "Domain Knowledge", "topic": "Solid Earth Geophysics · Earth's Interior", "section": "Domain", "type": "MCQ", "marks": 1, "difficulty": "medium",
+      "stem": "The Gutenberg discontinuity marks the boundary between:",
+      "options": ["Crust and mantle", "Mantle and outer core", "Outer core and inner core", "Lithosphere and asthenosphere"],
+      "answer": 1,
+      "solution": "The Gutenberg discontinuity (G-discontinuity) at ~2,900 km depth separates the solid silicate mantle from the liquid iron outer core. P-waves are strongly refracted and S-waves disappear at this boundary because the outer core is liquid.",
+      "estSec": 25, "topicWeight": 0.14, "source": "curated"
+    },
+    {
+      "id": 2, "subject": "Domain Knowledge", "topic": "Solid Earth Geophysics · Plate Tectonics", "section": "Domain", "type": "MCQ", "marks": 1, "difficulty": "easy",
+      "stem": "Which type of plate boundary is characterized by the subduction of one plate beneath another?",
+      "options": ["Divergent boundary", "Transform boundary", "Convergent boundary", "Passive margin"],
+      "answer": 2,
+      "solution": "At convergent boundaries, two plates move toward each other. When oceanic lithosphere meets continental lithosphere, the denser oceanic plate subducts, forming deep ocean trenches, volcanic arcs, and Wadati-Benioff zones of intermediate to deep earthquakes.",
+      "estSec": 25, "topicWeight": 0.14, "source": "curated"
+    },
+    {
+      "id": 3, "subject": "Domain Knowledge", "topic": "Solid Earth Geophysics · Geomagnetism", "section": "Domain", "type": "MCQ", "marks": 1, "difficulty": "medium",
+      "stem": "The Vine–Mathews–Morley hypothesis (1963) explained the origin of:",
+      "options": ["Continental rift valleys", "Symmetric magnetic anomaly stripes on the seafloor", "Earthquake focal mechanisms", "Gravity anomalies over mid-ocean ridges"],
+      "answer": 1,
+      "solution": "The Vine–Mathews hypothesis demonstrated that symmetric patterns of normal and reversed magnetic polarity stripes on either side of mid-ocean ridges result from seafloor spreading and geomagnetic field reversals, providing key evidence for plate tectonics.",
+      "estSec": 35, "topicWeight": 0.14, "source": "curated"
+    },
+    {
+      "id": 4, "subject": "Domain Knowledge", "topic": "Solid Earth Geophysics · Rheology", "section": "Domain", "type": "MCQ", "marks": 1, "difficulty": "medium",
+      "stem": "The lithosphere–asthenosphere boundary (LAB) is primarily defined by:",
+      "options": ["A chemical composition change", "A rheological transition from rigid to ductile behavior", "The base of the crust", "A sharp drop in seismic velocity"],
+      "answer": 1,
+      "solution": "The LAB is a rheological boundary where the rigid lithosphere gives way to the ductile, partially molten asthenosphere. It corresponds roughly to the ~1300°C isotherm and is detected as a low-velocity zone (LVZ) in seismic studies.",
+      "estSec": 35, "topicWeight": 0.14, "source": "curated"
+    },
+    {
+      "id": 5, "subject": "Domain Knowledge", "topic": "Solid Earth Geophysics · Isostasy", "section": "Domain", "type": "MCQ", "marks": 1, "difficulty": "medium",
+      "stem": "According to the Airy model of isostasy, mountain ranges are compensated by:",
+      "options": ["Lateral density variations at constant depth", "Deep crustal roots of lower-density material extending into the mantle", "Dynamic support from mantle convection", "Elastic bending of the lithosphere"],
+      "answer": 1,
+      "solution": "Airy's hypothesis (1755) proposes that topographic highs are compensated by thickened crustal 'roots' extending into the denser mantle (like icebergs). Higher mountains have deeper roots, explaining the inverse relationship between elevation and Moho depth.",
+      "estSec": 40, "topicWeight": 0.14, "source": "curated"
+    },
+    {
+      "id": 6, "subject": "Domain Knowledge", "topic": "Solid Earth Geophysics · Geothermics", "section": "Domain", "type": "MCQ", "marks": 1, "difficulty": "medium",
+      "stem": "The geothermal gradient in stable continental cratons is typically:",
+      "options": ["~10°C/km", "~25–30°C/km", "~50°C/km", "~100°C/km"],
+      "answer": 0,
+      "solution": "Stable continental cratons have low geothermal gradients (~10–15°C/km) due to thick, cold lithospheric roots. Average continental gradient is ~25–30°C/km, while tectonically active/volcanic regions can exceed 50°C/km.",
+      "estSec": 30, "topicWeight": 0.14, "source": "curated"
+    },
+    {
+      "id": 7, "subject": "Domain Knowledge", "topic": "Earthquake Seismology · Wave Propagation", "section": "Domain", "type": "MCQ", "marks": 1, "difficulty": "medium",
+      "stem": "P-waves in seismology are called 'primary' waves because they:",
+      "options": ["Are the most energetic", "Arrive first at seismograph stations", "Are generated at the primary focus", "Travel only through the primary crust"],
+      "answer": 1,
+      "solution": "P-waves (Primary/compressional) are the fastest seismic body waves and arrive first at any seismograph station. They propagate by volumetric compression and rarefaction and can travel through solids, liquids, and gases.",
+      "estSec": 25, "topicWeight": 0.14, "source": "curated"
+    },
+    {
+      "id": 8, "subject": "Domain Knowledge", "topic": "Earthquake Seismology · Magnitude Scales", "section": "Domain", "type": "MCQ", "marks": 1, "difficulty": "medium",
+      "stem": "The moment magnitude (Mw) scale is related to earthquake source parameters through:",
+      "options": ["Peak ground acceleration", "Seismic moment M₀ = μAD", "Modified Mercalli intensity", "Richter amplitude measurement"],
+      "answer": 1,
+      "solution": "Mw = (2/3) log₁₀(M₀) − 10.7, where M₀ = μAD is the seismic moment (μ = rigidity, A = fault area, D = average displacement). Mw does not saturate for large earthquakes, unlike the Richter local magnitude ML.",
+      "estSec": 30, "topicWeight": 0.14, "source": "curated"
+    },
+    {
+      "id": 9, "subject": "Domain Knowledge", "topic": "Earthquake Seismology · Focal Mechanisms", "section": "Domain", "type": "MCQ", "marks": 1, "difficulty": "medium",
+      "stem": "A strike-slip focal mechanism (beach ball) on a lower-hemisphere projection shows:",
+      "options": ["Dark quadrants at top and bottom with a vertical nodal plane", "A white center surrounded by dark quadrants", "Two vertical nodal planes dividing the sphere into four equal quadrants", "A completely dark or white sphere"],
+      "answer": 2,
+      "solution": "Strike-slip fault mechanisms have both nodal planes nearly vertical, producing four equal quadrants on the focal sphere. The P and T axes are horizontal, and the B-axis is vertical. Left-lateral and right-lateral solutions are mirror images.",
+      "estSec": 35, "topicWeight": 0.14, "source": "curated"
+    },
+    {
+      "id": 10, "subject": "Domain Knowledge", "topic": "Earthquake Seismology · Seismic Hazards", "section": "Domain", "type": "MCQ", "marks": 1, "difficulty": "easy",
+      "stem": "The Peak Ground Acceleration (PGA) is an important parameter in seismic hazard assessment because:",
+      "options": ["It directly measures the energy released by the earthquake", "It quantifies the maximum shaking intensity relevant to structural design", "It determines the earthquake's magnitude", "It predicts the exact location of future earthquakes"],
+      "answer": 1,
+      "solution": "PGA is the maximum horizontal acceleration experienced by the ground during earthquake shaking. It is the primary input for building codes and structural engineering design, directly related to the inertial forces that structures must withstand.",
+      "estSec": 30, "topicWeight": 0.14, "source": "curated"
+    },
+    {
+      "id": 11, "subject": "Domain Knowledge", "topic": "Earthquake Seismology · Crustal Structure", "section": "Domain", "type": "MCQ", "marks": 1, "difficulty": "medium",
+      "stem": "The Conrad discontinuity, observed in some continental regions, separates:",
+      "options": ["The upper and lower crust", "The crust and upper mantle", "The upper and lower mantle", "The lithosphere and asthenosphere"],
+      "answer": 0,
+      "solution": "The Conrad discontinuity (~15–20 km depth) separates the felsic (granitic/sialic) upper crust from the mafic (basaltic/simatic) lower crust, marked by a seismic velocity increase from ~6.0 to ~6.5 km/s. It is not universally observed and is best developed in Precambrian shields.",
+      "estSec": 35, "topicWeight": 0.14, "source": "curated"
+    },
+    {
+      "id": 12, "subject": "Domain Knowledge", "topic": "Earthquake Seismology · Attenuation", "section": "Domain", "type": "MCQ", "marks": 1, "difficulty": "medium",
+      "stem": "The quality factor Q in seismology is inversely related to:",
+      "options": ["Seismic wave velocity", "Seismic wave attenuation (absorption)", "Earthquake magnitude", "Focal depth"],
+      "answer": 1,
+      "solution": "Q = 2π × (energy stored per cycle / energy lost per cycle). High Q means low attenuation (waves propagate efficiently). Low Q indicates high attenuation, common in partially molten zones, sedimentary basins, and fault-damaged regions.",
+      "estSec": 35, "topicWeight": 0.14, "source": "curated"
+    },
+    {
+      "id": 13, "subject": "Domain Knowledge", "topic": "Gravity & Magnetic Methods · Gravity Corrections", "section": "Domain", "type": "MCQ", "marks": 1, "difficulty": "easy",
+      "stem": "The Bouguer correction accounts for the gravitational effect of:",
+      "options": ["Topographic terrain above and below the station", "The slab of rock between the station and the datum elevation", "Lateral density variations in the crust", "Tidal variations in the gravitational field"],
+      "answer": 1,
+      "solution": "The Bouguer slab correction (2πGρh) removes the gravitational attraction of the infinite slab of rock between the station and the reference datum. Combined with terrain correction, it yields the Bouguer anomaly used for subsurface density interpretation.",
+      "estSec": 30, "topicWeight": 0.14, "source": "curated"
+    },
+    {
+      "id": 14, "subject": "Domain Knowledge", "topic": "Gravity & Magnetic Methods · Magnetic Processing", "section": "Domain", "type": "MCQ", "marks": 1, "difficulty": "medium",
+      "stem": "Reduction to the pole (RTP) in magnetic data processing is used to:",
+      "options": ["Remove diurnal field variations", "Center magnetic anomalies directly over their causative sources", "Convert magnetic data to equivalent gravity values", "Enhance deep crustal structures only"],
+      "answer": 1,
+      "solution": "RTP recalculates magnetic anomalies as if the inducing field were vertical (as at the magnetic pole). This removes the asymmetry caused by non-vertical field inclination, centering anomalies over their sources and simplifying geological interpretation.",
+      "estSec": 35, "topicWeight": 0.14, "source": "curated"
+    },
+    {
+      "id": 15, "subject": "Domain Knowledge", "topic": "Gravity & Magnetic Methods · Magnetic Interpretation", "section": "Domain", "type": "MCQ", "marks": 1, "difficulty": "hard",
+      "stem": "When remanent magnetization dominates (Q ratio > 1) in a rock body, the observed magnetic anomaly:",
+      "options": ["Is always aligned with the present-day field direction", "May be offset or reversed relative to the expected anomaly from induced magnetization alone", "Can be ignored for interpretation purposes", "Is always weaker than the induced component"],
+      "answer": 1,
+      "solution": "When Q = Mr/Mi > 1, the remanent magnetization direction (locked in at the time of rock formation) may differ significantly from the present field. This causes anomalies that are shifted, inverted, or asymmetrical compared to predictions based solely on induced magnetization.",
+      "estSec": 40, "topicWeight": 0.14, "source": "curated"
+    },
+    {
+      "id": 16, "subject": "Domain Knowledge", "topic": "Gravity & Magnetic Methods · Potential Theory", "section": "Domain", "type": "MCQ", "marks": 1, "difficulty": "medium",
+      "stem": "Euler deconvolution in gravity/magnetic interpretation provides estimates of:",
+      "options": ["The density or magnetization contrast of the source", "Source depth and structural index (geometry type)", "Regional trend polynomial coefficients", "Terrain correction values"],
+      "answer": 1,
+      "solution": "Euler deconvolution uses the homogeneity equation (r · ∇T = −NT, where N is the structural index) to jointly estimate source position and geometry. Structural index N indicates source type: sphere (N=3), cylinder (N=2), dike/step (N=1), contact (N=0).",
+      "estSec": 35, "topicWeight": 0.14, "source": "curated"
+    },
+    {
+      "id": 17, "subject": "Domain Knowledge", "topic": "Gravity & Magnetic Methods · Gravity Interpretation", "section": "Domain", "type": "MCQ", "marks": 1, "difficulty": "medium",
+      "stem": "A negative Bouguer anomaly over a sedimentary basin typically indicates:",
+      "options": ["Dense basement rocks at shallow depth", "Thick accumulation of low-density sediments filling a graben", "High-density igneous intrusions", "Shallowing of the Moho"],
+      "answer": 1,
+      "solution": "Negative Bouguer anomalies reflect mass deficiency. Over basins, thick low-density sedimentary fill (ρ ≈ 2.0–2.4 g/cm³) relative to the denser surrounding basement (ρ ≈ 2.67–2.75 g/cm³) produces a gravity low proportional to basin depth.",
+      "estSec": 35, "topicWeight": 0.14, "source": "curated"
+    },
+    {
+      "id": 18, "subject": "Domain Knowledge", "topic": "Gravity & Magnetic Methods · Magnetics", "section": "Domain", "type": "MCQ", "marks": 1, "difficulty": "medium",
+      "stem": "The Koenigsberger ratio (Q) is defined as the ratio of:",
+      "options": ["Gravity anomaly to Bouguer correction", "Remanent magnetization to induced magnetization", "Magnetic susceptibility to bulk density", "Total magnetic field intensity to its horizontal component"],
+      "answer": 1,
+      "solution": "Q = Mr/Mi, where Mr is remanent magnetization and Mi = κH is induced magnetization (κ = susceptibility, H = ambient field). When Q > 1, remanence dominates and anomalies may not align with the present field — critical for interpreting ancient rocks and paleomagnetic data.",
+      "estSec": 40, "topicWeight": 0.14, "source": "curated"
+    },
+    {
+      "id": 19, "subject": "Domain Knowledge", "topic": "Electrical Methods · Resistivity Survey", "section": "Domain", "type": "MCQ", "marks": 1, "difficulty": "easy",
+      "stem": "In the Wenner electrode configuration, the spacing between all adjacent electrodes is:",
+      "options": ["Unequal", "Equal", "Proportional to depth of investigation", "Inversely proportional to resistivity"],
+      "answer": 1,
+      "solution": "The Wenner array uses equal spacing 'a' between all four electrodes (A-M-N-B equally spaced). This simplifies field setup but requires more power. The geometric factor K = 2πa, and apparent resistivity ρa = 2πa(ΔV/I).",
+      "estSec": 25, "topicWeight": 0.14, "source": "curated"
+    },
+    {
+      "id": 20, "subject": "Domain Knowledge", "topic": "Electrical Methods · MT/AMT", "section": "Domain", "type": "MCQ", "marks": 1, "difficulty": "medium",
+      "stem": "The skin depth in magnetotelluric (MT) soundings is given by:",
+      "options": ["δ = 503√(ρf) metres", "δ = 503√(ρ/f) metres", "δ = 503√(f/ρ) metres", "δ = 503 × ρ × f metres"],
+      "answer": 1,
+      "solution": "Skin depth δ ≈ 503√(ρ/f) metres, where ρ is resistivity (Ω·m) and f is frequency (Hz). Lower frequencies penetrate deeper and higher resistivity increases penetration depth. This governs the depth of investigation in MT surveys.",
+      "estSec": 35, "topicWeight": 0.14, "source": "curated"
+    },
+    {
+      "id": 21, "subject": "Domain Knowledge", "topic": "Electrical Methods · MT/AMT", "section": "Domain", "type": "MCQ", "marks": 1, "difficulty": "hard",
+      "stem": "The 'dead band' in natural magnetotelluric signals refers to the frequency range where:",
+      "options": ["The electric field is too weak to measure", "Natural electromagnetic signals (sferics) are unreliable and highly variable", "The magnetic field polarity reverses", "Cultural noise completely masks the signal"],
+      "answer": 1,
+      "solution": "The dead band (~1–5 kHz) lies between the Schumann resonances (ELF) and the sferic signals (VLF). Natural MT signals in this range are weak and variable, which is why controlled-source AMT (CSAMT) or radioMT methods use artificial transmitters for reliable data.",
+      "estSec": 40, "topicWeight": 0.14, "source": "curated"
+    },
+    {
+      "id": 22, "subject": "Domain Knowledge", "topic": "Electrical Methods · IP Method", "section": "Domain", "type": "MCQ", "marks": 1, "difficulty": "medium",
+      "stem": "In time-domain induced polarization (IP), the chargeability is measured as:",
+      "options": ["The peak voltage during current flow", "The integrated decay voltage normalized by the primary voltage", "The ratio of secondary to primary resistance", "The frequency-dependent phase angle"],
+      "answer": 1,
+      "solution": "Chargeability M = (1/Vp) ∫V(t)dt over a time window after current shut-off, measured in ms or mV/V. High chargeability indicates metallic mineralization (electrode polarization) or clay-rich zones (membrane polarization).",
+      "estSec": 35, "topicWeight": 0.14, "source": "curated"
+    },
+    {
+      "id": 23, "subject": "Domain Knowledge", "topic": "Electrical Methods · Self Potential", "section": "Domain", "type": "MCQ", "marks": 1, "difficulty": "easy",
+      "stem": "Self-potential (SP) anomalies over massive sulfide ore bodies are typically:",
+      "options": ["Positive", "Negative", "Zero", "Variable with no consistent pattern"],
+      "answer": 1,
+      "solution": "SP anomalies over massive sulfides are characteristically negative (−100 to −500 mV) due to electrochemical (oxidation-reduction) processes at the ore–wallrock interface. The sulfide body acts as an electronic conductor connecting oxidizing and reducing zones.",
+      "estSec": 25, "topicWeight": 0.14, "source": "curated"
+    },
+    {
+      "id": 24, "subject": "Domain Knowledge", "topic": "Seismic Prospecting · Reflection Processing", "section": "Domain", "type": "MCQ", "marks": 1, "difficulty": "easy",
+      "stem": "The primary purpose of seismic deconvolution in data processing is to:",
+      "options": ["Remove surface wave noise", "Compress the source wavelet and improve temporal resolution", "Migrate dipping reflectors to their true positions", "Correct for topographic effects"],
+      "answer": 1,
+      "solution": "Deconvolution designs an inverse filter to compress the source wavelet (ideally to a spike), removing reverberations, ghosts, and short-period multiples, thereby improving temporal resolution and revealing finer subsurface stratigraphic detail.",
+      "estSec": 30, "topicWeight": 0.14, "source": "curated"
+    },
+    {
+      "id": 25, "subject": "Domain Knowledge", "topic": "Seismic Prospecting · Reflection Processing", "section": "Domain", "type": "MCQ", "marks": 1, "difficulty": "medium",
+      "stem": "Velocity analysis in seismic reflection processing provides velocities needed for:",
+      "options": ["Filtering ground roll only", "NMO correction, stacking, and time-to-depth conversion", "Source signature estimation", "Static corrections only"],
+      "answer": 1,
+      "solution": "Velocity analysis (using semblance, constant-velocity stacks, or semblance panels) provides NMO velocities for moveout correction, stacking velocities for CMP summation, and interval velocities for time-to-depth conversion — essential for all subsequent processing steps.",
+      "estSec": 35, "topicWeight": 0.14, "source": "curated"
+    },
+    {
+      "id": 26, "subject": "Domain Knowledge", "topic": "Seismic Prospecting · Reflection Processing", "section": "Domain", "type": "MCQ", "marks": 1, "difficulty": "medium",
+      "stem": "The CMP stack improves signal-to-noise ratio by approximately:",
+      "options": ["n times (where n = fold of coverage)", "√n times", "n² times", "2n times"],
+      "answer": 1,
+      "solution": "For random (incoherent) noise, stacking n traces improves S/N by √n through statistical averaging. For coherent noise that stacks out (with proper NMO/DMO), improvement can be greater. This is the fundamental advantage of multi-fold CMP acquisition.",
+      "estSec": 30, "topicWeight": 0.14, "source": "curated"
+    },
+    {
+      "id": 27, "subject": "Domain Knowledge", "topic": "Seismic Prospecting · Reflection Processing", "section": "Domain", "type": "MCQ", "marks": 1, "difficulty": "hard",
+      "stem": "Pre-stack depth migration (PSDM) is essential when:",
+      "options": ["The subsurface has simple flat-layered geology", "Strong lateral velocity variations exist (e.g., salt bodies, thrust belts)", "Only shallow targets are being imaged", "The fold of coverage is very high"],
+      "answer": 1,
+      "solution": "PSDM handles strong lateral velocity variations (salt diapirs, overthrust structures) by migrating each trace before stacking using a detailed velocity model. Time migration assumes mild lateral velocity gradients and produces mispositioned events in complex geology.",
+      "estSec": 40, "topicWeight": 0.14, "source": "curated"
+    },
+    {
+      "id": 28, "subject": "Domain Knowledge", "topic": "Seismic Prospecting · Refraction", "section": "Domain", "type": "MCQ", "marks": 1, "difficulty": "medium",
+      "stem": "Seismic refraction surveys cannot detect a low-velocity layer (LVL) beneath a high-velocity layer because:",
+      "options": ["The seismic source energy is insufficient", "No critically refracted head wave is generated at the top of the LVL", "S-waves are preferentially attenuated in the LVL", "The refracted wave arrives before the direct wave"],
+      "answer": 1,
+      "solution": "In an LVL, Snell's law prevents critical refraction because the required incidence angle exceeds 90° (θc = sin⁻¹(V1/V2) is undefined when V2 < V1). This 'hidden layer' problem is a fundamental limitation of the refraction method.",
+      "estSec": 40, "topicWeight": 0.14, "source": "curated"
+    },
+    {
+      "id": 29, "subject": "Domain Knowledge", "topic": "Seismic Prospecting · Acquisition", "section": "Domain", "type": "MCQ", "marks": 1, "difficulty": "medium",
+      "stem": "The maximum source-receiver offset in a seismic survey is chosen primarily based on:",
+      "options": ["The desired frequency bandwidth", "The depth of the deepest target and the velocity structure", "The number of recording channels available", "The surface terrain roughness"],
+      "answer": 1,
+      "solution": "Maximum offset must be sufficient to record reflections from the deepest target with adequate moveout for velocity analysis. A common rule of thumb is: max offset ≈ 1.5–2.0 × target depth, depending on velocity gradient and desired velocity resolution.",
+      "estSec": 35, "topicWeight": 0.14, "source": "curated"
+    },
+    {
+      "id": 30, "subject": "Domain Knowledge", "topic": "Borehole / Well Logging · Gamma Ray", "section": "Domain", "type": "MCQ", "marks": 1, "difficulty": "easy",
+      "stem": "The natural gamma ray log in a borehole primarily distinguishes between:",
+      "options": ["Oil-bearing and water-bearing zones", "Shale (high GR) and sandstone/limestone (low GR) lithologies", "High-porosity and low-porosity zones", "Cased and open-hole sections"],
+      "answer": 1,
+      "solution": "Gamma ray logs measure natural radioactivity from K-40, U, and Th. Shales have high GR (>75 API) due to radioactive elements in clay minerals; clean sandstones and limestones have low GR (<50 API). It is the primary lithology indicator and correlation tool.",
+      "estSec": 25, "topicWeight": 0.14, "source": "curated"
+    },
+    {
+      "id": 31, "subject": "Domain Knowledge", "topic": "Borehole / Well Logging · Resistivity", "section": "Domain", "type": "MCQ", "marks": 1, "difficulty": "medium",
+      "stem": "Archie's equation relates formation resistivity to porosity and water saturation through parameters that include:",
+      "options": ["Only the cementation factor", "Tortuosity factor (a), cementation exponent (m), and saturation exponent (n)", "Matrix density and bulk density", "Acoustic travel time and lithology factor"],
+      "answer": 1,
+      "solution": "Archie's law: Rt = a·Rw/(φᵐ·Swⁿ). The parameters are: a (tortuosity, ~0.62–1.0), m (cementation, ~1.8–2.2), n (saturation, ~2.0), Rw (formation water resistivity). Essential for computing porosity and water saturation from resistivity logs.",
+      "estSec": 35, "topicWeight": 0.14, "source": "curated"
+    },
+    {
+      "id": 32, "subject": "Domain Knowledge", "topic": "Borehole / Well Logging · Density-Neutron", "section": "Domain", "type": "MCQ", "marks": 1, "difficulty": "medium",
+      "stem": "A gas-bearing zone is identified on a density–neutron porosity plot by:",
+      "options": ["Both porosity logs reading identically", "Neutron porosity reading much higher than density porosity", "Density porosity reading much higher than neutron porosity (crossover effect)", "Both logs showing minimum porosity values"],
+      "answer": 2,
+      "solution": "Gas has low hydrogen index (low neutron porosity) and low bulk density (high density porosity on limestone scale). The 'crossover' — density porosity > neutron porosity — is a classic gas indicator. The separation increases with gas saturation and porosity.",
+      "estSec": 35, "topicWeight": 0.14, "source": "curated"
+    },
+    {
+      "id": 33, "subject": "Domain Knowledge", "topic": "Borehole / Well Logging · Sonic", "section": "Domain", "type": "MCQ", "marks": 1, "difficulty": "medium",
+      "stem": "The Wyllie time-average equation relates sonic transit time to porosity as:",
+      "options": ["Δt = φ·Δtma + (1−φ)·Δtf", "Δt = φ·Δtf + (1−φ)·Δtma", "Δt = Δtf/φ + Δtma", "Δt = φ²·Δtf + (1−φ²)·Δtma"],
+      "answer": 1,
+      "solution": "Wyllie equation: Δt = φ·Δtf + (1−φ)·Δtma, where Δtf is fluid transit time (~189 μs/ft for water) and Δtma is matrix transit time (e.g., 55.5 μs/ft for sandstone, 47.6 μs/ft for limestone). A compaction factor (Cp) correction is needed for unconsolidated formations.",
+      "estSec": 30, "topicWeight": 0.14, "source": "curated"
+    },
+    {
+      "id": 34, "subject": "Domain Knowledge", "topic": "Borehole / Well Logging · Cement Bond", "section": "Domain", "type": "MCQ", "marks": 1, "difficulty": "hard",
+      "stem": "The cement bond log (CBL) evaluates well integrity by measuring:",
+      "options": ["Formation permeability from flow tests", "The amplitude of the first-arrival E1 casing signal to assess cement quality", "Natural gamma radiation from the cement sheath", "Acoustic velocity through the formation behind casing"],
+      "answer": 1,
+      "solution": "CBL measures E1 casing amplitude: good cement bond attenuates casing signal (low amplitude); poor bond allows strong casing resonance (high amplitude). The variable density log (VDL) provides full waveform display for comprehensive bond evaluation.",
+      "estSec": 40, "topicWeight": 0.14, "source": "curated"
+    },
+    {
+      "id": 35, "subject": "Domain Knowledge", "topic": "Borehole / Well Logging · NMR", "section": "Domain", "type": "MCQ", "marks": 1, "difficulty": "hard",
+      "stem": "Nuclear magnetic resonance (NMR) logging provides information about:",
+      "options": ["Natural gamma radioactivity of formations", "Porosity, pore-size distribution, and fluid types through hydrogen proton relaxation", "Formation water salinity via chlorine activation", "Rock mechanical properties from acoustic measurements"],
+      "answer": 1,
+      "solution": "NMR tools measure T₂ relaxation time distribution of hydrogen protons. This yields total porosity (independent of matrix), free fluid index (BVI/FFI), pore-size distribution, and can distinguish bound water from movable fluids — critical for permeability estimation.",
+      "estSec": 40, "topicWeight": 0.14, "source": "curated"
+    },
+    {
+      "id": 36, "subject": "Domain Knowledge", "topic": "Signal Processing · Fourier Analysis", "section": "Domain", "type": "MCQ", "marks": 1, "difficulty": "medium",
+      "stem": "The Nyquist frequency in digital signal processing equals:",
+      "options": ["The highest frequency in the signal", "Half the sampling frequency (fs/2)", "The lowest detectable frequency", "The dominant frequency of the source wavelet"],
+      "answer": 1,
+      "solution": "The Nyquist frequency = fs/2, where fs is the sampling rate. Frequencies above Nyquist alias (fold back into the signal band). Anti-alias filters must remove energy above Nyquist before digital sampling to prevent aliasing artifacts.",
+      "estSec": 25, "topicWeight": 0.14, "source": "curated"
+    },
+    {
+      "id": 37, "subject": "Domain Knowledge", "topic": "Signal Processing · Filtering", "section": "Domain", "type": "MCQ", "marks": 1, "difficulty": "easy",
+      "stem": "A bandpass filter in seismic processing is designed to:",
+      "options": ["Pass all frequencies equally", "Retain the signal bandwidth while rejecting noise outside it", "Convert time-domain traces to frequency domain", "Remove all multiple reflections"],
+      "answer": 1,
+      "solution": "Bandpass filtering retains frequencies within a specified passband (e.g., 8–80 Hz) and attenuates frequencies outside it. This enhances S/N by removing low-frequency ground roll, high-frequency ambient noise, and out-of-band cultural noise.",
+      "estSec": 30, "topicWeight": 0.14, "source": "curated"
+    },
+    {
+      "id": 38, "subject": "Domain Knowledge", "topic": "Signal Processing · Inversion", "section": "Domain", "type": "MCQ", "marks": 1, "difficulty": "medium",
+      "stem": "Seismic inversion converts reflection seismic data into:",
+      "options": ["Time-migrated stacked sections", "A model of acoustic impedance (velocity × density) as a function of depth", "Gravity and magnetic anomaly maps", "Magnetic polarity sequences for dating"],
+      "answer": 1,
+      "solution": "Seismic inversion transforms interface-property (reflectivity) data into layer-property (impedance) models. Post-stack inversion yields acoustic impedance (AI = ρVp); pre-stack AVO inversion can additionally yield S-impedance and density for lithology and fluid prediction.",
+      "estSec": 35, "topicWeight": 0.14, "source": "curated"
+    },
+    {
+      "id": 39, "subject": "Domain Knowledge", "topic": "Signal Processing · Inversion Theory", "section": "Domain", "type": "MCQ", "marks": 1, "difficulty": "hard",
+      "stem": "In geophysical inverse theory, the resolution matrix R ideally equals the identity matrix when:",
+      "options": ["The data are noisy", "Each model parameter is independently resolved without trade-offs", "The number of data equals the number of parameters", "The forward problem is nonlinear"],
+      "answer": 1,
+      "solution": "The resolution matrix R = (GTG)⁻¹GTG (linear case) maps true to estimated parameters: m_est = R·m_true. R = I means perfect resolution (each parameter recovered independently). When R ≠ I, parameters are correlated and the model is under-resolved — a fundamental limitation of non-unique inverse problems.",
+      "estSec": 40, "topicWeight": 0.14, "source": "curated"
+    },
+    {
+      "id": 40, "subject": "Domain Knowledge", "topic": "Signal Processing · Tomography", "section": "Domain", "type": "MCQ", "marks": 1, "difficulty": "medium",
+      "stem": "Seismic tomography images subsurface velocity structure by:",
+      "options": ["Analyzing surface wave dispersion only", "Inverting traveltime residuals from many crossing ray paths through the study volume", "Measuring amplitude variations along a single profile", "Stacking common-shot gathers"],
+      "answer": 1,
+      "solution": "Seismic tomography uses traveltimes from many source–receiver pairs sampling a 2D/3D volume. Traveltime residuals (observed − predicted) are inverted using ray tracing and iterative linearized inversion to yield velocity perturbation models.",
+      "estSec": 40, "topicWeight": 0.14, "source": "curated"
+    },
+    {
+      "id": 41, "subject": "Aptitude", "topic": "Quantitative · Number Systems", "section": "Aptitude", "type": "MCQ", "marks": 1, "difficulty": "medium",
+      "stem": "What is the remainder when 2⁸ is divided by 7?",
+      "options": ["1", "2", "3", "4"],
+      "answer": 2,
+      "solution": "2⁸ = 256. 256 ÷ 7 = 36 remainder 4. Alternatively, modular arithmetic: 2³ = 8 ≡ 1 (mod 7), so 2⁸ = (2³)²·2² ≡ 1²·4 = 4 (mod 7).",
+      "estSec": 30, "topicWeight": 0.04, "source": "curated"
+    },
+    {
+      "id": 42, "subject": "Aptitude", "topic": "Quantitative · Percentages", "section": "Aptitude", "type": "MCQ", "marks": 1, "difficulty": "easy",
+      "stem": "A product costs ₹800 after a 20% discount. What was the original price?",
+      "options": ["₹960", "₹1000", "₹1040", "₹1100"],
+      "answer": 1,
+      "solution": "Discounted price = 80% of original. 0.8 × Original = 800. Original = 800/0.8 = ₹1000.",
+      "estSec": 25, "topicWeight": 0.04, "source": "curated"
+    },
+    {
+      "id": 43, "subject": "Aptitude", "topic": "Quantitative · Profit & Loss", "section": "Aptitude", "type": "MCQ", "marks": 1, "difficulty": "medium",
+      "stem": "A shopkeeper marks a product 40% above cost price and then gives a 20% discount. What is his profit percentage?",
+      "options": ["10%", "12%", "15%", "20%"],
+      "answer": 1,
+      "solution": "Let CP = 100. MP = 140. SP = 140 × 0.8 = 112. Profit = 12%. Profit% = (112−100)/100 × 100 = 12%.",
+      "estSec": 30, "topicWeight": 0.04, "source": "curated"
+    },
+    {
+      "id": 44, "subject": "Aptitude", "topic": "Quantitative · Time & Distance", "section": "Aptitude", "type": "MCQ", "marks": 1, "difficulty": "medium",
+      "stem": "A train 120 m long passes a pole in 12 seconds. How long will it take to cross a platform 180 m long?",
+      "options": ["20 seconds", "25 seconds", "30 seconds", "35 seconds"],
+      "answer": 2,
+      "solution": "Speed = 120/12 = 10 m/s. Total distance = 120 + 180 = 300 m. Time = 300/10 = 30 seconds.",
+      "estSec": 30, "topicWeight": 0.04, "source": "curated"
+    },
+    {
+      "id": 45, "subject": "Aptitude", "topic": "Reasoning · Syllogism", "section": "Aptitude", "type": "MCQ", "marks": 1, "difficulty": "medium",
+      "stem": "Statements: All dogs are animals. Some animals are cats. Conclusions: (I) Some dogs are cats. (II) All cats are dogs. Which conclusion follows?",
+      "options": ["Only I follows", "Only II follows", "Both I and II follow", "Neither I nor II follows"],
+      "answer": 3,
+      "solution": "From the Venn diagram: 'All dogs are animals' and 'some animals are cats' does not guarantee any overlap between dogs and cats. The common animals could be non-dog animals. Neither conclusion is logically certain.",
+      "estSec": 35, "topicWeight": 0.04, "source": "curated"
+    },
+    {
+      "id": 46, "subject": "Aptitude", "topic": "Quantitative · Simple Interest", "section": "Aptitude", "type": "MCQ", "marks": 1, "difficulty": "medium",
+      "stem": "What is the simple interest on ₹5000 at 8% per annum for 3 years?",
+      "options": ["₹800", "₹1000", "₹1200", "₹1500"],
+      "answer": 2,
+      "solution": "SI = PRT/100 = 5000 × 8 × 3 / 100 = ₹1200.",
+      "estSec": 25, "topicWeight": 0.04, "source": "curated"
+    },
+    {
+      "id": 47, "subject": "Aptitude", "topic": "Quantitative · Time & Work", "section": "Aptitude", "type": "MCQ", "marks": 1, "difficulty": "medium",
+      "stem": "A can do a piece of work in 15 days and B can do it in 20 days. Working together, how many days will they take?",
+      "options": ["8 days", "8⁴⁄₇ days", "9 days", "10 days"],
+      "answer": 1,
+      "solution": "A's rate = 1/15 per day. B's rate = 1/20 per day. Combined = 1/15 + 1/20 = 4/60 + 3/60 = 7/60 per day. Time = 60/7 = 8⁴⁄₇ days ≈ 8.57 days.",
+      "estSec": 35, "topicWeight": 0.04, "source": "curated"
+    },
+    {
+      "id": 48, "subject": "Aptitude", "topic": "Quantitative · Ratio & Proportion", "section": "Aptitude", "type": "MCQ", "marks": 1, "difficulty": "medium",
+      "stem": "If A:B = 3:5 and B:C = 2:3, what is A:B:C?",
+      "options": ["3:5:3", "6:10:15", "3:10:15", "6:5:3"],
+      "answer": 1,
+      "solution": "A:B = 3:5, B:C = 2:3. Make B common: A:B = 6:10, B:C = 10:15. Therefore A:B:C = 6:10:15.",
+      "estSec": 25, "topicWeight": 0.04, "source": "curated"
+    },
+    {
+      "id": 49, "subject": "Aptitude", "topic": "Quantitative · Probability", "section": "Aptitude", "type": "MCQ", "marks": 1, "difficulty": "medium",
+      "stem": "Two dice are thrown simultaneously. What is the probability that the sum is 7?",
+      "options": ["1/6", "1/12", "5/36", "7/36"],
+      "answer": 0,
+      "solution": "Favorable outcomes: (1,6),(2,5),(3,4),(4,3),(5,2),(6,1) = 6 outcomes. Total outcomes = 36. Probability = 6/36 = 1/6.",
+      "estSec": 30, "topicWeight": 0.04, "source": "curated"
+    },
+    {
+      "id": 50, "subject": "Aptitude", "topic": "Reasoning · Coding-Decoding", "section": "Aptitude", "type": "MCQ", "marks": 1, "difficulty": "hard",
+      "stem": "If DELHI is coded as CDKGH, how is MUMBAI coded?",
+      "options": ["LTLAZH", "LVKAZH", "LTLBZI", "MTNAZJ"],
+      "answer": 0,
+      "solution": "Each letter is shifted by −1 in the alphabet: D→C, E→D, L→K, H→G, I→H. Applying −1 to MUMBAI: M→L, U→T, M→L, B→A, A→Z, I→H → LTLAZH.",
+      "estSec": 35, "topicWeight": 0.04, "source": "curated"
+    },
+    {
+      "id": 51, "subject": "Aptitude", "topic": "Quantitative · Algebra", "section": "Aptitude", "type": "MCQ", "marks": 1, "difficulty": "easy",
+      "stem": "If x + 1/x = 5, what is x² + 1/x²?",
+      "options": ["23", "25", "27", "30"],
+      "answer": 0,
+      "solution": "(x + 1/x)² = x² + 2 + 1/x². So x² + 1/x² = 5² − 2 = 25 − 2 = 23.",
+      "estSec": 30, "topicWeight": 0.04, "source": "curated"
+    },
+    {
+      "id": 52, "subject": "Aptitude", "topic": "Quantitative · Geometry", "section": "Aptitude", "type": "MCQ", "marks": 1, "difficulty": "easy",
+      "stem": "The diagonal of a square is 10√2 cm. What is its area?",
+      "options": ["100 cm²", "200 cm²", "50√2 cm²", "100√2 cm²"],
+      "answer": 0,
+      "solution": "Diagonal d = a√2, where a is the side. 10√2 = a√2 → a = 10 cm. Area = a² = 100 cm².",
+      "estSec": 30, "topicWeight": 0.04, "source": "curated"
+    },
+    {
+      "id": 53, "subject": "Aptitude", "topic": "Reasoning · Series", "section": "Aptitude", "type": "MCQ", "marks": 1, "difficulty": "hard",
+      "stem": "Find the next number: 2, 6, 12, 20, 30, ?",
+      "options": ["36", "40", "42", "48"],
+      "answer": 2,
+      "solution": "Differences: 4, 6, 8, 10, 12 (increasing by 2). Next = 30 + 12 = 42. Also n(n+1): 1×2=2, 2×3=6, 3×4=12, 4×5=20, 5×6=30, 6×7=42.",
+      "estSec": 30, "topicWeight": 0.04, "source": "curated"
+    },
+    {
+      "id": 54, "subject": "Aptitude", "topic": "Quantitative · Averages", "section": "Aptitude", "type": "MCQ", "marks": 1, "difficulty": "easy",
+      "stem": "The average of 5 numbers is 20. If one number is removed, the average becomes 18. What is the removed number?",
+      "options": ["22", "26", "28", "30"],
+      "answer": 2,
+      "solution": "Sum of 5 numbers = 5 × 20 = 100. Sum of remaining 4 = 4 × 18 = 72. Removed number = 100 − 72 = 28.",
+      "estSec": 25, "topicWeight": 0.04, "source": "curated"
+    },
+    {
+      "id": 55, "subject": "Aptitude", "topic": "Quantitative · Pipes & Cisterns", "section": "Aptitude", "type": "MCQ", "marks": 1, "difficulty": "hard",
+      "stem": "Pipe A can fill a tank in 10 hours and Pipe B can empty it in 15 hours. If both are opened simultaneously, how long will it take to fill the tank?",
+      "options": ["25 hours", "30 hours", "20 hours", "35 hours"],
+      "answer": 1,
+      "solution": "A's filling rate = 1/10 per hour. B's emptying rate = 1/15 per hour. Net rate = 1/10 − 1/15 = 3/30 − 2/30 = 1/30 per hour. Time = 30 hours.",
+      "estSec": 35, "topicWeight": 0.04, "source": "curated"
+    },
+    {
+      "id": 56, "subject": "Aptitude", "topic": "Reasoning · Blood Relations", "section": "Aptitude", "type": "MCQ", "marks": 1, "difficulty": "medium",
+      "stem": "Pointing to a woman, Raj said, 'She is the mother of my father's only grandchild.' How is the woman related to Raj?",
+      "options": ["Raj's mother", "Raj's grandmother", "Raj's wife", "Raj's sister"],
+      "answer": 2,
+      "solution": "Raj's father's only grandchild = Raj's child (Raj being the only child). The mother of Raj's child = Raj's wife.",
+      "estSec": 35, "topicWeight": 0.04, "source": "curated"
+    },
+    {
+      "id": 57, "subject": "Aptitude", "topic": "Quantitative · Areas & Volumes", "section": "Aptitude", "type": "MCQ", "marks": 1, "difficulty": "medium",
+      "stem": "What is the volume of a cube with side length 5 cm?",
+      "options": ["25 cm³", "50 cm³", "100 cm³", "125 cm³"],
+      "answer": 3,
+      "solution": "Volume of cube = side³ = 5³ = 125 cm³.",
+      "estSec": 20, "topicWeight": 0.04, "source": "curated"
+    },
+    {
+      "id": 58, "subject": "Aptitude", "topic": "Quantitative · HCF & LCM", "section": "Aptitude", "type": "MCQ", "marks": 1, "difficulty": "easy",
+      "stem": "What is the HCF of 24, 36, and 60?",
+      "options": ["6", "8", "12", "24"],
+      "answer": 2,
+      "solution": "Prime factors: 24 = 2³×3, 36 = 2²×3², 60 = 2²×3×5. HCF = 2²×3 = 12.",
+      "estSec": 25, "topicWeight": 0.04, "source": "curated"
+    },
+    {
+      "id": 59, "subject": "Aptitude", "topic": "Reasoning · Direction Sense", "section": "Aptitude", "type": "MCQ", "marks": 1, "difficulty": "hard",
+      "stem": "A man walks 5 km North, turns right and walks 3 km, turns right again and walks 5 km. How far and in which direction is he from the start?",
+      "options": ["3 km East", "3 km West", "5 km East", "8 km North"],
+      "answer": 0,
+      "solution": "Path: (0,0) → 5 km N → (0,5) → 3 km E → (3,5) → 5 km S → (3,0). He is 3 km East of the starting point.",
+      "estSec": 30, "topicWeight": 0.04, "source": "curated"
+    },
+    {
+      "id": 60, "subject": "Aptitude", "topic": "Quantitative · Boats & Streams", "section": "Aptitude", "type": "MCQ", "marks": 1, "difficulty": "medium",
+      "stem": "A boat travels 20 km upstream in 5 hours and 20 km downstream in 2 hours. What is the speed of the boat in still water?",
+      "options": ["6 km/h", "7 km/h", "8 km/h", "9 km/h"],
+      "answer": 1,
+      "solution": "Upstream speed = 20/5 = 4 km/h. Downstream speed = 20/2 = 10 km/h. Speed of boat = (10 + 4)/2 = 7 km/h. Speed of current = (10 − 4)/2 = 3 km/h.",
+      "estSec": 35, "topicWeight": 0.04, "source": "curated"
+    },
+    {
+      "id": 61, "subject": "Aptitude", "topic": "Quantitative · Trigonometry", "section": "Aptitude", "type": "MCQ", "marks": 1, "difficulty": "medium",
+      "stem": "The angle of elevation of the top of a building from a point 50 m away is 30°. What is the height of the building?",
+      "options": ["50/√3 m", "50√3 m", "25√3 m", "100 m"],
+      "answer": 0,
+      "solution": "tan 30° = height/50. Height = 50 × tan 30° = 50 × (1/√3) = 50/√3 m ≈ 28.87 m.",
+      "estSec": 30, "topicWeight": 0.04, "source": "curated"
+    },
+    {
+      "id": 62, "subject": "Aptitude", "topic": "Reasoning · Analogy", "section": "Aptitude", "type": "MCQ", "marks": 1, "difficulty": "medium",
+      "stem": "Doctor : Hospital :: Teacher : ?",
+      "options": ["Medicine", "Students", "School", "Knowledge"],
+      "answer": 2,
+      "solution": "A doctor works in a hospital; a teacher works in a school. The relationship is professional : workplace.",
+      "estSec": 20, "topicWeight": 0.04, "source": "curated"
+    },
+    {
+      "id": 63, "subject": "Aptitude", "topic": "Reasoning · Calendar", "section": "Aptitude", "type": "MCQ", "marks": 1, "difficulty": "hard",
+      "stem": "If January 1, 2024 was a Monday, what day of the week was January 1, 2025?",
+      "options": ["Monday", "Tuesday", "Wednesday", "Thursday"],
+      "answer": 2,
+      "solution": "2024 is a leap year (366 days). 366 mod 7 = 2. Monday + 2 days = Wednesday.",
+      "estSec": 35, "topicWeight": 0.04, "source": "curated"
+    },
+    {
+      "id": 64, "subject": "Aptitude", "topic": "Quantitative · Mixture & Alligation", "section": "Aptitude", "type": "MCQ", "marks": 1, "difficulty": "medium",
+      "stem": "In what ratio must rice at ₹30/kg be mixed with rice at ₹40/kg to produce a mixture worth ₹34/kg?",
+      "options": ["2:3", "3:2", "3:4", "4:3"],
+      "answer": 1,
+      "solution": "Using alligation: (40 − 34):(34 − 30) = 6:4 = 3:2. So ₹30 rice : ₹40 rice = 3:2.",
+      "estSec": 30, "topicWeight": 0.04, "source": "curated"
+    },
+    {
+      "id": 65, "subject": "Aptitude", "topic": "Reasoning · Odd One Out", "section": "Aptitude", "type": "MCQ", "marks": 1, "difficulty": "medium",
+      "stem": "Which number is the odd one out: 4, 9, 16, 23, 36, 49?",
+      "options": ["9", "16", "23", "36"],
+      "answer": 2,
+      "solution": "4=2², 9=3², 16=4², 36=6², 49=7² — all perfect squares. 23 is not a perfect square, making it the odd one out.",
+      "estSec": 25, "topicWeight": 0.04, "source": "curated"
+    },
+    {
+      "id": 66, "subject": "General Awareness", "topic": "Indian Energy Sector", "section": "GK", "type": "MCQ", "marks": 1, "difficulty": "easy",
+      "stem": "ONGC was established in which year?",
+      "options": ["1952", "1956", "1960", "1965"],
+      "answer": 1,
+      "solution": "Oil and Natural Gas Corporation (ONGC) was established on August 14, 1956, as a government company under the Indian Companies Act. It was later converted to a public limited company in 1994.",
+      "estSec": 25, "topicWeight": 0.1, "source": "curated"
+    },
+    {
+      "id": 67, "subject": "General Awareness", "topic": "Indian Polity", "section": "GK", "type": "MCQ", "marks": 1, "difficulty": "medium",
+      "stem": "The President of India is elected by:",
+      "options": ["Direct popular vote", "Members of Parliament only", "An electoral college of elected members of Parliament and state legislatures", "The Supreme Court of India"],
+      "answer": 2,
+      "solution": "Article 54 provides that the President is elected by an electoral college comprising elected members of both Houses of Parliament and the elected members of the Legislative Assemblies of states and union territories of Delhi and Puducherry.",
+      "estSec": 25, "topicWeight": 0.1, "source": "curated"
+    },
+    {
+      "id": 68, "subject": "General Awareness", "topic": "Indian Geography", "section": "GK", "type": "MCQ", "marks": 1, "difficulty": "medium",
+      "stem": "The Bombay High (Mumbai High) offshore oil field is located in which basin?",
+      "options": ["Krishna-Godavari Basin", "Mumbai Offshore Basin", "Cambay Basin", "Assam Shelf"],
+      "answer": 1,
+      "solution": "Mumbai High (formerly Bombay High) is India's largest offshore oil field, located about 160 km west of Mumbai in the Mumbai Offshore Basin. Discovered in 1974, it produces from Eocene carbonates.",
+      "estSec": 30, "topicWeight": 0.1, "source": "curated"
+    },
+    {
+      "id": 69, "subject": "General Awareness", "topic": "Science & Technology", "section": "GK", "type": "MCQ", "marks": 1, "difficulty": "medium",
+      "stem": "India's first deep-water gas discovery in the Krishna-Godavari basin was made by:",
+      "options": ["ONGC", "Reliance Industries", "Cairn Energy", "GAIL"],
+      "answer": 1,
+      "solution": "Reliance Industries made the major D-6 (KG-D6) discovery in the Krishna-Godavari deep-water basin in 2002, one of India's largest gas discoveries with estimated reserves of about 14 TCF.",
+      "estSec": 30, "topicWeight": 0.1, "source": "curated"
+    },
+    {
+      "id": 70, "subject": "General Awareness", "topic": "Environment", "section": "GK", "type": "MCQ", "marks": 1, "difficulty": "easy",
+      "stem": "The Paris Agreement on climate change aims to limit global warming to:",
+      "options": ["1.0°C above pre-industrial levels", "1.5°C above pre-industrial levels", "2.0°C above pre-industrial levels", "Both 1.5°C and well below 2°C"],
+      "answer": 3,
+      "solution": "The Paris Agreement (2015) aims to limit warming to well below 2°C above pre-industrial levels, with efforts to limit it to 1.5°C, recognizing that this would significantly reduce the risks of climate change.",
+      "estSec": 30, "topicWeight": 0.1, "source": "curated"
+    },
+    {
+      "id": 71, "subject": "General Awareness", "topic": "Indian Economy", "section": "GK", "type": "MCQ", "marks": 1, "difficulty": "medium",
+      "stem": "The Directorate General of Hydrocarbons (DGH) in India is responsible for:",
+      "options": ["Regulating the downstream petroleum sector", "Overseeing upstream exploration and production activities", "Managing natural gas distribution networks", "Environmental clearances for all industries"],
+      "answer": 1,
+      "solution": "DGH is the technical arm of the Ministry of Petroleum and Natural Gas, responsible for regulating and promoting upstream (exploration and production) hydrocarbon activities under the NELP and HELP frameworks.",
+      "estSec": 30, "topicWeight": 0.1, "source": "curated"
+    },
+    {
+      "id": 72, "subject": "General Awareness", "topic": "General Science", "section": "GK", "type": "MCQ", "marks": 1, "difficulty": "easy",
+      "stem": "Which gas is commonly used in LPG cylinders for domestic cooking in India?",
+      "options": ["Methane", "Ethane", "Propane and Butane", "Natural Gas"],
+      "answer": 2,
+      "solution": "LPG (Liquefied Petroleum Gas) used in Indian households is primarily a mixture of propane (C₃H₈) and butane (C₄H₁₀), liquefied under moderate pressure for convenient storage and transport.",
+      "estSec": 25, "topicWeight": 0.1, "source": "curated"
+    },
+    {
+      "id": 73, "subject": "General Awareness", "topic": "Energy Sector", "section": "GK", "type": "MCQ", "marks": 1, "difficulty": "medium",
+      "stem": "India's strategic petroleum reserves are located at:",
+      "options": ["Mumbai, Delhi, and Kolkata", "Visakhapatnam, Mangalore, and Padur", "Chennai, Kochi, and Paradip", "Ahmedabad, Jaipur, and Lucknow"],
+      "answer": 1,
+      "solution": "India's underground strategic petroleum reserves (SPR) are carved out of rock caverns at Visakhapatnam (1.33 MMT), Mangalore (1.5 MMT), and Padur (2.5 MMT) for emergency oil supply.",
+      "estSec": 30, "topicWeight": 0.1, "source": "curated"
+    },
+    {
+      "id": 74, "subject": "General Awareness", "topic": "Indian Geography", "section": "GK", "type": "MCQ", "marks": 1, "difficulty": "hard",
+      "stem": "India's first offshore oil well was drilled at:",
+      "options": ["Bombay High", "Ankleshwar", "Aliabet in the Gulf of Cambay", "Mumbai harbor"],
+      "answer": 2,
+      "solution": "India's first offshore well was drilled at Aliabet in the Gulf of Cambay (Khambhat) in 1962, predating the discovery of Bombay High (1974) by over a decade.",
+      "estSec": 30, "topicWeight": 0.1, "source": "curated"
+    },
+    {
+      "id": 75, "subject": "General Awareness", "topic": "PSU & Industry", "section": "GK", "type": "MCQ", "marks": 1, "difficulty": "hard",
+      "stem": "The New Exploration Licensing Policy (NELP), introduced in India in 1997, was designed to:",
+      "options": ["Nationalize all oil fields", "Open the upstream E&P sector to private and foreign participation through competitive bidding", "Ban foreign investment in the energy sector", "Restrict exploration to ONGC and Oil India only"],
+      "answer": 1,
+      "solution": "NELP (1997) replaced the earlier licensing regime with competitive international bidding, allowing private Indian and foreign companies to explore for hydrocarbons. It aimed to attract investment, technology, and expertise to India's exploration sector.",
+      "estSec": 35, "topicWeight": 0.1, "source": "curated"
+    },
+    {
+      "id": 76, "subject": "English Language", "topic": "Vocabulary · Synonyms", "section": "English", "type": "MCQ", "marks": 1, "difficulty": "easy",
+      "stem": "Choose the word most similar in meaning to 'ABUNDANT':",
+      "options": ["Scarce", "Plentiful", "Moderate", "Limited"],
+      "answer": 1,
+      "solution": "Abundant means existing in large quantities; plentiful. It is the antonym of scarce or limited.",
+      "estSec": 20, "topicWeight": 0.1, "source": "curated"
+    },
+    {
+      "id": 77, "subject": "English Language", "topic": "Vocabulary · Antonyms", "section": "English", "type": "MCQ", "marks": 1, "difficulty": "easy",
+      "stem": "Choose the word most opposite in meaning to 'BENIGN':",
+      "options": ["Gentle", "Malignant", "Harmless", "Mild"],
+      "answer": 1,
+      "solution": "Benign means gentle, kindly, or not harmful. Malignant means harmful, hostile, or cancerous — the direct opposite.",
+      "estSec": 20, "topicWeight": 0.1, "source": "curated"
+    },
+    {
+      "id": 78, "subject": "English Language", "topic": "Grammar · Subject-Verb Agreement", "section": "English", "type": "MCQ", "marks": 1, "difficulty": "medium",
+      "stem": "Identify the grammatically correct sentence:",
+      "options": [
+        "The group of scientists were conducting experiments.",
+        "Neither the manager nor the employees was available.",
+        "Each of the candidates has submitted their application.",
+        "The news are not good today."
+      ],
+      "answer": 2,
+      "solution": "'Each' is a singular indefinite pronoun requiring the singular verb 'has'. Errors: (A) 'group' (collective noun) takes 'was'; (B) verb should agree with nearest subject 'employees' → 'were'; (D) 'news' is uncountable → 'is'.",
+      "estSec": 30, "topicWeight": 0.1, "source": "curated"
+    },
+    {
+      "id": 79, "subject": "English Language", "topic": "Idioms & Phrases", "section": "English", "type": "MCQ", "marks": 1, "difficulty": "medium",
+      "stem": "What does the idiom 'to burn the midnight oil' mean?",
+      "options": ["To waste resources", "To work late into the night", "To start a fire", "To be very angry"],
+      "answer": 1,
+      "solution": "'Burn the midnight oil' means to work or study late into the night, originally referring to working by oil lamp light before the advent of electricity.",
+      "estSec": 25, "topicWeight": 0.1, "source": "curated"
+    },
+    {
+      "id": 80, "subject": "English Language", "topic": "Reading Comprehension", "section": "English", "type": "MCQ", "marks": 1, "difficulty": "medium",
+      "stem": "Read the passage: 'The monsoon is a seasonal wind pattern that brings heavy rainfall to the Indian subcontinent. It is driven by the differential heating of land and sea.' What primarily drives the monsoon?",
+      "options": ["Ocean currents", "Differential heating of land and sea", "Mountain ranges", "Coriolis effect"],
+      "answer": 1,
+      "solution": "The passage explicitly states the monsoon is driven by differential heating of land and sea, which creates pressure gradients that reverse wind direction seasonally.",
+      "estSec": 30, "topicWeight": 0.1, "source": "curated"
+    },
+    {
+      "id": 81, "subject": "English Language", "topic": "Vocabulary · One Word Substitution", "section": "English", "type": "MCQ", "marks": 1, "difficulty": "easy",
+      "stem": "A person who loves books is called a:",
+      "options": ["Bibliophile", "Philatelist", "Numismatist", "Misanthropist"],
+      "answer": 0,
+      "solution": "Bibliophile = book lover (biblio = book, philia = love). Philatelist collects stamps; Numismatist collects coins; Misanthropist dislikes humanity.",
+      "estSec": 25, "topicWeight": 0.1, "source": "curated"
+    },
+    {
+      "id": 82, "subject": "English Language", "topic": "Grammar · Prepositions", "section": "English", "type": "MCQ", "marks": 1, "difficulty": "medium",
+      "stem": "Choose the correct preposition: 'He is proficient ___ English and French.'",
+      "options": ["in", "at", "on", "with"],
+      "answer": 0,
+      "solution": "'Proficient in' is the correct collocation. We say 'proficient in a language' or 'proficient at a skill'.",
+      "estSec": 25, "topicWeight": 0.1, "source": "curated"
+    },
+    {
+      "id": 83, "subject": "English Language", "topic": "Sentence Correction", "section": "English", "type": "MCQ", "marks": 1, "difficulty": "easy",
+      "stem": "Choose the correctly spelt word:",
+      "options": ["Accomodation", "Accommodation", "Acomodation", "Acommodation"],
+      "answer": 1,
+      "solution": "The correct spelling is 'Accommodation' — double 'c' and double 'm'. This is one of the most commonly misspelt words in English.",
+      "estSec": 25, "topicWeight": 0.1, "source": "curated"
+    },
+    {
+      "id": 84, "subject": "English Language", "topic": "Vocabulary · Antonyms", "section": "English", "type": "MCQ", "marks": 1, "difficulty": "hard",
+      "stem": "Choose the word most opposite in meaning to 'TRANSPARENT':",
+      "options": ["Clear", "Opaque", "Translucent", "Visible"],
+      "answer": 1,
+      "solution": "Transparent means allowing light to pass through clearly. Opaque means not allowing light to pass through — the direct opposite.",
+      "estSec": 20, "topicWeight": 0.1, "source": "curated"
+    },
+    {
+      "id": 85, "subject": "English Language", "topic": "Grammar · Tenses", "section": "English", "type": "MCQ", "marks": 1, "difficulty": "hard",
+      "stem": "Choose the correct form: 'If I had known about the earthquake warning, I __________ the building earlier.'",
+      "options": ["would leave", "would have left", "will leave", "had left"],
+      "answer": 1,
+      "solution": "Third conditional (past unreal condition): If + past perfect, would have + past participle. 'If I had known... I would have left' describes an unreal past situation and its hypothetical consequence.",
+      "estSec": 30, "topicWeight": 0.1, "source": "curated"
+    }
+  ]
+}
