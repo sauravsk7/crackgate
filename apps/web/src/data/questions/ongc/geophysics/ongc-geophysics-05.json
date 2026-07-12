@@ -29,7 +29,7 @@
   "questions": [
     {
       "id": 1,
-      "subject": "Solid Earth Geophysics",
+      "subject": "Domain Knowledge",
       "topic": "Earth's Interior",
       "section": "Domain",
       "type": "MCQ",
@@ -50,7 +50,7 @@
     },
     {
       "id": 2,
-      "subject": "Solid Earth Geophysics",
+      "subject": "Domain Knowledge",
       "topic": "Plate Tectonics",
       "section": "Domain",
       "type": "MCQ",
@@ -76,7 +76,7 @@
     },
     {
       "id": 3,
-      "subject": "Solid Earth Geophysics",
+      "subject": "Domain Knowledge",
       "topic": "Geomagnetism",
       "section": "Domain",
       "type": "MCQ",
@@ -102,7 +102,7 @@
     },
     {
       "id": 4,
-      "subject": "Solid Earth Geophysics",
+      "subject": "Domain Knowledge",
       "topic": "Earth's Interior",
       "section": "Domain",
       "type": "MCQ",
@@ -123,7 +123,7 @@
     },
     {
       "id": 5,
-      "subject": "Solid Earth Geophysics",
+      "subject": "Domain Knowledge",
       "topic": "Heat Flow",
       "section": "Domain",
       "type": "MCQ",
@@ -144,7 +144,7 @@
     },
     {
       "id": 6,
-      "subject": "Solid Earth Geophysics",
+      "subject": "Domain Knowledge",
       "topic": "Plate Tectonics",
       "section": "Domain",
       "type": "MCQ",
@@ -165,7 +165,7 @@
     },
     {
       "id": 7,
-      "subject": "Earthquake Seismology",
+      "subject": "Domain Knowledge",
       "topic": "Seismic Waves",
       "section": "Domain",
       "type": "MCQ",
@@ -191,7 +191,7 @@
     },
     {
       "id": 8,
-      "subject": "Earthquake Seismology",
+      "subject": "Domain Knowledge",
       "topic": "Magnitude Scales",
       "section": "Domain",
       "type": "MCQ",
@@ -217,7 +217,7 @@
     },
     {
       "id": 9,
-      "subject": "Earthquake Seismology",
+      "subject": "Domain Knowledge",
       "topic": "Focal Mechanisms",
       "section": "Domain",
       "type": "MCQ",
@@ -243,7 +243,7 @@
     },
     {
       "id": 10,
-      "subject": "Earthquake Seismology",
+      "subject": "Domain Knowledge",
       "topic": "Seismic Hazards",
       "section": "Domain",
       "type": "MCQ",
@@ -264,7 +264,7 @@
     },
     {
       "id": 11,
-      "subject": "Earthquake Seismology",
+      "subject": "Domain Knowledge",
       "topic": "Earthquake Hazards",
       "section": "Domain",
       "type": "MCQ",
@@ -285,7 +285,7 @@
     },
     {
       "id": 12,
-      "subject": "Earthquake Seismology",
+      "subject": "Domain Knowledge",
       "topic": "Seismic Waves",
       "section": "Domain",
       "type": "MCQ",
@@ -311,7 +311,7 @@
     },
     {
       "id": 13,
-      "subject": "Gravity & Magnetic Methods",
+      "subject": "Domain Knowledge",
       "topic": "Gravity Corrections",
       "section": "Domain",
       "type": "MCQ",
@@ -337,7 +337,7 @@
     },
     {
       "id": 14,
-      "subject": "Gravity & Magnetic Methods",
+      "subject": "Domain Knowledge",
       "topic": "Gravity Instrumentation",
       "section": "Domain",
       "type": "MCQ",
@@ -363,7 +363,7 @@
     },
     {
       "id": 15,
-      "subject": "Gravity & Magnetic Methods",
+      "subject": "Domain Knowledge",
       "topic": "Magnetic Interpretation",
       "section": "Domain",
       "type": "MCQ",
@@ -389,7 +389,7 @@
     },
     {
       "id": 16,
-      "subject": "Gravity & Magnetic Methods",
+      "subject": "Domain Knowledge",
       "topic": "Terrain Correction",
       "section": "Domain",
       "type": "MCQ",
@@ -410,7 +410,7 @@
     },
     {
       "id": 17,
-      "subject": "Gravity & Magnetic Methods",
+      "subject": "Domain Knowledge",
       "topic": "Gravity Gradient Tensor",
       "section": "Domain",
       "type": "MCQ",
@@ -431,7 +431,7 @@
     },
     {
       "id": 18,
-      "subject": "Gravity & Magnetic Methods",
+      "subject": "Domain Knowledge",
       "topic": "Diurnal Variation",
       "section": "Domain",
       "type": "MCQ",
@@ -452,7 +452,7 @@
     },
     {
       "id": 19,
-      "subject": "Electrical & Electromagnetic Methods",
+      "subject": "Domain Knowledge",
       "topic": "Resistivity Methods",
       "section": "Domain",
       "type": "MCQ",
@@ -478,7 +478,7 @@
     },
     {
       "id": 20,
-      "subject": "Electrical & Electromagnetic Methods",
+      "subject": "Domain Knowledge",
       "topic": "Self-Potential Method",
       "section": "Domain",
       "type": "MCQ",
@@ -499,7 +499,7 @@
     },
     {
       "id": 21,
-      "subject": "Electrical & Electromagnetic Methods",
+      "subject": "Domain Knowledge",
       "topic": "Induced Polarization",
       "section": "Domain",
       "type": "MCQ",
@@ -520,7 +520,7 @@
     },
     {
       "id": 22,
-      "subject": "Electrical & Electromagnetic Methods",
+      "subject": "Domain Knowledge",
       "topic": "Magnetotellurics",
       "section": "Domain",
       "type": "MCQ",
@@ -541,7 +541,7 @@
     },
     {
       "id": 23,
-      "subject": "Electrical & Electromagnetic Methods",
+      "subject": "Domain Knowledge",
       "topic": "Resistivity Methods",
       "section": "Domain",
       "type": "MCQ",
@@ -567,7 +567,7 @@
     },
     {
       "id": 24,
-      "subject": "Seismic Prospecting",
+      "subject": "Domain Knowledge",
       "topic": "CMP Stacking",
       "section": "Domain",
       "type": "MCQ",
@@ -588,7 +588,7 @@
     },
     {
       "id": 25,
-      "subject": "Seismic Prospecting",
+      "subject": "Domain Knowledge",
       "topic": "NMO Correction",
       "section": "Domain",
       "type": "MCQ",
@@ -614,7 +614,7 @@
     },
     {
       "id": 26,
-      "subject": "Seismic Prospecting",
+      "subject": "Domain Knowledge",
       "topic": "Seismic Sources",
       "section": "Domain",
       "type": "MCQ",
@@ -635,7 +635,7 @@
     },
     {
       "id": 27,
-      "subject": "Seismic Prospecting",
+      "subject": "Domain Knowledge",
       "topic": "Seismic Migration",
       "section": "Domain",
       "type": "MCQ",
@@ -661,7 +661,7 @@
     },
     {
       "id": 28,
-      "subject": "Seismic Prospecting",
+      "subject": "Domain Knowledge",
       "topic": "AVO Analysis",
       "section": "Domain",
       "type": "MCQ",
@@ -687,7 +687,7 @@
     },
     {
       "id": 29,
-      "subject": "Seismic Prospecting",
+      "subject": "Domain Knowledge",
       "topic": "Refraction Seismology",
       "section": "Domain",
       "type": "MCQ",
@@ -713,7 +713,7 @@
     },
     {
       "id": 30,
-      "subject": "Borehole / Well Logging",
+      "subject": "Domain Knowledge",
       "topic": "SP Log",
       "section": "Domain",
       "type": "MCQ",
@@ -734,7 +734,7 @@
     },
     {
       "id": 31,
-      "subject": "Borehole / Well Logging",
+      "subject": "Domain Knowledge",
       "topic": "Gamma Ray Log",
       "section": "Domain",
       "type": "MCQ",
@@ -755,7 +755,7 @@
     },
     {
       "id": 32,
-      "subject": "Borehole / Well Logging",
+      "subject": "Domain Knowledge",
       "topic": "Sonic Log",
       "section": "Domain",
       "type": "MCQ",
@@ -781,7 +781,7 @@
     },
     {
       "id": 33,
-      "subject": "Borehole / Well Logging",
+      "subject": "Domain Knowledge",
       "topic": "Resistivity Log",
       "section": "Domain",
       "type": "MCQ",
@@ -807,7 +807,7 @@
     },
     {
       "id": 34,
-      "subject": "Borehole / Well Logging",
+      "subject": "Domain Knowledge",
       "topic": "NMR Logging",
       "section": "Domain",
       "type": "MCQ",
@@ -833,7 +833,7 @@
     },
     {
       "id": 35,
-      "subject": "Borehole / Well Logging",
+      "subject": "Domain Knowledge",
       "topic": "Density Log",
       "section": "Domain",
       "type": "MCQ",
@@ -854,7 +854,7 @@
     },
     {
       "id": 36,
-      "subject": "Signal Processing & Inversion",
+      "subject": "Domain Knowledge",
       "topic": "Nyquist Theorem",
       "section": "Domain",
       "type": "MCQ",
@@ -875,7 +875,7 @@
     },
     {
       "id": 37,
-      "subject": "Signal Processing & Inversion",
+      "subject": "Domain Knowledge",
       "topic": "Fourier Transform",
       "section": "Domain",
       "type": "MCQ",
@@ -901,7 +901,7 @@
     },
     {
       "id": 38,
-      "subject": "Signal Processing & Inversion",
+      "subject": "Domain Knowledge",
       "topic": "Deconvolution",
       "section": "Domain",
       "type": "MCQ",
@@ -922,7 +922,7 @@
     },
     {
       "id": 39,
-      "subject": "Signal Processing & Inversion",
+      "subject": "Domain Knowledge",
       "topic": "Bandpass Filtering",
       "section": "Domain",
       "type": "MCQ",
@@ -943,7 +943,7 @@
     },
     {
       "id": 40,
-      "subject": "Signal Processing & Inversion",
+      "subject": "Domain Knowledge",
       "topic": "Inversion",
       "section": "Domain",
       "type": "MCQ",
