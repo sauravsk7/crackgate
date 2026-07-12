@@ -41,8 +41,8 @@ export type QuestionFigure =
 export function QuestionFigure({ figure, className }: { figure: QuestionFigure; className?: string }) {
   return (
     <figure className={cn("my-4 rounded-lg border border-line bg-white p-3 overflow-hidden", className)}>
-      <div className="relative w-full" style={{ aspectRatio: "16/9" }}>
-        <div className="absolute inset-0 grid place-items-center">{renderFigure(figure)}</div>
+      <div className="w-full max-w-[480px] mx-auto max-h-[50vh] overflow-hidden grid place-items-center">
+        {renderFigure(figure)}
       </div>
       {"caption" in figure && figure.caption && (
         <figcaption className="mt-2 text-center text-xs text-muted">{figure.caption}</figcaption>
