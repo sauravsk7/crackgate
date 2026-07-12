@@ -9,10 +9,22 @@
   "negativeMarking": false,
   "pattern": "ONGC CBT — 85 MCQ · 120 min · 1 mark each · no negative marking",
   "sections": [
-    { "name": "Domain Knowledge", "count": 40 },
-    { "name": "Aptitude", "count": 25 },
-    { "name": "General Awareness", "count": 10 },
-    { "name": "English Language", "count": 10 }
+    {
+      "name": "Domain Knowledge",
+      "count": 40
+    },
+    {
+      "name": "Aptitude",
+      "count": 25
+    },
+    {
+      "name": "General Awareness",
+      "count": 10
+    },
+    {
+      "name": "English Language",
+      "count": 10
+    }
   ],
   "questions": [
     {
@@ -34,7 +46,12 @@
       "solution": "For a thin rod about an axis through its centre perpendicular to its length, I = (1/12)ML². This follows from integrating r² dm along the rod: I = ∫_{-L/2}^{L/2} (M/L)x² dx = (M/L)(L³/12) = ML²/12.",
       "estSec": 25,
       "topicWeight": 0.14,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 300\">\n<rect width=\"300\" height=\"300\" fill=\"#f8fafc\"/>\n<polygon points=\"150,40 260,110 260,210 150,270 40,210 40,110\" fill=\"none\" stroke=\"#8b5cf6\" stroke-width=\"2.5\"/>\n<circle cx=\"150\" cy=\"150\" r=\"8\" fill=\"#8b5cf6\"/>\n<text x=\"150\" y=\"25\" text-anchor=\"middle\" font-size=\"13\" fill=\"#1e293b\" font-weight=\"bold\">BCC Lattice — 1st Brillouin Zone</text>\n<text x=\"150\" y=\"290\" text-anchor=\"middle\" font-size=\"11\" fill=\"#64748b\">k_x</text>\n<text x=\"155\" y=\"38\" text-anchor=\"middle\" font-size=\"9\" fill=\"#8b5cf6\">H</text>\n<text x=\"268\" y=\"110\" text-anchor=\"middle\" font-size=\"9\" fill=\"#8b5cf6\">N</text>\n<text x=\"268\" y=\"215\" text-anchor=\"middle\" font-size=\"9\" fill=\"#8b5cf6\">N</text>\n<text x=\"150\" y=\"280\" text-anchor=\"middle\" font-size=\"9\" fill=\"#8b5cf6\">H</text>\n<text x=\"32\" y=\"215\" text-anchor=\"middle\" font-size=\"9\" fill=\"#8b5cf6\">N</text>\n<text x=\"32\" y=\"110\" text-anchor=\"middle\" font-size=\"9\" fill=\"#8b5cf6\">N</text>\n<text x=\"150\" y=\"155\" text-anchor=\"middle\" font-size=\"9\" fill=\"#1e293b\">Γ</text>\n<text x=\"210\" y=\"75\" text-anchor=\"middle\" font-size=\"9\" fill=\"#1e293b\">P</text>\n</svg>",
+        "caption": "Mathematical Physics — Diagram"
+      }
     },
     {
       "id": 2,
@@ -55,7 +72,12 @@
       "solution": "Using the frequency shifting property: L{t·e^(at)} = 1/(s−a)². Here a = −2, so L{t·e^(−2t)} = 1/(s+2)². Equivalently, from L{t·f(t)} = −d/ds F(s), with F(s) = 1/(s+2), giving −d/ds(1/(s+2)) = 1/(s+2)².",
       "estSec": 30,
       "topicWeight": 0.14,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 300\">\n<rect width=\"300\" height=\"300\" fill=\"#f8fafc\"/>\n<text x=\"150\" y=\"22\" text-anchor=\"middle\" font-size=\"13\" fill=\"#1e293b\" font-weight=\"bold\">Fermi Surface — Free Electron</text>\n<line x1=\"150\" y1=\"40\" x2=\"150\" y2=\"260\" stroke=\"#e2e8f0\" stroke-width=\"1\"/>\n<line x1=\"40\" y1=\"150\" x2=\"260\" y2=\"150\" stroke=\"#e2e8f0\" stroke-width=\"1\"/>\n<rect x=\"60\" y=\"60\" width=\"180\" height=\"180\" fill=\"none\" stroke=\"#94a3b8\" stroke-width=\"1\" stroke-dasharray=\"4,3\"/>\n<circle cx=\"150\" cy=\"150\" r=\"60\" fill=\"#dbeafe\" fill-opacity=\"0.4\" stroke=\"#3b82f6\" stroke-width=\"2.5\"/>\n<text x=\"150\" y=\"290\" text-anchor=\"middle\" font-size=\"11\" fill=\"#64748b\">k_x</text>\n<text x=\"25\" y=\"150\" text-anchor=\"middle\" font-size=\"11\" fill=\"#64748b\">k_y</text>\n<text x=\"150\" y=\"155\" text-anchor=\"middle\" font-size=\"9\" fill=\"#1e293b\">Γ</text>\n<text x=\"220\" y=\"155\" font-size=\"9\" fill=\"#3b82f6\">k_F</text>\n<text x=\"60\" y=\"55\" text-anchor=\"middle\" font-size=\"9\" fill=\"#94a3b8\">BZ boundary</text>\n<line x1=\"150\" y1=\"150\" x2=\"210\" y2=\"150\" stroke=\"#ef4444\" stroke-width=\"1.5\" stroke-dasharray=\"3,2\"/>\n</svg>",
+        "caption": "Mathematical Physics — Diagram"
+      }
     },
     {
       "id": 3,
@@ -76,7 +98,12 @@
       "solution": "Characteristic equation: det(A − λI) = (2−λ)² − 1 = 0 → (2−λ)² = 1 → λ = 1 or λ = 3. Trace = 4 = 1+3 ✓, determinant = 3 = 1×3 ✓.",
       "estSec": 25,
       "topicWeight": 0.14,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 220\">\n<rect width=\"320\" height=\"220\" fill=\"#f8fafc\"/>\n<text x=\"160\" y=\"22\" text-anchor=\"middle\" font-size=\"13\" fill=\"#1e293b\" font-weight=\"bold\">Phonon Dispersion — Diatomic Chain</text>\n<line x1=\"50\" y1=\"190\" x2=\"290\" y2=\"190\" stroke=\"#1e293b\" stroke-width=\"1.5\"/>\n<line x1=\"50\" y1=\"190\" x2=\"50\" y2=\"40\" stroke=\"#1e293b\" stroke-width=\"1.5\"/>\n<text x=\"170\" y=\"215\" text-anchor=\"middle\" font-size=\"11\" fill=\"#64748b\">Wave vector q</text>\n<text x=\"35\" y=\"115\" text-anchor=\"middle\" font-size=\"11\" fill=\"#64748b\" transform=\"rotate(-90 35 115)\">ω(q)</text>\n<text x=\"170\" y=\"35\" text-anchor=\"middle\" font-size=\"10\" fill=\"#64748b\">π/a</text>\n<line x1=\"170\" y1=\"40\" x2=\"170\" y2=\"190\" stroke=\"#e2e8f0\" stroke-width=\"1\" stroke-dasharray=\"4,3\"/>\n<text x=\"55\" y=\"185\" font-size=\"9\" fill=\"#64748b\">0</text>\n<text x=\"170\" y=\"185\" font-size=\"9\" fill=\"#64748b\">π/a</text>\n<path d=\"M50,185 Q110,100 170,75\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"2.5\"/>\n<text x=\"80\" y=\"95\" font-size=\"9\" fill=\"#3b82f6\">Acoustic</text>\n<path d=\"M50,65 Q110,55 170,50\" fill=\"none\" stroke=\"#ef4444\" stroke-width=\"2.5\"/>\n<text x=\"90\" y=\"52\" font-size=\"9\" fill=\"#ef4444\">Optical</text>\n<rect x=\"200\" y=\"85\" width=\"90\" height=\"30\" fill=\"#fef3c7\" fill-opacity=\"0.6\" stroke=\"#f59e0b\" stroke-width=\"1\" rx=\"4\"/>\n<text x=\"245\" y=\"105\" text-anchor=\"middle\" font-size=\"9\" fill=\"#92400e\" font-weight=\"bold\">Phonon Gap</text>\n</svg>",
+        "caption": "Mathematical Physics — Diagram"
+      }
     },
     {
       "id": 4,
@@ -97,7 +124,12 @@
       "solution": "The Rodrigues formula is Pₙ(x) = 1/(2ⁿn!) · dⁿ/dxⁿ (x²−1)ⁿ. For example, P₀ = 1, P₁ = x, P₂ = (3x²−1)/2. The 2ⁿn! normalization ensures Pₙ(1) = 1.",
       "estSec": 40,
       "topicWeight": 0.14,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 340 180\">\n<rect width=\"340\" height=\"180\" fill=\"#f8fafc\"/>\n<text x=\"170\" y=\"18\" text-anchor=\"middle\" font-size=\"13\" fill=\"#1e293b\" font-weight=\"bold\">Bloch Theorem — Electron in Periodic Potential</text>\n<line x1=\"20\" y1=\"140\" x2=\"320\" y2=\"140\" stroke=\"#1e293b\" stroke-width=\"1\"/>\n<path d=\"M20,100 Q50,80 80,100 Q110,120 140,100 Q170,80 200,100 Q230,120 260,100 Q290,80 320,100\" fill=\"none\" stroke=\"#94a3b8\" stroke-width=\"2\"/>\n<text x=\"330\" y=\"95\" font-size=\"9\" fill=\"#94a3b8\">V(x)</text>\n<path d=\"M20,90 Q50,50 80,90 Q110,130 140,90 Q170,50 200,90 Q230,130 260,90 Q290,50 320,90\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"2.5\"/>\n<text x=\"330\" y=\"85\" font-size=\"9\" fill=\"#3b82f6\">ψ(x)</text>\n<line x1=\"80\" y1=\"45\" x2=\"80\" y2=\"155\" stroke=\"#e2e8f0\" stroke-width=\"1\" stroke-dasharray=\"3,2\"/>\n<line x1=\"140\" y1=\"45\" x2=\"140\" y2=\"155\" stroke=\"#e2e8f0\" stroke-width=\"1\" stroke-dasharray=\"3,2\"/>\n<line x1=\"200\" y1=\"45\" x2=\"200\" y2=\"155\" stroke=\"#e2e8f0\" stroke-width=\"1\" stroke-dasharray=\"3,2\"/>\n<line x1=\"260\" y1=\"45\" x2=\"260\" y2=\"155\" stroke=\"#e2e8f0\" stroke-width=\"1\" stroke-dasharray=\"3,2\"/>\n<text x=\"110\" y=\"165\" text-anchor=\"middle\" font-size=\"9\" fill=\"#64748b\">a</text>\n<text x=\"170\" y=\"165\" text-anchor=\"middle\" font-size=\"9\" fill=\"#64748b\">a</text>\n<text x=\"230\" y=\"165\" text-anchor=\"middle\" font-size=\"9\" fill=\"#64748b\">a</text>\n<text x=\"170\" y=\"178\" text-anchor=\"middle\" font-size=\"9\" fill=\"#64748b\">Lattice period a</text>\n</svg>",
+        "caption": "Mathematical Physics — Diagram"
+      }
     },
     {
       "id": 5,
@@ -108,12 +140,22 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "A disc of mass M and radius R rolls without slipping on a horizontal surface. The ratio of translational to rotational kinetic energy is:",
-      "options": ["1", "2", "3", "4"],
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
       "answer": 1,
       "solution": "For rolling without slipping, v = ωR. Translational KE = ½Mv² = ½Mω²R². Rotational KE = ½Iω² = ½(½MR²)ω² = ¼Mω²R². Ratio = (½)/(¼) = 2.",
       "estSec": 25,
       "topicWeight": 0.14,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 200\">\n<rect width=\"320\" height=\"200\" fill=\"#f8fafc\"/>\n<text x=\"160\" y=\"18\" text-anchor=\"middle\" font-size=\"13\" fill=\"#1e293b\" font-weight=\"bold\">Meissner Effect — Flux Expulsion</text>\n<rect x=\"100\" y=\"60\" width=\"120\" height=\"100\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"2\" rx=\"8\"/>\n<text x=\"160\" y=\"115\" text-anchor=\"middle\" font-size=\"12\" fill=\"#1e40af\" font-weight=\"bold\">SC</text>\n<path d=\"M20,80 Q60,80 100,70\" fill=\"none\" stroke=\"#ef4444\" stroke-width=\"2\"/>\n<path d=\"M20,120 Q60,120 100,110\" fill=\"none\" stroke=\"#ef4444\" stroke-width=\"2\"/>\n<path d=\"M20,140 Q50,140 80,155 Q100,165 120,160\" fill=\"none\" stroke=\"#ef4444\" stroke-width=\"2\"/>\n<path d=\"M300,80 Q260,80 220,70\" fill=\"none\" stroke=\"#ef4444\" stroke-width=\"2\"/>\n<path d=\"M300,120 Q260,120 220,110\" fill=\"none\" stroke=\"#ef4444\" stroke-width=\"2\"/>\n<path d=\"M300,140 Q270,140 240,155 Q220,165 200,160\" fill=\"none\" stroke=\"#ef4444\" stroke-width=\"2\"/>\n<text x=\"45\" y=\"70\" font-size=\"10\" fill=\"#ef4444\" font-weight=\"bold\">B → 0</text>\n<text x=\"255\" y=\"70\" font-size=\"10\" fill=\"#ef4444\" font-weight=\"bold\">B → 0</text>\n<text x=\"160\" y=\"190\" text-anchor=\"middle\" font-size=\"10\" fill=\"#64748b\">Magnetic flux lines expelled from superconductor</text>\n</svg>",
+        "caption": "Classical Mechanics — Diagram"
+      }
     },
     {
       "id": 6,
@@ -145,7 +187,12 @@
       "marks": 1,
       "difficulty": "hard",
       "stem": "A transformation (q, p) → (Q, P) is canonical if and only if the Poisson bracket {Q, P}_{q,p} equals:",
-      "options": ["0", "1", "−1", "Depends on the Hamiltonian"],
+      "options": [
+        "0",
+        "1",
+        "−1",
+        "Depends on the Hamiltonian"
+      ],
       "answer": 1,
       "solution": "A transformation is canonical if it preserves the fundamental Poisson bracket: {Q, P} = 1. This is equivalent to the transformation being a symplectomorphism — preserving the symplectic 2-form ω = dp∧dq.",
       "estSec": 45,
@@ -854,11 +901,16 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "A sum of Rs.8,000 becomes Rs.9,261 in 3 years at compound interest. What is the annual rate of interest?",
-      "options": ["4%", "5%", "6%", "8%"],
+      "options": [
+        "4%",
+        "5%",
+        "6%",
+        "8%"
+      ],
       "answer": 1,
       "solution": "A = P(1 + r/100)³ → 9261 = 8000(1 + r/100)³ → (1 + r/100)³ = 1.157625 → 1 + r/100 = 1.05 → r = 5%.",
       "estSec": 25,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -870,11 +922,16 @@
       "marks": 1,
       "difficulty": "easy",
       "stem": "The LCM of 12, 15 and 20 is:",
-      "options": ["30", "60", "120", "180"],
+      "options": [
+        "30",
+        "60",
+        "120",
+        "180"
+      ],
       "answer": 1,
       "solution": "12 = 2²×3, 15 = 3×5, 20 = 2²×5. LCM = 2²×3×5 = 60.",
       "estSec": 15,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -886,11 +943,16 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "A and B invest Rs.30,000 and Rs.50,000 respectively in a business. After 1 year, A adds Rs.10,000. The total profit after 2 years is Rs.48,000. A's share is:",
-      "options": ["Rs.20,000", "Rs.24,000", "Rs.28,000", "Rs.32,000"],
+      "options": [
+        "Rs.20,000",
+        "Rs.24,000",
+        "Rs.28,000",
+        "Rs.32,000"
+      ],
       "answer": 0,
       "solution": "A's investment: 30000×2 + 10000×1 = 70000. B's investment: 50000×2 = 100000. Ratio = 7:10. A's share = 48000×7/(7+10) = Rs.19,764 ≈ Rs.20,000.",
       "estSec": 35,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -902,11 +964,16 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "If 1st January 2025 is a Wednesday, what day of the week is 1st January 2026?",
-      "options": ["Wednesday", "Thursday", "Friday", "Saturday"],
+      "options": [
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
       "answer": 1,
       "solution": "2025 is not a leap year (365 days). 365 = 52 weeks + 1 day. So 1st January 2026 is Wednesday + 1 = Thursday.",
       "estSec": 20,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -918,11 +985,16 @@
       "marks": 1,
       "difficulty": "easy",
       "stem": "The value of sin²30° + cos²60° is:",
-      "options": ["0", "½", "1", "2"],
+      "options": [
+        "0",
+        "½",
+        "1",
+        "2"
+      ],
       "answer": 1,
       "solution": "sin30° = ½, cos60° = ½. sin²30° + cos²60° = ¼ + ¼ = ½.",
       "estSec": 15,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -934,11 +1006,16 @@
       "marks": 1,
       "difficulty": "easy",
       "stem": "The area of a circle with diameter 14 cm is approximately:",
-      "options": ["154 cm²", "308 cm²", "616 cm²", "88 cm²"],
+      "options": [
+        "154 cm²",
+        "308 cm²",
+        "616 cm²",
+        "88 cm²"
+      ],
       "answer": 0,
       "solution": "r = 7 cm. Area = πr² = π×49 ≈ 153.94 ≈ 154 cm².",
       "estSec": 15,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -950,11 +1027,16 @@
       "marks": 1,
       "difficulty": "easy",
       "stem": "Rs.5,000 invested at 8% simple interest per annum amounts to Rs.6,000 in:",
-      "options": ["2 years", "2.5 years", "3 years", "4 years"],
+      "options": [
+        "2 years",
+        "2.5 years",
+        "3 years",
+        "4 years"
+      ],
       "answer": 1,
       "solution": "SI = A − P = 1000. SI = PRT/100 → 1000 = 5000×8×T/100 → T = 2.5 years.",
       "estSec": 15,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -966,11 +1048,16 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "If x + 1/x = 5, the value of x² + 1/x² is:",
-      "options": ["23", "25", "27", "30"],
+      "options": [
+        "23",
+        "25",
+        "27",
+        "30"
+      ],
       "answer": 0,
       "solution": "Squaring: (x + 1/x)² = 25 → x² + 2 + 1/x² = 25 → x² + 1/x² = 23.",
       "estSec": 20,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -982,11 +1069,16 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "The mean of 5 observations is 4.4 and the variance is 8.24. If three of the five observations are 1, 2 and 6, the other two are:",
-      "options": ["4 and 9", "5 and 8", "3 and 10", "2 and 11"],
+      "options": [
+        "4 and 9",
+        "5 and 8",
+        "3 and 10",
+        "2 and 11"
+      ],
       "answer": 0,
       "solution": "Sum = 5×4.4 = 22. Known sum = 9. Remaining sum = 13. Check 4 and 9: Σ(xᵢ−4.4)² = (1−4.4)²+(2−4.4)²+(6−4.4)²+(4−4.4)²+(9−4.4)² = 11.56+5.76+2.56+0.16+21.16 = 41.2. 41.2/5 = 8.24 ✓",
       "estSec": 40,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -998,11 +1090,16 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "A cylinder has radius 7 cm and height 10 cm. The total surface area is approximately:",
-      "options": ["308 cm²", "748 cm²", "528 cm²", "440 cm²"],
+      "options": [
+        "308 cm²",
+        "748 cm²",
+        "528 cm²",
+        "440 cm²"
+      ],
       "answer": 1,
       "solution": "TSA = 2πr² + 2πrh = 2π(49) + 2π(70) = 98π + 140π = 238π ≈ 748 cm².",
       "estSec": 20,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1014,11 +1111,16 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "The ratio of ages of A and B is 3:5. After 10 years, the ratio becomes 2:3. What is B's present age?",
-      "options": ["20 years", "25 years", "30 years", "35 years"],
+      "options": [
+        "20 years",
+        "25 years",
+        "30 years",
+        "35 years"
+      ],
       "answer": 1,
       "solution": "Let A = 3x, B = 5x. After 10 years: (3x+10)/(5x+10) = 2/3. Cross multiply: 9x+30 = 10x+20 → x = 10. B's age = 5 × 10 = 50... Hmm that gives 50, not an option. Let me try (3x+10)/(5x+10) = 2/3: 9x+30 = 10x+20 → x = 10. B = 50. The options don't match. Let me reconsider: if x = 5, then A=15, B=25. After 10 years: 25/35 = 5/7, not 2/3. The problem as stated has B = 50, which isn't an option. The intended answer of Rs.25,000 or 25 years may use a different formulation. Given the options, B's present age = 25 years.",
       "estSec": 30,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1030,11 +1132,16 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "In what ratio must water be mixed with milk costing Rs.30/litre to get a mixture worth Rs.20/litre?",
-      "options": ["1:2", "2:3", "1:3", "3:2"],
+      "options": [
+        "1:2",
+        "2:3",
+        "1:3",
+        "3:2"
+      ],
       "answer": 0,
       "solution": "Alligation: Water (Rs.0) and Milk (Rs.30). Mean price = Rs.20. Ratio = (30−20):(20−0) = 10:20 = 1:2.",
       "estSec": 20,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1046,11 +1153,16 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "A boat can travel 20 km upstream in 5 hours and 20 km downstream in 2 hours. What is the speed of the current?",
-      "options": ["2 km/h", "3 km/h", "4 km/h", "5 km/h"],
+      "options": [
+        "2 km/h",
+        "3 km/h",
+        "4 km/h",
+        "5 km/h"
+      ],
       "answer": 1,
       "solution": "Upstream speed = 20/5 = 4 km/h. Downstream speed = 20/2 = 10 km/h. Current = (10 − 4)/2 = 3 km/h.",
       "estSec": 25,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1062,11 +1174,16 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "Pipe A can fill a tank in 20 hours and Pipe B can empty it in 30 hours. If both are opened simultaneously, the tank will be full in:",
-      "options": ["50 hours", "60 hours", "40 hours", "45 hours"],
+      "options": [
+        "50 hours",
+        "60 hours",
+        "40 hours",
+        "45 hours"
+      ],
       "answer": 1,
       "solution": "A's rate = 1/20, B's rate = −1/30. Net rate = 1/20 − 1/30 = 1/60 per hour. Time = 60 hours.",
       "estSec": 25,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1078,11 +1195,16 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "The ratio of ages of A and B is 3:5. After 8 years, the ratio becomes 5:7. What is B's present age?",
-      "options": ["16 years", "20 years", "24 years", "32 years"],
+      "options": [
+        "16 years",
+        "20 years",
+        "24 years",
+        "32 years"
+      ],
       "answer": 1,
       "solution": "Let A = 3x, B = 5x. After 8 years: (3x+8)/(5x+8) = 5/7. 21x + 56 = 25x + 40 → 4x = 16 → x = 4. B = 5×4 = 20.",
       "estSec": 30,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1094,11 +1216,16 @@
       "marks": 1,
       "difficulty": "easy",
       "stem": "The HCF of 24, 36 and 60 is:",
-      "options": ["6", "12", "18", "24"],
+      "options": [
+        "6",
+        "12",
+        "18",
+        "24"
+      ],
       "answer": 1,
       "solution": "24 = 2³×3, 36 = 2²×3², 60 = 2²×3×5. HCF = 2²×3 = 12.",
       "estSec": 15,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1110,11 +1237,16 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "Two dice are thrown simultaneously. What is the probability that the sum of the numbers is 7?",
-      "options": ["1/6", "1/12", "5/36", "7/36"],
+      "options": [
+        "1/6",
+        "1/12",
+        "5/36",
+        "7/36"
+      ],
       "answer": 0,
       "solution": "Total outcomes = 36. Favorable pairs for sum 7: (1,6),(2,5),(3,4),(4,3),(5,2),(6,1) = 6. Probability = 6/36 = 1/6.",
       "estSec": 20,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1126,11 +1258,16 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "How many ways can 5 books be arranged on a shelf?",
-      "options": ["25", "60", "120", "720"],
+      "options": [
+        "25",
+        "60",
+        "120",
+        "720"
+      ],
       "answer": 2,
       "solution": "5! = 5 × 4 × 3 × 2 × 1 = 120.",
       "estSec": 15,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1142,11 +1279,16 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "What comes next: 3, 7, 15, 31, 63, ?",
-      "options": ["95", "120", "127", "130"],
+      "options": [
+        "95",
+        "120",
+        "127",
+        "130"
+      ],
       "answer": 2,
       "solution": "Each term = previous × 2 + 1. 63 → 127. Alternatively: aₙ = 2^(n+1) − 1. For n=6: 127.",
       "estSec": 20,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1158,11 +1300,16 @@
       "marks": 1,
       "difficulty": "easy",
       "stem": "Doctor : Hospital :: Teacher : ?",
-      "options": ["Medicine", "School", "Student", "Books"],
+      "options": [
+        "Medicine",
+        "School",
+        "Student",
+        "Books"
+      ],
       "answer": 1,
       "solution": "A doctor works in a hospital; a teacher works in a school. The relationship is professional : workplace.",
       "estSec": 10,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1183,7 +1330,7 @@
       "answer": 2,
       "solution": "From 'all dogs are animals' and 'some animals are cats', we can only say some dogs may be cats (overlapping region exists). Options A, B, D are not necessarily true.",
       "estSec": 25,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1195,11 +1342,16 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "If DELHI is coded as 73541 and CALCUTTA as 82589662, how can CALICUT be coded?",
-      "options": ["5254896", "8251896", "8254896", "5251896"],
+      "options": [
+        "5254896",
+        "8251896",
+        "8254896",
+        "5251896"
+      ],
       "answer": 2,
       "solution": "From DELHI: D=7, E=3, L=5, H=4, I=1. From CALCUTTA: C=8, A=2, L=5, U=9, T=6. CALICUT = C(8)A(2)L(5)I(1)C(8)U(9)T(6) → 8251896. The closest matching option is 8254896.",
       "estSec": 30,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1211,11 +1363,16 @@
       "marks": 1,
       "difficulty": "hard",
       "stem": "Pointing to a man, a woman says, 'His mother is the only daughter of my mother.' How is the woman related to the man?",
-      "options": ["Grandmother", "Mother", "Sister", "Aunt"],
+      "options": [
+        "Grandmother",
+        "Mother",
+        "Sister",
+        "Aunt"
+      ],
       "answer": 1,
       "solution": "'The only daughter of my mother' = the woman herself. So 'his mother' = the woman. She is the man's mother.",
       "estSec": 20,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1227,11 +1384,16 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "Ram walks 10 km North, turns left and walks 5 km, then turns left again and walks 10 km. In which direction is he from the starting point?",
-      "options": ["North", "South", "East", "West"],
+      "options": [
+        "North",
+        "South",
+        "East",
+        "West"
+      ],
       "answer": 3,
       "solution": "N 10 km → (0,10). Left (West) 5 km → (−5,10). Left (South) 10 km → (−5,0). He is 5 km West.",
       "estSec": 20,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1243,11 +1405,16 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "The angle between the hour hand and the minute hand at 3:30 is:",
-      "options": ["75°", "85°", "90°", "105°"],
+      "options": [
+        "75°",
+        "85°",
+        "90°",
+        "105°"
+      ],
       "answer": 0,
       "solution": "At 3:30, minute hand at 180° (at 6). Hour hand at 3×30° + 30×0.5° = 90° + 15° = 105°. Angle = |180° − 105°| = 75°.",
       "estSec": 25,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1259,11 +1426,16 @@
       "marks": 1,
       "difficulty": "easy",
       "stem": "ONGC Videsh, the overseas arm of ONGC, has operations in how many countries approximately?",
-      "options": ["5", "10", "15", "20"],
+      "options": [
+        "5",
+        "10",
+        "15",
+        "20"
+      ],
       "answer": 3,
       "solution": "ONGC Videsh operates in approximately 20 countries across Asia, Africa, Latin America, and the Middle East, with major assets in Russia (Sakhalin-1), Vietnam, Sudan, and Myanmar.",
       "estSec": 10,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1275,11 +1447,16 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "India's first underground coal gasification project was launched in which state?",
-      "options": ["Jharkhand", "Odisha", "West Bengal", "Chhattisgarh"],
+      "options": [
+        "Jharkhand",
+        "Odisha",
+        "West Bengal",
+        "Chhattisgarh"
+      ],
       "answer": 0,
       "solution": "India's first underground coal gasification (UCG) pilot project was launched at Bokaro in Jharkhand.",
       "estSec": 15,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1291,11 +1468,16 @@
       "marks": 1,
       "difficulty": "easy",
       "stem": "The Krishna-Godavari Basin is a major oil and gas producing region. It is located offshore of which state?",
-      "options": ["Gujarat", "Maharashtra", "Andhra Pradesh", "Tamil Nadu"],
+      "options": [
+        "Gujarat",
+        "Maharashtra",
+        "Andhra Pradesh",
+        "Tamil Nadu"
+      ],
       "answer": 2,
       "solution": "The Krishna-Godavari (KG) Basin is an offshore sedimentary basin along the east coast of India, primarily off Andhra Pradesh and Odisha.",
       "estSec": 10,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1307,11 +1489,16 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "Which international agreement targets the phase-down of hydrofluorocarbons (HFCs)?",
-      "options": ["Kyoto Protocol", "Kigali Amendment", "Montreal Protocol", "Paris Agreement"],
+      "options": [
+        "Kyoto Protocol",
+        "Kigali Amendment",
+        "Montreal Protocol",
+        "Paris Agreement"
+      ],
       "answer": 1,
       "solution": "The Kigali Amendment (2016) to the Montreal Protocol targets the phase-down of HFCs, potent greenhouse gases used as refrigerants.",
       "estSec": 15,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1323,11 +1510,16 @@
       "marks": 1,
       "difficulty": "easy",
       "stem": "ONGC was given the Maharatna status by the Government of India in which year?",
-      "options": ["2007", "2010", "2012", "2015"],
+      "options": [
+        "2007",
+        "2010",
+        "2012",
+        "2015"
+      ],
       "answer": 1,
       "solution": "ONGC was granted Maharatna status in 2010, giving it greater financial and operational autonomy.",
       "estSec": 10,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1339,11 +1531,16 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "India's Strategic Petroleum Reserve (SPR) at Visakhapatnam has a storage capacity of approximately:",
-      "options": ["1 million tonnes", "5 million tonnes", "10 million tonnes", "1.33 million tonnes"],
+      "options": [
+        "1 million tonnes",
+        "5 million tonnes",
+        "10 million tonnes",
+        "1.33 million tonnes"
+      ],
       "answer": 3,
       "solution": "India's SPR at Visakhapatnam has a capacity of 1.33 million metric tonnes (~9.5 million barrels), carved out of rock caverns.",
       "estSec": 15,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1355,11 +1552,16 @@
       "marks": 1,
       "difficulty": "easy",
       "stem": "ISRO's Chandrayaan-3 successfully landed on the Moon's south pole region in which year?",
-      "options": ["2022", "2023", "2024", "2025"],
+      "options": [
+        "2022",
+        "2023",
+        "2024",
+        "2025"
+      ],
       "answer": 1,
       "solution": "Chandrayaan-3's Vikram lander landed near the Moon's south pole on August 23, 2023, making India the fourth country to soft-land on the Moon.",
       "estSec": 10,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1371,11 +1573,16 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "Which Indian city is known as the 'Oil Capital of India' due to major petroleum refineries?",
-      "options": ["Mumbai", "Jamnagar", "Digboi", "Koyali"],
+      "options": [
+        "Mumbai",
+        "Jamnagar",
+        "Digboi",
+        "Koyali"
+      ],
       "answer": 1,
       "solution": "Jamnagar in Gujarat hosts the world's largest oil refinery complex (Reliance Industries) with capacity of 1.24 million barrels per day.",
       "estSec": 10,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1387,11 +1594,16 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "The phenomenon of 'total internal reflection' is used in:",
-      "options": ["Fiber optic communication", "Radio wave transmission", "Microwave ovens", "X-ray production"],
+      "options": [
+        "Fiber optic communication",
+        "Radio wave transmission",
+        "Microwave ovens",
+        "X-ray production"
+      ],
       "answer": 0,
       "solution": "Total internal reflection is the operating principle of fiber optics, where light rays are guided along the fiber core by repeated reflections.",
       "estSec": 10,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1403,11 +1615,16 @@
       "marks": 1,
       "difficulty": "easy",
       "stem": "The Pradhan Mantri Ujjwala Yojana aims to provide:",
-      "options": ["Free electricity connections", "Free LPG connections to BPL households", "Subsidised petrol", "Free piped natural gas"],
+      "options": [
+        "Free electricity connections",
+        "Free LPG connections to BPL households",
+        "Subsidised petrol",
+        "Free piped natural gas"
+      ],
       "answer": 1,
       "solution": "PMUY was launched in 2016 to provide free LPG connections to women from Below Poverty Line households.",
       "estSec": 10,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1419,11 +1636,16 @@
       "marks": 1,
       "difficulty": "easy",
       "stem": "Choose the word most similar in meaning to 'DILIGENT':",
-      "options": ["Lazy", "Hardworking", "Careless", "Indifferent"],
+      "options": [
+        "Lazy",
+        "Hardworking",
+        "Careless",
+        "Indifferent"
+      ],
       "answer": 1,
       "solution": "Diligent means showing care, persistence, and conscientious effort — hardworking.",
       "estSec": 10,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1435,11 +1657,16 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "Choose the word most opposite in meaning to 'PRAGMATIC':",
-      "options": ["Practical", "Idealistic", "Realistic", "Sensible"],
+      "options": [
+        "Practical",
+        "Idealistic",
+        "Realistic",
+        "Sensible"
+      ],
       "answer": 1,
       "solution": "Pragmatic means dealing with things sensibly and realistically. Idealistic means pursuing ideals rather than practical outcomes — the opposite.",
       "estSec": 10,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1460,7 +1687,7 @@
       "answer": 0,
       "solution": "Present continuous passive: Subject + is/am/are + being + past participle. 'A letter is being written by her.'",
       "estSec": 10,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1481,7 +1708,7 @@
       "answer": 0,
       "solution": "'A blessing in disguise' refers to something initially unfortunate that eventually leads to a positive outcome.",
       "estSec": 10,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1493,11 +1720,16 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "A person who talks too much is called a:",
-      "options": ["Misanthrope", "Garrulous", "Stoic", "Ascetic"],
+      "options": [
+        "Misanthrope",
+        "Garrulous",
+        "Stoic",
+        "Ascetic"
+      ],
       "answer": 1,
       "solution": "Garrulous means excessively talkative. Misanthrope = hater of humanity. Stoic = indifferent to pleasure/pain. Ascetic = self-denying.",
       "estSec": 10,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1509,11 +1741,16 @@
       "marks": 1,
       "difficulty": "easy",
       "stem": "Choose the correct article: 'He is ___ honest man.'",
-      "options": ["a", "an", "the", "no article needed"],
+      "options": [
+        "a",
+        "an",
+        "the",
+        "no article needed"
+      ],
       "answer": 1,
       "solution": "'Honest' starts with a silent 'h', so the sound is vowel-initial. 'An honest man' is correct.",
       "estSec": 10,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1534,7 +1771,7 @@
       "answer": 1,
       "solution": "The passage states the levelized cost of solar PV has dropped by over 85% since 2010, directly attributing cost-competitiveness to this price reduction.",
       "estSec": 15,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1546,11 +1783,16 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "Choose the correct verb: 'The news _____ shocking.'",
-      "options": ["was", "were", "are", "have been"],
+      "options": [
+        "was",
+        "were",
+        "are",
+        "have been"
+      ],
       "answer": 0,
       "solution": "'News' is uncountable and takes a singular verb. 'The news was shocking' is correct.",
       "estSec": 10,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1562,11 +1804,16 @@
       "marks": 1,
       "difficulty": "easy",
       "stem": "Which of the following is correctly spelled?",
-      "options": ["Accomodation", "Accommodation", "Acomodation", "Acommodation"],
+      "options": [
+        "Accomodation",
+        "Accommodation",
+        "Acomodation",
+        "Acommodation"
+      ],
       "answer": 1,
       "solution": "The correct spelling is 'accommodation' — double 'c' and double 'm'.",
       "estSec": 10,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1578,11 +1825,16 @@
       "marks": 1,
       "difficulty": "easy",
       "stem": "Choose the correct conjunction: 'He is tired _____ he continues to work.'",
-      "options": ["and", "but", "or", "so"],
+      "options": [
+        "and",
+        "but",
+        "or",
+        "so"
+      ],
       "answer": 1,
       "solution": "'But' shows contrast. Being tired yet continuing to work is a contrast.",
       "estSec": 10,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     }
   ]

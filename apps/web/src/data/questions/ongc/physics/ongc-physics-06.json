@@ -47,7 +47,11 @@
       "estSec": 30,
       "topicWeight": 0.14,
       "source": "curated",
-      "svg": "<svg width='270' height='160' viewBox='0 0 270 160' xmlns='http://www.w3.org/2000/svg'><defs><linearGradient id='gs1' x1='0' y1='0' x2='1' y2='1'><stop offset='0%' stop-color='#e0e7ff'/><stop offset='100%' stop-color='#c7d2fe'/></linearGradient></defs><ellipse cx='135' cy='85' rx='95' ry='42' fill='url(#gs1)' stroke='#6366f1' stroke-width='1.5' opacity='0.6'/><path d='M40 85 C60 40 115 40 135 85 C155 130 210 130 230 85' fill='none' stroke='#3b82f6' stroke-width='2'/><text x='135' y='90' text-anchor='middle' font-size='11' fill='#1e40af' font-weight='bold'>∫(∇×F)·dA = ∮F·dr</text><text x='135' y='150' text-anchor='middle' font-size='9' fill='#6b7280'>Surface S bounded by curve C</text></svg>"
+      "figure": {
+        "kind": "svg",
+        "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 300\">\n<rect width=\"300\" height=\"300\" fill=\"#f8fafc\"/>\n<line x1=\"150\" y1=\"30\" x2=\"150\" y2=\"270\" stroke=\"#e2e8f0\" stroke-width=\"1\"/>\n<line x1=\"30\" y1=\"150\" x2=\"270\" y2=\"150\" stroke=\"#e2e8f0\" stroke-width=\"1\"/>\n<rect x=\"75\" y=\"75\" width=\"150\" height=\"150\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"2.5\"/>\n<circle cx=\"150\" cy=\"150\" r=\"10\" fill=\"#3b82f6\"/>\n<text x=\"150\" y=\"25\" text-anchor=\"middle\" font-size=\"13\" fill=\"#1e293b\" font-weight=\"bold\">SC Lattice — 1st Brillouin Zone</text>\n<text x=\"150\" y=\"290\" text-anchor=\"middle\" font-size=\"11\" fill=\"#64748b\">k_x</text>\n<text x=\"20\" y=\"150\" text-anchor=\"middle\" font-size=\"11\" fill=\"#64748b\">k_y</text>\n<text x=\"155\" y=\"70\" text-anchor=\"middle\" font-size=\"10\" fill=\"#3b82f6\">π/a</text>\n<text x=\"230\" y=\"155\" font-size=\"10\" fill=\"#3b82f6\">π/a</text>\n<text x=\"150\" y=\"155\" text-anchor=\"middle\" font-size=\"9\" fill=\"#1e293b\">Γ</text>\n<text x=\"225\" y=\"80\" text-anchor=\"middle\" font-size=\"9\" fill=\"#1e293b\">X</text>\n<text x=\"225\" y=\"225\" text-anchor=\"middle\" font-size=\"9\" fill=\"#1e293b\">M</text>\n</svg>",
+        "caption": "Mathematical Physics — Diagram"
+      }
     },
     {
       "id": 2,
@@ -69,7 +73,11 @@
       "estSec": 30,
       "topicWeight": 0.14,
       "source": "curated",
-      "svg": "<svg width='240' height='150' viewBox='0 0 240 150' xmlns='http://www.w3.org/2000/svg'><path d='M35 115 C35 40 120 22 120 60 C120 22 205 40 205 115 C205 142 35 142 35 115 Z' fill='#dbeafe' stroke='#2563eb' stroke-width='1.5'/><text x='120' y='90' text-anchor='middle' font-size='14' fill='#1e40af' font-weight='bold'>D</text></svg>"
+      "figure": {
+        "kind": "svg",
+        "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 200\">\n<rect width=\"320\" height=\"200\" fill=\"#f8fafc\"/>\n<rect x=\"60\" y=\"30\" width=\"80\" height=\"55\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"1.5\" rx=\"3\"/>\n<rect x=\"60\" y=\"115\" width=\"80\" height=\"55\" fill=\"#fef3c7\" stroke=\"#f59e0b\" stroke-width=\"1.5\" rx=\"3\"/>\n<text x=\"100\" y=\"60\" text-anchor=\"middle\" font-size=\"11\" fill=\"#1e40af\" font-weight=\"bold\">Conduction Band</text>\n<text x=\"100\" y=\"145\" text-anchor=\"middle\" font-size=\"11\" fill=\"#92400e\" font-weight=\"bold\">Valence Band</text>\n<line x1=\"100\" y1=\"85\" x2=\"100\" y2=\"115\" stroke=\"#22c55e\" stroke-width=\"2\" stroke-dasharray=\"5,3\"/>\n<text x=\"170\" y=\"105\" font-size=\"10\" fill=\"#22c55e\">No band gap</text>\n<text x=\"160\" y=\"25\" text-anchor=\"middle\" font-size=\"13\" fill=\"#1e293b\" font-weight=\"bold\">Metal (Conductor)</text>\n<rect x=\"200\" y=\"30\" width=\"80\" height=\"55\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"1.5\" rx=\"3\"/>\n<rect x=\"200\" y=\"100\" width=\"80\" height=\"55\" fill=\"#fef3c7\" stroke=\"#f59e0b\" stroke-width=\"1.5\" rx=\"3\"/>\n<text x=\"240\" y=\"60\" text-anchor=\"middle\" font-size=\"10\" fill=\"#1e40af\">Conduction</text>\n<text x=\"240\" y=\"135\" text-anchor=\"middle\" font-size=\"10\" fill=\"#92400e\">Valence</text>\n<text x=\"240\" y=\"90\" text-anchor=\"middle\" font-size=\"9\" fill=\"#ef4444\" font-weight=\"bold\">E_g</text>\n</svg>",
+        "caption": "Mathematical Physics — Diagram"
+      }
     },
     {
       "id": 3,
@@ -90,7 +98,12 @@
       "solution": "Requires S closed, bounding simply connected V, with F continuously differentiable.",
       "estSec": 30,
       "topicWeight": 0.14,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 220\">\n<rect width=\"300\" height=\"220\" fill=\"#f8fafc\"/>\n<text x=\"150\" y=\"18\" text-anchor=\"middle\" font-size=\"13\" fill=\"#1e293b\" font-weight=\"bold\">CMOS Inverter — VTC Curve</text>\n<line x1=\"50\" y1=\"190\" x2=\"260\" y2=\"190\" stroke=\"#1e293b\" stroke-width=\"1.5\"/>\n<line x1=\"50\" y1=\"190\" x2=\"50\" y2=\"40\" stroke=\"#1e293b\" stroke-width=\"1.5\"/>\n<text x=\"155\" y=\"210\" text-anchor=\"middle\" font-size=\"11\" fill=\"#64748b\">V_in</text>\n<text x=\"35\" y=\"115\" text-anchor=\"middle\" font-size=\"11\" fill=\"#64748b\" transform=\"rotate(-90 35 115)\">V_out</text>\n<path d=\"M50,55 L120,55 Q140,55 155,120 Q170,185 185,185 L260,185\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"2.5\"/>\n<text x=\"155\" y=\"135\" font-size=\"9\" fill=\"#ef4444\" font-weight=\"bold\">V_DD/2</text>\n<line x1=\"50\" y1=\"55\" x2=\"260\" y2=\"55\" stroke=\"#e2e8f0\" stroke-width=\"1\" stroke-dasharray=\"3,2\"/>\n<text x=\"265\" y=\"55\" font-size=\"9\" fill=\"#64748b\">V_DD</text>\n<text x=\"55\" y=\"50\" font-size=\"9\" fill=\"#64748b\">1</text>\n<text x=\"55\" y=\"195\" font-size=\"9\" fill=\"#64748b\">0</text>\n<text x=\"260\" y=\"200\" font-size=\"9\" fill=\"#64748b\">V_DD</text>\n<text x=\"150\" y=\"35\" text-anchor=\"middle\" font-size=\"10\" fill=\"#3b82f6\">Sharp transition at V_DD/2</text>\n</svg>",
+        "caption": "Mathematical Physics — Diagram"
+      }
     },
     {
       "id": 4,
@@ -111,7 +124,12 @@
       "solution": "If Av = λv then A²v = λ²v. Squares of 1, 2, 3 are 1, 4, 9.",
       "estSec": 20,
       "topicWeight": 0.14,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 220\">\n<rect width=\"320\" height=\"220\" fill=\"#f8fafc\"/>\n<text x=\"160\" y=\"18\" text-anchor=\"middle\" font-size=\"13\" fill=\"#1e293b\" font-weight=\"bold\">Fresnel Equations — Reflectance vs Angle</text>\n<line x1=\"50\" y1=\"190\" x2=\"290\" y2=\"190\" stroke=\"#1e293b\" stroke-width=\"1.5\"/>\n<line x1=\"50\" y1=\"190\" x2=\"50\" y2=\"40\" stroke=\"#1e293b\" stroke-width=\"1.5\"/>\n<text x=\"170\" y=\"210\" text-anchor=\"middle\" font-size=\"11\" fill=\"#64748b\">Angle of Incidence θ</text>\n<text x=\"35\" y=\"115\" text-anchor=\"middle\" font-size=\"11\" fill=\"#64748b\" transform=\"rotate(-90 35 115)\">Reflectance R</text>\n<text x=\"55\" y=\"185\" font-size=\"9\" fill=\"#64748b\">0°</text>\n<text x=\"160\" y=\"185\" font-size=\"9\" fill=\"#64748b\">θ_B</text>\n<text x=\"275\" y=\"185\" font-size=\"9\" fill=\"#64748b\">90°</text>\n<path d=\"M50,170 Q100,168 160,165 Q200,150 230,80 Q260,45 285,42\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"2.5\"/>\n<path d=\"M50,140 Q100,138 160,135 Q200,130 230,120 Q260,80 285,42\" fill=\"none\" stroke=\"#ef4444\" stroke-width=\"2.5\"/>\n<circle cx=\"175\" cy=\"163\" r=\"4\" fill=\"#22c55e\"/>\n<text x=\"175\" y=\"155\" text-anchor=\"middle\" font-size=\"9\" fill=\"#22c55e\" font-weight=\"bold\">θ_B</text>\n<text x=\"100\" y=\"163\" font-size=\"9\" fill=\"#3b82f6\">s-polarized</text>\n<text x=\"100\" y=\"133\" font-size=\"9\" fill=\"#ef4444\">p-polarized</text>\n<text x=\"230\" y=\"165\" font-size=\"8\" fill=\"#64748b\">R_p → 0 at Brewster</text>\n</svg>",
+        "caption": "Mathematical Physics — Diagram"
+      }
     },
     {
       "id": 5,
@@ -133,7 +151,11 @@
       "estSec": 40,
       "topicWeight": 0.14,
       "source": "curated",
-      "svg": "<svg width='240' height='160' viewBox='0 0 240 160' xmlns='http://www.w3.org/2000/svg'><line x1='120' y1='150' x2='120' y2='8' stroke='#374151' stroke-width='1.5'/><line x1='120' y1='150' x2='210' y2='150' stroke='#374151' stroke-width='1.5'/><line x1='120' y1='150' x2='80' y2='45' stroke='#2563eb' stroke-width='2'/><line x1='80' y1='45' x2='45' y2='8' stroke='#ef4444' stroke-width='2'/><path d='M120 128 Q120 150 138 150' fill='none' stroke='#7c3aed' stroke-width='1.5'/><text x='148' y='145' font-size='12' fill='#7c3aed' font-weight='bold'>θ</text><text x='80' y='40' font-size='9' fill='#2563eb'>z (body)</text><text x='120' y='180' text-anchor='middle' font-size='10' fill='#6b7280'>Z (space)</text></svg>"
+      "figure": {
+        "kind": "svg",
+        "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 160\">\n<rect width=\"320\" height=\"160\" fill=\"#f8fafc\"/>\n<text x=\"160\" y=\"18\" text-anchor=\"middle\" font-size=\"13\" fill=\"#1e293b\" font-weight=\"bold\">EPR Pair — Bell State |Φ⁺⟩</text>\n<circle cx=\"100\" cy=\"80\" r=\"25\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"2\"/>\n<text x=\"100\" y=\"85\" text-anchor=\"middle\" font-size=\"12\" fill=\"#1e40af\" font-weight=\"bold\">A</text>\n<circle cx=\"220\" cy=\"80\" r=\"25\" fill=\"#fee2e2\" stroke=\"#ef4444\" stroke-width=\"2\"/>\n<text x=\"220\" y=\"85\" text-anchor=\"middle\" font-size=\"12\" fill=\"#991b1b\" font-weight=\"bold\">B</text>\n<path d=\"M125,80 Q160,50 195,80\" fill=\"none\" stroke=\"#8b5cf6\" stroke-width=\"2.5\" stroke-dasharray=\"5,3\"/>\n<text x=\"160\" y=\"45\" text-anchor=\"middle\" font-size=\"10\" fill=\"#8b5cf6\" font-weight=\"bold\">Entangled</text>\n<text x=\"160\" y=\"115\" text-anchor=\"middle\" font-size=\"11\" fill=\"#1e293b\">|Φ⁺⟩ = (|00⟩ + |11⟩)/√2</text>\n<text x=\"160\" y=\"135\" text-anchor=\"middle\" font-size=\"10\" fill=\"#64748b\">Measuring A instantly determines B</text>\n<text x=\"160\" y=\"152\" text-anchor=\"middle\" font-size=\"9\" fill=\"#8b5cf6\">Von Neumann entropy S = 1 bit (maximally entangled)</text>\n</svg>",
+        "caption": "Classical Mechanics — Diagram"
+      }
     },
     {
       "id": 6,
@@ -175,8 +197,7 @@
       "solution": "Antisymmetric mode: middle spring maximally compressed. ω² = 3k/m.",
       "estSec": 50,
       "topicWeight": 0.14,
-      "source": "curated",
-      "svg": "<svg width='280' height='80' viewBox='0 0 280 80' xmlns='http://www.w3.org/2000/svg'><line x1='5' y1='40' x2='22' y2='40' stroke='#374151' stroke-width='3'/><path d='M22 40 L37 25 L47 55 L57 25 L67 55 L77 40' fill='none' stroke='#6366f1' stroke-width='1.5'/><rect x='77' y='25' width='28' height='30' fill='#dbeafe' stroke='#2563eb' stroke-width='1.5' rx='3'/><text x='91' y='44' text-anchor='middle' font-size='10' fill='#1e40af' font-weight='bold'>m</text><path d='M105 40 L120 25 L130 55 L140 25 L150 55 L160 40' fill='none' stroke='#6366f1' stroke-width='1.5'/><rect x='160' y='25' width='28' height='30' fill='#dbeafe' stroke='#2563eb' stroke-width='1.5' rx='3'/><text x='174' y='44' text-anchor='middle' font-size='10' fill='#1e40af' font-weight='bold'>m</text><path d='M188 40 L203 25 L213 55 L223 25 L233 55 L243 40' fill='none' stroke='#6366f1' stroke-width='1.5'/><line x1='243' y1='40' x2='260' y2='40' stroke='#374151' stroke-width='3'/><text x='140' y='72' text-anchor='middle' font-size='11' fill='#1e40af' font-weight='bold'>ω² = 3k/m</text></svg>"
+      "source": "curated"
     },
     {
       "id": 8,
@@ -218,8 +239,7 @@
       "solution": "f = (c/2)√((1/0.03)²+(1/0.04)²) = 1.5×10⁸×√(1111+625) ≈ 6.25 GHz.",
       "estSec": 55,
       "topicWeight": 0.14,
-      "source": "curated",
-      "svg": "<svg width='220' height='140' viewBox='0 0 220 140' xmlns='http://www.w3.org/2000/svg'><rect x='30' y='18' width='160' height='90' fill='#dbeafe' stroke='#2563eb' stroke-width='1.5'/><text x='110' y='68' text-anchor='middle' font-size='10' fill='#1e40af' font-weight='bold'>Cavity</text><text x='110' y='122' text-anchor='middle' font-size='9' fill='#6b7280'>a = 3 cm</text><text x='198' y='68' font-size='9' fill='#6b7280'>b</text></svg>"
+      "source": "curated"
     },
     {
       "id": 10,
@@ -240,8 +260,7 @@
       "solution": "At Brewster's angle, p-component has zero reflection. Only s-polarized light is reflected.",
       "estSec": 40,
       "topicWeight": 0.14,
-      "source": "curated",
-      "svg": "<svg width='250' height='160' viewBox='0 0 250 160' xmlns='http://www.w3.org/2000/svg'><rect x='0' y='90' width='250' height='70' fill='#dbeafe' stroke='#93c5fd' stroke-width='1'/><text x='125' y='128' text-anchor='middle' font-size='9' fill='#1e40af'>Glass (n=1.5)</text><line x1='125' y1='5' x2='125' y2='90' stroke='#9ca3af' stroke-width='1' stroke-dasharray='4,3'/><line x1='65' y1='20' x2='125' y2='90' stroke='#ef4444' stroke-width='2'/><line x1='125' y1='90' x2='185' y2='20' stroke='#ef4444' stroke-width='2'/><line x1='125' y1='90' x2='160' y2='145' stroke='#2563eb' stroke-width='2'/></svg>"
+      "source": "curated"
     },
     {
       "id": 11,
@@ -283,8 +302,7 @@
       "solution": "cos θ = c/(nv) = 1/(nβ). Threshold: nβ > 1.",
       "estSec": 40,
       "topicWeight": 0.14,
-      "source": "curated",
-      "svg": "<svg width='230' height='120' viewBox='0 0 230 120' xmlns='http://www.w3.org/2000/svg'><line x1='12' y1='100' x2='218' y2='100' stroke='#374151' stroke-width='1'/><circle cx='110' cy='32' r='4' fill='#ef4444'/><text x='120' y='28' font-size='8' fill='#ef4444'>q, v &gt; c/n</text><line x1='110' y1='32' x2='158' y2='100' stroke='#2563eb' stroke-width='1.5'/><line x1='110' y1='32' x2='172' y2='100' stroke='#2563eb' stroke-width='1.5'/><line x1='110' y1='32' x2='186' y2='100' stroke='#2563eb' stroke-width='1.5'/><path d='M110 60 L110 100' fill='none' stroke='#9ca3af' stroke-width='1'/><path d='M110 60 Q119 57 121 67' fill='none' stroke='#7c3aed' stroke-width='1'/><text x='127' y='78' font-size='9' fill='#7c3aed'>θ</text></svg>"
+      "source": "curated"
     },
     {
       "id": 13,
@@ -326,8 +344,7 @@
       "solution": "Three configurations: (1,0,0), (0,1,0), (0,0,1). Degeneracy = 3.",
       "estSec": 30,
       "topicWeight": 0.14,
-      "source": "curated",
-      "svg": "<svg width='180' height='150' viewBox='0 0 180 150' xmlns='http://www.w3.org/2000/svg'><line x1='90' y1='8' x2='90' y2='138' stroke='#374151' stroke-width='1'/><line x1='8' y1='75' x2='172' y2='75' stroke='#374151' stroke-width='1'/><circle cx='90' cy='75' r='4' fill='#2563eb'/><text x='90' y='70' text-anchor='middle' font-size='8' fill='#2563eb'>N=0</text><circle cx='50' cy='38' r='3' fill='#ef4444'/><text x='50' y='33' text-anchor='middle' font-size='7' fill='#ef4444'>(1,0,0)</text><circle cx='130' cy='38' r='3' fill='#ef4444'/><text x='130' y='33' text-anchor='middle' font-size='7' fill='#ef4444'>(0,1,0)</text><circle cx='90' cy='18' r='3' fill='#ef4444'/><text x='90' y='13' text-anchor='middle' font-size='7' fill='#ef4444'>(0,0,1)</text><text x='90' y='148' text-anchor='middle' font-size='10' fill='#1e40af' font-weight='bold'>3-fold degeneracy</text></svg>"
+      "source": "curated"
     },
     {
       "id": 15,
@@ -369,8 +386,7 @@
       "solution": "Local hidden variables: |S| ≤ 2. QM: S = 2√2 ≈ 2.83.",
       "estSec": 45,
       "topicWeight": 0.14,
-      "source": "curated",
-      "svg": "<svg width='240' height='120' viewBox='0 0 240 120' xmlns='http://www.w3.org/2000/svg'><circle cx='65' cy='60' r='5' fill='#2563eb'/><circle cx='175' cy='60' r='5' fill='#ef4444'/><path d='M65 60 C85 28 155 28 175 60' fill='none' stroke='#7c3aed' stroke-width='1.5'/><path d='M65 60 C85 92 155 92 175 60' fill='none' stroke='#7c3aed' stroke-width='1.5'/><text x='65' y='82' text-anchor='middle' font-size='10' fill='#2563eb'>Alice</text><text x='175' y='82' text-anchor='middle' font-size='10' fill='#ef4444'>Bob</text><text x='120' y='22' text-anchor='middle' font-size='10' fill='#7c3aed'>|Φ⁺⟩</text></svg>"
+      "source": "curated"
     },
     {
       "id": 17,
@@ -496,8 +512,7 @@
       "solution": "g_J = 1 + [J(J+1)+S(S+1)−L(L+1)]/[2J(J+1)] = 1−0.2 = 0.8 = 4/5.",
       "estSec": 50,
       "topicWeight": 0.14,
-      "source": "curated",
-      "svg": "<svg width='230' height='155' viewBox='0 0 230 155' xmlns='http://www.w3.org/2000/svg'><line x1='50' y1='12' x2='50' y2='142' stroke='#374151' stroke-width='1'/><line x1='170' y1='12' x2='170' y2='142' stroke='#374151' stroke-width='1'/><line x1='30' y1='42' x2='70' y2='42' stroke='#2563eb' stroke-width='1.5'/><line x1='30' y1='65' x2='70' y2='65' stroke='#2563eb' stroke-width='1.5'/><line x1='30' y1='88' x2='70' y2='88' stroke='#2563eb' stroke-width='1.5'/><line x1='30' y1='111' x2='70' y2='111' stroke='#2563eb' stroke-width='1.5'/><line x1='150' y1='32' x2='190' y2='32' stroke='#ef4444' stroke-width='1.5'/><line x1='150' y1='55' x2='190' y2='55' stroke='#ef4444' stroke-width='1.5'/><line x1='150' y1='100' x2='190' y2='100' stroke='#ef4444' stroke-width='1.5'/><line x1='150' y1='123' x2='190' y2='123' stroke='#ef4444' stroke-width='1.5'/><text x='80' y='46' font-size='8' fill='#2563eb'>+3/2</text><text x='80' y='69' font-size='8' fill='#2563eb'>+1/2</text><text x='80' y='92' font-size='8' fill='#2563eb'>−1/2</text><text x='80' y='115' font-size='8' fill='#2563eb'>−3/2</text><text x='50' y='152' text-anchor='middle' font-size='9' fill='#6b7280'>No field</text><text x='170' y='152' text-anchor='middle' font-size='9' fill='#6b7280'>With B</text></svg>"
+      "source": "curated"
     },
     {
       "id": 23,
@@ -539,8 +554,7 @@
       "solution": "N₃ > N₂. Rapid decay |2⟩→|1⟩ keeps N₂ low.",
       "estSec": 35,
       "topicWeight": 0.14,
-      "source": "curated",
-      "svg": "<svg width='190' height='170' viewBox='0 0 190 170' xmlns='http://www.w3.org/2000/svg'><line x1='25' y1='22' x2='85' y2='22' stroke='#2563eb' stroke-width='2'/><line x1='25' y1='55' x2='85' y2='55' stroke='#ef4444' stroke-width='2'/><line x1='25' y1='102' x2='85' y2='102' stroke='#059669' stroke-width='2'/><line x1='25' y1='145' x2='85' y2='145' stroke='#374151' stroke-width='2'/><text x='95' y='26' font-size='9' fill='#2563eb'>|3⟩ upper</text><text x='95' y='59' font-size='9' fill='#ef4444'>|2⟩ lower</text><text x='95' y='106' font-size='9' fill='#059669'>|1⟩</text><text x='95' y='149' font-size='9' fill='#374151'>|0⟩ ground</text></svg>"
+      "source": "curated"
     },
     {
       "id": 25,
@@ -561,8 +575,7 @@
       "solution": "From aᵢ·bⱼ = 2πδᵢⱼ: b₁=(2π/a)x̂, b₂=(2π/a)ŷ.",
       "estSec": 35,
       "topicWeight": 0.14,
-      "source": "curated",
-      "svg": "<svg width='240' height='165' viewBox='0 0 240 165' xmlns='http://www.w3.org/2000/svg'><rect x='35' y='35' width='40' height='40' fill='none' stroke='#2563eb' stroke-width='1.5'/><rect x='155' y='35' width='40' height='40' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='35' cy='35' r='3' fill='#2563eb'/><circle cx='75' cy='35' r='3' fill='#2563eb'/><circle cx='35' cy='75' r='3' fill='#2563eb'/><circle cx='75' cy='75' r='3' fill='#2563eb'/><circle cx='155' cy='35' r='3' fill='#ef4444'/><circle cx='195' cy='35' r='3' fill='#ef4444'/><circle cx='155' cy='75' r='3' fill='#ef4444'/><circle cx='195' cy='75' r='3' fill='#ef4444'/><text x='55' y='30' font-size='9' fill='#2563eb'>Real (a)</text><text x='175' y='30' font-size='9' fill='#ef4444'>Reciprocal (2π/a)</text></svg>"
+      "source": "curated"
     },
     {
       "id": 26,
@@ -625,8 +638,7 @@
       "solution": "BCS: 2Δ(0)/k_BT_c = 2e^(−γ) ≈ 3.53.",
       "estSec": 45,
       "topicWeight": 0.14,
-      "source": "curated",
-      "svg": "<svg width='220' height='150' viewBox='0 0 220 150' xmlns='http://www.w3.org/2000/svg'><line x1='30' y1='130' x2='200' y2='130' stroke='#374151' stroke-width='1'/><line x1='30' y1='10' x2='30' y2='130' stroke='#374151' stroke-width='1'/><path d='M30 15 Q65 15 85 42 Q105 68 105 130' fill='none' stroke='#2563eb' stroke-width='2'/><path d='M30 120 Q65 120 85 100 Q105 80 105 42' fill='none' stroke='#ef4444' stroke-width='2'/><line x1='105' y1='15' x2='180' y2='15' stroke='#059669' stroke-width='1'/><line x1='105' y1='120' x2='180' y2='120' stroke='#059669' stroke-width='1'/><text x='185' y='19' font-size='9' fill='#059669'>E_F+Δ</text><text x='185' y='124' font-size='9' fill='#059669'>E_F−Δ</text></svg>"
+      "source": "curated"
     },
     {
       "id": 29,
@@ -668,8 +680,7 @@
       "solution": "Saturation: V_GS > V_th AND V_DS ≥ V_GS − V_th (channel pinched off at drain).",
       "estSec": 30,
       "topicWeight": 0.14,
-      "source": "curated",
-      "svg": "<svg width='230' height='135' viewBox='0 0 230 135' xmlns='http://www.w3.org/2000/svg'><line x1='30' y1='120' x2='215' y2='120' stroke='#374151' stroke-width='1'/><line x1='30' y1='10' x2='30' y2='120' stroke='#374151' stroke-width='1'/><path d='M30 112 L65 112 L105 70 L210 70' fill='none' stroke='#2563eb' stroke-width='2'/><path d='M30 92 L65 92 L105 50 L210 50' fill='none' stroke='#059669' stroke-width='2'/><path d='M30 72 L65 72 L105 30 L210 30' fill='none' stroke='#ef4444' stroke-width='2'/><text x='218' y='74' font-size='8' fill='#ef4444'>V_GS₃</text><text x='218' y='54' font-size='8' fill='#059669'>V_GS₂</text><text x='218' y='116' font-size='8' fill='#2563eb'>V_GS₁</text></svg>"
+      "source": "curated"
     },
     {
       "id": 31,
@@ -690,8 +701,7 @@
       "solution": "NMOS V_GS = V_DD > V_th (conducts). PMOS V_SG = 0 (off). Output pulled LOW.",
       "estSec": 25,
       "topicWeight": 0.14,
-      "source": "curated",
-      "svg": "<svg width='170' height='155' viewBox='0 0 170 155' xmlns='http://www.w3.org/2000/svg'><line x1='85' y1='8' x2='85' y2='20' stroke='#374151' stroke-width='1.5'/><text x='85' y='6' text-anchor='middle' font-size='9' fill='#374151'>V_DD</text><rect x='60' y='20' width='50' height='28' fill='#fee2e2' stroke='#ef4444' stroke-width='1.5' rx='3'/><text x='85' y='38' text-anchor='middle' font-size='9' fill='#ef4444'>PMOS</text><line x1='85' y1='48' x2='85' y2='75' stroke='#374151' stroke-width='1.5'/><rect x='60' y='75' width='50' height='28' fill='#dbeafe' stroke='#2563eb' stroke-width='1.5' rx='3'/><text x='85' y='93' text-anchor='middle' font-size='9' fill='#2563eb'>NMOS</text><line x1='85' y1='103' x2='85' y2='128' stroke='#374151' stroke-width='1.5'/><text x='85' y='143' text-anchor='middle' font-size='9' fill='#374151'>GND</text><line x1='40' y1='75' x2='18' y2='75' stroke='#374151' stroke-width='1.5'/><text x='13' y='79' text-anchor='end' font-size='8' fill='#374151'>IN=H</text><line x1='130' y1='75' x2='152' y2='75' stroke='#374151' stroke-width='1.5'/><text x='157' y='79' font-size='8' fill='#374151'>OUT=L</text></svg>"
+      "source": "curated"
     },
     {
       "id": 32,

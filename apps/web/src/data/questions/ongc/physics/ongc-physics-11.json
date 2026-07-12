@@ -47,10 +47,10 @@
       "estSec": 60,
       "topicWeight": 0.14,
       "source": "curated",
-      "svg": {
-        "id": "riemann3d",
-        "label": "Riemann tensor symmetries",
-        "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 360 200'><rect width='360' height='200' fill='#0d1117' rx='8'/><text x='180' y='30' text-anchor='middle' fill='#58a6ff' font-size='14' font-family='monospace'>Riemann Tensor Symmetries</text><text x='30' y='65' fill='#c9d1d9' font-size='12' font-family='monospace'>R^i_jkl = −R^i_jlk</text><text x='30' y='90' fill='#c9d1d9' font-size='12' font-family='monospace'>R^i_jkl = −R^i_kjl</text><text x='30' y='115' fill='#c9d1d9' font-size='12' font-family='monospace'>R^i_jkl = R^klij</text><text x='30' y='145' fill='#f0883e' font-size='12' font-family='monospace'>Bianchi: R^i_jkl + R^i_jlk + R^i_lkj = 0</text><text x='30' y='175' fill='#3fb950' font-size='12' font-family='monospace'>n=3 → 6 independent components</text></svg>"
+      "figure": {
+        "kind": "svg",
+        "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 300\">\n<rect width=\"300\" height=\"300\" fill=\"#f8fafc\"/>\n<polygon points=\"150,40 260,110 260,210 150,270 40,210 40,110\" fill=\"none\" stroke=\"#8b5cf6\" stroke-width=\"2.5\"/>\n<circle cx=\"150\" cy=\"150\" r=\"8\" fill=\"#8b5cf6\"/>\n<text x=\"150\" y=\"25\" text-anchor=\"middle\" font-size=\"13\" fill=\"#1e293b\" font-weight=\"bold\">BCC Lattice — 1st Brillouin Zone</text>\n<text x=\"150\" y=\"290\" text-anchor=\"middle\" font-size=\"11\" fill=\"#64748b\">k_x</text>\n<text x=\"155\" y=\"38\" text-anchor=\"middle\" font-size=\"9\" fill=\"#8b5cf6\">H</text>\n<text x=\"268\" y=\"110\" text-anchor=\"middle\" font-size=\"9\" fill=\"#8b5cf6\">N</text>\n<text x=\"268\" y=\"215\" text-anchor=\"middle\" font-size=\"9\" fill=\"#8b5cf6\">N</text>\n<text x=\"150\" y=\"280\" text-anchor=\"middle\" font-size=\"9\" fill=\"#8b5cf6\">H</text>\n<text x=\"32\" y=\"215\" text-anchor=\"middle\" font-size=\"9\" fill=\"#8b5cf6\">N</text>\n<text x=\"32\" y=\"110\" text-anchor=\"middle\" font-size=\"9\" fill=\"#8b5cf6\">N</text>\n<text x=\"150\" y=\"155\" text-anchor=\"middle\" font-size=\"9\" fill=\"#1e293b\">Γ</text>\n<text x=\"210\" y=\"75\" text-anchor=\"middle\" font-size=\"9\" fill=\"#1e293b\">P</text>\n</svg>",
+        "caption": "Mathematical Physics — Diagram"
       }
     },
     {
@@ -72,7 +72,12 @@
       "solution": "H¹(Ω) is defined as {u ∈ L²(Ω) : D^α u ∈ L²(Ω) for |α| ≤ 1}, where the derivatives are taken in the weak (distributional) sense. This does not require classical differentiability — functions in H¹ can have discontinuities on sets of measure zero. The H¹ norm is ‖u‖²_H¹ = ‖u‖²_L² + ‖∇u‖²_L².",
       "estSec": 50,
       "topicWeight": 0.14,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 220\">\n<rect width=\"320\" height=\"220\" fill=\"#f8fafc\"/>\n<text x=\"160\" y=\"22\" text-anchor=\"middle\" font-size=\"13\" fill=\"#1e293b\" font-weight=\"bold\">Phonon Dispersion — Diatomic Chain</text>\n<line x1=\"50\" y1=\"190\" x2=\"290\" y2=\"190\" stroke=\"#1e293b\" stroke-width=\"1.5\"/>\n<line x1=\"50\" y1=\"190\" x2=\"50\" y2=\"40\" stroke=\"#1e293b\" stroke-width=\"1.5\"/>\n<text x=\"170\" y=\"215\" text-anchor=\"middle\" font-size=\"11\" fill=\"#64748b\">Wave vector q</text>\n<text x=\"35\" y=\"115\" text-anchor=\"middle\" font-size=\"11\" fill=\"#64748b\" transform=\"rotate(-90 35 115)\">ω(q)</text>\n<text x=\"170\" y=\"35\" text-anchor=\"middle\" font-size=\"10\" fill=\"#64748b\">π/a</text>\n<line x1=\"170\" y1=\"40\" x2=\"170\" y2=\"190\" stroke=\"#e2e8f0\" stroke-width=\"1\" stroke-dasharray=\"4,3\"/>\n<text x=\"55\" y=\"185\" font-size=\"9\" fill=\"#64748b\">0</text>\n<text x=\"170\" y=\"185\" font-size=\"9\" fill=\"#64748b\">π/a</text>\n<path d=\"M50,185 Q110,100 170,75\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"2.5\"/>\n<text x=\"80\" y=\"95\" font-size=\"9\" fill=\"#3b82f6\">Acoustic</text>\n<path d=\"M50,65 Q110,55 170,50\" fill=\"none\" stroke=\"#ef4444\" stroke-width=\"2.5\"/>\n<text x=\"90\" y=\"52\" font-size=\"9\" fill=\"#ef4444\">Optical</text>\n<rect x=\"200\" y=\"85\" width=\"90\" height=\"30\" fill=\"#fef3c7\" fill-opacity=\"0.6\" stroke=\"#f59e0b\" stroke-width=\"1\" rx=\"4\"/>\n<text x=\"245\" y=\"105\" text-anchor=\"middle\" font-size=\"9\" fill=\"#92400e\" font-weight=\"bold\">Phonon Gap</text>\n</svg>",
+        "caption": "Mathematical Physics — Diagram"
+      }
     },
     {
       "id": 3,
@@ -93,7 +98,12 @@
       "solution": "For any test function φ: ⟨H', φ⟩ = −⟨H, φ'⟩ = −∫₀^∞ φ'(x)dx = φ(0) = ⟨δ, φ⟩. So H'(x) = δ(x) in the distributional sense. This is fundamental: the derivative of a function with a jump discontinuity is a delta function at the jump.",
       "estSec": 40,
       "topicWeight": 0.14,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 340 180\">\n<rect width=\"340\" height=\"180\" fill=\"#f8fafc\"/>\n<text x=\"170\" y=\"18\" text-anchor=\"middle\" font-size=\"13\" fill=\"#1e293b\" font-weight=\"bold\">Bell/CHSH Experiment Setup</text>\n<circle cx=\"170\" cy=\"90\" r=\"8\" fill=\"#8b5cf6\"/>\n<text x=\"170\" y=\"80\" text-anchor=\"middle\" font-size=\"9\" fill=\"#8b5cf6\" font-weight=\"bold\">Source</text>\n<line x1=\"162\" y1=\"90\" x2=\"50\" y2=\"60\" stroke=\"#3b82f6\" stroke-width=\"1.5\"/>\n<line x1=\"178\" y1=\"90\" x2=\"290\" y2=\"60\" stroke=\"#ef4444\" stroke-width=\"1.5\"/>\n<rect x=\"30\" y=\"45\" width=\"40\" height=\"30\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"1.5\" rx=\"3\"/>\n<text x=\"50\" y=\"65\" text-anchor=\"middle\" font-size=\"9\" fill=\"#1e40af\">Alice</text>\n<rect x=\"270\" y=\"45\" width=\"40\" height=\"30\" fill=\"#fee2e2\" stroke=\"#ef4444\" stroke-width=\"1.5\" rx=\"3\"/>\n<text x=\"290\" y=\"65\" text-anchor=\"middle\" font-size=\"9\" fill=\"#991b1b\">Bob</text>\n<line x1=\"30\" y1=\"60\" x2=\"10\" y2=\"60\" stroke=\"#3b82f6\" stroke-width=\"2\"/>\n<line x1=\"50\" y1=\"45\" x2=\"50\" y2=\"30\" stroke=\"#3b82f6\" stroke-width=\"2\"/>\n<line x1=\"70\" y1=\"60\" x2=\"50\" y2=\"90\" stroke=\"#3b82f6\" stroke-width=\"2\"/>\n<line x1=\"310\" y1=\"60\" x2=\"330\" y2=\"60\" stroke=\"#ef4444\" stroke-width=\"2\"/>\n<line x1=\"290\" y1=\"45\" x2=\"290\" y2=\"30\" stroke=\"#ef4444\" stroke-width=\"2\"/>\n<line x1=\"270\" y1=\"60\" x2=\"290\" y2=\"90\" stroke=\"#ef4444\" stroke-width=\"2\"/>\n<text x=\"30\" y=\"25\" font-size=\"8\" fill=\"#3b82f6\">a</text>\n<text x=\"55\" y=\"25\" font-size=\"8\" fill=\"#3b82f6\">a'</text>\n<text x=\"315\" y=\"25\" font-size=\"8\" fill=\"#ef4444\">b</text>\n<text x=\"295\" y=\"25\" font-size=\"8\" fill=\"#ef4444\">b'</text>\n<text x=\"170\" y=\"140\" text-anchor=\"middle\" font-size=\"10\" fill=\"#1e293b\" font-weight=\"bold\">|S| ≤ 2 (Local Hidden Variables)</text>\n<text x=\"170\" y=\"158\" text-anchor=\"middle\" font-size=\"10\" fill=\"#ef4444\" font-weight=\"bold\">|S| ≤ 2√2 ≈ 2.828 (Quantum Mechanics)</text>\n<text x=\"170\" y=\"175\" text-anchor=\"middle\" font-size=\"9\" fill=\"#64748b\">Tsirelson bound — maximal quantum violation</text>\n</svg>",
+        "caption": "Mathematical Physics — Diagram"
+      }
     },
     {
       "id": 4,
@@ -114,7 +124,12 @@
       "solution": "By the envelope theorem, λ = ∂f*/∂c where c is the constraint level (g = c) and f* is the extremized value. λ measures how sensitive the optimal value is to relaxing the constraint — it is the 'shadow price' of the constraint.",
       "estSec": 55,
       "topicWeight": 0.14,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 160\">\n<rect width=\"300\" height=\"160\" fill=\"#f8fafc\"/>\n<text x=\"150\" y=\"18\" text-anchor=\"middle\" font-size=\"13\" fill=\"#1e293b\" font-weight=\"bold\">Josephson Junction</text>\n<rect x=\"40\" y=\"50\" width=\"80\" height=\"60\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"2\" rx=\"5\"/>\n<text x=\"80\" y=\"85\" text-anchor=\"middle\" font-size=\"11\" fill=\"#1e40af\" font-weight=\"bold\">SC₁</text>\n<rect x=\"180\" y=\"50\" width=\"80\" height=\"60\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"2\" rx=\"5\"/>\n<text x=\"220\" y=\"85\" text-anchor=\"middle\" font-size=\"11\" fill=\"#1e40af\" font-weight=\"bold\">SC₂</text>\n<rect x=\"120\" y=\"55\" width=\"60\" height=\"50\" fill=\"#fef3c7\" stroke=\"#f59e0b\" stroke-width=\"1.5\"/>\n<text x=\"150\" y=\"85\" text-anchor=\"middle\" font-size=\"9\" fill=\"#92400e\" font-weight=\"bold\">Insulator</text>\n<text x=\"150\" y=\"135\" text-anchor=\"middle\" font-size=\"10\" fill=\"#1e293b\">I = I_c sin(φ)</text>\n<text x=\"150\" y=\"152\" text-anchor=\"middle\" font-size=\"9\" fill=\"#64748b\">V = (ℏ/2e) dφ/dt → AC Josephson effect</text>\n</svg>",
+        "caption": "Mathematical Physics — Diagram"
+      }
     },
     {
       "id": 5,
@@ -135,7 +150,12 @@
       "solution": "The Painlevé property means the only movable singularities of the general solution are poles (no branch points or essential singularities). There are 6 Painlevé equations (PI–PVI) which are irreducible — their solutions cannot be expressed in terms of classical functions.",
       "estSec": 50,
       "topicWeight": 0.14,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 200\">\n<rect width=\"300\" height=\"200\" fill=\"#f8fafc\"/>\n<text x=\"150\" y=\"18\" text-anchor=\"middle\" font-size=\"13\" fill=\"#1e293b\" font-weight=\"bold\">Berry Phase — Parameter Space</text>\n<ellipse cx=\"150\" cy=\"110\" rx=\"90\" ry=\"50\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"2.5\"/>\n<circle cx=\"150\" cy=\"110\" r=\"6\" fill=\"#ef4444\"/>\n<text x=\"150\" y=\"114\" text-anchor=\"middle\" font-size=\"8\" fill=\"white\" font-weight=\"bold\">γ</text>\n<text x=\"150\" y=\"55\" text-anchor=\"middle\" font-size=\"10\" fill=\"#3b82f6\" font-weight=\"bold\">Closed path C</text>\n<text x=\"150\" y=\"110\" font-size=\"9\" fill=\"#ef4444\">Singular point</text>\n<path d=\"M100,100 L110,90\" stroke=\"#64748b\" stroke-width=\"1.5\" marker-end=\"url(#arrow)\"/>\n<defs><marker id=\"arrow\" markerWidth=\"8\" markerHeight=\"6\" refX=\"8\" refY=\"3\" orient=\"auto\"><path d=\"M0,0 L8,3 L0,6\" fill=\"#64748b\"/></marker></defs>\n<text x=\"150\" y=\"180\" text-anchor=\"middle\" font-size=\"10\" fill=\"#1e293b\">γ = i ∮ ⟨n(R)|∇_R|n(R)⟩ · dR</text>\n<text x=\"150\" y=\"195\" text-anchor=\"middle\" font-size=\"9\" fill=\"#64748b\">Geometric phase — gauge-invariant, path-dependent</text>\n</svg>",
+        "caption": "Mathematical Physics — Diagram"
+      }
     },
     {
       "id": 6,
@@ -156,12 +176,7 @@
       "solution": "The Coriolis force F_Cor = −2m(Ω × v') is always perpendicular to v' (the velocity in the rotating frame), since (Ω × v') · v' = 0. Therefore the power F_Cor · v' = 0, and the Coriolis force does no work. It deflects particles but cannot change their kinetic energy.",
       "estSec": 45,
       "topicWeight": 0.14,
-      "source": "curated",
-      "svg": {
-        "id": "coriolis",
-        "label": "Coriolis force in rotating frame",
-        "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 360 240'><rect width='360' height='240' fill='#0d1117' rx='8'/><text x='180' y='25' text-anchor='middle' fill='#58a6ff' font-size='13' font-family='monospace'>Rotating Frame Dynamics</text><circle cx='180' cy='140' r='80' fill='none' stroke='#30363d' stroke-width='2' stroke-dasharray='5,5'/><circle cx='180' cy='140' r='5' fill='#f0883e'/><text x='180' y='148' fill='#f0883e' font-size='10' font-family='monospace'>Ω</text><line x1='180' y1='140' x2='250' y2='110' stroke='#3fb950' stroke-width='2'/><circle cx='250' cy='110' r='4' fill='#3fb950'/><text x='258' y='108' fill='#3fb950' font-size='10' font-family='monospace'>m</text><line x1='250' y1='110' x2='230' y2='140' stroke='#f85149' stroke-width='2' marker-end='url(#arrow)'/><text x='215' y='148' fill='#f85149' font-size='9' font-family='monospace'>F_Cor</text><defs><marker id='arrow' markerWidth='6' markerHeight='6' refX='5' refY='3' orient='auto'><path d='M0,0 L6,3 L0,6' fill='#f85149'/></marker></defs><text x='30' y='225' fill='#8b949e' font-size='10' font-family='monospace'>F_Cor ⊥ v' → work = 0</text></svg>"
-      }
+      "source": "curated"
     },
     {
       "id": 7,
@@ -245,12 +260,7 @@
       "solution": "The maximal Lyapunov exponent λ quantifies how quickly two initially close trajectories diverge: |δz(t)| ≈ |δz(0)|e^(λt). A positive λ is the signature of chaos — it implies sensitive dependence on initial conditions.",
       "estSec": 40,
       "topicWeight": 0.14,
-      "source": "curated",
-      "svg": {
-        "id": "lyapunov",
-        "label": "Lyapunov exponent — trajectory divergence",
-        "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 360 200'><rect width='360' height='200' fill='#0d1117' rx='8'/><text x='180' y='25' text-anchor='middle' fill='#58a6ff' font-size='13' font-family='monospace'>Lyapunov Divergence</text><path d='M40,160 Q100,150 140,130 T240,60 T340,30' fill='none' stroke='#3fb950' stroke-width='2'/><path d='M40,162 Q100,155 140,135 T240,80 T340,150' fill='none' stroke='#f85149' stroke-width='2'/><circle cx='40' cy='161' r='4' fill='#58a6ff'/><text x='50' y='175' fill='#8b949e' font-size='10' font-family='monospace'>δz(0) small</text><text x='180' y='95' fill='#f0883e' font-size='10' font-family='monospace'>|δz| ~ e^(λt)</text><line x1='300' y1='60' x2='300' y2='150' stroke='#f0883e' stroke-width='1' stroke-dasharray='3,3'/><text x='305' y='110' fill='#f0883e' font-size='9' font-family='monospace'>diverges</text></svg>"
-      }
+      "source": "curated"
     },
     {
       "id": 11,
@@ -355,12 +365,7 @@
       "solution": "The Yee algorithm places E and H components on a staggered grid, offset by half a cell in both space and time. This naturally implements Faraday's and Ampère's laws via central differences. FDTD requires Courant stability: cΔt ≤ Δx/√3.",
       "estSec": 50,
       "topicWeight": 0.14,
-      "source": "curated",
-      "svg": {
-        "id": "yee-grid",
-        "label": "Yee grid staggering in FDTD",
-        "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 360 240'><rect width='360' height='240' fill='#0d1117' rx='8'/><text x='180' y='25' text-anchor='middle' fill='#58a6ff' font-size='13' font-family='monospace'>Yee Grid (FDTD)</text><line x1='60' y1='60' x2='300' y2='60' stroke='#30363d' stroke-width='1'/><line x1='60' y1='100' x2='300' y2='100' stroke='#30363d' stroke-width='1'/><line x1='60' y1='140' x2='300' y2='140' stroke='#30363d' stroke-width='1'/><line x1='60' y1='180' x2='300' y2='180' stroke='#30363d' stroke-width='1'/><line x1='100' y1='50' x2='100' y2='190' stroke='#30363d' stroke-width='1'/><line x1='160' y1='50' x2='160' y2='190' stroke='#30363d' stroke-width='1'/><line x1='220' y1='50' x2='220' y2='190' stroke='#30363d' stroke-width='1'/><line x1='280' y1='50' x2='280' y2='190' stroke='#30363d' stroke-width='1'/><circle cx='130' cy='80' r='5' fill='#3fb950'/><text x='138' y='78' fill='#3fb950' font-size='9' font-family='monospace'>E_x</text><circle cx='190' cy='80' r='5' fill='#3fb950'/><circle cx='130' cy='120' r='5' fill='#f85149'/><text x='138' y='118' fill='#f85149' font-size='9' font-family='monospace'>H_z</text><circle cx='190' cy='120' r='5' fill='#3fb950'/><circle cx='160' cy='100' r='5' fill='#f0883e'/><text x='168' y='98' fill='#f0883e' font-size='9' font-family='monospace'>H_y</text><text x='30' y='220' fill='#8b949e' font-size='10' font-family='monospace'>Green=E  Red=H  Orange=H (offset)</text></svg>"
-      }
+      "source": "curated"
     },
     {
       "id": 16,
@@ -423,12 +428,7 @@
       "solution": "Tracing over one qubit of |Φ⁺⟩⟨Φ⁺| gives ρ_A = (1/2)|0⟩⟨0| + (1/2)|1⟩⟨1| = I/2 — the maximally mixed state. Despite the joint state being pure, each individual qubit appears completely random. No local measurement can distinguish it from a mixed state.",
       "estSec": 50,
       "topicWeight": 0.14,
-      "source": "curated",
-      "svg": {
-        "id": "bell-state",
-        "label": "Bell state measurement",
-        "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 360 200'><rect width='360' height='200' fill='#0d1117' rx='8'/><text x='180' y='25' text-anchor='middle' fill='#58a6ff' font-size='13' font-family='monospace'>Bell State |Φ⁺⟩</text><rect x='40' y='60' width='120' height='80' fill='none' stroke='#3fb950' stroke-width='1.5' rx='5'/><text x='100' y='105' text-anchor='middle' fill='#3fb950' font-size='12' font-family='monospace'>Qubit A</text><rect x='200' y='60' width='120' height='80' fill='none' stroke='#f85149' stroke-width='1.5' rx='5'/><text x='260' y='105' text-anchor='middle' fill='#f85149' font-size='12' font-family='monospace'>Qubit B</text><path d='M160,100 Q180,80 200,100' fill='none' stroke='#f0883e' stroke-width='2' stroke-dasharray='4,3'/><path d='M160,100 Q180,120 200,100' fill='none' stroke='#f0883e' stroke-width='2' stroke-dasharray='4,3'/><text x='180' y='135' text-anchor='middle' fill='#f0883e' font-size='9' font-family='monospace'>entangled</text><text x='30' y='175' fill='#8b949e' font-size='10' font-family='monospace'>|00⟩+|11⟩  →  ρ_A = I/2</text></svg>"
-      }
+      "source": "curated"
     },
     {
       "id": 19,
@@ -512,12 +512,7 @@
       "solution": "The BKT transition is driven by vortex unbinding. Below T_BKT, vortices are bound in pairs (quasi-long-range order). Above T_BKT, free vortices proliferate (exponential decay of correlations). There is no local order parameter — it is a topological transition.",
       "estSec": 60,
       "topicWeight": 0.14,
-      "source": "curated",
-      "svg": {
-        "id": "bkt-transition",
-        "label": "BKT vortex unbinding",
-        "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 360 240'><rect width='360' height='240' fill='#0d1117' rx='8'/><text x='180' y='25' text-anchor='middle' fill='#58a6ff' font-size='13' font-family='monospace'>BKT Transition</text><rect x='30' y='50' width='140' height='80' fill='none' stroke='#3fb950' stroke-width='1.5' rx='5'/><text x='100' y='45' text-anchor='middle' fill='#3fb950' font-size='11' font-family='monospace'>T &lt; T_BKT</text><circle cx='80' cy='90' r='8' fill='#f85149'/><text x='80' y='93' text-anchor='middle' fill='white' font-size='9'>+</text><circle cx='100' cy='90' r='8' fill='#58a6ff'/><text x='100' y='93' text-anchor='middle' fill='white' font-size='9'>−</text><text x='90' y='115' text-anchor='middle' fill='#8b949e' font-size='9' font-family='monospace'>bound pairs</text><rect x='190' y='50' width='140' height='80' fill='none' stroke='#f85149' stroke-width='1.5' rx='5'/><text x='260' y='45' text-anchor='middle' fill='#f85149' font-size='11' font-family='monospace'>T &gt; T_BKT</text><circle cx='220' cy='80' r='8' fill='#f85149'/><text x='220' y='83' text-anchor='middle' fill='white' font-size='9'>+</text><circle cx='290' cy='100' r='8' fill='#58a6ff'/><text x='290' y='103' text-anchor='middle' fill='white' font-size='9'>−</text><text x='260' y='115' text-anchor='middle' fill='#8b949e' font-size='9' font-family='monospace'>free vortices</text><text x='180' y='170' text-anchor='middle' fill='#f0883e' font-size='11' font-family='monospace'>No local order parameter change</text><text x='180' y='195' text-anchor='middle' fill='#c9d1d9' font-size='11' font-family='monospace'>ξ diverges: ξ ~ exp(b/√(T−T_c))</text></svg>"
-      }
+      "source": "curated"
     },
     {
       "id": 23,
@@ -643,12 +638,7 @@
       "solution": "The three-step model (ionization, acceleration, recombination) gives E_cutoff = I_p + 3.17U_p where U_p = e²E²/(4mω²). This plateau + cutoff structure enables isolated attosecond pulse generation.",
       "estSec": 60,
       "topicWeight": 0.14,
-      "source": "curated",
-      "svg": {
-        "id": "hhg-spectrum",
-        "label": "HHG spectrum with cutoff",
-        "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 360 220'><rect width='360' height='220' fill='#0d1117' rx='8'/><text x='180' y='25' text-anchor='middle' fill='#58a6ff' font-size='13' font-family='monospace'>HHG Spectrum</text><line x1='50' y1='180' x2='330' y2='180' stroke='#30363d' stroke-width='1'/><line x1='50' y1='180' x2='50' y2='40' stroke='#30363d' stroke-width='1'/><text x='180' y='205' text-anchor='middle' fill='#8b949e' font-size='10' font-family='monospace'>Harmonic order</text><text x='30' y='115' fill='#8b949e' font-size='10' font-family='monospace' transform='rotate(-90,30,115)'>Intensity</text><rect x='70' y='100' width='8' height='80' fill='#3fb950'/><rect x='85' y='110' width='8' height='70' fill='#3fb950'/><rect x='100' y='105' width='8' height='75' fill='#3fb950'/><rect x='115' y='100' width='8' height='80' fill='#3fb950'/><rect x='130' y='108' width='8' height='72' fill='#3fb950'/><rect x='145' y='102' width='8' height='78' fill='#3fb950'/><rect x='160' y='110' width='8' height='70' fill='#3fb950'/><rect x='175' y='105' width='8' height='75' fill='#3fb950'/><rect x='190' y='115' width='8' height='65' fill='#3fb950'/><rect x='205' y='120' width='8' height='60' fill='#3fb950'/><rect x='220' y='130' width='8' height='50' fill='#f0883e'/><rect x='235' y='140' width='8' height='40' fill='#f0883e'/><rect x='250' y='150' width='8' height='30' fill='#f85149'/><rect x='265' y='160' width='8' height='20' fill='#f85149'/><rect x='280' y='168' width='8' height='12' fill='#f85149'/><line x1='220' y1='40' x2='220' y2='180' stroke='#f0883e' stroke-width='1' stroke-dasharray='3,3'/><text x='225' y='50' fill='#f0883e' font-size='9' font-family='monospace'>cutoff</text><text x='100' y='70' fill='#3fb950' font-size='9' font-family='monospace'>plateau</text></svg>"
-      }
+      "source": "curated"
     },
     {
       "id": 29,
@@ -690,12 +680,7 @@
       "solution": "C is an integer (topological invariant) that classifies the band. C ≠ 0 implies a topologically nontrivial band with guaranteed chiral edge states (bulk-edge correspondence). The quantum Hall effect has C = 1 for each Landau level.",
       "estSec": 65,
       "topicWeight": 0.14,
-      "source": "curated",
-      "svg": {
-        "id": "berry-phase",
-        "label": "Berry phase on torus in k-space",
-        "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 360 240'><rect width='360' height='240' fill='#0d1117' rx='8'/><text x='180' y='25' text-anchor='middle' fill='#58a6ff' font-size='13' font-family='monospace'>Berry Phase &amp; Chern Number</text><ellipse cx='180' cy='130' rx='100' ry='60' fill='none' stroke='#3fb950' stroke-width='1.5'/><ellipse cx='180' cy='130' rx='40' ry='25' fill='none' stroke='#30363d' stroke-width='1'/><path d='M120,130 Q150,90 200,100 Q250,110 240,140 Q230,170 180,160 Q130,150 120,130' fill='none' stroke='#f0883e' stroke-width='2'/><text x='180' y='80' text-anchor='middle' fill='#3fb950' font-size='10' font-family='monospace'>BZ (torus)</text><text x='180' y='200' text-anchor='middle' fill='#f0883e' font-size='10' font-family='monospace'>C = (1/2π)∮ A·dk</text><text x='180' y='225' text-anchor='middle' fill='#c9d1d9' font-size='10' font-family='monospace'>C ∈ ℤ  →  topology</text></svg>"
-      }
+      "source": "curated"
     },
     {
       "id": 31,
@@ -737,12 +722,7 @@
       "solution": "Graphene's two-component pseudospin wavefunction near the Dirac points satisfies H = v_F σ·p, the 2D massless Dirac equation. This gives linear dispersion, Berry phase π, half-integer quantum Hall effect, and Klein tunneling.",
       "estSec": 55,
       "topicWeight": 0.14,
-      "source": "curated",
-      "svg": {
-        "id": "graphene-dirac",
-        "label": "Graphene Dirac cone",
-        "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 360 260'><rect width='360' height='260' fill='#0d1117' rx='8'/><text x='180' y='25' text-anchor='middle' fill='#58a6ff' font-size='13' font-family='monospace'>Graphene Dirac Cone</text><polygon points='180,60 130,130 230,130' fill='none' stroke='#3fb950' stroke-width='1.5'/><polygon points='180,200 130,130 230,130' fill='none' stroke='#f85149' stroke-width='1.5'/><circle cx='180' cy='130' r='5' fill='#f0883e'/><text x='185' y='128' fill='#f0883e' font-size='10' font-family='monospace'>K point</text><text x='105' y='95' fill='#3fb950' font-size='10' font-family='monospace'>π-band</text><text x='220' y='95' fill='#3fb950' font-size='10' font-family='monospace'>π*-band</text><line x1='50' y1='130' x2='310' y2='130' stroke='#30363d' stroke-width='1' stroke-dasharray='3,3'/><text x='290' y='125' fill='#8b949e' font-size='9'>E_F</text><text x='180' y='235' text-anchor='middle' fill='#c9d1d9' font-size='11' font-family='monospace'>ε = ±v_F|p|  (massless Dirac)</text></svg>"
-      }
+      "source": "curated"
     },
     {
       "id": 33,
@@ -784,12 +764,7 @@
       "solution": "Majorana zero modes are non-Abelian anyons. Exchanging two Majorana modes applies a unitary transformation to the ground state degenerate subspace — not just a phase. This non-commutative property is the basis of topological quantum computation.",
       "estSec": 60,
       "topicWeight": 0.14,
-      "source": "curated",
-      "svg": {
-        "id": "majorana-nanowire",
-        "label": "Majorana modes in topological superconductor",
-        "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 360 200'><rect width='360' height='200' fill='#0d1117' rx='8'/><text x='180' y='25' text-anchor='middle' fill='#58a6ff' font-size='13' font-family='monospace'>Majorana Zero Modes</text><rect x='60' y='90' width='240' height='20' fill='#30363d' rx='3'/><text x='180' y='85' text-anchor='middle' fill='#8b949e' font-size='10' font-family='monospace'>Topological Superconductor</text><circle cx='60' cy='100' r='10' fill='#f0883e'/><text x='60' y='104' text-anchor='middle' fill='white' font-size='8' font-weight='bold'>γ</text><circle cx='300' cy='100' r='10' fill='#f0883e'/><text x='300' y='104' text-anchor='middle' fill='white' font-size='8' font-weight='bold'>γ†</text><text x='180' y='140' text-anchor='middle' fill='#3fb950' font-size='10' font-family='monospace'>γ = γ†  (self-conjugate)</text><text x='180' y='170' text-anchor='middle' fill='#c9d1d9' font-size='10' font-family='monospace'>Non-Abelian exchange statistics</text></svg>"
-      }
+      "source": "curated"
     },
     {
       "id": 35,
@@ -852,12 +827,7 @@
       "solution": "Inside the loop bandwidth, the loop tracks the reference — output noise follows reference noise (× N²). Outside the bandwidth, VCO free-running noise dominates. The optimal loop bandwidth balances both.",
       "estSec": 60,
       "topicWeight": 0.14,
-      "source": "curated",
-      "svg": {
-        "id": "pll-noise",
-        "label": "PLL phase noise profile",
-        "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 360 220'><rect width='360' height='220' fill='#0d1117' rx='8'/><text x='180' y='25' text-anchor='middle' fill='#58a6ff' font-size='13' font-family='monospace'>PLL Phase Noise</text><line x1='50' y1='180' x2='320' y2='180' stroke='#30363d' stroke-width='1'/><line x1='50' y1='180' x2='50' y2='40' stroke='#30363d' stroke-width='1'/><text x='180' y='205' text-anchor='middle' fill='#8b949e' font-size='10' font-family='monospace'>Offset frequency</text><text x='25' y='115' fill='#8b949e' font-size='9' font-family='monospace' transform='rotate(-90,25,115)'>Phase noise</text><path d='M60,60 L150,60 Q170,60 180,100 L200,150 L310,170' fill='none' stroke='#3fb950' stroke-width='2'/><path d='M60,90 L150,90 Q170,90 180,110 L200,130 L310,140' fill='none' stroke='#f85149' stroke-width='2'/><line x1='170' y1='40' x2='170' y2='180' stroke='#f0883e' stroke-width='1' stroke-dasharray='3,3'/><text x='175' y='50' fill='#f0883e' font-size='9' font-family='monospace'>BW</text><text x='80' y='55' fill='#3fb950' font-size='9' font-family='monospace'>Ref × N²</text><text x='250' y='165' fill='#f85149' font-size='9' font-family='monospace'>VCO</text></svg>"
-      }
+      "source": "curated"
     },
     {
       "id": 38,
@@ -1738,6 +1708,132 @@
       "answer": 1,
       "solution": "'An' before silent 'h': 'an honest man'.",
       "estSec": 10,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 74,
+      "subject": "Aptitude",
+      "topic": "Quantitative · Percentage",
+      "section": "Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "easy",
+      "stem": "If a number is increased by 20% and then decreased by 20%, the net change is:",
+      "options": [
+        "4% decrease",
+        "No change",
+        "4% increase",
+        "2% decrease"
+      ],
+      "answer": 0,
+      "solution": "Let the number be 100. After 20% increase: 120. After 20% decrease: 120 × 0.8 = 96. Net change = 4% decrease.",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 75,
+      "subject": "Aptitude",
+      "topic": "Quantitative · Time & Work",
+      "section": "Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "5 workers can build a wall in 10 days. How many workers are needed to build it in 5 days?",
+      "options": [
+        "10",
+        "8",
+        "12",
+        "15"
+      ],
+      "answer": 0,
+      "solution": "Work = 5 workers × 10 days = 50 worker-days. For 5 days: 50/5 = 10 workers needed.",
+      "estSec": 20,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 76,
+      "subject": "Aptitude",
+      "topic": "Quantitative · Profit & Loss",
+      "section": "Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "easy",
+      "stem": "A man buys a toy for Rs.50 and sells it for Rs.65. His profit percentage is:",
+      "options": [
+        "30%",
+        "25%",
+        "20%",
+        "15%"
+      ],
+      "answer": 0,
+      "solution": "Profit = 65 − 50 = Rs.15. Profit% = (15/50) × 100 = 30%.",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 77,
+      "subject": "Aptitude",
+      "topic": "Reasoning · Series",
+      "section": "Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "Find the next number: 2, 6, 12, 20, 30, ?",
+      "options": [
+        "40",
+        "42",
+        "36",
+        "44"
+      ],
+      "answer": 1,
+      "solution": "Differences: 4, 6, 8, 10, 12. Next number = 30 + 12 = 42. Alternatively, n(n+1): 1×2=2, 2×3=6, 3×4=12, 4×5=20, 5×6=30, 6×7=42.",
+      "estSec": 25,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 78,
+      "subject": "Aptitude",
+      "topic": "Quantitative · Speed, Distance & Time",
+      "section": "Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "A train 200 m long passes a pole in 20 seconds. The speed of the train is:",
+      "options": [
+        "36 km/h",
+        "40 km/h",
+        "30 km/h",
+        "45 km/h"
+      ],
+      "answer": 0,
+      "solution": "Speed = 200/20 = 10 m/s = 10 × 18/5 = 36 km/h.",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 79,
+      "subject": "Aptitude",
+      "topic": "Quantitative · Averages",
+      "section": "Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "easy",
+      "stem": "The average of 5 numbers is 20. If one number is removed, the average becomes 18. The removed number is:",
+      "options": [
+        "28",
+        "30",
+        "25",
+        "32"
+      ],
+      "answer": 0,
+      "solution": "Total of 5 = 100. Total of 4 = 72. Removed number = 100 − 72 = 28.",
+      "estSec": 20,
       "topicWeight": 0.1,
       "source": "curated"
     }

@@ -46,7 +46,12 @@
       "solution": "In n dimensions the Riemann tensor has n^2(n^2-1)/12 independent components. For n=4 this gives 16(15)/12 = 20. The symmetries are: antisymmetry in first pair, antisymmetry in second pair, symmetry under pair exchange, and the first Bianchi identity.",
       "estSec": 45,
       "topicWeight": 0.14,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 200\">\n<rect width=\"300\" height=\"200\" fill=\"#f8fafc\"/>\n<text x=\"150\" y=\"18\" text-anchor=\"middle\" font-size=\"13\" fill=\"#1e293b\" font-weight=\"bold\">Landau Levels — Quantized Cyclotron Orbits</text>\n<line x1=\"40\" y1=\"170\" x2=\"270\" y2=\"170\" stroke=\"#1e293b\" stroke-width=\"1\"/>\n<line x1=\"40\" y1=\"170\" x2=\"40\" y2=\"30\" stroke=\"#1e293b\" stroke-width=\"1\"/>\n<text x=\"155\" y=\"190\" text-anchor=\"middle\" font-size=\"10\" fill=\"#64748b\">B (magnetic field)</text>\n<text x=\"25\" y=\"100\" font-size=\"10\" fill=\"#64748b\" transform=\"rotate(-90 25 100)\">E</text>\n<line x1=\"40\" y1=\"150\" x2=\"230\" y2=\"150\" stroke=\"#3b82f6\" stroke-width=\"2\"/>\n<text x=\"235\" y=\"153\" font-size=\"9\" fill=\"#3b82f6\">n=0</text>\n<line x1=\"40\" y1=\"120\" x2=\"200\" y2=\"120\" stroke=\"#3b82f6\" stroke-width=\"2\"/>\n<text x=\"205\" y=\"123\" font-size=\"9\" fill=\"#3b82f6\">n=1</text>\n<line x1=\"40\" y1=\"90\" x2=\"170\" y2=\"90\" stroke=\"#3b82f6\" stroke-width=\"2\"/>\n<text x=\"175\" y=\"93\" font-size=\"9\" fill=\"#3b82f6\">n=2</text>\n<line x1=\"40\" y1=\"60\" x2=\"140\" y2=\"60\" stroke=\"#3b82f6\" stroke-width=\"2\"/>\n<text x=\"145\" y=\"63\" font-size=\"9\" fill=\"#3b82f6\">n=3</text>\n<text x=\"150\" y=\"40\" text-anchor=\"middle\" font-size=\"10\" fill=\"#1e293b\" font-weight=\"bold\">E_n = ℏω_c(n + 1/2)</text>\n<text x=\"150\" y=\"155\" text-anchor=\"middle\" font-size=\"9\" fill=\"#64748b\">ω_c = eB/m</text>\n</svg>",
+        "caption": "Mathematical Physics — Diagram"
+      }
     },
     {
       "id": 2,
@@ -67,7 +72,12 @@
       "solution": "The Lorentz group has 4 connected components: (1) proper orthochronous (det=+1, Lambda^0_0 >= +1), (2) parity (det=-1), (3) time reversal (det=+1, Lambda^0_0 <= -1), (4) PT (det=-1). The proper orthochronous component is the identity component connected to the identity.",
       "estSec": 40,
       "topicWeight": 0.14,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 180\">\n<rect width=\"320\" height=\"180\" fill=\"#f8fafc\"/>\n<text x=\"160\" y=\"18\" text-anchor=\"middle\" font-size=\"13\" fill=\"#1e293b\" font-weight=\"bold\">Topological Photonic Crystal</text>\n<circle cx=\"80\" cy=\"90\" r=\"12\" fill=\"#3b82f6\" fill-opacity=\"0.3\" stroke=\"#3b82f6\" stroke-width=\"1.5\"/>\n<circle cx=\"120\" cy=\"70\" r=\"12\" fill=\"#3b82f6\" fill-opacity=\"0.3\" stroke=\"#3b82f6\" stroke-width=\"1.5\"/>\n<circle cx=\"120\" cy=\"110\" r=\"12\" fill=\"#3b82f6\" fill-opacity=\"0.3\" stroke=\"#3b82f6\" stroke-width=\"1.5\"/>\n<circle cx=\"160\" cy=\"90\" r=\"12\" fill=\"#ef4444\" fill-opacity=\"0.3\" stroke=\"#ef4444\" stroke-width=\"1.5\"/>\n<circle cx=\"200\" cy=\"70\" r=\"12\" fill=\"#ef4444\" fill-opacity=\"0.3\" stroke=\"#ef4444\" stroke-width=\"1.5\"/>\n<circle cx=\"200\" cy=\"110\" r=\"12\" fill=\"#ef4444\" fill-opacity=\"0.3\" stroke=\"#ef4444\" stroke-width=\"1.5\"/>\n<circle cx=\"240\" cy=\"90\" r=\"12\" fill=\"#ef4444\" fill-opacity=\"0.3\" stroke=\"#ef4444\" stroke-width=\"1.5\"/>\n<path d=\"M160,90 L120,70 M160,90 L120,110 M160,90 L200,70 M160,90 L200,110\" stroke=\"#8b5cf6\" stroke-width=\"1.5\"/>\n<text x=\"160\" y=\"145\" text-anchor=\"middle\" font-size=\"10\" fill=\"#1e293b\" font-weight=\"bold\">Photonic band gap + topological edge states</text>\n<text x=\"160\" y=\"165\" text-anchor=\"middle\" font-size=\"9\" fill=\"#64748b\">One-way propagation immune to backscattering</text>\n</svg>",
+        "caption": "Mathematical Physics — Diagram"
+      }
     },
     {
       "id": 3,
@@ -88,7 +98,12 @@
       "solution": "By definition of distributional derivative: integral delta'(x)f(x)dx = -integral delta(x)f'(x)dx = -f'(0). The minus sign arises from integration by parts and is fundamental to the distributional derivative formalism.",
       "estSec": 35,
       "topicWeight": 0.14,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 180\">\n<rect width=\"300\" height=\"180\" fill=\"#f8fafc\"/>\n<text x=\"150\" y=\"18\" text-anchor=\"middle\" font-size=\"13\" fill=\"#1e293b\" font-weight=\"bold\">Flux Quantization in SC Loop</text>\n<circle cx=\"150\" cy=\"100\" r=\"50\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"3\"/>\n<circle cx=\"150\" cy=\"100\" r=\"45\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"1\" stroke-dasharray=\"4,3\"/>\n<path d=\"M105,100 Q150,70 195,100\" fill=\"none\" stroke=\"#ef4444\" stroke-width=\"2\" marker-end=\"url(#arrow2)\"/>\n<defs><marker id=\"arrow2\" markerWidth=\"8\" markerHeight=\"6\" refX=\"8\" refY=\"3\" orient=\"auto\"><path d=\"M0,0 L8,3 L0,6\" fill=\"#ef4444\"/></marker></defs>\n<text x=\"150\" y=\"55\" text-anchor=\"middle\" font-size=\"10\" fill=\"#3b82f6\" font-weight=\"bold\">Superconducting ring</text>\n<text x=\"150\" y=\"105\" text-anchor=\"middle\" font-size=\"9\" fill=\"#ef4444\" font-weight=\"bold\">I_s</text>\n<text x=\"150\" y=\"160\" text-anchor=\"middle\" font-size=\"11\" fill=\"#1e293b\" font-weight=\"bold\">Φ = n × h/(2e) = n × Φ₀</text>\n<text x=\"150\" y=\"175\" text-anchor=\"middle\" font-size=\"9\" fill=\"#64748b\">Φ₀ = 2.07 × 10⁻¹⁵ Wb (flux quantum)</text>\n</svg>",
+        "caption": "Mathematical Physics — Diagram"
+      }
     },
     {
       "id": 4,
@@ -109,7 +124,12 @@
       "solution": "The Hamilton-Jacobi theory finds a canonical transformation to new coordinates where the new Hamiltonian is identically zero (or constant), making the motion trivial: all new coordinates and momenta are constants. S generates this transformation via p = dS/dq. The action S is the generating function of type F_2.",
       "estSec": 45,
       "topicWeight": 0.14,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 180\">\n<rect width=\"320\" height=\"180\" fill=\"#f8fafc\"/>\n<text x=\"160\" y=\"18\" text-anchor=\"middle\" font-size=\"13\" fill=\"#1e293b\" font-weight=\"bold\">Higgs Mechanism — Mexican Hat Potential</text>\n<path d=\"M40,140 Q80,130 120,100 Q140,70 160,60 Q180,70 200,100 Q240,130 280,140\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"2.5\"/>\n<path d=\"M40,140 Q80,135 120,120 Q140,110 160,105 Q180,110 200,120 Q240,135 280,140\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"1.5\"/>\n<circle cx=\"160\" cy=\"60\" r=\"5\" fill=\"#ef4444\"/>\n<text x=\"160\" y=\"50\" text-anchor=\"middle\" font-size=\"9\" fill=\"#ef4444\" font-weight=\"bold\">Unstable (φ=0)</text>\n<circle cx=\"120\" cy=\"100\" r=\"4\" fill=\"#22c55e\"/>\n<circle cx=\"200\" cy=\"100\" r=\"4\" fill=\"#22c55e\"/>\n<text x=\"160\" y=\"115\" text-anchor=\"middle\" font-size=\"9\" fill=\"#22c55e\" font-weight=\"bold\">Stable vacuum (|φ| = v)</text>\n<text x=\"160\" y=\"155\" text-anchor=\"middle\" font-size=\"10\" fill=\"#1e293b\">V(φ) = −μ²|φ|² + λ|φ|⁴</text>\n<text x=\"160\" y=\"172\" text-anchor=\"middle\" font-size=\"9\" fill=\"#64748b\">Spontaneous symmetry breaking → gauge boson mass</text>\n</svg>",
+        "caption": "Classical Mechanics — Diagram"
+      }
     },
     {
       "id": 5,
@@ -130,7 +150,12 @@
       "solution": "The global U(1) symmetry phi -> e^(i*alpha)*phi yields the conserved current j^mu = i(phi* d^mu phi - phi d^mu phi*) and conserved charge Q = integral j^0 d^3x. This is the electric charge (or particle number) in the non-relativistic limit. Local U(1) gauge invariance requires the introduction of the electromagnetic field.",
       "estSec": 50,
       "topicWeight": 0.14,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 180\">\n<rect width=\"320\" height=\"180\" fill=\"#f8fafc\"/>\n<text x=\"160\" y=\"18\" text-anchor=\"middle\" font-size=\"13\" fill=\"#1e293b\" font-weight=\"bold\">Quantum Hall Effect — Edge States</text>\n<rect x=\"50\" y=\"45\" width=\"220\" height=\"90\" fill=\"#e2e8f0\" stroke=\"#94a3b8\" stroke-width=\"2\" rx=\"5\"/>\n<text x=\"160\" y=\"95\" text-anchor=\"middle\" font-size=\"11\" fill=\"#64748b\" font-weight=\"bold\">2D Electron Gas (B field ⊥)</text>\n<path d=\"M50,55 L270,55\" fill=\"none\" stroke=\"#22c55e\" stroke-width=\"3\" marker-end=\"url(#arrow3)\"/>\n<path d=\"M270,125 L50,125\" fill=\"none\" stroke=\"#ef4444\" stroke-width=\"3\" marker-end=\"url(#arrow4)\"/>\n<defs>\n<marker id=\"arrow3\" markerWidth=\"8\" markerHeight=\"6\" refX=\"8\" refY=\"3\" orient=\"auto\"><path d=\"M0,0 L8,3 L0,6\" fill=\"#22c55e\"/></marker>\n<marker id=\"arrow4\" markerWidth=\"8\" markerHeight=\"6\" refX=\"0\" refY=\"3\" orient=\"auto\"><path d=\"M8,0 L0,3 L8,6\" fill=\"#ef4444\"/></marker>\n</defs>\n<text x=\"280\" y=\"55\" font-size=\"9\" fill=\"#22c55e\">→ chiral</text>\n<text x=\"280\" y=\"130\" font-size=\"9\" fill=\"#ef4444\">← chiral</text>\n<text x=\"160\" y=\"155\" text-anchor=\"middle\" font-size=\"10\" fill=\"#1e293b\" font-weight=\"bold\">σ_xy = ν × e²/h (quantized)</text>\n<text x=\"160\" y=\"172\" text-anchor=\"middle\" font-size=\"9\" fill=\"#64748b\">Edge states are topologically protected — no backscattering</text>\n</svg>",
+        "caption": "Classical Mechanics — Diagram"
+      }
     },
     {
       "id": 6,

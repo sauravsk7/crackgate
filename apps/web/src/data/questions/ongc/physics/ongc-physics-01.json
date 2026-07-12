@@ -9,10 +9,22 @@
   "negativeMarking": false,
   "pattern": "ONGC CBT — 85 MCQ · 120 min · 1 mark each · no negative marking",
   "sections": [
-    { "name": "Domain Knowledge", "count": 40 },
-    { "name": "Aptitude", "count": 25 },
-    { "name": "General Awareness", "count": 10 },
-    { "name": "English Language", "count": 10 }
+    {
+      "name": "Domain Knowledge",
+      "count": 40
+    },
+    {
+      "name": "Aptitude",
+      "count": 25
+    },
+    {
+      "name": "General Awareness",
+      "count": 10
+    },
+    {
+      "name": "English Language",
+      "count": 10
+    }
   ],
   "questions": [
     {
@@ -24,12 +36,22 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "The divergence of the electric field ∇·E in a region containing no charge is:",
-      "options": ["Positive and constant", "Negative and constant", "Zero", "Depends on the coordinate system"],
+      "options": [
+        "Positive and constant",
+        "Negative and constant",
+        "Zero",
+        "Depends on the coordinate system"
+      ],
       "answer": 2,
       "solution": "By Gauss's law, ∇·E = ρ/ε₀. In a charge-free region ρ = 0, so ∇·E = 0 everywhere regardless of the coordinate system.",
       "estSec": 30,
       "topicWeight": 0.14,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 300\">\n<rect width=\"300\" height=\"300\" fill=\"#f8fafc\"/>\n<line x1=\"150\" y1=\"30\" x2=\"150\" y2=\"270\" stroke=\"#e2e8f0\" stroke-width=\"1\"/>\n<line x1=\"30\" y1=\"150\" x2=\"270\" y2=\"150\" stroke=\"#e2e8f0\" stroke-width=\"1\"/>\n<rect x=\"75\" y=\"75\" width=\"150\" height=\"150\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"2.5\"/>\n<circle cx=\"150\" cy=\"150\" r=\"10\" fill=\"#3b82f6\"/>\n<text x=\"150\" y=\"25\" text-anchor=\"middle\" font-size=\"13\" fill=\"#1e293b\" font-weight=\"bold\">SC Lattice — 1st Brillouin Zone</text>\n<text x=\"150\" y=\"290\" text-anchor=\"middle\" font-size=\"11\" fill=\"#64748b\">k_x</text>\n<text x=\"20\" y=\"150\" text-anchor=\"middle\" font-size=\"11\" fill=\"#64748b\">k_y</text>\n<text x=\"155\" y=\"70\" text-anchor=\"middle\" font-size=\"10\" fill=\"#3b82f6\">π/a</text>\n<text x=\"230\" y=\"155\" font-size=\"10\" fill=\"#3b82f6\">π/a</text>\n<text x=\"150\" y=\"155\" text-anchor=\"middle\" font-size=\"9\" fill=\"#1e293b\">Γ</text>\n<text x=\"225\" y=\"80\" text-anchor=\"middle\" font-size=\"9\" fill=\"#1e293b\">X</text>\n<text x=\"225\" y=\"225\" text-anchor=\"middle\" font-size=\"9\" fill=\"#1e293b\">M</text>\n</svg>",
+        "caption": "Mathematical Physics — Diagram"
+      }
     },
     {
       "id": 2,
@@ -40,12 +62,22 @@
       "marks": 1,
       "difficulty": "hard",
       "stem": "The value of the contour integral ∮(z² + 1)/(z² − 4) dz taken counter-clockwise around |z| = 3 is:",
-      "options": ["0", "2πi", "4πi", "6πi"],
+      "options": [
+        "0",
+        "2πi",
+        "4πi",
+        "6πi"
+      ],
       "answer": 0,
       "solution": "The integrand f(z) = (z²+1)/((z−2)(z+2)) has simple poles at z = 2 and z = −2, both inside |z| = 3. Residue at z = 2: lim(z→2)(z−2)·(z²+1)/((z−2)(z+2)) = (4+1)/(2+2) = 5/4. Residue at z = −2: lim(z→−2)(z+2)·(z²+1)/((z−2)(z+2)) = (4+1)/(−2−2) = −5/4. Sum of residues = 5/4 − 5/4 = 0. By the residue theorem, ∮f(z)dz = 2πi × 0 = 0.",
       "estSec": 45,
       "topicWeight": 0.14,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 200\">\n<rect width=\"320\" height=\"200\" fill=\"#f8fafc\"/>\n<rect x=\"60\" y=\"30\" width=\"80\" height=\"55\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"1.5\" rx=\"3\"/>\n<rect x=\"60\" y=\"115\" width=\"80\" height=\"55\" fill=\"#fef3c7\" stroke=\"#f59e0b\" stroke-width=\"1.5\" rx=\"3\"/>\n<text x=\"100\" y=\"60\" text-anchor=\"middle\" font-size=\"11\" fill=\"#1e40af\" font-weight=\"bold\">Conduction Band</text>\n<text x=\"100\" y=\"145\" text-anchor=\"middle\" font-size=\"11\" fill=\"#92400e\" font-weight=\"bold\">Valence Band</text>\n<line x1=\"100\" y1=\"85\" x2=\"100\" y2=\"115\" stroke=\"#22c55e\" stroke-width=\"2\" stroke-dasharray=\"5,3\"/>\n<text x=\"170\" y=\"105\" font-size=\"10\" fill=\"#22c55e\">No band gap</text>\n<text x=\"160\" y=\"25\" text-anchor=\"middle\" font-size=\"13\" fill=\"#1e293b\" font-weight=\"bold\">Metal (Conductor)</text>\n<rect x=\"200\" y=\"30\" width=\"80\" height=\"55\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"1.5\" rx=\"3\"/>\n<rect x=\"200\" y=\"100\" width=\"80\" height=\"55\" fill=\"#fef3c7\" stroke=\"#f59e0b\" stroke-width=\"1.5\" rx=\"3\"/>\n<text x=\"240\" y=\"60\" text-anchor=\"middle\" font-size=\"10\" fill=\"#1e40af\">Conduction</text>\n<text x=\"240\" y=\"135\" text-anchor=\"middle\" font-size=\"10\" fill=\"#92400e\">Valence</text>\n<text x=\"240\" y=\"90\" text-anchor=\"middle\" font-size=\"9\" fill=\"#ef4444\" font-weight=\"bold\">E_g</text>\n</svg>",
+        "caption": "Mathematical Physics — Diagram"
+      }
     },
     {
       "id": 3,
@@ -56,12 +88,22 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "A 2×2 matrix A has eigenvalues 3 and −1. The determinant of A is:",
-      "options": ["2", "3", "−3", "−1"],
+      "options": [
+        "2",
+        "3",
+        "−3",
+        "−1"
+      ],
       "answer": 2,
       "solution": "det(A) = product of eigenvalues = 3 × (−1) = −3. This follows from the characteristic polynomial λ² − tr(A)λ + det(A) = 0, where det(A) = λ₁λ₂.",
       "estSec": 20,
       "topicWeight": 0.14,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 240\">\n<rect width=\"320\" height=\"240\" fill=\"#f8fafc\"/>\n<line x1=\"160\" y1=\"20\" x2=\"160\" y2=\"220\" stroke=\"#cbd5e1\" stroke-width=\"1\"/>\n<line x1=\"20\" y1=\"120\" x2=\"300\" y2=\"120\" stroke=\"#cbd5e1\" stroke-width=\"1\"/>\n<text x=\"160\" y=\"15\" text-anchor=\"middle\" font-size=\"12\" fill=\"#1e293b\" font-weight=\"bold\">Phase Space — Damped Oscillator</text>\n<text x=\"295\" y=\"135\" font-size=\"10\" fill=\"#64748b\">x</text>\n<text x=\"165\" y=\"25\" font-size=\"10\" fill=\"#64748b\">v</text>\n<ellipse cx=\"160\" cy=\"120\" rx=\"100\" ry=\"60\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"2\"/>\n<ellipse cx=\"160\" cy=\"120\" rx=\"70\" ry=\"42\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"1.5\"/>\n<ellipse cx=\"160\" cy=\"120\" rx=\"45\" ry=\"27\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"1.2\"/>\n<ellipse cx=\"160\" cy=\"120\" rx=\"25\" ry=\"15\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"1\"/>\n<circle cx=\"160\" cy=\"120\" r=\"3\" fill=\"#ef4444\"/>\n<text x=\"160\" y=\"235\" text-anchor=\"middle\" font-size=\"10\" fill=\"#64748b\">Spiral inward — energy dissipation</text>\n</svg>",
+        "caption": "Mathematical Physics — Diagram"
+      }
     },
     {
       "id": 4,
@@ -82,7 +124,12 @@
       "solution": "Homogeneous: r²−3r+2=0 → r=1,2, so y_h = c₁eˣ + c₂e²ˣ. Since eˣ is already a homogeneous solution, try y_p = Axeˣ. Then y_p' = A(eˣ + xeˣ), y_p'' = A(2eˣ + xeˣ). Substituting: A[(2eˣ+xeˣ) − 3(eˣ+xeˣ) + 2xeˣ] = A[−eˣ] = eˣ, so A = −1. General solution: y = c₁eˣ + c₂e²ˣ − xeˣ.",
       "estSec": 60,
       "topicWeight": 0.14,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 280 280\">\n<rect width=\"280\" height=\"280\" fill=\"#f8fafc\"/>\n<text x=\"140\" y=\"22\" text-anchor=\"middle\" font-size=\"13\" fill=\"#1e293b\" font-weight=\"bold\">Hydrogen Energy Levels</text>\n<line x1=\"60\" y1=\"260\" x2=\"220\" y2=\"260\" stroke=\"#1e293b\" stroke-width=\"2\"/>\n<text x=\"50\" y=\"260\" text-anchor=\"end\" font-size=\"10\" fill=\"#64748b\">n=1</text>\n<text x=\"225\" y=\"260\" font-size=\"9\" fill=\"#ef4444\">−13.6 eV</text>\n<line x1=\"60\" y1=\"200\" x2=\"220\" y2=\"200\" stroke=\"#3b82f6\" stroke-width=\"2\"/>\n<text x=\"50\" y=\"200\" text-anchor=\"end\" font-size=\"10\" fill=\"#64748b\">n=2</text>\n<text x=\"225\" y=\"200\" font-size=\"9\" fill=\"#3b82f6\">−3.4 eV</text>\n<line x1=\"60\" y1=\"160\" x2=\"220\" y2=\"160\" stroke=\"#8b5cf6\" stroke-width=\"2\"/>\n<text x=\"50\" y=\"160\" text-anchor=\"end\" font-size=\"10\" fill=\"#64748b\">n=3</text>\n<text x=\"225\" y=\"160\" font-size=\"9\" fill=\"#8b5cf6\">−1.51 eV</text>\n<line x1=\"60\" y1=\"130\" x2=\"220\" y2=\"130\" stroke=\"#22c55e\" stroke-width=\"1.5\"/>\n<text x=\"50\" y=\"130\" text-anchor=\"end\" font-size=\"10\" fill=\"#64748b\">n=4</text>\n<text x=\"225\" y=\"130\" font-size=\"9\" fill=\"#22c55e\">−0.85 eV</text>\n<line x1=\"60\" y1=\"108\" x2=\"220\" y2=\"108\" stroke=\"#f59e0b\" stroke-width=\"1.2\"/>\n<text x=\"50\" y=\"108\" text-anchor=\"end\" font-size=\"10\" fill=\"#64748b\">n=5</text>\n<text x=\"225\" y=\"108\" font-size=\"9\" fill=\"#f59e0b\">−0.54 eV</text>\n<line x1=\"140\" y1=\"90\" x2=\"140\" y2=\"85\" stroke=\"#94a3b8\" stroke-width=\"1\" stroke-dasharray=\"3,2\"/>\n<text x=\"140\" y=\"80\" text-anchor=\"middle\" font-size=\"10\" fill=\"#64748b\">n → ∞ (0 eV)</text>\n<line x1=\"180\" y1=\"260\" x2=\"180\" y2=\"200\" stroke=\"#ef4444\" stroke-width=\"1.5\"/>\n<text x=\"195\" y=\"230\" font-size=\"9\" fill=\"#ef4444\">Lyman α</text>\n<line x1=\"120\" y1=\"260\" x2=\"120\" y2=\"160\" stroke=\"#8b5cf6\" stroke-width=\"1.2\" stroke-dasharray=\"4,2\"/>\n<text x=\"130\" y=\"210\" font-size=\"8\" fill=\"#8b5cf6\">Lyman β</text>\n</svg>",
+        "caption": "Mathematical Physics — Diagram"
+      }
     },
     {
       "id": 5,
@@ -103,7 +150,12 @@
       "solution": "F(ω) = ∫₋∞^∞ e^(−a|t|)e^(−iωt)dt = ∫₋∞^0 e^(at−iωt)dt + ∫₀^∞ e^(−at−iωt)dt = 1/(a−iω) + 1/(a+iω) = 2a/(a² + ω²). This is the Lorentzian function.",
       "estSec": 40,
       "topicWeight": 0.14,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 340 180\">\n<rect width=\"340\" height=\"180\" fill=\"#f8fafc\"/>\n<text x=\"170\" y=\"18\" text-anchor=\"middle\" font-size=\"13\" fill=\"#1e293b\" font-weight=\"bold\">EM Wave Polarization States</text>\n<line x1=\"10\" y1=\"90\" x2=\"105\" y2=\"90\" stroke=\"#3b82f6\" stroke-width=\"2\"/>\n<line x1=\"55\" y1=\"40\" x2=\"55\" y2=\"140\" stroke=\"#3b82f6\" stroke-width=\"2\"/>\n<path d=\"M10,90 Q30,40 55,90 Q80,140 105,90\" fill=\"none\" stroke=\"#ef4444\" stroke-width=\"2.5\"/>\n<text x=\"55\" y=\"160\" text-anchor=\"middle\" font-size=\"10\" fill=\"#1e293b\" font-weight=\"bold\">Linear</text>\n<line x1=\"130\" y1=\"90\" x2=\"225\" y2=\"90\" stroke=\"#3b82f6\" stroke-width=\"1\"/>\n<ellipse cx=\"178\" cy=\"90\" rx=\"40\" ry=\"15\" fill=\"none\" stroke=\"#8b5cf6\" stroke-width=\"2.5\" transform=\"rotate(-30 178 90)\"/>\n<text x=\"178\" y=\"160\" text-anchor=\"middle\" font-size=\"10\" fill=\"#1e293b\" font-weight=\"bold\">Elliptical</text>\n<line x1=\"250\" y1=\"90\" x2=\"335\" y2=\"90\" stroke=\"#3b82f6\" stroke-width=\"1\"/>\n<circle cx=\"292\" cy=\"90\" r=\"25\" fill=\"none\" stroke=\"#22c55e\" stroke-width=\"2.5\"/>\n<text x=\"292\" y=\"95\" text-anchor=\"middle\" font-size=\"9\" fill=\"#22c55e\" font-weight=\"bold\">R/L</text>\n<text x=\"292\" y=\"160\" text-anchor=\"middle\" font-size=\"10\" fill=\"#1e293b\" font-weight=\"bold\">Circular</text>\n</svg>",
+        "caption": "Mathematical Physics — Diagram"
+      }
     },
     {
       "id": 6,
@@ -156,7 +208,12 @@
       "marks": 1,
       "difficulty": "hard",
       "stem": "The Poisson bracket {q, p} for canonical variables q and p is equal to:",
-      "options": ["0", "1", "−1", "q·p"],
+      "options": [
+        "0",
+        "1",
+        "−1",
+        "q·p"
+      ],
       "answer": 1,
       "solution": "By definition, {A, B} = Σᵢ(∂A/∂qᵢ · ∂B/∂pᵢ − ∂A/∂pᵢ · ∂B/∂qᵢ). For {q, p}: ∂q/∂q · ∂p/∂p − ∂q/∂p · ∂p/∂q = 1·1 − 0·0 = 1. This is the fundamental Poisson bracket of canonical variables.",
       "estSec": 20,
@@ -172,7 +229,12 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "A particle has total energy E = 2mc² where m is its rest mass. Its momentum is:",
-      "options": ["mc", "√3 mc", "2mc", "mc/√2"],
+      "options": [
+        "mc",
+        "√3 mc",
+        "2mc",
+        "mc/√2"
+      ],
       "answer": 1,
       "solution": "Using E² = (pc)² + (mc²)²: (2mc²)² = (pc)² + (mc²)² → 4m²c⁴ = p²c² + m²c⁴ → p²c² = 3m²c⁴ → p = √3 mc.",
       "estSec": 30,
@@ -251,7 +313,12 @@
       "marks": 1,
       "difficulty": "hard",
       "stem": "The skin depth δ in a good conductor at frequency f is proportional to:",
-      "options": ["f", "√f", "1/f", "1/√f"],
+      "options": [
+        "f",
+        "√f",
+        "1/f",
+        "1/√f"
+      ],
       "answer": 3,
       "solution": "Skin depth δ = √(2/(ωμσ)) = √(1/(πfμσ)). So δ ∝ 1/√f. As frequency increases, the skin depth decreases — higher frequency EM waves penetrate less into conductors.",
       "estSec": 30,
@@ -372,7 +439,12 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "The number of radial nodes in the 3d orbital of hydrogen is:",
-      "options": ["0", "1", "2", "3"],
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
       "answer": 0,
       "solution": "Number of radial nodes = n − l − 1. For 3d: n = 3, l = 2. Radial nodes = 3 − 2 − 1 = 0. The 3d orbital has no radial nodes — only the angular nodes (2 nodal planes).",
       "estSec": 15,
@@ -493,7 +565,12 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "In LS coupling, the fine structure splitting of the 2P term of hydrogen gives two levels with total angular momentum j =:",
-      "options": ["1/2 and 3/2", "0 and 1", "1/2 and 5/2", "3/2 and 5/2"],
+      "options": [
+        "1/2 and 3/2",
+        "0 and 1",
+        "1/2 and 5/2",
+        "3/2 and 5/2"
+      ],
       "answer": 0,
       "solution": "For a 2P term: L = 1, S = 1/2. In LS coupling, j takes values |L−S| to L+S = |1−1/2| to 1+1/2 = 1/2 and 3/2. The 2P₁/₂ and 2P₃/₂ levels have an energy splitting proportional to L·S.",
       "estSec": 25,
@@ -509,7 +586,12 @@
       "marks": 1,
       "difficulty": "hard",
       "stem": "The normal Zeeman effect splits a spectral line into how many components in a magnetic field?",
-      "options": ["1", "2", "3", "Depends on the quantum numbers"],
+      "options": [
+        "1",
+        "2",
+        "3",
+        "Depends on the quantum numbers"
+      ],
       "answer": 2,
       "solution": "In the normal Zeeman effect (when S = 0), a spectral line splits into exactly 3 components: one unshifted (π polarization, Δm = 0) and two shifted (σ± polarization, Δm = ±1). The splitting is ΔE = μ_B B. This is a purely classical result also predicted by Lorentz's electron theory.",
       "estSec": 30,
@@ -525,7 +607,12 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "The selection rule for pure rotational transitions in a diatomic molecule is:",
-      "options": ["ΔJ = 0", "ΔJ = ±1", "ΔJ = ±2", "ΔJ = 0, ±1"],
+      "options": [
+        "ΔJ = 0",
+        "ΔJ = ±1",
+        "ΔJ = ±2",
+        "ΔJ = 0, ±1"
+      ],
       "answer": 1,
       "solution": "For pure rotational (microwave) spectra: ΔJ = ±1. This gives the characteristic equally-spaced rotational lines at frequencies ν = 2B(J+1), where B = ℏ²/(2I) is the rotational constant. ΔJ = 0 is forbidden; ΔJ = ±2 applies to Raman spectra.",
       "estSec": 20,
@@ -667,7 +754,12 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "The density of states of phonons in a 3D Debye solid at low temperatures goes as:",
-      "options": ["T", "T²", "T³", "constant"],
+      "options": [
+        "T",
+        "T²",
+        "T³",
+        "constant"
+      ],
       "answer": 2,
       "solution": "At low T, the phonon density of states g(ω) ∝ ω². Combined with the Bose-Einstein occupation, the energy density u ∝ T⁴ and the heat capacity C_V ∝ T³ (Debye T³ law). This is the correct low-temperature limit for acoustic phonons in 3D.",
       "estSec": 30,
@@ -704,7 +796,12 @@
       "marks": 1,
       "difficulty": "easy",
       "stem": "In an n-type semiconductor, the majority carriers are:",
-      "options": ["Holes", "Electrons", "Both equal", "Depends on temperature"],
+      "options": [
+        "Holes",
+        "Electrons",
+        "Both equal",
+        "Depends on temperature"
+      ],
       "answer": 1,
       "solution": "In n-type semiconductors, donor impurities (Group V like P, As) donate extra electrons. Electrons are majority carriers; holes are minority carriers. The n ≫ p in the bulk at room temperature.",
       "estSec": 10,
@@ -720,7 +817,12 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "The built-in potential of a silicon PN junction at room temperature with Nₐ = 10¹⁶ cm⁻³ and N_d = 10¹⁷ cm⁻³ is approximately:",
-      "options": ["0.3 V", "0.6 V", "0.7 V", "0.9 V"],
+      "options": [
+        "0.3 V",
+        "0.6 V",
+        "0.7 V",
+        "0.9 V"
+      ],
       "answer": 2,
       "solution": "V_bi = (kT/q) ln(NₐN_d/nᵢ²) = 0.026 × ln(10¹⁶ × 10¹⁷/(1.5×10¹⁰)²) = 0.026 × ln(10³³/2.25×10²⁰) = 0.026 × ln(4.44×10¹²) = 0.026 × 29.1 ≈ 0.76 V. Rounded to 0.7 V which is the standard value for Si.",
       "estSec": 40,
@@ -757,7 +859,12 @@
       "marks": 1,
       "difficulty": "easy",
       "stem": "The Boolean expression A + A̅B simplifies to:",
-      "options": ["A", "A + B", "B", "A̅ + B"],
+      "options": [
+        "A",
+        "A + B",
+        "B",
+        "A̅ + B"
+      ],
       "answer": 1,
       "solution": "A + A̅B = (A + A̅)(A + B) = 1 · (A + B) = A + B (using the distributive law of Boolean algebra). This is the absorption law.",
       "estSec": 15,
@@ -794,11 +901,16 @@
       "marks": 1,
       "difficulty": "easy",
       "stem": "A student scored 72% in an exam where the passing mark is 60%. If the total marks are 200, by how many marks did the student exceed the passing mark?",
-      "options": ["24 marks", "36 marks", "48 marks", "60 marks"],
+      "options": [
+        "24 marks",
+        "36 marks",
+        "48 marks",
+        "60 marks"
+      ],
       "answer": 0,
       "solution": "Student scored: 72% of 200 = 144. Passing: 60% of 200 = 120. Excess = 144 − 120 = 24 marks.",
       "estSec": 20,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -810,11 +922,16 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "A can complete a task in 12 days and B can complete it in 18 days. Working together, how many days will they take to finish the work?",
-      "options": ["7.2 days", "7.5 days", "8 days", "6 days"],
+      "options": [
+        "7.2 days",
+        "7.5 days",
+        "8 days",
+        "6 days"
+      ],
       "answer": 0,
       "solution": "A's rate = 1/12 per day; B's rate = 1/18 per day. Combined = 1/12 + 1/18 = 3/36 + 2/36 = 5/36 per day. Days = 36/5 = 7.2 days.",
       "estSec": 25,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -826,11 +943,16 @@
       "marks": 1,
       "difficulty": "easy",
       "stem": "A shopkeeper buys an article for Rs.800 and sells it at a 25% profit. What is the selling price?",
-      "options": ["Rs.950", "Rs.1,000", "Rs.1,050", "Rs.1,100"],
+      "options": [
+        "Rs.950",
+        "Rs.1,000",
+        "Rs.1,050",
+        "Rs.1,100"
+      ],
       "answer": 1,
       "solution": "SP = CP × (1 + profit%/100) = 800 × 1.25 = Rs.1,000.",
       "estSec": 15,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -842,11 +964,16 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "The average of five numbers is 42. If one number is excluded, the average becomes 38. What is the excluded number?",
-      "options": ["52", "56", "58", "60"],
+      "options": [
+        "52",
+        "56",
+        "58",
+        "60"
+      ],
       "answer": 2,
       "solution": "Total of 5 numbers = 5 × 42 = 210. Total of 4 numbers = 4 × 38 = 152. Excluded number = 210 − 152 = 58.",
       "estSec": 20,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -858,11 +985,16 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "Two dice are thrown simultaneously. What is the probability that the sum of the numbers is 7?",
-      "options": ["1/6", "1/12", "5/36", "7/36"],
+      "options": [
+        "1/6",
+        "1/12",
+        "5/36",
+        "7/36"
+      ],
       "answer": 0,
       "solution": "Total outcomes = 36. Favorable pairs for sum 7: (1,6),(2,5),(3,4),(4,3),(5,2),(6,1) = 6 outcomes. Probability = 6/36 = 1/6.",
       "estSec": 20,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -874,11 +1006,16 @@
       "marks": 1,
       "difficulty": "easy",
       "stem": "If A:B = 3:5 and B:C = 4:7, then A:B:C is:",
-      "options": ["12:20:35", "3:4:7", "12:20:21", "9:15:35"],
+      "options": [
+        "12:20:35",
+        "3:4:7",
+        "12:20:21",
+        "9:15:35"
+      ],
       "answer": 0,
       "solution": "A:B = 3:5 and B:C = 4:7. Make B common: A:B = 12:20, B:C = 20:35. So A:B:C = 12:20:35.",
       "estSec": 20,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -890,11 +1027,16 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "A train 120 m long passes a pole in 12 seconds. How long will it take to pass a platform 180 m long?",
-      "options": ["20 sec", "25 sec", "30 sec", "35 sec"],
+      "options": [
+        "20 sec",
+        "25 sec",
+        "30 sec",
+        "35 sec"
+      ],
       "answer": 2,
       "solution": "Speed = 120/12 = 10 m/s. Total distance = 120 + 180 = 300 m. Time = 300/10 = 30 seconds.",
       "estSec": 20,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -906,11 +1048,16 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "The compound interest on Rs.10,000 at 10% per annum for 2 years compounded annually is:",
-      "options": ["Rs.2,000", "Rs.2,100", "Rs.2,200", "Rs.1,100"],
+      "options": [
+        "Rs.2,000",
+        "Rs.2,100",
+        "Rs.2,200",
+        "Rs.1,100"
+      ],
       "answer": 1,
       "solution": "A = P(1 + r/100)ⁿ = 10000(1.1)² = 10000 × 1.21 = 12,100. CI = A − P = 12,100 − 10,000 = Rs.2,100.",
       "estSec": 25,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -922,11 +1069,16 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "How many ways can 5 books be arranged on a shelf?",
-      "options": ["25", "60", "120", "720"],
+      "options": [
+        "25",
+        "60",
+        "120",
+        "720"
+      ],
       "answer": 2,
       "solution": "5! = 5 × 4 × 3 × 2 × 1 = 120.",
       "estSec": 15,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -938,11 +1090,16 @@
       "marks": 1,
       "difficulty": "easy",
       "stem": "The HCF of 24, 36 and 60 is:",
-      "options": ["6", "12", "18", "24"],
+      "options": [
+        "6",
+        "12",
+        "18",
+        "24"
+      ],
       "answer": 1,
       "solution": "24 = 2³ × 3, 36 = 2² × 3², 60 = 2² × 3 × 5. HCF = 2² × 3 = 12.",
       "estSec": 15,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -954,11 +1111,16 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "A boat can travel 20 km upstream in 5 hours and 20 km downstream in 2 hours. What is the speed of the current?",
-      "options": ["2 km/h", "3 km/h", "4 km/h", "5 km/h"],
+      "options": [
+        "2 km/h",
+        "3 km/h",
+        "4 km/h",
+        "5 km/h"
+      ],
       "answer": 1,
       "solution": "Upstream speed = 20/5 = 4 km/h. Downstream speed = 20/2 = 10 km/h. Speed of current = (downstream − upstream)/2 = (10 − 4)/2 = 3 km/h.",
       "estSec": 25,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -970,11 +1132,16 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "Pipe A can fill a tank in 20 hours and Pipe B can empty it in 30 hours. If both are opened simultaneously, the tank will be full in:",
-      "options": ["50 hours", "60 hours", "40 hours", "45 hours"],
+      "options": [
+        "50 hours",
+        "60 hours",
+        "40 hours",
+        "45 hours"
+      ],
       "answer": 1,
       "solution": "A's rate = 1/20 per hour (filling). B's rate = −1/30 per hour (emptying). Net rate = 1/20 − 1/30 = (3−2)/60 = 1/60 per hour. Time = 60 hours.",
       "estSec": 25,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -986,11 +1153,16 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "The ratio of ages of A and B is 3:5. After 8 years, the ratio becomes 5:7. What is B's present age?",
-      "options": ["16 years", "20 years", "24 years", "32 years"],
+      "options": [
+        "16 years",
+        "20 years",
+        "24 years",
+        "32 years"
+      ],
       "answer": 1,
       "solution": "Let A = 3x, B = 5x. After 8 years: (3x+8)/(5x+8) = 5/7. Cross multiply: 21x + 56 = 25x + 40 → 4x = 16 → x = 4. B's age = 5 × 4 = 20 years.",
       "estSec": 30,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1002,11 +1174,16 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "What comes next in the series: 2, 6, 12, 20, 30, ?",
-      "options": ["36", "40", "42", "48"],
+      "options": [
+        "36",
+        "40",
+        "42",
+        "48"
+      ],
       "answer": 2,
       "solution": "Differences: 4, 6, 8, 10, 12. The differences increase by 2. Next number = 30 + 12 = 42. Note: n(n+1) gives 2, 6, 12, 20, 30, 42 for n = 1, 2, 3, 4, 5, 6.",
       "estSec": 20,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1018,11 +1195,16 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "If COMPUTER is coded as DNPQVUJS, then SCIENCE is coded as:",
-      "options": ["TDJFODF", "TDJFO DF", "TEJFODF", "TDJFODF"],
+      "options": [
+        "TDJFODF",
+        "TDJFO DF",
+        "TEJFODF",
+        "TDJFODF"
+      ],
       "answer": 0,
       "solution": "Each letter is shifted +1: C→D, O→N... wait that doesn't work. Let me recheck: C(3)→D(4), O(15)→N(14)? No. Actually looking at C→D (+1), O→P (+1)... but the given is DNPQVUJS. C(3)→D(4) ✓, O(15)→N(14) ✗. Let me recheck the coding: COMPUTER has 8 letters, DNPQVUJS has 8 letters. C→D(+1), O→N(−1), M→P(+3), P→Q(+1), U→V(+1), T→U(+1), E→J(+5), R→S(+1). The pattern is inconsistent. The answer is TDJFODF based on a consistent +1 shift: S→T, C→D, I→J, E→F, N→O, C→D, E→F.",
       "estSec": 30,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1034,11 +1216,16 @@
       "marks": 1,
       "difficulty": "hard",
       "stem": "A says to B, 'Your mother is the only daughter of my mother.' How is A related to B?",
-      "options": ["Mother", "Sister", "Grandmother", "Aunt"],
+      "options": [
+        "Mother",
+        "Sister",
+        "Grandmother",
+        "Aunt"
+      ],
       "answer": 0,
       "solution": "'The only daughter of my mother' = A's mother's only daughter = A herself (if she has no sisters) or A's sister. Since A is saying it, and 'your mother' = A (or A's sister). The most direct answer is Mother — A is B's mother.",
       "estSec": 25,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1050,11 +1237,16 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "A man walks 5 km North, turns right and walks 3 km, turns right again and walks 5 km. How far and in which direction is he from the starting point?",
-      "options": ["3 km East", "3 km West", "5 km East", "8 km North"],
+      "options": [
+        "3 km East",
+        "3 km West",
+        "5 km East",
+        "8 km North"
+      ],
       "answer": 0,
       "solution": "Starting at origin: 5 km N → (0,5). Turn right (East) 3 km → (3,5). Turn right (South) 5 km → (3,0). Distance from origin = 3 km, direction = East.",
       "estSec": 25,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1075,7 +1267,7 @@
       "answer": 1,
       "solution": "From 'All scientists are logical' and 'Some logical people are creative', we cannot conclude that any scientists are creative (the creative logical people may not be scientists). But 'Some creative people are logical' directly follows from statement 2 by conversion. Only II follows.",
       "estSec": 30,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1087,11 +1279,16 @@
       "marks": 1,
       "difficulty": "easy",
       "stem": "If P > Q ≥ R < S, which of the following is definitely true?",
-      "options": ["P > R", "P > S", "Q < S", "R > P"],
+      "options": [
+        "P > R",
+        "P > S",
+        "Q < S",
+        "R > P"
+      ],
       "answer": 0,
       "solution": "From P > Q ≥ R, we get P > R (transitivity). We cannot determine P vs S (R < S doesn't connect to P), Q vs S (no direct relation), or R vs P (R < P from P > R).",
       "estSec": 20,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1103,11 +1300,16 @@
       "marks": 1,
       "difficulty": "hard",
       "stem": "Five persons A, B, C, D, E are sitting in a row facing north. C is to the immediate right of A. B is at one of the ends. E is to the immediate left of D. D is not next to B. Who is sitting at the left end?",
-      "options": ["A", "B", "C", "E"],
+      "options": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
       "answer": 3,
       "solution": "B is at an end (not next to D). If B is at right end: ...E D. C is right of A, so A C. Arrangement: A C _ _ B or _ A C _ B. E D must be together. If left end: B _ _ _ _. D not next to B, so: B E D _ _ or B _ E D _. C right of A: A C. So: B E D A C or B A C E D (D next to E). The arrangement is B A C E D. E is not at left end — wait. Let me reconsider: E is at left end in E D _ _ _. B at right end. C right of A. D not next to B: E D A C B. Left end = E.",
       "estSec": 45,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1119,11 +1321,16 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "If a car travels at 60 km/h, it reaches a destination on time. If it travels at 40 km/h, it is 2 hours late. What is the distance?",
-      "options": ["120 km", "240 km", "180 km", "360 km"],
+      "options": [
+        "120 km",
+        "240 km",
+        "180 km",
+        "360 km"
+      ],
       "answer": 1,
       "solution": "Let distance = d. Time at 60: d/60. Time at 40: d/40. d/40 − d/60 = 2 → (3d − 2d)/120 = 2 → d = 240 km.",
       "estSec": 25,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1135,11 +1342,16 @@
       "marks": 1,
       "difficulty": "easy",
       "stem": "In a class of 40 students, Rahul's rank from the top is 15. What is his rank from the bottom?",
-      "options": ["25", "26", "27", "28"],
+      "options": [
+        "25",
+        "26",
+        "27",
+        "28"
+      ],
       "answer": 1,
       "solution": "Rank from bottom = Total students − Rank from top + 1 = 40 − 15 + 1 = 26.",
       "estSec": 10,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1151,11 +1363,16 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "In what ratio must water be mixed with milk costing Rs.30/litre to get a mixture worth Rs.20/litre?",
-      "options": ["1:2", "2:3", "1:3", "3:2"],
+      "options": [
+        "1:2",
+        "2:3",
+        "1:3",
+        "3:2"
+      ],
       "answer": 0,
       "solution": "Using alligation: Water (Rs.0) and Milk (Rs.30). Mean price = Rs.20. Ratio = (30−20):(20−0) = 10:20 = 1:2. Water:Milk = 1:2.",
       "estSec": 20,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1167,11 +1384,16 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "Two trains of lengths 120 m and 180 m are running in opposite directions at 54 km/h and 72 km/h. How long will they take to cross each other?",
-      "options": ["6 seconds", "8 seconds", "10 seconds", "12 seconds"],
+      "options": [
+        "6 seconds",
+        "8 seconds",
+        "10 seconds",
+        "12 seconds"
+      ],
       "answer": 1,
       "solution": "Relative speed = 54 + 72 = 126 km/h = 126 × (5/18) = 35 m/s. Total distance = 120 + 180 = 300 m. Time = 300/35 ≈ 8.57 seconds. The closest option is 8 seconds.",
       "estSec": 30,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1183,11 +1405,16 @@
       "marks": 1,
       "difficulty": "hard",
       "stem": "Four friends P, Q, R, S are sitting around a square table, one on each side. P is to the left of Q. R is opposite P. Who is sitting to the right of R?",
-      "options": ["P", "Q", "S", "Cannot be determined"],
+      "options": [
+        "P",
+        "Q",
+        "S",
+        "Cannot be determined"
+      ],
       "answer": 2,
       "solution": "P is left of Q (Q sits, P is on Q's left). R is opposite P. So: clockwise from top: Q, P, S, R (or equivalent rotation). S is to the right of R.",
       "estSec": 35,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1199,11 +1426,16 @@
       "marks": 1,
       "difficulty": "easy",
       "stem": "Which organization is the nodal agency for petroleum and natural gas in India?",
-      "options": ["NITI Aayog", "Ministry of Petroleum and Natural Gas", "Oil India Limited", "GAIL"],
+      "options": [
+        "NITI Aayog",
+        "Ministry of Petroleum and Natural Gas",
+        "Oil India Limited",
+        "GAIL"
+      ],
       "answer": 1,
       "solution": "The Ministry of Petroleum and Natural Gas (MoPNG) is the government ministry responsible for oil and gas policy, regulation, and administration in India.",
       "estSec": 10,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1215,11 +1447,16 @@
       "marks": 1,
       "difficulty": "easy",
       "stem": "ONGC was founded in which year?",
-      "options": ["1952", "1956", "1960", "1965"],
+      "options": [
+        "1952",
+        "1956",
+        "1960",
+        "1965"
+      ],
       "answer": 1,
       "solution": "Oil and Natural Gas Corporation (ONGC) was established on August 14, 1956, as a government company. It was later converted to a public limited company in 1994.",
       "estSec": 10,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1231,11 +1468,16 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "The Bombay High offshore oil field is located in which basin?",
-      "options": ["Krishna-Godavari Basin", "Mumbai Offshore Basin", "Cambay Basin", "Assam Shelf"],
+      "options": [
+        "Krishna-Godavari Basin",
+        "Mumbai Offshore Basin",
+        "Cambay Basin",
+        "Assam Shelf"
+      ],
       "answer": 1,
       "solution": "Bombay High (now Mumbai High) is India's largest offshore oil field, located about 160 km west of Mumbai in the Mumbai Offshore Basin, discovered in 1974.",
       "estSec": 15,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1247,11 +1489,16 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "Which Indian satellite series is primarily used for communication and broadcasting?",
-      "options": ["IRS series", "INSAT series", "GSAT series", "Both INSAT and GSAT"],
+      "options": [
+        "IRS series",
+        "INSAT series",
+        "GSAT series",
+        "Both INSAT and GSAT"
+      ],
       "answer": 3,
       "solution": "Both INSAT (Indian National Satellite) and GSAT (Geostationary Satellite) series are used for communication, broadcasting, and meteorological observations over India.",
       "estSec": 15,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1272,7 +1519,7 @@
       "answer": 3,
       "solution": "The Paris Agreement (2015) aims to limit warming to well below 2°C above pre-industrial levels, with efforts to limit it to 1.5°C.",
       "estSec": 15,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1284,11 +1531,16 @@
       "marks": 1,
       "difficulty": "easy",
       "stem": "ONGC's headquarters is located in:",
-      "options": ["Mumbai", "New Delhi", "Dehradun", "Kolkata"],
+      "options": [
+        "Mumbai",
+        "New Delhi",
+        "Dehradun",
+        "Kolkata"
+      ],
       "answer": 2,
       "solution": "ONGC is headquartered in Dehradun, Uttarakhand. Its registered office is in New Delhi, but the corporate headquarters is in Dehradun.",
       "estSec": 10,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1300,11 +1552,16 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "Which organization manages India's Strategic Petroleum Reserves?",
-      "options": ["ONGC", "IOCL", "Indian Strategic Petroleum Reserves Limited (ISPRL)", "BPCL"],
+      "options": [
+        "ONGC",
+        "IOCL",
+        "Indian Strategic Petroleum Reserves Limited (ISPRL)",
+        "BPCL"
+      ],
       "answer": 2,
       "solution": "ISPRL (Indian Strategic Petroleum Reserves Limited), a subsidiary of Abu Dhabi Investment Authority, manages India's strategic petroleum reserves at Visakhapatnam, Mangalore, and Padur.",
       "estSec": 15,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1316,11 +1573,16 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "The first nuclear power station in India was established at:",
-      "options": ["Kudankulam", "Tarapur", "Kalpakkam", "Rawatbhata"],
+      "options": [
+        "Kudankulam",
+        "Tarapur",
+        "Kalpakkam",
+        "Rawatbhata"
+      ],
       "answer": 1,
       "solution": "Tarapur Atomic Power Station (TAPS) in Maharashtra was India's first commercial nuclear power station, commissioned in 1969 with two boiling water reactors.",
       "estSec": 10,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1332,11 +1594,16 @@
       "marks": 1,
       "difficulty": "easy",
       "stem": "India's largest oil-producing state is:",
-      "options": ["Gujarat", "Rajasthan", "Assam", "Andhra Pradesh"],
+      "options": [
+        "Gujarat",
+        "Rajasthan",
+        "Assam",
+        "Andhra Pradesh"
+      ],
       "answer": 1,
       "solution": "Rajasthan has been India's largest oil-producing state since 2009, with the Mangala and other fields in the Barmer district operated by Cairn Energy (now Vedanta).",
       "estSec": 10,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1348,11 +1615,16 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "The Richter scale measures:",
-      "options": ["Wind speed", "Earthquake magnitude", "Temperature", "Humidity"],
+      "options": [
+        "Wind speed",
+        "Earthquake magnitude",
+        "Temperature",
+        "Humidity"
+      ],
       "answer": 1,
       "solution": "The Richter scale (now replaced by the moment magnitude scale) measures the magnitude of earthquakes based on the amplitude of seismic waves recorded by seismographs.",
       "estSec": 10,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1364,11 +1636,16 @@
       "marks": 1,
       "difficulty": "easy",
       "stem": "Choose the word most similar in meaning to 'ABUNDANT':",
-      "options": ["Scarce", "Plentiful", "Moderate", "Limited"],
+      "options": [
+        "Scarce",
+        "Plentiful",
+        "Moderate",
+        "Limited"
+      ],
       "answer": 1,
       "solution": "Abundant means existing in large quantities; plentiful. It is the antonym of scarce or limited.",
       "estSec": 10,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1380,11 +1657,16 @@
       "marks": 1,
       "difficulty": "easy",
       "stem": "Choose the word most opposite in meaning to 'BENIGN':",
-      "options": ["Gentle", "Malignant", "Harmless", "Mild"],
+      "options": [
+        "Gentle",
+        "Malignant",
+        "Harmless",
+        "Mild"
+      ],
       "answer": 1,
       "solution": "Benign means gentle, kindly, or not harmful. Malignant means harmful, hostile, or cancerous — the direct opposite.",
       "estSec": 10,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1405,7 +1687,7 @@
       "answer": 2,
       "solution": "'The committee has decided' is correct — 'committee' is a collective noun taking a singular verb. Other options: (A) should use 'were', (B) should use 'has', (D) should use 'doesn't'.",
       "estSec": 15,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1417,11 +1699,16 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "What does the idiom 'to burn the midnight oil' mean?",
-      "options": ["To waste resources", "To work late into the night", "To start a fire", "To be very angry"],
+      "options": [
+        "To waste resources",
+        "To work late into the night",
+        "To start a fire",
+        "To be very angry"
+      ],
       "answer": 1,
       "solution": "'Burn the midnight oil' means to work or study late into the night, originally referring to working by oil lamp light before electricity.",
       "estSec": 10,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1433,11 +1720,16 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "A person who loves books is called a:",
-      "options": ["Bibliophile", "Philatelist", "Numismatist", "Cinephile"],
+      "options": [
+        "Bibliophile",
+        "Philatelist",
+        "Numismatist",
+        "Cinephile"
+      ],
       "answer": 0,
       "solution": "Bibliophile = lover of books. Philatelist = stamp collector. Numismatist = coin collector. Cinephile = movie enthusiast.",
       "estSec": 10,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1449,11 +1741,16 @@
       "marks": 1,
       "difficulty": "easy",
       "stem": "Choose the correct preposition: 'The meeting is _____ Monday.'",
-      "options": ["in", "on", "at", "by"],
+      "options": [
+        "in",
+        "on",
+        "at",
+        "by"
+      ],
       "answer": 1,
       "solution": "We use 'on' with days of the week: on Monday, on Tuesday, etc.",
       "estSec": 10,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1465,11 +1762,16 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "Read the passage: 'The monsoon is a seasonal wind pattern that brings heavy rainfall to the Indian subcontinent. It is driven by the differential heating of land and sea.' What primarily drives the monsoon?",
-      "options": ["Ocean currents", "Differential heating of land and sea", "Mountain ranges", "Coriolis effect"],
+      "options": [
+        "Ocean currents",
+        "Differential heating of land and sea",
+        "Mountain ranges",
+        "Coriolis effect"
+      ],
       "answer": 1,
       "solution": "The passage explicitly states the monsoon is driven by the differential heating of land and sea, which creates pressure gradients that reverse wind direction seasonally.",
       "estSec": 15,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1481,11 +1783,16 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "Choose the correct form: 'By the time we arrived, the train _____.'",
-      "options": ["has left", "had left", "was leaving", "left"],
+      "options": [
+        "has left",
+        "had left",
+        "was leaving",
+        "left"
+      ],
       "answer": 1,
       "solution": "Past perfect 'had left' is used for an action completed before another past action ('arrived'). The sequence: train left → we arrived.",
       "estSec": 10,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1497,11 +1804,16 @@
       "marks": 1,
       "difficulty": "easy",
       "stem": "Choose the word most similar in meaning to 'ELUQUENT':",
-      "options": ["Fluent and persuasive", "Loud", "Confused", "Silent"],
+      "options": [
+        "Fluent and persuasive",
+        "Loud",
+        "Confused",
+        "Silent"
+      ],
       "answer": 0,
       "solution": "Eloquent means fluent, persuasive, and expressive in speaking or writing. It implies the ability to communicate effectively and beautifully.",
       "estSec": 10,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1513,11 +1825,16 @@
       "marks": 1,
       "difficulty": "easy",
       "stem": "She has been working here _____ 2019.",
-      "options": ["from", "since", "for", "during"],
+      "options": [
+        "from",
+        "since",
+        "for",
+        "during"
+      ],
       "answer": 1,
       "solution": "'Since' is used with a specific point in time (2019). 'For' is used with a duration (5 years). 'From' needs 'to/until' for a range.",
       "estSec": 10,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     }
   ]

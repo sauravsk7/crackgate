@@ -46,8 +46,12 @@
       "solution": "The Green's function for L = d²/dx² satisfies LG(x,x') = δ(x−x'). With the standard convention, d²G/dx² = −δ(x−x') with Dirichlet BCs. The solution is G(x,x') = x(L−x')/L for x < x' and G = x'(L−x)/L for x > x'. The negative sign ensures G ≥ 0.",
       "estSec": 50,
       "topicWeight": 0.14,
-      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 200'><rect width='400' height='200' fill='#f8fafc' rx='8'/><text x='200' y='20' text-anchor='middle' font-size='14' font-weight='bold' fill='#1e293b'>Green's Function for d²/dx²</text><line x1='50' y1='160' x2='350' y2='160' stroke='#64748b' stroke-width='2'/><line x1='50' y1='40' x2='50' y2='160' stroke='#64748b' stroke-width='2'/><polyline points='50,160 125,120 200,80 200,100 275,120 350,160' fill='none' stroke='#2563eb' stroke-width='2.5'/><circle cx='200' cy='90' r='4' fill='#dc2626'/><text x='200' y='82' text-anchor='middle' font-size='11' fill='#dc2626'>x'</text><text x='50' y='175' font-size='10' fill='#475569'>0</text><text x='345' y='175' font-size='10' fill='#475569'>L</text><text x='125' y='115' font-size='10' fill='#2563eb'>x(L−x')/L</text><text x='260' y='115' font-size='10' fill='#2563eb'>x'(L−x)/L</text><text x='200' y='195' text-anchor='middle' font-size='10' fill='#64748b'>G continuous at x=x', slope jumps by −1</text></svg>",
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 300\">\n<rect width=\"300\" height=\"300\" fill=\"#f8fafc\"/>\n<line x1=\"150\" y1=\"30\" x2=\"150\" y2=\"270\" stroke=\"#e2e8f0\" stroke-width=\"1\"/>\n<line x1=\"30\" y1=\"150\" x2=\"270\" y2=\"150\" stroke=\"#e2e8f0\" stroke-width=\"1\"/>\n<rect x=\"75\" y=\"75\" width=\"150\" height=\"150\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"2.5\"/>\n<circle cx=\"150\" cy=\"150\" r=\"10\" fill=\"#3b82f6\"/>\n<text x=\"150\" y=\"25\" text-anchor=\"middle\" font-size=\"13\" fill=\"#1e293b\" font-weight=\"bold\">SC Lattice — 1st Brillouin Zone</text>\n<text x=\"150\" y=\"290\" text-anchor=\"middle\" font-size=\"11\" fill=\"#64748b\">k_x</text>\n<text x=\"20\" y=\"150\" text-anchor=\"middle\" font-size=\"11\" fill=\"#64748b\">k_y</text>\n<text x=\"155\" y=\"70\" text-anchor=\"middle\" font-size=\"10\" fill=\"#3b82f6\">π/a</text>\n<text x=\"230\" y=\"155\" font-size=\"10\" fill=\"#3b82f6\">π/a</text>\n<text x=\"150\" y=\"155\" text-anchor=\"middle\" font-size=\"9\" fill=\"#1e293b\">Γ</text>\n<text x=\"225\" y=\"80\" text-anchor=\"middle\" font-size=\"9\" fill=\"#1e293b\">X</text>\n<text x=\"225\" y=\"225\" text-anchor=\"middle\" font-size=\"9\" fill=\"#1e293b\">M</text>\n</svg>",
+        "caption": "Mathematical Physics — Diagram"
+      }
     },
     {
       "id": 2,
@@ -68,7 +72,12 @@
       "solution": "The first Bianchi identity: R^ρ_{σμν;λ} + R^ρ_{σνλ;μ} + R^ρ_{σλμ;ν} = 0. This cyclic sum of the covariant derivative over the last three indices vanishes identically, independent of field equations. It reflects the symmetry of the torsion-free Levi-Civita connection.",
       "estSec": 50,
       "topicWeight": 0.14,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 300\">\n<rect width=\"300\" height=\"300\" fill=\"#f8fafc\"/>\n<text x=\"150\" y=\"22\" text-anchor=\"middle\" font-size=\"13\" fill=\"#1e293b\" font-weight=\"bold\">Fermi Surface — Free Electron</text>\n<line x1=\"150\" y1=\"40\" x2=\"150\" y2=\"260\" stroke=\"#e2e8f0\" stroke-width=\"1\"/>\n<line x1=\"40\" y1=\"150\" x2=\"260\" y2=\"150\" stroke=\"#e2e8f0\" stroke-width=\"1\"/>\n<rect x=\"60\" y=\"60\" width=\"180\" height=\"180\" fill=\"none\" stroke=\"#94a3b8\" stroke-width=\"1\" stroke-dasharray=\"4,3\"/>\n<circle cx=\"150\" cy=\"150\" r=\"60\" fill=\"#dbeafe\" fill-opacity=\"0.4\" stroke=\"#3b82f6\" stroke-width=\"2.5\"/>\n<text x=\"150\" y=\"290\" text-anchor=\"middle\" font-size=\"11\" fill=\"#64748b\">k_x</text>\n<text x=\"25\" y=\"150\" text-anchor=\"middle\" font-size=\"11\" fill=\"#64748b\">k_y</text>\n<text x=\"150\" y=\"155\" text-anchor=\"middle\" font-size=\"9\" fill=\"#1e293b\">Γ</text>\n<text x=\"220\" y=\"155\" font-size=\"9\" fill=\"#3b82f6\">k_F</text>\n<text x=\"60\" y=\"55\" text-anchor=\"middle\" font-size=\"9\" fill=\"#94a3b8\">BZ boundary</text>\n<line x1=\"150\" y1=\"150\" x2=\"210\" y2=\"150\" stroke=\"#ef4444\" stroke-width=\"1.5\" stroke-dasharray=\"3,2\"/>\n</svg>",
+        "caption": "Mathematical Physics — Diagram"
+      }
     },
     {
       "id": 3,
@@ -89,7 +98,12 @@
       "solution": "cot(z) = cos(z)/sin(z). At z = π, sin(π) = 0 and cos(π) = −1 ≠ 0, so z = π is a simple pole. Residue = cos(π)/cos(π) = (−1)/(−1) = 1. More generally, Res(cot z, nπ) = 1 for all integers n.",
       "estSec": 40,
       "topicWeight": 0.14,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 240\">\n<rect width=\"320\" height=\"240\" fill=\"#f8fafc\"/>\n<line x1=\"160\" y1=\"20\" x2=\"160\" y2=\"220\" stroke=\"#cbd5e1\" stroke-width=\"1\"/>\n<line x1=\"20\" y1=\"120\" x2=\"300\" y2=\"120\" stroke=\"#cbd5e1\" stroke-width=\"1\"/>\n<text x=\"160\" y=\"15\" text-anchor=\"middle\" font-size=\"12\" fill=\"#1e293b\" font-weight=\"bold\">Phase Space — Damped Oscillator</text>\n<text x=\"295\" y=\"135\" font-size=\"10\" fill=\"#64748b\">x</text>\n<text x=\"165\" y=\"25\" font-size=\"10\" fill=\"#64748b\">v</text>\n<ellipse cx=\"160\" cy=\"120\" rx=\"100\" ry=\"60\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"2\"/>\n<ellipse cx=\"160\" cy=\"120\" rx=\"70\" ry=\"42\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"1.5\"/>\n<ellipse cx=\"160\" cy=\"120\" rx=\"45\" ry=\"27\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"1.2\"/>\n<ellipse cx=\"160\" cy=\"120\" rx=\"25\" ry=\"15\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"1\"/>\n<circle cx=\"160\" cy=\"120\" r=\"3\" fill=\"#ef4444\"/>\n<text x=\"160\" y=\"235\" text-anchor=\"middle\" font-size=\"10\" fill=\"#64748b\">Spiral inward — energy dissipation</text>\n</svg>",
+        "caption": "Mathematical Physics — Diagram"
+      }
     },
     {
       "id": 4,
@@ -110,8 +124,12 @@
       "solution": "The square wave (extended as an odd function) has only sine terms. It also has half-wave symmetry f(x+π) = −f(x), eliminating even harmonics. The series is (4/π)[sin x + sin 3x/3 + sin 5x/5 + ...] — only odd sine harmonics.",
       "estSec": 35,
       "topicWeight": 0.14,
-      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 180'><rect width='400' height='180' fill='#f8fafc' rx='8'/><text x='200' y='18' text-anchor='middle' font-size='13' font-weight='bold' fill='#1e293b'>Square Wave Fourier Series</text><line x1='40' y1='130' x2='380' y2='130' stroke='#94a3b8' stroke-width='1' stroke-dasharray='4'/><line x1='40' y1='70' x2='380' y2='70' stroke='#94a3b8' stroke-width='1' stroke-dasharray='4'/><polyline points='40,130 40,70 125,70 125,130 210,130 210,70 295,70 295,130 380,130 380,70' fill='none' stroke='#2563eb' stroke-width='2.5'/><text x='35' y='134' font-size='9' fill='#64748b'>−1</text><text x='35' y='74' font-size='9' fill='#64748b'>+1</text><text x='82' y='150' font-size='9' fill='#64748b'>π</text><text x='252' y='150' font-size='9' fill='#64748b'>3π</text><text x='200' y='175' text-anchor='middle' font-size='10' fill='#64748b'>f(x) = (4/π) Σ sin((2k−1)x)/(2k−1)</text></svg>",
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 280 280\">\n<rect width=\"280\" height=\"280\" fill=\"#f8fafc\"/>\n<text x=\"140\" y=\"22\" text-anchor=\"middle\" font-size=\"13\" fill=\"#1e293b\" font-weight=\"bold\">Hydrogen Energy Levels</text>\n<line x1=\"60\" y1=\"260\" x2=\"220\" y2=\"260\" stroke=\"#1e293b\" stroke-width=\"2\"/>\n<text x=\"50\" y=\"260\" text-anchor=\"end\" font-size=\"10\" fill=\"#64748b\">n=1</text>\n<text x=\"225\" y=\"260\" font-size=\"9\" fill=\"#ef4444\">−13.6 eV</text>\n<line x1=\"60\" y1=\"200\" x2=\"220\" y2=\"200\" stroke=\"#3b82f6\" stroke-width=\"2\"/>\n<text x=\"50\" y=\"200\" text-anchor=\"end\" font-size=\"10\" fill=\"#64748b\">n=2</text>\n<text x=\"225\" y=\"200\" font-size=\"9\" fill=\"#3b82f6\">−3.4 eV</text>\n<line x1=\"60\" y1=\"160\" x2=\"220\" y2=\"160\" stroke=\"#8b5cf6\" stroke-width=\"2\"/>\n<text x=\"50\" y=\"160\" text-anchor=\"end\" font-size=\"10\" fill=\"#64748b\">n=3</text>\n<text x=\"225\" y=\"160\" font-size=\"9\" fill=\"#8b5cf6\">−1.51 eV</text>\n<line x1=\"60\" y1=\"130\" x2=\"220\" y2=\"130\" stroke=\"#22c55e\" stroke-width=\"1.5\"/>\n<text x=\"50\" y=\"130\" text-anchor=\"end\" font-size=\"10\" fill=\"#64748b\">n=4</text>\n<text x=\"225\" y=\"130\" font-size=\"9\" fill=\"#22c55e\">−0.85 eV</text>\n<line x1=\"60\" y1=\"108\" x2=\"220\" y2=\"108\" stroke=\"#f59e0b\" stroke-width=\"1.2\"/>\n<text x=\"50\" y=\"108\" text-anchor=\"end\" font-size=\"10\" fill=\"#64748b\">n=5</text>\n<text x=\"225\" y=\"108\" font-size=\"9\" fill=\"#f59e0b\">−0.54 eV</text>\n<line x1=\"140\" y1=\"90\" x2=\"140\" y2=\"85\" stroke=\"#94a3b8\" stroke-width=\"1\" stroke-dasharray=\"3,2\"/>\n<text x=\"140\" y=\"80\" text-anchor=\"middle\" font-size=\"10\" fill=\"#64748b\">n → ∞ (0 eV)</text>\n<line x1=\"180\" y1=\"260\" x2=\"180\" y2=\"200\" stroke=\"#ef4444\" stroke-width=\"1.5\"/>\n<text x=\"195\" y=\"230\" font-size=\"9\" fill=\"#ef4444\">Lyman α</text>\n<line x1=\"120\" y1=\"260\" x2=\"120\" y2=\"160\" stroke=\"#8b5cf6\" stroke-width=\"1.2\" stroke-dasharray=\"4,2\"/>\n<text x=\"130\" y=\"210\" font-size=\"8\" fill=\"#8b5cf6\">Lyman β</text>\n</svg>",
+        "caption": "Mathematical Physics — Diagram"
+      }
     },
     {
       "id": 5,
@@ -132,8 +150,12 @@
       "solution": "R_z(θ) = [[cosθ,−sinθ,0],[sinθ,cosθ,0],[0,0,1]]. Eigenvalue 1 corresponds to the z-axis (invariant). The 2×2 block gives e^(±iθ) = cos θ ± i sin θ. These three eigenvalues fully characterize the rotation.",
       "estSec": 40,
       "topicWeight": 0.14,
-      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 250'><rect width='300' height='250' fill='#f8fafc' rx='8'/><text x='150' y='18' text-anchor='middle' font-size='13' font-weight='bold' fill='#1e293b'>3D Rotation About z-axis</text><line x1='50' y1='220' x2='250' y2='220' stroke='#64748b' stroke-width='1.5'/><line x1='150' y1='60' x2='150' y2='230' stroke='#64748b' stroke-width='1.5'/><line x1='60' y1='180' x2='230' y2='100' stroke='#64748b' stroke-width='1.5'/><polygon points='250,220 240,215 240,225' fill='#64748b'/><polygon points='150,60 145,70 155,70' fill='#64748b'/><polygon points='230,100 222,105 227,95' fill='#64748b'/><text x='260' y='225' font-size='11' fill='#475569'>x</text><text x='155' y='55' font-size='11' fill='#475569'>z</text><text x='235' y='95' font-size='11' fill='#475569'>y</text><path d='M 170,195 A 45,45 0 0,1 195,175' fill='none' stroke='#dc2626' stroke-width='2'/><text x='200' y='185' font-size='11' fill='#dc2626'>θ</text><text x='150' y='245' text-anchor='middle' font-size='10' fill='#64748b'>Eigenvalues: 1, e^(iθ), e^(−iθ)</text></svg>",
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 200\">\n<rect width=\"360\" height=\"200\" fill=\"#f8fafc\"/>\n<text x=\"180\" y=\"18\" text-anchor=\"middle\" font-size=\"13\" fill=\"#1e293b\" font-weight=\"bold\">Semiconductor Band Diagrams</text>\n<rect x=\"20\" y=\"40\" width=\"80\" height=\"40\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"1.5\" rx=\"3\"/>\n<rect x=\"20\" y=\"115\" width=\"80\" height=\"40\" fill=\"#fef3c7\" stroke=\"#f59e0b\" stroke-width=\"1.5\" rx=\"3\"/>\n<text x=\"60\" y=\"65\" text-anchor=\"middle\" font-size=\"9\" fill=\"#1e40af\">Conduction</text>\n<text x=\"60\" y=\"140\" text-anchor=\"middle\" font-size=\"9\" fill=\"#92400e\">Valence</text>\n<text x=\"60\" y=\"105\" text-anchor=\"middle\" font-size=\"9\" fill=\"#ef4444\" font-weight=\"bold\">E_g = 1.1 eV</text>\n<text x=\"60\" y=\"195\" text-anchor=\"middle\" font-size=\"10\" fill=\"#1e293b\" font-weight=\"bold\">Si</text>\n<rect x=\"140\" y=\"40\" width=\"80\" height=\"45\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"1.5\" rx=\"3\"/>\n<rect x=\"140\" y=\"115\" width=\"80\" height=\"40\" fill=\"#fef3c7\" stroke=\"#f59e0b\" stroke-width=\"1.5\" rx=\"3\"/>\n<text x=\"180\" y=\"68\" text-anchor=\"middle\" font-size=\"9\" fill=\"#1e40af\">Conduction</text>\n<text x=\"180\" y=\"140\" text-anchor=\"middle\" font-size=\"9\" fill=\"#92400e\">Valence</text>\n<text x=\"180\" y=\"105\" text-anchor=\"middle\" font-size=\"9\" fill=\"#ef4444\" font-weight=\"bold\">E_g = 1.42 eV</text>\n<text x=\"180\" y=\"195\" text-anchor=\"middle\" font-size=\"10\" fill=\"#1e293b\" font-weight=\"bold\">GaAs</text>\n<rect x=\"260\" y=\"40\" width=\"80\" height=\"30\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"1.5\" rx=\"3\"/>\n<rect x=\"260\" y=\"90\" width=\"80\" height=\"40\" fill=\"#fef3c7\" stroke=\"#f59e0b\" stroke-width=\"1.5\" rx=\"3\"/>\n<text x=\"300\" y=\"60\" text-anchor=\"middle\" font-size=\"9\" fill=\"#1e40af\">Conduction</text>\n<text x=\"300\" y=\"115\" text-anchor=\"middle\" font-size=\"9\" fill=\"#92400e\">Valence</text>\n<text x=\"300\" y=\"85\" text-anchor=\"middle\" font-size=\"9\" fill=\"#22c55e\" font-weight=\"bold\">E_g = 5.3 eV</text>\n<text x=\"300\" y=\"195\" text-anchor=\"middle\" font-size=\"10\" fill=\"#1e293b\" font-weight=\"bold\">Diamond</text>\n</svg>",
+        "caption": "Mathematical Physics — Diagram"
+      }
     },
     {
       "id": 6,
@@ -196,7 +218,6 @@
       "solution": "For the Kepler problem, E = −k/(2a). The energy depends only on the semi-major axis, not on eccentricity. Two orbits with the same a but different eccentricities have identical energy — a remarkable property of the inverse-square law.",
       "estSec": 45,
       "topicWeight": 0.14,
-      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 200'><rect width='400' height='200' fill='#f8fafc' rx='8'/><text x='200' y='18' text-anchor='middle' font-size='13' font-weight='bold' fill='#1e293b'>Kepler Ellipse Orbit</text><ellipse cx='170' cy='105' rx='120' ry='70' fill='none' stroke='#2563eb' stroke-width='2'/><circle cx='95' cy='105' r='6' fill='#dc2626'/><text x='95' y='130' text-anchor='middle' font-size='10' fill='#dc2626'>Focus</text><line x1='50' y1='105' x2='290' y2='105' stroke='#94a3b8' stroke-width='1' stroke-dasharray='4'/><text x='170' y='95' text-anchor='middle' font-size='10' fill='#475569'>a</text><circle cx='250' cy='75' r='4' fill='#16a34a'/><text x='265' y='72' font-size='10' fill='#16a34a'>Planet</text><text x='200' y='195' text-anchor='middle' font-size='10' fill='#64748b'>E = −k/(2a) — independent of eccentricity</text></svg>",
       "source": "curated"
     },
     {
@@ -218,7 +239,6 @@
       "solution": "Rolling without slipping: Ma = Mg sin θ − f, fR = Iα. For solid sphere I = (2/5)MR², so f = (2/5)Ma. Substituting: a(1+2/5) = g sin θ → a = (5/7)g sin θ. The factor 5/7 reflects rotational inertia coupling.",
       "estSec": 35,
       "topicWeight": 0.14,
-      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 380 180'><rect width='380' height='180' fill='#f8fafc' rx='8'/><text x='190' y='18' text-anchor='middle' font-size='13' font-weight='bold' fill='#1e293b'>Rolling Sphere on Incline</text><polygon points='40,155 280,155 40,60' fill='#e2e8f0' stroke='#64748b' stroke-width='1.5'/><circle cx='115' cy='108' r='20' fill='#2563eb' fill-opacity='0.3' stroke='#2563eb' stroke-width='2'/><text x='60' y='72' font-size='10' fill='#475569'>θ</text><text x='190' y='175' text-anchor='middle' font-size='10' fill='#64748b'>a = (5/7)g sin θ for solid sphere</text></svg>",
       "source": "curated"
     },
     {
@@ -261,7 +281,6 @@
       "solution": "A double pendulum has 2 degrees of freedom (two angles). Therefore it has exactly 2 normal modes: symmetric (in-phase) and antisymmetric (out-of-phase). The number of normal modes equals the number of degrees of freedom.",
       "estSec": 25,
       "topicWeight": 0.14,
-      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 230'><rect width='300' height='230' fill='#f8fafc' rx='8'/><text x='150' y='18' text-anchor='middle' font-size='13' font-weight='bold' fill='#1e293b'>Double Pendulum — 2 Normal Modes</text><line x1='150' y1='35' x2='110' y2='95' stroke='#2563eb' stroke-width='2'/><circle cx='110' cy='95' r='7' fill='#2563eb' fill-opacity='0.5'/><line x1='110' y1='95' x2='80' y2='155' stroke='#2563eb' stroke-width='2'/><circle cx='80' cy='155' r='7' fill='#2563eb' fill-opacity='0.5'/><text x='80' y='180' text-anchor='middle' font-size='10' fill='#2563eb'>In-phase</text><line x1='150' y1='35' x2='190' y2='95' stroke='#dc2626' stroke-width='2'/><circle cx='190' cy='95' r='7' fill='#dc2626' fill-opacity='0.5'/><line x1='190' y1='95' x2='220' y2='155' stroke='#dc2626' stroke-width='2'/><circle cx='220' cy='155' r='7' fill='#dc2626' fill-opacity='0.5'/><text x='220' y='180' text-anchor='middle' font-size='10' fill='#dc2626'>Out-of-phase</text><text x='150' y='220' text-anchor='middle' font-size='10' fill='#64748b'>2 DOF → 2 normal modes</text></svg>",
       "source": "curated"
     },
     {
@@ -304,7 +323,6 @@
       "solution": "At the Brewster angle θ_B = tan⁻¹(n₂/n₁), the reflection coefficient for p-polarized light is exactly zero. All the p-polarized light is transmitted. This is used in polarizing filters and Brewster windows in lasers.",
       "estSec": 40,
       "topicWeight": 0.14,
-      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 200'><rect width='400' height='200' fill='#f8fafc' rx='8'/><text x='200' y='18' text-anchor='middle' font-size='13' font-weight='bold' fill='#1e293b'>Brewster Angle — Zero p-polarized Reflection</text><line x1='200' y1='40' x2='200' y2='180' stroke='#94a3b8' stroke-width='1' stroke-dasharray='4'/><line x1='50' y1='110' x2='350' y2='110' stroke='#64748b' stroke-width='2'/><text x='360' y='114' font-size='10' fill='#475569'>Interface</text><line x1='200' y1='110' x2='110' y2='50' stroke='#2563eb' stroke-width='2'/><text x='85' y='45' font-size='10' fill='#2563eb'>Incident</text><line x1='200' y1='110' x2='290' y2='50' stroke='#16a34a' stroke-width='2'/><text x='295' y='45' font-size='10' fill='#16a34a'>Refracted</text><text x='200' y='175' text-anchor='middle' font-size='11' font-weight='bold' fill='#dc2626'>No reflected p-polarized wave</text><text x='200' y='195' text-anchor='middle' font-size='10' fill='#64748b'>θ_B = tan⁻¹(n₂/n₁)</text></svg>",
       "source": "curated"
     },
     {
@@ -326,7 +344,6 @@
       "solution": "Right-hand circular polarization: E rotates from x̂ toward ŷ as t increases at fixed z (clockwise when viewed from +z looking back toward source). The + sign between components gives RHCP by the physics convention.",
       "estSec": 30,
       "topicWeight": 0.14,
-      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 160'><rect width='400' height='160' fill='#f8fafc' rx='8'/><text x='200' y='18' text-anchor='middle' font-size='13' font-weight='bold' fill='#1e293b'>Right-Hand Circular Polarization</text><ellipse cx='100' cy='85' rx='35' ry='35' fill='none' stroke='#2563eb' stroke-width='2'/><polygon points='135,85 128,79 128,91' fill='#2563eb'/><text x='100' y='145' text-anchor='middle' font-size='9' fill='#475569'>Front view</text><path d='M 180,85 C 200,50 220,120 240,85 C 260,50 280,120 300,85' fill='none' stroke='#dc2626' stroke-width='2'/><path d='M 180,85 C 200,120 220,50 240,85 C 260,120 280,50 300,85' fill='none' stroke='#16a34a' stroke-width='2' stroke-dasharray='6'/><text x='175' y='80' font-size='9' fill='#dc2626'>Ex</text><text x='175' y='100' font-size='9' fill='#16a34a'>Ey</text><text x='200' y='150' text-anchor='middle' font-size='9' fill='#475569'>Side view (propagation →)</text></svg>",
       "source": "curated"
     },
     {
@@ -348,7 +365,6 @@
       "solution": "The radiated power ∝ ω⁴p₀². This ω⁴ dependence explains Rayleigh scattering (blue sky: scattering ∝ 1/λ⁴ ∝ ω⁴) and why short-wavelength radiation is scattered more efficiently.",
       "estSec": 45,
       "topicWeight": 0.14,
-      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 200'><rect width='400' height='200' fill='#f8fafc' rx='8'/><text x='200' y='18' text-anchor='middle' font-size='13' font-weight='bold' fill='#1e293b'>Oscillating Dipole Radiation Pattern</text><ellipse cx='200' cy='100' rx='130' ry='55' fill='none' stroke='#2563eb' stroke-width='2'/><circle cx='200' cy='100' r='4' fill='#f59e0b'/><line x1='200' y1='65' x2='200' y2='135' stroke='#f59e0b' stroke-width='3'/><text x='210' y='65' font-size='10' fill='#f59e0b'>+q</text><text x='210' y='140' font-size='10' fill='#f59e0b'>−q</text><text x='200' y='195' text-anchor='middle' font-size='10' fill='#64748b'>P ∝ ω⁴p₀² — toroidal radiation pattern</text></svg>",
       "source": "curated"
     },
     {
@@ -370,7 +386,6 @@
       "solution": "The parameter ξ₀ = √(2mV₀)a/ℏ determines the number of bound states. For ξ₀ < π/2, exactly 1 bound state exists (always at least one in 1D symmetric well). For larger ξ₀, more states appear.",
       "estSec": 50,
       "topicWeight": 0.14,
-      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 200'><rect width='400' height='200' fill='#f8fafc' rx='8'/><text x='200' y='18' text-anchor='middle' font-size='13' font-weight='bold' fill='#1e293b'>Finite Square Well — Bound States</text><rect x='130' y='40' width='140' height='120' fill='#e0e7ff' fill-opacity='0.3' stroke='#2563eb' stroke-width='2'/><line x1='50' y1='40' x2='130' y2='40' stroke='#64748b' stroke-width='2'/><line x1='270' y1='40' x2='350' y2='40' stroke='#64748b' stroke-width='2'/><line x1='50' y1='160' x2='350' y2='160' stroke='#64748b' stroke-width='1.5'/><text x='40' y='35' font-size='10' fill='#475569'>V₀</text><text x='200' y='35' text-anchor='middle' font-size='10' fill='#475569'>0</text><line x1='130' y1='90' x2='270' y2='90' stroke='#dc2626' stroke-width='1.5' stroke-dasharray='4'/><line x1='130' y1='120' x2='270' y2='120' stroke='#16a34a' stroke-width='1.5' stroke-dasharray='4'/><text x='280' y='93' font-size='9' fill='#dc2626'>E₁</text><text x='280' y='123' font-size='9' fill='#16a34a'>E₂</text><text x='200' y='185' text-anchor='middle' font-size='10' fill='#64748b'>Bound states ∝ √(2mV₀)a/ℏ</text></svg>",
       "source": "curated"
     },
     {
@@ -434,7 +449,6 @@
       "solution": "The 2s and 2p₀ states mix under H' = eEz. The off-diagonal matrix element ⟨2s|eEz|2p₀⟩ = 3ea₀. Diagonalizing gives eigenvalues ±3ea₀E. The 2p₊₁ and 2p₋₁ states are unaffected to first order.",
       "estSec": 55,
       "topicWeight": 0.14,
-      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 200'><rect width='400' height='200' fill='#f8fafc' rx='8'/><text x='200' y='18' text-anchor='middle' font-size='13' font-weight='bold' fill='#1e293b'>Linear Stark Effect — n=2 Hydrogen</text><line x1='100' y1='40' x2='100' y2='180' stroke='#64748b' stroke-width='1.5'/><text x='100' y='195' text-anchor='middle' font-size='10' fill='#475569'>E=0</text><line x1='80' y1='110' x2='120' y2='110' stroke='#2563eb' stroke-width='2.5'/><text x='130' y='113' font-size='9' fill='#2563eb'>2s,2p</text><line x1='300' y1='40' x2='300' y2='180' stroke='#64748b' stroke-width='1.5'/><text x='300' y='195' text-anchor='middle' font-size='10' fill='#475569'>E≠0</text><line x1='280' y1='80' x2='320' y2='80' stroke='#dc2626' stroke-width='2.5'/><text x='330' y='84' font-size='9' fill='#dc2626'>+3ea₀E</text><line x1='280' y1='140' x2='320' y2='140' stroke='#16a34a' stroke-width='2.5'/><text x='330' y='144' font-size='9' fill='#16a34a'>−3ea₀E</text><text x='200' y='195' text-anchor='middle' font-size='10' fill='#64748b'>Splitting: ±3ea₀E (linear in field)</text></svg>",
       "source": "curated"
     },
     {
@@ -519,7 +533,6 @@
       "solution": "Only electrons within ~kT of the Fermi surface contribute. The number ∝ T/T_F, giving C_V = (π²/2)Nk(T/T_F) ∝ T. This linear-T dependence distinguishes metals from insulators.",
       "estSec": 40,
       "topicWeight": 0.14,
-      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 180'><rect width='400' height='180' fill='#f8fafc' rx='8'/><text x='200' y='18' text-anchor='middle' font-size='13' font-weight='bold' fill='#1e293b'>Fermi Gas — Electronic Specific Heat</text><line x1='60' y1='155' x2='360' y2='155' stroke='#64748b' stroke-width='1.5'/><line x1='60' y1='35' x2='60' y2='155' stroke='#64748b' stroke-width='1.5'/><text x='365' y='160' font-size='10' fill='#475569'>T</text><text x='45' y='35' font-size='10' fill='#475569'>C_V</text><line x1='60' y1='155' x2='340' y2='45' stroke='#2563eb' stroke-width='2.5'/><text x='200' y='95' font-size='11' fill='#2563eb' transform='rotate(-27,200,95)'>C_V ∝ T</text><text x='200' y='178' text-anchor='middle' font-size='10' fill='#64748b'>C_V = (π²/2)Nk(T/T_F)</text></svg>",
       "source": "curated"
     },
     {
@@ -562,7 +575,6 @@
       "solution": "Balmer series: transitions from n ≥ 3 to n = 2, producing visible light. Hα (656.3 nm): 3→2, Hβ (486.1 nm): 4→2, Hγ (434.0 nm): 5→2.",
       "estSec": 20,
       "topicWeight": 0.14,
-      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 200'><rect width='400' height='200' fill='#f8fafc' rx='8'/><text x='200' y='18' text-anchor='middle' font-size='13' font-weight='bold' fill='#1e293b'>Hydrogen Energy Levels — Balmer Series</text><line x1='80' y1='170' x2='320' y2='170' stroke='#2563eb' stroke-width='2'/><text x='330' y='174' font-size='10' fill='#2563eb'>n=1</text><line x1='80' y1='120' x2='320' y2='120' stroke='#2563eb' stroke-width='2'/><text x='330' y='124' font-size='10' fill='#2563eb'>n=2</text><line x1='80' y1='80' x2='320' y2='80' stroke='#2563eb' stroke-width='2'/><text x='330' y='84' font-size='10' fill='#2563eb'>n=3</text><line x1='80' y1='55' x2='320' y2='55' stroke='#2563eb' stroke-width='2'/><text x='330' y='59' font-size='10' fill='#2563eb'>n=4</text><line x1='80' y1='42' x2='320' y2='42' stroke='#2563eb' stroke-width='2'/><text x='330' y='46' font-size='10' fill='#2563eb'>n=5</text><line x1='150' y1='80' x2='150' y2='120' stroke='#dc2626' stroke-width='2'/><polygon points='150,120 146,112 154,112' fill='#dc2626'/><text x='165' y='104' font-size='9' fill='#dc2626'>Hα</text><line x1='210' y1='55' x2='210' y2='120' stroke='#16a34a' stroke-width='2'/><polygon points='210,120 206,112 214,112' fill='#16a34a'/><text x='225' y='92' font-size='9' fill='#16a34a'>Hβ</text><text x='200' y='195' text-anchor='middle' font-size='10' fill='#64748b'>All Balmer lines end at n = 2</text></svg>",
       "source": "curated"
     },
     {
@@ -647,7 +659,6 @@
       "solution": "For heteronuclear diatomics with Σ electronic ground states, the selection rule is ΔJ = ±1 (no Q branch). The angular momentum selection rules from the dipole matrix elements give zero for ΔJ = 0 transitions in this case.",
       "estSec": 40,
       "topicWeight": 0.14,
-      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 200'><rect width='400' height='200' fill='#f8fafc' rx='8'/><text x='200' y='18' text-anchor='middle' font-size='13' font-weight='bold' fill='#1e293b'>Vibration-Rotation Spectrum — Missing Q Branch</text><line x1='40' y1='170' x2='380' y2='170' stroke='#64748b' stroke-width='1.5'/><line x1='210' y1='50' x2='210' y2='170' stroke='#94a3b8' stroke-width='1' stroke-dasharray='4'/><text x='210' y='45' text-anchor='middle' font-size='9' fill='#dc2626'>Gap (no Q branch)</text><rect x='60' y='120' width='5' height='50' fill='#2563eb'/><rect x='80' y='100' width='5' height='70' fill='#2563eb'/><rect x='100' y='85' width='5' height='85' fill='#2563eb'/><rect x='120' y='75' width='5' height='95' fill='#2563eb'/><rect x='140' y='65' width='5' height='105' fill='#2563eb'/><rect x='160' y='58' width='5' height='112' fill='#2563eb'/><rect x='180' y='55' width='5' height='115' fill='#2563eb'/><text x='130' y='190' font-size='10' fill='#2563eb'>P branch (ΔJ=−1)</text><rect x='240' y='120' width='5' height='50' fill='#16a34a'/><rect x='260' y='100' width='5' height='70' fill='#16a34a'/><rect x='280' y='85' width='5' height='85' fill='#16a34a'/><rect x='300' y='75' width='5' height='95' fill='#16a34a'/><rect x='320' y='68' width='5' height='102' fill='#16a34a'/><rect x='340' y='62' width='5' height='108' fill='#16a34a'/><rect x='360' y='58' width='5' height='112' fill='#16a34a'/><text x='300' y='190' font-size='10' fill='#16a34a'>R branch (ΔJ=+1)</text></svg>",
       "source": "curated"
     },
     {
@@ -711,7 +722,6 @@
       "solution": "At k = π/a, the electron wavelength satisfies the Bragg condition. The periodic potential scatters forward waves into backward waves, creating standing states with different energies → band gap ΔE = 2|V_G|.",
       "estSec": 45,
       "topicWeight": 0.14,
-      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 200'><rect width='400' height='200' fill='#f8fafc' rx='8'/><text x='200' y='18' text-anchor='middle' font-size='13' font-weight='bold' fill='#1e293b'>Nearly-Free Electron — Band Gap at Zone Boundary</text><line x1='50' y1='175' x2='350' y2='175' stroke='#64748b' stroke-width='1.5'/><line x1='200' y1='35' x2='200' y2='175' stroke='#94a3b8' stroke-width='1' stroke-dasharray='4'/><text x='200' y='190' text-anchor='middle' font-size='10' fill='#475569'>π/a</text><text x='350' y='190' font-size='10' fill='#475569'>k</text><path d='M 50,170 C 100,160 150,100 200,80' fill='none' stroke='#2563eb' stroke-width='2.5'/><path d='M 200,120 C 250,100 300,50 350,35' fill='none' stroke='#2563eb' stroke-width='2.5'/><path d='M 50,170 C 100,165 150,140 200,130' fill='none' stroke='#16a34a' stroke-width='2.5'/><path d='M 200,70 C 250,60 300,40 350,30' fill='none' stroke='#16a34a' stroke-width='2.5'/><rect x='195' y='80' width='10' height='40' fill='#dc2626' fill-opacity='0.3' stroke='#dc2626' stroke-width='1'/><text x='215' y='105' font-size='9' fill='#dc2626'>ΔE</text></svg>",
       "source": "curated"
     },
     {
@@ -859,7 +869,6 @@
       "solution": "C = B log₂(1 + S/N) bits/s. This is the theoretical maximum reliable data rate over a noisy Gaussian channel. Capacity increases logarithmically with SNR and linearly with bandwidth.",
       "estSec": 35,
       "topicWeight": 0.14,
-      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 180'><rect width='400' height='180' fill='#f8fafc' rx='8'/><text x='200' y='18' text-anchor='middle' font-size='13' font-weight='bold' fill='#1e293b'>Shannon-Hartley Channel Capacity</text><line x1='60' y1='155' x2='360' y2='155' stroke='#64748b' stroke-width='1.5'/><line x1='60' y1='40' x2='60' y2='155' stroke='#64748b' stroke-width='1.5'/><text x='365' y='160' font-size='10' fill='#475569'>S/N</text><text x='42' y='40' font-size='10' fill='#475569'>C/B</text><path d='M 60,150 C 120,145 180,105 240,75 C 300,55 350,47 360,45' fill='none' stroke='#2563eb' stroke-width='2.5'/><text x='220' y='100' font-size='11' fill='#2563eb'>C = B log₂(1 + S/N)</text></svg>",
       "source": "curated"
     },
     {
@@ -1720,6 +1729,111 @@
       "answer": 1,
       "solution": "'Since' with a specific point in time. 'For' with a duration. 'From' needs 'to/until' for a range.",
       "estSec": 10,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 76,
+      "subject": "Aptitude",
+      "topic": "Quantitative · Percentage",
+      "section": "Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "easy",
+      "stem": "A student scored 45% in an exam with 200 maximum marks. How many marks did the student score?",
+      "options": [
+        "90",
+        "100",
+        "110",
+        "80"
+      ],
+      "answer": 0,
+      "solution": "45% of 200 = 0.45 × 200 = 90 marks.",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 77,
+      "subject": "Aptitude",
+      "topic": "Quantitative · Time & Work",
+      "section": "Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "A can do a piece of work in 15 days and B can do it in 20 days. Working together, they finish the work. B's share of the payment is Rs.1,200. Total payment is:",
+      "options": [
+        "Rs.2,800",
+        "Rs.3,000",
+        "Rs.2,600",
+        "Rs.2,400"
+      ],
+      "answer": 0,
+      "solution": "A's rate = 1/15, B's rate = 1/20. Ratio of work = 4:3. Total parts = 7. B's share = 3/7 of total. If 3/7 = Rs.1,200, total = Rs.2,800.",
+      "estSec": 30,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 78,
+      "subject": "Aptitude",
+      "topic": "Reasoning · Coding-Decoding",
+      "section": "Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "In a certain code language, COMPUTER is written as DNPQVUFS. How is SCIENCE written in that code?",
+      "options": [
+        "TDJFODF",
+        "TDJFODG",
+        "SEJHPGE",
+        "TDJFOEE"
+      ],
+      "answer": 0,
+      "solution": "Each letter is shifted by +1 in the alphabet: C→D, O→P, M→N, P→Q, U→V, T→U, E→F, R→S. So COMPUTER→DNPQVUFS. Similarly S(+1)=T, C(+1)=D, I(+1)=J, E(+1)=F, N(+1)=O, C(+1)=D, E(+1)=F. SCIENCE→TDJFODF.",
+      "estSec": 25,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 79,
+      "subject": "Aptitude",
+      "topic": "Quantitative · SI & CI",
+      "section": "Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "The compound interest on Rs.16,000 at 10% per annum for 2 years compounded annually is:",
+      "options": [
+        "Rs.3,360",
+        "Rs.3,200",
+        "Rs.3,400",
+        "Rs.3,600"
+      ],
+      "answer": 0,
+      "solution": "CI = P(1+r)ⁿ − P = 16000(1.10)² − 16000 = 16000(1.21) − 16000 = 19360 − 16000 = Rs.3,360.",
+      "estSec": 20,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 80,
+      "subject": "Aptitude",
+      "topic": "Quantitative · Ratio & Proportion",
+      "section": "Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "easy",
+      "stem": "The ratio of boys to girls in a class is 3:2. If there are 30 girls, the total number of students is:",
+      "options": [
+        "75",
+        "50",
+        "55",
+        "60"
+      ],
+      "answer": 0,
+      "solution": "Boys:Girls = 3:2. Girls = 30, so 2 parts = 30, 1 part = 15. Boys = 45. Total = 45 + 30 = 75.",
+      "estSec": 15,
       "topicWeight": 0.1,
       "source": "curated"
     }
