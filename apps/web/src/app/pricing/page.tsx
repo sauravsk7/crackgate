@@ -124,11 +124,13 @@ const MATRIX: { feature: string; free: string | boolean; pro: string | boolean; 
 
 function PsuPlanCard({ plan }: { plan: typeof PSU_PLANS[number] }) {
   const [loading, setLoading] = useState(false);
+  const [selected, setSelected] = useState("");
   const router = useRouter();
   const devMode = process.env.NEXT_PUBLIC_DEV_TOOLS === "1";
 
-  async function buy(disciplineName: string) {
-    const slug = `${plan.id}-${disciplineName.toLowerCase()}`;
+  async function buy() {
+    if (!selected) return;
+    const slug = `${plan.id}-${selected.toLowerCase()}`;
     if (devMode) {
       setLoading(true);
       try {
@@ -149,7 +151,7 @@ function PsuPlanCard({ plan }: { plan: typeof PSU_PLANS[number] }) {
       }
       return;
     }
-    router.push(`/pay/upi?${plan.payParams}${slug}`);
+    router.push(`/pay/upi?plan=pro&exam=PSU&subject=${slug}`);
   }
 
   return (
@@ -165,17 +167,30 @@ function PsuPlanCard({ plan }: { plan: typeof PSU_PLANS[number] }) {
           <li key={perk} className="flex gap-2"><span className="text-ok">✓</span> {perk}</li>
         ))}
       </ul>
-      <div className="mt-6 flex flex-wrap gap-2">
-        {plan.disciplines.map((d) => (
-          <button
-            key={d}
-            onClick={() => buy(d)}
-            disabled={loading}
-            className="btn btn-primary text-xs px-3 py-1.5"
+      <div className="mt-6 space-y-3">
+        <div>
+          <label htmlFor={`discipline-${plan.id}`} className="block text-xs font-semibold text-muted mb-1">
+            Discipline
+          </label>
+          <select
+            id={`discipline-${plan.id}`}
+            value={selected}
+            onChange={(e) => setSelected(e.target.value)}
+            className="input w-full"
           >
-            {loading ? "…" : d}
-          </button>
-        ))}
+            <option value="">Select a discipline...</option>
+            {plan.disciplines.map((d) => (
+              <option key={d} value={d}>{d}</option>
+            ))}
+          </select>
+        </div>
+        <button
+          onClick={buy}
+          disabled={loading || !selected}
+          className="btn btn-primary w-full"
+        >
+          {loading ? "Loading…" : devMode ? `⚙ Dev: Unlock ${plan.name}` : `Get Pro — ₹${plan.price}`}
+        </button>
       </div>
       <p className="text-[11px] text-muted mt-3 text-center">Pay via UPI · QR / GPay / PhonePe / Paytm</p>
     </div>
@@ -224,21 +239,21 @@ function Cell({ v, highlight, accent }: { v: string | boolean; highlight?: boole
 }
 
 function PlanCard({ plan }: { plan: typeof PLANS[number] }) {
-  const [loading, setLoading] = useState(false);
+  const [loading, setLoading] = useState<"pro" | "premium" | null>(null);
   const router = useRouter();
   const devMode = process.env.NEXT_PUBLIC_DEV_TOOLS === "1";
 
-  async function buy() {
+  async function buy(tier: "pro" | "premium") {
     if (plan.id === "free") return router.push("/login");
 
     // Dev-mode shortcut: skip checkout, flip the plan via the dev API.
     if (devMode) {
-      setLoading(true);
+      setLoading(tier);
       try {
         const r = await fetch("/api/dev/set-plan", {
           method: "POST",
           headers: { "content-type": "application/json" },
-          body: JSON.stringify({ plan: plan.id }),
+          body: JSON.stringify({ plan: tier }),
         });
         if (r.status === 401) return router.push(`/login?next=/pricing`);
         const t = await r.text();
@@ -248,14 +263,15 @@ function PlanCard({ plan }: { plan: typeof PLANS[number] }) {
       } catch (e) {
         alert((e as Error).message);
       } finally {
-        setLoading(false);
+        setLoading(null);
       }
       return;
     }
 
-    // Single checkout path for everyone else: UPI (scan & pay → submit UTR).
-    router.push(`/pay/upi?plan=${plan.id}`);
+    router.push(`/pay/upi?plan=${tier}`);
   }
+
+  const isFree = plan.id === "free";
 
   return (
     <div className={`card p-8 flex flex-col ${plan.highlight ? "border-accent shadow-pop ring-2 ring-accent/40" : ""}`}>
@@ -270,17 +286,35 @@ function PlanCard({ plan }: { plan: typeof PLANS[number] }) {
           <li key={perk} className="flex gap-2"><span className="text-ok">✓</span> {perk}</li>
         ))}
       </ul>
-      <button
-        onClick={buy}
-        disabled={loading || plan.id === "free"}
-        className={`btn ${plan.highlight ? "btn-accent" : "btn-primary"} mt-8`}
-      >
-        {loading ? "Loading…" : devMode && plan.id !== "free" ? `⚙ Dev: switch to ${plan.name}` : plan.cta}
-      </button>
-      {plan.id !== "free" && !devMode && (
+      {isFree ? (
+        <button
+          onClick={() => router.push("/login")}
+          className="btn btn-ghost mt-8"
+        >
+          Current plan
+        </button>
+      ) : (
+        <div className="mt-8 grid grid-cols-2 gap-3">
+          <button
+            onClick={() => buy("pro")}
+            disabled={loading !== null}
+            className="btn btn-primary"
+          >
+            {loading === "pro" ? "…" : devMode ? "⚙ Pro" : "Get Pro — ₹499"}
+          </button>
+          <button
+            onClick={() => buy("premium")}
+            disabled={loading !== null}
+            className="btn btn-accent"
+          >
+            {loading === "premium" ? "…" : devMode ? "⚙ Premium" : "Get Premium — ₹899"}
+          </button>
+        </div>
+      )}
+      {!isFree && !devMode && (
         <p className="text-[11px] text-muted mt-2 text-center">Pay via UPI · QR / GPay / PhonePe / Paytm</p>
       )}
-      {devMode && plan.id !== "free" && (
+      {devMode && !isFree && (
         <p className="text-[11px] text-muted mt-2 text-center">Skips checkout · dev tools enabled</p>
       )}
     </div>
