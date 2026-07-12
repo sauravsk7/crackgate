@@ -66,7 +66,7 @@ export function MobileSectionBar() {
                 {psuOpen && (
                   <>
                     <div className="fixed inset-0 z-40 bg-black/30" onClick={() => setPsuOpen(false)} />
-                    <div className="fixed bottom-0 left-0 right-0 z-50 rounded-t-2xl border-t border-line bg-surface p-4 pb-8 shadow-pop animate-in slide-in-from-bottom">
+                    <div className="fixed bottom-0 left-0 right-0 z-50 max-h-[70dvh] overflow-y-auto rounded-t-2xl border-t border-line bg-surface p-4 pb-8 shadow-lg">
                       <div className="mx-auto mb-3 h-1 w-10 rounded-full bg-line" />
                       <p className="text-[11px] font-bold uppercase tracking-wide text-muted mb-3">
                         Recruitment by company
