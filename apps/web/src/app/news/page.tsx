@@ -13,7 +13,7 @@ export default function NewsPage() {
         <span className="badge bg-brand/10 text-brand dark:bg-brand/20">News &amp; Notifications</span>
         <h1 className="mt-4 text-4xl font-extrabold text-ink dark:text-white">Latest updates</h1>
         <p className="mt-3 max-w-2xl text-muted dark:text-slate-400">
-          Recruitment alerts, exam notifications and platform updates for GATE Mining and PSU aspirants.
+          Recruitment alerts, exam notifications and platform updates for GATE, PSU, State-level and Diploma aspirants.
         </p>
       </section>
 

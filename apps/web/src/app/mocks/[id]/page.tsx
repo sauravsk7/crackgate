@@ -45,9 +45,10 @@ export default async function MockPage(props: { params: Promise<{ id: string }> 
     }
   }
 
-  // PSU / CIL Management Trainee exams: no negative marking and no on-screen
-  // calculator. GATE keeps both.
-  const isPsuCil = m.gate.type === "entitlement" && m.gate.exam === "PSU";
+  // PSU exams: no negative marking and no on-screen calculator. GATE keeps both.
+  const isPsu = m.gate.type === "entitlement" && m.gate.exam === "PSU";
+  const isOngc = isPsu && m.id.startsWith("ongc-");
+  const isCil = isPsu && m.id.startsWith("cil-");
 
   return (
     <ExamPortal
@@ -57,11 +58,13 @@ export default async function MockPage(props: { params: Promise<{ id: string }> 
       questions={m.questions as never}
       durationSec={m.durationSec}
       negativeMarking={m.negativeMarking}
-      showCalculator={!isPsuCil}
+      showCalculator={!isPsu}
       examLabel={
-        isPsuCil
-          ? "Coal India Limited — Management Trainee"
-          : "GATE — Graduate Aptitude Test in Engineering"
+        isOngc
+          ? "ONGC — Oil and Natural Gas Corporation"
+          : isCil
+            ? "Coal India Limited — Management Trainee"
+            : "GATE — Graduate Aptitude Test in Engineering"
       }
     />
   );

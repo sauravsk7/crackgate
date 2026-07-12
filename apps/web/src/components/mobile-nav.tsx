@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
+import { createPortal } from "react-dom";
 import { cn } from "@/lib/utils";
 import { PSU_COMPANIES } from "@/data/psu";
 
@@ -62,8 +63,8 @@ export function MobileSectionBar() {
                   </svg>
                 </button>
 
-                {/* PSU dropdown panel */}
-                {psuOpen && (
+                {/* PSU dropdown — portal to body to escape header's backdrop-blur containing block */}
+                {psuOpen && typeof window !== "undefined" && createPortal(
                   <>
                     <div className="fixed inset-0 z-40 bg-black/30" onClick={() => setPsuOpen(false)} />
                     <div className="fixed bottom-0 left-0 right-0 z-50 max-h-[70dvh] overflow-y-auto rounded-t-2xl border-t border-line bg-surface p-4 pb-8 shadow-lg">
@@ -135,7 +136,8 @@ export function MobileSectionBar() {
                         )}
                       </div>
                     </div>
-                  </>
+                  </>,
+                  document.body,
                 )}
               </div>
             );
@@ -179,7 +181,7 @@ function isMiningSite(pathname: string | null): boolean {
   // track, so they keep the global header (PSU / subject nav) rather than the
   // Mining header. Only Mining mocks (/mocks/mn-*) are part of the Mining
   // mini-site. Exclude every other known mock-id prefix here.
-  if (/^\/mocks\/(cil-|ce-mock-|gg-mock-|es-mock-|state-|diploma-)/.test(pathname)) return false;
+  if (/^\/mocks\/(cil-|ongc-|ce-mock-|gg-mock-|es-mock-|state-|diploma-)/.test(pathname)) return false;
   return MINING_SITE_PREFIXES.some((p) => pathname === p || pathname.startsWith(p + "/"));
 }
 
