@@ -88,7 +88,12 @@
       "solution": "Radiogenic heat production contributes approximately 20 TW of the total ~47 TW surface heat flow, with the remainder (~27 TW) coming from primordial secular cooling of the mantle and core.",
       "estSec": 30,
       "topicWeight": 0.1,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Earth's density and velocity structure (PREM model) with major discontinuities",
+        "markup": "<svg viewBox=\"0 0 480 220\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"220\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" text-anchor=\"middle\" fill=\"#4f46e5\" font-weight=\"bold\" font-size=\"13\" font-family=\"sans-serif\">PREM: Density &amp; Velocity Structure</text><line x1=\"60\" y1=\"195\" x2=\"440\" y2=\"195\" stroke=\"#94a3b8\" stroke-width=\"1\"/><line x1=\"60\" y1=\"35\" x2=\"60\" y2=\"195\" stroke=\"#94a3b8\" stroke-width=\"1\"/><text x=\"250\" y=\"212\" text-anchor=\"middle\" fill=\"#64748b\" font-size=\"9\" font-family=\"sans-serif\">Depth (km)</text><text x=\"55\" y=\"42\" text-anchor=\"end\" fill=\"#64748b\" font-size=\"8\" font-family=\"sans-serif\">0</text><text x=\"55\" y=\"75\" text-anchor=\"end\" fill=\"#64748b\" font-size=\"8\" font-family=\"sans-serif\">2900</text><text x=\"55\" y=\"110\" text-anchor=\"end\" fill=\"#64748b\" font-size=\"8\" font-family=\"sans-serif\">4000</text><text x=\"55\" y=\"145\" text-anchor=\"end\" fill=\"#64748b\" font-size=\"8\" font-family=\"sans-serif\">5150</text><text x=\"55\" y=\"192\" text-anchor=\"end\" fill=\"#64748b\" font-size=\"8\" font-family=\"sans-serif\">6371</text><line x1=\"60\" y1=\"75\" x2=\"440\" y2=\"75\" stroke=\"#94a3b8\" stroke-width=\"0.5\" stroke-dasharray=\"3,3\"/><line x1=\"60\" y1=\"145\" x2=\"440\" y2=\"145\" stroke=\"#94a3b8\" stroke-width=\"0.5\" stroke-dasharray=\"3,3\"/><path d=\"M80,42 Q100,55 110,70 Q130,75 140,95 Q150,115 160,140 Q170,145 175,155 Q180,170 185,190\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"2\"/><path d=\"M200,42 Q230,55 250,70 Q280,75 300,95 Q320,115 340,140 Q350,145 355,155 Q360,170 365,190\" fill=\"none\" stroke=\"#f59e0b\" stroke-width=\"2\"/><text x=\"380\" y=\"55\" fill=\"#3b82f6\" font-size=\"10\" font-family=\"sans-serif\">Vp (P-wave)</text><text x=\"380\" y=\"75\" fill=\"#f59e0b\" font-size=\"10\" font-family=\"sans-serif\">Vs (S-wave)</text><text x=\"380\" y=\"100\" fill=\"#64748b\" font-size=\"9\" font-family=\"sans-serif\">Vs = 0 in outer core</text><text x=\"380\" y=\"118\" fill=\"#64748b\" font-size=\"9\" font-family=\"sans-serif\">(liquid iron)</text><text x=\"380\" y=\"140\" fill=\"#ef4444\" font-size=\"9\" font-family=\"sans-serif\">Gutenberg at 2900 km</text><text x=\"380\" y=\"158\" fill=\"#ef4444\" font-size=\"9\" font-family=\"sans-serif\">Lehmann at 5150 km</text></svg>"
+      }
     },
     {
       "id": 4,
@@ -109,7 +114,12 @@
       "solution": "ITRF2020 combines GPS (GNSS), SLR, VLBI, and DORIS observations. The origin is primarily determined by SLR (sensitive to the geocenter), while the scale is provided by SLR and VLBI.",
       "estSec": 30,
       "topicWeight": 0.1,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Geoid anomaly map showing positive and negative undulations from mantle density variations",
+        "markup": "<svg viewBox=\"0 0 480 220\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"220\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" text-anchor=\"middle\" fill=\"#4f46e5\" font-weight=\"bold\" font-size=\"13\" font-family=\"sans-serif\">Geoid Anomalies</text><rect x=\"40\" y=\"35\" width=\"280\" height=\"170\" fill=\"#e2e8f0\" stroke=\"#94a3b8\" stroke-width=\"1\" rx=\"4\"/><ellipse cx=\"120\" cy=\"90\" rx=\"45\" ry=\"30\" fill=\"#3b82f6\" opacity=\"0.5\"/><text x=\"120\" y=\"95\" text-anchor=\"middle\" fill=\"#fff\" font-size=\"9\" font-family=\"sans-serif\">+80 m</text><ellipse cx=\"220\" cy=\"150\" rx=\"55\" ry=\"25\" fill=\"#ef4444\" opacity=\"0.5\"/><text x=\"220\" y=\"155\" text-anchor=\"middle\" fill=\"#fff\" font-size=\"9\" font-family=\"sans-serif\">-60 m</text><ellipse cx=\"170\" cy=\"70\" rx=\"30\" ry=\"20\" fill=\"#3b82f6\" opacity=\"0.3\"/><text x=\"170\" y=\"75\" text-anchor=\"middle\" fill=\"#fff\" font-size=\"8\" font-family=\"sans-serif\">+40 m</text><text x=\"180\" y=\"218\" text-anchor=\"middle\" fill=\"#64748b\" font-size=\"9\" font-family=\"sans-serif\">Geoid height N(θ,λ) in metres</text><text x=\"370\" y=\"55\" fill=\"#3b82f6\" font-size=\"10\" font-family=\"sans-serif\">■ Positive = dense material</text><text x=\"370\" y=\"78\" fill=\"#ef4444\" font-size=\"10\" font-family=\"sans-serif\">■ Negative = less dense</text><text x=\"370\" y=\"105\" fill=\"#64748b\" font-size=\"10\" font-family=\"sans-serif\">N = Σ Jₙ(cos θ)</text><text x=\"370\" y=\"128\" fill=\"#64748b\" font-size=\"10\" font-family=\"sans-serif\">Spherical harmonics</text><text x=\"370\" y=\"155\" fill=\"#64748b\" font-size=\"10\" font-family=\"sans-serif\">GOCE/GRACE measure</text><text x=\"370\" y=\"200\" fill=\"#f59e0b\" font-size=\"10\" font-family=\"sans-serif\">→ Constrained by mantle flow</text></svg>"
+      }
     },
     {
       "id": 5,
@@ -151,7 +161,12 @@
       "solution": "The Chandler wobble is a free Eulerian nutation of the solid Earth, excited and maintained by stochastic angular momentum transfers from the atmosphere, oceans, and hydrosphere.",
       "estSec": 30,
       "topicWeight": 0.1,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Geoid anomaly map showing positive and negative undulations from mantle density variations",
+        "markup": "<svg viewBox=\"0 0 480 220\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"220\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" text-anchor=\"middle\" fill=\"#4f46e5\" font-weight=\"bold\" font-size=\"13\" font-family=\"sans-serif\">Geoid Anomalies</text><rect x=\"40\" y=\"35\" width=\"280\" height=\"170\" fill=\"#e2e8f0\" stroke=\"#94a3b8\" stroke-width=\"1\" rx=\"4\"/><ellipse cx=\"120\" cy=\"90\" rx=\"45\" ry=\"30\" fill=\"#3b82f6\" opacity=\"0.5\"/><text x=\"120\" y=\"95\" text-anchor=\"middle\" fill=\"#fff\" font-size=\"9\" font-family=\"sans-serif\">+80 m</text><ellipse cx=\"220\" cy=\"150\" rx=\"55\" ry=\"25\" fill=\"#ef4444\" opacity=\"0.5\"/><text x=\"220\" y=\"155\" text-anchor=\"middle\" fill=\"#fff\" font-size=\"9\" font-family=\"sans-serif\">-60 m</text><ellipse cx=\"170\" cy=\"70\" rx=\"30\" ry=\"20\" fill=\"#3b82f6\" opacity=\"0.3\"/><text x=\"170\" y=\"75\" text-anchor=\"middle\" fill=\"#fff\" font-size=\"8\" font-family=\"sans-serif\">+40 m</text><text x=\"180\" y=\"218\" text-anchor=\"middle\" fill=\"#64748b\" font-size=\"9\" font-family=\"sans-serif\">Geoid height N(θ,λ) in metres</text><text x=\"370\" y=\"55\" fill=\"#3b82f6\" font-size=\"10\" font-family=\"sans-serif\">■ Positive = dense material</text><text x=\"370\" y=\"78\" fill=\"#ef4444\" font-size=\"10\" font-family=\"sans-serif\">■ Negative = less dense</text><text x=\"370\" y=\"105\" fill=\"#64748b\" font-size=\"10\" font-family=\"sans-serif\">N = Σ Jₙ(cos θ)</text><text x=\"370\" y=\"128\" fill=\"#64748b\" font-size=\"10\" font-family=\"sans-serif\">Spherical harmonics</text><text x=\"370\" y=\"155\" fill=\"#64748b\" font-size=\"10\" font-family=\"sans-serif\">GOCE/GRACE measure</text><text x=\"370\" y=\"200\" fill=\"#f59e0b\" font-size=\"10\" font-family=\"sans-serif\">→ Constrained by mantle flow</text></svg>"
+      }
     },
     {
       "id": 7,
@@ -214,7 +229,12 @@
       "solution": "The cross-correlation of a diffuse, equipartitioned noise field between two receivers converges to the Green's function (plus its time-reverse) between them, as shown by campillo and Paul (2003) and Lobkis & Weaver (2001).",
       "estSec": 30,
       "topicWeight": 0.1,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Seismic ray paths through Earth's curved layers following Snell's law",
+        "markup": "<svg viewBox=\"0 0 480 220\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"220\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" text-anchor=\"middle\" fill=\"#4f46e5\" font-weight=\"bold\" font-size=\"13\" font-family=\"sans-serif\">Seismic Ray Paths (Snell's Law)</text><circle cx=\"150\" cy=\"120\" r=\"85\" fill=\"#e2e8f0\" stroke=\"#94a3b8\" stroke-width=\"1\"/><circle cx=\"150\" cy=\"120\" r=\"60\" fill=\"#f59e0b\" opacity=\"0.2\" stroke=\"#f59e0b\" stroke-width=\"0.5\"/><circle cx=\"150\" cy=\"120\" r=\"30\" fill=\"#ef4444\" opacity=\"0.2\" stroke=\"#ef4444\" stroke-width=\"0.5\"/><path d=\"M60,40 Q90,80 120,100 Q145,115 150,120\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"1.5\"/><path d=\"M150,120 Q155,125 180,140 Q210,160 240,200\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"1.5\"/><path d=\"M80,45 Q110,85 140,105 Q160,118 170,125\" fill=\"none\" stroke=\"#10b981\" stroke-width=\"1.5\" stroke-dasharray=\"4,2\"/><path d=\"M170,125 Q180,132 200,150 Q230,175 260,210\" fill=\"none\" stroke=\"#10b981\" stroke-width=\"1.5\" stroke-dasharray=\"4,2\"/><text x=\"260\" y=\"60\" fill=\"#3b82f6\" font-size=\"10\" font-family=\"sans-serif\">P-wave ray</text><text x=\"260\" y=\"80\" fill=\"#10b981\" font-size=\"10\" font-family=\"sans-serif\">Refracted at boundaries</text><text x=\"260\" y=\"105\" fill=\"#64748b\" font-size=\"10\" font-family=\"sans-serif\">sin θ₁ / v₁ = sin θ₂ / v₂</text><text x=\"260\" y=\"130\" fill=\"#64748b\" font-size=\"10\" font-family=\"sans-serif\">Ray bending at velocity gradients</text><text x=\"260\" y=\"155\" fill=\"#f59e0b\" font-size=\"10\" font-family=\"sans-serif\">Critical refraction →</text><text x=\"260\" y=\"173\" fill=\"#f59e0b\" font-size=\"10\" font-family=\"sans-serif\">head waves along layers</text><text x=\"260\" y=\"198\" fill=\"#64748b\" font-size=\"9\" font-family=\"sans-serif\">Travel time: t = ∫ ds / v(s)</text></svg>"
+      }
     },
     {
       "id": 10,
@@ -256,7 +276,12 @@
       "solution": "The GAD hypothesis is supported by multiple lines of evidence: present-day field is dominantly axial dipolar, paleomagnetic inclinations on continents are consistent with GAD latitudes, and magnetic stripes on the seafloor are symmetric about ridges consistent with GAD reversals.",
       "estSec": 30,
       "topicWeight": 0.1,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Spherical harmonic expansion of the geomagnetic field showing dipole components",
+        "markup": "<svg viewBox=\"0 0 480 220\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"220\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" text-anchor=\"middle\" fill=\"#4f46e5\" font-weight=\"bold\" font-size=\"13\" font-family=\"sans-serif\">Spherical Harmonics — Geomagnetic Field</text><circle cx=\"120\" cy=\"120\" r=\"70\" fill=\"#e2e8f0\" stroke=\"#94a3b8\" stroke-width=\"1\"/><line x1=\"120\" y1=\"50\" x2=\"120\" y2=\"190\" stroke=\"#94a3b8\" stroke-width=\"0.5\" stroke-dasharray=\"3,3\"/><path d=\"M100,80 Q120,60 140,80\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"2\"/><path d=\"M100,160 Q120,180 140,160\" fill=\"none\" stroke=\"#ef4444\" stroke-width=\"2\"/><text x=\"155\" y=\"75\" fill=\"#3b82f6\" font-size=\"9\" font-family=\"sans-serif\">N pole</text><text x=\"155\" y=\"170\" fill=\"#ef4444\" font-size=\"9\" font-family=\"sans-serif\">S pole</text><text x=\"280\" y=\"55\" fill=\"#4f46e5\" font-size=\"10\" font-family=\"sans-serif\">B(r,θ,λ) = Σ gₙᵐ cos(mλ)</text><text x=\"280\" y=\"75\" fill=\"#4f46e5\" font-size=\"10\" font-family=\"sans-serif\">         + hₙᵐ sin(mλ)) Pₙᵐ(cos θ)</text><text x=\"280\" y=\"105\" fill=\"#3b82f6\" font-size=\"10\" font-family=\"sans-serif\">n=1: Dipole (80% of field)</text><text x=\"280\" y=\"128\" fill=\"#f59e0b\" font-size=\"10\" font-family=\"sans-serif\">n=2-13: Non-dipole features</text><text x=\"280\" y=\"155\" fill=\"#64748b\" font-size=\"10\" font-family=\"sans-serif\">g₁⁰ = -29,404 nT</text><text x=\"280\" y=\"178\" fill=\"#64748b\" font-size=\"10\" font-family=\"sans-serif\">IGRF: degree 13 → 195 coefficients</text><text x=\"280\" y=\"200\" fill=\"#f59e0b\" font-size=\"10\" font-family=\"sans-serif\">→ Secular variation: ~100 nT/yr</text></svg>"
+      }
     },
     {
       "id": 12,
@@ -277,7 +302,12 @@
       "solution": "Jerks are thought to originate at the CMB from hydromagnetic processes in the outer core, such as torsional oscillations or the passage of magnetic flux patches. Their rapid onset (~1 year) constrains the electromagnetic diffusion time through the lower mantle.",
       "estSec": 30,
       "topicWeight": 0.1,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Spherical harmonic expansion of the geomagnetic field showing dipole components",
+        "markup": "<svg viewBox=\"0 0 480 220\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"220\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" text-anchor=\"middle\" fill=\"#4f46e5\" font-weight=\"bold\" font-size=\"13\" font-family=\"sans-serif\">Spherical Harmonics — Geomagnetic Field</text><circle cx=\"120\" cy=\"120\" r=\"70\" fill=\"#e2e8f0\" stroke=\"#94a3b8\" stroke-width=\"1\"/><line x1=\"120\" y1=\"50\" x2=\"120\" y2=\"190\" stroke=\"#94a3b8\" stroke-width=\"0.5\" stroke-dasharray=\"3,3\"/><path d=\"M100,80 Q120,60 140,80\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"2\"/><path d=\"M100,160 Q120,180 140,160\" fill=\"none\" stroke=\"#ef4444\" stroke-width=\"2\"/><text x=\"155\" y=\"75\" fill=\"#3b82f6\" font-size=\"9\" font-family=\"sans-serif\">N pole</text><text x=\"155\" y=\"170\" fill=\"#ef4444\" font-size=\"9\" font-family=\"sans-serif\">S pole</text><text x=\"280\" y=\"55\" fill=\"#4f46e5\" font-size=\"10\" font-family=\"sans-serif\">B(r,θ,λ) = Σ gₙᵐ cos(mλ)</text><text x=\"280\" y=\"75\" fill=\"#4f46e5\" font-size=\"10\" font-family=\"sans-serif\">         + hₙᵐ sin(mλ)) Pₙᵐ(cos θ)</text><text x=\"280\" y=\"105\" fill=\"#3b82f6\" font-size=\"10\" font-family=\"sans-serif\">n=1: Dipole (80% of field)</text><text x=\"280\" y=\"128\" fill=\"#f59e0b\" font-size=\"10\" font-family=\"sans-serif\">n=2-13: Non-dipole features</text><text x=\"280\" y=\"155\" fill=\"#64748b\" font-size=\"10\" font-family=\"sans-serif\">g₁⁰ = -29,404 nT</text><text x=\"280\" y=\"178\" fill=\"#64748b\" font-size=\"10\" font-family=\"sans-serif\">IGRF: degree 13 → 195 coefficients</text><text x=\"280\" y=\"200\" fill=\"#f59e0b\" font-size=\"10\" font-family=\"sans-serif\">→ Secular variation: ~100 nT/yr</text></svg>"
+      }
     },
     {
       "id": 13,
@@ -298,7 +328,12 @@
       "solution": "Gravity gradients (second derivatives of the potential) enhance short-wavelength signals relative to gravity anomalies (first derivatives), providing better spatial resolution of crustal and upper-mantle density structures.",
       "estSec": 30,
       "topicWeight": 0.1,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Geoid anomaly map showing positive and negative undulations from mantle density variations",
+        "markup": "<svg viewBox=\"0 0 480 220\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"220\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" text-anchor=\"middle\" fill=\"#4f46e5\" font-weight=\"bold\" font-size=\"13\" font-family=\"sans-serif\">Geoid Anomalies</text><rect x=\"40\" y=\"35\" width=\"280\" height=\"170\" fill=\"#e2e8f0\" stroke=\"#94a3b8\" stroke-width=\"1\" rx=\"4\"/><ellipse cx=\"120\" cy=\"90\" rx=\"45\" ry=\"30\" fill=\"#3b82f6\" opacity=\"0.5\"/><text x=\"120\" y=\"95\" text-anchor=\"middle\" fill=\"#fff\" font-size=\"9\" font-family=\"sans-serif\">+80 m</text><ellipse cx=\"220\" cy=\"150\" rx=\"55\" ry=\"25\" fill=\"#ef4444\" opacity=\"0.5\"/><text x=\"220\" y=\"155\" text-anchor=\"middle\" fill=\"#fff\" font-size=\"9\" font-family=\"sans-serif\">-60 m</text><ellipse cx=\"170\" cy=\"70\" rx=\"30\" ry=\"20\" fill=\"#3b82f6\" opacity=\"0.3\"/><text x=\"170\" y=\"75\" text-anchor=\"middle\" fill=\"#fff\" font-size=\"8\" font-family=\"sans-serif\">+40 m</text><text x=\"180\" y=\"218\" text-anchor=\"middle\" fill=\"#64748b\" font-size=\"9\" font-family=\"sans-serif\">Geoid height N(θ,λ) in metres</text><text x=\"370\" y=\"55\" fill=\"#3b82f6\" font-size=\"10\" font-family=\"sans-serif\">■ Positive = dense material</text><text x=\"370\" y=\"78\" fill=\"#ef4444\" font-size=\"10\" font-family=\"sans-serif\">■ Negative = less dense</text><text x=\"370\" y=\"105\" fill=\"#64748b\" font-size=\"10\" font-family=\"sans-serif\">N = Σ Jₙ(cos θ)</text><text x=\"370\" y=\"128\" fill=\"#64748b\" font-size=\"10\" font-family=\"sans-serif\">Spherical harmonics</text><text x=\"370\" y=\"155\" fill=\"#64748b\" font-size=\"10\" font-family=\"sans-serif\">GOCE/GRACE measure</text><text x=\"370\" y=\"200\" fill=\"#f59e0b\" font-size=\"10\" font-family=\"sans-serif\">→ Constrained by mantle flow</text></svg>"
+      }
     },
     {
       "id": 14,
@@ -340,7 +375,12 @@
       "solution": "The Vzz component for a rectangular prism involves a triple arctangent expression (Blakely 1996), reflecting the integration of Newton's law over a 3D volume. Each arctangent accounts for one spatial dimension of the prism.",
       "estSec": 30,
       "topicWeight": 0.1,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Geoid anomaly map showing positive and negative undulations from mantle density variations",
+        "markup": "<svg viewBox=\"0 0 480 220\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"220\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" text-anchor=\"middle\" fill=\"#4f46e5\" font-weight=\"bold\" font-size=\"13\" font-family=\"sans-serif\">Geoid Anomalies</text><rect x=\"40\" y=\"35\" width=\"280\" height=\"170\" fill=\"#e2e8f0\" stroke=\"#94a3b8\" stroke-width=\"1\" rx=\"4\"/><ellipse cx=\"120\" cy=\"90\" rx=\"45\" ry=\"30\" fill=\"#3b82f6\" opacity=\"0.5\"/><text x=\"120\" y=\"95\" text-anchor=\"middle\" fill=\"#fff\" font-size=\"9\" font-family=\"sans-serif\">+80 m</text><ellipse cx=\"220\" cy=\"150\" rx=\"55\" ry=\"25\" fill=\"#ef4444\" opacity=\"0.5\"/><text x=\"220\" y=\"155\" text-anchor=\"middle\" fill=\"#fff\" font-size=\"9\" font-family=\"sans-serif\">-60 m</text><ellipse cx=\"170\" cy=\"70\" rx=\"30\" ry=\"20\" fill=\"#3b82f6\" opacity=\"0.3\"/><text x=\"170\" y=\"75\" text-anchor=\"middle\" fill=\"#fff\" font-size=\"8\" font-family=\"sans-serif\">+40 m</text><text x=\"180\" y=\"218\" text-anchor=\"middle\" fill=\"#64748b\" font-size=\"9\" font-family=\"sans-serif\">Geoid height N(θ,λ) in metres</text><text x=\"370\" y=\"55\" fill=\"#3b82f6\" font-size=\"10\" font-family=\"sans-serif\">■ Positive = dense material</text><text x=\"370\" y=\"78\" fill=\"#ef4444\" font-size=\"10\" font-family=\"sans-serif\">■ Negative = less dense</text><text x=\"370\" y=\"105\" fill=\"#64748b\" font-size=\"10\" font-family=\"sans-serif\">N = Σ Jₙ(cos θ)</text><text x=\"370\" y=\"128\" fill=\"#64748b\" font-size=\"10\" font-family=\"sans-serif\">Spherical harmonics</text><text x=\"370\" y=\"155\" fill=\"#64748b\" font-size=\"10\" font-family=\"sans-serif\">GOCE/GRACE measure</text><text x=\"370\" y=\"200\" fill=\"#f59e0b\" font-size=\"10\" font-family=\"sans-serif\">→ Constrained by mantle flow</text></svg>"
+      }
     },
     {
       "id": 16,
@@ -781,7 +821,12 @@
       "solution": "Muons lose energy mainly through ionization (EM interactions) at high energies, but at geological thicknesses (~100+ m), the dominant effect for imaging is absorption via nuclear (hadronic) interactions. The opacity is measured in meters water equivalent (m.w.e.).",
       "estSec": 30,
       "topicWeight": 0.1,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Well log composite track showing resistivity, gamma ray, sonic, and density logs",
+        "markup": "<svg viewBox=\"0 0 480 220\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"220\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" text-anchor=\"middle\" fill=\"#4f46e5\" font-weight=\"bold\" font-size=\"13\" font-family=\"sans-serif\">Well Log Composite Track</text><rect x=\"30\" y=\"30\" width=\"90\" height=\"175\" fill=\"#fff\" stroke=\"#94a3b8\" stroke-width=\"1\" rx=\"2\"/><rect x=\"125\" y=\"30\" width=\"90\" height=\"175\" fill=\"#fff\" stroke=\"#94a3b8\" stroke-width=\"1\" rx=\"2\"/><rect x=\"220\" y=\"30\" width=\"90\" height=\"175\" fill=\"#fff\" stroke=\"#94a3b8\" stroke-width=\"1\" rx=\"2\"/><rect x=\"315\" y=\"30\" width=\"90\" height=\"175\" fill=\"#fff\" stroke=\"#94a3b8\" stroke-width=\"1\" rx=\"2\"/><text x=\"75\" y=\"26\" text-anchor=\"middle\" fill=\"#64748b\" font-size=\"9\" font-family=\"sans-serif\">GR (API)</text><text x=\"170\" y=\"26\" text-anchor=\"middle\" fill=\"#64748b\" font-size=\"9\" font-family=\"sans-serif\">Resistivity</text><text x=\"265\" y=\"26\" text-anchor=\"middle\" fill=\"#64748b\" font-size=\"9\" font-family=\"sans-serif\">Sonic</text><text x=\"360\" y=\"26\" text-anchor=\"middle\" fill=\"#64748b\" font-size=\"9\" font-family=\"sans-serif\">Density</text><path d=\"M45,40 Q55,55 50,70 Q42,85 55,100 Q65,115 48,130 Q38,145 52,160 Q62,175 45,195\" fill=\"none\" stroke=\"#10b981\" stroke-width=\"1.5\"/><path d=\"M140,40 Q160,50 155,70 Q145,85 170,100 Q185,115 160,130 Q145,150 165,170 Q175,185 155,195\" fill=\"none\" stroke=\"#ef4444\" stroke-width=\"1.5\"/><path d=\"M235,40 Q250,55 245,75 Q238,90 255,105 Q265,120 250,135 Q240,150 255,170 Q262,185 248,195\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"1.5\"/><path d=\"M330,40 Q345,52 340,70 Q332,88 350,102 Q360,118 345,132 Q335,148 348,165 Q355,180 342,195\" fill=\"none\" stroke=\"#f59e0b\" stroke-width=\"1.5\"/><line x1=\"30\" y1=\"80\" x2=\"410\" y2=\"80\" stroke=\"#94a3b8\" stroke-width=\"0.5\" stroke-dasharray=\"3,3\"/><line x1=\"30\" y1=\"140\" x2=\"410\" y2=\"140\" stroke=\"#94a3b8\" stroke-width=\"0.5\" stroke-dasharray=\"3,3\"/><text x=\"420\" y=\"83\" fill=\"#64748b\" font-size=\"8\" font-family=\"sans-serif\">Formation A</text><text x=\"420\" y=\"143\" fill=\"#64748b\" font-size=\"8\" font-family=\"sans-serif\">Formation B</text><text x=\"240\" y=\"218\" text-anchor=\"middle\" fill=\"#64748b\" font-size=\"9\" font-family=\"sans-serif\">GR→shale | Resistivity→hydrocarbon | Sonic/Density→porosity</text></svg>"
+      }
     },
     {
       "id": 37,
