@@ -241,24 +241,14 @@ function Cell({ v, highlight, accent }: { v: string | boolean; highlight?: boole
   );
 }
 
-const GATE_SUBJECTS = [
-  { slug: "mining", label: "Mining (MN)" },
-  { slug: "civil", label: "Civil (CE)" },
-  { slug: "geology", label: "Geology (GG)" },
-  { slug: "environment", label: "Environment (ES)" },
-] as const;
-
 function PlanCard({ plan, defaultSubject = "" }: { plan: typeof PLANS[number]; defaultSubject?: string }) {
   const [loading, setLoading] = useState<"pro" | "premium" | null>(null);
-  const [subject, setSubject] = useState(defaultSubject);
   const router = useRouter();
   const devMode = process.env.NEXT_PUBLIC_DEV_TOOLS === "1";
 
   async function buy(tier: "pro" | "premium") {
     if (plan.id === "free") return router.push("/login");
-    if (!subject) return;
 
-    // Dev-mode shortcut: skip checkout, flip the plan via the dev API.
     if (devMode) {
       setLoading(tier);
       try {
@@ -280,7 +270,11 @@ function PlanCard({ plan, defaultSubject = "" }: { plan: typeof PLANS[number]; d
       return;
     }
 
-    router.push(`/pay/upi?plan=${tier}&exam=GATE&subject=${subject}`);
+    if (defaultSubject) {
+      router.push(`/pay/upi?plan=${tier}&exam=GATE&subject=${defaultSubject}`);
+    } else {
+      router.push(`/pay/upi?plan=${tier}&exam=GATE`);
+    }
   }
 
   const isFree = plan.id === "free";
@@ -306,39 +300,21 @@ function PlanCard({ plan, defaultSubject = "" }: { plan: typeof PLANS[number]; d
           Current plan
         </button>
       ) : (
-        <div className="mt-8 space-y-3">
-          <div>
-            <label htmlFor={`subject-${plan.id}`} className="block text-xs font-semibold text-muted mb-1">
-              Subject
-            </label>
-            <select
-              id={`subject-${plan.id}`}
-              value={subject}
-              onChange={(e) => setSubject(e.target.value)}
-              className="input w-full"
-            >
-              <option value="">Select a subject...</option>
-              {GATE_SUBJECTS.map((s) => (
-                <option key={s.slug} value={s.slug}>{s.label}</option>
-              ))}
-            </select>
-          </div>
-          <div className="grid grid-cols-2 gap-3">
-            <button
-              onClick={() => buy("pro")}
-              disabled={loading !== null || !subject}
-              className="btn btn-primary"
-            >
-              {loading === "pro" ? "…" : devMode ? "⚙ Pro" : "Get Pro — ₹499"}
-            </button>
-            <button
-              onClick={() => buy("premium")}
-              disabled={loading !== null || !subject}
-              className="btn btn-accent"
-            >
-              {loading === "premium" ? "…" : devMode ? "⚙ Premium" : "Get Premium — ₹899"}
-            </button>
-          </div>
+        <div className="mt-8 grid grid-cols-2 gap-3">
+          <button
+            onClick={() => buy("pro")}
+            disabled={loading !== null}
+            className="btn btn-primary"
+          >
+            {loading === "pro" ? "…" : devMode ? "⚙ Pro" : "Get Pro — ₹499"}
+          </button>
+          <button
+            onClick={() => buy("premium")}
+            disabled={loading !== null}
+            className="btn btn-accent"
+          >
+            {loading === "premium" ? "…" : devMode ? "⚙ Premium" : "Get Premium — ₹899"}
+          </button>
         </div>
       )}
       {!isFree && !devMode && (
