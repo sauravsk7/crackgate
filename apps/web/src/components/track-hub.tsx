@@ -14,12 +14,14 @@ export type TrackModule = {
  */
 export function TrackHub({
   discipline,
+  subject,
   tagline,
   live,
   modules,
   badge,
 }: {
   discipline: string;
+  subject?: string;
   tagline: string;
   live: boolean;
   modules: TrackModule[];
@@ -107,7 +109,7 @@ export function TrackHub({
               <p className="mt-2 text-white/80">Create a free account — no card required.</p>
               <div className="mt-6 flex flex-wrap justify-center gap-3">
                 <Link href="/login" className="btn btn-accent btn-lg">Get started free</Link>
-                <Link href="/pricing" className="btn bg-white/10 text-white border border-white/25 hover:bg-white/20 btn-lg">
+                <Link href={subject ? `/pricing?subject=${subject}` : "/pricing"} className="btn bg-white/10 text-white border border-white/25 hover:bg-white/20 btn-lg">
                   View plans
                 </Link>
               </div>
