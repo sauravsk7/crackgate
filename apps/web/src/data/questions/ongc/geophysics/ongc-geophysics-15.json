@@ -9,10 +9,22 @@
   "negativeMarking": false,
   "pattern": "ONGC CBT — 85 MCQ · 120 min · 1 mark each · no negative marking",
   "sections": [
-    {"name": "Domain Knowledge", "count": 40},
-    {"name": "Aptitude", "count": 25},
-    {"name": "General Awareness", "count": 10},
-    {"name": "English Language", "count": 10}
+    {
+      "name": "Domain Knowledge",
+      "count": 40
+    },
+    {
+      "name": "Aptitude",
+      "count": 25
+    },
+    {
+      "name": "General Awareness",
+      "count": 10
+    },
+    {
+      "name": "English Language",
+      "count": 10
+    }
   ],
   "questions": [
     {
@@ -24,7 +36,12 @@
       "marks": 1,
       "difficulty": "hard",
       "stem": "Azimuthal anisotropy in the upper mantle is primarily attributed to which mechanism?",
-      "options": ["Lattice-preferred orientation of olivine crystals", "Shape-preferred orientation of melt pockets", "Scattering from compositional heterogeneities", "Attenuation anisotropy due to partial melting"],
+      "options": [
+        "Lattice-preferred orientation of olivine crystals",
+        "Shape-preferred orientation of melt pockets",
+        "Scattering from compositional heterogeneities",
+        "Attenuation anisotropy due to partial melting"
+      ],
       "answer": 0,
       "solution": "Lattice-preferred orientation (LPO) of olivine due to dislocation creep in mantle flow is the dominant mechanism for seismic azimuthal anisotropy in the upper mantle.",
       "estSec": 30,
@@ -40,7 +57,12 @@
       "marks": 1,
       "difficulty": "hard",
       "stem": "Long-wavelength geoid anomalies (degree 2–3) over subduction zones are most sensitive to which mantle property?",
-      "options": ["Viscosity structure of the lower mantle", "Lateral temperature variations in the lithosphere", "Topography of the core–mantle boundary", "Thickness of the oceanic crust"],
+      "options": [
+        "Viscosity structure of the lower mantle",
+        "Lateral temperature variations in the lithosphere",
+        "Topography of the core–mantle boundary",
+        "Thickness of the oceanic crust"
+      ],
       "answer": 2,
       "solution": "Large-scale geoid highs over subduction zones reflect dynamic topography and viscosity contrasts, with degree-2 and degree-3 patterns being particularly sensitive to CMB topography and lower-mantle viscosity.",
       "estSec": 30,
@@ -56,7 +78,12 @@
       "marks": 1,
       "difficulty": "hard",
       "stem": "What is the approximate contribution of radiogenic heat production (U, Th, K) to Earth's total surface heat flow of ~47 TW?",
-      "options": ["~5 TW", "~10 TW", "~20 TW", "~35 TW"],
+      "options": [
+        "~5 TW",
+        "~10 TW",
+        "~20 TW",
+        "~35 TW"
+      ],
       "answer": 2,
       "solution": "Radiogenic heat production contributes approximately 20 TW of the total ~47 TW surface heat flow, with the remainder (~27 TW) coming from primordial secular cooling of the mantle and core.",
       "estSec": 30,
@@ -72,7 +99,12 @@
       "marks": 1,
       "difficulty": "hard",
       "stem": "The International Terrestrial Reference Frame (ITRF2020) realizes the origin using which combination of geodetic techniques?",
-      "options": ["GPS only", "VLBI + SLR", "GPS + GLONASS", "GPS + SLR + DORIS"],
+      "options": [
+        "GPS only",
+        "VLBI + SLR",
+        "GPS + GLONASS",
+        "GPS + SLR + DORIS"
+      ],
       "answer": 3,
       "solution": "ITRF2020 combines GPS (GNSS), SLR, VLBI, and DORIS observations. The origin is primarily determined by SLR (sensitive to the geocenter), while the scale is provided by SLR and VLBI.",
       "estSec": 30,
@@ -88,7 +120,12 @@
       "marks": 1,
       "difficulty": "hard",
       "stem": "Length-of-day (LOD) variations with periods of 1–10 years are primarily caused by which angular momentum exchange?",
-      "options": ["Atmosphere–solid Earth", "Core–mantle", "Ocean–solid Earth", "Moon–solid Earth"],
+      "options": [
+        "Atmosphere–solid Earth",
+        "Core–mantle",
+        "Ocean–solid Earth",
+        "Moon–solid Earth"
+      ],
       "answer": 1,
       "solution": "Interannual LOD variations (1–10 year periods) are dominated by core–mantle angular momentum exchange mediated by electromagnetic and topographic coupling at the CMB.",
       "estSec": 30,
@@ -104,7 +141,12 @@
       "marks": 1,
       "difficulty": "hard",
       "stem": "The Chandler wobble has a period of approximately 433 days and is primarily excited by which process?",
-      "options": ["Lunar tidal torques", "Atmospheric and oceanic mass redistribution", "Core–mantle coupling", "Post-glacial rebound"],
+      "options": [
+        "Lunar tidal torques",
+        "Atmospheric and oceanic mass redistribution",
+        "Core–mantle coupling",
+        "Post-glacial rebound"
+      ],
       "answer": 1,
       "solution": "The Chandler wobble is a free Eulerian nutation of the solid Earth, excited and maintained by stochastic angular momentum transfers from the atmosphere, oceans, and hydrosphere.",
       "estSec": 30,
@@ -120,7 +162,12 @@
       "marks": 1,
       "difficulty": "hard",
       "stem": "In full waveform inversion (FWI), the primary computational challenge for 3D elastic problems is:",
-      "options": ["Insufficient data coverage", "Cycle-skipping in the misfit functional", "Memory requirements for storing sensitivity kernels", "Inability to handle anisotropic media"],
+      "options": [
+        "Insufficient data coverage",
+        "Cycle-skipping in the misfit functional",
+        "Memory requirements for storing sensitivity kernels",
+        "Inability to handle anisotropic media"
+      ],
       "answer": 2,
       "solution": "3D elastic FWI requires storing the full wavefield at every time step for adjoint computation, leading to enormous memory requirements. This is mitigated by checkpointing or on-the-fly adjoint methods.",
       "estSec": 30,
@@ -136,7 +183,12 @@
       "marks": 1,
       "difficulty": "hard",
       "stem": "In adjoint tomography, the Fréchet derivative of the misfit functional with respect to model parameters is computed by:",
-      "options": ["Explicit matrix–vector multiplication", "Cross-correlating forward and adjoint wavefields", "Finite-difference model perturbations", "Ray-path integration using Born approximation"],
+      "options": [
+        "Explicit matrix–vector multiplication",
+        "Cross-correlating forward and adjoint wavefields",
+        "Finite-difference model perturbations",
+        "Ray-path integration using Born approximation"
+      ],
       "answer": 1,
       "solution": "The adjoint-state method computes sensitivity kernels by cross-correlating the forward wavefield from the source with an adjoint wavefield propagated from the receivers, avoiding explicit computation of partial derivatives.",
       "estSec": 30,
@@ -152,7 +204,12 @@
       "marks": 1,
       "difficulty": "hard",
       "stem": "Cross-correlation of ambient seismic noise between two stations converges to the Green's function when the noise field satisfies which condition?",
-      "options": ["White noise spectrum", "Spatially homogeneous and equipartitioned wavefield", "Monochromatic source at one station", "Locally generated microseisms only"],
+      "options": [
+        "White noise spectrum",
+        "Spatially homogeneous and equipartitioned wavefield",
+        "Monochromatic source at one station",
+        "Locally generated microseisms only"
+      ],
       "answer": 1,
       "solution": "The cross-correlation of a diffuse, equipartitioned noise field between two receivers converges to the Green's function (plus its time-reverse) between them, as shown by campillo and Paul (2003) and Lobkis & Weaver (2001).",
       "estSec": 30,
@@ -168,7 +225,12 @@
       "marks": 1,
       "difficulty": "hard",
       "stem": "During a geomagnetic polarity reversal, the dipole field intensity typically drops to what percentage of its normal value?",
-      "options": ["~50%", "~25%", "~10%", "~1%"],
+      "options": [
+        "~50%",
+        "~25%",
+        "~10%",
+        "~1%"
+      ],
       "answer": 2,
       "solution": "Paleointensity data show that during reversals the dipole moment falls to roughly 10% of its normal value, while non-dipole components may remain comparable, creating complex transitional field geometries.",
       "estSec": 30,
@@ -184,7 +246,12 @@
       "marks": 1,
       "difficulty": "hard",
       "stem": "The Geocentric Axial Dipole (GAD) hypothesis states that the time-averaged geomagnetic field is axial and dipolar. What is the primary evidence supporting this hypothesis?",
-      "options": ["Observations of the present-day field", "Paleomagnetic data from volcanic rocks on continents", "Magnetic anomaly stripes at mid-ocean ridges", "All of the above"],
+      "options": [
+        "Observations of the present-day field",
+        "Paleomagnetic data from volcanic rocks on continents",
+        "Magnetic anomaly stripes at mid-ocean ridges",
+        "All of the above"
+      ],
       "answer": 3,
       "solution": "The GAD hypothesis is supported by multiple lines of evidence: present-day field is dominantly axial dipolar, paleomagnetic inclinations on continents are consistent with GAD latitudes, and magnetic stripes on the seafloor are symmetric about ridges consistent with GAD reversals.",
       "estSec": 30,
@@ -200,7 +267,12 @@
       "marks": 1,
       "difficulty": "hard",
       "stem": "Geomagnetic jerks (sudden changes in the secular variation trend) originate primarily from which region?",
-      "options": ["Inner core boundary", "Core–mantle boundary (CMB)", "Upper mantle", "Ionosphere"],
+      "options": [
+        "Inner core boundary",
+        "Core–mantle boundary (CMB)",
+        "Upper mantle",
+        "Ionosphere"
+      ],
       "answer": 1,
       "solution": "Jerks are thought to originate at the CMB from hydromagnetic processes in the outer core, such as torsional oscillations or the passage of magnetic flux patches. Their rapid onset (~1 year) constrains the electromagnetic diffusion time through the lower mantle.",
       "estSec": 30,
@@ -216,7 +288,12 @@
       "marks": 1,
       "difficulty": "hard",
       "stem": "The GOCE satellite measured the gravity gradient tensor using a gradiometer. What was the primary advantage of measuring gravity gradients over gravity anomalies?",
-      "options": ["Higher sensitivity to deep mantle structures", "Better spatial resolution for short-wavelength features", "Lower sensitivity to atmospheric drag", "Independence of satellite orbit determination"],
+      "options": [
+        "Higher sensitivity to deep mantle structures",
+        "Better spatial resolution for short-wavelength features",
+        "Lower sensitivity to atmospheric drag",
+        "Independence of satellite orbit determination"
+      ],
       "answer": 1,
       "solution": "Gravity gradients (second derivatives of the potential) enhance short-wavelength signals relative to gravity anomalies (first derivatives), providing better spatial resolution of crustal and upper-mantle density structures.",
       "estSec": 30,
@@ -232,7 +309,12 @@
       "marks": 1,
       "difficulty": "hard",
       "stem": "The invariant eigenvalues of the gravity gradient tensor (Vxx, Vyy, Vzz) are used to classify source geometries. For a horizontal cylinder, which relationship holds?",
-      "options": ["Vzz > Vxx ≈ Vyy", "Vzz ≈ Vxx > Vyy", "Vxx ≈ Vyy ≈ Vzz", "Vzz < Vxx ≈ Vyy"],
+      "options": [
+        "Vzz > Vxx ≈ Vyy",
+        "Vzz ≈ Vxx > Vyy",
+        "Vxx ≈ Vyy ≈ Vzz",
+        "Vzz < Vxx ≈ Vyy"
+      ],
       "answer": 1,
       "solution": "For a 2D horizontal cylinder, the invariants satisfy Vzz ≈ Vxx > Vyy (where Vyy is along the strike). This distinguishes it from a sphere (Vzz > Vxx ≈ Vyy) and a vertical cylinder (Vzz > Vxx >> Vyy).",
       "estSec": 30,
@@ -248,7 +330,12 @@
       "marks": 1,
       "difficulty": "hard",
       "stem": "In 3D gravity forward modeling using rectangular prisms, the analytical gravity gradient component Vzz at an observation point requires evaluation of:",
-      "options": ["A single logarithmic term", "A triple arctangent expression", "Numerical integration only", "A simple inverse-square law"],
+      "options": [
+        "A single logarithmic term",
+        "A triple arctangent expression",
+        "Numerical integration only",
+        "A simple inverse-square law"
+      ],
       "answer": 1,
       "solution": "The Vzz component for a rectangular prism involves a triple arctangent expression (Blakely 1996), reflecting the integration of Newton's law over a 3D volume. Each arctangent accounts for one spatial dimension of the prism.",
       "estSec": 30,
@@ -264,7 +351,12 @@
       "marks": 1,
       "difficulty": "hard",
       "stem": "In micromagnetic modeling, the equilibrium magnetization state of a single-domain magnetite particle (~50 nm) is determined by minimizing which energy functional?",
-      "options": ["Exchange energy only", "Sum of exchange, magnetostatic, anisotropy, and Zeeman energies", "Magnetostatic energy only", "Anisotropy and Zeeman energies only"],
+      "options": [
+        "Exchange energy only",
+        "Sum of exchange, magnetostatic, anisotropy, and Zeeman energies",
+        "Magnetostatic energy only",
+        "Anisotropy and Zeeman energies only"
+      ],
       "answer": 1,
       "solution": "The total micromagnetic energy includes exchange (stiffness), magnetostatic (demagnetizing), magnetocrystalline anisotropy, and Zeeman (external field) terms. The equilibrium state is found by minimizing this functional.",
       "estSec": 30,
@@ -280,7 +372,12 @@
       "marks": 1,
       "difficulty": "hard",
       "stem": "The Verwey transition in magnetite (Fe₃O₄) at ~120 K involves a structural change. What is its primary effect on magnetic properties?",
-      "options": ["Sudden increase in saturation magnetization", "Change in magnetocrystalline anisotropy and electrical conductivity", "Complete demagnetization", "Shift in Curie temperature"],
+      "options": [
+        "Sudden increase in saturation magnetization",
+        "Change in magnetocrystalline anisotropy and electrical conductivity",
+        "Complete demagnetization",
+        "Shift in Curie temperature"
+      ],
       "answer": 1,
       "solution": "The Verwey transition involves a cubic-to-monoclinic structural change, causing a sharp change in magnetocrystalline anisotropy (from negative to very large positive), magnetostriction, and electrical conductivity.",
       "estSec": 30,
@@ -296,7 +393,12 @@
       "marks": 1,
       "difficulty": "hard",
       "stem": "In AMS analysis, the shape parameter T ranges from -1 to +1. A prolate (cigar-shaped) susceptibility ellipsoid has T in which range?",
-      "options": ["T > 0 (oblate)", "T ≈ 0 (neutral)", "T < 0 (prolate)", "T = 1 exactly"],
+      "options": [
+        "T > 0 (oblate)",
+        "T ≈ 0 (neutral)",
+        "T < 0 (prolate)",
+        "T = 1 exactly"
+      ],
       "answer": 2,
       "solution": "The shape parameter T = ln(F)/ln(L) where L = kmax/kint and F = kint/kmin. For prolate ellipsoids, kmax >> kint ≈ kmin, giving T < 0. For oblate, T > 0.",
       "estSec": 30,
@@ -312,7 +414,12 @@
       "marks": 1,
       "difficulty": "hard",
       "stem": "In magnetotelluric impedance tensor analysis, the strike direction determined from the tensor decomposition is accurate to within:",
-      "options": ["90 degrees", "180 degrees", "45 degrees", "360 degrees"],
+      "options": [
+        "90 degrees",
+        "180 degrees",
+        "45 degrees",
+        "360 degrees"
+      ],
       "answer": 0,
       "solution": "The impedance tensor decomposition (e.g., Groom–Bailey or Swift strike) can only resolve the strike direction modulo 90° due to the inherent 90° ambiguity in MT polarization analysis.",
       "estSec": 30,
@@ -328,7 +435,12 @@
       "marks": 1,
       "difficulty": "hard",
       "stem": "The MT phase tensor is advantageous over the impedance tensor because it:",
-      "options": ["Contains more information about conductivity", "Is unaffected by galvanic distortion", "Requires fewer data points", "Only applies to 1D structures"],
+      "options": [
+        "Contains more information about conductivity",
+        "Is unaffected by galvanic distortion",
+        "Requires fewer data points",
+        "Only applies to 1D structures"
+      ],
       "answer": 1,
       "solution": "The phase tensor (Caldwell et al., 2004) is immune to galvanic (static) distortion because it is derived from the ratio of impedance components, which cancels the real, frequency-independent distortion tensor.",
       "estSec": 30,
@@ -344,8 +456,13 @@
       "marks": 1,
       "difficulty": "hard",
       "stem": "Real induction vectors (tipper arrows) in MT point away from conductors when using the convention:",
-      "options": ["Parkinson convention (real part)", "Wiese convention (imaginary part)", "Bahr convention (phase difference)", "Launay convention (amplitude ratio)"],
-      "answer": 0,
+      "options": [
+        "Parkinson convention (real part)",
+        "Wiese convention (imaginary part)",
+        "Bahr convention (phase difference)",
+        "Launay convention (amplitude ratio)"
+      ],
+      "answer": 1,
       "solution": "In the Parkinson convention, real induction vectors point toward zones of higher conductivity (or alternatively, the real part of the tipper points toward the conductor in some formulations — conventions vary). The Wiese convention has arrows pointing away from conductors.",
       "estSec": 30,
       "topicWeight": 0.1,
@@ -360,7 +477,12 @@
       "marks": 1,
       "difficulty": "hard",
       "stem": "In marine controlled-source electromagnetic (CSEM) surveying for hydrocarbon exploration, the primary anomaly mechanism is:",
-      "options": ["Inductive coupling between the source and the reservoir", "Resistivity contrast between the hydrocarbon-bearing layer and surrounding sediments", "Magnetic contrast due to pyrite mineralization", "Seismic impedance contrast at the reservoir boundary"],
+      "options": [
+        "Inductive coupling between the source and the reservoir",
+        "Resistivity contrast between the hydrocarbon-bearing layer and surrounding sediments",
+        "Magnetic contrast due to pyrite mineralization",
+        "Seismic impedance contrast at the reservoir boundary"
+      ],
       "answer": 1,
       "solution": "Hydrocarbon reservoirs are typically 10–100 times more resistive than water-saturated sediments. The CSEM method detects this resistivity contrast; the horizontal electric field at the seafloor is enhanced by the presence of a thin resistive layer (the reservoir).",
       "estSec": 30,
@@ -376,7 +498,12 @@
       "marks": 1,
       "difficulty": "hard",
       "stem": "In 3D CSEM inversion, the most computationally intensive step is:",
-      "options": ["Data preprocessing and noise estimation", "Forward modeling of the electromagnetic fields", "Calculation of the misfit functional", "Displaying inversion results"],
+      "options": [
+        "Data preprocessing and noise estimation",
+        "Forward modeling of the electromagnetic fields",
+        "Calculation of the misfit functional",
+        "Displaying inversion results"
+      ],
       "answer": 1,
       "solution": "3D CSEM forward modeling requires solving Maxwell's equations on a large 3D grid, typically using finite-difference or finite-element methods. This is the dominant computational cost, especially when iterated during inversion.",
       "estSec": 30,
@@ -392,7 +519,12 @@
       "marks": 1,
       "difficulty": "hard",
       "stem": "Reverse time migration (RTM) images reflectors by correlating:",
-      "options": ["Downgoing source wavefield with upgoing receiver wavefield", "Upgoing source wavefield with downgoing receiver wavefield", "Two downgoing wavefields at different times", "The source wavefield with its time-reverse"],
+      "options": [
+        "Downgoing source wavefield with upgoing receiver wavefield",
+        "Upgoing source wavefield with downgoing receiver wavefield",
+        "Two downgoing wavefields at different times",
+        "The source wavefield with its time-reverse"
+      ],
       "answer": 0,
       "solution": "RTM cross-correlates the forward-propagated downgoing source wavefield with the backward-propagated upgoing receiver wavefield at each image point. This imaging condition handles arbitrarily complex velocity models including caustics and multipathing.",
       "estSec": 30,
@@ -408,7 +540,12 @@
       "marks": 1,
       "difficulty": "hard",
       "stem": "Least-squares migration (LSM) improves upon conventional migration by:",
-      "options": ["Using higher-frequency source wavelets", "Minimizing the L2-norm data residual through iterative model updates", "Applying a simple gain function to the image", "Increasing the migration aperture"],
+      "options": [
+        "Using higher-frequency source wavelets",
+        "Minimizing the L2-norm data residual through iterative model updates",
+        "Applying a simple gain function to the image",
+        "Increasing the migration aperture"
+      ],
       "answer": 1,
       "solution": "LSM casts migration as an inverse problem: it iteratively updates the reflectivity model to minimize the misfit between observed and synthetic data, compensating for illumination and amplitude effects that conventional migration ignores.",
       "estSec": 30,
@@ -424,7 +561,12 @@
       "marks": 1,
       "difficulty": "hard",
       "stem": "The cycle-skipping problem in waveform inversion arises when:",
-      "options": ["The frequency is too high for the model", "Phase differences between observed and synthetic waveforms exceed half a cycle", "The source wavelet is not accurately known", "The receiver spacing is too coarse"],
+      "options": [
+        "The frequency is too high for the model",
+        "Phase differences between observed and synthetic waveforms exceed half a cycle",
+        "The source wavelet is not accurately known",
+        "The receiver spacing is too coarse"
+      ],
       "answer": 1,
       "solution": "Cycle-skipping occurs when the initial model is sufficiently wrong that the phase difference between observed and synthetic traces exceeds π. This causes the L2 misfit to converge to a local minimum instead of the global solution.",
       "estSec": 30,
@@ -440,7 +582,12 @@
       "marks": 1,
       "difficulty": "hard",
       "stem": "In reservoir geomechanics, the poroelastic effective stress law states that the effective stress σ' is related to the total stress σ and pore pressure P by:",
-      "options": ["σ' = σ − P", "σ' = σ − αP (where α is Biot's coefficient)", "σ' = σ + αP", "σ' = σ(1 − P/Pc)"],
+      "options": [
+        "σ' = σ − P",
+        "σ' = σ − αP (where α is Biot's coefficient)",
+        "σ' = σ + αP",
+        "σ' = σ(1 − P/Pc)"
+      ],
       "answer": 1,
       "solution": "Biot's effective stress principle: σ' = σ − αP, where α (0 < α ≤ 1) is the Biot coefficient. α = 1 for perfectly compressible grains, but for most reservoir rocks α ranges from 0.5 to 0.95, depending on grain compressibility.",
       "estSec": 30,
@@ -456,7 +603,12 @@
       "marks": 1,
       "difficulty": "hard",
       "stem": "Time-lapse (4D) AVO analysis is most sensitive to which reservoir change during production?",
-      "options": ["Lateral facies changes", "Pore pressure and fluid saturation variations", "Changes in reservoir thickness", " variations in overburden velocity"],
+      "options": [
+        "Lateral facies changes",
+        "Pore pressure and fluid saturation variations",
+        "Changes in reservoir thickness",
+        " variations in overburden velocity"
+      ],
       "answer": 1,
       "solution": "4D AVO is sensitive to changes in both pore pressure (affecting frame stiffness and velocities) and fluid saturation (affecting density and bulk modulus). Separating these two effects requires AVO analysis beyond simple impedance changes.",
       "estSec": 30,
@@ -472,7 +624,12 @@
       "marks": 1,
       "difficulty": "hard",
       "stem": "The biggest challenge in 4D seismic monitoring of offshore reservoirs is:",
-      "options": ["Seismic attenuation in the overburden", "Repeatability of acquisition geometry between surveys", "Lack of sufficient source energy", "Water depth exceeding cable length"],
+      "options": [
+        "Seismic attenuation in the overburden",
+        "Repeatability of acquisition geometry between surveys",
+        "Lack of sufficient source energy",
+        "Water depth exceeding cable length"
+      ],
       "answer": 1,
       "solution": "Non-repeatability of source and receiver positions between vintages introduces 4D noise. The normalized root-mean-square (NRMS) metric quantifies this; achieving NRMS < 10% requires careful survey design and processing.",
       "estSec": 30,
@@ -488,7 +645,12 @@
       "marks": 1,
       "difficulty": "hard",
       "stem": "In sparse inversion (compressed sensing), the recovery of a sparse signal from fewer measurements than required by Nyquist is guaranteed when:",
-      "options": ["The signal is bandlimited", "The measurement matrix satisfies the Restricted Isometry Property (RIP)", "The signal has zero mean", "The noise level is below 1%"],
+      "options": [
+        "The signal is bandlimited",
+        "The measurement matrix satisfies the Restricted Isometry Property (RIP)",
+        "The signal has zero mean",
+        "The noise level is below 1%"
+      ],
       "answer": 1,
       "solution": "The Restricted Isometry Property (RIP) ensures that the measurement matrix approximately preserves distances between sparse vectors, guaranteeing unique and stable recovery via ℓ1-minimization when the number of measurements M ≥ C·K·log(N/K).",
       "estSec": 30,
@@ -504,7 +666,12 @@
       "marks": 1,
       "difficulty": "hard",
       "stem": "In dictionary learning for seismic data, the K-SVD algorithm alternates between which two steps?",
-      "options": ["Forward modeling and inversion", "Sparse coding and dictionary update", "Filtering and deconvolution", "Wavelet transform and thresholding"],
+      "options": [
+        "Forward modeling and inversion",
+        "Sparse coding and dictionary update",
+        "Filtering and deconvolution",
+        "Wavelet transform and thresholding"
+      ],
       "answer": 1,
       "solution": "K-SVD alternates: (1) sparse coding — representing each data vector as a sparse combination of current dictionary atoms, and (2) dictionary update — optimizing each atom and its coefficients using SVD to minimize reconstruction error.",
       "estSec": 30,
@@ -520,7 +687,12 @@
       "marks": 1,
       "difficulty": "hard",
       "stem": "A U-Net architecture for seismic denoising achieves superior performance primarily because:",
-      "options": ["It uses deeper networks than alternatives", "Skip connections preserve spatial information while encoding semantic features", "It requires no training data", "It only uses convolutional layers"],
+      "options": [
+        "It uses deeper networks than alternatives",
+        "Skip connections preserve spatial information while encoding semantic features",
+        "It requires no training data",
+        "It only uses convolutional layers"
+      ],
       "answer": 1,
       "solution": "U-Net's encoder-decoder structure with skip connections allows the network to combine high-resolution spatial details (from skip paths) with abstract semantic information (from bottleneck), enabling precise noise removal while preserving signal amplitudes.",
       "estSec": 30,
@@ -536,7 +708,12 @@
       "marks": 1,
       "difficulty": "hard",
       "stem": "In multilateral wells, the primary challenge for formation evaluation is:",
-      "options": ["Higher drilling costs", "Acquiring representative log data in each lateral branch", "Lack of suitable drill bits", "Excessive mud weight requirements"],
+      "options": [
+        "Higher drilling costs",
+        "Acquiring representative log data in each lateral branch",
+        "Lack of suitable drill bits",
+        "Excessive mud weight requirements"
+      ],
       "answer": 1,
       "solution": "Conventional logging tools cannot easily access all lateral branches. Solutions include logging while drilling (LWD) in each branch, borehole imaging at junctions, and specialized tools for selective logging of individual laterals.",
       "estSec": 30,
@@ -552,7 +729,12 @@
       "marks": 1,
       "difficulty": "hard",
       "stem": "Through-casing resistivity (TCR) logging measures formation resistivity by detecting:",
-      "options": ["Electromagnetic wave attenuation through casing", "Very small currents (nanoamps) leaking from the casing into the formation", "Natural gamma-ray radiation from the formation", "Acoustic reflections from the casing–cement interface"],
+      "options": [
+        "Electromagnetic wave attenuation through casing",
+        "Very small currents (nanoamps) leaking from the casing into the formation",
+        "Natural gamma-ray radiation from the formation",
+        "Acoustic reflections from the casing–cement interface"
+      ],
       "answer": 1,
       "solution": "TCR tools inject a known current into the casing and measure the tiny currents (nA range) that leak through the casing into the formation. The ratio of measured to injected current, combined with casing properties, yields the formation resistivity.",
       "estSec": 30,
@@ -568,7 +750,12 @@
       "marks": 1,
       "difficulty": "hard",
       "stem": "The Archie cementation exponent (m) in the water saturation equation depends primarily on:",
-      "options": ["Clay content", "Pore geometry and tortuosity of the interconnected pore space", "Formation temperature", "Drilling mud properties"],
+      "options": [
+        "Clay content",
+        "Pore geometry and tortuosity of the interconnected pore space",
+        "Formation temperature",
+        "Drilling mud properties"
+      ],
       "answer": 1,
       "solution": "The cementation exponent m (typically 1.8–2.2) reflects the tortuosity and connectivity of the pore network. In vuggy carbonates, m can exceed 2.5, while in fractured formations it can be less than 1.5.",
       "estSec": 30,
@@ -584,7 +771,12 @@
       "marks": 1,
       "difficulty": "hard",
       "stem": "Cosmic ray muon tomography uses the attenuation of atmospheric muons to image density variations. Muon attenuation is primarily caused by:",
-      "options": ["Electromagnetic interactions with orbital electrons", "Nuclear interactions (hadronic cascades) in matter", "Gravitational deflection by dense bodies", "Thermal diffusion in the atmosphere"],
+      "options": [
+        "Electromagnetic interactions with orbital electrons",
+        "Nuclear interactions (hadronic cascades) in matter",
+        "Gravitational deflection by dense bodies",
+        "Thermal diffusion in the atmosphere"
+      ],
       "answer": 1,
       "solution": "Muons lose energy mainly through ionization (EM interactions) at high energies, but at geological thicknesses (~100+ m), the dominant effect for imaging is absorption via nuclear (hadronic) interactions. The opacity is measured in meters water equivalent (m.w.e.).",
       "estSec": 30,
@@ -600,7 +792,12 @@
       "marks": 1,
       "difficulty": "hard",
       "stem": "In positron annihilation spectroscopy (PAS) applied to geological materials, the positron lifetime is sensitive to:",
-      "options": ["Magnetic field strength", "Electron density and defect structure of the material", "Temperature gradients", "Radioactive decay rates"],
+      "options": [
+        "Magnetic field strength",
+        "Electron density and defect structure of the material",
+        "Temperature gradients",
+        "Radioactive decay rates"
+      ],
       "answer": 1,
       "solution": "Positrons annihilate with electrons; the lifetime is inversely proportional to electron density. Voids, vacancies, and dislocations trap positrons, increasing their lifetime. This makes PAS sensitive to nanoscale defect structure in minerals.",
       "estSec": 30,
@@ -616,7 +813,12 @@
       "marks": 1,
       "difficulty": "hard",
       "stem": "In hierarchical Bayesian inversion, the noise variance (σ²) is treated as:",
-      "options": ["A fixed known quantity", "A parameter to be estimated along with the model", "Always equal to the data misfit", "Irregular if regularization is applied"],
+      "options": [
+        "A fixed known quantity",
+        "A parameter to be estimated along with the model",
+        "Always equal to the data misfit",
+        "Irregular if regularization is applied"
+      ],
       "answer": 1,
       "solution": "Hierarchical Bayesian methods treat σ² (and sometimes regularization parameters) as unknown hyperparameters to be estimated from the data using empirical Bayes or full hierarchical priors, avoiding subjective specification of noise levels.",
       "estSec": 30,
@@ -632,7 +834,12 @@
       "marks": 1,
       "difficulty": "hard",
       "stem": "Trans-dimensional Markov Chain Monte Carlo (MCMC) methods allow the number of model parameters (e.g., layers) to vary during sampling because:",
-      "options": ["They are computationally faster than fixed-dimension MCMC", "They provide a natural mechanism for model selection via the Reversible Jump algorithm", "They require no prior information", "They always converge to the global minimum"],
+      "options": [
+        "They are computationally faster than fixed-dimension MCMC",
+        "They provide a natural mechanism for model selection via the Reversible Jump algorithm",
+        "They require no prior information",
+        "They always converge to the global minimum"
+      ],
       "answer": 1,
       "solution": "Trans-dimensional MCMC uses the Reversible Jump algorithm (Green 1995) to jump between parameter spaces of different dimensions, automatically penalizing over-parameterized models through the posterior probability, thus performing Bayesian model selection.",
       "estSec": 30,
@@ -648,7 +855,12 @@
       "marks": 1,
       "difficulty": "hard",
       "stem": "Bayesian model averaging (BMA) accounts for model uncertainty by:",
-      "options": ["Selecting the single best-fitting model", "Weighting predictions from multiple models by their posterior probabilities", "Averaging all models equally", "Using only the maximum-likelihood model"],
+      "options": [
+        "Selecting the single best-fitting model",
+        "Weighting predictions from multiple models by their posterior probabilities",
+        "Averaging all models equally",
+        "Using only the maximum-likelihood model"
+      ],
       "answer": 1,
       "solution": "BMA computes a weighted average of predictions from all candidate models, where each model's weight is its posterior probability P(Mᵢ|data). This properly propagates structural uncertainty into predictions, rather than conditioning on a single model.",
       "estSec": 30,
@@ -664,7 +876,12 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "If A:B = 3:5 and B:C = 4:7, then A:B:C = ?",
-      "options": ["12:20:35", "3:4:7", "9:15:35", "15:20:35"],
+      "options": [
+        "12:20:35",
+        "3:4:7",
+        "9:15:35",
+        "15:20:35"
+      ],
       "answer": 0,
       "solution": "A:B = 3:5 and B:C = 4:7. Make B common: A:B = 12:20, B:C = 20:35. So A:B:C = 12:20:35.",
       "estSec": 30,
@@ -680,7 +897,12 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "A student scores 60% in Math and 75% in Science. If the total marks are 150 for each subject, the student's aggregate marks are:",
-      "options": ["175", "202.5", "202", "210"],
+      "options": [
+        "175",
+        "202.5",
+        "202",
+        "210"
+      ],
       "answer": 1,
       "solution": "Math marks = 60% of 150 = 90. Science marks = 75% of 150 = 112.5. Total = 90 + 112.5 = 202.5.",
       "estSec": 30,
@@ -696,7 +918,12 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "A shopkeeper marks a product 40% above cost price and offers a 20% discount. The profit percentage is:",
-      "options": ["10%", "12%", "15%", "20%"],
+      "options": [
+        "10%",
+        "12%",
+        "15%",
+        "20%"
+      ],
       "answer": 1,
       "solution": "Let CP = 100. MP = 140. SP = 140 × 0.8 = 112. Profit = 12%, so profit percentage = 12%.",
       "estSec": 30,
@@ -712,7 +939,12 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "A can do a work in 12 days, B in 15 days. They work together for 4 days, then A leaves. How many days will B take to finish the remaining work?",
-      "options": ["4 days", "5 days", "6 days", "7 days"],
+      "options": [
+        "4 days",
+        "5 days",
+        "6 days",
+        "7 days"
+      ],
       "answer": 1,
       "solution": "A's rate = 1/12, B's rate = 1/15. Together = 1/12 + 1/15 = 9/60 = 3/20 per day. In 4 days, they complete 4 × 3/20 = 12/20 = 3/5. Remaining = 2/5. B takes (2/5) / (1/15) = 6 days.",
       "estSec": 30,
@@ -728,7 +960,12 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "The difference between compound interest and simple interest on ₹10,000 for 2 years at 10% per annum is:",
-      "options": ["₹100", "₹200", "₹1,000", "₹10,000"],
+      "options": [
+        "₹100",
+        "₹200",
+        "₹1,000",
+        "₹10,000"
+      ],
       "answer": 0,
       "solution": "SI = 10000 × 10% × 2 = 2000. CI = 10000[(1.1)² − 1] = 10000[1.21 − 1] = 2100. Difference = 2100 − 2000 = ₹100.",
       "estSec": 30,
@@ -744,7 +981,12 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "A train 200 m long passes a pole in 20 seconds. How long will it take to cross a platform 300 m long?",
-      "options": ["25 seconds", "30 seconds", "35 seconds", "40 seconds"],
+      "options": [
+        "25 seconds",
+        "30 seconds",
+        "35 seconds",
+        "40 seconds"
+      ],
       "answer": 2,
       "solution": "Speed = 200/20 = 10 m/s. Total distance = 200 + 300 = 500 m. Time = 500/10 = 50 seconds.",
       "estSec": 30,
@@ -760,7 +1002,12 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "The average of 5 numbers is 42. If one number is excluded, the average becomes 35. The excluded number is:",
-      "options": ["70", "77", "84", "91"],
+      "options": [
+        "70",
+        "77",
+        "84",
+        "91"
+      ],
       "answer": 1,
       "solution": "Total of 5 numbers = 5 × 42 = 210. Total of 4 numbers = 4 × 35 = 140. Excluded number = 210 − 140 = 70.",
       "estSec": 30,
@@ -776,7 +1023,12 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "A boat goes 24 km upstream in 6 hours and 24 km downstream in 3 hours. The speed of the boat in still water is:",
-      "options": ["6 km/h", "8 km/h", "10 km/h", "12 km/h"],
+      "options": [
+        "6 km/h",
+        "8 km/h",
+        "10 km/h",
+        "12 km/h"
+      ],
       "answer": 0,
       "solution": "Upstream speed = 24/6 = 4 km/h. Downstream speed = 24/3 = 8 km/h. Speed in still water = (4 + 8)/2 = 6 km/h.",
       "estSec": 30,
@@ -792,7 +1044,12 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "Two dice are thrown simultaneously. The probability that the sum is a prime number is:",
-      "options": ["5/36", "7/36", "15/36", "1/6"],
+      "options": [
+        "5/36",
+        "7/36",
+        "15/36",
+        "1/6"
+      ],
       "answer": 0,
       "solution": "Prime sums possible: 2, 3, 5, 7, 11. Count: 2(1), 3(2), 5(4), 6(5), 7(6), 8(5), 9(4), 10(3), 11(2), 12(1). Prime: 1+2+4+6+2 = 15. Probability = 15/36 = 5/12.",
       "estSec": 30,
@@ -808,7 +1065,12 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "Find the next number: 2, 6, 12, 20, 30, ?",
-      "options": ["40", "42", "44", "48"],
+      "options": [
+        "40",
+        "42",
+        "44",
+        "48"
+      ],
       "answer": 1,
       "solution": "Differences: 4, 6, 8, 10, 12. Next difference = 12. So next term = 30 + 12 = 42.",
       "estSec": 30,
@@ -824,7 +1086,12 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "In a certain code, 'GEOPHYSICS' is written as 'FDOGROHXBR'. How is 'SEISMOLOGY' written in that code?",
-      "options": ["RDRRNKMFHN", "RDHRNKMFHN", "RDRRNKMFFN", "RDRRNKMFNF"],
+      "options": [
+        "RDRRNKMFHN",
+        "RDHRNKMFHN",
+        "RDRRNKMFFN",
+        "RDRRNKMFNF"
+      ],
       "answer": 0,
       "solution": "The code shifts each letter by -1 in the alphabet. G→F, E→D, O→N... S→R, E→D, I→H... wait. Let me verify: G-1=F, E-1=D, O-1=N, P-1=O, H-1=G, Y-1=X, S-1=R, I-1=H, C-1=B, S-1=R. So GEOPHYSICS → FDOGROHXBR? No, that doesn't match exactly. The pattern is each letter shifted by -1.",
       "estSec": 30,
@@ -840,7 +1107,12 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "Statements: All scientists are researchers. Some researchers are teachers. Conclusions: I. Some scientists are teachers. II. Some teachers are scientists.",
-      "options": ["Only I follows", "Only II follows", "Both I and II follow", "Neither I nor II follows"],
+      "options": [
+        "Only I follows",
+        "Only II follows",
+        "Both I and II follow",
+        "Neither I nor II follows"
+      ],
       "answer": 3,
       "solution": "From 'All scientists are researchers' and 'Some researchers are teachers', we cannot conclude that any scientists are teachers or any teachers are scientists. The overlap between researchers and teachers may not include any scientists.",
       "estSec": 30,
@@ -856,7 +1128,12 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "A says to B: 'Your mother is the only daughter of my mother.' How is A related to B?",
-      "options": ["Mother", "Sister", "Grandmother", "Aunt"],
+      "options": [
+        "Mother",
+        "Sister",
+        "Grandmother",
+        "Aunt"
+      ],
       "answer": 0,
       "solution": "The only daughter of A's mother is A herself. So A is saying B's mother is A. Therefore, A is B's mother.",
       "estSec": 30,
@@ -872,7 +1149,12 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "Rahul starts from point A, walks 5 km North, turns right and walks 3 km, turns right again and walks 5 km. How far and in which direction is he from point A?",
-      "options": ["3 km East", "3 km West", "8 km East", "8 km North"],
+      "options": [
+        "3 km East",
+        "3 km West",
+        "8 km East",
+        "8 km North"
+      ],
       "answer": 0,
       "solution": "N 5 km → E 3 km → S 5 km. Net displacement: 3 km East of A.",
       "estSec": 30,
@@ -888,7 +1170,12 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "Six persons A, B, C, D, E, F sit in a row facing north. A sits at one end. D is to the immediate left of B. E sits between C and F. C does not sit next to A. B is not at the end. Who sits at the other end?",
-      "options": ["B", "C", "D", "F"],
+      "options": [
+        "B",
+        "C",
+        "D",
+        "F"
+      ],
       "answer": 1,
       "solution": "A at position 1. B not at end, so B is at position 2-5. D is left of B. E between C and F. C not next to A (position 2). So C is at position 5, F at position 6. E at position 4, D at position 3, B at position 2. So C is at the other end.",
       "estSec": 30,
@@ -904,7 +1191,12 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "If x + 1/x = 5, then x² + 1/x² = ?",
-      "options": ["23", "25", "27", "29"],
+      "options": [
+        "23",
+        "25",
+        "27",
+        "29"
+      ],
       "answer": 0,
       "solution": "Squaring: (x + 1/x)² = 25. x² + 2 + 1/x² = 25. x² + 1/x² = 23.",
       "estSec": 30,
@@ -920,7 +1212,12 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "The area of a triangle with sides 13 cm, 14 cm, and 15 cm is:",
-      "options": ["80 cm²", "84 cm²", "90 cm²", "96 cm²"],
+      "options": [
+        "80 cm²",
+        "84 cm²",
+        "90 cm²",
+        "96 cm²"
+      ],
       "answer": 1,
       "solution": "Using Heron's formula: s = (13+14+15)/2 = 21. Area = √[21(21-13)(21-14)(21-15)] = √[21×8×7×6] = √7056 = 84 cm².",
       "estSec": 30,
@@ -936,7 +1233,12 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "The value of sin²30° + cos²60° + tan²45° is:",
-      "options": ["1.5", "2", "2.5", "3"],
+      "options": [
+        "1.5",
+        "2",
+        "2.5",
+        "3"
+      ],
       "answer": 1,
       "solution": "sin²30° = (1/2)² = 1/4. cos²60° = (1/2)² = 1/4. tan²45° = 1² = 1. Sum = 1/4 + 1/4 + 1 = 1.5.",
       "estSec": 30,
@@ -952,7 +1254,12 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "The production of a company (in tonnes) for five years: 2018: 120, 2019: 150, 2020: 100, 2021: 180, 2022: 200. What is the percentage increase from 2020 to 2022?",
-      "options": ["50%", "80%", "100%", "120%"],
+      "options": [
+        "50%",
+        "80%",
+        "100%",
+        "120%"
+      ],
       "answer": 2,
       "solution": "Increase = 200 − 100 = 100. Percentage = (100/100) × 100 = 100%.",
       "estSec": 30,
@@ -968,7 +1275,12 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "In a pie chart showing expenditure: Food 30%, Rent 25%, Transport 20%, Others 25%. If total monthly income is ₹40,000, the expenditure on Food is:",
-      "options": ["₹8,000", "₹10,000", "₹12,000", "₹15,000"],
+      "options": [
+        "₹8,000",
+        "₹10,000",
+        "₹12,000",
+        "₹15,000"
+      ],
       "answer": 2,
       "solution": "Food expenditure = 30% of 40,000 = 0.30 × 40,000 = ₹12,000.",
       "estSec": 30,
@@ -984,7 +1296,12 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "Students in three classes: Class A = 40, Class B = 50, Class C = 60. Pass percentages: A = 75%, B = 80%, C = 70%. Total students who passed:",
-      "options": ["105", "110", "115", "120"],
+      "options": [
+        "105",
+        "110",
+        "115",
+        "120"
+      ],
       "answer": 2,
       "solution": "A passed = 40 × 0.75 = 30. B passed = 50 × 0.80 = 40. C passed = 60 × 0.70 = 42. Total = 30 + 40 + 42 = 112.",
       "estSec": 30,
@@ -1000,7 +1317,12 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "The number of ways to arrange the letters of the word 'GEOPHYSICS' is:",
-      "options": ["10!/2!", "10!/2!2!", "10!", "9!"],
+      "options": [
+        "10!/2!",
+        "10!/2!2!",
+        "10!",
+        "9!"
+      ],
       "answer": 0,
       "solution": "GEOPHYSICS has 10 letters with S repeated twice. Arrangements = 10!/2!.",
       "estSec": 30,
@@ -1016,7 +1338,12 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "If 1st January 2025 is a Wednesday, what day is 1st March 2025?",
-      "options": ["Friday", "Saturday", "Sunday", "Monday"],
+      "options": [
+        "Friday",
+        "Saturday",
+        "Sunday",
+        "Monday"
+      ],
       "answer": 1,
       "solution": "Jan has 31 days, Feb has 28 days in 2025. Days from 1 Jan to 1 Mar = 31 + 28 = 59 days. 59 mod 7 = 3. Wednesday + 3 = Saturday.",
       "estSec": 30,
@@ -1032,7 +1359,12 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "Find the odd one out: 2, 3, 5, 7, 11, 14, 17",
-      "options": ["2", "7", "14", "17"],
+      "options": [
+        "2",
+        "7",
+        "14",
+        "17"
+      ],
       "answer": 2,
       "solution": "All numbers except 14 are prime numbers. 14 = 2 × 7 is composite.",
       "estSec": 30,
@@ -1048,7 +1380,12 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "In what ratio must water be mixed with milk costing ₹30/litre to get a mixture worth ₹20/litre?",
-      "options": ["1:2", "1:3", "2:3", "3:2"],
+      "options": [
+        "1:2",
+        "1:3",
+        "2:3",
+        "3:2"
+      ],
       "answer": 0,
       "solution": "By alligation: Milk ₹30 — Mixture ₹20 — Water ₹0. Ratio = (20-0):(30-20) = 20:10 = 2:1. But wait, water to milk ratio = (30-20):(20-0) = 10:20 = 1:2.",
       "estSec": 30,
@@ -1064,7 +1401,12 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "The headquarters of the International Seismological Centre (ISC) is located in:",
-      "options": ["Geneva, Switzerland", "Thatcham, United Kingdom", "Vienna, Austria", "Paris, France"],
+      "options": [
+        "Geneva, Switzerland",
+        "Thatcham, United Kingdom",
+        "Vienna, Austria",
+        "Paris, France"
+      ],
       "answer": 1,
       "solution": "The ISC is based in Thatcham, Berkshire, United Kingdom. It maintains the global definitive earthquake catalogue.",
       "estSec": 25,
@@ -1080,7 +1422,12 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "ISRO's Aditya-L1 mission is positioned at which Lagrangian point?",
-      "options": ["L2", "L3", "L4", "L1"],
+      "options": [
+        "L2",
+        "L3",
+        "L4",
+        "L1"
+      ],
       "answer": 3,
       "solution": "Aditya-L1 is India's first dedicated solar observation mission, stationed at the Sun-Earth Lagrangian point L1, approximately 1.5 million km from Earth.",
       "estSec": 25,
@@ -1096,7 +1443,12 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "ONGC Videsh's largest overseas acquisition was the acquisition of which oil field?",
-      "options": ["Vankor field, Russia", "Tengiz field, Kazakhstan", "Dhabeji field, Pakistan", "Narimanam field, India"],
+      "options": [
+        "Vankor field, Russia",
+        "Tengiz field, Kazakhstan",
+        "Dhabeji field, Pakistan",
+        "Narimanam field, India"
+      ],
       "answer": 0,
       "solution": "ONGC Videsh acquired a 20% stake in the Vankor oil and gas field in East Siberia, Russia, from Rosneft, making it one of ONGC's largest overseas acquisitions.",
       "estSec": 25,
@@ -1112,7 +1464,12 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "Which organization regulates the upstream oil and gas sector in India?",
-      "options": ["RBI", "SEBI", "PNGRB", "Ministry of Mines"],
+      "options": [
+        "RBI",
+        "SEBI",
+        "PNGRB",
+        "Ministry of Mines"
+      ],
       "answer": 2,
       "solution": "The Petroleum and Natural Gas Regulatory Board (PNGRB) regulates the downstream petroleum sector, while the Ministry of Petroleum and Natural Gas oversees upstream policy through DGH (Directorate General of Hydrocarbons).",
       "estSec": 25,
@@ -1128,7 +1485,12 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "The Deep Ocean Mission (DOM) of India aims to explore resources in which ocean basin?",
-      "options": ["Atlantic Ocean", "Indian Ocean", "Pacific Ocean", "Arctic Ocean"],
+      "options": [
+        "Atlantic Ocean",
+        "Indian Ocean",
+        "Pacific Ocean",
+        "Arctic Ocean"
+      ],
       "answer": 1,
       "solution": "India's Deep Ocean Mission focuses on exploring mineral resources and biodiversity in the Indian Ocean, particularly the Central Indian Ocean Basin where India has a polymetallic nodule contract area.",
       "estSec": 25,
@@ -1144,7 +1506,12 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "Which Indian scientist received the prestigious Crafoord Prize for contributions to geosciences?",
-      "options": ["C.V. Raman", "M.S. Swaminathan", "D.D. Kosambi", "None of the above"],
+      "options": [
+        "C.V. Raman",
+        "M.S. Swaminathan",
+        "D.D. Kosambi",
+        "None of the above"
+      ],
       "answer": 3,
       "solution": "No Indian scientist has received the Crafoord Prize specifically for geosciences. The prize is awarded by the Royal Swedish Academy for biosciences, ecology, etc.",
       "estSec": 25,
@@ -1160,7 +1527,12 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "ONGC was incorporated in the year:",
-      "options": ["1954", "1956", "1960", "1965"],
+      "options": [
+        "1954",
+        "1956",
+        "1960",
+        "1965"
+      ],
       "answer": 1,
       "solution": "Oil and Natural Gas Corporation (ONGC) was incorporated on June 14, 1956, as a private limited company under the Indian Companies Act, 1913.",
       "estSec": 25,
@@ -1176,7 +1548,12 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "The Paris Agreement on climate change aims to limit global warming to well below which temperature above pre-industrial levels?",
-      "options": ["1.0°C", "1.5°C", "2.0°C", "2.5°C"],
+      "options": [
+        "1.0°C",
+        "1.5°C",
+        "2.0°C",
+        "2.5°C"
+      ],
       "answer": 2,
       "solution": "The Paris Agreement (2015) aims to limit global warming to well below 2°C above pre-industrial levels, with efforts to limit it to 1.5°C.",
       "estSec": 25,
@@ -1192,7 +1569,12 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "The Krishna-Godavari Basin is located off the coast of which Indian state?",
-      "options": ["Gujarat", "Maharashtra", "Andhra Pradesh", "Tamil Nadu"],
+      "options": [
+        "Gujarat",
+        "Maharashtra",
+        "Andhra Pradesh",
+        "Tamil Nadu"
+      ],
       "answer": 2,
       "solution": "The Krishna-Godavari (KG) Basin is a prolific hydrocarbon-bearing basin located on the east coast of India, primarily off Andhra Pradesh and extending into the Bay of Bengal.",
       "estSec": 25,
@@ -1208,7 +1590,12 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "Which supercomputing facility is used by the National Centre for Seismology for earthquake hazard assessment?",
-      "options": ["PARAM Yuva", "Prithvi", "AADHAAR", "None of the above"],
+      "options": [
+        "PARAM Yuva",
+        "Prithvi",
+        "AADHAAR",
+        "None of the above"
+      ],
       "answer": 3,
       "solution": "The National Centre for Seismology primarily uses dedicated seismic monitoring networks and standard computing infrastructure rather than supercomputers like PARAM Yuva.",
       "estSec": 25,
@@ -1224,7 +1611,12 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "Read the passage: 'The seismic survey revealed unexpected geological formations beneath the ocean floor, challenging previous assumptions about the region's tectonic history.' What can be inferred?",
-      "options": ["The survey confirmed existing theories", "The survey produced novel findings", "The survey was conducted on land", "The survey had no scientific value"],
+      "options": [
+        "The survey confirmed existing theories",
+        "The survey produced novel findings",
+        "The survey was conducted on land",
+        "The survey had no scientific value"
+      ],
       "answer": 1,
       "solution": "The word 'unexpected' and 'challenging previous assumptions' indicate that the survey produced novel, previously unknown findings.",
       "estSec": 25,
@@ -1240,7 +1632,12 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "Choose the correct sentence: 'The collection of seismic data ______ complete.'",
-      "options": ["are", "is", "were", "have been"],
+      "options": [
+        "are",
+        "is",
+        "were",
+        "have been"
+      ],
       "answer": 1,
       "solution": "The subject is 'collection' (singular), not 'data'. The prepositional phrase 'of seismic data' modifies 'collection'. So the singular verb 'is' is correct.",
       "estSec": 25,
@@ -1256,7 +1653,12 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "Choose the word closest in meaning to 'SUBTERRANEAN':",
-      "options": ["Underground", "Surface-level", "Aerial", "Maritime"],
+      "options": [
+        "Underground",
+        "Surface-level",
+        "Aerial",
+        "Maritime"
+      ],
       "answer": 0,
       "solution": "Subterranean means underground or beneath the surface of the earth. It is derived from Latin 'sub' (under) + 'terraneus' (of the earth).",
       "estSec": 25,
@@ -1272,7 +1674,12 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "Choose the correct preposition: 'The fault runs parallel ______ the coastline.'",
-      "options": ["with", "to", "along", "beside"],
+      "options": [
+        "with",
+        "to",
+        "along",
+        "beside"
+      ],
       "answer": 1,
       "solution": "The correct phrase is 'parallel to' something, not 'parallel with'. This is a standard English preposition usage.",
       "estSec": 25,
@@ -1288,7 +1695,12 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "A passage discusses how gravity gradiometry surveys help identify subsurface density variations, enabling mineral exploration and geological mapping. The main idea is:",
-      "options": ["Gravity gradiometry is expensive", "Gravity gradiometry aids subsurface exploration", "Gravity gradiometry replaces seismic surveys", "Gravity gradiometry is outdated technology"],
+      "options": [
+        "Gravity gradiometry is expensive",
+        "Gravity gradiometry aids subsurface exploration",
+        "Gravity gradiometry replaces seismic surveys",
+        "Gravity gradiometry is outdated technology"
+      ],
       "answer": 1,
       "solution": "The passage's central theme is that gravity gradiometry is a valuable tool for identifying subsurface density variations for exploration and mapping purposes.",
       "estSec": 25,
@@ -1304,7 +1716,12 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "Choose the word opposite in meaning to 'PRISTINE':",
-      "options": ["Immaculate", "Contaminated", "Unspoiled", "Pristine"],
+      "options": [
+        "Immaculate",
+        "Contaminated",
+        "Unspoiled",
+        "Pristine"
+      ],
       "answer": 1,
       "solution": "Pristine means pure, unspoiled, or original. Its antonym is 'contaminated' or 'polluted'.",
       "estSec": 25,
@@ -1320,7 +1737,12 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "Choose the correct article: 'The seismologist discovered ______ important anomaly in the data.'",
-      "options": ["a", "an", "the", "no article needed"],
+      "options": [
+        "a",
+        "an",
+        "the",
+        "no article needed"
+      ],
       "answer": 1,
       "solution": "Since 'important' begins with a vowel sound, the indefinite article 'an' is used before it.",
       "estSec": 25,
@@ -1336,7 +1758,12 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "Identify the error: 'Neither the geophysicist nor his colleagues was able to interpret the results.'",
-      "options": ["Neither", "nor", "was", "the results"],
+      "options": [
+        "Neither",
+        "nor",
+        "was",
+        "the results"
+      ],
       "answer": 2,
       "solution": "With 'neither...nor', the verb agrees with the nearer subject ('colleagues', plural). It should be 'were' instead of 'was'.",
       "estSec": 25,
@@ -1352,7 +1779,12 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "What does the idiom 'hit the nail on the head' mean?",
-      "options": ["To make a mistake", "To describe exactly what is right", "To hit something hard", "To start a project"],
+      "options": [
+        "To make a mistake",
+        "To describe exactly what is right",
+        "To hit something hard",
+        "To start a project"
+      ],
       "answer": 1,
       "solution": "The idiom 'hit the nail on the head' means to be exactly right about something, to identify the precise point of an issue.",
       "estSec": 25,
@@ -1368,7 +1800,12 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "Choose the correct tense: 'By the time the team reaches the site, the survey ______ for three days.'",
-      "options": ["will have been running", "is running", "has been running", "was running"],
+      "options": [
+        "will have been running",
+        "is running",
+        "has been running",
+        "was running"
+      ],
       "answer": 0,
       "solution": "The sentence describes a future action that will be in progress before another future action. The future perfect continuous tense 'will have been running' is correct.",
       "estSec": 25,

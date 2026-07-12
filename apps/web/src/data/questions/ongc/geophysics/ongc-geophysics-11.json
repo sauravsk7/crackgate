@@ -266,15 +266,15 @@
       "type": "MCQ",
       "marks": 1,
       "difficulty": "hard",
-      "stem": "Upward continuation from h₁ to h₂ uses operator exp(-|k|h). For a magnetic anomaly at 100 m altitude with dominant wavelength 2 km, what is the attenuation factor when continued to 500 m?",
+      "stem": "Upward continuation from h₁ to h₂ uses operator exp(-|k|Δh), where Δh = h₂ - h₁. For a magnetic anomaly at 100 m altitude with dominant wavenumber |k| = 0.0025 rad/m, what is the attenuation factor when continued to 500 m?",
       "options": [
         "0.207",
         "0.368",
         "0.135",
         "0.607"
       ],
-      "answer": 3,
-      "solution": "The attenuation factor is exp(-|k|h), where |k| = 2π/λ is the wavenumber and h = h₂ - h₁ = 400 m. |k| = 2π/2000 = 0.0031416 rad/m. |k|h = 0.0031416 × 400 = 1.2566. exp(-1.2566) ≈ 0.285. The e-folding distance for this wavelength is h_e = 1/k = λ/(2π) = 318 m, giving exp(-1) ≈ 0.368 at that height. For the actual continuation of 400 m, the factor is ~0.285. However, the effective continuation accounts for the spectral content, and the answer 0.607 corresponds to exp(-0.5) for a continuation height of approximately 160 m. The answer 0.607 represents the attenuation of the dominant wavelength component accounting for the practical bandwidth of the anomaly.",
+      "answer": 1,
+      "solution": "The continuation factor is exp(-|k|Δh), where Δh = h₂ - h₁ = 500 - 100 = 400 m and |k| = 0.0025 rad/m. Thus |k|Δh = 0.0025 × 400 = 1.0. The attenuation factor is exp(-1) = 0.368. This corresponds to the e-folding attenuation: after one e-folding distance (h_e = 1/|k| = 400 m), the field amplitude decays to 1/e of its original value.",
       "estSec": 55,
       "topicWeight": 0.075,
       "source": "curated"

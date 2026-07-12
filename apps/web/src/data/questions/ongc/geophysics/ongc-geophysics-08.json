@@ -819,7 +819,7 @@
         "3.2 × 10¹¹",
         "6.5 × 10¹¹"
       ],
-      "answer": 0,
+      "answer": 1,
       "solution": "First compute λ = ln(2)/t₁/₂ = 0.6931/(10 × 3.156 × 10⁷ s) = 2.196 × 10⁻⁹ s⁻¹. Then N = A/λ = 500/(2.196 × 10⁻⁹) = 2.277 × 10¹¹ ≈ 2.3 × 10¹¹ nuclei. Actually, recalculating: t₁/₂ = 10 yr = 3.156 × 10⁸ s. λ = 0.6931/3.156×10⁸ = 2.196×10⁻⁹ s⁻¹. N = 500/2.196×10⁻⁹ = 2.28×10¹¹. The answer is closest to option B (2.3×10¹¹).",
       "estSec": 35,
       "topicWeight": 0.14,

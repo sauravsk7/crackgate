@@ -85,7 +85,7 @@
         "\u03b8 \u2248 90\u00b0, because there is no physical limit to polar wander in a non-rigid Earth",
         "TPW is purely an apparent wander due to plate motion and does not represent true reorientation"
       ],
-      "answer": 1,
+      "answer": 0,
       "solution": "The restoring torque equals the applied torque when sin\u03b8 = \u0394I/(C\u2212A) = 2\u00d710\u00b3\u2074/2.6\u00d710\u00b3\u2075 \u2248 0.077, giving \u03b8 \u2248 4.4\u00b0. However, for realistic large-scale loads (supercontinent assembly, slab accumulation), observed TPW angles range 5\u00b0\u201315\u00b0 in the paleomagnetic record. The exact value depends on load geometry and Earth's elastic response.",
       "estSec": 45,
       "topicWeight": 0.08,
