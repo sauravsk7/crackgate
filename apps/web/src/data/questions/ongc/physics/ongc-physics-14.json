@@ -176,7 +176,12 @@
       "solution": "The displacement current J_d = epsilon*dE/dt becomes comparable to conduction current J_c = sigma*E when omega*epsilon > sigma, i.e., omega > sigma/epsilon. This defines the dielectric relaxation frequency. For good conductors sigma/epsilon ~ 10^17 rad/s (optical frequencies).",
       "estSec": 45,
       "topicWeight": 0.14,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "The four Maxwell equations governing EM fields",
+        "markup": "<svg viewBox=\"0 0 480 220\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"220\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"24\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#4f46e5\" font-weight=\"bold\">Maxwell's Equations · Free Space</text><text x=\"120\" y=\"70\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3b82f6\" text-anchor=\"middle\">∇·E = ρ/ε₀</text><text x=\"360\" y=\"70\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#ef4444\" text-anchor=\"middle\">∇·B = 0</text><text x=\"120\" y=\"140\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#22c55e\" text-anchor=\"middle\">∇×E = −∂B/∂t</text><text x=\"360\" y=\"140\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#f59e0b\" text-anchor=\"middle\">∇×B = μ₀ε₀ ∂E/∂t</text><line x1=\"60\" y1=\"100\" x2=\"420\" y2=\"100\" stroke=\"#e2e8f0\" stroke-width=\"1.5\"/><line x1=\"240\" y1=\"40\" x2=\"240\" y2=\"180\" stroke=\"#e2e8f0\" stroke-width=\"1.5\"/></svg>"
+      }
     },
     {
       "id": 7,

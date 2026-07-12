@@ -176,7 +176,12 @@
       "solution": "With z = kr², ż = 2krṙ. v² = ṙ² + ż² = ṙ²(1 + 4k²r²). L = T − V = ½m(1+4k²r²)ṙ² − mgkr². The factor (1+4k²r²) modifies the effective mass as the bead moves along the parabola.",
       "estSec": 55,
       "topicWeight": 0.14,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Generalized coordinate trajectory minimizing action",
+        "markup": "<svg viewBox=\"0 0 480 220\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"220\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"24\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#4f46e5\" font-weight=\"bold\">Generalized Coordinates · Lagrangian</text><line x1=\"60\" y1=\"180\" x2=\"60\" y2=\"40\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/><line x1=\"60\" y1=\"180\" x2=\"420\" y2=\"180\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/><text x=\"425\" y=\"184\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\">q</text><text x=\"50\" y=\"38\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\">L</text><path d=\"M80,160 Q160,60 240,140 Q320,180 400,80\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"2\"/><text x=\"240\" y=\"210\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#64748b\" text-anchor=\"middle\">L = T − V(q, q̇)</text></svg>"
+      }
     },
     {
       "id": 7,

@@ -9,10 +9,22 @@
   "negativeMarking": false,
   "pattern": "ONGC CBT — 85 MCQ · 120 min · 1 mark each · no negative marking",
   "sections": [
-    { "name": "Domain Knowledge", "count": 40 },
-    { "name": "Aptitude", "count": 25 },
-    { "name": "General Awareness", "count": 10 },
-    { "name": "English Language", "count": 10 }
+    {
+      "name": "Domain Knowledge",
+      "count": 40
+    },
+    {
+      "name": "Aptitude",
+      "count": 25
+    },
+    {
+      "name": "General Awareness",
+      "count": 10
+    },
+    {
+      "name": "English Language",
+      "count": 10
+    }
   ],
   "questions": [
     {
@@ -34,7 +46,12 @@
       "solution": "Since the boundary condition has the angular dependence P₁(cos θ) = cos θ (ℓ = 1), the solution regular at the origin is φ(r, θ) = A r cos θ. Applying BC at r = R: A R cos θ = V₀ cos θ, giving A = V₀/R. Thus φ = V₀(r/R) cos θ.",
       "estSec": 50,
       "topicWeight": 0.14,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Boundary conditions on a 1D domain",
+        "markup": "<svg viewBox=\"0 0 480 220\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"220\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"24\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#4f46e5\" font-weight=\"bold\">Boundary Value Problem</text><rect x=\"80\" y=\"50\" width=\"320\" height=\"120\" fill=\"#f0f9ff\" stroke=\"#3b82f6\" stroke-width=\"1.5\" rx=\"0\"/><text x=\"240\" y=\"80\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3b82f6\" text-anchor=\"middle\">∇²u = f(x)</text><text x=\"240\" y=\"110\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#64748b\" text-anchor=\"middle\">u(0) = α, u(L) = β</text><line x1=\"80\" y1=\"175\" x2=\"400\" y2=\"175\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"80\" y=\"190\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">0</text><text x=\"400\" y=\"190\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">L</text></svg>"
+      }
     },
     {
       "id": 2,
@@ -55,7 +72,12 @@
       "solution": "The completeness (resolution of identity) relation is ∫|x⟩⟨x| dx = I, where I is the identity operator on H. This allows any state to be expanded as |ψ⟩ = ∫|x⟩⟨x|ψ⟩ dx. Option A is the orthonormality relation, not completeness. Option D is the normalization condition.",
       "estSec": 40,
       "topicWeight": 0.14,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Expansion in orthonormal basis of Hilbert space",
+        "markup": "<svg viewBox=\"0 0 480 220\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"220\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"24\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#4f46e5\" font-weight=\"bold\">Hilbert Space · Orthonormal Basis</text><text x=\"240\" y=\"60\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">|ψ⟩ = Σₙ cₙ|n⟩</text><line x1=\"60\" y1=\"100\" x2=\"420\" y2=\"100\" stroke=\"#e2e8f0\" stroke-width=\"1.5\"/><text x=\"100\" y=\"130\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#3b82f6\" text-anchor=\"middle\">|1⟩</text><text x=\"180\" y=\"130\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#ef4444\" text-anchor=\"middle\">|2⟩</text><text x=\"260\" y=\"130\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#22c55e\" text-anchor=\"middle\">|3⟩</text><text x=\"340\" y=\"130\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#64748b\" text-anchor=\"middle\">...</text><text x=\"400\" y=\"130\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#f59e0b\" text-anchor=\"middle\">|n⟩</text><text x=\"240\" y=\"180\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#64748b\" text-anchor=\"middle\">⟨m|n⟩ = δₘₙ</text></svg>"
+      }
     },
     {
       "id": 3,
@@ -76,7 +98,12 @@
       "solution": "The angular momentum operators satisfy [Jᵢ, Jⱼ] = iℏεᵢⱼₖJₖ (with ℏ = 1 in natural units). In full form: [Jₓ, Jᵧ] = iℏJ_z, [Jᵧ, J_z] = iℏJₓ, [J_z, Jₓ] = iℏJᵧ. This is the defining relation of the su(2) Lie algebra.",
       "estSec": 45,
       "topicWeight": 0.14,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Closure property: product of group elements stays in G",
+        "markup": "<svg viewBox=\"0 0 480 220\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"220\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"24\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#4f46e5\" font-weight=\"bold\">Group Axioms · Closure Diagram</text><circle cx=\"150\" cy=\"110\" r=\"50\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"2\"/><circle cx=\"330\" cy=\"110\" r=\"50\" fill=\"#dcfce7\" stroke=\"#22c55e\" stroke-width=\"2\"/><text x=\"150\" y=\"114\" font-family=\"sans-serif\" font-size=\"14\" fill=\"#3b82f6\" text-anchor=\"middle\" font-weight=\"bold\">G</text><text x=\"330\" y=\"114\" font-family=\"sans-serif\" font-size=\"14\" fill=\"#22c55e\" text-anchor=\"middle\" font-weight=\"bold\">G</text><text x=\"120\" y=\"90\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#3b82f6\">a</text><text x=\"350\" y=\"90\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#22c55e\">b</text><text x=\"240\" y=\"50\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#f59e0b\" text-anchor=\"middle\" font-weight=\"bold\">a · b ∈ G</text></svg>"
+      }
     },
     {
       "id": 4,
@@ -97,7 +124,12 @@
       "solution": "The Neumann series φ = f + λKf + λ²K²f + ... converges when the operator norm ‖λK‖ < 1, which requires |λ| · sup|K(x,t)| · (b − a) < 1 where the integral is over [a, b]. This is the standard sufficient condition for convergence of the iterated solution.",
       "estSec": 40,
       "topicWeight": 0.14,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Fredholm equation of the second kind",
+        "markup": "<svg viewBox=\"0 0 480 220\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"220\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"24\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#4f46e5\" font-weight=\"bold\">Fredholm Integral Equation</text><text x=\"240\" y=\"70\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\">φ(x) = f(x) + λ ∫ K(x,t) φ(t) dt</text><line x1=\"60\" y1=\"110\" x2=\"420\" y2=\"110\" stroke=\"#e2e8f0\" stroke-width=\"1.5\"/><text x=\"240\" y=\"140\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#64748b\" text-anchor=\"middle\">K(x,t) = kernel function</text><text x=\"240\" y=\"165\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#64748b\" text-anchor=\"middle\">λ = eigenvalue parameter</text><text x=\"240\" y=\"190\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#64748b\" text-anchor=\"middle\">φ(x) = unknown solution</text></svg>"
+      }
     },
     {
       "id": 5,
@@ -118,7 +150,12 @@
       "solution": "Using integration by parts, erfc(x) = (2/√π)∫_x^∞ e^(−t²)dt ~ (e^(−x²))/(x√π) · [1 − 1/(2x²) + 1·3/(2x²)² − ...] for x → ∞. This is an asymptotic series — it diverges for any fixed x but gives excellent approximation for large x when truncated early.",
       "estSec": 55,
       "topicWeight": 0.14,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Stirling approximation converges to exact factorial",
+        "markup": "<svg viewBox=\"0 0 480 220\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"220\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"24\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#4f46e5\" font-weight=\"bold\">Asymptotic Series · Stirling's Approx</text><line x1=\"60\" y1=\"180\" x2=\"60\" y2=\"40\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/><line x1=\"60\" y1=\"180\" x2=\"420\" y2=\"180\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/><text x=\"425\" y=\"184\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\">n</text><text x=\"50\" y=\"38\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\">n!</text><path d=\"M80,170 Q150,140 220,100 Q290,60 360,40\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"2\"/><text x=\"370\" y=\"38\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#3b82f6\">exact</text><path d=\"M80,172 Q150,142 220,102 Q290,62 360,42\" fill=\"none\" stroke=\"#ef4444\" stroke-width=\"2\" stroke-dasharray=\"4\"/><text x=\"370\" y=\"52\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#ef4444\">Stirling</text></svg>"
+      }
     },
     {
       "id": 6,
@@ -223,7 +260,12 @@
       "solution": "The brachistochrone is a cycloid, the curve traced by a point on a rolling circle. This was solved by Johann Bernoulli in 1696. The parametric equations are x = a(θ − sin θ), y = a(1 − cos θ). It is also the tautochrone (same period regardless of amplitude).",
       "estSec": 30,
       "topicWeight": 0.14,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Brachistochrone: cycloid between two points",
+        "markup": "<svg viewBox=\"0 0 480 220\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"220\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"24\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#4f46e5\" font-weight=\"bold\">Brachistochrone Curve</text><circle cx=\"80\" cy=\"50\" r=\"5\" fill=\"#22c55e\" stroke=\"#22c55e\"/><circle cx=\"400\" cy=\"170\" r=\"5\" fill=\"#ef4444\" stroke=\"#ef4444\"/><text x=\"75\" y=\"42\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#22c55e\">A</text><text x=\"410\" y=\"175\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#ef4444\">B</text><path d=\"M80,50 Q120,60 180,120 Q240,170 320,170 Q370,170 400,170\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"2.5\"/><path d=\"M80,50 L400,170\" fill=\"none\" stroke=\"#94a3b8\" stroke-width=\"1.5\" stroke-dasharray=\"4\"/><text x=\"240\" y=\"210\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#64748b\">Cycloid = fastest descent curve</text></svg>"
+      }
     },
     {
       "id": 11,
@@ -873,7 +915,7 @@
       "answer": 1,
       "solution": "Let original price = 100. After 20% increase: 120. After 20% decrease: 120 × 0.8 = 96. Net change = 96 − 100 = −4, i.e. a 4% decrease. This is a classic result: successive percentage changes of +x% and −x% give a net loss of x²/100 percent.",
       "estSec": 20,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -894,7 +936,7 @@
       "answer": 0,
       "solution": "Let CP = 100. Marked price = 140. Selling price after 25% discount = 140 × 0.75 = 105. Profit = 105 − 100 = 5. Profit% = 5%.",
       "estSec": 20,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -915,7 +957,7 @@
       "answer": 0,
       "solution": "A's rate = 1/20 per day, B's rate = 1/30 per day. Together: 1/20 + 1/30 = 5/60 = 1/12 per day. Work done in 5 days = 5/12. Remaining = 1 − 5/12 = 7/12. Time for B alone = (7/12)/(1/30) = 7×30/12 = 210/12 = 17.5 days. Wait — that's option C. Let me recalculate: (7/12) × 30 = 210/12 = 17.5. Answer is C.",
       "estSec": 30,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -936,7 +978,7 @@
       "answer": 1,
       "solution": "A = P(1 + r/100)^n = 8000(1.1)² = 8000 × 1.21 = 9680. CI = 9680 − 8000 = Rs. 1680.",
       "estSec": 15,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -957,7 +999,7 @@
       "answer": 0,
       "solution": "A:B = 2:3 = 8:12. B:C = 4:5 = 12:15. So A:B:C = 8:12:15. Make B common in both ratios: multiply first by 4 and second by 3.",
       "estSec": 15,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -978,7 +1020,7 @@
       "answer": 1,
       "solution": "Speed of train = 150/15 = 10 m/s. To cross platform: total distance = 150 + 250 = 400 m. Time = 400/10 = 40 seconds.",
       "estSec": 20,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -999,7 +1041,7 @@
       "answer": 0,
       "solution": "Total outcomes = 36. Favorable outcomes for sum = 7: (1,6), (2,5), (3,4), (4,3), (5,2), (6,1) = 6 outcomes. Probability = 6/36 = 1/6.",
       "estSec": 15,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1020,7 +1062,7 @@
       "answer": 1,
       "solution": "Sum of 5 numbers = 5 × 42 = 210. Sum of 4 numbers = 4 × 38 = 152. Excluded number = 210 − 152 = 58.",
       "estSec": 15,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1041,7 +1083,7 @@
       "answer": 1,
       "solution": "A's rate = 1/12 per hour (filling). B's rate = −1/18 per hour (emptying). Net rate = 1/12 − 1/18 = (3−2)/36 = 1/36 per hour. Time to fill = 36 hours.",
       "estSec": 25,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1062,7 +1104,7 @@
       "answer": 2,
       "solution": "Let ages be 5x and 7x. After 6 years: (5x + 6)/(7x + 6) = 3/4. Cross-multiply: 4(5x + 6) = 3(7x + 6) → 20x + 24 = 21x + 18 → x = 6. A's age = 5 × 6 = 30... That doesn't match. Let me recheck: 20x + 24 = 21x + 18 → x = 6. A = 30. But option is 15. Let me use ratio 3:4 → wait: 20x + 24 = 21x + 18 → 24 − 18 = 21x − 20x → x = 6. A's present age = 5 × 6 = 30. Hmm, that's not in the options. Let me re-examine: maybe the ratio after 6 years is 4:5 instead. Actually let me re-examine: with x = 3, A = 15, B = 21. After 6 years: 21/27 = 7/9 ≠ 3/4. With x = 6: 36/48 = 3/4. ✓ But 30 isn't an option. The correct answer should be 30 years. Let me adjust the options or the problem. I'll change the ratio after 6 years to 4:5: (5x+6)/(7x+6) = 4/5 → 25x + 30 = 28x + 24 → 3x = 6 → x = 2. A = 10. That gives option A. Let me use ratio 7:9: (5x+6)/(7x+6) = 7/9 → 45x + 54 = 49x + 42 → 4x = 12 → x = 3. A = 15. That gives option C. I'll use 7:9.",
       "estSec": 30,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1083,7 +1125,7 @@
       "answer": 0,
       "solution": "Downstream speed = 20/2 = 10 km/h. Upstream speed = 20/5 = 4 km/h. Speed of stream = (downstream − upstream)/2 = (10 − 4)/2 = 3 km/h. Speed of boat in still water = (10 + 4)/2 = 7 km/h.",
       "estSec": 25,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1104,7 +1146,7 @@
       "answer": 2,
       "solution": "The pattern of unit digits of powers of 7: 7¹=7, 7²=9, 7³=3, 7⁴=1, then repeats with period 4. 2025 mod 4 = 1. So unit digit of 7²⁰²⁵ = 7¹ = 7.",
       "estSec": 15,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1125,7 +1167,7 @@
       "answer": 0,
       "solution": "Using alligation: Milk (Rs. 32) and Water (Rs. 0). Mean = Rs. 20. Ratio of water:milk = (32−20):(20−0) = 12:20 = 3:5. Water = (3/5) × 40 = 24 litres.",
       "estSec": 25,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1146,7 +1188,7 @@
       "answer": 1,
       "solution": "V = πr²h → 1540 = (22/7)r²(14) → 1540 = 44r² → r² = 35 → r = √35. CSA = 2πrh = 2(22/7)(√35)(14) = 88√35. √35 ≈ 5.916. CSA ≈ 88 × 5.916 ≈ 520.6. Hmm, that doesn't match. Let me recalculate: V = πr²h = (22/7) × r² × 14 = 44r² = 1540 → r² = 35 → r ≈ 5.92 cm. CSA = 2πrh = 2 × (22/7) × 5.92 × 14 ≈ 2 × 3.143 × 5.92 × 14 ≈ 520. This still doesn't match. Let me re-examine: maybe V = 3080? No. With V = 1540, r² = 35, CSA = 2 × (22/7) × √35 × 14 = 88√35 ≈ 521. I'll adjust to V = 2156: r² = 2156/44 = 49 → r = 7. CSA = 2(22/7)(7)(14) = 616. I'll use V = 2156 cm³.",
       "estSec": 30,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1167,7 +1209,7 @@
       "answer": 1,
       "solution": "SP = 720 at 20% loss → CP = 720/0.8 = 900. For 20% gain: SP = 900 × 1.2 = Rs. 1080.",
       "estSec": 20,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1188,7 +1230,7 @@
       "answer": 0,
       "solution": "D→C (−1), E→C (−2), L→I (−3), H→D (−4), I→? Following the pattern: each letter shifts back by its position: D(−1)=C, E(−2)=C, L(−3)=I, H(−4)=D, I(−5)=D. For BOMBAY: B(−1)=A, O(−2)=M, M(−3)=J... Hmm, let me re-examine. D=4→C=3(−1), E=5→C=3(−2), L=12→I=9(−3), H=8→D=4(−4), I=9→D=4... no, 9−5=4=D. So shift is position index. B(2→1)=A, O(15→13)=M, M(13→10)=J, B(2→−3)... that doesn't work for negative. Let me use a simpler pattern: D→C(−1), E→C(−2), L→I(−3), H→D(−4), I→D... actually that doesn't cleanly work. Let me just use a Caesar-like shift where each letter goes back by 1: DELHI→CDKGH... no. Let me just pick a reasonable answer. The answer is A.",
       "estSec": 35,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1209,7 +1251,7 @@
       "answer": 1,
       "solution": "Arun's grandfather's only son = Arun's father. The daughter of Arun's father = Arun's sister. So the girl is Arun's sister.",
       "estSec": 25,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1230,7 +1272,7 @@
       "answer": 3,
       "solution": "From 'All dogs are animals' and 'Some animals are cats', we cannot conclude that any dog is a cat. The cats that are animals may be entirely outside the set of dogs. Neither conclusion follows with certainty.",
       "estSec": 30,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1251,7 +1293,7 @@
       "answer": 0,
       "solution": "North 5 km, then East 3 km, then South 5 km. Net displacement: 0 km North-South, 3 km East. Distance from A = 3 km.",
       "estSec": 15,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1263,11 +1305,16 @@
       "marks": 1,
       "difficulty": "hard",
       "stem": "Five persons A, B, C, D, E are sitting in a row facing north. C is to the immediate right of A. B is at one of the ends. E is to the immediate left of D. D is not next to B. Who is sitting at the left end?",
-      "options": ["A", "B", "C", "E"],
+      "options": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
       "answer": 3,
       "solution": "B is at an end. C is immediately right of A → sequence A C. E immediately left of D → sequence E D. D not next to B. If B is at right end: arrangement must end with B. E D cannot be next to B. So: E D ... B or ... E D B (D next to B — invalid). So: E D _ _ B. A C must fit: E D A C B. Left end = E.",
       "estSec": 45,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1279,11 +1326,16 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "If a car travels at 60 km/h, it reaches a destination on time. If it travels at 40 km/h, it is 2 hours late. What is the distance?",
-      "options": ["120 km", "240 km", "180 km", "360 km"],
+      "options": [
+        "120 km",
+        "240 km",
+        "180 km",
+        "360 km"
+      ],
       "answer": 1,
       "solution": "Let distance = d. Time at 60: d/60. Time at 40: d/40. d/40 − d/60 = 2 → (3d − 2d)/120 = 2 → d = 240 km.",
       "estSec": 25,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1295,11 +1347,16 @@
       "marks": 1,
       "difficulty": "easy",
       "stem": "In a class of 40 students, Rahul's rank from the top is 15. What is his rank from the bottom?",
-      "options": ["25", "26", "27", "28"],
+      "options": [
+        "25",
+        "26",
+        "27",
+        "28"
+      ],
       "answer": 1,
       "solution": "Rank from bottom = Total − Rank from top + 1 = 40 − 15 + 1 = 26.",
       "estSec": 10,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1311,11 +1368,16 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "Two trains of lengths 120 m and 180 m are running in opposite directions at 54 km/h and 72 km/h. How long will they take to cross each other?",
-      "options": ["6 seconds", "8 seconds", "10 seconds", "12 seconds"],
+      "options": [
+        "6 seconds",
+        "8 seconds",
+        "10 seconds",
+        "12 seconds"
+      ],
       "answer": 1,
       "solution": "Relative speed = 54 + 72 = 126 km/h = 126 × (5/18) = 35 m/s. Total distance = 120 + 180 = 300 m. Time = 300/35 ≈ 8.57 s. Closest is 8 seconds.",
       "estSec": 30,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1327,11 +1389,16 @@
       "marks": 1,
       "difficulty": "hard",
       "stem": "Four friends P, Q, R, S are sitting around a square table, one on each side. P is to the left of Q. R is opposite P. Who is sitting to the right of R?",
-      "options": ["P", "Q", "S", "Cannot be determined"],
+      "options": [
+        "P",
+        "Q",
+        "S",
+        "Cannot be determined"
+      ],
       "answer": 2,
       "solution": "P is left of Q. R is opposite P. Clockwise from Q: Q, P, S, R. S is to the right of R (when R faces inward, S is on R's right).",
       "estSec": 35,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1352,7 +1419,7 @@
       "answer": 2,
       "solution": "From A > B = C ≥ D > E: A > B = C ≥ D, so A > D (I follows). B = C ≥ D > E, so B ≥ D > E, hence B > E, which means B ≥ E (II follows). Both conclusions follow.",
       "estSec": 25,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1364,11 +1431,16 @@
       "marks": 1,
       "difficulty": "easy",
       "stem": "Which organization is the nodal agency for petroleum and natural gas in India?",
-      "options": ["NITI Aayog", "Ministry of Petroleum and Natural Gas", "Oil India Limited", "GAIL"],
+      "options": [
+        "NITI Aayog",
+        "Ministry of Petroleum and Natural Gas",
+        "Oil India Limited",
+        "GAIL"
+      ],
       "answer": 1,
       "solution": "The Ministry of Petroleum and Natural Gas (MoPNG) is the government ministry responsible for oil and gas policy, regulation, and administration in India.",
       "estSec": 10,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1380,11 +1452,16 @@
       "marks": 1,
       "difficulty": "easy",
       "stem": "ONGC was founded in which year?",
-      "options": ["1952", "1956", "1960", "1965"],
+      "options": [
+        "1952",
+        "1956",
+        "1960",
+        "1965"
+      ],
       "answer": 1,
       "solution": "Oil and Natural Gas Corporation (ONGC) was established on August 14, 1956, as a government company. It was later converted to a public limited company in 1994.",
       "estSec": 10,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1396,11 +1473,16 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "The Bombay High offshore oil field is located in which basin?",
-      "options": ["Krishna-Godavari Basin", "Mumbai Offshore Basin", "Cambay Basin", "Assam Shelf"],
+      "options": [
+        "Krishna-Godavari Basin",
+        "Mumbai Offshore Basin",
+        "Cambay Basin",
+        "Assam Shelf"
+      ],
       "answer": 1,
       "solution": "Bombay High (now Mumbai High) is India's largest offshore oil field, located about 160 km west of Mumbai in the Mumbai Offshore Basin, discovered in 1974.",
       "estSec": 15,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1412,11 +1494,16 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "Which Indian satellite series is primarily used for communication and broadcasting?",
-      "options": ["IRS series", "INSAT series", "GSAT series", "Both INSAT and GSAT"],
+      "options": [
+        "IRS series",
+        "INSAT series",
+        "GSAT series",
+        "Both INSAT and GSAT"
+      ],
       "answer": 3,
       "solution": "Both INSAT (Indian National Satellite) and GSAT (Geostationary Satellite) series are used for communication, broadcasting, and meteorological observations over India.",
       "estSec": 15,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1437,7 +1524,7 @@
       "answer": 3,
       "solution": "The Paris Agreement (2015) aims to limit warming to well below 2°C above pre-industrial levels, with efforts to limit it to 1.5°C.",
       "estSec": 15,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1449,11 +1536,16 @@
       "marks": 1,
       "difficulty": "easy",
       "stem": "ONGC's headquarters is located in:",
-      "options": ["Mumbai", "New Delhi", "Dehradun", "Kolkata"],
+      "options": [
+        "Mumbai",
+        "New Delhi",
+        "Dehradun",
+        "Kolkata"
+      ],
       "answer": 2,
       "solution": "ONGC is headquartered in Dehradun, Uttarakhand. Its registered office is in New Delhi, but the corporate headquarters is in Dehradun.",
       "estSec": 10,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1465,11 +1557,16 @@
       "marks": 1,
       "difficulty": "easy",
       "stem": "India's first nuclear power plant was established at:",
-      "options": ["Kudankulam", "Tarapur", "Kalpakkam", "Rajasthan"],
+      "options": [
+        "Kudankulam",
+        "Tarapur",
+        "Kalpakkam",
+        "Rajasthan"
+      ],
       "answer": 1,
       "solution": "Tarapur Atomic Power Station (TAPS) in Maharashtra, commissioned in 1969, was India's first commercial nuclear power plant with two boiling water reactors.",
       "estSec": 10,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1481,11 +1578,16 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "The Reserve Bank of India's digital rupee (e₹) is based on which technology?",
-      "options": ["Blockchain / DLT", "Centralized database", "SWIFT network", "UPI protocol"],
+      "options": [
+        "Blockchain / DLT",
+        "Centralized database",
+        "SWIFT network",
+        "UPI protocol"
+      ],
       "answer": 0,
       "solution": "India's CBDC (Central Bank Digital Currency), the e₹, is built on distributed ledger technology (DLT)/blockchain. It was launched in pilot phase in December 2022 for wholesale and retail segments.",
       "estSec": 15,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1506,7 +1608,7 @@
       "answer": 2,
       "solution": "The President is elected by an electoral college consisting of elected members of both houses of Parliament and the elected members of the legislative assemblies of all states (and Delhi and Puducherry).",
       "estSec": 10,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1518,11 +1620,16 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "India's Chandrayaan-3 mission successfully soft-landed on the Moon's south pole region in which year?",
-      "options": ["2022", "2023", "2024", "2021"],
+      "options": [
+        "2022",
+        "2023",
+        "2024",
+        "2021"
+      ],
       "answer": 1,
       "solution": "Chandrayaan-3's Vikram lander successfully landed near the Moon's south pole on August 23, 2023, making India the fourth country to achieve a soft lunar landing and the first to land near the south pole.",
       "estSec": 10,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1543,7 +1650,7 @@
       "answer": 1,
       "solution": "'The team of players was tired' — 'team' is a collective noun taking a singular verb. (A) should use 'was', (C) should use 'were' (verb agrees with nearest subject), (D) should use 'has'.",
       "estSec": 15,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1555,11 +1662,16 @@
       "marks": 1,
       "difficulty": "easy",
       "stem": "Choose the word most similar in meaning to 'ELOQUENT':",
-      "options": ["Fluent and persuasive", "Loud", "Confused", "Silent"],
+      "options": [
+        "Fluent and persuasive",
+        "Loud",
+        "Confused",
+        "Silent"
+      ],
       "answer": 0,
       "solution": "Eloquent means fluent, persuasive, and expressive in speaking or writing. It implies the ability to communicate effectively and beautifully.",
       "estSec": 10,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1571,11 +1683,16 @@
       "marks": 1,
       "difficulty": "easy",
       "stem": "Choose the correct article: 'He is ___ honest man.'",
-      "options": ["a", "an", "the", "no article needed"],
+      "options": [
+        "a",
+        "an",
+        "the",
+        "no article needed"
+      ],
       "answer": 1,
       "solution": "'An' is used before words starting with a vowel SOUND. 'Honest' starts with a silent 'h', so the sound is /ɒ/ (vowel), requiring 'an'.",
       "estSec": 10,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1587,11 +1704,16 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "What does the idiom 'to burn the midnight oil' mean?",
-      "options": ["To waste resources", "To work late into the night", "To start a fire", "To be very angry"],
+      "options": [
+        "To waste resources",
+        "To work late into the night",
+        "To start a fire",
+        "To be very angry"
+      ],
       "answer": 1,
       "solution": "'Burn the midnight oil' means to work or study late into the night, originally referring to working by oil lamp light before electricity.",
       "estSec": 10,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1603,11 +1725,16 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "A person who loves books is called a:",
-      "options": ["Bibliophile", "Philatelist", "Numismatist", "Cinephile"],
+      "options": [
+        "Bibliophile",
+        "Philatelist",
+        "Numismatist",
+        "Cinephile"
+      ],
       "answer": 0,
       "solution": "Bibliophile = lover of books. Philatelist = stamp collector. Numismatist = coin collector. Cinephile = movie enthusiast.",
       "estSec": 10,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1619,11 +1746,16 @@
       "marks": 1,
       "difficulty": "easy",
       "stem": "Choose the correct preposition: 'The meeting is _____ Monday.'",
-      "options": ["in", "on", "at", "by"],
+      "options": [
+        "in",
+        "on",
+        "at",
+        "by"
+      ],
       "answer": 1,
       "solution": "We use 'on' with days of the week: on Monday, on Tuesday, etc.",
       "estSec": 10,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1635,11 +1767,16 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "Read the passage: 'The monsoon is a seasonal wind pattern that brings heavy rainfall to the Indian subcontinent. It is driven by the differential heating of land and sea.' What primarily drives the monsoon?",
-      "options": ["Ocean currents", "Differential heating of land and sea", "Mountain ranges", "Coriolis effect"],
+      "options": [
+        "Ocean currents",
+        "Differential heating of land and sea",
+        "Mountain ranges",
+        "Coriolis effect"
+      ],
       "answer": 1,
       "solution": "The passage explicitly states the monsoon is driven by the differential heating of land and sea, which creates pressure gradients that reverse wind direction seasonally.",
       "estSec": 15,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1651,11 +1788,16 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "Choose the correct form: 'By the time we arrived, the train _____.'",
-      "options": ["has left", "had left", "was leaving", "left"],
+      "options": [
+        "has left",
+        "had left",
+        "was leaving",
+        "left"
+      ],
       "answer": 1,
       "solution": "Past perfect 'had left' is used for an action completed before another past action ('arrived'). The sequence: train left → we arrived.",
       "estSec": 10,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1667,11 +1809,16 @@
       "marks": 1,
       "difficulty": "easy",
       "stem": "Choose the word most opposite in meaning to 'BENEVOLENT':",
-      "options": ["Kind", "Malevolent", "Generous", "Gentle"],
+      "options": [
+        "Kind",
+        "Malevolent",
+        "Generous",
+        "Gentle"
+      ],
       "answer": 1,
       "solution": "Benevolent means well-meaning, kindly, generous. Malevolent means having or showing a wish to do evil to others — the direct opposite.",
       "estSec": 10,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1683,11 +1830,16 @@
       "marks": 1,
       "difficulty": "easy",
       "stem": "She has been working here _____ 2019.",
-      "options": ["from", "since", "for", "during"],
+      "options": [
+        "from",
+        "since",
+        "for",
+        "during"
+      ],
       "answer": 1,
       "solution": "'Since' is used with a specific point in time (2019). 'For' is used with a duration (5 years). 'From' needs 'to/until' for a range.",
       "estSec": 10,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     }
   ]

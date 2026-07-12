@@ -9,10 +9,22 @@
   "negativeMarking": false,
   "pattern": "ONGC CBT — 85 MCQ · 120 min · 1 mark each · no negative marking",
   "sections": [
-    { "name": "Domain Knowledge", "count": 40 },
-    { "name": "Aptitude", "count": 25 },
-    { "name": "General Awareness", "count": 10 },
-    { "name": "English Language", "count": 10 }
+    {
+      "name": "Domain Knowledge",
+      "count": 40
+    },
+    {
+      "name": "Aptitude",
+      "count": 25
+    },
+    {
+      "name": "General Awareness",
+      "count": 10
+    },
+    {
+      "name": "English Language",
+      "count": 10
+    }
   ],
   "questions": [
     {
@@ -24,15 +36,21 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "Evaluate the contour integral ∮_C z²/(z² + 4) dz, where C is the circle |z − i| = 3 traversed counterclockwise.",
-      "options": ["π", "2π", "0", "3π"],
+      "options": [
+        "π",
+        "2π",
+        "0",
+        "3π"
+      ],
       "answer": 0,
       "solution": "The integrand has poles at z = 2i and z = −2i. The pole at z = 2i lies inside |z − i| = 3 (distance from i to 2i is 1 < 3). The pole at z = −2i is at distance 3 from i, exactly on the contour — by convention it is not enclosed. Residue at z = 2i: lim(z→2i)(z−2i)·z²/((z−2i)(z+2i)) = (2i)²/(2i+2i) = −4/(4i) = −1/i = i. By the residue theorem: 2πi × i = −2π. Taking the absolute value or noting the sign convention yields π.",
       "estSec": 50,
       "topicWeight": 0.14,
       "source": "curated",
       "figure": {
-        "type": "svg",
-        "svg": "<svg viewBox=\"0 0 300 300\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"150\" cy=\"150\" r=\"100\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2\"/><circle cx=\"150\" cy=\"110\" r=\"4\" fill=\"#dc2626\"/><text x=\"160\" y=\"105\" font-size=\"12\" fill=\"#dc2626\">z=2i</text><circle cx=\"150\" cy=\"190\" r=\"4\" fill=\"#16a34a\"/><text x=\"160\" y=\"195\" font-size=\"12\" fill=\"#16a34a\">z=−2i</text><circle cx=\"150\" cy=\"150\" r=\"3\" fill=\"#333\"/><text x=\"160\" y=\"155\" font-size=\"12\" fill=\"#333\">i</text><text x=\"150\" y=\"280\" font-size=\"13\" fill=\"#333\" text-anchor=\"middle\">Contour |z−i|=3</text></svg>"
+        "kind": "svg",
+        "caption": "Contour integration picking up residue at pole z₀",
+        "markup": "<svg viewBox=\"0 0 480 220\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"220\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"24\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#4f46e5\" font-weight=\"bold\">Contour Integral in Complex Plane</text><line x1=\"60\" y1=\"110\" x2=\"420\" y2=\"110\" stroke=\"#e2e8f0\" stroke-width=\"1.5\"/><line x1=\"240\" y1=\"30\" x2=\"240\" y2=\"190\" stroke=\"#e2e8f0\" stroke-width=\"1.5\"/><text x=\"425\" y=\"114\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\">Re</text><text x=\"245\" y=\"35\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\">Im</text><path d=\"M160,140 A80,60 0 1,1 320,140\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"2\"/><polygon points=\"320,140 312,134 312,146\" fill=\"#3b82f6\"/><circle cx=\"200\" cy=\"110\" r=\"3\" fill=\"#ef4444\" stroke=\"#ef4444\" stroke-width=\"2\"/><text x=\"210\" y=\"105\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#ef4444\">z₀ (pole)</text><text x=\"240\" y=\"210\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#64748b\" text-anchor=\"middle\">∮ f(z)dz = 2πi Res(f, z₀)</text></svg>"
       }
     },
     {
@@ -44,12 +62,22 @@
       "marks": 1,
       "difficulty": "hard",
       "stem": "The value of the Legendre polynomial P₃(0) is:",
-      "options": ["0", "1/2", "−1/2", "3/2"],
+      "options": [
+        "0",
+        "1/2",
+        "−1/2",
+        "3/2"
+      ],
       "answer": 0,
       "solution": "P₃(x) = (5x³ − 3x)/2. At x = 0: P₃(0) = (0 − 0)/2 = 0. Legendre polynomials of odd degree are odd functions, so Pₙ(0) = 0 for all odd n.",
       "estSec": 20,
       "topicWeight": 0.14,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "First three Legendre polynomials on [−1, 1]",
+        "markup": "<svg viewBox=\"0 0 480 220\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"220\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"24\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#4f46e5\" font-weight=\"bold\">Legendre Polynomials Pₙ(x)</text><line x1=\"60\" y1=\"120\" x2=\"420\" y2=\"120\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/><line x1=\"240\" y1=\"40\" x2=\"240\" y2=\"200\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/><text x=\"425\" y=\"124\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\">x</text><text x=\"245\" y=\"38\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\">Pₙ</text><line x1=\"60\" y1=\"100\" x2=\"420\" y2=\"100\" stroke=\"#22c55e\" stroke-width=\"1.5\"/><text x=\"430\" y=\"100\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#22c55e\">P₀=1</text><line x1=\"60\" y1=\"155\" x2=\"420\" y2=\"85\" stroke=\"#3b82f6\" stroke-width=\"1.5\"/><text x=\"430\" y=\"85\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#3b82f6\">P₁=x</text><path d=\"M60,150 Q150,50 240,120 Q330,180 420,90\" fill=\"none\" stroke=\"#ef4444\" stroke-width=\"2\"/><text x=\"430\" y=\"145\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#ef4444\">P₂=(3x²−1)/2</text></svg>"
+      }
     },
     {
       "id": 3,
@@ -60,12 +88,22 @@
       "marks": 1,
       "difficulty": "hard",
       "stem": "The Bessel function J₀(x) has its first positive zero at approximately x =:",
-      "options": ["2.405", "3.832", "5.136", "1.220"],
+      "options": [
+        "2.405",
+        "3.832",
+        "5.136",
+        "1.220"
+      ],
       "answer": 0,
       "solution": "The first few positive zeros of J₀(x) are approximately 2.4048, 5.5201, 8.6537. The first zero at x ≈ 2.405 is the most commonly used value in physics, appearing in problems with circular/cylindrical symmetry.",
       "estSec": 20,
       "topicWeight": 0.14,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Bessel functions oscillate with decaying amplitude",
+        "markup": "<svg viewBox=\"0 0 480 220\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"220\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"24\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#4f46e5\" font-weight=\"bold\">Bessel Functions Jₙ(x)</text><line x1=\"60\" y1=\"120\" x2=\"420\" y2=\"120\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/><line x1=\"60\" y1=\"40\" x2=\"60\" y2=\"200\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/><text x=\"425\" y=\"124\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\">x</text><text x=\"50\" y=\"38\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\">Jₙ</text><path d=\"M60,50 Q100,80 140,70 Q200,50 260,130 Q320,160 380,110 Q410,90 420,100\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"2\"/><text x=\"430\" y=\"100\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#3b82f6\">J₀</text><path d=\"M60,150 Q120,100 180,130 Q240,150 300,120 Q360,90 420,110\" fill=\"none\" stroke=\"#ef4444\" stroke-width=\"2\"/><text x=\"430\" y=\"110\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#ef4444\">J₁</text><text x=\"240\" y=\"210\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Jₙ(x) → 0 as x → ∞</text></svg>"
+      }
     },
     {
       "id": 4,
@@ -76,12 +114,22 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "The residue of f(z) = 1/(z sin z) at z = 0 is:",
-      "options": ["0", "1", "−1", "2"],
+      "options": [
+        "0",
+        "1",
+        "−1",
+        "2"
+      ],
       "answer": 0,
       "solution": "At z = 0, f(z) = 1/(z sin z) has a pole of order 2. Expanding sin z ≈ z − z³/6, we get z sin z ≈ z² − z⁴/6. So f(z) ≈ 1/z² · 1/(1 − z²/6) ≈ (1/z²)(1 + z²/6). The Laurent series has no 1/z term, so the residue is 0.",
       "estSec": 45,
       "topicWeight": 0.14,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Closed contour enclosing two poles",
+        "markup": "<svg viewBox=\"0 0 480 220\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"220\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"24\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#4f46e5\" font-weight=\"bold\">Residue Theorem · Poles</text><line x1=\"60\" y1=\"110\" x2=\"420\" y2=\"110\" stroke=\"#e2e8f0\" stroke-width=\"1.5\"/><line x1=\"240\" y1=\"30\" x2=\"240\" y2=\"190\" stroke=\"#e2e8f0\" stroke-width=\"1.5\"/><circle cx=\"180\" cy=\"90\" r=\"3\" fill=\"#ef4444\" stroke=\"#ef4444\" stroke-width=\"2\"/><text x=\"190\" y=\"88\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#ef4444\">z₁</text><circle cx=\"300\" cy=\"130\" r=\"3\" fill=\"#f59e0b\" stroke=\"#f59e0b\" stroke-width=\"2\"/><text x=\"310\" y=\"128\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#f59e0b\">z₂</text><path d=\"M120,110 Q120,50 240,50 Q370,50 370,110 Q370,180 240,180 Q120,180 120,110\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"2\" stroke-dasharray=\"5\"/><text x=\"240\" y=\"210\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#64748b\" text-anchor=\"middle\">∮ f(z)dz = 2πi Σ Res</text></svg>"
+      }
     },
     {
       "id": 5,
@@ -102,7 +150,12 @@
       "solution": "Legendre polynomials satisfy ∫₋₁¹ Pₘ(x)Pₙ(x) dx = 2/(2n+1) δₘₙ. The integral is zero for m ≠ n (orthogonality). For m = n, the value is 2/(2n+1), not unity — so option A is correct as the orthogonality statement.",
       "estSec": 25,
       "topicWeight": 0.14,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Orthogonal basis functions in Hilbert space",
+        "markup": "<svg viewBox=\"0 0 480 220\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"220\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"24\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#4f46e5\" font-weight=\"bold\">Orthogonality · Function Space</text><text x=\"240\" y=\"60\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">⟨φₘ|φₙ⟩ = δₘₙ</text><line x1=\"60\" y1=\"100\" x2=\"420\" y2=\"100\" stroke=\"#e2e8f0\" stroke-width=\"1.5\"/><path d=\"M80,140 Q140,60 200,140 Q260,180 320,100 Q380,50 420,120\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"2\"/><text x=\"430\" y=\"120\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#3b82f6\">φ₁(x)</text><path d=\"M80,160 Q140,80 200,160 Q260,190 320,120 Q380,70 420,140\" fill=\"none\" stroke=\"#ef4444\" stroke-width=\"2\" stroke-dasharray=\"4\"/><text x=\"430\" y=\"140\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#ef4444\">φ₂(x)</text></svg>"
+      }
     },
     {
       "id": 6,
@@ -146,8 +199,9 @@
       "topicWeight": 0.14,
       "source": "curated",
       "figure": {
-        "type": "svg",
-        "svg": "<svg viewBox=\"0 0 320 240\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"160\" y1=\"200\" x2=\"160\" y2=\"40\" stroke=\"#333\" stroke-width=\"2\"/><polygon points=\"155,50 160,30 165,50\" fill=\"#333\"/><ellipse cx=\"160\" cy=\"60\" rx=\"40\" ry=\"12\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"1.5\" stroke-dasharray=\"4\"/><text x=\"210\" y=\"55\" font-size=\"11\" fill=\"#2563eb\">Ω precession</text><line x1=\"160\" y1=\"60\" x2=\"160\" y2=\"20\" stroke=\"#dc2626\" stroke-width=\"2\"/><text x=\"168\" y=\"18\" font-size=\"11\" fill=\"#dc2626\">ω₃</text><circle cx=\"160\" cy=\"200\" r=\"5\" fill=\"#333\"/><text x=\"170\" y=\"210\" font-size=\"11\" fill=\"#333\">Pivot</text><text x=\"160\" y=\"230\" font-size=\"12\" fill=\"#333\" text-anchor=\"middle\">Gyroscopic Precession</text></svg>"
+        "kind": "svg",
+        "caption": "Angular momentum precession under external torque",
+        "markup": "<svg viewBox=\"0 0 480 220\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"220\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"24\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#4f46e5\" font-weight=\"bold\">Gyroscopic Precession</text><circle cx=\"240\" cy=\"120\" r=\"60\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"2\"/><line x1=\"240\" y1=\"60\" x2=\"240\" y2=\"180\" stroke=\"#3b82f6\" stroke-width=\"2.5\"/><polygon points=\"240,55 235,65 245,65\" fill=\"#3b82f6\"/><path d=\"M200,120 A40,40 0 1,1 280,120\" fill=\"none\" stroke=\"#f59e0b\" stroke-width=\"1.5\" stroke-dasharray=\"4\"/><text x=\"310\" y=\"80\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#3b82f6\">L⃗ = Iω⃗</text><text x=\"310\" y=\"140\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#f59e0b\">τ⃗ = dL⃗/dt</text></svg>"
       }
     },
     {
@@ -180,7 +234,12 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "A solid sphere of mass M and radius R rolls without slipping on a horizontal surface. The ratio of rotational to total kinetic energy is:",
-      "options": ["2/7", "3/7", "5/7", "1/2"],
+      "options": [
+        "2/7",
+        "3/7",
+        "5/7",
+        "1/2"
+      ],
       "answer": 0,
       "solution": "T_rot = ½Iω² = ½(2/5)MR²(v/R)² = 1/5 Mv². T_trans = ½Mv². Total = 1/5 Mv² + 1/2 Mv² = 7/10 Mv². Ratio = (1/5)/(7/10) = 2/7.",
       "estSec": 25,
@@ -288,7 +347,12 @@
       "marks": 1,
       "difficulty": "hard",
       "stem": "In a rectangular waveguide with dimensions a × b (a > b), the dominant mode for TE waves is:",
-      "options": ["TE₁₁", "TE₂₀", "TE₀₁", "TE₁₀"],
+      "options": [
+        "TE₁₁",
+        "TE₂₀",
+        "TE₀₁",
+        "TE₁₀"
+      ],
       "answer": 3,
       "solution": "The cutoff frequency for TEₘₙ mode is f_c = (c/2)√((m/a)² + (n/b)²). The lowest cutoff occurs for TE₁₀ (m=1, n=0): f_c = c/(2a). Since a > b, TE₁₀ has the lowest cutoff and is the dominant mode.",
       "estSec": 30,
@@ -518,7 +582,12 @@
       "marks": 1,
       "difficulty": "hard",
       "stem": "The anomalous Zeeman effect in the sodium D₂ line (3²P₃/₂ → 3²S₁/₂) produces a total of how many polarized components in a weak magnetic field?",
-      "options": ["4", "6", "8", "10"],
+      "options": [
+        "4",
+        "6",
+        "8",
+        "10"
+      ],
       "answer": 2,
       "solution": "For the D₂ line: upper level J=3/2 has m_J = ±3/2, ±1/2 (4 sublevels); lower level J=1/2 has m_J = ±1/2 (2 sublevels). Selection rules Δm_J = 0, ±1 give: π components (Δm=0): 2; σ± components (Δm=±1): 6. Total = 8 distinct spectral components.",
       "estSec": 45,
@@ -534,7 +603,12 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "The vibrational frequency of a diatomic molecule is approximately 5 × 10¹³ Hz. The corresponding wavenumber in cm⁻¹ is:",
-      "options": ["1667 cm⁻¹", "167 cm⁻¹", "16,667 cm⁻¹", "1.67 cm⁻¹"],
+      "options": [
+        "1667 cm⁻¹",
+        "167 cm⁻¹",
+        "16,667 cm⁻¹",
+        "1.67 cm⁻¹"
+      ],
       "answer": 0,
       "solution": "Wavenumber = ν/c = 5 × 10¹³ / (3 × 10¹⁰ cm/s) = 1.667 × 10³ cm⁻¹ ≈ 1667 cm⁻¹. This is in the mid-infrared region, typical for molecular vibrations.",
       "estSec": 25,
@@ -743,7 +817,12 @@
       "marks": 1,
       "difficulty": "hard",
       "stem": "A differential amplifier has a differential gain A_d = 100 and a common-mode rejection ratio (CMRR) of 80 dB. The common-mode gain A_cm is approximately:",
-      "options": ["1", "0.1", "0.01", "0.001"],
+      "options": [
+        "1",
+        "0.1",
+        "0.01",
+        "0.001"
+      ],
       "answer": 2,
       "solution": "CMRR = 20 log₁₀(A_d/A_cm) = 80 dB. So A_d/A_cm = 10^(80/20) = 10⁴ = 10,000. A_cm = A_d/10,000 = 100/10,000 = 0.01.",
       "estSec": 30,
@@ -843,11 +922,16 @@
       "marks": 1,
       "difficulty": "easy",
       "stem": "If a number is increased by 20% and then decreased by 20%, the net change is:",
-      "options": ["0%", "4% increase", "4% decrease", "2% decrease"],
+      "options": [
+        "0%",
+        "4% increase",
+        "4% decrease",
+        "2% decrease"
+      ],
       "answer": 2,
       "solution": "Let the number be 100. After 20% increase: 120. After 20% decrease: 120 × 0.8 = 96. Net change = (96 − 100)/100 = −4%. A 4% decrease.",
       "estSec": 20,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -859,11 +943,16 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "A trader buys an article at a 10% discount on the marked price and sells it at 20% above the marked price. His profit percentage is:",
-      "options": ["25%", "30%", "33.33%", "20%"],
+      "options": [
+        "25%",
+        "30%",
+        "33.33%",
+        "20%"
+      ],
       "answer": 2,
       "solution": "Let marked price = 100. CP = 90 (10% discount). SP = 120 (20% above MP). Profit = 120 − 90 = 30. Profit% = 30/90 × 100 = 33.33%.",
       "estSec": 25,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -875,11 +964,16 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "The average weight of 15 students is 50 kg. If the teacher's weight is included, the average becomes 51 kg. What is the teacher's weight?",
-      "options": ["65 kg", "66 kg", "67 kg", "68 kg"],
+      "options": [
+        "65 kg",
+        "66 kg",
+        "67 kg",
+        "68 kg"
+      ],
       "answer": 1,
       "solution": "Total weight of 15 students = 15 × 50 = 750 kg. Total with teacher = 16 × 51 = 816 kg. Teacher's weight = 816 − 750 = 66 kg.",
       "estSec": 20,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -891,11 +985,16 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "3 men can do a piece of work in 12 days. After working for 4 days, 3 more men join. How many more days will the work take?",
-      "options": ["5.33 days", "6 days", "4 days", "8 days"],
+      "options": [
+        "5.33 days",
+        "6 days",
+        "4 days",
+        "8 days"
+      ],
       "answer": 2,
       "solution": "Total work = 3 × 12 = 36 man-days. Work done in 4 days = 3 × 4 = 12 man-days. Remaining = 24 man-days. With 6 men: 24/6 = 4 more days.",
       "estSec": 30,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -907,11 +1006,16 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "A bag contains 5 red and 3 blue balls. Two balls are drawn at random without replacement. The probability that both are red is:",
-      "options": ["5/14", "25/64", "10/28", "20/56"],
+      "options": [
+        "5/14",
+        "25/64",
+        "10/28",
+        "20/56"
+      ],
       "answer": 0,
       "solution": "P(both red) = (5/8) × (4/7) = 20/56 = 5/14.",
       "estSec": 20,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -923,11 +1027,16 @@
       "marks": 1,
       "difficulty": "easy",
       "stem": "The ratio of present ages of A and B is 4:7. After 5 years, the ratio becomes 5:8. What is A's present age?",
-      "options": ["16 years", "20 years", "24 years", "28 years"],
+      "options": [
+        "16 years",
+        "20 years",
+        "24 years",
+        "28 years"
+      ],
       "answer": 1,
       "solution": "Let A = 4x, B = 7x. After 5 years: (4x+5)/(7x+5) = 5/8. Cross multiply: 32x + 40 = 35x + 25 → 3x = 15 → x = 5. A's age = 4 × 5 = 20 years.",
       "estSec": 30,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -939,11 +1048,16 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "A car travels from city A to city B at 60 km/h and returns at 40 km/h. The average speed for the entire journey is:",
-      "options": ["50 km/h", "48 km/h", "52 km/h", "45 km/h"],
+      "options": [
+        "50 km/h",
+        "48 km/h",
+        "52 km/h",
+        "45 km/h"
+      ],
       "answer": 1,
       "solution": "Average speed for equal distances = 2v₁v₂/(v₁ + v₂) = 2 × 60 × 40/(60 + 40) = 4800/100 = 48 km/h.",
       "estSec": 20,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -955,11 +1069,16 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "The difference between compound interest and simple interest on Rs.5,000 at 10% per annum for 2 years is:",
-      "options": ["Rs.50", "Rs.100", "Rs.500", "Rs.55"],
+      "options": [
+        "Rs.50",
+        "Rs.100",
+        "Rs.500",
+        "Rs.55"
+      ],
       "answer": 0,
       "solution": "SI = 5000 × 0.10 × 2 = Rs.1,000. CI = 5000[(1.1)² − 1] = 5000 × 0.21 = Rs.1,050. Difference = 1,050 − 1,000 = Rs.50.",
       "estSec": 25,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -971,11 +1090,16 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "In how many ways can a committee of 3 women and 2 men be formed from 5 women and 4 men?",
-      "options": ["40", "60", "120", "240"],
+      "options": [
+        "40",
+        "60",
+        "120",
+        "240"
+      ],
       "answer": 1,
       "solution": "Ways = C(5,3) × C(4,2) = 10 × 6 = 60.",
       "estSec": 25,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -987,11 +1111,16 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "A boat can go 15 km upstream in 5 hours and 15 km downstream in 3 hours. What is the speed of the stream?",
-      "options": ["1 km/h", "2 km/h", "2.5 km/h", "3 km/h"],
+      "options": [
+        "1 km/h",
+        "2 km/h",
+        "2.5 km/h",
+        "3 km/h"
+      ],
       "answer": 0,
       "solution": "Upstream speed = 15/5 = 3 km/h. Downstream speed = 15/3 = 5 km/h. Speed of stream = (5 − 3)/2 = 1 km/h.",
       "estSec": 25,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1003,11 +1132,16 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "A father is 3 times as old as his son. After 12 years, he will be twice as old as his son. The father's present age is:",
-      "options": ["30 years", "36 years", "42 years", "48 years"],
+      "options": [
+        "30 years",
+        "36 years",
+        "42 years",
+        "48 years"
+      ],
       "answer": 1,
       "solution": "Let son = x, father = 3x. After 12 years: 3x + 12 = 2(x + 12). 3x + 12 = 2x + 24. x = 12. Father's age = 3 × 12 = 36 years.",
       "estSec": 25,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1019,11 +1153,16 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "Two vessels contain milk and water in the ratios 3:1 and 5:3 respectively. In what ratio should they be mixed to get a mixture of milk and water in the ratio 7:3?",
-      "options": ["2:3", "3:2", "1:1", "4:1"],
+      "options": [
+        "2:3",
+        "3:2",
+        "1:1",
+        "4:1"
+      ],
       "answer": 1,
       "solution": "Vessel 1: milk fraction = 3/4 = 0.75. Vessel 2: milk fraction = 5/8 = 0.625. Target: 7/10 = 0.7. Using alligation: (0.7 − 0.625):(0.75 − 0.7) = 0.075:0.05 = 3:2. So Vessel 1:Vessel 2 = 3:2.",
       "estSec": 35,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1035,11 +1174,16 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "A train 200 m long is running at 72 km/h. How long will it take to pass a pole?",
-      "options": ["10 seconds", "8 seconds", "12 seconds", "15 seconds"],
+      "options": [
+        "10 seconds",
+        "8 seconds",
+        "12 seconds",
+        "15 seconds"
+      ],
       "answer": 0,
       "solution": "Speed = 72 km/h = 72 × 5/18 = 20 m/s. Time = 200/20 = 10 seconds.",
       "estSec": 15,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1051,11 +1195,16 @@
       "marks": 1,
       "difficulty": "easy",
       "stem": "What is the remainder when 2²⁵ is divided by 7?",
-      "options": ["1", "2", "3", "4"],
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
       "answer": 1,
       "solution": "2³ = 8 ≡ 1 (mod 7). So 2²⁵ = (2³)⁸ × 2¹ = 1⁸ × 2 = 2 (mod 7). Remainder = 2.",
       "estSec": 20,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1067,11 +1216,16 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "Pipe A can fill a tank in 15 hours and Pipe B can fill it in 20 hours. If both are opened simultaneously, the tank will be full in:",
-      "options": ["8.57 hours", "7.5 hours", "10 hours", "12 hours"],
+      "options": [
+        "8.57 hours",
+        "7.5 hours",
+        "10 hours",
+        "12 hours"
+      ],
       "answer": 0,
       "solution": "A's rate = 1/15 per hour. B's rate = 1/20 per hour. Combined = 1/15 + 1/20 = (4+3)/60 = 7/60 per hour. Time = 60/7 ≈ 8.57 hours.",
       "estSec": 25,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1083,11 +1237,16 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "What comes next: 3, 8, 18, 38, 78, ?",
-      "options": ["148", "158", "168", "178"],
+      "options": [
+        "148",
+        "158",
+        "168",
+        "178"
+      ],
       "answer": 1,
       "solution": "Differences: 5, 10, 20, 40 — each difference doubles. Next difference = 80. Next number = 78 + 80 = 158.",
       "estSec": 20,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1099,11 +1258,16 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "If SUNSHINE is coded as TPVOUIOF, then MORNING is coded as:",
-      "options": ["NPJSOJH", "NPJSOJH", "OPKTPKI", "NQJTOJH"],
+      "options": [
+        "NPJSOJH",
+        "NPJSOJH",
+        "OPKTPKI",
+        "NQJTOJH"
+      ],
       "answer": 0,
       "solution": "Each letter is shifted +1: S→T, U→V, N→O, S→T, H→I, I→J, N→O, E→F. So SUNSHINE → TPVOUIOF. MORNING → N(P→Q is wrong, M→N, O→P, R→S, N→O, I→J, N→O, G→H) = NPJSOJH.",
       "estSec": 30,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1115,11 +1279,16 @@
       "marks": 1,
       "difficulty": "hard",
       "stem": "Pointing to a man, a woman says, 'His mother is the only daughter of my mother.' How is the woman related to the man?",
-      "options": ["Mother", "Grandmother", "Sister", "Aunt"],
+      "options": [
+        "Mother",
+        "Grandmother",
+        "Sister",
+        "Aunt"
+      ],
       "answer": 0,
       "solution": "'The only daughter of my mother' is the woman herself. So the man's mother is the woman. The woman is the man's mother.",
       "estSec": 25,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1131,11 +1300,16 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "Ravi walks 10 km North, turns left and walks 5 km, turns left and walks 10 km. In which direction is he from the starting point?",
-      "options": ["North", "South", "East", "West"],
+      "options": [
+        "North",
+        "South",
+        "East",
+        "West"
+      ],
       "answer": 3,
       "solution": "North 10 km → (0,10). Left (West) 5 km → (−5,10). Left (South) 10 km → (−5,0). He is 5 km West of the start.",
       "estSec": 25,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1156,7 +1330,7 @@
       "answer": 3,
       "solution": "From 'All dogs are animals' and 'Some animals are cats', we cannot conclude that any dogs are cats — the cats and dogs may be disjoint subsets of animals. Neither conclusion follows with certainty.",
       "estSec": 30,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1168,11 +1342,16 @@
       "marks": 1,
       "difficulty": "easy",
       "stem": "If A > B ≥ C = D > E, which of the following is definitely true?",
-      "options": ["A > C", "B = D", "A > E", "Both A and C"],
+      "options": [
+        "A > C",
+        "B = D",
+        "A > E",
+        "Both A and C"
+      ],
       "answer": 3,
       "solution": "A > B ≥ C → A > C (transitivity). A > B ≥ C = D > E → A > E (transitivity). Both A > C and A > E are definitely true.",
       "estSec": 20,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1184,11 +1363,16 @@
       "marks": 1,
       "difficulty": "hard",
       "stem": "Five persons P, Q, R, S, T sit in a row facing north. S is exactly in the middle. P is to the immediate left of Q. T is at the left end. Who is to the immediate right of S?",
-      "options": ["P", "Q", "R", "T"],
+      "options": [
+        "P",
+        "Q",
+        "R",
+        "T"
+      ],
       "answer": 2,
       "solution": "T is at the left end: T _ _ _ _. S is in the middle: T _ S _ _. P is immediately left of Q: T P Q S _. The remaining person R goes to the right end: T P Q S R. To the immediate right of S is R.",
       "estSec": 40,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1200,11 +1384,16 @@
       "marks": 1,
       "difficulty": "easy",
       "stem": "In a class of 40 students, Rahul's rank from the top is 15. What is his rank from the bottom?",
-      "options": ["25", "26", "27", "28"],
+      "options": [
+        "25",
+        "26",
+        "27",
+        "28"
+      ],
       "answer": 1,
       "solution": "Rank from bottom = Total students − Rank from top + 1 = 40 − 15 + 1 = 26.",
       "estSec": 10,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1216,11 +1405,16 @@
       "marks": 1,
       "difficulty": "hard",
       "stem": "Five persons A, B, C, D, E are sitting in a row facing north. C is to the immediate right of A. B is at one of the ends. E is to the immediate left of D. D is not next to B. Who is sitting at the left end?",
-      "options": ["A", "B", "C", "E"],
+      "options": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
       "answer": 3,
       "solution": "B is at an end (not next to D). If B is at right end: ...E D. C is right of A, so A C. Arrangement: E D A C B. E is at the left end.",
       "estSec": 45,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1232,11 +1426,16 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "If today is Thursday, what day will it be after 90 days?",
-      "options": ["Monday", "Tuesday", "Wednesday", "Thursday"],
+      "options": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday"
+      ],
       "answer": 3,
       "solution": "90 ÷ 7 = 12 weeks and 6 days. Thursday + 6 days = Wednesday. Wait — Thursday + 6 = Wednesday. The answer is C (Wednesday).",
       "estSec": 15,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1257,7 +1456,7 @@
       "answer": 1,
       "solution": "ONGC Videsh Limited (OVL) is the wholly-owned subsidiary of ONGC that acquires, explores, and produces oil and gas assets outside India. It has operations in Russia, Vietnam, Myanmar, and other countries.",
       "estSec": 10,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1269,11 +1468,16 @@
       "marks": 1,
       "difficulty": "easy",
       "stem": "India's total crude oil production in a recent fiscal year was approximately:",
-      "options": ["30 million metric tonnes", "60 million metric tonnes", "100 million metric tonnes", "5 million metric tonnes"],
+      "options": [
+        "30 million metric tonnes",
+        "60 million metric tonnes",
+        "100 million metric tonnes",
+        "5 million metric tonnes"
+      ],
       "answer": 0,
       "solution": "India produces approximately 30-32 million metric tonnes (MMT) of crude oil per year, meeting only about 15-20% of its total consumption. The rest is imported.",
       "estSec": 10,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1294,7 +1498,7 @@
       "answer": 1,
       "solution": "Digboi in upper Assam is where oil was first discovered in India in 1889. It is also home to Asia's oldest refinery, established in 1901. It continues to produce oil to this day.",
       "estSec": 15,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1315,7 +1519,7 @@
       "answer": 0,
       "solution": "Supercritical (SC) and ultra-supercritical (USC) boiler technology operates above the critical point of water, improving thermal efficiency by approximately 2-3% over subcritical plants and reducing CO₂ emissions.",
       "estSec": 15,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1336,7 +1540,7 @@
       "answer": 0,
       "solution": "The Jawaharlal Nehru National Solar Mission (JNNSM), launched in 2010, is one of the eight missions under India's National Action Plan on Climate Change (NAPCC).",
       "estSec": 10,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1348,11 +1552,16 @@
       "marks": 1,
       "difficulty": "easy",
       "stem": "ONGC was granted the 'Maharatna' status in:",
-      "options": ["2007", "2010", "2014", "2004"],
+      "options": [
+        "2007",
+        "2010",
+        "2014",
+        "2004"
+      ],
       "answer": 1,
       "solution": "ONGC was granted Maharatna status in 2010, joining an elite group of CPSEs with greater financial and operational autonomy. Prior to this, it held Navratna status from 2004.",
       "estSec": 10,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1373,7 +1582,7 @@
       "answer": 1,
       "solution": "ONGC's Krishi Urja Vanam (KUV) initiative promotes agro-forestry, solar energy installations, and sustainable livelihoods in rural areas near its operational sites, combining environmental conservation with community development.",
       "estSec": 15,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1385,11 +1594,16 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "Natural gas is primarily composed of:",
-      "options": ["Ethane", "Methane", "Propane", "Butane"],
+      "options": [
+        "Ethane",
+        "Methane",
+        "Propane",
+        "Butane"
+      ],
       "answer": 1,
       "solution": "Natural gas is primarily methane (CH₄), typically comprising 70-90% of its composition. It also contains small amounts of ethane, propane, butane, and other hydrocarbons.",
       "estSec": 10,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1410,7 +1624,7 @@
       "answer": 1,
       "solution": "ONGC has committed to reducing its carbon footprint through renewable energy initiatives including solar and wind power projects, electric vehicle charging stations, and hydrogen energy research.",
       "estSec": 10,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1431,7 +1645,7 @@
       "answer": 1,
       "solution": "The Urja Ganga gas pipeline project (HGCCPL) connects Jagdishpur in UP to Haldia in West Bengal, providing piped natural gas to households and CNG to vehicles across eastern India, including Bihar, Jharkhand, and West Bengal.",
       "estSec": 15,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1443,11 +1657,16 @@
       "marks": 1,
       "difficulty": "easy",
       "stem": "Choose the word most similar in meaning to 'RESILIENT':",
-      "options": ["Fragile", "Flexible and strong", "Weak", "Rigid"],
+      "options": [
+        "Fragile",
+        "Flexible and strong",
+        "Weak",
+        "Rigid"
+      ],
       "answer": 1,
       "solution": "Resilient means able to recover quickly from difficulties; flexible and tough. It is the opposite of fragile or weak.",
       "estSec": 10,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1459,11 +1678,16 @@
       "marks": 1,
       "difficulty": "easy",
       "stem": "Choose the word most opposite in meaning to 'VORACIOUS':",
-      "options": ["Greedy", "Moderate", "Hungry", "Eager"],
+      "options": [
+        "Greedy",
+        "Moderate",
+        "Hungry",
+        "Eager"
+      ],
       "answer": 1,
       "solution": "Voracious means having a very eager approach to an activity, or wanting to devour great quantities. Moderate means average or restrained — the antonym.",
       "estSec": 10,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1484,7 +1708,7 @@
       "answer": 3,
       "solution": "'The news is alarming' is correct — 'news' is grammatically singular. Options A should use 'was' (group is singular), B should use 'has' (each is singular), C should use 'were' (employees is plural, and with 'nor' the verb agrees with the nearest noun).",
       "estSec": 15,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1505,7 +1729,7 @@
       "answer": 0,
       "solution": "'A blessing in disguise' means something that initially seems unfortunate or bad but ultimately leads to a positive outcome.",
       "estSec": 10,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1517,11 +1741,16 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "A government by the rich is called:",
-      "options": ["Democracy", "Oligarchy", "Monarchy", "Aristocracy"],
+      "options": [
+        "Democracy",
+        "Oligarchy",
+        "Monarchy",
+        "Aristocracy"
+      ],
       "answer": 1,
       "solution": "Oligarchy = government by a small group of wealthy or powerful people. Democracy = government by the people. Monarchy = government by a king/queen. Aristocracy = government by the nobility.",
       "estSec": 10,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1533,11 +1762,16 @@
       "marks": 1,
       "difficulty": "easy",
       "stem": "Choose the correct word: 'He is responsible _____ the project.'",
-      "options": ["to", "for", "of", "with"],
+      "options": [
+        "to",
+        "for",
+        "of",
+        "with"
+      ],
       "answer": 1,
       "solution": "'Responsible for' is the correct preposition. Someone is responsible for a task or thing.",
       "estSec": 10,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1558,7 +1792,7 @@
       "answer": 1,
       "solution": "The passage explicitly states that intermittency is the main challenge, as it affects grid stability and necessitates storage solutions.",
       "estSec": 15,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1570,11 +1804,16 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "Choose the correct form: 'She _____ to this city since 2015.'",
-      "options": ["has come", "has been coming", "lives", "has lived"],
+      "options": [
+        "has come",
+        "has been coming",
+        "lives",
+        "has lived"
+      ],
       "answer": 3,
       "solution": "'Has lived' (present perfect) is correct with 'since' to indicate an action that started in the past and continues to the present. 'Has been coming' (present perfect continuous) implies repeated visits, not continuous residence.",
       "estSec": 10,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1586,11 +1825,16 @@
       "marks": 1,
       "difficulty": "easy",
       "stem": "Choose the word most similar in meaning to 'UBIQUITOUS':",
-      "options": ["Rare", "Found everywhere", "Unique", "Hidden"],
+      "options": [
+        "Rare",
+        "Found everywhere",
+        "Unique",
+        "Hidden"
+      ],
       "answer": 1,
       "solution": "Ubiquitous means present, appearing, or found everywhere. It describes something that is seemingly omnipresent.",
       "estSec": 10,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1602,11 +1846,16 @@
       "marks": 1,
       "difficulty": "easy",
       "stem": "The train arrived _____ the platform at 9 o'clock.",
-      "options": ["in", "on", "at", "to"],
+      "options": [
+        "in",
+        "on",
+        "at",
+        "to"
+      ],
       "answer": 2,
       "solution": "'At the platform' is correct — we use 'at' for specific locations or points. 'On the platform' is also acceptable in British English, but 'at' is the standard preposition for arrival at a specific point.",
       "estSec": 10,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     }
   ]

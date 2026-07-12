@@ -176,7 +176,12 @@
       "solution": "For TE_mn mode in rectangular waveguide: f_c = (c/2)*sqrt((m/a)^2 + (n/b)^2). For TE_10 (m=1, n=0): f_c = c/(2a). This is the lowest cutoff frequency. The guide wavelength lambda_g = lambda/sqrt(1-(f_c/f)^2) and phase velocity v_p = c/sqrt(1-(f_c/f)^2) are both frequency-dependent.",
       "estSec": 40,
       "topicWeight": 0.14,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Dominant TE₁₀ mode in rectangular waveguide",
+        "markup": "<svg viewBox=\"0 0 480 220\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"220\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"24\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#4f46e5\" font-weight=\"bold\">Rectangular Waveguide · TE₁₀ Mode</text><rect x=\"80\" y=\"50\" width=\"320\" height=\"120\" fill=\"#f0f9ff\" stroke=\"#3b82f6\" stroke-width=\"1.5\" rx=\"0\"/><path d=\"M80,110 Q160,60 240,110 Q320,160 400,110\" fill=\"none\" stroke=\"#ef4444\" stroke-width=\"2\"/><text x=\"240\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">a</text><text x=\"240\" y=\"40\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#ef4444\" text-anchor=\"middle\">E-field (TE₁₀)</text><text x=\"240\" y=\"210\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#64748b\" text-anchor=\"middle\">cutoff: f_c = c/(2a)</text></svg>"
+      }
     },
     {
       "id": 7,

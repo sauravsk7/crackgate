@@ -192,11 +192,6 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "A damped harmonic oscillator has mass m, damping b, spring constant k. The condition for critical damping is:",
-      "figure": {
-        "kind": "svg",
-        "markup": "<svg viewBox=\"0 0 360 170\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"360\" height=\"170\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"180\" y=\"20\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1e293b\">Damped Oscillation Regimes</text><line x1=\"40\" y1=\"120\" x2=\"340\" y2=\"120\" stroke=\"#94a3b8\" stroke-width=\"1\"/><line x1=\"40\" y1=\"120\" x2=\"40\" y2=\"30\" stroke=\"#94a3b8\" stroke-width=\"1\"/><text x=\"335\" y=\"115\" font-size=\"10\" fill=\"#64748b\">t</text><text x=\"43\" y=\"35\" font-size=\"10\" fill=\"#64748b\">x(t)</text><path d=\"M50,120 Q80,50 110,120 Q140,60 170,120 Q200,70 230,120 Q260,80 290,120 Q320,90 340,120\" stroke=\"#3b82f6\" stroke-width=\"1.5\" fill=\"none\"/><path d=\"M50,120 Q100,40 150,120 Q200,80 250,120 Q300,105 340,120\" stroke=\"#ef4444\" stroke-width=\"1.5\" fill=\"none\"/><path d=\"M50,120 Q120,60 200,120\" stroke=\"#22c55e\" stroke-width=\"1.5\" fill=\"none\"/><text x=\"100\" y=\"145\" font-size=\"9\" fill=\"#3b82f6\">Underdamped</text><text x=\"195\" y=\"145\" font-size=\"9\" fill=\"#ef4444\">Critical</text><text x=\"280\" y=\"145\" font-size=\"9\" fill=\"#22c55e\">Overdamped</text></svg>",
-        "caption": ""
-      },
       "options": [
         "b = 2√(mk)",
         "b = √(mk)",
@@ -218,11 +213,6 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "A uniform solid cylinder of mass M and radius R rolls without slipping down an inclined plane. Its acceleration is:",
-      "figure": {
-        "kind": "svg",
-        "markup": "<svg viewBox=\"0 0 340 170\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"340\" height=\"170\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"170\" y=\"20\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1e293b\">Rolling Without Slipping</text><line x1=\"50\" y1=\"140\" x2=\"300\" y2=\"60\" stroke=\"#64748b\" stroke-width=\"2\"/><circle cx=\"130\" cy=\"118\" r=\"20\" stroke=\"#3b82f6\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"130\" cy=\"118\" r=\"2\" fill=\"#ef4444\"/><text x=\"170\" y=\"155\" font-size=\"11\" text-anchor=\"middle\" fill=\"#64748b\">a = (2/3) g sin θ</text></svg>",
-        "caption": ""
-      },
       "options": [
         "g sin θ",
         "(2/3) g sin θ",
@@ -244,11 +234,6 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "A particle moves under a central force F = F(r)r̂. Which quantities are conserved?",
-      "figure": {
-        "kind": "svg",
-        "markup": "<svg viewBox=\"0 0 340 160\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"340\" height=\"160\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"170\" y=\"20\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1e293b\">Central Force Motion</text><circle cx=\"100\" cy=\"80\" r=\"50\" stroke=\"#3b82f6\" stroke-width=\"1.5\" fill=\"none\" stroke-dasharray=\"4,3\"/><circle cx=\"100\" cy=\"80\" r=\"5\" fill=\"#ef4444\"/><text x=\"150\" y=\"65\" font-size=\"10\" fill=\"#22c55e\">r⃗</text><text x=\"120\" y=\"35\" font-size=\"10\" fill=\"#f59e0b\">L⃗ = r⃗ × p⃗</text><text x=\"170\" y=\"140\" font-size=\"10\" text-anchor=\"middle\" fill=\"#475569\">τ = r × F = 0 → L conserved</text><text x=\"170\" y=\"155\" font-size=\"10\" text-anchor=\"middle\" fill=\"#475569\">Conservative force → E conserved</text></svg>",
-        "caption": ""
-      },
       "options": [
         "Linear momentum and kinetic energy",
         "Angular momentum and total energy",
@@ -270,11 +255,6 @@
       "marks": 1,
       "difficulty": "hard",
       "stem": "A parallel-plate capacitor has area A, plate separation d, filled with dielectric of permittivity ε. The capacitance is:",
-      "figure": {
-        "kind": "svg",
-        "markup": "<svg viewBox=\"0 0 340 170\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"340\" height=\"170\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"170\" y=\"20\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1e293b\">Parallel Plate Capacitor</text><rect x=\"80\" y=\"45\" width=\"10\" height=\"80\" fill=\"#3b82f6\" rx=\"2\"/><rect x=\"240\" y=\"45\" width=\"10\" height=\"80\" fill=\"#3b82f6\" rx=\"2\"/><rect x=\"90\" y=\"45\" width=\"150\" height=\"80\" fill=\"#dbeafe\" opacity=\"0.5\"/><text x=\"165\" y=\"90\" font-size=\"11\" text-anchor=\"middle\" fill=\"#1e40af\">ε (dielectric)</text><text x=\"165\" y=\"55\" font-size=\"10\" text-anchor=\"middle\" fill=\"#475569\">+Q</text><text x=\"165\" y=\"120\" font-size=\"10\" text-anchor=\"middle\" fill=\"#475569\">−Q</text><text x=\"170\" y=\"160\" font-size=\"11\" text-anchor=\"middle\" fill=\"#1e293b\">C = εA/d</text></svg>",
-        "caption": ""
-      },
       "options": [
         "ε₀A/d",
         "εA/d",
@@ -296,11 +276,6 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "The polarization P of a dielectric material is related to the electric field E by:",
-      "figure": {
-        "kind": "svg",
-        "markup": "<svg viewBox=\"0 0 340 150\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"340\" height=\"150\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"170\" y=\"20\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1e293b\">Dielectric Polarization</text><rect x=\"60\" y=\"40\" width=\"220\" height=\"70\" fill=\"#fef3c7\" stroke=\"#f59e0b\" stroke-width=\"1\" rx=\"4\"/><text x=\"170\" y=\"55\" font-size=\"10\" text-anchor=\"middle\" fill=\"#92400e\">Dielectric slab</text><text x=\"170\" y=\"140\" font-size=\"11\" text-anchor=\"middle\" fill=\"#1e293b\">P = ε₀χₑE = (ε − ε₀)E</text></svg>",
-        "caption": ""
-      },
       "options": [
         "P = ε₀E",
         "P = ε₀χₑE",
@@ -322,11 +297,6 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "A solenoid with N turns, length L carries current I with a core of permeability μ. The magnetic field inside is:",
-      "figure": {
-        "kind": "svg",
-        "markup": "<svg viewBox=\"0 0 340 160\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"340\" height=\"160\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"170\" y=\"20\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1e293b\">Solenoid with Magnetic Core</text><rect x=\"60\" y=\"45\" width=\"220\" height=\"50\" fill=\"#e2e8f0\" stroke=\"#64748b\" stroke-width=\"1\" rx=\"5\"/><text x=\"170\" y=\"75\" font-size=\"11\" text-anchor=\"middle\" fill=\"#1e293b\">N turns, length L, μ (core)</text><text x=\"170\" y=\"140\" font-size=\"11\" text-anchor=\"middle\" fill=\"#1e293b\">B = μNI/L</text></svg>",
-        "caption": ""
-      },
       "options": [
         "μ₀NI/L",
         "μNI/L",
@@ -348,11 +318,6 @@
       "marks": 1,
       "difficulty": "hard",
       "stem": "In free space, the displacement current density is:",
-      "figure": {
-        "kind": "svg",
-        "markup": "<svg viewBox=\"0 0 340 150\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"340\" height=\"150\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"170\" y=\"20\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1e293b\">Ampère-Maxwell Law</text><text x=\"170\" y=\"50\" font-size=\"12\" text-anchor=\"middle\" fill=\"#1e293b\">∇ × B = μ₀J + μ₀ε₀ ∂E/∂t</text><text x=\"170\" y=\"85\" font-size=\"11\" text-anchor=\"middle\" fill=\"#ef4444\">displacement current = ε₀ ∂E/∂t</text><text x=\"170\" y=\"120\" font-size=\"10\" text-anchor=\"middle\" fill=\"#475569\">Maxwell added this term for charge conservation</text></svg>",
-        "caption": ""
-      },
       "options": [
         "μ₀J",
         "ε₀∂E/∂t",
@@ -374,11 +339,6 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "The energy levels of a one-dimensional quantum harmonic oscillator are:",
-      "figure": {
-        "kind": "svg",
-        "markup": "<svg viewBox=\"0 0 360 190\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"360\" height=\"190\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"180\" y=\"20\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1e293b\">Quantum Harmonic Oscillator</text><line x1=\"60\" y1=\"170\" x2=\"60\" y2=\"30\" stroke=\"#94a3b8\" stroke-width=\"1\"/><text x=\"55\" y=\"28\" font-size=\"10\" fill=\"#64748b\">E</text><line x1=\"80\" y1=\"139\" x2=\"260\" y2=\"139\" stroke=\"#3b82f6\" stroke-width=\"2\"/><text x=\"270\" y=\"143\" font-size=\"9\" fill=\"#3b82f6\">E₀ = ½ℏω</text><line x1=\"80\" y1=\"117\" x2=\"260\" y2=\"117\" stroke=\"#ef4444\" stroke-width=\"2\"/><text x=\"270\" y=\"121\" font-size=\"9\" fill=\"#ef4444\">E₁ = 3/2 ℏω</text><line x1=\"80\" y1=\"95\" x2=\"260\" y2=\"95\" stroke=\"#22c55e\" stroke-width=\"2\"/><text x=\"270\" y=\"99\" font-size=\"9\" fill=\"#22c55e\">E₂ = 5/2 ℏω</text><line x1=\"80\" y1=\"73\" x2=\"260\" y2=\"73\" stroke=\"#f59e0b\" stroke-width=\"2\"/><text x=\"270\" y=\"77\" font-size=\"9\" fill=\"#f59e0b\">E₃ = 7/2 ℏω</text><line x1=\"80\" y1=\"56\" x2=\"260\" y2=\"56\" stroke=\"#8b5cf6\" stroke-width=\"2\"/><text x=\"270\" y=\"60\" font-size=\"9\" fill=\"#8b5cf6\">E₄ = 9/2 ℏω</text><text x=\"170\" y=\"182\" font-size=\"10\" text-anchor=\"middle\" fill=\"#475569\">Equal spacing = ℏω</text></svg>",
-        "caption": ""
-      },
       "options": [
         "Eₙ = nℏω",
         "Eₙ = (n + ½)ℏω",
@@ -400,11 +360,6 @@
       "marks": 1,
       "difficulty": "hard",
       "stem": "A particle of energy E encounters a rectangular barrier V₀ (width a) with E < V₀. The transmission coefficient T:",
-      "figure": {
-        "kind": "svg",
-        "markup": "<svg viewBox=\"0 0 360 170\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"360\" height=\"170\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"180\" y=\"20\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1e293b\">Quantum Tunneling</text><line x1=\"40\" y1=\"130\" x2=\"320\" y2=\"130\" stroke=\"#94a3b8\" stroke-width=\"1\"/><line x1=\"40\" y1=\"130\" x2=\"40\" y2=\"30\" stroke=\"#94a3b8\" stroke-width=\"1\"/><text x=\"315\" y=\"125\" font-size=\"10\" fill=\"#64748b\">x</text><text x=\"43\" y=\"32\" font-size=\"10\" fill=\"#64748b\">V</text><line x1=\"120\" y1=\"130\" x2=\"120\" y2=\"50\" stroke=\"#64748b\" stroke-width=\"1.5\"/><line x1=\"120\" y1=\"50\" x2=\"220\" y2=\"50\" stroke=\"#64748b\" stroke-width=\"1.5\"/><line x1=\"220\" y1=\"50\" x2=\"220\" y2=\"130\" stroke=\"#64748b\" stroke-width=\"1.5\"/><text x=\"170\" y=\"45\" font-size=\"10\" text-anchor=\"middle\" fill=\"#475569\">V₀</text><line x1=\"120\" y1=\"90\" x2=\"220\" y2=\"90\" stroke=\"#3b82f6\" stroke-width=\"1.5\"/><text x=\"170\" y=\"85\" font-size=\"10\" text-anchor=\"middle\" fill=\"#3b82f6\">E</text><text x=\"170\" y=\"145\" font-size=\"9\" text-anchor=\"middle\" fill=\"#64748b\">a</text><text x=\"170\" y=\"165\" font-size=\"10\" text-anchor=\"middle\" fill=\"#1e293b\">T decreases exponentially with a</text></svg>",
-        "caption": ""
-      },
       "options": [
         "Is always zero for E < V₀",
         "Decreases exponentially with barrier width a",
@@ -426,11 +381,6 @@
       "marks": 1,
       "difficulty": "hard",
       "stem": "The fine structure splitting of the hydrogen atom n = 2 level gives levels with total angular momentum j =:",
-      "figure": {
-        "kind": "svg",
-        "markup": "<svg viewBox=\"0 0 360 140\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"360\" height=\"140\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"180\" y=\"20\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1e293b\">Hydrogen Fine Structure (n=2)</text><line x1=\"60\" y1=\"120\" x2=\"60\" y2=\"30\" stroke=\"#94a3b8\" stroke-width=\"1\"/><text x=\"55\" y=\"28\" font-size=\"10\" fill=\"#64748b\">E</text><line x1=\"80\" y1=\"49\" x2=\"260\" y2=\"49\" stroke=\"#3b82f6\" stroke-width=\"2\"/><text x=\"270\" y=\"53\" font-size=\"9\" fill=\"#3b82f6\">2P₃/₂ (j=3/2)</text><line x1=\"80\" y1=\"67\" x2=\"260\" y2=\"67\" stroke=\"#ef4444\" stroke-width=\"2\"/><text x=\"270\" y=\"71\" font-size=\"9\" fill=\"#ef4444\">2S₁/₂ (j=1/2)</text><line x1=\"80\" y1=\"73\" x2=\"260\" y2=\"73\" stroke=\"#22c55e\" stroke-width=\"2\"/><text x=\"270\" y=\"77\" font-size=\"9\" fill=\"#22c55e\">2P₁/₂ (j=1/2)</text><text x=\"170\" y=\"132\" font-size=\"10\" text-anchor=\"middle\" fill=\"#475569\">Lamb shift ≈ 1057 MHz between 2S₁/₂ and 2P₁/₂</text></svg>",
-        "caption": ""
-      },
       "options": [
         "j = 0 and j = 1",
         "j = 1/2 and j = 3/2",
@@ -452,11 +402,6 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "The Heisenberg uncertainty principle states:",
-      "figure": {
-        "kind": "svg",
-        "markup": "<svg viewBox=\"0 0 340 130\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"340\" height=\"130\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"170\" y=\"20\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1e293b\">Heisenberg Uncertainty Principle</text><rect x=\"60\" y=\"45\" width=\"100\" height=\"50\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"1\" rx=\"4\"/><text x=\"110\" y=\"75\" font-size=\"11\" text-anchor=\"middle\" fill=\"#1e40af\">Δx · Δp</text><rect x=\"190\" y=\"45\" width=\"100\" height=\"50\" fill=\"#fee2e2\" stroke=\"#ef4444\" stroke-width=\"1\" rx=\"4\"/><text x=\"240\" y=\"75\" font-size=\"11\" text-anchor=\"middle\" fill=\"#991b1b\">≥ ℏ/2</text><text x=\"170\" y=\"120\" font-size=\"12\" text-anchor=\"middle\" fill=\"#1e293b\">Δx · Δp ≥ ℏ/2</text></svg>",
-        "caption": ""
-      },
       "options": [
         "Δx · Δp ≥ ℏ",
         "Δx · Δp ≥ ℏ/2",
@@ -478,11 +423,6 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "The wave function of a particle must be:",
-      "figure": {
-        "kind": "svg",
-        "markup": "<svg viewBox=\"0 0 340 130\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"340\" height=\"130\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"170\" y=\"20\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1e293b\">Properties of Wave Function</text><text x=\"170\" y=\"50\" font-size=\"11\" text-anchor=\"middle\" fill=\"#1e293b\">1. Single-valued  2. Continuous  3. Finite</text><text x=\"170\" y=\"75\" font-size=\"11\" text-anchor=\"middle\" fill=\"#1e293b\">4. Square-integrable  5. Differentiable</text><rect x=\"30\" y=\"90\" width=\"280\" height=\"35\" fill=\"#ecfdf5\" stroke=\"#22c55e\" stroke-width=\"1\" rx=\"4\"/><text x=\"170\" y=\"113\" font-size=\"12\" text-anchor=\"middle\" fill=\"#065f46\">Normalization: ∫|ψ(x)|² dx = 1</text></svg>",
-        "caption": ""
-      },
       "options": [
         "Real and positive",
         "Single-valued, continuous, and square-integrable",
@@ -504,11 +444,6 @@
       "marks": 1,
       "difficulty": "hard",
       "stem": "From the Helmholtz free energy F = U − TS, which Maxwell relation follows?",
-      "figure": {
-        "kind": "svg",
-        "markup": "<svg viewBox=\"0 0 340 160\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"340\" height=\"160\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"170\" y=\"20\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1e293b\">Maxwell Relations</text><text x=\"170\" y=\"45\" font-size=\"11\" text-anchor=\"middle\" fill=\"#475569\">From dF = −S dT − P dV:</text><text x=\"170\" y=\"75\" font-size=\"11\" text-anchor=\"middle\" fill=\"#1e293b\">(∂S/∂V)_T = (∂P/∂T)_V</text><text x=\"170\" y=\"105\" font-size=\"10\" text-anchor=\"middle\" fill=\"#475569\">From dG = −S dT + V dP:</text><text x=\"170\" y=\"130\" font-size=\"11\" text-anchor=\"middle\" fill=\"#1e293b\">(∂S/∂P)_T = −(∂V/∂T)_P</text></svg>",
-        "caption": ""
-      },
       "options": [
         "(∂S/∂V)_T = (∂P/∂T)_V",
         "(∂T/∂V)_S = (∂P/∂S)_V",
@@ -530,11 +465,6 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "The Clausius-Clapeyron equation gives dP/dT for a phase boundary. For liquid-gas equilibrium, dP/dT:",
-      "figure": {
-        "kind": "svg",
-        "markup": "<svg viewBox=\"0 0 340 180\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"340\" height=\"180\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"170\" y=\"20\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1e293b\">Phase Diagram (P-T)</text><line x1=\"50\" y1=\"170\" x2=\"300\" y2=\"170\" stroke=\"#94a3b8\" stroke-width=\"1\"/><line x1=\"50\" y1=\"170\" x2=\"50\" y2=\"30\" stroke=\"#94a3b8\" stroke-width=\"1\"/><text x=\"295\" y=\"165\" font-size=\"10\" fill=\"#64748b\">T</text><text x=\"55\" y=\"32\" font-size=\"10\" fill=\"#64748b\">P</text><path d=\"M60,130 L130,80 L200,100 L280,60\" stroke=\"#3b82f6\" stroke-width=\"2\" fill=\"none\"/><path d=\"M130,80 L100,150\" stroke=\"#ef4444\" stroke-width=\"2\" fill=\"none\"/><path d=\"M130,80 L180,40\" stroke=\"#22c55e\" stroke-width=\"2\" fill=\"none\"/><text x=\"80\" y=\"155\" font-size=\"10\" fill=\"#3b82f6\">solid</text><text x=\"150\" y=\"115\" font-size=\"10\" fill=\"#ef4444\">liquid</text><text x=\"230\" y=\"70\" font-size=\"10\" fill=\"#22c55e\">gas</text><circle cx=\"130\" cy=\"80\" r=\"4\" fill=\"#f59e0b\"/><text x=\"140\" y=\"78\" font-size=\"9\" fill=\"#f59e0b\">triple pt</text></svg>",
-        "caption": ""
-      },
       "options": [
         "Always negative",
         "Always positive",
@@ -556,11 +486,6 @@
       "marks": 1,
       "difficulty": "hard",
       "stem": "Near a second-order phase transition, M ∝ (T_c − T)^β. The critical exponent β for the 2D Ising model is:",
-      "figure": {
-        "kind": "svg",
-        "markup": "<svg viewBox=\"0 0 340 170\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"340\" height=\"170\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"170\" y=\"20\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1e293b\">Order Parameter Near T_c</text><line x1=\"50\" y1=\"150\" x2=\"300\" y2=\"150\" stroke=\"#94a3b8\" stroke-width=\"1\"/><line x1=\"50\" y1=\"150\" x2=\"50\" y2=\"30\" stroke=\"#94a3b8\" stroke-width=\"1\"/><text x=\"295\" y=\"145\" font-size=\"10\" fill=\"#64748b\">T</text><text x=\"55\" y=\"32\" font-size=\"10\" fill=\"#64748b\">M</text><path d=\"M60,40 Q100,42 170,145\" stroke=\"#3b82f6\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"170\" cy=\"145\" r=\"4\" fill=\"#ef4444\"/><text x=\"175\" y=\"140\" font-size=\"9\" fill=\"#ef4444\">T_c</text><text x=\"170\" y=\"168\" font-size=\"10\" text-anchor=\"middle\" fill=\"#64748b\">β = 1/8 for 2D Ising model</text></svg>",
-        "caption": ""
-      },
       "options": [
         "β = 1/2",
         "β = 1/3",
@@ -582,11 +507,6 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "Boltzmann's entropy S = k_B ln W. For W = 10²³, the value of S/k_B is:",
-      "figure": {
-        "kind": "svg",
-        "markup": "<svg viewBox=\"0 0 340 140\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"340\" height=\"140\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"170\" y=\"20\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1e293b\">Boltzmann Entropy: S = k_B ln W</text><text x=\"170\" y=\"50\" font-size=\"11\" text-anchor=\"middle\" fill=\"#1e293b\">ln(10²³) = 23 × ln(10)</text><text x=\"170\" y=\"80\" font-size=\"11\" text-anchor=\"middle\" fill=\"#1e293b\">= 23 × 2.3026 ≈ 52.9</text><text x=\"170\" y=\"115\" font-size=\"12\" text-anchor=\"middle\" fill=\"#3b82f6\">S/k_B ≈ 52.9</text></svg>",
-        "caption": ""
-      },
       "options": [
         "23",
         "52.9",
@@ -608,11 +528,6 @@
       "marks": 1,
       "difficulty": "hard",
       "stem": "In LS coupling, the ground state term symbol of carbon (Z=6, configuration 1s²2s²2p²) is:",
-      "figure": {
-        "kind": "svg",
-        "markup": "<svg viewBox=\"0 0 360 140\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"360\" height=\"140\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"180\" y=\"20\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1e293b\">Carbon Ground State (p²)</text><line x1=\"60\" y1=\"120\" x2=\"60\" y2=\"30\" stroke=\"#94a3b8\" stroke-width=\"1\"/><text x=\"55\" y=\"28\" font-size=\"10\" fill=\"#64748b\">E</text><line x1=\"80\" y1=\"91\" x2=\"260\" y2=\"91\" stroke=\"#3b82f6\" stroke-width=\"2\"/><text x=\"270\" y=\"95\" font-size=\"9\" fill=\"#3b82f6\">¹S (highest)</text><line x1=\"80\" y1=\"76\" x2=\"260\" y2=\"76\" stroke=\"#ef4444\" stroke-width=\"2\"/><text x=\"270\" y=\"80\" font-size=\"9\" fill=\"#ef4444\">¹D</text><line x1=\"80\" y1=\"61\" x2=\"260\" y2=\"61\" stroke=\"#22c55e\" stroke-width=\"2\"/><text x=\"270\" y=\"65\" font-size=\"9\" fill=\"#22c55e\">³P (Hund → lowest)</text><text x=\"170\" y=\"132\" font-size=\"10\" text-anchor=\"middle\" fill=\"#475569\">2p² → Terms: ³P, ¹D, ¹S</text></svg>",
-        "caption": ""
-      },
       "options": [
         "¹S₀",
         "¹D₂",
@@ -634,11 +549,6 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "The rotational constant B of a diatomic molecule is related to the moment of inertia I by:",
-      "figure": {
-        "kind": "svg",
-        "markup": "<svg viewBox=\"0 0 340 160\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"340\" height=\"160\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"170\" y=\"20\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1e293b\">Rotational Energy Levels</text><line x1=\"60\" y1=\"150\" x2=\"280\" y2=\"150\" stroke=\"#94a3b8\" stroke-width=\"1\"/><line x1=\"80\" y1=\"140\" x2=\"200\" y2=\"140\" stroke=\"#3b82f6\" stroke-width=\"1.5\"/><text x=\"210\" y=\"143\" font-size=\"9\" fill=\"#3b82f6\">J=0: E=0</text><line x1=\"80\" y1=\"115\" x2=\"200\" y2=\"115\" stroke=\"#3b82f6\" stroke-width=\"1.5\"/><text x=\"210\" y=\"118\" font-size=\"9\" fill=\"#3b82f6\">J=1: E=2B</text><line x1=\"80\" y1=\"80\" x2=\"200\" y2=\"80\" stroke=\"#3b82f6\" stroke-width=\"1.5\"/><text x=\"210\" y=\"83\" font-size=\"9\" fill=\"#3b82f6\">J=2: E=6B</text><line x1=\"80\" y1=\"45\" x2=\"200\" y2=\"45\" stroke=\"#3b82f6\" stroke-width=\"1.5\"/><text x=\"210\" y=\"48\" font-size=\"9\" fill=\"#3b82f6\">J=3: E=12B</text><text x=\"170\" y=\"158\" font-size=\"10\" text-anchor=\"middle\" fill=\"#64748b\">E_J = BJ(J+1)</text></svg>",
-        "caption": ""
-      },
       "options": [
         "B = ℏ/(2I)",
         "B = ℏ²/(2I)",
@@ -660,11 +570,6 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "In Raman spectroscopy, the ratio of anti-Stokes to Stokes intensity at temperature T is:",
-      "figure": {
-        "kind": "svg",
-        "markup": "<svg viewBox=\"0 0 360 170\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"360\" height=\"170\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"180\" y=\"20\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1e293b\">Raman Spectrum</text><line x1=\"30\" y1=\"150\" x2=\"330\" y2=\"150\" stroke=\"#94a3b8\" stroke-width=\"1\"/><line x1=\"80\" y1=\"140\" x2=\"80\" y2=\"80\" stroke=\"#ef4444\" stroke-width=\"2\"/><text x=\"80\" y=\"165\" font-size=\"9\" text-anchor=\"middle\" fill=\"#ef4444\">Anti-Stokes</text><line x1=\"180\" y1=\"140\" x2=\"180\" y2=\"40\" stroke=\"#3b82f6\" stroke-width=\"3\"/><text x=\"180\" y=\"165\" font-size=\"9\" text-anchor=\"middle\" fill=\"#3b82f6\">Rayleigh</text><line x1=\"280\" y1=\"140\" x2=\"280\" y2=\"100\" stroke=\"#22c55e\" stroke-width=\"2\"/><text x=\"280\" y=\"165\" font-size=\"9\" text-anchor=\"middle\" fill=\"#22c55e\">Stokes</text><text x=\"180\" y=\"30\" font-size=\"10\" text-anchor=\"middle\" fill=\"#475569\">I_anti-Stokes / I_Stokes = exp(−ℏω/k_BT)</text></svg>",
-        "caption": ""
-      },
       "options": [
         "exp(−ℏω/k_BT)",
         "exp(+ℏω/k_BT)",
@@ -686,11 +591,6 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "The He-Ne laser operates at a wavelength of:",
-      "figure": {
-        "kind": "svg",
-        "markup": "<svg viewBox=\"0 0 340 170\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"340\" height=\"170\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"170\" y=\"20\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1e293b\">He-Ne Laser Energy Levels</text><rect x=\"30\" y=\"35\" width=\"140\" height=\"120\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"1\" rx=\"4\"/><text x=\"100\" y=\"50\" font-size=\"10\" text-anchor=\"middle\" fill=\"#3b82f6\">Neon levels</text><line x1=\"50\" y1=\"70\" x2=\"150\" y2=\"70\" stroke=\"#ef4444\" stroke-width=\"1.5\"/><text x=\"50\" y=\"65\" font-size=\"9\" fill=\"#ef4444\">5s</text><line x1=\"50\" y1=\"100\" x2=\"150\" y2=\"100\" stroke=\"#22c55e\" stroke-width=\"1.5\"/><text x=\"50\" y=\"95\" font-size=\"9\" fill=\"#22c55e\">3s</text><line x1=\"50\" y1=\"130\" x2=\"150\" y2=\"130\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/><text x=\"50\" y=\"125\" font-size=\"9\" fill=\"#94a3b8\">2p</text><text x=\"160\" y=\"85\" font-size=\"9\" fill=\"#ef4444\">632.8 nm</text><text x=\"170\" y=\"165\" font-size=\"11\" text-anchor=\"middle\" fill=\"#1e293b\">λ = 632.8 nm (visible red)</text></svg>",
-        "caption": ""
-      },
       "options": [
         "10.6 μm",
         "632.8 nm",
@@ -712,11 +612,6 @@
       "marks": 1,
       "difficulty": "hard",
       "stem": "The Franck-Condon factor |⟨v'|v''⟩|² is largest when:",
-      "figure": {
-        "kind": "svg",
-        "markup": "<svg viewBox=\"0 0 340 180\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"340\" height=\"180\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"170\" y=\"20\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1e293b\">Franck-Condon Principle</text><rect x=\"40\" y=\"40\" width=\"130\" height=\"120\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"1\" rx=\"4\"/><text x=\"105\" y=\"55\" font-size=\"10\" text-anchor=\"middle\" fill=\"#3b82f6\">Ground State</text><path d=\"M70,150 Q105,100 140,150\" stroke=\"#3b82f6\" stroke-width=\"1.5\" fill=\"none\"/><rect x=\"180\" y=\"40\" width=\"130\" height=\"120\" fill=\"none\" stroke=\"#ef4444\" stroke-width=\"1\" rx=\"4\"/><text x=\"245\" y=\"55\" font-size=\"10\" text-anchor=\"middle\" fill=\"#ef4444\">Excited State</text><path d=\"M210,150 Q245,110 280,150\" stroke=\"#ef4444\" stroke-width=\"1.5\" fill=\"none\"/><line x1=\"105\" y1=\"130\" x2=\"245\" y2=\"130\" stroke=\"#22c55e\" stroke-width=\"1.5\"/><text x=\"175\" y=\"125\" font-size=\"9\" fill=\"#22c55e\">vertical transition</text><text x=\"170\" y=\"175\" font-size=\"10\" text-anchor=\"middle\" fill=\"#475569\">Overlap largest when bond lengths approximately equal</text></svg>",
-        "caption": ""
-      },
       "options": [
         "Vibrational frequencies very different",
         "Bond lengths very different",
@@ -738,11 +633,6 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "In a 1D monatomic lattice, the group velocity of phonons at the Brillouin zone boundary (k = π/a) is:",
-      "figure": {
-        "kind": "svg",
-        "markup": "<svg viewBox=\"0 0 340 170\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"340\" height=\"170\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"170\" y=\"20\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1e293b\">Phonon Dispersion (1D)</text><line x1=\"50\" y1=\"150\" x2=\"300\" y2=\"150\" stroke=\"#94a3b8\" stroke-width=\"1\"/><line x1=\"50\" y1=\"150\" x2=\"50\" y2=\"30\" stroke=\"#94a3b8\" stroke-width=\"1\"/><text x=\"295\" y=\"145\" font-size=\"10\" fill=\"#64748b\">k</text><text x=\"55\" y=\"32\" font-size=\"10\" fill=\"#64748b\">ω</text><path d=\"M50,150 Q170,35 300,150\" stroke=\"#3b82f6\" stroke-width=\"2\" fill=\"none\"/><text x=\"290\" y=\"165\" font-size=\"9\" fill=\"#475569\">π/a</text><text x=\"310\" y=\"145\" font-size=\"9\" fill=\"#ef4444\">v_g = 0</text><text x=\"170\" y=\"25\" font-size=\"10\" text-anchor=\"middle\" fill=\"#475569\">Standing wave at zone boundary</text></svg>",
-        "caption": ""
-      },
       "options": [
         "Maximum",
         "Zero",
@@ -764,11 +654,6 @@
       "marks": 1,
       "difficulty": "hard",
       "stem": "In BCS theory, Cooper pair formation is mediated by:",
-      "figure": {
-        "kind": "svg",
-        "markup": "<svg viewBox=\"0 0 340 170\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"340\" height=\"170\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"170\" y=\"20\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1e293b\">BCS Cooper Pair Formation</text><circle cx=\"80\" cy=\"100\" r=\"15\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"2\"/><text x=\"80\" y=\"105\" font-size=\"11\" text-anchor=\"middle\" fill=\"#1e40af\">e⁻</text><circle cx=\"260\" cy=\"100\" r=\"15\" fill=\"#fee2e2\" stroke=\"#ef4444\" stroke-width=\"2\"/><text x=\"260\" y=\"105\" font-size=\"11\" text-anchor=\"middle\" fill=\"#991b1b\">e⁻</text><path d=\"M95,100 Q170,60 245,100\" stroke=\"#f59e0b\" stroke-width=\"2\" fill=\"none\" stroke-dasharray=\"5,3\"/><text x=\"170\" y=\"65\" font-size=\"10\" text-anchor=\"middle\" fill=\"#f59e0b\">phonon exchange</text><text x=\"170\" y=\"155\" font-size=\"10\" text-anchor=\"middle\" fill=\"#1e293b\">2Δ(0) ≈ 3.5 k_BT_c</text></svg>",
-        "caption": ""
-      },
       "options": [
         "Phonons (lattice vibrations)",
         "Photons",
@@ -790,11 +675,6 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "Below T_c in a ferromagnet, spontaneous magnetization arises from:",
-      "figure": {
-        "kind": "svg",
-        "markup": "<svg viewBox=\"0 0 340 180\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"340\" height=\"180\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"170\" y=\"20\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1e293b\">Ferromagnetic Domains</text><rect x=\"30\" y=\"35\" width=\"130\" height=\"55\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"1\" rx=\"2\"/><text x=\"95\" y=\"65\" font-size=\"9\" text-anchor=\"middle\" fill=\"#1e40af\">Domain 1 →</text><rect x=\"180\" y=\"35\" width=\"130\" height=\"55\" fill=\"#fee2e2\" stroke=\"#ef4444\" stroke-width=\"1\" rx=\"2\"/><text x=\"245\" y=\"65\" font-size=\"9\" text-anchor=\"middle\" fill=\"#991b1b\">Domain 2 ←</text><rect x=\"30\" y=\"100\" width=\"130\" height=\"55\" fill=\"#ecfdf5\" stroke=\"#22c55e\" stroke-width=\"1\" rx=\"2\"/><text x=\"95\" y=\"130\" font-size=\"9\" text-anchor=\"middle\" fill=\"#065f46\">Domain 3 ↓</text><rect x=\"180\" y=\"100\" width=\"130\" height=\"55\" fill=\"#fef3c7\" stroke=\"#f59e0b\" stroke-width=\"1\" rx=\"2\"/><text x=\"245\" y=\"130\" font-size=\"9\" text-anchor=\"middle\" fill=\"#92400e\">Domain 4 ↑</text><text x=\"170\" y=\"175\" font-size=\"10\" text-anchor=\"middle\" fill=\"#1e293b\">Exchange interaction aligns neighboring spins</text></svg>",
-        "caption": ""
-      },
       "options": [
         "Thermal agitation",
         "Exchange interaction between spins",
@@ -816,11 +696,6 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "In the tight-binding model, the bandwidth W of a 1D chain with hopping integral t is:",
-      "figure": {
-        "kind": "svg",
-        "markup": "<svg viewBox=\"0 0 340 160\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"340\" height=\"160\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"170\" y=\"20\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1e293b\">Tight-Binding Band</text><line x1=\"50\" y1=\"140\" x2=\"300\" y2=\"140\" stroke=\"#94a3b8\" stroke-width=\"1\"/><line x1=\"170\" y1=\"30\" x2=\"170\" y2=\"140\" stroke=\"#94a3b8\" stroke-width=\"1\"/><path d=\"M60,70 Q110,55 170,35 Q230,55 300,70\" stroke=\"#3b82f6\" stroke-width=\"2\" fill=\"none\"/><path d=\"M60,110 Q110,95 170,75 Q230,95 300,110\" stroke=\"#3b82f6\" stroke-width=\"2\" fill=\"none\"/><text x=\"40\" y=\"73\" font-size=\"9\" fill=\"#475569\">E₀+2t</text><text x=\"40\" y=\"113\" font-size=\"9\" fill=\"#475569\">E₀−2t</text><text x=\"310\" y=\"50\" font-size=\"9\" fill=\"#3b82f6\">4t = W</text></svg>",
-        "caption": ""
-      },
       "options": [
         "2t",
         "4t",
@@ -842,11 +717,6 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "In intrinsic silicon at room temperature, nᵢ ≈:",
-      "figure": {
-        "kind": "svg",
-        "markup": "<svg viewBox=\"0 0 340 160\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"340\" height=\"160\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"170\" y=\"20\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1e293b\">Intrinsic Carrier Concentration</text><text x=\"30\" y=\"50\" font-size=\"11\" fill=\"#1e293b\">nᵢ² = N_c N_v exp(−E_g/k_BT)</text><text x=\"50\" y=\"90\" font-size=\"10\" fill=\"#3b82f6\">nᵢ(Si) ≈ 1.5 × 10¹⁰ cm⁻³</text><text x=\"50\" y=\"115\" font-size=\"10\" fill=\"#ef4444\">nᵢ(Ge) ≈ 2.4 × 10¹³ cm⁻³</text><text x=\"50\" y=\"140\" font-size=\"10\" fill=\"#22c55e\">E_g(Si) = 1.12 eV, E_g(Ge) = 0.66 eV</text></svg>",
-        "caption": ""
-      },
       "options": [
         "1.5 × 10¹⁰ cm⁻³",
         "1.5 × 10¹⁵ cm⁻³",
@@ -868,11 +738,6 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "The current through a PN junction under forward bias V is given by:",
-      "figure": {
-        "kind": "svg",
-        "markup": "<svg viewBox=\"0 0 340 180\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"340\" height=\"180\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"170\" y=\"20\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1e293b\">PN Junction I-V Characteristic</text><line x1=\"50\" y1=\"130\" x2=\"300\" y2=\"130\" stroke=\"#94a3b8\" stroke-width=\"1\"/><line x1=\"150\" y1=\"170\" x2=\"150\" y2=\"30\" stroke=\"#94a3b8\" stroke-width=\"1\"/><text x=\"295\" y=\"125\" font-size=\"10\" fill=\"#64748b\">V</text><text x=\"155\" y=\"32\" font-size=\"10\" fill=\"#64748b\">I</text><path d=\"M50,130 Q100,130 140,130 Q160,130 170,120 Q180,100 190,70 Q200,40 210,35\" stroke=\"#3b82f6\" stroke-width=\"2\" fill=\"none\"/><text x=\"215\" y=\"30\" font-size=\"9\" fill=\"#3b82f6\">forward</text><text x=\"60\" y=\"125\" font-size=\"9\" fill=\"#ef4444\">reverse</text><text x=\"170\" y=\"175\" font-size=\"11\" text-anchor=\"middle\" fill=\"#1e293b\">I = I₀[exp(qV/nk_BT) − 1]</text></svg>",
-        "caption": ""
-      },
       "options": [
         "I = I₀ exp(qV/k_BT)",
         "I = I₀[exp(qV/nk_BT) − 1]",
@@ -894,11 +759,6 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "In a BJT common-emitter configuration, I_C = β I_B. The current gain β typically ranges from:",
-      "figure": {
-        "kind": "svg",
-        "markup": "<svg viewBox=\"0 0 340 150\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"340\" height=\"150\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"170\" y=\"20\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1e293b\">BJT Common-Emitter</text><circle cx=\"120\" cy=\"85\" r=\"35\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"2\"/><text x=\"120\" y=\"90\" font-size=\"11\" text-anchor=\"middle\" fill=\"#3b82f6\">BJT</text><line x1=\"85\" y1=\"85\" x2=\"50\" y2=\"85\" stroke=\"#64748b\" stroke-width=\"1.5\"/><text x=\"40\" y=\"88\" font-size=\"10\" fill=\"#64748b\">B</text><line x1=\"155\" y1=\"70\" x2=\"200\" y2=\"70\" stroke=\"#64748b\" stroke-width=\"1.5\"/><text x=\"210\" y=\"73\" font-size=\"10\" fill=\"#64748b\">C</text><line x1=\"120\" y1=\"120\" x2=\"120\" y2=\"140\" stroke=\"#64748b\" stroke-width=\"1.5\"/><text x=\"130\" y=\"140\" font-size=\"10\" fill=\"#64748b\">E</text><text x=\"230\" y=\"110\" font-size=\"11\" fill=\"#1e293b\">I_C = β I_B</text><text x=\"230\" y=\"130\" font-size=\"10\" fill=\"#475569\">β typically 50–300</text></svg>",
-        "caption": ""
-      },
       "options": [
         "5–10",
         "20–50",
@@ -920,11 +780,6 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "An RC low-pass filter has cutoff f_c = 1/(2πRC). At f = f_c, the output voltage is:",
-      "figure": {
-        "kind": "svg",
-        "markup": "<svg viewBox=\"0 0 340 150\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"340\" height=\"150\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"170\" y=\"20\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1e293b\">RC Low-Pass Filter</text><text x=\"170\" y=\"50\" font-size=\"11\" text-anchor=\"middle\" fill=\"#1e293b\">|H(jω)| = 1/√(1 + (ωRC)²)</text><text x=\"170\" y=\"80\" font-size=\"11\" text-anchor=\"middle\" fill=\"#475569\">At f = f_c: ωRC = 1</text><text x=\"170\" y=\"110\" font-size=\"12\" text-anchor=\"middle\" fill=\"#3b82f6\">V_out = V_in/√2 ≈ 0.707 V_in</text><text x=\"170\" y=\"135\" font-size=\"10\" text-anchor=\"middle\" fill=\"#64748b\">Phase shift = −45°</text></svg>",
-        "caption": ""
-      },
       "options": [
         "Half the input voltage",
         "70.7% of the input voltage (V_in/√2)",
@@ -946,11 +801,6 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "In ¹⁴₇N + ⁴₂He → ¹⁷₈O + X, the particle X is:",
-      "figure": {
-        "kind": "svg",
-        "markup": "<svg viewBox=\"0 0 340 170\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"340\" height=\"170\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"170\" y=\"20\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1e293b\">Rutherford Nuclear Reaction</text><text x=\"170\" y=\"50\" font-size=\"12\" text-anchor=\"middle\" fill=\"#1e293b\">¹⁴₇N + ⁴₂He → ¹⁷₈O + ¹₁H</text><text x=\"170\" y=\"80\" font-size=\"11\" text-anchor=\"middle\" fill=\"#475569\">A: 14 + 4 = 17 + 1 ✓</text><text x=\"170\" y=\"105\" font-size=\"11\" text-anchor=\"middle\" fill=\"#475569\">Z: 7 + 2 = 8 + 1 ✓</text><text x=\"170\" y=\"135\" font-size=\"11\" text-anchor=\"middle\" fill=\"#3b82f6\">X = ¹₁H (proton)</text><text x=\"170\" y=\"160\" font-size=\"10\" text-anchor=\"middle\" fill=\"#64748b\">Rutherford (1919) — first artificial transmutation</text></svg>",
-        "caption": ""
-      },
       "options": [
         "Neutron ⁰₁n",
         "Proton ¹₁H",
@@ -972,11 +822,6 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "Which quantity is always conserved in nuclear reactions?",
-      "figure": {
-        "kind": "svg",
-        "markup": "<svg viewBox=\"0 0 340 150\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"340\" height=\"150\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"170\" y=\"20\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1e293b\">Conservation Laws</text><text x=\"30\" y=\"50\" font-size=\"11\" fill=\"#22c55e\">✓ Always conserved: A, Z, E, p, L, S, baryon #</text><text x=\"30\" y=\"80\" font-size=\"11\" fill=\"#ef4444\">✗ Not always: parity (weak), strangeness</text><text x=\"30\" y=\"110\" font-size=\"11\" fill=\"#1e293b\">Baryon number: conserved in all known interactions</text><text x=\"30\" y=\"135\" font-size=\"11\" fill=\"#1e293b\">Lepton number: conserved in EM and strong</text></svg>",
-        "caption": ""
-      },
       "options": [
         "Parity",
         "Isospin",
@@ -998,11 +843,6 @@
       "marks": 1,
       "difficulty": "hard",
       "stem": "The quark content of a proton is:",
-      "figure": {
-        "kind": "svg",
-        "markup": "<svg viewBox=\"0 0 340 160\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"340\" height=\"160\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"170\" y=\"20\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1e293b\">Quark Content of Hadrons</text><circle cx=\"90\" cy=\"85\" r=\"40\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"2\"/><text x=\"90\" y=\"80\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#3b82f6\">Proton</text><text x=\"90\" y=\"100\" font-size=\"10\" text-anchor=\"middle\" fill=\"#3b82f6\">uud</text><circle cx=\"250\" cy=\"85\" r=\"40\" fill=\"none\" stroke=\"#ef4444\" stroke-width=\"2\"/><text x=\"250\" y=\"80\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#ef4444\">Neutron</text><text x=\"250\" y=\"100\" font-size=\"10\" text-anchor=\"middle\" fill=\"#ef4444\">udd</text><text x=\"170\" y=\"145\" font-size=\"10\" text-anchor=\"middle\" fill=\"#475569\">u: +2/3, d: −1/3 → proton: 2(2/3)+(−1/3) = +1</text></svg>",
-        "caption": ""
-      },
       "options": [
         "udd",
         "uud",
@@ -1024,11 +864,6 @@
       "marks": 1,
       "difficulty": "medium",
       "stem": "A radioactive substance has half-life 5 years. What fraction remains after 20 years?",
-      "figure": {
-        "kind": "svg",
-        "markup": "<svg viewBox=\"0 0 340 170\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"340\" height=\"170\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"170\" y=\"20\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1e293b\">Radioactive Decay</text><line x1=\"40\" y1=\"150\" x2=\"300\" y2=\"150\" stroke=\"#94a3b8\" stroke-width=\"1\"/><line x1=\"40\" y1=\"150\" x2=\"40\" y2=\"30\" stroke=\"#94a3b8\" stroke-width=\"1\"/><text x=\"295\" y=\"145\" font-size=\"10\" fill=\"#64748b\">t</text><text x=\"45\" y=\"32\" font-size=\"10\" fill=\"#64748b\">N/N₀</text><path d=\"M40,35 Q80,40 120,55 Q160,70 200,95 Q240,120 300,148\" stroke=\"#3b82f6\" stroke-width=\"2\" fill=\"none\"/><text x=\"80\" y=\"50\" font-size=\"9\" fill=\"#3b82f6\">5yr: 1/2</text><text x=\"150\" y=\"70\" font-size=\"9\" fill=\"#3b82f6\">15yr: 1/8</text><text x=\"250\" y=\"135\" font-size=\"9\" fill=\"#3b82f6\">20yr: 1/16</text></svg>",
-        "caption": ""
-      },
       "options": [
         "1/4",
         "1/8",
@@ -1050,11 +885,6 @@
       "marks": 1,
       "difficulty": "hard",
       "stem": "⁵⁶Fe has B/A ≈ 8.8 MeV while ²³⁵U has B/A ≈ 7.6 MeV. This implies:",
-      "figure": {
-        "kind": "svg",
-        "markup": "<svg viewBox=\"0 0 360 180\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"360\" height=\"180\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"180\" y=\"20\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1e293b\">Binding Energy per Nucleon</text><line x1=\"40\" y1=\"160\" x2=\"330\" y2=\"160\" stroke=\"#94a3b8\" stroke-width=\"1\"/><line x1=\"40\" y1=\"160\" x2=\"40\" y2=\"30\" stroke=\"#94a3b8\" stroke-width=\"1\"/><text x=\"325\" y=\"155\" font-size=\"10\" fill=\"#64748b\">A</text><text x=\"45\" y=\"32\" font-size=\"10\" fill=\"#64748b\">B/A</text><path d=\"M50,155 Q80,100 120,60 Q160,45 200,50 Q240,55 280,65 Q320,80 330,85\" stroke=\"#3b82f6\" stroke-width=\"2\" fill=\"none\"/><text x=\"140\" y=\"40\" font-size=\"9\" fill=\"#3b82f6\">⁵⁶Fe: 8.8 MeV</text><text x=\"300\" y=\"78\" font-size=\"9\" fill=\"#ef4444\">²³⁵U: 7.6 MeV</text><text x=\"180\" y=\"175\" font-size=\"10\" text-anchor=\"middle\" fill=\"#475569\">Fission of heavy / fusion of light → energy release</text></svg>",
-        "caption": ""
-      },
       "options": [
         "Fission of iron releases energy",
         "Fusion of uranium releases energy",
