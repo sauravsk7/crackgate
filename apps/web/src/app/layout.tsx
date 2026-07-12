@@ -19,6 +19,7 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-inter", display: "sw
 export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
+  themeColor: "#4F46E5",
 };
 
 export const metadata: Metadata = {
@@ -59,6 +60,9 @@ export default async function RootLayout({ children }: { children: React.ReactNo
   return (
     <html lang="en" className={inter.variable} suppressHydrationWarning>
       <head>
+        <link rel="manifest" href="/manifest.json" />
+        <meta name="theme-color" content="#4F46E5" />
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
         <ThemeScript />
         {gscContent && <meta name="google-site-verification" content={gscContent} />}
         {gaId && (
