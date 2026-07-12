@@ -242,20 +242,20 @@ function Cell({ v, highlight, accent }: { v: string | boolean; highlight?: boole
 }
 
 function PlanCard({ plan, defaultSubject = "" }: { plan: typeof PLANS[number]; defaultSubject?: string }) {
-  const [loading, setLoading] = useState<"pro" | "premium" | null>(null);
+  const [loading, setLoading] = useState(false);
   const router = useRouter();
   const devMode = process.env.NEXT_PUBLIC_DEV_TOOLS === "1";
 
-  async function buy(tier: "pro" | "premium") {
+  async function buy() {
     if (plan.id === "free") return router.push("/login");
 
     if (devMode) {
-      setLoading(tier);
+      setLoading(true);
       try {
         const r = await fetch("/api/dev/set-plan", {
           method: "POST",
           headers: { "content-type": "application/json" },
-          body: JSON.stringify({ plan: tier }),
+          body: JSON.stringify({ plan: plan.id }),
         });
         if (r.status === 401) return router.push(`/login?next=/pricing`);
         const t = await r.text();
@@ -265,15 +265,15 @@ function PlanCard({ plan, defaultSubject = "" }: { plan: typeof PLANS[number]; d
       } catch (e) {
         alert((e as Error).message);
       } finally {
-        setLoading(null);
+        setLoading(false);
       }
       return;
     }
 
     if (defaultSubject) {
-      router.push(`/pay/upi?plan=${tier}&exam=GATE&subject=${defaultSubject}`);
+      router.push(`/pay/upi?plan=${plan.id}&exam=GATE&subject=${defaultSubject}`);
     } else {
-      router.push(`/pay/upi?plan=${tier}&exam=GATE`);
+      router.push(`/pay/upi?plan=${plan.id}&exam=GATE`);
     }
   }
 
@@ -300,20 +300,13 @@ function PlanCard({ plan, defaultSubject = "" }: { plan: typeof PLANS[number]; d
           Current plan
         </button>
       ) : (
-        <div className="mt-8 grid grid-cols-2 gap-3">
+        <div className="mt-8">
           <button
-            onClick={() => buy("pro")}
-            disabled={loading !== null}
-            className="btn btn-primary"
+            onClick={buy}
+            disabled={loading}
+            className={`btn w-full ${plan.id === "premium" ? "btn-accent" : "btn-primary"}`}
           >
-            {loading === "pro" ? "…" : devMode ? "⚙ Pro" : "Get Pro — ₹499"}
-          </button>
-          <button
-            onClick={() => buy("premium")}
-            disabled={loading !== null}
-            className="btn btn-accent"
-          >
-            {loading === "premium" ? "…" : devMode ? "⚙ Premium" : "Get Premium — ₹899"}
+            {loading ? "…" : devMode ? `⚙ ${plan.name}` : `${plan.cta} — ₹${plan.price}`}
           </button>
         </div>
       )}
