@@ -22,7 +22,7 @@
       "count": 10
     },
     {
-      "name": "English Language",
+      "name": "English",
       "count": 10
     }
   ],
@@ -60,7 +60,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "The first Bianchi identity for the Riemann curvature tensor states:",
       "options": [
         "R^ρ_{σ[μν;λ]} = 0 (cyclic sum vanishes)",
@@ -86,7 +86,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "The residue of f(z) = cot(z) at z = π is:",
       "options": [
         "π",
@@ -112,7 +112,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "The Fourier series of a square wave f(x) = +1 for 0 < x < π and f(x) = −1 for π < x < 2π contains:",
       "options": [
         "Only cosine terms",
@@ -138,7 +138,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "A rotation matrix in 3D for rotation about the z-axis by angle θ has eigenvalues:",
       "options": [
         "1, cos θ + i sin θ, cos θ − i sin θ",
@@ -164,7 +164,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "A bead of mass m slides without friction on a wire shaped as z = kr² in cylindrical coordinates. The Lagrangian for motion in the r-z plane (θ̇ = 0) is:",
       "options": [
         "L = ½m(1 + 4k²r²)ṙ² − mgkr²",
@@ -211,7 +211,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "For a particle in an attractive inverse-square force field, the orbit is an ellipse with semi-major axis a. The total energy E is:",
       "options": [
         "E = −k/(2a), independent of eccentricity",
@@ -253,7 +253,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "A particle has kinetic energy equal to its rest energy. Its speed as a fraction of c is:",
       "options": [
         "0.5c",
@@ -274,7 +274,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "A double pendulum has how many normal modes of small oscillation?",
       "options": [
         "1",
@@ -316,7 +316,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "At the Brewster angle, a p-polarized electromagnetic wave incident from air onto glass is:",
       "options": [
         "Fully reflected",
@@ -337,7 +337,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "stem": "A right-hand circularly polarized wave traveling in +z direction has electric field:",
       "options": [
         "E = E₀(x̂ cos(kz−ωt) + ŷ sin(kz−ωt))",
@@ -379,7 +379,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "The number of bound states in a finite square well of depth V₀ and half-width a depends on the dimensionless parameter:",
       "options": [
         "V₀a² only",
@@ -400,7 +400,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "The total degeneracy (including spin) of the n = 3 level of hydrogen is:",
       "options": [
         "9",
@@ -421,7 +421,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "Two spin-½ particles are in the singlet state. The probability of measuring total spin S = 0 is:",
       "options": [
         "0",
@@ -442,7 +442,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "In the linear Stark effect for hydrogen at n = 2, the first-order energy splitting in a field E is:",
       "options": [
         "±3ea₀E",
@@ -505,7 +505,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "In the grand canonical ensemble, the grand potential Φ is related to the grand partition function Ξ by:",
       "options": [
         "Φ = −kT ln Ξ",
@@ -526,7 +526,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "The electronic specific heat of a Fermi gas at low temperatures (T ≪ T_F) is proportional to:",
       "options": [
         "T",
@@ -547,7 +547,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "stem": "The order parameter for the ferromagnetic-to-paramagnetic transition is:",
       "options": [
         "Specific heat",
@@ -631,7 +631,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "A He-Ne laser operates at 632.8 nm. The photon energy is approximately:",
       "options": [
         "0.5 eV",
@@ -673,7 +673,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "stem": "Moseley's law gives the Kα X-ray frequency as ∝ (Z − 1)². The screening constant is 1 because:",
       "options": [
         "One electron is lost during emission",
@@ -715,7 +715,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "In the nearly-free electron model, the energy gap at the Brillouin zone boundary arises from:",
       "options": [
         "Electron-electron interactions",
@@ -757,7 +757,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "stem": "A crystal with p atoms per primitive cell has how many acoustic phonon branches?",
       "options": [
         "p",
@@ -799,7 +799,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "A MOSFET in saturation has drain current I_D ∝:",
       "options": [
         "(V_GS − V_th)",
@@ -820,7 +820,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "stem": "A common-emitter amplifier with voltage gain −100 shows the negative sign indicates:",
       "options": [
         "Power loss",
@@ -883,7 +883,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "The semi-empirical mass formula for nuclear binding energy includes all EXCEPT:",
       "options": [
         "Volume term",
@@ -904,7 +904,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "stem": "A population increases by 10% in year 1 and decreases by 10% in year 2. Starting from 10,000, the population after 2 years is:",
       "options": [
         "10,000",
@@ -930,7 +930,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "A can do a job in 10 days, B in 15 days. They work together for 4 days, then A leaves. B finishes the remaining work alone in how many days?",
       "options": [
         "2",
@@ -982,7 +982,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "Average of 30 students is 12 years. Including the teacher, average becomes 13. Teacher's age is:",
       "options": [
         "41",
@@ -1008,7 +1008,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "From 3 red, 4 blue, 5 green balls, 3 drawn at random. Probability all three are green:",
       "options": [
         "1/22",
@@ -1086,7 +1086,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "Money doubles in 5 years at compound interest. It becomes 8 times in how many years?",
       "options": [
         "10",
@@ -1112,7 +1112,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "7 people seated around a circular table. Number of arrangements:",
       "options": [
         "7!",
@@ -1138,7 +1138,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "stem": "Remainder when 2¹⁰⁰ is divided by 7:",
       "options": [
         "1",
@@ -1164,7 +1164,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "Still water speed 12 km/h, current 4 km/h. Round trip to a place takes 3 hours. Distance to place:",
       "options": [
         "14 km",
@@ -1216,7 +1216,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "Present ages of A, B, C are in ratio 4:5:6. Eight years ago, sum was 66. B's present age is:",
       "options": [
         "20",
@@ -1242,7 +1242,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "Next in series: 3, 7, 15, 31, 63, ?",
       "options": [
         "95",
@@ -1268,7 +1268,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "If DELHI = 73541 and CALCUTTA = 82589662, then CALICUT = ?",
       "options": [
         "8251896",
@@ -1372,7 +1372,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "Mix rice at Rs.30/kg and Rs.45/kg to get Rs.36/kg. Ratio is:",
       "options": [
         "3:2",
@@ -1398,7 +1398,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "Six people A-F sit in two rows of three. A faces north with B to the right. C is opposite B. D is to the left of C. E is between D and F. Who sits behind A?",
       "options": [
         "C",
@@ -1419,432 +1419,12 @@
     },
     {
       "id": 61,
-      "subject": "General Awareness",
-      "topic": "Indian Economy",
-      "section": "GA",
-      "type": "MCQ",
-      "marks": 1,
-      "difficulty": "easy",
-      "stem": "Which ministry is the nodal agency for petroleum and natural gas in India?",
-      "options": [
-        "NITI Aayog",
-        "Ministry of Petroleum and Natural Gas",
-        "Oil India Limited",
-        "GAIL"
-      ],
-      "answer": 1,
-      "solution": "The Ministry of Petroleum and Natural Gas (MoPNG) is responsible for oil and gas policy, regulation, and administration in India.",
-      "estSec": 10,
-      "topicWeight": 0.1,
-      "source": "curated"
-    },
-    {
-      "id": 62,
-      "subject": "General Awareness",
-      "topic": "ONGC History",
-      "section": "GA",
-      "type": "MCQ",
-      "marks": 1,
-      "difficulty": "easy",
-      "stem": "ONGC was founded in which year?",
-      "options": [
-        "1952",
-        "1956",
-        "1960",
-        "1965"
-      ],
-      "answer": 1,
-      "solution": "ONGC was established on August 14, 1956 as a government company, later converted to a public limited company in 1994.",
-      "estSec": 10,
-      "topicWeight": 0.1,
-      "source": "curated"
-    },
-    {
-      "id": 63,
-      "subject": "General Awareness",
-      "topic": "Indian Geography",
-      "section": "GA",
-      "type": "MCQ",
-      "marks": 1,
-      "difficulty": "medium",
-      "stem": "The Bombay High offshore oil field is located in which basin?",
-      "options": [
-        "Krishna-Godavari",
-        "Mumbai Offshore",
-        "Cambay",
-        "Assam Shelf"
-      ],
-      "answer": 1,
-      "solution": "Mumbai High (formerly Bombay High) is India's largest offshore oil field, ~160 km west of Mumbai in the Mumbai Offshore Basin, discovered in 1974.",
-      "estSec": 15,
-      "topicWeight": 0.1,
-      "source": "curated"
-    },
-    {
-      "id": 64,
-      "subject": "General Awareness",
-      "topic": "Science & Technology",
-      "section": "GA",
-      "type": "MCQ",
-      "marks": 1,
-      "difficulty": "medium",
-      "stem": "Which Indian satellite series is used for communication and broadcasting?",
-      "options": [
-        "IRS",
-        "INSAT",
-        "GSAT",
-        "Both INSAT and GSAT"
-      ],
-      "answer": 3,
-      "solution": "Both INSAT and GSAT series are used for communication, broadcasting, and meteorological observations over India.",
-      "estSec": 15,
-      "topicWeight": 0.1,
-      "source": "curated"
-    },
-    {
-      "id": 65,
-      "subject": "General Awareness",
-      "topic": "Environment",
-      "section": "GA",
-      "type": "MCQ",
-      "marks": 1,
-      "difficulty": "medium",
-      "stem": "The Paris Agreement aims to limit global warming to:",
-      "options": [
-        "1.0°C above pre-industrial levels",
-        "1.5°C above pre-industrial levels",
-        "2.0°C above pre-industrial levels",
-        "Well below 2°C, with efforts toward 1.5°C"
-      ],
-      "answer": 3,
-      "solution": "The Paris Agreement (2015) aims to limit warming to well below 2°C, with efforts to limit it to 1.5°C above pre-industrial levels.",
-      "estSec": 15,
-      "topicWeight": 0.1,
-      "source": "curated"
-    },
-    {
-      "id": 66,
-      "subject": "General Awareness",
-      "topic": "ONGC Corporate",
-      "section": "GA",
-      "type": "MCQ",
-      "marks": 1,
-      "difficulty": "easy",
-      "stem": "ONGC headquarters is located in:",
-      "options": [
-        "Mumbai",
-        "New Delhi",
-        "Dehradun",
-        "Kolkata"
-      ],
-      "answer": 2,
-      "solution": "ONGC is headquartered in Dehradun, Uttarakhand. Its registered office is in New Delhi.",
-      "estSec": 10,
-      "topicWeight": 0.1,
-      "source": "curated"
-    },
-    {
-      "id": 67,
-      "subject": "General Awareness",
-      "topic": "Indian Economy",
-      "section": "GA",
-      "type": "MCQ",
-      "marks": 1,
-      "difficulty": "medium",
-      "stem": "India's Strategic Petroleum Reserves are managed by:",
-      "options": [
-        "ONGC",
-        "IOCL",
-        "ISPRL",
-        "BPCL"
-      ],
-      "answer": 2,
-      "solution": "Indian Strategic Petroleum Reserves Limited (ISPRL) manages India's strategic reserves at Visakhapatnam, Mangalore, and Padur.",
-      "estSec": 15,
-      "topicWeight": 0.1,
-      "source": "curated"
-    },
-    {
-      "id": 68,
-      "subject": "General Awareness",
-      "topic": "Nuclear Energy",
-      "section": "GA",
-      "type": "MCQ",
-      "marks": 1,
-      "difficulty": "medium",
-      "stem": "India's first nuclear power station was established at:",
-      "options": [
-        "Kudankulam",
-        "Tarapur",
-        "Kalpakkam",
-        "Rawatbhata"
-      ],
-      "answer": 1,
-      "solution": "Tarapur Atomic Power Station (TAPS) in Maharashtra was India's first commercial nuclear power station, commissioned in 1969.",
-      "estSec": 10,
-      "topicWeight": 0.1,
-      "source": "curated"
-    },
-    {
-      "id": 69,
-      "subject": "General Awareness",
-      "topic": "Energy Sector",
-      "section": "GA",
-      "type": "MCQ",
-      "marks": 1,
-      "difficulty": "easy",
-      "stem": "India's largest oil-producing state is:",
-      "options": [
-        "Gujarat",
-        "Rajasthan",
-        "Assam",
-        "Andhra Pradesh"
-      ],
-      "answer": 1,
-      "solution": "Rajasthan has been India's largest oil-producing state since 2009, with fields in the Barmer district operated by Cairn Energy (now Vedanta).",
-      "estSec": 10,
-      "topicWeight": 0.1,
-      "source": "curated"
-    },
-    {
-      "id": 70,
-      "subject": "General Awareness",
-      "topic": "General Science",
-      "section": "GA",
-      "type": "MCQ",
-      "marks": 1,
-      "difficulty": "medium",
-      "stem": "The Richter scale measures:",
-      "options": [
-        "Wind speed",
-        "Earthquake magnitude",
-        "Temperature",
-        "Humidity"
-      ],
-      "answer": 1,
-      "solution": "The Richter scale (now moment magnitude scale) measures earthquake magnitude based on seismic wave amplitudes.",
-      "estSec": 10,
-      "topicWeight": 0.1,
-      "source": "curated"
-    },
-    {
-      "id": 71,
-      "subject": "English Language",
-      "topic": "Vocabulary · Synonyms",
-      "section": "English",
-      "type": "MCQ",
-      "marks": 1,
-      "difficulty": "easy",
-      "stem": "Choose the word most similar to 'ABUNDANT':",
-      "options": [
-        "Scarce",
-        "Plentiful",
-        "Moderate",
-        "Limited"
-      ],
-      "answer": 1,
-      "solution": "Abundant means existing in large quantities; plentiful. It is the antonym of scarce or limited.",
-      "estSec": 10,
-      "topicWeight": 0.1,
-      "source": "curated"
-    },
-    {
-      "id": 72,
-      "subject": "English Language",
-      "topic": "Vocabulary · Antonyms",
-      "section": "English",
-      "type": "MCQ",
-      "marks": 1,
-      "difficulty": "easy",
-      "stem": "Choose the word most opposite to 'BENIGN':",
-      "options": [
-        "Gentle",
-        "Malignant",
-        "Harmless",
-        "Mild"
-      ],
-      "answer": 1,
-      "solution": "Benign means gentle, kindly, or not harmful. Malignant means harmful, hostile, or cancerous — the direct opposite.",
-      "estSec": 10,
-      "topicWeight": 0.1,
-      "source": "curated"
-    },
-    {
-      "id": 73,
-      "subject": "English Language",
-      "topic": "Grammar · Error Detection",
-      "section": "English",
-      "type": "MCQ",
-      "marks": 1,
-      "difficulty": "medium",
-      "stem": "Identify the grammatically correct sentence:",
-      "options": [
-        "Neither the teacher nor the students was present.",
-        "Each of the boys have completed their assignment.",
-        "The committee has decided to approve the proposal.",
-        "She don't know the answer to the question."
-      ],
-      "answer": 2,
-      "solution": "'The committee has decided' is correct — 'committee' is a collective noun taking a singular verb. Others: (A) 'were', (B) 'has', (D) 'doesn't'.",
-      "estSec": 15,
-      "topicWeight": 0.1,
-      "source": "curated"
-    },
-    {
-      "id": 74,
-      "subject": "English Language",
-      "topic": "Idioms & Phrases",
-      "section": "English",
-      "type": "MCQ",
-      "marks": 1,
-      "difficulty": "medium",
-      "stem": "What does 'to burn the midnight oil' mean?",
-      "options": [
-        "Waste resources",
-        "Work late into the night",
-        "Start a fire",
-        "Be very angry"
-      ],
-      "answer": 1,
-      "solution": "'Burn the midnight oil' means to work or study late into the night, originally referring to oil lamp light.",
-      "estSec": 10,
-      "topicWeight": 0.1,
-      "source": "curated"
-    },
-    {
-      "id": 75,
-      "subject": "English Language",
-      "topic": "Vocabulary · One Word Substitution",
-      "section": "English",
-      "type": "MCQ",
-      "marks": 1,
-      "difficulty": "medium",
-      "stem": "A person who loves books is called a:",
-      "options": [
-        "Bibliophile",
-        "Philatelist",
-        "Numismatist",
-        "Cinephile"
-      ],
-      "answer": 0,
-      "solution": "Bibliophile = book lover. Philatelist = stamp collector. Numismatist = coin collector. Cinephile = movie enthusiast.",
-      "estSec": 10,
-      "topicWeight": 0.1,
-      "source": "curated"
-    },
-    {
-      "id": 76,
-      "subject": "English Language",
-      "topic": "Grammar · Prepositions",
-      "section": "English",
-      "type": "MCQ",
-      "marks": 1,
-      "difficulty": "easy",
-      "stem": "Choose: 'The meeting is _____ Monday.'",
-      "options": [
-        "in",
-        "on",
-        "at",
-        "by"
-      ],
-      "answer": 1,
-      "solution": "We use 'on' with days of the week: on Monday, on Tuesday, etc.",
-      "estSec": 10,
-      "topicWeight": 0.1,
-      "source": "curated"
-    },
-    {
-      "id": 77,
-      "subject": "English Language",
-      "topic": "Reading Comprehension",
-      "section": "English",
-      "type": "MCQ",
-      "marks": 1,
-      "difficulty": "medium",
-      "stem": "Read: 'The monsoon is a seasonal wind pattern bringing heavy rainfall to India, driven by differential heating of land and sea.' What primarily drives the monsoon?",
-      "options": [
-        "Ocean currents",
-        "Differential heating of land and sea",
-        "Mountain ranges",
-        "Coriolis effect"
-      ],
-      "answer": 1,
-      "solution": "The passage explicitly states the monsoon is driven by differential heating of land and sea, creating seasonal pressure gradients.",
-      "estSec": 15,
-      "topicWeight": 0.1,
-      "source": "curated"
-    },
-    {
-      "id": 78,
-      "subject": "English Language",
-      "topic": "Grammar · Tenses",
-      "section": "English",
-      "type": "MCQ",
-      "marks": 1,
-      "difficulty": "medium",
-      "stem": "Choose: 'By the time we arrived, the train _____.'",
-      "options": [
-        "has left",
-        "had left",
-        "was leaving",
-        "left"
-      ],
-      "answer": 1,
-      "solution": "Past perfect 'had left' for an action completed before another past action. Sequence: train left → we arrived.",
-      "estSec": 10,
-      "topicWeight": 0.1,
-      "source": "curated"
-    },
-    {
-      "id": 79,
-      "subject": "English Language",
-      "topic": "Vocabulary · Synonyms",
-      "section": "English",
-      "type": "MCQ",
-      "marks": 1,
-      "difficulty": "easy",
-      "stem": "Choose the word most similar to 'ELOQUENT':",
-      "options": [
-        "Fluent and persuasive",
-        "Loud",
-        "Confused",
-        "Silent"
-      ],
-      "answer": 0,
-      "solution": "Eloquent means fluent, persuasive, and expressive in speaking or writing.",
-      "estSec": 10,
-      "topicWeight": 0.1,
-      "source": "curated"
-    },
-    {
-      "id": 80,
-      "subject": "English Language",
-      "topic": "Grammar · Prepositions",
-      "section": "English",
-      "type": "MCQ",
-      "marks": 1,
-      "difficulty": "easy",
-      "stem": "She has been working here _____ 2019.",
-      "options": [
-        "from",
-        "since",
-        "for",
-        "during"
-      ],
-      "answer": 1,
-      "solution": "'Since' with a specific point in time. 'For' with a duration. 'From' needs 'to/until' for a range.",
-      "estSec": 10,
-      "topicWeight": 0.1,
-      "source": "curated"
-    },
-    {
-      "id": 76,
       "subject": "Aptitude",
       "topic": "Quantitative · Percentage",
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "stem": "A student scored 45% in an exam with 200 maximum marks. How many marks did the student score?",
       "options": [
         "90",
@@ -1864,7 +1444,7 @@
       }
     },
     {
-      "id": 77,
+      "id": 62,
       "subject": "Aptitude",
       "topic": "Quantitative · Time & Work",
       "section": "Aptitude",
@@ -1890,13 +1470,13 @@
       }
     },
     {
-      "id": 78,
+      "id": 63,
       "subject": "Aptitude",
       "topic": "Reasoning · Coding-Decoding",
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "stem": "In a certain code language, COMPUTER is written as DNPQVUFS. How is SCIENCE written in that code?",
       "options": [
         "TDJFODF",
@@ -1916,7 +1496,7 @@
       }
     },
     {
-      "id": 79,
+      "id": 64,
       "subject": "Aptitude",
       "topic": "Quantitative · SI & CI",
       "section": "Aptitude",
@@ -1942,13 +1522,13 @@
       }
     },
     {
-      "id": 80,
+      "id": 65,
       "subject": "Aptitude",
       "topic": "Quantitative · Ratio & Proportion",
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "stem": "The ratio of boys to girls in a class is 3:2. If there are 30 girls, the total number of students is:",
       "options": [
         "75",
@@ -1966,6 +1546,426 @@
         "caption": "Bar representation of ratio 3:2",
         "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Ratio Visualization</text><rect x=\"60\" y=\"65\" width=\"120\" height=\"40\" fill=\"#3b82f6\" stroke=\"#3b82f6\" rx=\"4\"/><rect x=\"60\" y=\"120\" width=\"80\" height=\"40\" fill=\"#ef4444\" stroke=\"#ef4444\" rx=\"4\"/><text x=\"120\" y=\"90\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#fff\" text-anchor=\"middle\" font-weight=\"bold\">3 parts</text><text x=\"100\" y=\"145\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#fff\" text-anchor=\"middle\" font-weight=\"bold\">2 parts</text><text x=\"300\" y=\"100\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">A : B = 3 : 2</text></svg>"
       }
+    },
+    {
+      "id": 66,
+      "subject": "General Awareness",
+      "topic": "Current Affairs · Global",
+      "section": "GA",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "easy",
+      "stem": "The G20 summit under India's presidency was held in:",
+      "options": [
+        "Mumbai",
+        "New Delhi",
+        "Bengaluru",
+        "Chennai"
+      ],
+      "answer": 1,
+      "solution": "The G20 summit was held in New Delhi.",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 67,
+      "subject": "General Awareness",
+      "topic": "Current Affairs · PSU",
+      "section": "GA",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "easy",
+      "stem": "Which PSU recently achieved the milestone of 1 billion tonnes of crude oil production?",
+      "options": [
+        "BPCL",
+        "HPCL",
+        "ONGC",
+        "IOCL"
+      ],
+      "answer": 2,
+      "solution": "ONGC achieved this milestone.",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 68,
+      "subject": "General Awareness",
+      "topic": "Current Affairs · Economy",
+      "section": "GA",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "India's GDP growth rate for FY2025-26 is estimated at approximately:",
+      "options": [
+        "5.5%",
+        "6.5%",
+        "7.5%",
+        "8.5%"
+      ],
+      "answer": 1,
+      "solution": "India's GDP growth for FY2025-26 is estimated at around 6.5%.",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 69,
+      "subject": "General Awareness",
+      "topic": "Current Affairs · Technology",
+      "section": "GA",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "Which company recently developed the most advanced AI chip for data centers?",
+      "options": [
+        "Intel",
+        "AMD",
+        "Nvidia",
+        "Qualcomm"
+      ],
+      "answer": 2,
+      "solution": "Nvidia has been leading in AI chip development.",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 70,
+      "subject": "General Awareness",
+      "topic": "Current Affairs · Technology",
+      "section": "GA",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "India's 5G rollout was led by which telecom operator?",
+      "options": [
+        "Airtel",
+        "Jio",
+        "BSNL",
+        "Vi"
+      ],
+      "answer": 1,
+      "solution": "Reliance Jio led the 5G rollout in India.",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 71,
+      "subject": "General Awareness",
+      "topic": "Current Affairs · Policy",
+      "section": "GA",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "The PLI scheme for semiconductor manufacturing was approved with an outlay of:",
+      "options": [
+        "₹10,000 crore",
+        "₹25,000 crore",
+        "₹76,000 crore",
+        "₹1,00,000 crore"
+      ],
+      "answer": 2,
+      "solution": "The PLI scheme for semiconductors has an outlay of ₹76,000 crore.",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 72,
+      "subject": "General Awareness",
+      "topic": "Static GK · Indian Polity",
+      "section": "GA",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "easy",
+      "stem": "Upper House of Indian Parliament:",
+      "options": [
+        "Lok Sabha",
+        "Rajya Sabha",
+        "Vidhan Sabha",
+        "Vidhan Parishad"
+      ],
+      "answer": 1,
+      "solution": "Rajya Sabha is the Upper House.",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 73,
+      "subject": "General Awareness",
+      "topic": "Static GK · Geography",
+      "section": "GA",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "Largest freshwater lake in India:",
+      "options": [
+        "Chilika Lake",
+        "Wular Lake",
+        "Dal Lake",
+        "Sambhar Lake"
+      ],
+      "answer": 1,
+      "solution": "Wular Lake in J&K is the largest freshwater lake in India.",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 74,
+      "subject": "General Awareness",
+      "topic": "Static GK · Science",
+      "section": "GA",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "The hardest natural substance on Earth is:",
+      "options": [
+        "Quartz",
+        "Topaz",
+        "Diamond",
+        "Corundum"
+      ],
+      "answer": 2,
+      "solution": "Diamond is the hardest natural substance (10 on Mohs scale).",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 75,
+      "subject": "General Awareness",
+      "topic": "Static GK · History",
+      "section": "GA",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "India gained independence on:",
+      "options": [
+        "January 26, 1950",
+        "August 15, 1947",
+        "August 15, 1950",
+        "January 26, 1947"
+      ],
+      "answer": 1,
+      "solution": "India gained independence on August 15, 1947.",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 76,
+      "subject": "English",
+      "topic": "English Language · Prepositions",
+      "section": "English",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "The meeting was put ___ Friday.",
+      "options": [
+        "on",
+        "at",
+        "off",
+        "up"
+      ],
+      "answer": 2,
+      "solution": "Put off means to postpone.",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 77,
+      "subject": "English",
+      "topic": "English Language · Vocabulary",
+      "section": "English",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "Choose the antonym of 'benevolent':",
+      "options": [
+        "Kind",
+        "Malevolent",
+        "Generous",
+        "Charitable"
+      ],
+      "answer": 1,
+      "solution": "Benevolent means well-meaning; malevolent means ill-willed.",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 78,
+      "subject": "English",
+      "topic": "English Language · Grammar",
+      "section": "English",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "The manager, along with his team, ___ present at the meeting.",
+      "options": [
+        "were",
+        "are",
+        "was",
+        "have been"
+      ],
+      "answer": 2,
+      "solution": "When 'along with' is used, the verb agrees with the first subject (manager → was).",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 79,
+      "subject": "English",
+      "topic": "English Language · Vocabulary",
+      "section": "English",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "easy",
+      "stem": "What does 'ameliorate' mean?",
+      "options": [
+        "Worsen",
+        "Improve",
+        "Destroy",
+        "Maintain"
+      ],
+      "answer": 1,
+      "solution": "Ameliorate means to make better or improve.",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 80,
+      "subject": "English",
+      "topic": "English Language · Idioms",
+      "section": "English",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "What does 'break the ice' mean?",
+      "options": [
+        "Destroy ice",
+        "Initiate conversation",
+        "Cause trouble",
+        "End relationship"
+      ],
+      "answer": 1,
+      "solution": "Break the ice means to initiate conversation in a social setting.",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 81,
+      "subject": "English",
+      "topic": "English Language · Articles",
+      "section": "English",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "___ honest man always speaks the truth.",
+      "options": [
+        "A",
+        "An",
+        "The",
+        "No article"
+      ],
+      "answer": 1,
+      "solution": "'An' before words starting with silent 'h'.",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 82,
+      "subject": "English",
+      "topic": "English Language · Vocabulary",
+      "section": "English",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "easy",
+      "stem": "Choose the synonym of 'ambiguous':",
+      "options": [
+        "Clear",
+        "Vague",
+        "Definite",
+        "Obvious"
+      ],
+      "answer": 1,
+      "solution": "Ambiguous means open to more than one interpretation; vague.",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 83,
+      "subject": "English",
+      "topic": "English Language · Vocabulary",
+      "section": "English",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "easy",
+      "stem": "What is a 'watershed' moment?",
+      "options": [
+        "A moment near water",
+        "A turning point",
+        "A disaster",
+        "A celebration"
+      ],
+      "answer": 1,
+      "solution": "A watershed moment is a turning point or critical moment.",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 84,
+      "subject": "English",
+      "topic": "English Language · Vocabulary",
+      "section": "English",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "What is the meaning of 'diligent'?",
+      "options": [
+        "Lazy",
+        "Hardworking",
+        "Careless",
+        "Slow"
+      ],
+      "answer": 1,
+      "solution": "Diligent means showing care and effort in one's work.",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 85,
+      "subject": "English",
+      "topic": "English Language · Vocabulary",
+      "section": "English",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "What does 'resilient' mean?",
+      "options": [
+        "Fragile",
+        "Able to recover quickly",
+        "Slow",
+        "Weak"
+      ],
+      "answer": 1,
+      "solution": "Resilient means able to recover quickly from difficulties.",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated"
     }
   ]
 }

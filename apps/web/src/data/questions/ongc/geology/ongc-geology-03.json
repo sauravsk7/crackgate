@@ -22,7 +22,7 @@
       "count": 10
     },
     {
-      "name": "English Language",
+      "name": "English",
       "count": 10
     }
   ],
@@ -34,7 +34,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
+      "difficulty": "hard",
       "stem": "The zeolite facies represents metamorphism at which approximate P-T conditions?",
       "options": [
         "Low temperature and low pressure (200–350°C, 1–3 kbar)",
@@ -55,7 +55,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "stem": "Which index mineral marks the beginning of medium-grade regional metamorphism in pelitic rocks?",
       "options": [
         "Chlorite",
@@ -102,7 +102,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "stem": "The foliation in a schist is primarily defined by:",
       "options": [
         "Alignment of platy and elongate minerals such as micas and amphiboles",
@@ -123,7 +123,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
+      "difficulty": "hard",
       "stem": "A hornfels is typically formed by which type of metamorphism?",
       "options": [
         "Regional metamorphism",
@@ -144,7 +144,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "stem": "The metamorphic equivalent of a basaltic protolith at amphibolite facies conditions is:",
       "options": [
         "Marble",
@@ -170,7 +170,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "Dynamic recrystallization during metamorphism produces:",
       "options": [
         "Strained, elongated grains with undulose extinction",
@@ -191,7 +191,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "The breakdown of staurolite in metapelites marks the transition from:",
       "options": [
         "Low-grade to medium-grade metamorphism",
@@ -212,7 +212,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "Retrograde metamorphism refers to:",
       "options": [
         "Metamorphism during increasing P-T conditions",
@@ -233,7 +233,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "stem": "Which facies represents the highest-grade metamorphic conditions?",
       "options": [
         "Zeolite facies",
@@ -254,7 +254,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "stem": "Basaltic magma has a SiO₂ content of approximately:",
       "options": [
         "45–52%",
@@ -385,7 +385,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "Andesitic volcanism is most characteristic of which tectonic setting?",
       "options": [
         "Mid-ocean ridges",
@@ -427,7 +427,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "Lamprophyres are distinguished from other mafic igneous rocks by their:",
       "options": [
         "Low silica content and abundance of phenocrystic mafic minerals (biotite, amphibole, olivine) in a fine-grained groundmass",
@@ -448,7 +448,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "stem": "A pyroclastic flow is a hot mixture of:",
       "options": [
         "Lava and water vapor",
@@ -469,7 +469,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
+      "difficulty": "hard",
       "stem": "In a normal fault, the hanging wall moves:",
       "options": [
         "Up relative to the footwall",
@@ -495,7 +495,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "stem": "A thrust fault has a dip of less than:",
       "options": [
         "10°",
@@ -521,7 +521,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "stem": "Columnar basalt joints form due to:",
       "options": [
         "Tectonic compression during mountain building",
@@ -542,7 +542,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "stem": "Mohr's circle is used in structural geology to:",
       "options": [
         "Determine the age of rock formations",
@@ -626,7 +626,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "An angular unconformity implies that:",
       "options": [
         "Sediments were deposited continuously without any break",
@@ -673,7 +673,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "Boudinage structures indicate which type of deformation?",
       "options": [
         "Pure compression with no extension",
@@ -699,7 +699,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "stem": "P-waves (primary waves) in seismology are:",
       "options": [
         "Transverse waves that cannot travel through liquids",
@@ -746,7 +746,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "A gravity anomaly that is negative over a basin suggests:",
       "options": [
         "The basin fill is less dense than the surrounding basement rock",
@@ -898,7 +898,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "stem": "Ground Penetrating Radar (GPR) is most effective in:",
       "options": [
         "Dry, resistive materials like sand, gravel, and dry rock",
@@ -919,7 +919,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "Study the line graph showing ONGC natural gas production (in BCM) from 2019 to 2024. What is the total gas production over the 6-year period?",
       "figure": {
         "kind": "svg",
@@ -971,7 +971,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "stem": "If the gas production continues increasing by the same absolute amount each year, what will be the production in 2025?",
       "options": [
         "30 BCM",
@@ -997,7 +997,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "stem": "Study the stacked bar chart showing India's Crude Oil Imports by source region in 2024 (in MMT). What percentage of total imports came from the Middle East?",
       "figure": {
         "kind": "svg",
@@ -1049,7 +1049,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "stem": "What is the ratio of the most productive basin to the least productive basin?",
       "options": [
         "2:1",
@@ -1075,7 +1075,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "Study the pie chart showing ONGC's expenditure breakdown for 2024 (total ₹62,000 crore). How much was spent on Exploration & Production?",
       "figure": {
         "kind": "svg",
@@ -1101,7 +1101,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
+      "difficulty": "hard",
       "stem": "A well produces 120 barrels of oil per day. If 1 barrel ≈ 159 litres, how many litres does the well produce in 30 days?",
       "options": [
         "572,400 litres",
@@ -1127,7 +1127,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "A seismic crew operates 12 geophone stations, each recording at 500 Hz sampling rate. How many data points are collected per second from all stations combined?",
       "options": [
         "600",
@@ -1153,7 +1153,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "A drilling rig costs ₹25,000 per day to operate. If the rig completes a 1,200 m well in 60 days, what is the cost per metre of drilling?",
       "options": [
         "₹1,250/m",
@@ -1179,7 +1179,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "stem": "Complete the sequence: Slate, Phyllite, Schist, Gneiss, ?",
       "options": [
         "Hornfels",
@@ -1205,7 +1205,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "If PETROLOGY is coded as RWALUKVI, how is SEDIMENT coded?",
       "options": [
         "WKHMIRWV",
@@ -1283,7 +1283,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "stem": "Complete the series: P, Q, R, S, T, ?",
       "options": [
         "U",
@@ -1309,7 +1309,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "A seismic line is 40 km long with geophones spaced 50 m apart. How many geophone stations are needed?",
       "options": [
         "400",
@@ -1335,7 +1335,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "stem": "The density of a rock is 2.65 g/cm³ and the density of water is 1.0 g/cm³. What is the specific gravity of the rock?",
       "options": [
         "1.65",
@@ -1387,7 +1387,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "stem": "If Africa's share of imports decreases by 5% next year while total imports remain the same, what will be the new Africa import volume?",
       "options": [
         "38.5 MMT",
@@ -1434,431 +1434,6 @@
     },
     {
       "id": 61,
-      "subject": "General Awareness",
-      "topic": "Oil & Gas Sector · ONGC",
-      "section": "GK",
-      "type": "MCQ",
-      "marks": 1,
-      "difficulty": "medium",
-      "stem": "ONGC was incorporated in which year?",
-      "options": [
-        "1956",
-        "1961",
-        "1974",
-        "1977"
-      ],
-      "answer": 0,
-      "solution": "Oil and Natural Gas Commission (ONGC) was established on 14th August 1956. It was later converted to a corporation (ONGC) in 1994 and further to a public limited company (ONGC Videsh) in 2003.",
-      "estSec": 45,
-      "topicWeight": 0.125,
-      "source": "curated"
-    },
-    {
-      "id": 62,
-      "subject": "General Awareness",
-      "topic": "Oil & Gas Sector · Discoveries",
-      "section": "GK",
-      "type": "MCQ",
-      "marks": 1,
-      "difficulty": "medium",
-      "stem": "The first commercial oil well in India was drilled at:",
-      "options": [
-        "Bombay High",
-        "Digboi (Assam)",
-        "Ankleshwar (Gujarat)",
-        "Rajasthan (Barmer)"
-      ],
-      "answer": 1,
-      "solution": "Digboi in Upper Assam is the site of India's first commercial oil well, drilled in 1889. It is one of the oldest operating oilfields in the world and is still in production.",
-      "estSec": 45,
-      "topicWeight": 0.125,
-      "source": "curated"
-    },
-    {
-      "id": 63,
-      "subject": "General Awareness",
-      "topic": "Current Affairs · Science & Technology",
-      "section": "GK",
-      "type": "MCQ",
-      "marks": 1,
-      "difficulty": "medium",
-      "stem": "India's Deep Ocean Mission aims to explore minerals in which ocean basin?",
-      "options": [
-        "Atlantic Ocean",
-        "Indian Ocean",
-        "Pacific Ocean",
-        "Arctic Ocean"
-      ],
-      "answer": 1,
-      "solution": "India's Deep Ocean Mission (launched 2021) focuses on exploring polymetallic nodules in the Indian Ocean, particularly in the Central Indian Ocean Basin where India has a contract area of 75,000 km².",
-      "estSec": 45,
-      "topicWeight": 0.125,
-      "source": "curated"
-    },
-    {
-      "id": 64,
-      "subject": "General Awareness",
-      "topic": "Static GK · Geography",
-      "section": "GK",
-      "type": "MCQ",
-      "marks": 1,
-      "difficulty": "easy",
-      "stem": "The Palk Strait separates India from:",
-      "options": [
-        "Sri Lanka",
-        "Maldives",
-        "Myanmar",
-        "Bangladesh"
-      ],
-      "answer": 0,
-      "solution": "The Palk Strait is a narrow body of water between the southeastern coast of Tamil Nadu, India, and the northern coast of Sri Lanka. Adam's Bridge (Rama Setu) connects the two countries across this strait.",
-      "estSec": 30,
-      "topicWeight": 0.125,
-      "source": "curated"
-    },
-    {
-      "id": 65,
-      "subject": "General Awareness",
-      "topic": "Oil & Gas Sector · Policies",
-      "section": "GK",
-      "type": "MCQ",
-      "marks": 1,
-      "difficulty": "medium",
-      "stem": "The Hydrocarbon Exploration Licensing Policy (HELP) was introduced in India in:",
-      "options": [
-        "2014",
-        "2016",
-        "2019",
-        "2021"
-      ],
-      "answer": 1,
-      "solution": "HELP was introduced in March 2016, replacing the earlier NELP (New Exploration Licensing Policy). It introduced the Open Acreage Licensing Policy (OALP) and the Unified License (ULP) for all hydrocarbons.",
-      "estSec": 45,
-      "topicWeight": 0.125,
-      "source": "curated"
-    },
-    {
-      "id": 66,
-      "subject": "General Awareness",
-      "topic": "Current Affairs · Economy",
-      "section": "GK",
-      "type": "MCQ",
-      "marks": 1,
-      "difficulty": "medium",
-      "stem": "India's renewable energy target for 2030 under the Paris Agreement commitments is:",
-      "options": [
-        "100 GW",
-        "200 GW",
-        "500 GW",
-        "1000 GW"
-      ],
-      "answer": 2,
-      "solution": "India has committed to achieving 500 GW of non-fossil fuel-based energy capacity by 2030 under its updated NDC (Nationally Determined Contributions) to the Paris Agreement.",
-      "estSec": 60,
-      "topicWeight": 0.125,
-      "source": "curated"
-    },
-    {
-      "id": 67,
-      "subject": "General Awareness",
-      "topic": "Static GK · Indian Polity",
-      "section": "GK",
-      "type": "MCQ",
-      "marks": 1,
-      "difficulty": "easy",
-      "stem": "The Rajya Sabha has a maximum strength of:",
-      "options": [
-        "245 members",
-        "250 members",
-        "255 members",
-        "260 members"
-      ],
-      "answer": 0,
-      "solution": "The Rajya Sabha (Council of States) has a maximum strength of 250 members, of which 238 are elected by state legislatures and 12 are nominated by the President. Currently, it has 245 members.",
-      "estSec": 30,
-      "topicWeight": 0.125,
-      "source": "curated"
-    },
-    {
-      "id": 68,
-      "subject": "General Awareness",
-      "topic": "Oil & Gas Sector · Refining",
-      "section": "GK",
-      "type": "MCQ",
-      "marks": 1,
-      "difficulty": "medium",
-      "stem": "ONGC's Mangalore refinery (MRPL) has a refining capacity of approximately:",
-      "options": [
-        "9 MMT per annum",
-        "15 MMT per annum",
-        "20 MMT per annum",
-        "30 MMT per annum"
-      ],
-      "answer": 1,
-      "solution": "Mangalore Refinery and Petrochemicals Limited (MRPL), a subsidiary of ONGC, has a refining capacity of approximately 15 million metric tonnes per annum (MMTPA) after its Phase III expansion.",
-      "estSec": 60,
-      "topicWeight": 0.125,
-      "source": "curated"
-    },
-    {
-      "id": 69,
-      "subject": "General Awareness",
-      "topic": "Current Affairs · International",
-      "section": "GK",
-      "type": "MCQ",
-      "marks": 1,
-      "difficulty": "medium",
-      "stem": "OPEC (Organization of the Petroleum Exporting Countries) was founded in:",
-      "options": [
-        "1950",
-        "1960",
-        "1970",
-        "1980"
-      ],
-      "answer": 1,
-      "solution": "OPEC was founded on 14 September 1960 in Baghdad by five founding members: Iran, Iraq, Kuwait, Saudi Arabia, and Venezuela. It currently has 12 member countries.",
-      "estSec": 45,
-      "topicWeight": 0.125,
-      "source": "curated"
-    },
-    {
-      "id": 70,
-      "subject": "General Awareness",
-      "topic": "Static GK · Important Days",
-      "section": "GK",
-      "type": "MCQ",
-      "marks": 1,
-      "difficulty": "easy",
-      "stem": "World Oil Conservation Day is observed on which date?",
-      "options": [
-        "14th February",
-        "14th March",
-        "14th April",
-        "14th June"
-      ],
-      "answer": 1,
-      "solution": "World Oil Conservation Day is observed on 14th March every year to promote awareness about the conservation of oil and energy resources for future generations.",
-      "estSec": 30,
-      "topicWeight": 0.125,
-      "source": "curated"
-    },
-    {
-      "id": 71,
-      "subject": "English Language",
-      "topic": "Grammar · Tenses",
-      "section": "English",
-      "type": "MCQ",
-      "marks": 1,
-      "difficulty": "easy",
-      "stem": "Choose the correct sentence:",
-      "options": [
-        "The seismic survey were completed last week.",
-        "The seismic survey was completed last week.",
-        "The seismic survey has been completed last week.",
-        "The seismic survey is completed last week."
-      ],
-      "answer": 1,
-      "solution": "The simple past passive ('was completed') is correct for a completed action in the past. 'Survey' is singular, requiring 'was' instead of 'were'.",
-      "estSec": 30,
-      "topicWeight": 0.125,
-      "source": "curated"
-    },
-    {
-      "id": 72,
-      "subject": "English Language",
-      "topic": "Vocabulary · Synonyms",
-      "section": "English",
-      "type": "MCQ",
-      "marks": 1,
-      "difficulty": "medium",
-      "stem": "Choose the word closest in meaning to 'SEDIMENTARY':",
-      "options": [
-        "Of or relating to metamorphic processes",
-        "Formed by the deposition and cementation of mineral or organic particles",
-        "Formed by volcanic eruption",
-        "Crystallized from a melt"
-      ],
-      "answer": 1,
-      "solution": "Sedimentary refers to rocks formed by the accumulation, deposition, and cementation of sediments (mineral or organic particles) at the Earth's surface, typically in layers.",
-      "estSec": 45,
-      "topicWeight": 0.125,
-      "source": "curated"
-    },
-    {
-      "id": 73,
-      "subject": "English Language",
-      "topic": "Grammar · Articles & Prepositions",
-      "section": "English",
-      "type": "MCQ",
-      "marks": 1,
-      "difficulty": "easy",
-      "stem": "Fill in the blank: 'The crude oil was transported ______ pipeline to the refinery.'",
-      "options": [
-        "by",
-        "through",
-        "in",
-        "at"
-      ],
-      "answer": 0,
-      "solution": "'By pipeline' is the standard English expression for indicating the mode of transport.",
-      "estSec": 30,
-      "topicWeight": 0.125,
-      "source": "curated"
-    },
-    {
-      "id": 74,
-      "subject": "English Language",
-      "topic": "Grammar · Error Detection",
-      "section": "English",
-      "type": "MCQ",
-      "marks": 1,
-      "difficulty": "medium",
-      "stem": "Identify the error: 'The number of exploratory wells have increased significantly this year.'",
-      "options": [
-        "The number of",
-        "exploratory wells",
-        "have increased",
-        "significantly this year"
-      ],
-      "answer": 2,
-      "solution": "'The number of' takes a singular verb because 'number' is the subject (not 'wells'). The correct form is 'The number of exploratory wells has increased'.",
-      "estSec": 60,
-      "topicWeight": 0.125,
-      "source": "curated"
-    },
-    {
-      "id": 75,
-      "subject": "English Language",
-      "topic": "Comprehension · Reading",
-      "section": "English",
-      "type": "MCQ",
-      "marks": 1,
-      "difficulty": "medium",
-      "stem": "Read: 'The Deccan Traps, one of the largest volcanic features on Earth, consist of multiple layers of solidified flood basalt. They were formed at the end of the Cretaceous period.' What does 'consist of' mean?",
-      "options": [
-        "Are made up of or composed of",
-        "Are separate from",
-        "Are larger than",
-        "Are older than"
-      ],
-      "answer": 0,
-      "solution": "'Consist of' means to be composed or made up of something.",
-      "figure": {
-        "kind": "svg",
-        "caption": "Cross-section of the Deccan Traps showing layered flood basalt flows",
-        "markup": "<svg viewBox='0 0 400 200' xmlns='http://www.w3.org/2000/svg'><rect width='400' height='200' fill='#f8fafc'/><text x='200' y='22' font-size='13' text-anchor='middle' font-weight='bold'>Deccan Traps — Flood Basalt Layers</text><rect x='30' y='35' width='340' height='140' fill='#94a3b8' stroke='#334155' stroke-width='1.5'/><rect x='30' y='35' width='340' height='25' fill='#64748b'/><rect x='30' y='60' width='340' height='25' fill='#94a3b8'/><rect x='30' y='85' width='340' height='25' fill='#64748b'/><rect x='30' y='110' width='340' height='25' fill='#94a3b8'/><rect x='30' y='135' width='340' height='25' fill='#64748b'/><rect x='30' y='160' width='340' height='15' fill='#94a3b8'/><text x='200' y='52' font-size='9' fill='#fff' text-anchor='middle'>Flow 1 (~66 Ma)</text><text x='200' y='77' font-size='9' fill='#fff' text-anchor='middle'>Flow 2</text><text x='200' y='102' font-size='9' fill='#fff' text-anchor='middle'>Flow 3</text><text x='200' y='127' font-size='9' fill='#fff' text-anchor='middle'>Flow 4</text><text x='200' y='152' font-size='9' fill='#fff' text-anchor='middle'>Flow 5</text><text x='200' y='172' font-size='8' fill='#fff' text-anchor='middle'>Flow 6</text><text x='200' y='195' font-size='10' fill='#64748b' text-anchor='middle'>Individual flows are 10–50 m thick; total thickness up to 2,000 m</text></svg>"
-      },
-      "estSec": 45,
-      "topicWeight": 0.125,
-      "source": "curated"
-    },
-    {
-      "id": 76,
-      "subject": "English Language",
-      "topic": "Vocabulary · Antonyms",
-      "section": "English",
-      "type": "MCQ",
-      "marks": 1,
-      "difficulty": "medium",
-      "stem": "Choose the word closest in meaning to 'ABUNDANT':",
-      "options": [
-        "Scarce",
-        "Plentiful",
-        "Rare",
-        "Insufficient"
-      ],
-      "answer": 1,
-      "solution": "Abundant means existing in large quantities; plentiful.",
-      "estSec": 30,
-      "topicWeight": 0.125,
-      "source": "curated"
-    },
-    {
-      "id": 77,
-      "subject": "English Language",
-      "topic": "Grammar · Active/Passive Voice",
-      "section": "English",
-      "type": "MCQ",
-      "marks": 1,
-      "difficulty": "medium",
-      "stem": "Convert to passive: 'The geophysicist interpreted the seismic data.'",
-      "options": [
-        "The seismic data was interpreted by the geophysicist.",
-        "The seismic data has been interpreted by the geophysicist.",
-        "The seismic data is interpreted by the geophysicist.",
-        "The seismic data had been interpreted by the geophysicist."
-      ],
-      "answer": 0,
-      "solution": "Simple past active (interpreted) converts to 'was/were + past participle' in passive voice.",
-      "estSec": 45,
-      "topicWeight": 0.125,
-      "source": "curated"
-    },
-    {
-      "id": 78,
-      "subject": "English Language",
-      "topic": "Idioms & Phrases",
-      "section": "English",
-      "type": "MCQ",
-      "marks": 1,
-      "difficulty": "medium",
-      "stem": "What does the idiom 'hit bedrock' mean?",
-      "options": [
-        "To reach the lowest point or minimum level",
-        "To discover a new mineral",
-        "To begin drilling operations",
-        "To complete a geological survey"
-      ],
-      "answer": 0,
-      "solution": "'Hit bedrock' means to reach the lowest possible level or the absolute minimum.",
-      "estSec": 45,
-      "topicWeight": 0.125,
-      "source": "curated"
-    },
-    {
-      "id": 79,
-      "subject": "English Language",
-      "topic": "Grammar · Subject-Verb Agreement",
-      "section": "English",
-      "type": "MCQ",
-      "marks": 1,
-      "difficulty": "easy",
-      "stem": "Choose the correct form: 'Each of the boreholes ______ been logged for porosity.'",
-      "options": [
-        "have",
-        "are",
-        "has",
-        "were"
-      ],
-      "answer": 2,
-      "solution": "'Each' is singular and requires a singular verb: 'has'.",
-      "estSec": 30,
-      "topicWeight": 0.125,
-      "source": "curated"
-    },
-    {
-      "id": 80,
-      "subject": "English Language",
-      "topic": "Grammar · Conjunctions & Sentence Structure",
-      "section": "English",
-      "type": "MCQ",
-      "marks": 1,
-      "difficulty": "medium",
-      "stem": "Choose the sentence with correct punctuation and conjunction usage:",
-      "options": [
-        "Since the formation was tight; permeability enhancement was required.",
-        "Since the formation was tight, permeability enhancement was required.",
-        "Since, the formation was tight permeability enhancement was required.",
-        "Since the formation was tight permeability, enhancement was required."
-      ],
-      "answer": 1,
-      "solution": "'Since' is a subordinating conjunction. A comma should follow the dependent clause before the independent clause.",
-      "estSec": 45,
-      "topicWeight": 0.125,
-      "source": "curated"
-    },
-    {
-      "id": 81,
       "subject": "Aptitude",
       "topic": "Quantitative Ability · Data Interpretation",
       "section": "Aptitude",
@@ -1884,13 +1459,13 @@
       "source": "curated"
     },
     {
-      "id": 82,
+      "id": 62,
       "subject": "Aptitude",
       "topic": "Quantitative Ability · Data Interpretation",
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "stem": "Which quarter had the highest revenue, and what was its share of total annual revenue?",
       "options": [
         "Q2 — 26.3%",
@@ -1910,13 +1485,13 @@
       }
     },
     {
-      "id": 83,
+      "id": 63,
       "subject": "Aptitude",
       "topic": "Quantitative Ability · Data Interpretation",
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "stem": "If Q3 revenue (₹1,460 Cr) was 10% lower than Q2, by what percentage did revenue recover in Q4 relative to Q3?",
       "options": [
         "6.5%",
@@ -1936,13 +1511,13 @@
       }
     },
     {
-      "id": 84,
+      "id": 64,
       "subject": "Aptitude",
       "topic": "Quantitative Ability · Data Interpretation",
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "Study the line graph showing seismograph amplitude (mm) recorded at different distances (km) from a blast site. What is the approximate attenuation rate per km?",
       "figure": {
         "kind": "svg",
@@ -1962,13 +1537,13 @@
       "source": "curated"
     },
     {
-      "id": 85,
+      "id": 65,
       "subject": "Aptitude",
       "topic": "Quantitative Ability · Data Interpretation",
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "If ONGC's Q2 revenue was ₹1,640 Cr and the company expects 12% growth in the next quarter, what will be the projected Q3 revenue?",
       "options": [
         "₹1,750 Cr",
@@ -1986,6 +1561,426 @@
         "caption": "Bar chart showing quarterly data",
         "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Bar Chart · Sales Data</text><line x1=\"60\" y1=\"170\" x2=\"440\" y2=\"170\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"60\" y1=\"30\" x2=\"60\" y2=\"170\" stroke=\"#64748b\" stroke-width=\"2\"/><rect x=\"85\" y=\"80\" width=\"40\" height=\"90\" fill=\"#3b82f6\" stroke=\"#3b82f6\" rx=\"2\"/><rect x=\"145\" y=\"110\" width=\"40\" height=\"60\" fill=\"#ef4444\" stroke=\"#ef4444\" rx=\"2\"/><rect x=\"205\" y=\"60\" width=\"40\" height=\"110\" fill=\"#22c55e\" stroke=\"#22c55e\" rx=\"2\"/><rect x=\"265\" y=\"95\" width=\"40\" height=\"75\" fill=\"#f59e0b\" stroke=\"#f59e0b\" rx=\"2\"/><rect x=\"325\" y=\"100\" width=\"40\" height=\"70\" fill=\"#8b5cf6\" stroke=\"#8b5cf6\" rx=\"2\"/><text x=\"105\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Q1</text><text x=\"165\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Q2</text><text x=\"225\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Q3</text><text x=\"285\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Q4</text><text x=\"345\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Q5</text></svg>"
       }
+    },
+    {
+      "id": 66,
+      "subject": "General Awareness",
+      "topic": "Current Affairs · Oil & Gas",
+      "section": "GA",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "easy",
+      "stem": "ONGC's largest oil discovery in recent years was in which block?",
+      "options": [
+        "KG Basin",
+        "Mumbai High",
+        "Cauvery Basin",
+        "Assam"
+      ],
+      "answer": 0,
+      "solution": "ONGC made a significant discovery in the KG Basin.",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 67,
+      "subject": "General Awareness",
+      "topic": "Current Affairs · Infrastructure",
+      "section": "GA",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "easy",
+      "stem": "Delhi-Mumbai Expressway is the longest expressway in India at approximately:",
+      "options": [
+        "1,200 km",
+        "1,386 km",
+        "1,500 km",
+        "2,000 km"
+      ],
+      "answer": 1,
+      "solution": "Delhi-Mumbai Expressway is approximately 1,386 km long.",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 68,
+      "subject": "General Awareness",
+      "topic": "Current Affairs · Policy",
+      "section": "GA",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "The Ujjwala Yojana provides:",
+      "options": [
+        "Free electricity",
+        "Free LPG connections",
+        "Free water supply",
+        "Free internet"
+      ],
+      "answer": 1,
+      "solution": "Ujjwala Yojana provides free LPG connections to BPL families.",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 69,
+      "subject": "General Awareness",
+      "topic": "Current Affairs · Environment",
+      "section": "GA",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "COP28 was held in which country?",
+      "options": [
+        "Egypt",
+        "UAE",
+        "India",
+        "UK"
+      ],
+      "answer": 1,
+      "solution": "COP28 was held in Dubai, UAE.",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 70,
+      "subject": "General Awareness",
+      "topic": "Current Affairs · Policy",
+      "section": "GA",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "The PLI scheme for semiconductor manufacturing was approved with an outlay of:",
+      "options": [
+        "₹10,000 crore",
+        "₹25,000 crore",
+        "₹76,000 crore",
+        "₹1,00,000 crore"
+      ],
+      "answer": 2,
+      "solution": "The PLI scheme for semiconductors has an outlay of ₹76,000 crore.",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 71,
+      "subject": "General Awareness",
+      "topic": "Current Affairs · Energy",
+      "section": "GA",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "Which renewable energy source saw the highest capacity addition in India in 2024?",
+      "options": [
+        "Solar",
+        "Wind",
+        "Hydro",
+        "Biomass"
+      ],
+      "answer": 0,
+      "solution": "Solar energy saw the highest capacity addition.",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 72,
+      "subject": "General Awareness",
+      "topic": "Static GK · Science",
+      "section": "GA",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "easy",
+      "stem": "Which planet is known as the 'Red Planet'?",
+      "options": [
+        "Venus",
+        "Mars",
+        "Jupiter",
+        "Saturn"
+      ],
+      "answer": 1,
+      "solution": "Mars is known as the Red Planet.",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 73,
+      "subject": "General Awareness",
+      "topic": "Static GK · Indian Polity",
+      "section": "GA",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "How many fundamental rights are currently recognized?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "answer": 1,
+      "solution": "There are 6 fundamental rights currently recognized.",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 74,
+      "subject": "General Awareness",
+      "topic": "Static GK · Indian Polity",
+      "section": "GA",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "Fundamental Duties were added by which Amendment?",
+      "options": [
+        "42nd",
+        "44th",
+        "86th",
+        "91st"
+      ],
+      "answer": 2,
+      "solution": "Fundamental Duties were added by the 86th Amendment, 2002.",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 75,
+      "subject": "General Awareness",
+      "topic": "Static GK · History",
+      "section": "GA",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "India gained independence on:",
+      "options": [
+        "January 26, 1950",
+        "August 15, 1947",
+        "August 15, 1950",
+        "January 26, 1947"
+      ],
+      "answer": 1,
+      "solution": "India gained independence on August 15, 1947.",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 76,
+      "subject": "English",
+      "topic": "English Language · Grammar",
+      "section": "English",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "The manager, along with his team, ___ present at the meeting.",
+      "options": [
+        "were",
+        "are",
+        "was",
+        "have been"
+      ],
+      "answer": 2,
+      "solution": "When 'along with' is used, the verb agrees with the first subject (manager → was).",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 77,
+      "subject": "English",
+      "topic": "English Language · Idioms",
+      "section": "English",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "What does 'break the ice' mean?",
+      "options": [
+        "Destroy ice",
+        "Initiate conversation",
+        "Cause trouble",
+        "End relationship"
+      ],
+      "answer": 1,
+      "solution": "Break the ice means to initiate conversation in a social setting.",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 78,
+      "subject": "English",
+      "topic": "English Language · Tenses",
+      "section": "English",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "By the time we arrive, they ___ already left.",
+      "options": [
+        "will",
+        "would",
+        "will have",
+        "would have"
+      ],
+      "answer": 2,
+      "solution": "Future perfect: will have + past participle.",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 79,
+      "subject": "English",
+      "topic": "English Language · Prepositions",
+      "section": "English",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "She is proficient ___ English.",
+      "options": [
+        "on",
+        "at",
+        "in",
+        "of"
+      ],
+      "answer": 2,
+      "solution": "Proficient + in is the correct collocation.",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 80,
+      "subject": "English",
+      "topic": "English Language · Vocabulary",
+      "section": "English",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "Choose the antonym of 'ubiquitous':",
+      "options": [
+        "Omnipresent",
+        "Rare",
+        "Common",
+        "Everywhere"
+      ],
+      "answer": 1,
+      "solution": "Ubiquitous means present everywhere; rare is the opposite.",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 81,
+      "subject": "English",
+      "topic": "English Language · Punctuation",
+      "section": "English",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "Choose the correctly punctuated sentence:",
+      "options": [
+        "Lets eat, Grandma!",
+        "Let's eat Grandma!",
+        "Lets eat Grandma!",
+        "Let's, eat Grandma!"
+      ],
+      "answer": 0,
+      "solution": "Let's needs an apostrophe; comma separates direct address.",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 82,
+      "subject": "English",
+      "topic": "English Language · Vocabulary",
+      "section": "English",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "What does 'candid' mean?",
+      "options": [
+        "Secretive",
+        "Frank and honest",
+        "Formal",
+        "Polite"
+      ],
+      "answer": 1,
+      "solution": "Candid means truthful and straightforward; frank.",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 83,
+      "subject": "English",
+      "topic": "English Language · Vocabulary",
+      "section": "English",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "Choose the antonym of 'benevolent':",
+      "options": [
+        "Kind",
+        "Malevolent",
+        "Generous",
+        "Charitable"
+      ],
+      "answer": 1,
+      "solution": "Benevolent means well-meaning; malevolent means ill-willed.",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 84,
+      "subject": "English",
+      "topic": "English Language · Vocabulary",
+      "section": "English",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "What is the meaning of 'diligent'?",
+      "options": [
+        "Lazy",
+        "Hardworking",
+        "Careless",
+        "Slow"
+      ],
+      "answer": 1,
+      "solution": "Diligent means showing care and effort in one's work.",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 85,
+      "subject": "English",
+      "topic": "English Language · Vocabulary",
+      "section": "English",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "easy",
+      "stem": "Choose the word meaning 'to make something less severe':",
+      "options": [
+        "Aggravate",
+        "Mitigate",
+        "Motivate",
+        "Navigate"
+      ],
+      "answer": 1,
+      "solution": "Mitigate means to make less severe or painful.",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated"
     }
   ]
 }

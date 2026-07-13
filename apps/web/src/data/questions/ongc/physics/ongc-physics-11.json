@@ -22,7 +22,7 @@
       "count": 10
     },
     {
-      "name": "English Language",
+      "name": "English",
       "count": 10
     }
   ],
@@ -86,7 +86,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "The distributional derivative of the Heaviside step function H(x) is:",
       "options": [
         "H(x)",
@@ -112,7 +112,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "When using Lagrange multipliers to extremize f(x,y) subject to the constraint g(x,y) = 0, the multiplier λ physically represents:",
       "options": [
         "The value of f at the extremum",
@@ -164,7 +164,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "A particle of mass m moves on a rotating platform with angular velocity Ω. In the rotating frame, the Coriolis force −2m(Ω × v') does:",
       "options": [
         "Positive work on the particle always",
@@ -190,7 +190,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "In the Lindstedt-Poincaré method for the nonlinear oscillator ẍ + x + εx³ = 0, the first-order correction to the frequency is:",
       "options": [
         "ω₁ = 3/(8ω₀)",
@@ -211,7 +211,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "The Lagrangian density for the electromagnetic field is L = −(1/4μ₀)F_μν F^μν. The canonical energy-momentum tensor derived from this is:",
       "options": [
         "Traceless and symmetric",
@@ -253,7 +253,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "The Lyapunov exponent of a chaotic system measures:",
       "options": [
         "The total energy of the system",
@@ -274,7 +274,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "The dyadic Green's function G(r,r') for the vector Helmholtz equation (∇² + k²)G = −Iδ(r−r') in free space has the leading term:",
       "options": [
         "I e^(ikR)/(4πR) where R = |r−r'|",
@@ -295,7 +295,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "In the electroquasi-static (EQS) approximation, which term in the full Maxwell equations is neglected?",
       "options": [
         "Displacement current ∂D/∂t in Ampère's law",
@@ -337,7 +337,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "In a Kerr medium where n = n₀ + n₂I, a high-intensity Gaussian beam experiences:",
       "options": [
         "Self-focusing due to the intensity-dependent refractive index profile",
@@ -358,7 +358,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "The FDTD method uses a staggered Yee grid where E and H field components are offset in:",
       "options": [
         "Space by half a cell and time by half a time step",
@@ -379,7 +379,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "In the algebraic solution of the hydrogen atom, the Fock-Dyson operators A and A† satisfy [A_i, A_j†] = −2i(mZe²/ℏ²)H δ_ij. These operators generalize:",
       "options": [
         "Pauli matrices for spin",
@@ -400,7 +400,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "In supersymmetric quantum mechanics, if H₁ = Q†Q and H₂ = QQ†, then the spectra of H₁ and H₂ are:",
       "options": [
         "Identical",
@@ -421,7 +421,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "The Bell state |Φ⁺⟩ = (|00⟩ + |11⟩)/√2 is a maximally entangled state. The reduced density matrix of either qubit is:",
       "options": [
         "A pure state |0⟩⟨0|",
@@ -463,7 +463,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "The Kochen-Specker theorem rules out:",
       "options": [
         "All hidden variable theories",
@@ -526,7 +526,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "The fluctuation-dissipation theorem relates the linear response function χ(t) to the equilibrium correlation function C(t) by:",
       "options": [
         "χ(t) = C(t)/kT",
@@ -547,7 +547,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "Jaynes' maximum entropy principle states that the best probability distribution consistent with known constraints is the one that:",
       "options": [
         "Minimizes the KL divergence to a uniform distribution",
@@ -568,7 +568,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "The total fine structure shift in hydrogen is proportional to α²Z⁴/n³ and depends on:",
       "options": [
         "Only n (the principal quantum number)",
@@ -589,7 +589,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "The Velocity Verlet algorithm is preferred over Euler integration in molecular dynamics because it is:",
       "options": [
         "Faster per time step",
@@ -610,7 +610,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "The Keldysh parameter γ = ω√(2mI_p)/eE. When γ ≫ 1, the dominant ionization mechanism is:",
       "options": [
         "Tunnel ionization",
@@ -631,7 +631,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "In high harmonic generation (HHG), the cutoff energy of the spectrum is:",
       "options": [
         "E_max = I_p + 3.17U_p where U_p is the ponderomotive energy",
@@ -652,7 +652,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "A Fock state |n⟩ of the electromagnetic field has:",
       "options": [
         "Well-defined phase and number of photons",
@@ -673,7 +673,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "The first Chern number C = (1/2π)∫∫_BZ F(k) dk_x dk_y classifies 2D band structures. A non-zero Chern number implies:",
       "options": [
         "A trivial insulator with no edge states",
@@ -694,7 +694,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "In the GW approximation for electronic structure, the self-energy Σ = iGW uses:",
       "options": [
         "The Green's function G and the screened Coulomb interaction W",
@@ -715,7 +715,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "The low-energy dispersion of graphene near the K-point is ε(p) = ±v_F|p|. This linear dispersion implies electrons behave as:",
       "options": [
         "Massive Schrödinger fermions",
@@ -799,7 +799,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "A transimpedance amplifier (TIA) with feedback resistor R_f converts photocurrent to voltage. To extend bandwidth while maintaining stability, one should:",
       "options": [
         "Increase R_f",
@@ -820,7 +820,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "In a PLL, inside the loop bandwidth the output phase noise is dominated by:",
       "options": [
         "The VCO phase noise",
@@ -841,7 +841,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "A SAR ADC with N-bit resolution requires how many clock cycles for one conversion?",
       "options": [
         "N + 1",
@@ -862,7 +862,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "Maximum power transfer in RF circuits requires the load impedance Z_L to be:",
       "options": [
         "Equal to the source impedance Z_S",
@@ -883,7 +883,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "In high-speed digital design, a PCB trace must be treated as a transmission line when its length exceeds:",
       "options": [
         "λ/10 of the highest frequency component",
@@ -904,7 +904,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "How many ways can 10 people be seated around a circular table if 3 particular people must always sit together?",
       "options": [
         "6! × 2!",
@@ -930,7 +930,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "A bag contains 5 red, 4 blue, and 3 green balls. Three balls are drawn at random without replacement. Probability that all three are of different colours:",
       "options": [
         "24/55",
@@ -956,7 +956,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "A and B can complete a job in 12 days, B and C in 15 days, and A and C in 20 days. Working together, they complete the job in:",
       "options": [
         "8 days",
@@ -982,7 +982,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "A sum doubles in 5 years at compound interest. In how many years will it become 8 times?",
       "options": [
         "10",
@@ -1008,7 +1008,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "A boat travels 30 km downstream and returns. Downstream speed = 20 km/h, upstream speed = 10 km/h. Average speed for the entire journey:",
       "options": [
         "15 km/h",
@@ -1034,7 +1034,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "Pipe A fills in 6 hours, Pipe B in 8 hours, Pipe C empties in 12 hours. All three opened simultaneously — time to fill:",
       "options": [
         "4.8 hours",
@@ -1164,7 +1164,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "Vessel A has milk:water = 3:2. Vessel B has milk:water = 4:3. In what ratio should they be mixed to get milk:water = 5:4?",
       "options": [
         "2:3",
@@ -1190,7 +1190,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "What comes next: 1, 1, 2, 3, 5, 8, 13, ?",
       "options": [
         "18",
@@ -1216,7 +1216,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "If FLOWER is coded as GMPXFS (+1 shift each letter), GARDEN is coded as:",
       "options": [
         "HBSEFO",
@@ -1268,7 +1268,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "Ramesh walks 10 km N, turns right 5 km, turns right 10 km, turns left 5 km. His final position relative to start:",
       "options": [
         "10 km East",
@@ -1294,7 +1294,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "Statements: All flowers are plants. Some plants are trees. Some trees are fruits. Conclusions: I. Some flowers are trees. II. Some fruits are plants.",
       "options": [
         "Only I follows",
@@ -1320,7 +1320,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "Six people A-F sit in a row facing north. A at one end. B is 3rd right of A. C next to B. D at other end. E not next to D. F between C and E. Who is at the right end?",
       "options": [
         "B",
@@ -1372,7 +1372,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "Car covers 60 km at 30 km/h then 60 km at 60 km/h. Average speed:",
       "options": [
         "40 km/h",
@@ -1393,432 +1393,12 @@
     },
     {
       "id": 60,
-      "subject": "General Awareness",
-      "topic": "Energy Sector",
-      "section": "GA",
-      "type": "MCQ",
-      "marks": 1,
-      "difficulty": "medium",
-      "stem": "Which is NOT a Maharatna PSU in India?",
-      "options": [
-        "ONGC",
-        "NTPC",
-        "Oil India Limited",
-        "SAIL"
-      ],
-      "answer": 2,
-      "solution": "Oil India Limited is a Navaratna PSU, not Maharatna. Maharatna PSUs include ONGC, NTPC, SAIL, IOCL, BHEL, GAIL, Coal India.",
-      "estSec": 15,
-      "topicWeight": 0.1,
-      "source": "curated"
-    },
-    {
-      "id": 61,
-      "subject": "General Awareness",
-      "topic": "Energy Sector",
-      "section": "GA",
-      "type": "MCQ",
-      "marks": 1,
-      "difficulty": "medium",
-      "stem": "TAPS-1 and TAPS-2 (India's first nuclear power reactors) use which reactor type?",
-      "options": [
-        "PHWR",
-        "BWR",
-        "PWR",
-        "FBR"
-      ],
-      "answer": 1,
-      "solution": "TAPS-1 and TAPS-2 were boiling water reactors (BWRs) supplied by GE (USA), commissioned in 1969.",
-      "estSec": 15,
-      "topicWeight": 0.1,
-      "source": "curated"
-    },
-    {
-      "id": 62,
-      "subject": "General Awareness",
-      "topic": "Indian Economy",
-      "section": "GA",
-      "type": "MCQ",
-      "marks": 1,
-      "difficulty": "easy",
-      "stem": "The 'Make in India' initiative was launched in which year?",
-      "options": [
-        "2013",
-        "2014",
-        "2015",
-        "2016"
-      ],
-      "answer": 1,
-      "solution": "Make in India was launched on September 25, 2014, by PM Narendra Modi.",
-      "estSec": 10,
-      "topicWeight": 0.1,
-      "source": "curated"
-    },
-    {
-      "id": 63,
-      "subject": "General Awareness",
-      "topic": "Science & Technology",
-      "section": "GA",
-      "type": "MCQ",
-      "marks": 1,
-      "difficulty": "medium",
-      "stem": "Chandrayaan-3 successfully landed on the Moon in which year?",
-      "options": [
-        "2022",
-        "2023",
-        "2024",
-        "2021"
-      ],
-      "answer": 1,
-      "solution": "Chandrayaan-3's Vikram lander landed on August 23, 2023, making India the 4th country to soft-land on the Moon.",
-      "estSec": 10,
-      "topicWeight": 0.1,
-      "source": "curated"
-    },
-    {
-      "id": 64,
-      "subject": "General Awareness",
-      "topic": "Environment",
-      "section": "GA",
-      "type": "MCQ",
-      "marks": 1,
-      "difficulty": "medium",
-      "stem": "The International Solar Alliance was launched at COP21 in:",
-      "options": [
-        "Paris (2015)",
-        "Copenhagen (2009)",
-        "Kyoto (1997)",
-        "Cancún (2010)"
-      ],
-      "answer": 0,
-      "solution": "ISA was launched by India and France on November 30, 2015, at COP21 in Paris. HQ is in Gurugram, India.",
-      "estSec": 10,
-      "topicWeight": 0.1,
-      "source": "curated"
-    },
-    {
-      "id": 65,
-      "subject": "General Awareness",
-      "topic": "PSU & Industry",
-      "section": "GA",
-      "type": "MCQ",
-      "marks": 1,
-      "difficulty": "easy",
-      "stem": "ONGC Videsh Limited does NOT have operations in:",
-      "options": [
-        "Russia",
-        "Vietnam",
-        "Brazil",
-        "Mozambique"
-      ],
-      "answer": 2,
-      "solution": "ONGC Videsh has operations in Russia, Vietnam, Mozambique, Myanmar, and others, but not in Brazil.",
-      "estSec": 10,
-      "topicWeight": 0.1,
-      "source": "curated"
-    },
-    {
-      "id": 66,
-      "subject": "General Awareness",
-      "topic": "Indian Geography",
-      "section": "GA",
-      "type": "MCQ",
-      "marks": 1,
-      "difficulty": "medium",
-      "stem": "India's deepest offshore oil discoveries are in which basin?",
-      "options": [
-        "Mumbai High",
-        "Krishna-Godavari Basin",
-        "Cambay Basin",
-        "Assam Shelf"
-      ],
-      "answer": 1,
-      "solution": "The KG Basin (particularly KG-D6 block) contains India's deepest offshore hydrocarbon discoveries with water depths > 1000 m.",
-      "estSec": 15,
-      "topicWeight": 0.1,
-      "source": "curated"
-    },
-    {
-      "id": 67,
-      "subject": "General Awareness",
-      "topic": "Science & Technology",
-      "section": "GA",
-      "type": "MCQ",
-      "marks": 1,
-      "difficulty": "easy",
-      "stem": "ISRO is headquartered in:",
-      "options": [
-        "Chennai",
-        "Bengaluru",
-        "Hyderabad",
-        "Ahmedabad"
-      ],
-      "answer": 1,
-      "solution": "ISRO is headquartered in Bengaluru, Karnataka. Founded in 1969.",
-      "estSec": 10,
-      "topicWeight": 0.1,
-      "source": "curated"
-    },
-    {
-      "id": 68,
-      "subject": "General Awareness",
-      "topic": "Energy Sector",
-      "section": "GA",
-      "type": "MCQ",
-      "marks": 1,
-      "difficulty": "medium",
-      "stem": "India's target for 500 GW non-fossil fuel energy capacity by which year (COP26 announcement)?",
-      "options": [
-        "2025",
-        "2027",
-        "2030",
-        "2035"
-      ],
-      "answer": 2,
-      "solution": "At COP26 in Glasgow (2021), PM Modi announced India's target of 500 GW non-fossil fuel capacity by 2030.",
-      "estSec": 10,
-      "topicWeight": 0.1,
-      "source": "curated"
-    },
-    {
-      "id": 69,
-      "subject": "General Awareness",
-      "topic": "General Science",
-      "section": "GA",
-      "type": "MCQ",
-      "marks": 1,
-      "difficulty": "medium",
-      "stem": "The ozone layer is primarily in which atmospheric layer?",
-      "options": [
-        "Troposphere",
-        "Stratosphere",
-        "Mesosphere",
-        "Thermosphere"
-      ],
-      "answer": 1,
-      "solution": "The ozone layer is in the stratosphere at ~15–35 km altitude, absorbing UV-B radiation.",
-      "estSec": 10,
-      "topicWeight": 0.1,
-      "source": "curated"
-    },
-    {
-      "id": 70,
-      "subject": "English Language",
-      "topic": "Vocabulary · Synonyms",
-      "section": "English",
-      "type": "MCQ",
-      "marks": 1,
-      "difficulty": "medium",
-      "stem": "Choose the word most similar to 'EPHEMERAL':",
-      "options": [
-        "Permanent",
-        "Fleeting",
-        "Robust",
-        "Vivid"
-      ],
-      "answer": 1,
-      "solution": "Ephemeral means lasting for a very short time; fleeting.",
-      "estSec": 10,
-      "topicWeight": 0.1,
-      "source": "curated"
-    },
-    {
-      "id": 71,
-      "subject": "English Language",
-      "topic": "Vocabulary · Antonyms",
-      "section": "English",
-      "type": "MCQ",
-      "marks": 1,
-      "difficulty": "medium",
-      "stem": "Choose the word most opposite to 'AUDACIOUS':",
-      "options": [
-        "Bold",
-        "Timid",
-        "Courageous",
-        "Daring"
-      ],
-      "answer": 1,
-      "solution": "Audacious = bold, daring. Timid = shy, fearful — the antonym.",
-      "estSec": 10,
-      "topicWeight": 0.1,
-      "source": "curated"
-    },
-    {
-      "id": 72,
-      "subject": "English Language",
-      "topic": "Grammar · Error Detection",
-      "section": "English",
-      "type": "MCQ",
-      "marks": 1,
-      "difficulty": "medium",
-      "stem": "Identify the grammatically correct sentence:",
-      "options": [
-        "Neither he nor I am going to the market.",
-        "The news are very disturbing today.",
-        "Everyone have finished their homework.",
-        "She don't like to travel by bus."
-      ],
-      "answer": 0,
-      "solution": "With 'neither...nor', the verb agrees with the nearer subject ('I'). 'Neither he nor I am' is correct.",
-      "estSec": 15,
-      "topicWeight": 0.1,
-      "source": "curated"
-    },
-    {
-      "id": 73,
-      "subject": "English Language",
-      "topic": "Idioms & Phrases",
-      "section": "English",
-      "type": "MCQ",
-      "marks": 1,
-      "difficulty": "medium",
-      "stem": "What does 'to break the ice' mean?",
-      "options": [
-        "To start a fight",
-        "To initiate conversation in an awkward situation",
-        "To solve a difficult problem",
-        "To end a relationship"
-      ],
-      "answer": 1,
-      "solution": "'Break the ice' means to initiate conversation or ease tension in a social situation.",
-      "estSec": 10,
-      "topicWeight": 0.1,
-      "source": "curated"
-    },
-    {
-      "id": 74,
-      "subject": "English Language",
-      "topic": "Vocabulary · One Word Substitution",
-      "section": "English",
-      "type": "MCQ",
-      "marks": 1,
-      "difficulty": "medium",
-      "stem": "One who studies the origin and history of words is called a:",
-      "options": [
-        "Etymologist",
-        "Lexicographer",
-        "Philologist",
-        "Linguist"
-      ],
-      "answer": 0,
-      "solution": "An etymologist studies the origin and historical development of words.",
-      "estSec": 10,
-      "topicWeight": 0.1,
-      "source": "curated"
-    },
-    {
-      "id": 75,
-      "subject": "English Language",
-      "topic": "Grammar · Fill in the Blanks",
-      "section": "English",
-      "type": "MCQ",
-      "marks": 1,
-      "difficulty": "easy",
-      "stem": "Choose the correct preposition: 'She is interested _____ learning French.'",
-      "options": [
-        "in",
-        "on",
-        "at",
-        "for"
-      ],
-      "answer": 0,
-      "solution": "'Interested in' is the correct preposition collocation.",
-      "estSec": 10,
-      "topicWeight": 0.1,
-      "source": "curated"
-    },
-    {
-      "id": 76,
-      "subject": "English Language",
-      "topic": "Reading Comprehension",
-      "section": "English",
-      "type": "MCQ",
-      "marks": 1,
-      "difficulty": "medium",
-      "stem": "Read: 'The Great Barrier Reef stretches over 2,300 km along northeast Australia. It comprises over 2,900 individual reefs and 900 islands.' How long is the reef?",
-      "options": [
-        "900 km",
-        "2,300 km",
-        "2,900 km",
-        "2,900 + 900 km"
-      ],
-      "answer": 1,
-      "solution": "The passage states it 'stretches over 2,300 km'. The 2,900 and 900 are counts of reefs and islands.",
-      "estSec": 15,
-      "topicWeight": 0.1,
-      "source": "curated"
-    },
-    {
-      "id": 77,
-      "subject": "English Language",
-      "topic": "Grammar · Tenses",
-      "section": "English",
-      "type": "MCQ",
-      "marks": 1,
-      "difficulty": "medium",
-      "stem": "Choose the correct form: 'If I _____ rich, I would travel around the world.'",
-      "options": [
-        "am",
-        "was",
-        "were",
-        "will be"
-      ],
-      "answer": 2,
-      "solution": "Second conditional uses subjunctive: 'If I were' regardless of subject.",
-      "estSec": 10,
-      "topicWeight": 0.1,
-      "source": "curated"
-    },
-    {
-      "id": 78,
-      "subject": "English Language",
-      "topic": "Vocabulary · Synonyms",
-      "section": "English",
-      "type": "MCQ",
-      "marks": 1,
-      "difficulty": "easy",
-      "stem": "Choose the word most similar to 'COMPREHENSIVE':",
-      "options": [
-        "Partial",
-        "Thorough",
-        "Superficial",
-        "Brief"
-      ],
-      "answer": 1,
-      "solution": "Comprehensive means complete, including all elements; thorough.",
-      "estSec": 10,
-      "topicWeight": 0.1,
-      "source": "curated"
-    },
-    {
-      "id": 79,
-      "subject": "English Language",
-      "topic": "Grammar · Articles",
-      "section": "English",
-      "type": "MCQ",
-      "marks": 1,
-      "difficulty": "easy",
-      "stem": "Choose the correct article: '_____ honest man always speaks the truth.'",
-      "options": [
-        "A",
-        "An",
-        "The",
-        "No article needed"
-      ],
-      "answer": 1,
-      "solution": "'An' before silent 'h': 'an honest man'.",
-      "estSec": 10,
-      "topicWeight": 0.1,
-      "source": "curated"
-    },
-    {
-      "id": 74,
       "subject": "Aptitude",
       "topic": "Quantitative · Percentage",
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "stem": "If a number is increased by 20% and then decreased by 20%, the net change is:",
       "options": [
         "4% decrease",
@@ -1838,13 +1418,13 @@
       }
     },
     {
-      "id": 75,
+      "id": 61,
       "subject": "Aptitude",
       "topic": "Quantitative · Time & Work",
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "5 workers can build a wall in 10 days. How many workers are needed to build it in 5 days?",
       "options": [
         "10",
@@ -1864,13 +1444,13 @@
       }
     },
     {
-      "id": 76,
+      "id": 62,
       "subject": "Aptitude",
       "topic": "Quantitative · Profit & Loss",
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "stem": "A man buys a toy for Rs.50 and sells it for Rs.65. His profit percentage is:",
       "options": [
         "30%",
@@ -1890,7 +1470,7 @@
       }
     },
     {
-      "id": 77,
+      "id": 63,
       "subject": "Aptitude",
       "topic": "Reasoning · Series",
       "section": "Aptitude",
@@ -1916,13 +1496,13 @@
       }
     },
     {
-      "id": 78,
+      "id": 64,
       "subject": "Aptitude",
       "topic": "Quantitative · Speed, Distance & Time",
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "A train 200 m long passes a pole in 20 seconds. The speed of the train is:",
       "options": [
         "36 km/h",
@@ -1942,13 +1522,13 @@
       }
     },
     {
-      "id": 79,
+      "id": 65,
       "subject": "Aptitude",
       "topic": "Quantitative · Averages",
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
+      "difficulty": "hard",
       "stem": "The average of 5 numbers is 20. If one number is removed, the average becomes 18. The removed number is:",
       "options": [
         "28",
@@ -1966,6 +1546,426 @@
         "caption": "Average as horizontal line through data",
         "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Average</text><line x1=\"60\" y1=\"170\" x2=\"440\" y2=\"170\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"60\" y1=\"30\" x2=\"60\" y2=\"170\" stroke=\"#64748b\" stroke-width=\"2\"/><rect x=\"80\" y=\"120\" width=\"30\" height=\"50\" fill=\"#3b82f6\" stroke=\"#3b82f6\" rx=\"2\"/><rect x=\"120\" y=\"80\" width=\"30\" height=\"90\" fill=\"#22c55e\" stroke=\"#22c55e\" rx=\"2\"/><rect x=\"160\" y=\"100\" width=\"30\" height=\"70\" fill=\"#f59e0b\" stroke=\"#f59e0b\" rx=\"2\"/><rect x=\"200\" y=\"60\" width=\"30\" height=\"110\" fill=\"#ef4444\" stroke=\"#ef4444\" rx=\"2\"/><rect x=\"240\" y=\"90\" width=\"30\" height=\"80\" fill=\"#8b5cf6\" stroke=\"#8b5cf6\" rx=\"2\"/><line x1=\"60\" y1=\"105\" x2=\"280\" y2=\"105\" stroke=\"#ef4444\" stroke-width=\"2\" stroke-dasharray=\"5\"/><text x=\"350\" y=\"105\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#ef4444\" text-anchor=\"middle\" font-weight=\"bold\">Mean = Σxᵢ/n</text></svg>"
       }
+    },
+    {
+      "id": 66,
+      "subject": "General Awareness",
+      "topic": "Current Affairs · Oil & Gas",
+      "section": "GA",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "easy",
+      "stem": "ONGC's largest oil discovery in recent years was in which block?",
+      "options": [
+        "KG Basin",
+        "Mumbai High",
+        "Cauvery Basin",
+        "Assam"
+      ],
+      "answer": 0,
+      "solution": "ONGC made a significant discovery in the KG Basin.",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 67,
+      "subject": "General Awareness",
+      "topic": "Current Affairs · Economy",
+      "section": "GA",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "easy",
+      "stem": "India's current account deficit for FY2025 is projected at:",
+      "options": [
+        "0.5% of GDP",
+        "1.0% of GDP",
+        "1.5% of GDP",
+        "2.0% of GDP"
+      ],
+      "answer": 1,
+      "solution": "India's CAD is projected at around 1.0% of GDP.",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 68,
+      "subject": "General Awareness",
+      "topic": "Current Affairs · Science",
+      "section": "GA",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "ISRO's Gaganyaan mission aims to:",
+      "options": [
+        "Land on Moon",
+        "Send astronauts to space",
+        "Study the Sun",
+        "Explore Mars"
+      ],
+      "answer": 1,
+      "solution": "Gaganyaan aims to send Indian astronauts (Gagannauts) to space.",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 69,
+      "subject": "General Awareness",
+      "topic": "Current Affairs · Technology",
+      "section": "GA",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "Which company recently developed the most advanced AI chip for data centers?",
+      "options": [
+        "Intel",
+        "AMD",
+        "Nvidia",
+        "Qualcomm"
+      ],
+      "answer": 2,
+      "solution": "Nvidia has been leading in AI chip development.",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 70,
+      "subject": "General Awareness",
+      "topic": "Current Affairs · Global",
+      "section": "GA",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "BRICS expanded to include which new members in 2024?",
+      "options": [
+        "Mexico, Argentina",
+        "Saudi Arabia, Iran, UAE",
+        "Turkey, Indonesia",
+        "Nigeria, South Africa"
+      ],
+      "answer": 1,
+      "solution": "Saudi Arabia, Iran, and UAE joined BRICS.",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 71,
+      "subject": "General Awareness",
+      "topic": "Current Affairs · Technology",
+      "section": "GA",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "Which Indian IT company recently partnered with NVIDIA for AI cloud services?",
+      "options": [
+        "TCS",
+        "Infosys",
+        "Wipro",
+        "HCL"
+      ],
+      "answer": 1,
+      "solution": "Infosys partnered with NVIDIA for AI cloud services.",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 72,
+      "subject": "General Awareness",
+      "topic": "Static GK · Indian Polity",
+      "section": "GA",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "easy",
+      "stem": "Upper House of Indian Parliament:",
+      "options": [
+        "Lok Sabha",
+        "Rajya Sabha",
+        "Vidhan Sabha",
+        "Vidhan Parishad"
+      ],
+      "answer": 1,
+      "solution": "Rajya Sabha is the Upper House.",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 73,
+      "subject": "General Awareness",
+      "topic": "Static GK · Indian Polity",
+      "section": "GA",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "How many fundamental rights are currently recognized?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "answer": 1,
+      "solution": "There are 6 fundamental rights currently recognized.",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 74,
+      "subject": "General Awareness",
+      "topic": "Static GK · History",
+      "section": "GA",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "India gained independence on:",
+      "options": [
+        "January 26, 1950",
+        "August 15, 1947",
+        "August 15, 1950",
+        "January 26, 1947"
+      ],
+      "answer": 1,
+      "solution": "India gained independence on August 15, 1947.",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 75,
+      "subject": "General Awareness",
+      "topic": "Static GK · Indian Polity",
+      "section": "GA",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "The President of India is elected by:",
+      "options": [
+        "Lok Sabha members",
+        "Rajya Sabha members",
+        "Electoral College",
+        "Prime Minister"
+      ],
+      "answer": 2,
+      "solution": "The President is elected by an electoral college.",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 76,
+      "subject": "English",
+      "topic": "English Language · Vocabulary",
+      "section": "English",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "easy",
+      "stem": "What is the meaning of 'pragmatic'?",
+      "options": [
+        "Idealistic",
+        "Practical",
+        "Theoretical",
+        "Emotional"
+      ],
+      "answer": 1,
+      "solution": "Pragmatic means dealing with things practically.",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 77,
+      "subject": "English",
+      "topic": "English Language · Vocabulary",
+      "section": "English",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "Choose the antonym of 'ubiquitous':",
+      "options": [
+        "Omnipresent",
+        "Rare",
+        "Common",
+        "Everywhere"
+      ],
+      "answer": 1,
+      "solution": "Ubiquitous means present everywhere; rare is the opposite.",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 78,
+      "subject": "English",
+      "topic": "English Language · Vocabulary",
+      "section": "English",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "What is the synonym of 'ephemeral'?",
+      "options": [
+        "Permanent",
+        "Transient",
+        "Eternal",
+        "Stable"
+      ],
+      "answer": 1,
+      "solution": "Ephemeral means short-lived or transient.",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 79,
+      "subject": "English",
+      "topic": "English Language · Grammar",
+      "section": "English",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "The teacher told the students ___ quietly.",
+      "options": [
+        "to study",
+        "study",
+        "studying",
+        "studied"
+      ],
+      "answer": 0,
+      "solution": "Infinitive after 'told': told someone to do something.",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 80,
+      "subject": "English",
+      "topic": "English Language · Articles",
+      "section": "English",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "___ honest man always speaks the truth.",
+      "options": [
+        "A",
+        "An",
+        "The",
+        "No article"
+      ],
+      "answer": 1,
+      "solution": "'An' before words starting with silent 'h'.",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 81,
+      "subject": "English",
+      "topic": "English Language · Vocabulary",
+      "section": "English",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "What does 'ameliorate' mean?",
+      "options": [
+        "Worsen",
+        "Improve",
+        "Destroy",
+        "Maintain"
+      ],
+      "answer": 1,
+      "solution": "Ameliorate means to make better or improve.",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 82,
+      "subject": "English",
+      "topic": "English Language · Vocabulary",
+      "section": "English",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "What is the meaning of 'diligent'?",
+      "options": [
+        "Lazy",
+        "Hardworking",
+        "Careless",
+        "Slow"
+      ],
+      "answer": 1,
+      "solution": "Diligent means showing care and effort in one's work.",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 83,
+      "subject": "English",
+      "topic": "English Language · Vocabulary",
+      "section": "English",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "What is a 'watershed' moment?",
+      "options": [
+        "A moment near water",
+        "A turning point",
+        "A disaster",
+        "A celebration"
+      ],
+      "answer": 1,
+      "solution": "A watershed moment is a turning point or critical moment.",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 84,
+      "subject": "English",
+      "topic": "English Language · Prepositions",
+      "section": "English",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "She is proficient ___ English.",
+      "options": [
+        "on",
+        "at",
+        "in",
+        "of"
+      ],
+      "answer": 2,
+      "solution": "Proficient + in is the correct collocation.",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 85,
+      "subject": "English",
+      "topic": "English Language · Grammar",
+      "section": "English",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "If I ___ known, I would have helped.",
+      "options": [
+        "have",
+        "had",
+        "would",
+        "did"
+      ],
+      "answer": 1,
+      "solution": "Third conditional: If + past perfect, would have + past participle.",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated"
     }
   ]
 }

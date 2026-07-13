@@ -22,7 +22,7 @@
       "count": 10
     },
     {
-      "name": "English Language",
+      "name": "English",
       "count": 10
     }
   ],
@@ -76,7 +76,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "The D'' layer at the base of the mantle exhibits a seismic velocity increase of approximately 2-3% over a thickness of ~200 km. If this velocity jump is attributed to a phase transition in bridgmanite to post-perovskite, what is the Clapeyron slope required to explain the observed transition pressure variation of approximately 5 GPa across the topography of the core-mantle boundary (which has ~5 km peak-to-trough topography)?",
       "options": [
         "0.6 MPa/K",
@@ -97,7 +97,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "In Satellite Laser Ranging (SLR), the range to a satellite is determined by measuring the round-trip travel time of a laser pulse. If the timing uncertainty is 10 picoseconds and the refractive index correction for the troposphere requires knowledge of the zenith wet delay to ±1 mm precision, what is the corresponding required precision in the atmospheric water vapor measurement?",
       "options": [
         "0.1 mm",
@@ -118,7 +118,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "The GRACE satellite pair measures Earth's gravity field by precise inter-satellite ranging. If the K-band ranging system achieves a precision of 1 μm at a sampling rate of 1 Hz, and the satellites are separated by 220 km, what is the minimum detectable gravity anomaly at the spatial resolution of 300 km half-wavelength?",
       "options": [
         "0.1 mGal",
@@ -144,7 +144,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "GRACE-FO detects temporal gravity changes due to mass redistribution. If the Greenland ice sheet loses mass at a rate of 280 Gt/year, what is the corresponding rate of change in the degree-2 zonal gravitational coefficient J₂?",
       "options": [
         "-1.2 × 10⁻¹¹ /year",
@@ -207,7 +207,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "The quality factor Q describes seismic attenuation. If the Q-value for P-waves in the upper mantle is approximately 150 at 1 Hz, and attenuation follows a frequency-dependent model Q(f) = Q₀f^α with α = 0.2, what is the Q-value at 10 Hz?",
       "options": [
         "240",
@@ -228,7 +228,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "The Earth's gravitational potential is expressed in spherical harmonics. If the degree-2 coefficient C₂₀ (or J₂) has a value of -4.8417 × 10⁻⁴, and the corresponding Legendre polynomial P₂₀(cos θ) = (3cos²θ - 1)/2, what is the flattening implied by this coefficient at the equator?",
       "options": [
         "1/298.2",
@@ -249,7 +249,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "The geomagnetic field is described by Gauss coefficients g_l^m and h_l^m. The dipole moment of the Earth is approximately 8.0 × 10²² A·m². If the axial dipole coefficient g₁⁰ = -29,404 nT, what is the ratio of the dipole moment computed from Gauss coefficients to that from the simple dipole formula M = 4πR³g₁⁰/μ₀?",
       "options": [
         "0.5",
@@ -333,7 +333,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "In joint gravity-seismic inversion, the coupling between density and velocity is often described by Gardner's relation ρ = aV^b. If the exponent b = 0.25 and the reference values are ρ₀ = 2.2 g/cm³ at V₀ = 2.0 km/s, what density corresponds to a seismic velocity of 4.0 km/s?",
       "options": [
         "2.50 g/cm³",
@@ -354,7 +354,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "In Thellier paleointensity experiments, the Arai plot shows NRM remaining versus pTRM acquired. If the slope of the best-fit line through the data points is -0.8 and the laboratory field is 50 μT, what is the ancient field intensity?",
       "options": [
         "40 μT",
@@ -375,7 +375,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "In the modified Thellier-Thellier method, partial thermoremanent magnetization (pTRM) checks are used to detect alteration. If a pTRM check at temperature T₁ shows a 15% increase in TRM acquired compared to the original measurement at T₁, what does this indicate about the sample?",
       "options": [
         "The sample has gained magnetic minerals due to heating",
@@ -396,7 +396,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "The Vine-Matthews hypothesis explains magnetic anomaly patterns over mid-ocean ridges. If the spreading rate is 5 cm/year and the magnetic polarity sequence has a normal polarity episode lasting 1 million years, what is the width of the corresponding magnetic anomaly stripe on one side of the ridge?",
       "options": [
         "25 km",
@@ -438,7 +438,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "In complex resistivity (CR) surveys, the frequency effect (FE) is defined as (ρ_DC - ρ_AC)/ρ_AC × 100%. If the DC resistivity is 1000 Ω·m and the AC resistivity at 10 Hz is 900 Ω·m, what is the frequency effect?",
       "options": [
         "5%",
@@ -459,7 +459,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "In spectral induced polarization (SIP), the phase angle typically shows a frequency-dependent peak. For a rock containing disseminated pyrite grains of radius a = 10 μm, if the diffusion time constant is τ_D = a²/D where D is the diffusion coefficient, and D ≈ 10⁻⁹ m²/s, what is the peak frequency of the SIP response?",
       "options": [
         "10 Hz",
@@ -480,7 +480,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "In controlled-source electromagnetic (CSEM) surveying for hydrocarbons, the airwave effect can mask the subsurface response. If the sea water resistivity is 0.3 Ω·m, sea water depth is 1000 m, and the source frequency is 0.25 Hz, what is the skin depth in the sea water?",
       "options": [
         "250 m",
@@ -527,7 +527,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "The airwave in marine CSEM propagates from the source upward to the sea surface, along the air-sea interface, and back down to the receiver. If the sea water depth is h and the air wave velocity is c (speed of light), the travel time for the airwave path is approximately:",
       "options": [
         "t ≈ 2h√(μ₀ε₀) + x/c",
@@ -548,7 +548,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "Elastic impedance (EI) extends acoustic impedance to non-normal incidence. For a two-layer model with Vp₁ = 2500 m/s, Vs₁ = 1200 m/s, ρ₁ = 2.2 g/cm³ and Vp₂ = 3000 m/s, Vs₂ = 1500 m/s, ρ₂ = 2.4 g/cm³, what is the P-P reflection coefficient at 30° incidence using the exact Zoeppritz equation versus the Aki-Richards approximation?",
       "options": [
         "Both give 0.10",
@@ -574,7 +574,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "In simultaneous inversion of pre-stack seismic data, the objective function typically includes a data misfit term and a regularization term. If the data misfit χ² = 150 for 100 data points, and the regularization parameter λ = 0.01 with model roughness R = 50, what is the value of the objective function?",
       "options": [
         "150.5",
@@ -595,7 +595,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "In time-lapse (4D) seismic monitoring, the repeatability metric NRMS (Normalized Root Mean Square) is used to assess data quality. If the baseline survey has an RMS amplitude of 100 and the monitor survey has an RMS amplitude of 105, and the difference trace has an RMS of 30, what is the NRMS?",
       "options": [
         "15%",
@@ -621,7 +621,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "The critical angle for P-wave reflection occurs when the incident angle satisfies sin(θ_c) = Vp₁/Vp₂. For an interface with Vp₁ = 2000 m/s and Vp₂ = 3500 m/s, what is the critical angle, and what happens to the reflection coefficient at angles beyond this?",
       "options": [
         "θ_c = 35°, reflection coefficient becomes complex",
@@ -642,7 +642,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "The reflection coefficient at normal incidence is R = (Z₂ - Z₁)/(Z₂ + Z₁), where Z = ρV. For a sandstone reservoir with ρ = 2.1 g/cm³ and Vp = 2800 m/s overlain by shale with ρ = 2.3 g/cm³ and Vp = 2400 m/s, what is the reflection coefficient and what does it imply for bright spot analysis?",
       "options": [
         "R = +0.05, weak positive reflection",
@@ -668,7 +668,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "The Kuster-Toksöz model computes effective elastic properties of a medium containing inclusions. For a host rock with K_h = 30 GPa, μ_h = 15 GPa containing spherical pores with K_i = 0 (void) and volume fraction φ = 0.15, what is the effective bulk modulus K_eff using the Kuster-Toksöz result?",
       "options": [
         "20 GPa",
@@ -689,7 +689,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "In f-k (frequency-wavenumber) analysis, a plane wave with apparent velocity v_app appears as a line through the origin with slope v_app = f/k. If a refraction event has an apparent velocity of 5000 m/s and the dominant frequency is 30 Hz, what is the corresponding wavenumber?",
       "options": [
         "0.003 m⁻¹",
@@ -715,7 +715,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "The tau-p transform (slant stack) maps seismic data from the offset-time domain to the intercept time-ray parameter domain. For a linear event in x-t with slope 1/v (where v is the apparent velocity), what is its representation in tau-p?",
       "options": [
         "A point at (τ, p) where τ = 0 and p = 1/v",
@@ -757,7 +757,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "Doll's equation gives the geometric factor for a focused resistivity tool. For a dual-induction tool with deep induction (ILd) and medium induction (ILm) arrays, if the geometric factor for the deep investigation is J_d = 0.72 and for the medium investigation is J_m = 0.58, and the invasion zone has resistivity R_xo = 10 Ω·m while the virgin zone has R_t = 100 Ω·m, what is the apparent resistivity for the ILd measurement?",
       "options": [
         "72 Ω·m",
@@ -778,7 +778,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "The thermal neutron decay time (Σ) measured by pulsed neutron tools is related to the macroscopic capture cross-section. In a sandstone formation with porosity φ = 20%, water-filled with Σ_w = 22 c.u., and matrix with Σ_ma = 8 c.u., what is the bulk Σ for the formation?",
       "options": [
         "10.8 c.u.",
@@ -799,7 +799,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "In pulsed neutron logging, the sigma (Σ) measurement is sensitive to chlorine content. If a formation has porosity φ = 25%, water salinity = 50,000 ppm NaCl, and the corresponding Σ_w = 35 c.u., what is the Σ value if the formation is water-saturated versus hydrocarbon-saturated (assuming Σ_hc = 20 c.u.)?",
       "options": [
         "Water: 14.5 c.u., HC: 10.8 c.u.",
@@ -846,7 +846,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "Neutron porosity tools measure hydrogen index, which is related to porosity in water-saturated formations. If the tool is calibrated to limestone (ρ_ma = 2.71 g/cm³) and reads 30 porosity units in a sandstone formation (ρ_ma = 2.65 g/cm³) with true porosity of 25%, what is the limestone-equivalent porosity correction?",
       "options": [
         "-2 pu",
@@ -867,7 +867,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "Occam's inversion seeks the smoothest model that fits the data to a specified tolerance. If the target RMS misfit is 1.0 and the current model achieves RMS = 1.5 with model roughness R = 100, what is the next step in the Occam algorithm?",
       "options": [
         "Increase regularization to reduce roughness",
@@ -888,7 +888,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "The model resolution matrix R = (G^TG + λI)^{-1}G^TG indicates how well the model parameters are resolved. If the diagonal elements of R are all close to 1.0, what does this imply about the inversion?",
       "options": [
         "The model is over-parameterized",
@@ -909,7 +909,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "Pipe A can fill a tank in 20 hours and Pipe B can fill it in 30 hours. If both pipes are opened together but Pipe B is closed after some time, the tank gets full in 12 hours. For how many hours was Pipe B open?",
       "options": [
         "8 hours",
@@ -935,7 +935,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "stem": "A shopkeeper marks a product 40% above cost price and then gives a 20% discount. What is his profit percentage?",
       "options": [
         "10%",
@@ -961,7 +961,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "stem": "The ratio of the present ages of A and B is 5:7. Four years from now, the ratio will be 3:4. What is B's present age?",
       "options": [
         "24 years",
@@ -987,7 +987,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "stem": "A sum of money doubles in 10 years at simple interest. In how many years will it triple?",
       "options": [
         "15 years",
@@ -1039,7 +1039,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
+      "difficulty": "hard",
       "stem": "The average of 5 numbers is 20. If one number is excluded, the average becomes 18. What is the excluded number?",
       "options": [
         "24",
@@ -1117,7 +1117,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "In what ratio must water be mixed with milk costing Rs. 30 per litre to get a mixture worth Rs. 20 per litre?",
       "options": [
         "1:2",
@@ -1143,7 +1143,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "stem": "What is the unit digit of 7^2023?",
       "options": [
         "1",
@@ -1169,7 +1169,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "In how many ways can 5 boys and 3 girls be seated in a row such that no two girls are adjacent?",
       "options": [
         "14400",
@@ -1216,7 +1216,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "stem": "If x + 1/x = 5, what is the value of x² + 1/x²?",
       "options": [
         "23",
@@ -1268,7 +1268,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "If sin θ = 3/5 and θ is in the first quadrant, what is the value of cos 2θ?",
       "options": [
         "7/25",
@@ -1320,7 +1320,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "stem": "What is the value of log₂(32)?",
       "options": [
         "4",
@@ -1341,7 +1341,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "stem": "The angle of elevation of the top of a tower from a point on the ground is 30°. On moving 20 m closer to the tower, the angle of elevation becomes 60°. What is the height of the tower?",
       "options": [
         "10√3 m",
@@ -1367,7 +1367,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "stem": "A boat can travel 20 km downstream in 2 hours and the same distance upstream in 5 hours. What is the speed of the boat in still water?",
       "options": [
         "5 km/h",
@@ -1419,7 +1419,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "If January 1, 2023 was a Sunday, what day of the week was January 1, 2024?",
       "options": [
         "Sunday",
@@ -1445,7 +1445,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "stem": "The sum of the ages of a father and son is 45 years. Five years ago, the product of their ages was 4 times the father's age at that time. What is the present age of the son?",
       "options": [
         "9 years",
@@ -1466,7 +1466,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "stem": "A and B started a business with investments of Rs. 30,000 and Rs. 50,000 respectively. After 6 months, C joined with Rs. 40,000. If the total profit at the end of 2 years is Rs. 28,000, what is B's share?",
       "options": [
         "Rs. 10,000",
@@ -1492,7 +1492,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
+      "difficulty": "hard",
       "stem": "A Rs. 100 stock yielding 8% dividend is quoted at Rs. 120. What is the rate of return on the investment?",
       "options": [
         "6.67%",
@@ -1530,42 +1530,42 @@
     {
       "id": 66,
       "subject": "General Awareness",
-      "topic": "Current Affairs · International",
+      "topic": "Current Affairs · Technology",
       "section": "GA",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
-      "stem": "Which country became the newest member of BRICS in 2024?",
+      "difficulty": "easy",
+      "stem": "Which company recently developed the most advanced AI chip for data centers?",
       "options": [
-        "Iran",
-        "Ethiopia",
-        "Egypt",
-        "All of the above"
+        "Intel",
+        "AMD",
+        "Nvidia",
+        "Qualcomm"
       ],
-      "answer": 3,
-      "solution": "In January 2024, BRICS expanded to include five new members: Iran, Ethiopia, Egypt, UAE, and Saudi Arabia (though Saudi Arabia's status was initially ambiguous). This was the first expansion of BRICS since South Africa joined in 2010. The expansion aimed to increase the group's global influence and represent emerging economies more broadly.",
-      "estSec": 25,
+      "answer": 2,
+      "solution": "Nvidia has been leading in AI chip development.",
+      "estSec": 15,
       "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 67,
       "subject": "General Awareness",
-      "topic": "Current Affairs · Science and Technology",
+      "topic": "Current Affairs · Technology",
       "section": "GA",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
-      "stem": "ISRO's Chandrayaan-3 successfully landed on the Moon's south pole region in August 2023. What was the name of the landing module?",
+      "difficulty": "easy",
+      "stem": "Which Indian IT company recently partnered with NVIDIA for AI cloud services?",
       "options": [
-        "Vikram",
-        "Pragyan",
-        "Propulsion Module",
-        "Orbiter"
+        "TCS",
+        "Infosys",
+        "Wipro",
+        "HCL"
       ],
-      "answer": 0,
-      "solution": "Chandrayaan-3's lander was named 'Vikram' (after Dr. Vikram Sarabhai, the father of the Indian space program), and the rover was named 'Pragyan' (meaning 'wisdom' in Sanskrit). The Propulsion Module carried the lander to lunar orbit before separation. The Orbiter from Chandrayaan-2 continued to operate and relayed signals from Chandrayaan-3.",
-      "estSec": 20,
+      "answer": 1,
+      "solution": "Infosys partnered with NVIDIA for AI cloud services.",
+      "estSec": 15,
       "topicWeight": 0.1,
       "source": "curated"
     },
@@ -1577,57 +1577,57 @@
       "type": "MCQ",
       "marks": 1,
       "difficulty": "medium",
-      "stem": "Which Indian state became the first to implement the Uniform Civil Code (UCC) in 2024?",
+      "stem": "India's current account deficit for FY2025 is projected at:",
       "options": [
-        "Uttarakhand",
-        "Gujarat",
-        "Himachal Pradesh",
-        "Assam"
+        "0.5% of GDP",
+        "1.0% of GDP",
+        "1.5% of GDP",
+        "2.0% of GDP"
       ],
-      "answer": 0,
-      "solution": "Uttarakhand became the first Indian state to implement the Uniform Civil Code (UCC) in February 2024. The UCC Act 2024 replaced personal laws based on religion with a common set of laws governing marriage, divorce, succession, and adoption for all citizens regardless of religion. This was a significant implementation of Article 44 of the Indian Constitution, which envisions a UCC for all citizens.",
-      "estSec": 25,
+      "answer": 1,
+      "solution": "India's CAD is projected at around 1.0% of GDP.",
+      "estSec": 15,
       "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 69,
       "subject": "General Awareness",
-      "topic": "Current Affairs · Awards",
+      "topic": "Current Affairs · Infrastructure",
       "section": "GA",
       "type": "MCQ",
       "marks": 1,
       "difficulty": "medium",
-      "stem": "Who was awarded the Nobel Peace Prize 2023?",
+      "stem": "India's first bullet train project connects which two cities?",
       "options": [
-        "Narges Mohammadi",
-        "Volodymyr Zelenskyy",
-        "Greta Thunberg",
-        "United Nations"
+        "Delhi-Mumbai",
+        "Mumbai-Ahmedabad",
+        "Chennai-Bangalore",
+        "Kolkata-Hyderabad"
       ],
-      "answer": 0,
-      "solution": "Narges Mohammadi, an Iranian human rights activist, was awarded the Nobel Peace Prize 2023 for her fight against the oppression of women in Iran and her efforts for human rights and freedom. She was sentenced to prison multiple times for her activism and was awarded the prize while still imprisoned.",
-      "estSec": 20,
+      "answer": 1,
+      "solution": "The first bullet train project connects Mumbai and Ahmedabad.",
+      "estSec": 15,
       "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 70,
       "subject": "General Awareness",
-      "topic": "Static GK · Indian Polity",
+      "topic": "Current Affairs · Policy",
       "section": "GA",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
-      "stem": "How many members are nominated to the Rajya Sabha by the President of India?",
+      "difficulty": "hard",
+      "stem": "The Ujjwala Yojana provides:",
       "options": [
-        "10",
-        "12",
-        "15",
-        "20"
+        "Free electricity",
+        "Free LPG connections",
+        "Free water supply",
+        "Free internet"
       ],
       "answer": 1,
-      "solution": "The President of India nominates 12 members to the Rajya Sabha (Council of States). These members are persons having special knowledge or practical experience in literature, science, art, and social service. This provision is under Article 80(1)(a) of the Indian Constitution.",
+      "solution": "Ujjwala Yojana provides free LPG connections to BPL families.",
       "estSec": 15,
       "topicWeight": 0.1,
       "source": "curated"
@@ -1635,20 +1635,20 @@
     {
       "id": 71,
       "subject": "General Awareness",
-      "topic": "Static GK · Geography",
+      "topic": "Current Affairs · Economy",
       "section": "GA",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
-      "stem": "Which is the longest river in India?",
+      "difficulty": "hard",
+      "stem": "India's GDP growth rate for FY2025-26 is estimated at approximately:",
       "options": [
-        "Yamuna",
-        "Ganga",
-        "Brahmaputra",
-        "Godavari"
+        "5.5%",
+        "6.5%",
+        "7.5%",
+        "8.5%"
       ],
       "answer": 1,
-      "solution": "The Ganga is the longest river in India, flowing approximately 2,525 km from its source at Gaumukh in Uttarakhand to the Bay of Bengal. The Godavari is the second longest at about 1,465 km, followed by the Krishna at about 1,400 km. The Brahmaputra flows through India for about 916 km.",
+      "solution": "India's GDP growth for FY2025-26 is estimated at around 6.5%.",
       "estSec": 15,
       "topicWeight": 0.1,
       "source": "curated"
@@ -1656,20 +1656,20 @@
     {
       "id": 72,
       "subject": "General Awareness",
-      "topic": "Static GK · Indian Economy",
+      "topic": "Static GK · Indian Polity",
       "section": "GA",
       "type": "MCQ",
       "marks": 1,
       "difficulty": "easy",
-      "stem": "Which is the largest stock exchange in India by market capitalization?",
+      "stem": "Upper House of Indian Parliament:",
       "options": [
-        "BSE",
-        "NSE",
-        "NCDEX",
-        "MCX"
+        "Lok Sabha",
+        "Rajya Sabha",
+        "Vidhan Sabha",
+        "Vidhan Parishad"
       ],
       "answer": 1,
-      "solution": "The National Stock Exchange of India (NSE) is the largest stock exchange in India by market capitalization and trading volume. It was established in 1992 and is located in Mumbai. The Bombay Stock Exchange (BSE), established in 1875, is the oldest stock exchange in Asia but has been surpassed by NSE in terms of market capitalization.",
+      "solution": "Rajya Sabha is the Upper House.",
       "estSec": 15,
       "topicWeight": 0.1,
       "source": "curated"
@@ -1677,159 +1677,201 @@
     {
       "id": 73,
       "subject": "General Awareness",
-      "topic": "Current Affairs · Sports",
+      "topic": "Static GK · Science",
       "section": "GA",
       "type": "MCQ",
       "marks": 1,
       "difficulty": "medium",
-      "stem": "Who won the men's singles title at the 2024 Australian Open tennis tournament?",
+      "stem": "The hardest natural substance on Earth is:",
       "options": [
-        "Novak Djokovic",
-        "Jannik Sinner",
-        "Carlos Alcaraz",
-        "Daniil Medvedev"
+        "Quartz",
+        "Topaz",
+        "Diamond",
+        "Corundum"
       ],
-      "answer": 1,
-      "solution": "Jannik Sinner of Italy won the 2024 Australian Open men's singles title, defeating Novak Djokovic in the semifinals and Daniil Medvedev in the final. This was Sinner's first Grand Slam title. He became the first Italian man to win a Grand Slam singles title since 1976.",
-      "estSec": 20,
+      "answer": 2,
+      "solution": "Diamond is the hardest natural substance (10 on Mohs scale).",
+      "estSec": 15,
       "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 74,
       "subject": "General Awareness",
-      "topic": "Static GK · Books and Authors",
+      "topic": "Static GK · Science",
       "section": "GA",
       "type": "MCQ",
       "marks": 1,
       "difficulty": "medium",
-      "stem": "Who wrote the book 'The Discovery of India'?",
+      "stem": "SI unit of electric current is:",
       "options": [
-        "Mahatma Gandhi",
-        "Jawaharlal Nehru",
-        "Rabindranath Tagore",
-        "Sarojini Naidu"
+        "Volt",
+        "Watt",
+        "Ampere",
+        "Ohm"
       ],
-      "answer": 1,
-      "solution": "'The Discovery of India' was written by Jawaharlal Nehru during his imprisonment in Ahmednagar Fort (1942-1946). The book is a comprehensive work on Indian history, philosophy, and culture, reflecting Nehru's deep interest in India's heritage and civilization.",
-      "estSec": 20,
+      "answer": 2,
+      "solution": "Ampere is the SI unit of electric current.",
+      "estSec": 15,
       "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 75,
       "subject": "General Awareness",
-      "topic": "Current Affairs · Environment",
+      "topic": "Static GK · Indian Polity",
       "section": "GA",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
-      "stem": "Which international agreement aims to limit global warming to 1.5°C above pre-industrial levels?",
+      "difficulty": "hard",
+      "stem": "How many fundamental rights are currently recognized?",
       "options": [
-        "Kyoto Protocol",
-        "Paris Agreement",
-        "Montreal Protocol",
-        "Copenhagen Accord"
+        "5",
+        "6",
+        "7",
+        "8"
       ],
       "answer": 1,
-      "solution": "The Paris Agreement, adopted in 2015 at COP21, aims to limit global warming to well below 2°C above pre-industrial levels, with efforts to limit the increase to 1.5°C. It was adopted by 196 parties and entered into force on November 4, 2016. The Kyoto Protocol (1997) focused on binding emission reduction targets for developed countries.",
-      "estSec": 20,
+      "solution": "There are 6 fundamental rights currently recognized.",
+      "estSec": 15,
       "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 76,
-      "subject": "English Language",
-      "topic": "Reading Comprehension · Main Idea",
+      "subject": "English",
+      "topic": "English Language · Grammar",
       "section": "English",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
-      "stem": "Read the passage: 'Climate change is accelerating the melting of glaciers worldwide, threatening water supplies for billions of people who depend on glacial meltwater for drinking, agriculture, and hydroelectric power.' What is the main idea of this passage?",
+      "difficulty": "hard",
+      "stem": "Identify the error: 'Each of the students have submitted their assignments.'",
       "options": [
-        "Glaciers are beautiful natural formations",
-        "Climate change poses a serious threat to water security through glacier melting",
-        "Hydroelectric power is the best energy source",
-        "Billion people live near glaciers"
+        "Each of",
+        "the students",
+        "have submitted",
+        "their assignments"
       ],
-      "answer": 1,
-      "solution": "The passage discusses how climate change is causing glaciers to melt faster, which threatens the water supply for billions of people. The main idea is the connection between climate change, glacier melting, and the resulting threat to water security. The other options are either not mentioned or are minor details.",
-      "estSec": 25,
+      "answer": 2,
+      "solution": "'Each' is singular, so it should be 'has submitted'.",
+      "estSec": 15,
       "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 77,
-      "subject": "English Language",
-      "topic": "Vocabulary · Synonyms",
+      "subject": "English",
+      "topic": "English Language · Prepositions",
       "section": "English",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
-      "stem": "Choose the word most similar in meaning to 'Ephemeral':",
+      "difficulty": "hard",
+      "stem": "She is proficient ___ English.",
       "options": [
-        "Permanent",
-        "Fleeting",
-        "Massive",
-        "Ancient"
+        "on",
+        "at",
+        "in",
+        "of"
       ],
-      "answer": 1,
-      "solution": "'Ephemeral' means lasting for a very short time. 'Fleeting' is the closest synonym, also meaning lasting only a brief time. 'Permanent' is an antonym, while 'massive' and 'ancient' are unrelated in meaning.",
+      "answer": 2,
+      "solution": "Proficient + in is the correct collocation.",
       "estSec": 15,
       "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 78,
-      "subject": "English Language",
-      "topic": "Grammar · Tenses",
+      "subject": "English",
+      "topic": "English Language · Vocabulary",
       "section": "English",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
-      "stem": "Choose the correct form: 'By the time we arrived, the train ______ already ______.'",
+      "difficulty": "easy",
+      "stem": "What is the synonym of 'ephemeral'?",
       "options": [
-        "has/left",
-        "had/left",
-        "was/leaving",
-        "did/leave"
+        "Permanent",
+        "Transient",
+        "Eternal",
+        "Stable"
       ],
       "answer": 1,
-      "solution": "The sentence describes an action (train leaving) that was completed before another past action (our arrival). This requires the past perfect tense: 'had left'. The structure 'had + past participle' indicates an action completed before another past action.",
-      "estSec": 20,
+      "solution": "Ephemeral means short-lived or transient.",
+      "estSec": 15,
       "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 79,
-      "subject": "English Language",
-      "topic": "Grammar · Prepositions",
+      "subject": "English",
+      "topic": "English Language · Prepositions",
       "section": "English",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
-      "stem": "Choose the correct preposition: 'She is interested ______ learning French.'",
+      "difficulty": "easy",
+      "stem": "The meeting was put ___ Friday.",
       "options": [
-        "in",
         "on",
         "at",
-        "for"
+        "off",
+        "up"
       ],
-      "answer": 0,
-      "solution": "The correct preposition is 'in'. The phrase 'interested in' is a fixed expression in English. We say 'interested in something' or 'interested in doing something'.",
+      "answer": 2,
+      "solution": "Put off means to postpone.",
       "estSec": 15,
       "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 80,
-      "subject": "English Language",
-      "topic": "Vocabulary · Antonyms",
+      "subject": "English",
+      "topic": "English Language · Vocabulary",
       "section": "English",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
-      "stem": "Choose the word most opposite in meaning to 'Benevolent':",
+      "difficulty": "hard",
+      "stem": "What is the meaning of 'pragmatic'?",
+      "options": [
+        "Idealistic",
+        "Practical",
+        "Theoretical",
+        "Emotional"
+      ],
+      "answer": 1,
+      "solution": "Pragmatic means dealing with things practically.",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 81,
+      "subject": "English",
+      "topic": "English Language · Vocabulary",
+      "section": "English",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "Choose the word meaning 'to make something less severe':",
+      "options": [
+        "Aggravate",
+        "Mitigate",
+        "Motivate",
+        "Navigate"
+      ],
+      "answer": 1,
+      "solution": "Mitigate means to make less severe or painful.",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 82,
+      "subject": "English",
+      "topic": "English Language · Vocabulary",
+      "section": "English",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "Choose the antonym of 'benevolent':",
       "options": [
         "Kind",
         "Malevolent",
@@ -1837,113 +1879,71 @@
         "Charitable"
       ],
       "answer": 1,
-      "solution": "'Benevolent' means well-meaning and kindly. 'Malevolent' means having or showing a wish to do evil to others, making it the direct antonym. 'Kind', 'generous', and 'charitable' are synonyms of benevolent.",
+      "solution": "Benevolent means well-meaning; malevolent means ill-willed.",
       "estSec": 15,
       "topicWeight": 0.1,
       "source": "curated"
     },
     {
-      "id": 81,
-      "subject": "English Language",
-      "topic": "Grammar · Subject-Verb Agreement",
-      "section": "English",
-      "type": "MCQ",
-      "marks": 1,
-      "difficulty": "medium",
-      "stem": "Choose the correct verb: 'Neither the teacher nor the students ______ present in the class.'",
-      "options": [
-        "was",
-        "were",
-        "is",
-        "has been"
-      ],
-      "answer": 1,
-      "solution": "When using 'neither...nor', the verb agrees with the nearer subject. Since 'students' (plural) is nearer to the verb, the plural form 'were' is correct. If the sentence said 'neither the students nor the teacher', the verb would be 'was'.",
-      "estSec": 20,
-      "topicWeight": 0.1,
-      "source": "curated"
-    },
-    {
-      "id": 82,
-      "subject": "English Language",
-      "topic": "Reading Comprehension · Inference",
-      "section": "English",
-      "type": "MCQ",
-      "marks": 1,
-      "difficulty": "medium",
-      "stem": "Read the passage: 'Despite receiving widespread criticism for its environmental impact, the fast fashion industry continues to grow, with consumers prioritizing affordability over sustainability.' What can be inferred from this passage?",
-      "options": [
-        "Everyone supports fast fashion",
-        "Environmental concerns are not enough to change consumer behavior",
-        "Fast fashion is becoming more expensive",
-        "Sustainability is the top priority for consumers"
-      ],
-      "answer": 1,
-      "solution": "The passage states that despite criticism for environmental impact, the industry continues to grow because consumers prioritize affordability. This implies that environmental concerns alone are not sufficient to change consumer purchasing behavior. The other options either contradict the passage or are not supported by it.",
-      "estSec": 25,
-      "topicWeight": 0.1,
-      "source": "curated"
-    },
-    {
       "id": 83,
-      "subject": "English Language",
-      "topic": "Grammar · Articles",
+      "subject": "English",
+      "topic": "English Language · Grammar",
       "section": "English",
       "type": "MCQ",
       "marks": 1,
       "difficulty": "easy",
-      "stem": "Choose the correct article: 'He is ______ honest man.'",
+      "stem": "If I ___ known, I would have helped.",
       "options": [
-        "a",
-        "an",
-        "the",
-        "no article"
+        "have",
+        "had",
+        "would",
+        "did"
       ],
       "answer": 1,
-      "solution": "The correct article is 'an'. We use 'an' before words that begin with a vowel sound. 'Honest' begins with a silent 'h', so the first sound is the vowel 'o', requiring 'an'.",
+      "solution": "Third conditional: If + past perfect, would have + past participle.",
       "estSec": 15,
       "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 84,
-      "subject": "English Language",
-      "topic": "Vocabulary · Idioms and Phrases",
+      "subject": "English",
+      "topic": "English Language · Punctuation",
       "section": "English",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
-      "stem": "What does the idiom 'Break the ice' mean?",
+      "difficulty": "easy",
+      "stem": "Choose the correctly punctuated sentence:",
       "options": [
-        "To literally break ice into pieces",
-        "To initiate a conversation or ease tension in a social situation",
-        "To start a fight",
-        "To cool down something"
+        "Lets eat, Grandma!",
+        "Let's eat Grandma!",
+        "Lets eat Grandma!",
+        "Let's, eat Grandma!"
       ],
-      "answer": 1,
-      "solution": "'Break the ice' is an idiom that means to initiate a conversation or ease tension in a social situation, especially when people are meeting for the first time or are uncomfortable. It comes from the literal act of breaking ice to allow ships to pass.",
-      "estSec": 20,
+      "answer": 0,
+      "solution": "Let's needs an apostrophe; comma separates direct address.",
+      "estSec": 15,
       "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 85,
-      "subject": "English Language",
-      "topic": "Grammar · Direct and Indirect Speech",
+      "subject": "English",
+      "topic": "English Language · Vocabulary",
       "section": "English",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
-      "stem": "Convert to indirect speech: He said, 'I am going to the market.'",
+      "difficulty": "easy",
+      "stem": "Choose the synonym of 'ambiguous':",
       "options": [
-        "He said that he is going to the market",
-        "He said that he was going to the market",
-        "He said that he will go to the market",
-        "He said that he had gone to the market"
+        "Clear",
+        "Vague",
+        "Definite",
+        "Obvious"
       ],
       "answer": 1,
-      "solution": "When converting direct speech to indirect speech, the present continuous tense ('am going') changes to past continuous tense ('was going'). The pronoun 'I' changes to 'he', and the quotation marks are removed with the conjunction 'that'. So: 'He said that he was going to the market.'",
-      "estSec": 20,
+      "solution": "Ambiguous means open to more than one interpretation; vague.",
+      "estSec": 15,
       "topicWeight": 0.1,
       "source": "curated"
     }
