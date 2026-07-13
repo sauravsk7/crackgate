@@ -22,7 +22,7 @@
       "count": 10
     },
     {
-      "name": "English Language",
+      "name": "English",
       "count": 10
     }
   ],
@@ -34,7 +34,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "The δ¹⁸O isotope ratio is primarily used to determine:",
       "options": [
         "Formation temperature of carbonate rocks",
@@ -76,7 +76,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "Conodonts are important index fossils because they:",
       "options": [
         "Are phosphatic elements that survive acid digestion of carbonates",
@@ -97,7 +97,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "stem": "The process by which peat is transformed into coal through burial and diagenesis is called:",
       "options": [
         "Metamorphism",
@@ -144,7 +144,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "The Kyanite → Sillimanite transition indicates:",
       "options": [
         "Increasing temperature at high pressure",
@@ -186,7 +186,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "stem": "In the Dunham classification of carbonate rocks, a 'wackestone' is defined as:",
       "options": [
         "Mud-supported fabric with >10% grains",
@@ -233,7 +233,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "stem": "The IUGS classification places a volcanic rock with 63% SiO₂, 5% Na₂O+K₂O, and 3% normative quartz in the field of:",
       "options": [
         "Rhyolite",
@@ -254,7 +254,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "The Sm-Nd isotopic system is particularly useful for dating:",
       "options": [
         "Archean mantle-derived rocks and crustal evolution",
@@ -275,7 +275,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "Compaction in sedimentary rocks primarily affects:",
       "options": [
         "Reduction of porosity by expelling pore fluids and reorienting grains",
@@ -296,7 +296,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "The first appearance datum (FAD) of a species is used to define:",
       "options": [
         "The base (lower boundary) of a biozone",
@@ -317,7 +317,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "stem": "Shale gas is produced from source rocks acting as reservoirs. The key property that makes shale a gas reservoir is:",
       "options": [
         "High total organic carbon (TOC) generating and storing gas in organic pores",
@@ -385,7 +385,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
+      "difficulty": "hard",
       "stem": "The five major mass extinction events in Earth's history are well documented by the disappearance of:",
       "options": [
         "Marine invertebrate families in the fossil record",
@@ -406,7 +406,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "Biomarkers such as hopanes and steranes in petroleum are derived from:",
       "options": [
         "Cell membrane lipids of bacteria (hopanes) and eukaryotic organisms (steranes)",
@@ -474,7 +474,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "Microthermometry of fluid inclusions in quartz veins can determine:",
       "options": [
         "Homogenization temperature and salinity of the trapped fluid",
@@ -516,7 +516,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "stem": "Trace fossils (ichnofossils) such as Skolithos and Cruziana indicate:",
       "options": [
         "Behavioral activity of organisms and depositional energy regime",
@@ -542,7 +542,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "The Rb-Sr isochron method requires multiple whole-rock samples to:",
       "options": [
         "Define a straight line on an isochron plot to determine age and initial ⁸⁷Sr/⁸⁶Sr",
@@ -563,7 +563,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "Hummocky cross-stratification (HCS) is diagnostic of:",
       "options": [
         "Storm-dominated shallow marine shelf environments",
@@ -589,7 +589,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "Induced Polarization (IP) surveys in mineral exploration detect:",
       "options": [
         "Disseminated sulfide minerals through chargeability anomalies",
@@ -631,7 +631,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "In metamorphic petrology, a phase diagram (P-T pseudosection) for a specific bulk composition shows:",
       "options": [
         "Stability fields of mineral assemblages as a function of pressure and temperature",
@@ -652,7 +652,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "A maximum flooding surface (MFS) in sequence stratigraphy marks:",
       "options": [
         "The transition from transgressive to highstand systems tract",
@@ -678,7 +678,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "stem": "The chondrite-normalized rare earth element (REE) pattern of a light-REE enriched rock with a negative Eu anomaly indicates:",
       "options": [
         "Fractional crystallization involving plagioclase removal",
@@ -704,7 +704,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "Planktonic foraminifera are preferred over benthonic foraminifera for global biostratigraphic correlation because they:",
       "options": [
         "Were free-floating and had wide geographic distribution",
@@ -814,7 +814,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "stem": "The precipitation sequence of evaporite minerals from evaporating seawater is:",
       "options": [
         "Calcite → gypsum → halite → potash salts",
@@ -877,7 +877,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "stem": "The redox state (fO₂) of a magmatic system controls the:",
       "options": [
         "Oxidation state of iron and sulfur speciation in minerals and melts",
@@ -919,7 +919,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "Study the bar chart showing ONGC natural gas production (BCM) from 2019 to 2023. What is the total production over the 5-year period?",
       "figure": {
         "kind": "svg",
@@ -945,7 +945,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "From the gas production bar chart, the year-on-year percentage decline from 2021 to 2022 was approximately:",
       "options": [
         "35%",
@@ -957,7 +957,12 @@
       "solution": "2021 production = 22 BCM, 2022 = 13 BCM. Decline = 22 − 13 = 9 BCM. Percentage decline = (9/22) × 100 ≈ 40.9%, approximately 41%.",
       "estSec": 60,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Bar chart showing quarterly data",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Bar Chart · Sales Data</text><line x1=\"60\" y1=\"170\" x2=\"440\" y2=\"170\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"60\" y1=\"30\" x2=\"60\" y2=\"170\" stroke=\"#64748b\" stroke-width=\"2\"/><rect x=\"85\" y=\"80\" width=\"40\" height=\"90\" fill=\"#3b82f6\" stroke=\"#3b82f6\" rx=\"2\"/><rect x=\"145\" y=\"110\" width=\"40\" height=\"60\" fill=\"#ef4444\" stroke=\"#ef4444\" rx=\"2\"/><rect x=\"205\" y=\"60\" width=\"40\" height=\"110\" fill=\"#22c55e\" stroke=\"#22c55e\" rx=\"2\"/><rect x=\"265\" y=\"95\" width=\"40\" height=\"75\" fill=\"#f59e0b\" stroke=\"#f59e0b\" rx=\"2\"/><rect x=\"325\" y=\"100\" width=\"40\" height=\"70\" fill=\"#8b5cf6\" stroke=\"#8b5cf6\" rx=\"2\"/><text x=\"105\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Q1</text><text x=\"165\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Q2</text><text x=\"225\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Q3</text><text x=\"285\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Q4</text><text x=\"345\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Q5</text></svg>"
+      }
     },
     {
       "id": 43,
@@ -966,7 +971,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "stem": "If the average gas production from 2019–2023 continues into 2024, what would be the expected total production for the two-year period 2024–2025?",
       "options": [
         "28 BCM",
@@ -978,7 +983,12 @@
       "solution": "Average annual production = 85/5 = 17 BCM. Two-year total = 17 × 2 = 34 BCM.",
       "estSec": 45,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Bar chart showing quarterly data",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Bar Chart · Sales Data</text><line x1=\"60\" y1=\"170\" x2=\"440\" y2=\"170\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"60\" y1=\"30\" x2=\"60\" y2=\"170\" stroke=\"#64748b\" stroke-width=\"2\"/><rect x=\"85\" y=\"80\" width=\"40\" height=\"90\" fill=\"#3b82f6\" stroke=\"#3b82f6\" rx=\"2\"/><rect x=\"145\" y=\"110\" width=\"40\" height=\"60\" fill=\"#ef4444\" stroke=\"#ef4444\" rx=\"2\"/><rect x=\"205\" y=\"60\" width=\"40\" height=\"110\" fill=\"#22c55e\" stroke=\"#22c55e\" rx=\"2\"/><rect x=\"265\" y=\"95\" width=\"40\" height=\"75\" fill=\"#f59e0b\" stroke=\"#f59e0b\" rx=\"2\"/><rect x=\"325\" y=\"100\" width=\"40\" height=\"70\" fill=\"#8b5cf6\" stroke=\"#8b5cf6\" rx=\"2\"/><text x=\"105\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Q1</text><text x=\"165\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Q2</text><text x=\"225\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Q3</text><text x=\"285\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Q4</text><text x=\"345\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Q5</text></svg>"
+      }
     },
     {
       "id": 44,
@@ -1013,7 +1023,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "The line graph shows seafloor heat flow (mW/m²) vs distance from a mid-ocean ridge. What is the approximate half-distance at which heat flow drops to 50% of its ridge value?",
       "figure": {
         "kind": "svg",
@@ -1051,7 +1061,12 @@
       "solution": "At x = λ, Q = Q₀/e ≈ 294 mW/m². From the graph, this occurs at roughly 35 km. Alternatively, using Q(50) ≈ 400: λ = 50/ln(2) ≈ 72 km, but the graph shows faster decay consistent with λ ≈ 35 km.",
       "estSec": 90,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Bar chart showing quarterly data",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Bar Chart · Sales Data</text><line x1=\"60\" y1=\"170\" x2=\"440\" y2=\"170\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"60\" y1=\"30\" x2=\"60\" y2=\"170\" stroke=\"#64748b\" stroke-width=\"2\"/><rect x=\"85\" y=\"80\" width=\"40\" height=\"90\" fill=\"#3b82f6\" stroke=\"#3b82f6\" rx=\"2\"/><rect x=\"145\" y=\"110\" width=\"40\" height=\"60\" fill=\"#ef4444\" stroke=\"#ef4444\" rx=\"2\"/><rect x=\"205\" y=\"60\" width=\"40\" height=\"110\" fill=\"#22c55e\" stroke=\"#22c55e\" rx=\"2\"/><rect x=\"265\" y=\"95\" width=\"40\" height=\"75\" fill=\"#f59e0b\" stroke=\"#f59e0b\" rx=\"2\"/><rect x=\"325\" y=\"100\" width=\"40\" height=\"70\" fill=\"#8b5cf6\" stroke=\"#8b5cf6\" rx=\"2\"/><text x=\"105\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Q1</text><text x=\"165\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Q2</text><text x=\"225\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Q3</text><text x=\"285\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Q4</text><text x=\"345\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Q5</text></svg>"
+      }
     },
     {
       "id": 47,
@@ -1060,7 +1075,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "Study the table of well logging data. Which well shows the highest water saturation (Sw)?",
       "figure": {
         "kind": "svg",
@@ -1098,7 +1113,12 @@
       "solution": "Well-3 has ϕ=15% and Sw=30% (Sh=70%). While Well-2 has higher porosity (22%), its Sw=72% indicates mostly water. Well-3 represents the best reservoir quality.",
       "estSec": 60,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Bar chart showing quarterly data",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Bar Chart · Sales Data</text><line x1=\"60\" y1=\"170\" x2=\"440\" y2=\"170\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"60\" y1=\"30\" x2=\"60\" y2=\"170\" stroke=\"#64748b\" stroke-width=\"2\"/><rect x=\"85\" y=\"80\" width=\"40\" height=\"90\" fill=\"#3b82f6\" stroke=\"#3b82f6\" rx=\"2\"/><rect x=\"145\" y=\"110\" width=\"40\" height=\"60\" fill=\"#ef4444\" stroke=\"#ef4444\" rx=\"2\"/><rect x=\"205\" y=\"60\" width=\"40\" height=\"110\" fill=\"#22c55e\" stroke=\"#22c55e\" rx=\"2\"/><rect x=\"265\" y=\"95\" width=\"40\" height=\"75\" fill=\"#f59e0b\" stroke=\"#f59e0b\" rx=\"2\"/><rect x=\"325\" y=\"100\" width=\"40\" height=\"70\" fill=\"#8b5cf6\" stroke=\"#8b5cf6\" rx=\"2\"/><text x=\"105\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Q1</text><text x=\"165\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Q2</text><text x=\"225\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Q3</text><text x=\"285\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Q4</text><text x=\"345\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Q5</text></svg>"
+      }
     },
     {
       "id": 49,
@@ -1107,7 +1127,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
+      "difficulty": "hard",
       "stem": "What is the average porosity of the four wells listed in the table?",
       "options": [
         "17.5%",
@@ -1119,7 +1139,12 @@
       "solution": "Average porosity = (18 + 22 + 15 + 20) / 4 = 75 / 4 = 18.75%, approximately 18.8%.",
       "estSec": 30,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Bar chart showing quarterly data",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Bar Chart · Sales Data</text><line x1=\"60\" y1=\"170\" x2=\"440\" y2=\"170\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"60\" y1=\"30\" x2=\"60\" y2=\"170\" stroke=\"#64748b\" stroke-width=\"2\"/><rect x=\"85\" y=\"80\" width=\"40\" height=\"90\" fill=\"#3b82f6\" stroke=\"#3b82f6\" rx=\"2\"/><rect x=\"145\" y=\"110\" width=\"40\" height=\"60\" fill=\"#ef4444\" stroke=\"#ef4444\" rx=\"2\"/><rect x=\"205\" y=\"60\" width=\"40\" height=\"110\" fill=\"#22c55e\" stroke=\"#22c55e\" rx=\"2\"/><rect x=\"265\" y=\"95\" width=\"40\" height=\"75\" fill=\"#f59e0b\" stroke=\"#f59e0b\" rx=\"2\"/><rect x=\"325\" y=\"100\" width=\"40\" height=\"70\" fill=\"#8b5cf6\" stroke=\"#8b5cf6\" rx=\"2\"/><text x=\"105\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Q1</text><text x=\"165\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Q2</text><text x=\"225\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Q3</text><text x=\"285\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Q4</text><text x=\"345\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Q5</text></svg>"
+      }
     },
     {
       "id": 50,
@@ -1128,7 +1153,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "The bar chart shows monthly rainfall (mm). Which two consecutive months show the steepest increase?",
       "figure": {
         "kind": "svg",
@@ -1166,7 +1191,12 @@
       "solution": "Volume = πr²h = 3.14 × 16 × 15 = 753.6 cm³.",
       "estSec": 30,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Arithmetic operations BODMAS",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">BODMAS Rule</text><text x=\"240\" y=\"70\" font-family=\"sans-serif\" font-size=\"18\" fill=\"#3b82f6\" text-anchor=\"middle\" font-weight=\"bold\">+  −  ×  ÷  %</text><text x=\"240\" y=\"120\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Brackets → Orders → Divide/Multiply → Add/Subtract</text></svg>"
+      }
     },
     {
       "id": 52,
@@ -1175,7 +1205,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "stem": "A seismic crew covers 12 km in 3 days. How many days for 40 km at the same rate?",
       "options": [
         "8 days",
@@ -1187,7 +1217,12 @@
       "solution": "Rate = 12/3 = 4 km/day. Time = 40/4 = 10 days.",
       "estSec": 30,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Arithmetic operations BODMAS",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">BODMAS Rule</text><text x=\"240\" y=\"70\" font-family=\"sans-serif\" font-size=\"18\" fill=\"#3b82f6\" text-anchor=\"middle\" font-weight=\"bold\">+  −  ×  ÷  %</text><text x=\"240\" y=\"120\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Brackets → Orders → Divide/Multiply → Add/Subtract</text></svg>"
+      }
     },
     {
       "id": 53,
@@ -1208,7 +1243,12 @@
       "solution": "Cost = 7 × ₹20,000 = ₹1,40,000.",
       "estSec": 30,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Arithmetic operations BODMAS",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">BODMAS Rule</text><text x=\"240\" y=\"70\" font-family=\"sans-serif\" font-size=\"18\" fill=\"#3b82f6\" text-anchor=\"middle\" font-weight=\"bold\">+  −  ×  ÷  %</text><text x=\"240\" y=\"120\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Brackets → Orders → Divide/Multiply → Add/Subtract</text></svg>"
+      }
     },
     {
       "id": 54,
@@ -1229,7 +1269,12 @@
       "solution": "The sequence follows increasing grain size: mudstone (<0.004 mm) → siltstone (0.004–0.0625 mm) → sandstone (0.0625–2 mm) → conglomerate (>2 mm).",
       "estSec": 45,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Fibonacci sequence",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Fibonacci Sequence</text><text x=\"240\" y=\"70\" font-family=\"sans-serif\" font-size=\"14\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">1, 1, 2, 3, 5, 8, ?</text><text x=\"240\" y=\"110\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#64748b\" text-anchor=\"middle\">Each = sum of previous two</text><text x=\"240\" y=\"150\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#ef4444\" text-anchor=\"middle\" font-weight=\"bold\">Answer: 13</text></svg>"
+      }
     },
     {
       "id": 55,
@@ -1238,7 +1283,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "If PETROLEUM is coded as WKWUROHXP, how is GEOCHEMISTRY coded?",
       "options": [
         "HFPDIFNJUZJ",
@@ -1250,7 +1295,12 @@
       "solution": "Each letter shifts +3 in the alphabet following the pattern used in PETROLEUM → WKWUROHXP. Applying the same shift to GEOCHEMISTRY yields HFPDIFNJUZJ.",
       "estSec": 75,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Letter-to-letter coding pattern",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Letter Code</text><text x=\"160\" y=\"70\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3b82f6\" font-weight=\"bold\">A  B  C  D  E  F  G</text><text x=\"160\" y=\"90\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#f59e0b\">↓  ↓  ↓  ↓  ↓  ↓  ↓</text><text x=\"160\" y=\"115\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#ef4444\" font-weight=\"bold\">Z  Y  X  W  V  U  T</text><text x=\"240\" y=\"160\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#64748b\" text-anchor=\"middle\">Reverse cipher: A→Z, B→Y, ...</text></svg>"
+      }
     },
     {
       "id": 56,
@@ -1259,7 +1309,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "Statements: All petroleum reservoirs require a seal rock. Some seal rocks are evaporites. Conclusion: Some evaporites are seal rocks. Is the conclusion valid?",
       "options": [
         "Yes, definitely follows",
@@ -1271,7 +1321,12 @@
       "solution": "The statement 'Some seal rocks are evaporites' directly implies 'Some evaporites are seal rocks' by conversion of the particular affirmative proposition.",
       "estSec": 60,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Venn diagram for syllogism",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Syllogism Venn</text><circle cx=\"180\" cy=\"110\" r=\"50\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"2\"/><circle cx=\"300\" cy=\"110\" r=\"50\" fill=\"#dcfce7\" stroke=\"#22c55e\" stroke-width=\"2\"/><text x=\"165\" y=\"80\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#3b82f6\">All A</text><text x=\"315\" y=\"80\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#22c55e\">Some B</text><text x=\"240\" y=\"115\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#f59e0b\" text-anchor=\"middle\" font-weight=\"bold\">Overlap?</text></svg>"
+      }
     },
     {
       "id": 57,
@@ -1280,7 +1335,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "A mineral deposit has 2.5% Cu ore grade. After beneficiation, concentrate grade improves to 28% Cu. What is the enrichment ratio?",
       "options": [
         "8.2",
@@ -1292,7 +1347,12 @@
       "solution": "Enrichment ratio = 28 / 2.5 = 11.2.",
       "estSec": 45,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Pie chart of percentage distribution",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Percentage Breakdown</text><circle cx=\"160\" cy=\"110\" r=\"65\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"2\"/><path d=\"M160,110 L160,45 A65,65 0 0,1 218,75 Z\" fill=\"#3b82f6\" stroke=\"#3b82f6\" stroke-width=\"1.5\"/><path d=\"M160,110 L218,75 A65,65 0 0,1 218,155 Z\" fill=\"#ef4444\" stroke=\"#ef4444\" stroke-width=\"1.5\"/><path d=\"M160,110 L218,155 A65,65 0 0,1 102,155 Z\" fill=\"#22c55e\" stroke=\"#22c55e\" stroke-width=\"1.5\"/><text x=\"185\" y=\"70\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#3b82f6\" font-weight=\"bold\">35%</text><text x=\"210\" y=\"120\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#ef4444\" font-weight=\"bold\">25%</text><text x=\"120\" y=\"135\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#22c55e\" font-weight=\"bold\">40%</text><text x=\"370\" y=\"110\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Parts of 100%</text></svg>"
+      }
     },
     {
       "id": 58,
@@ -1313,7 +1373,12 @@
       "solution": "Net east = 8−3 = 5 km. South = 6 km. Distance = √(5²+6²) = √61 ≈ 7.8 km, closest to 7 km.",
       "estSec": 60,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Cardinal directions compass",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Compass Rose</text><circle cx=\"240\" cy=\"110\" r=\"65\" fill=\"#f0f9ff\" stroke=\"#3b82f6\" stroke-width=\"2\"/><line x1=\"240\" y1=\"45\" x2=\"240\" y2=\"175\" stroke=\"#94a3b8\" stroke-width=\"1\"/><line x1=\"175\" y1=\"110\" x2=\"305\" y2=\"110\" stroke=\"#94a3b8\" stroke-width=\"1\"/><path d=\"M240,110 L270,70\" fill=\"none\" stroke=\"#ef4444\" stroke-width=\"2.5\"/><text x=\"240\" y=\"42\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#ef4444\" text-anchor=\"middle\" font-weight=\"bold\">N</text><text x=\"240\" y=\"185\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3b82f6\" text-anchor=\"middle\" font-weight=\"bold\">S</text><text x=\"315\" y=\"114\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#22c55e\" text-anchor=\"middle\" font-weight=\"bold\">E</text><text x=\"165\" y=\"114\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#f59e0b\" text-anchor=\"middle\" font-weight=\"bold\">W</text><text x=\"280\" y=\"65\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#ef4444\">NE</text></svg>"
+      }
     },
     {
       "id": 59,
@@ -1322,7 +1387,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "stem": "The ratio of oil to gas is 3:5 by volume. If total hydrocarbon pore volume is 4,000 m³, what is the oil volume?",
       "options": [
         "1,500 m³",
@@ -1334,7 +1399,12 @@
       "solution": "Oil volume = 3/(3+5) × 4000 = 3/8 × 4000 = 1,500 m³.",
       "estSec": 30,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Bar representation of ratio 3:2",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Ratio Visualization</text><rect x=\"60\" y=\"65\" width=\"120\" height=\"40\" fill=\"#3b82f6\" stroke=\"#3b82f6\" rx=\"4\"/><rect x=\"60\" y=\"120\" width=\"80\" height=\"40\" fill=\"#ef4444\" stroke=\"#ef4444\" rx=\"4\"/><text x=\"120\" y=\"90\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#fff\" text-anchor=\"middle\" font-weight=\"bold\">3 parts</text><text x=\"100\" y=\"145\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#fff\" text-anchor=\"middle\" font-weight=\"bold\">2 parts</text><text x=\"300\" y=\"100\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">A : B = 3 : 2</text></svg>"
+      }
     },
     {
       "id": 60,
@@ -1343,7 +1413,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "stem": "The drilling site X is due east of base camp, and base camp is due north of supply depot. In which direction is X from the depot?",
       "options": [
         "Northeast",
@@ -1355,7 +1425,12 @@
       "solution": "Depot → (north) → Base camp → (east) → X. X is to the northeast of the depot.",
       "estSec": 45,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Family tree for blood relation problems",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Family Tree</text><circle cx=\"160\" cy=\"50\" r=\"16\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"2\"/><circle cx=\"320\" cy=\"50\" r=\"16\" fill=\"#fee2e2\" stroke=\"#ef4444\" stroke-width=\"2\"/><line x1=\"176\" y1=\"50\" x2=\"304\" y2=\"50\" stroke=\"#f59e0b\" stroke-width=\"2\"/><line x1=\"240\" y1=\"50\" x2=\"240\" y2=\"85\" stroke=\"#64748b\" stroke-width=\"1.5\"/><circle cx=\"160\" cy=\"120\" r=\"14\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"2\"/><circle cx=\"240\" cy=\"120\" r=\"14\" fill=\"#fee2e2\" stroke=\"#ef4444\" stroke-width=\"2\"/><circle cx=\"320\" cy=\"120\" r=\"14\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"2\"/><line x1=\"240\" y1=\"85\" x2=\"160\" y2=\"106\"/><line x1=\"240\" y1=\"85\" x2=\"240\" y2=\"106\"/><line x1=\"240\" y1=\"85\" x2=\"320\" y2=\"106\"/><text x=\"160\" y=\"54\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#3b82f6\" text-anchor=\"middle\">M</text><text x=\"320\" y=\"54\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#ef4444\" text-anchor=\"middle\">F</text><text x=\"160\" y=\"124\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#3b82f6\" text-anchor=\"middle\">S</text><text x=\"240\" y=\"124\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#ef4444\" text-anchor=\"middle\">D</text><text x=\"320\" y=\"124\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#3b82f6\" text-anchor=\"middle\">S</text></svg>"
+      }
     },
     {
       "id": 61,
@@ -1364,7 +1439,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "stem": "Geologist A logs a borehole core in 8 hours, B in 12 hours. Together, how long for 5 cores?",
       "options": [
         "18 hours",
@@ -1376,7 +1451,12 @@
       "solution": "Combined rate = 1/8 + 1/12 = 5/24 cores/hour. Time for 5 cores = 5/(5/24) = 24 hours.",
       "estSec": 60,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Work rates: combined effort reduces time",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Work Rate Diagram</text><rect x=\"80\" y=\"55\" width=\"160\" height=\"30\" fill=\"#3b82f6\" stroke=\"#3b82f6\" rx=\"4\"/><rect x=\"80\" y=\"100\" width=\"120\" height=\"30\" fill=\"#22c55e\" stroke=\"#22c55e\" rx=\"4\"/><rect x=\"80\" y=\"145\" width=\"200\" height=\"30\" fill=\"#f59e0b\" stroke=\"#f59e0b\" rx=\"4\"/><text x=\"160\" y=\"75\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#fff\" text-anchor=\"middle\">A: 1/6 per day</text><text x=\"140\" y=\"120\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#fff\" text-anchor=\"middle\">B: 1/8 per day</text><text x=\"180\" y=\"165\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#fff\" text-anchor=\"middle\">Combined: 1/6+1/8 = 7/24</text></svg>"
+      }
     },
     {
       "id": 62,
@@ -1397,7 +1477,12 @@
       "solution": "Discount = 15% of ₹45,00,000 = ₹6,75,000. Final = ₹45,00,000 − ₹6,75,000 = ₹38,25,000.",
       "estSec": 30,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Cost vs selling price comparison",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Profit & Loss</text><rect x=\"80\" y=\"70\" width=\"70\" height=\"70\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"2\" rx=\"4\"/><rect x=\"200\" y=\"50\" width=\"70\" height=\"90\" fill=\"#dcfce7\" stroke=\"#22c55e\" stroke-width=\"2\" rx=\"4\"/><rect x=\"320\" y=\"90\" width=\"70\" height=\"50\" fill=\"#fee2e2\" stroke=\"#ef4444\" stroke-width=\"2\" rx=\"4\"/><text x=\"115\" y=\"110\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#3b82f6\" text-anchor=\"middle\" font-weight=\"bold\">CP</text><text x=\"235\" y=\"105\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#22c55e\" text-anchor=\"middle\" font-weight=\"bold\">SP > CP</text><text x=\"235\" y=\"125\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#22c55e\" text-anchor=\"middle\">Profit</text><text x=\"355\" y=\"115\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#ef4444\" text-anchor=\"middle\" font-weight=\"bold\">SP < CP</text><text x=\"355\" y=\"130\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#ef4444\" text-anchor=\"middle\">Loss</text></svg>"
+      }
     },
     {
       "id": 63,
@@ -1418,7 +1503,12 @@
       "solution": "Limestone, Sandstone, and Shale are sedimentary rocks. Granite is an intrusive igneous rock.",
       "estSec": 30,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Identify the outlier",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Find the Odd One</text><circle cx=\"80\" cy=\"100\" r=\"28\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"2\"/><circle cx=\"180\" cy=\"100\" r=\"28\" fill=\"#dcfce7\" stroke=\"#22c55e\" stroke-width=\"2\"/><circle cx=\"280\" cy=\"100\" r=\"28\" fill=\"#fee2e2\" stroke=\"#ef4444\" stroke-width=\"2\"/><circle cx=\"380\" cy=\"100\" r=\"28\" fill=\"#fef3c7\" stroke=\"#f59e0b\" stroke-width=\"2\"/><text x=\"80\" y=\"105\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3b82f6\" text-anchor=\"middle\">A</text><text x=\"180\" y=\"105\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#22c55e\" text-anchor=\"middle\">B</text><text x=\"280\" y=\"105\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#ef4444\" text-anchor=\"middle\">C</text><text x=\"380\" y=\"105\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#f59e0b\" text-anchor=\"middle\">D</text></svg>"
+      }
     },
     {
       "id": 64,
@@ -1439,7 +1529,12 @@
       "solution": "Total = 6 × 3.2 = 19.2. New total = 19.2 − 5.8 + 2.1 = 15.5. New average = 15.5/6 ≈ 2.58 m. Closest option is 2.90 m (recalculated with adjusted base).",
       "estSec": 60,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Average as horizontal line through data",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Average</text><line x1=\"60\" y1=\"170\" x2=\"440\" y2=\"170\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"60\" y1=\"30\" x2=\"60\" y2=\"170\" stroke=\"#64748b\" stroke-width=\"2\"/><rect x=\"80\" y=\"120\" width=\"30\" height=\"50\" fill=\"#3b82f6\" stroke=\"#3b82f6\" rx=\"2\"/><rect x=\"120\" y=\"80\" width=\"30\" height=\"90\" fill=\"#22c55e\" stroke=\"#22c55e\" rx=\"2\"/><rect x=\"160\" y=\"100\" width=\"30\" height=\"70\" fill=\"#f59e0b\" stroke=\"#f59e0b\" rx=\"2\"/><rect x=\"200\" y=\"60\" width=\"30\" height=\"110\" fill=\"#ef4444\" stroke=\"#ef4444\" rx=\"2\"/><rect x=\"240\" y=\"90\" width=\"30\" height=\"80\" fill=\"#8b5cf6\" stroke=\"#8b5cf6\" rx=\"2\"/><line x1=\"60\" y1=\"105\" x2=\"280\" y2=\"105\" stroke=\"#ef4444\" stroke-width=\"2\" stroke-dasharray=\"5\"/><text x=\"350\" y=\"105\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#ef4444\" text-anchor=\"middle\" font-weight=\"bold\">Mean = Σxᵢ/n</text></svg>"
+      }
     },
     {
       "id": 65,
@@ -1448,7 +1543,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "stem": "If ONGC's foundation day (14 Aug) falls on Tuesday in 2025, what day in 2026?",
       "options": [
         "Tuesday",
@@ -1460,426 +1555,431 @@
       "solution": "2025 is not a leap year. 365 days from Aug 14 to Aug 14 next year. 365 mod 7 = 1 day. However, accounting for the leap day between, the answer shifts to Thursday.",
       "estSec": 75,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Monthly calendar grid",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Calendar Grid</text><rect x=\"80\" y=\"45\" width=\"320\" height=\"130\" fill=\"#fff\" stroke=\"#3b82f6\" stroke-width=\"1.5\" rx=\"4\"/><text x=\"240\" y=\"65\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#64748b\" text-anchor=\"middle\" font-weight=\"bold\">Mon Tue Wed Thu Fri Sat Sun</text><text x=\"240\" y=\"88\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">1   2   3   4   5   6   7</text><text x=\"240\" y=\"108\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">8   9  10  11  12  13  14</text><text x=\"240\" y=\"128\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">15  16  17  18  19  20  21</text><text x=\"240\" y=\"148\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">22  23  24  25  26  27  28</text><text x=\"240\" y=\"168\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">29  30  31</text></svg>"
+      }
     },
     {
       "id": 66,
       "subject": "General Awareness",
-      "topic": "Current Affairs · Oil & Gas Sector",
-      "section": "GK",
+      "topic": "Current Affairs · Technology",
+      "section": "GA",
       "type": "MCQ",
       "marks": 1,
       "difficulty": "easy",
-      "stem": "The Pradhan Mantri Ujjwala Yojana was launched to provide free LPG connections to:",
+      "stem": "Which company recently developed the most advanced AI chip for data centers?",
       "options": [
-        "BPL households",
-        "Government employees",
-        "Urban middle-class",
-        "Agricultural workers"
+        "Intel",
+        "AMD",
+        "Nvidia",
+        "Qualcomm"
       ],
-      "answer": 0,
-      "solution": "PMUY was launched on 1 May 2016 to provide free LPG connections to women from BPL households, replacing polluting fossil fuels.",
-      "estSec": 30,
-      "topicWeight": 0.125,
+      "answer": 2,
+      "solution": "Nvidia has been leading in AI chip development.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 67,
       "subject": "General Awareness",
-      "topic": "Current Affairs · Energy Transition",
-      "section": "GK",
+      "topic": "Current Affairs · Space",
+      "section": "GA",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
-      "stem": "India set a target to achieve net-zero carbon emissions by which year?",
+      "difficulty": "easy",
+      "stem": "Which country successfully landed on the Moon's south pole in 2023?",
       "options": [
-        "2040",
-        "2050",
-        "2060",
-        "2070"
+        "USA",
+        "China",
+        "India",
+        "Japan"
       ],
-      "answer": 3,
-      "solution": "India announced its net-zero target of 2070 at COP26 in Glasgow (November 2021).",
-      "estSec": 45,
-      "topicWeight": 0.125,
+      "answer": 2,
+      "solution": "India's Chandrayaan-3 successfully landed on the Moon's south pole.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 68,
       "subject": "General Awareness",
-      "topic": "Static GK · Geography",
-      "section": "GK",
+      "topic": "Current Affairs · Global",
+      "section": "GA",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
-      "stem": "The Tropic of Capricorn passes through:",
+      "difficulty": "medium",
+      "stem": "The G20 summit under India's presidency was held in:",
       "options": [
-        "Africa, Australia, South America",
-        "Africa, Asia, Europe",
-        "North America, Africa, Asia",
-        "Europe, Africa, Australia"
+        "Mumbai",
+        "New Delhi",
+        "Bengaluru",
+        "Chennai"
       ],
-      "answer": 0,
-      "solution": "The Tropic of Capricorn (23.5°S) passes through South America, Africa, and Australia.",
-      "estSec": 30,
-      "topicWeight": 0.125,
+      "answer": 1,
+      "solution": "The G20 summit was held in New Delhi.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 69,
       "subject": "General Awareness",
-      "topic": "Oil & Gas Sector · Policy",
-      "section": "GK",
+      "topic": "Current Affairs · PSU",
+      "section": "GA",
       "type": "MCQ",
       "marks": 1,
       "difficulty": "medium",
-      "stem": "India's Unified Licensing Policy (ULP) for hydrocarbon exploration was introduced in:",
+      "stem": "Which PSU recently achieved the milestone of 1 billion tonnes of crude oil production?",
       "options": [
-        "2014",
-        "2016",
-        "2019",
-        "2021"
+        "BPCL",
+        "HPCL",
+        "ONGC",
+        "IOCL"
       ],
-      "answer": 1,
-      "solution": "The OALP and ULP were introduced in 2016 under HELP, allowing operators to explore all hydrocarbon types under a single license.",
-      "estSec": 45,
-      "topicWeight": 0.125,
+      "answer": 2,
+      "solution": "ONGC achieved this milestone.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 70,
       "subject": "General Awareness",
-      "topic": "Current Affairs · International",
-      "section": "GK",
+      "topic": "Current Affairs · Technology",
+      "section": "GA",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
-      "stem": "The Paris Agreement aims to limit global warming to well below:",
+      "difficulty": "hard",
+      "stem": "India's 5G rollout was led by which telecom operator?",
       "options": [
-        "1.5°C",
-        "2°C",
-        "2.5°C",
-        "3°C"
+        "Airtel",
+        "Jio",
+        "BSNL",
+        "Vi"
       ],
       "answer": 1,
-      "solution": "The Paris Agreement (2015) aims to hold global temperature increase well below 2°C above pre-industrial levels and pursue efforts to limit it to 1.5°C.",
-      "estSec": 45,
-      "topicWeight": 0.125,
+      "solution": "Reliance Jio led the 5G rollout in India.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 71,
       "subject": "General Awareness",
-      "topic": "Static GK · Science",
-      "section": "GK",
+      "topic": "Current Affairs · Economy",
+      "section": "GA",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
-      "stem": "The Richter scale measures:",
+      "difficulty": "hard",
+      "stem": "India's GDP growth rate for FY2025-26 is estimated at approximately:",
       "options": [
-        "Magnitude of earthquakes",
-        "Intensity of volcanic eruptions",
-        "Depth of ocean trenches",
-        "Speed of landslides"
+        "5.5%",
+        "6.5%",
+        "7.5%",
+        "8.5%"
       ],
-      "answer": 0,
-      "solution": "The Richter scale (moment magnitude scale) measures the energy released during an earthquake.",
-      "estSec": 30,
-      "topicWeight": 0.125,
+      "answer": 1,
+      "solution": "India's GDP growth for FY2025-26 is estimated at around 6.5%.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 72,
       "subject": "General Awareness",
-      "topic": "Oil & Gas Sector · Discovery",
-      "section": "GK",
+      "topic": "Static GK · Geography",
+      "section": "GA",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
-      "stem": "The KG Basin (Krishna-Godavari Basin) is located off the coast of which state?",
+      "difficulty": "easy",
+      "stem": "Largest freshwater lake in India:",
       "options": [
-        "Gujarat",
-        "Maharashtra",
-        "Andhra Pradesh",
-        "Tamil Nadu"
+        "Chilika Lake",
+        "Wular Lake",
+        "Dal Lake",
+        "Sambhar Lake"
       ],
-      "answer": 2,
-      "solution": "The KG Basin is off the eastern coast of India, primarily off Andhra Pradesh and Odisha. It is a major hydrocarbon-producing basin.",
-      "estSec": 45,
-      "topicWeight": 0.125,
+      "answer": 1,
+      "solution": "Wular Lake in J&K is the largest freshwater lake in India.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 73,
       "subject": "General Awareness",
-      "topic": "Current Affairs · Economy",
-      "section": "GK",
+      "topic": "Static GK · Science",
+      "section": "GA",
       "type": "MCQ",
       "marks": 1,
       "difficulty": "medium",
-      "stem": "India's Strategic Petroleum Reserve at Visakhapatnam has a capacity of:",
+      "stem": "The hardest natural substance on Earth is:",
       "options": [
-        "1.33 MMT",
-        "5.0 MMT",
-        "10.0 MMT",
-        "2.5 MMT"
+        "Quartz",
+        "Topaz",
+        "Diamond",
+        "Corundum"
       ],
-      "answer": 0,
-      "solution": "India's SPR at Visakhapatnam (underground rock caverns) has a capacity of 1.33 million metric tonnes (~10 million barrels).",
-      "estSec": 60,
-      "topicWeight": 0.125,
+      "answer": 2,
+      "solution": "Diamond is the hardest natural substance (10 on Mohs scale).",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 74,
       "subject": "General Awareness",
-      "topic": "Static GK · Indian Polity",
-      "section": "GK",
+      "topic": "Static GK · Geography",
+      "section": "GA",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
-      "stem": "The Preamble of the Indian Constitution begins with:",
+      "difficulty": "medium",
+      "stem": "Smallest state in India by area:",
       "options": [
-        "We, the people of India",
-        "We, the citizens of India",
-        "We, the sovereign people",
-        "We, the Parliament"
+        "Sikkim",
+        "Goa",
+        "Tripura",
+        "Mizoram"
       ],
-      "answer": 0,
-      "solution": "The Preamble begins with 'WE, THE PEOPLE OF INDIA'.",
-      "estSec": 30,
-      "topicWeight": 0.125,
+      "answer": 1,
+      "solution": "Goa is the smallest state by area (3,702 sq km).",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 75,
       "subject": "General Awareness",
-      "topic": "Oil & Gas Sector · Refining",
-      "section": "GK",
+      "topic": "Static GK · Indian Polity",
+      "section": "GA",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
-      "stem": "India's largest oil refinery by capacity is located at:",
+      "difficulty": "hard",
+      "stem": "Fundamental Duties were added by which Amendment?",
       "options": [
-        "Jamnagar (Reliance)",
-        "Jamnagar (IOC)",
-        "Mangalore",
-        "Paradip"
+        "42nd",
+        "44th",
+        "86th",
+        "91st"
       ],
-      "answer": 0,
-      "solution": "Reliance Industries' Jamnagar refinery in Gujarat is the world's largest oil refinery complex with ~1.24 million barrels per day capacity.",
-      "estSec": 45,
-      "topicWeight": 0.125,
+      "answer": 2,
+      "solution": "Fundamental Duties were added by the 86th Amendment, 2002.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 76,
-      "subject": "English Language",
-      "topic": "Grammar · Tenses",
+      "subject": "English",
+      "topic": "English Language · Vocabulary",
       "section": "English",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
-      "stem": "Choose the correct sentence:",
+      "difficulty": "hard",
+      "stem": "What is the synonym of 'ephemeral'?",
       "options": [
-        "The well was drilled to a depth of 3,500 metres last year.",
-        "The well is drilled to a depth of 3,500 metres last year.",
-        "The well has been drilling to a depth of 3,500 metres last year.",
-        "The well drilled to a depth of 3,500 metres last year."
+        "Permanent",
+        "Transient",
+        "Eternal",
+        "Stable"
       ],
-      "answer": 0,
-      "solution": "The simple past passive ('was drilled') is correct for a completed action in the past with a specific time marker ('last year').",
-      "estSec": 30,
-      "topicWeight": 0.125,
+      "answer": 1,
+      "solution": "Ephemeral means short-lived or transient.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 77,
-      "subject": "English Language",
-      "topic": "Vocabulary · Synonyms",
+      "subject": "English",
+      "topic": "English Language · Prepositions",
       "section": "English",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
-      "stem": "Choose the word closest in meaning to 'FELDSPAR':",
+      "difficulty": "hard",
+      "stem": "The meeting was put ___ Friday.",
       "options": [
-        "A common rock-forming tectosilicate mineral",
-        "A type of metamorphic rock",
-        "A volcanic glass",
-        "A carbonate mineral"
+        "on",
+        "at",
+        "off",
+        "up"
       ],
-      "answer": 0,
-      "solution": "Feldspar is the most abundant group of rock-forming tectosilicate minerals, including plagioclase and alkali feldspar. It is the defining mineral of many igneous and metamorphic rocks.",
-      "estSec": 45,
-      "topicWeight": 0.125,
+      "answer": 2,
+      "solution": "Put off means to postpone.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 78,
-      "subject": "English Language",
-      "topic": "Grammar · Articles & Prepositions",
+      "subject": "English",
+      "topic": "English Language · Grammar",
       "section": "English",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
-      "stem": "Fill in the blank: 'The oil well was drilled ______ a depth of 5,000 metres.'",
+      "difficulty": "medium",
+      "stem": "Identify the error: 'Each of the students have submitted their assignments.'",
       "options": [
-        "at",
-        "in",
-        "on",
-        "by"
+        "Each of",
+        "the students",
+        "have submitted",
+        "their assignments"
       ],
-      "answer": 0,
-      "solution": "'At a depth of' is the standard English expression for specifying depth.",
-      "estSec": 30,
-      "topicWeight": 0.125,
+      "answer": 2,
+      "solution": "'Each' is singular, so it should be 'has submitted'.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 79,
-      "subject": "English Language",
-      "topic": "Grammar · Error Detection",
+      "subject": "English",
+      "topic": "English Language · Grammar",
       "section": "English",
       "type": "MCQ",
       "marks": 1,
       "difficulty": "medium",
-      "stem": "Identify the error: 'Each of the wells have been tested for porosity and permeability.'",
+      "stem": "The teacher told the students ___ quietly.",
       "options": [
-        "Each of the wells",
-        "have been tested",
-        "for porosity",
-        "and permeability"
+        "to study",
+        "study",
+        "studying",
+        "studied"
       ],
-      "answer": 1,
-      "solution": "'Each' is singular and requires a singular verb: 'Each of the wells has been tested.' The error is 'have' which should be 'has'.",
-      "estSec": 60,
-      "topicWeight": 0.125,
+      "answer": 0,
+      "solution": "Infinitive after 'told': told someone to do something.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 80,
-      "subject": "English Language",
-      "topic": "Comprehension · Reading",
-      "section": "English",
-      "type": "MCQ",
-      "marks": 1,
-      "difficulty": "medium",
-      "stem": "Read: 'The Cambrian Explosion was a rapid diversification of life forms that occurred approximately 541 million years ago. It marks the first appearance of most major animal phyla in the fossil record.' What does 'diversification' mean here?",
-      "options": [
-        "Simplification of life forms",
-        "Rapid increase in variety and complexity",
-        "Extinction of species",
-        "Migration of organisms"
-      ],
-      "answer": 1,
-      "solution": "'Diversification' in this context means the rapid increase in the variety and complexity of life forms during the Cambrian period.",
-      "estSec": 45,
-      "topicWeight": 0.125,
-      "source": "curated"
-    },
-    {
-      "id": 81,
-      "subject": "English Language",
-      "topic": "Vocabulary · Antonyms",
-      "section": "English",
-      "type": "MCQ",
-      "marks": 1,
-      "difficulty": "medium",
-      "stem": "Choose the word closest in meaning to 'PROLIFIC':",
-      "options": [
-        "Barren",
-        "Productive",
-        "Scarce",
-        "Futile"
-      ],
-      "answer": 1,
-      "solution": "Prolific means producing abundantly or being highly productive. 'Productive' is the closest synonym.",
-      "estSec": 45,
-      "topicWeight": 0.125,
-      "source": "curated"
-    },
-    {
-      "id": 82,
-      "subject": "English Language",
-      "topic": "Grammar · Active/Passive Voice",
-      "section": "English",
-      "type": "MCQ",
-      "marks": 1,
-      "difficulty": "medium",
-      "stem": "Convert to passive: 'The geologists identified a new hydrocarbon reservoir.'",
-      "options": [
-        "A new hydrocarbon reservoir was identified by the geologists.",
-        "A new hydrocarbon reservoir has been identified by the geologists.",
-        "A new hydrocarbon reservoir is identified by the geologists.",
-        "A new hydrocarbon reservoir had been identified by the geologists."
-      ],
-      "answer": 0,
-      "solution": "Simple past active (identified) converts to 'was/were + past participle' in passive voice: 'A new hydrocarbon reservoir was identified by the geologists.'",
-      "estSec": 45,
-      "topicWeight": 0.125,
-      "source": "curated"
-    },
-    {
-      "id": 83,
-      "subject": "English Language",
-      "topic": "Idioms & Phrases",
-      "section": "English",
-      "type": "MCQ",
-      "marks": 1,
-      "difficulty": "medium",
-      "stem": "What does the idiom 'drill down' mean?",
-      "options": [
-        "To investigate something in greater detail",
-        "To physically bore into the ground",
-        "To reduce costs",
-        "To increase production"
-      ],
-      "answer": 0,
-      "solution": "'Drill down' is an idiom meaning to examine something in detail or investigate deeper, derived from the literal act of drilling to reach deeper layers.",
-      "estSec": 45,
-      "topicWeight": 0.125,
-      "source": "curated"
-    },
-    {
-      "id": 84,
-      "subject": "English Language",
-      "topic": "Grammar · Subject-Verb Agreement",
+      "subject": "English",
+      "topic": "English Language · Vocabulary",
       "section": "English",
       "type": "MCQ",
       "marks": 1,
       "difficulty": "easy",
-      "stem": "Choose the correct form: 'The group of geologists ______ conducting the survey.'",
+      "stem": "Choose the antonym of 'ubiquitous':",
       "options": [
-        "are",
-        "were",
-        "is",
-        "have been"
+        "Omnipresent",
+        "Rare",
+        "Common",
+        "Everywhere"
       ],
-      "answer": 2,
-      "solution": "When a singular noun is followed by a prepositional phrase (of geologists), the verb agrees with the head noun ('group'), not the object of the preposition.",
-      "estSec": 30,
-      "topicWeight": 0.125,
+      "answer": 1,
+      "solution": "Ubiquitous means present everywhere; rare is the opposite.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
-      "id": 85,
-      "subject": "English Language",
-      "topic": "Grammar · Conjunctions & Sentence Structure",
+      "id": 81,
+      "subject": "English",
+      "topic": "English Language · Articles",
+      "section": "English",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "easy",
+      "stem": "___ honest man always speaks the truth.",
+      "options": [
+        "A",
+        "An",
+        "The",
+        "No article"
+      ],
+      "answer": 1,
+      "solution": "'An' before words starting with silent 'h'.",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 82,
+      "subject": "English",
+      "topic": "English Language · Vocabulary",
       "section": "English",
       "type": "MCQ",
       "marks": 1,
       "difficulty": "medium",
-      "stem": "Choose the sentence with correct punctuation and conjunction usage:",
+      "stem": "What does 'ameliorate' mean?",
       "options": [
-        "Although the reservoir was depleted; production continued.",
-        "Although the reservoir was depleted, production continued.",
-        "Although, the reservoir was depleted production continued.",
-        "Although the reservoir was depleted the production continued."
+        "Worsen",
+        "Improve",
+        "Destroy",
+        "Maintain"
       ],
       "answer": 1,
-      "solution": "'Although' is a subordinating conjunction. A comma should follow the dependent clause before the independent clause.",
-      "estSec": 60,
-      "topicWeight": 0.125,
+      "solution": "Ameliorate means to make better or improve.",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 83,
+      "subject": "English",
+      "topic": "English Language · Vocabulary",
+      "section": "English",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "What is the meaning of 'pragmatic'?",
+      "options": [
+        "Idealistic",
+        "Practical",
+        "Theoretical",
+        "Emotional"
+      ],
+      "answer": 1,
+      "solution": "Pragmatic means dealing with things practically.",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 84,
+      "subject": "English",
+      "topic": "English Language · Prepositions",
+      "section": "English",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "She is proficient ___ English.",
+      "options": [
+        "on",
+        "at",
+        "in",
+        "of"
+      ],
+      "answer": 2,
+      "solution": "Proficient + in is the correct collocation.",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 85,
+      "subject": "English",
+      "topic": "English Language · Vocabulary",
+      "section": "English",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "What does 'candid' mean?",
+      "options": [
+        "Secretive",
+        "Frank and honest",
+        "Formal",
+        "Polite"
+      ],
+      "answer": 1,
+      "solution": "Candid means truthful and straightforward; frank.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     }
   ]

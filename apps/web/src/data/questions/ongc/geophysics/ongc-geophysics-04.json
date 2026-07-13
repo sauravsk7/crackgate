@@ -22,7 +22,7 @@
       "count": 10
     },
     {
-      "name": "English Language",
+      "name": "English",
       "count": 10
     }
   ],
@@ -34,7 +34,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "The Mohorovičić discontinuity separates which two layers of the Earth?",
       "options": [
         "Crust and mantle",
@@ -60,7 +60,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "stem": "The geocentric axial dipole hypothesis states that, averaged over sufficient geological time, the geomagnetic field is approximately aligned with the Earth's spin axis. Over what time period must the field be averaged for this hypothesis to hold?",
       "options": [
         "1,000 years",
@@ -107,7 +107,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "The Bullen's Earth model divides the Earth into layers A through G based on seismic velocity profiles. In which layer does the outer core begin, characterized by the disappearance of S-waves?",
       "options": [
         "Layer C",
@@ -180,7 +180,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "In seismology, what type of body wave arrives first at a seismic station from a distant earthquake?",
       "options": [
         "S-wave",
@@ -243,7 +243,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "stem": "Which seismic phase travels through the Earth's outer core and is denoted as PKP?",
       "options": [
         "A P-wave that passes through the mantle and outer core",
@@ -285,7 +285,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "stem": "The seismic anisotropy observed in the upper mantle beneath ocean basins is primarily attributed to:",
       "options": [
         "Layered sediments of alternating velocities",
@@ -306,7 +306,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "stem": "A gravimeter measures variations in:",
       "options": [
         "Seismic wave velocity",
@@ -332,7 +332,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "stem": "The Bouguer gravity anomaly correction removes the gravitational effect of the topographic mass between the observation point and the geoid. What is the formula for the Bouguer slab correction?",
       "options": [
         "δg = 2πGρh",
@@ -379,7 +379,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "stem": "The reduction to the pole (RTP) transformation in magnetic data processing is applied to:",
       "options": [
         "Convert total field measurements to vertical component",
@@ -405,7 +405,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "Which of the following rocks typically has the highest magnetic susceptibility?",
       "options": [
         "Limestone",
@@ -431,7 +431,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "stem": "In magnetic forward modeling, the anomaly produced by a thin, vertically magnetized dike at its center is characterized by:",
       "options": [
         "A symmetric positive anomaly with no zero crossings",
@@ -452,7 +452,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
+      "difficulty": "hard",
       "stem": "In a直流 resistivity survey, the Schlumberger array is characterized by:",
       "options": [
         "All four electrodes equally spaced",
@@ -473,7 +473,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "The induced polarization (IP) effect in rock formations is primarily caused by:",
       "options": [
         "Electromagnetic induction in metallic minerals",
@@ -515,7 +515,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "Archie's law relates the formation factor F to porosity φ and cementation exponent m as F = φ⁻ᵐ. For a well-consolidated sandstone with cementation exponent m = 2.0 and porosity φ = 0.20, the formation factor is:",
       "options": [
         "5",
@@ -536,7 +536,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
+      "difficulty": "hard",
       "stem": "The self-potential (SP) method measures naturally occurring:",
       "options": [
         "Magnetic fields in the Earth",
@@ -557,7 +557,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "stem": "In seismic reflection surveying, the common midpoint (CMP) method involves:",
       "options": [
         "Recording traces from a single source-receiver pair",
@@ -609,7 +609,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "AVO (Amplitude Variation with Offset) analysis is based on the Zoeppritz equations. The AVO intercept (A) and gradient (B) are derived from linearized approximations. A Class III AVO anomaly is characterized by:",
       "options": [
         "Positive intercept and positive gradient",
@@ -630,7 +630,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "Seismic migration is the process of:",
       "options": [
         "Recording seismic data in the field",
@@ -682,7 +682,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "Seismic attributes are mathematical transforms applied to seismic data. The instantaneous phase attribute is particularly useful for:",
       "options": [
         "Identifying fluid content in reservoirs",
@@ -703,7 +703,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "stem": "The Spontaneous Potential (SP) log measures the natural electrical potential difference between:",
       "options": [
         "Two electrodes placed at different depths in the borehole",
@@ -729,7 +729,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "The Archie equation for water saturation S_w in a hydrocarbon-bearing formation is S_w = (a·R_w/(φᵐ·R_t))^(1/n). Which parameter represents the tortuosity factor?",
       "options": [
         "m (cementation exponent)",
@@ -755,7 +755,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "In nuclear magnetic resonance (NMR) logging, the T₂ distribution provides information about:",
       "options": [
         "Formation bulk density and photoelectric factor",
@@ -781,7 +781,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "The gamma ray log measures:",
       "options": [
         "The natural gamma radiation emitted by the formation",
@@ -802,7 +802,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "stem": "The sonic (acoustic) log measures the interval transit time (Δt) of P-waves through the formation. In the Wyllie time-average equation, the transit time is related to porosity as Δt_log = φ·Δt_f + (1-φ)·Δt_ma. What does Δt_f represent?",
       "options": [
         "Transit time through the rock matrix",
@@ -927,7 +927,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "In geophysical inversion, a Tikhonov-regularized least-squares inversion minimizes the objective function:",
       "options": [
         "φ = ||d - G(m)||²",
@@ -953,7 +953,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "stem": "Spatial aliasing in seismic data acquisition occurs when:",
       "options": [
         "The source generates frequencies beyond the Nyquist frequency",
@@ -979,7 +979,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "stem": "A seismic crew covers 12 km of survey line in 8 days working 6 hours per day. How many hours of work does the crew put in per kilometer?",
       "options": [
         "4 hours/km",
@@ -1042,7 +1042,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "A company invests ₹50 lakhs in a seismic acquisition project. Revenue of ₹8 lakhs per quarter is expected for 5 years. The internal rate of return (IRR) of this project is closest to:",
       "options": [
         "8%",
@@ -1063,7 +1063,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "A geophysicist earns ₹75,000 per month and saves 20% of her income. If her expenses increase by 15% next year but her salary increases by 10%, by what percentage will her savings change?",
       "options": [
         "Decrease by 25%",
@@ -1084,7 +1084,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "In a sequence of seismic surveys, Survey A uses 25 m station spacing and Survey B uses 50 m station spacing. If Survey A records 500 stations over a 12.5 km line, how many stations would Survey B need to cover the same line?",
       "options": [
         "125 stations",
@@ -1147,7 +1147,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "stem": "A bar chart shows the number of seismic surveys conducted by ONGC in four regions: Western Offshore (45), Eastern Offshore (30), Northeast (20), and Onland (35). What percentage of total surveys were conducted in the Western Offshore?",
       "options": [
         "32.1%",
@@ -1159,7 +1159,12 @@
       "solution": "Total surveys = 45 + 30 + 20 + 35 = 130. Western Offshore percentage = (45/130) × 100 = 34.6%. The closest option is B = 35.0%. Let me recalculate: 45/130 = 0.3462 = 34.6%. Closest: B = 35.0%.",
       "estSec": 25,
       "topicWeight": 0.14,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Bar chart showing quarterly data",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Bar Chart · Sales Data</text><line x1=\"60\" y1=\"170\" x2=\"440\" y2=\"170\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"60\" y1=\"30\" x2=\"60\" y2=\"170\" stroke=\"#64748b\" stroke-width=\"2\"/><rect x=\"85\" y=\"80\" width=\"40\" height=\"90\" fill=\"#3b82f6\" stroke=\"#3b82f6\" rx=\"2\"/><rect x=\"145\" y=\"110\" width=\"40\" height=\"60\" fill=\"#ef4444\" stroke=\"#ef4444\" rx=\"2\"/><rect x=\"205\" y=\"60\" width=\"40\" height=\"110\" fill=\"#22c55e\" stroke=\"#22c55e\" rx=\"2\"/><rect x=\"265\" y=\"95\" width=\"40\" height=\"75\" fill=\"#f59e0b\" stroke=\"#f59e0b\" rx=\"2\"/><rect x=\"325\" y=\"100\" width=\"40\" height=\"70\" fill=\"#8b5cf6\" stroke=\"#8b5cf6\" rx=\"2\"/><text x=\"105\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Q1</text><text x=\"165\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Q2</text><text x=\"225\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Q3</text><text x=\"285\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Q4</text><text x=\"345\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Q5</text></svg>"
+      }
     },
     {
       "id": 50,
@@ -1168,7 +1173,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "stem": "A table shows resistivity values measured at different depths in a borehole: 100m→5 Ωm, 200m→15 Ωm, 500m→8 Ωm, 800m→25 Ωm, 1200m→12 Ωm. Which depth interval most likely contains a hydrocarbon-bearing zone?",
       "options": [
         "100–200 m",
@@ -1180,7 +1185,12 @@
       "solution": "Hydrocarbon-bearing zones typically show high resistivity relative to water-saturated zones. The jump from 8 Ωm (500 m) to 25 Ωm (800 m) represents a significant resistivity increase, indicating a possible hydrocarbon-bearing zone at 500–800 m depth. The relatively lower resistivity at 1200 m (12 Ωm) may indicate a water-bearing zone below the hydrocarbon zone. A resistivity increase of ~3× or more above the water-wet baseline is often indicative of hydrocarbons.",
       "estSec": 35,
       "topicWeight": 0.14,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Bar chart showing quarterly data",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Bar Chart · Sales Data</text><line x1=\"60\" y1=\"170\" x2=\"440\" y2=\"170\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"60\" y1=\"30\" x2=\"60\" y2=\"170\" stroke=\"#64748b\" stroke-width=\"2\"/><rect x=\"85\" y=\"80\" width=\"40\" height=\"90\" fill=\"#3b82f6\" stroke=\"#3b82f6\" rx=\"2\"/><rect x=\"145\" y=\"110\" width=\"40\" height=\"60\" fill=\"#ef4444\" stroke=\"#ef4444\" rx=\"2\"/><rect x=\"205\" y=\"60\" width=\"40\" height=\"110\" fill=\"#22c55e\" stroke=\"#22c55e\" rx=\"2\"/><rect x=\"265\" y=\"95\" width=\"40\" height=\"75\" fill=\"#f59e0b\" stroke=\"#f59e0b\" rx=\"2\"/><rect x=\"325\" y=\"100\" width=\"40\" height=\"70\" fill=\"#8b5cf6\" stroke=\"#8b5cf6\" rx=\"2\"/><text x=\"105\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Q1</text><text x=\"165\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Q2</text><text x=\"225\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Q3</text><text x=\"285\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Q4</text><text x=\"345\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Q5</text></svg>"
+      }
     },
     {
       "id": 51,
@@ -1189,7 +1199,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "A pie chart shows the distribution of ONGC's exploration budget: Seismic Acquisition (40%), Drilling (30%), Processing & Interpretation (15%), Basin Studies (10%), Technology Development (5%). If the total budget is ₹2000 crores, how much more is spent on Seismic Acquisition than on Basin Studies and Technology Development combined?",
       "options": [
         "₹300 crores",
@@ -1201,7 +1211,12 @@
       "solution": "Seismic Acquisition = 40% × 2000 = ₹800 crores. Basin Studies + Technology Development = (10% + 5%) × 2000 = 15% × 2000 = ₹300 crores. Difference = 800 - 300 = ₹500 crores. Answer: C = ₹500 crores.",
       "estSec": 35,
       "topicWeight": 0.14,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Bar chart showing quarterly data",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Bar Chart · Sales Data</text><line x1=\"60\" y1=\"170\" x2=\"440\" y2=\"170\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"60\" y1=\"30\" x2=\"60\" y2=\"170\" stroke=\"#64748b\" stroke-width=\"2\"/><rect x=\"85\" y=\"80\" width=\"40\" height=\"90\" fill=\"#3b82f6\" stroke=\"#3b82f6\" rx=\"2\"/><rect x=\"145\" y=\"110\" width=\"40\" height=\"60\" fill=\"#ef4444\" stroke=\"#ef4444\" rx=\"2\"/><rect x=\"205\" y=\"60\" width=\"40\" height=\"110\" fill=\"#22c55e\" stroke=\"#22c55e\" rx=\"2\"/><rect x=\"265\" y=\"95\" width=\"40\" height=\"75\" fill=\"#f59e0b\" stroke=\"#f59e0b\" rx=\"2\"/><rect x=\"325\" y=\"100\" width=\"40\" height=\"70\" fill=\"#8b5cf6\" stroke=\"#8b5cf6\" rx=\"2\"/><text x=\"105\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Q1</text><text x=\"165\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Q2</text><text x=\"225\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Q3</text><text x=\"285\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Q4</text><text x=\"345\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Q5</text></svg>"
+      }
     },
     {
       "id": 52,
@@ -1252,7 +1267,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "stem": "If the ratio of P-wave velocity to S-wave velocity (Vp/Vs) in a rock is 1.73, what is the Poisson's ratio of the rock?",
       "options": [
         "0.20",
@@ -1273,7 +1288,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "stem": "A drilling rig operates 24 hours/day. In a 30-day month, it drills 2400 meters. However, 15% of the time is lost to non-productive time (NPT). What is the effective drilling rate in meters per productive hour?",
       "options": [
         "3.53 m/hr",
@@ -1315,7 +1330,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "stem": "A line graph shows annual seismic data acquisition by ONGC: 2019 (12000 km), 2020 (8000 km), 2021 (15000 km), 2022 (10000 km), 2023 (18000 km). What is the average annual acquisition over the five years?",
       "options": [
         "10000 km",
@@ -1327,7 +1342,12 @@
       "solution": "Average = (12000 + 8000 + 15000 + 10000 + 18000)/5 = 63000/5 = 12600 km. Answer: B = 12600 km.",
       "estSec": 25,
       "topicWeight": 0.14,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Bar chart showing quarterly data",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Bar Chart · Sales Data</text><line x1=\"60\" y1=\"170\" x2=\"440\" y2=\"170\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"60\" y1=\"30\" x2=\"60\" y2=\"170\" stroke=\"#64748b\" stroke-width=\"2\"/><rect x=\"85\" y=\"80\" width=\"40\" height=\"90\" fill=\"#3b82f6\" stroke=\"#3b82f6\" rx=\"2\"/><rect x=\"145\" y=\"110\" width=\"40\" height=\"60\" fill=\"#ef4444\" stroke=\"#ef4444\" rx=\"2\"/><rect x=\"205\" y=\"60\" width=\"40\" height=\"110\" fill=\"#22c55e\" stroke=\"#22c55e\" rx=\"2\"/><rect x=\"265\" y=\"95\" width=\"40\" height=\"75\" fill=\"#f59e0b\" stroke=\"#f59e0b\" rx=\"2\"/><rect x=\"325\" y=\"100\" width=\"40\" height=\"70\" fill=\"#8b5cf6\" stroke=\"#8b5cf6\" rx=\"2\"/><text x=\"105\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Q1</text><text x=\"165\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Q2</text><text x=\"225\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Q3</text><text x=\"285\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Q4</text><text x=\"345\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Q5</text></svg>"
+      }
     },
     {
       "id": 58,
@@ -1378,7 +1398,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "A table presents well log data for three wells: Well A (GR=45 API, Resistivity=50 Ωm), Well B (GR=90 API, Resistivity=8 Ωm), Well C (GR=50 API, Resistivity=120 Ωm). Which well is most likely to be a hydrocarbon producer?",
       "options": [
         "Well A",
@@ -1390,7 +1410,12 @@
       "solution": "Well C shows low GR (50 API → clean sand, low shale content) and very high resistivity (120 Ωm → hydrocarbon-bearing). Well A has low GR but moderate resistivity (50 Ωm → possibly water-bearing sand or tighter formation). Well B has high GR (90 API → shaly) and low resistivity (8 Ωm → water-saturated shale or shaly sand). Well C's combination of clean sand (low GR) and high resistivity is the strongest indicator of hydrocarbons. Answer: C = Well C.",
       "estSec": 35,
       "topicWeight": 0.14,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Bar chart showing quarterly data",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Bar Chart · Sales Data</text><line x1=\"60\" y1=\"170\" x2=\"440\" y2=\"170\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"60\" y1=\"30\" x2=\"60\" y2=\"170\" stroke=\"#64748b\" stroke-width=\"2\"/><rect x=\"85\" y=\"80\" width=\"40\" height=\"90\" fill=\"#3b82f6\" stroke=\"#3b82f6\" rx=\"2\"/><rect x=\"145\" y=\"110\" width=\"40\" height=\"60\" fill=\"#ef4444\" stroke=\"#ef4444\" rx=\"2\"/><rect x=\"205\" y=\"60\" width=\"40\" height=\"110\" fill=\"#22c55e\" stroke=\"#22c55e\" rx=\"2\"/><rect x=\"265\" y=\"95\" width=\"40\" height=\"75\" fill=\"#f59e0b\" stroke=\"#f59e0b\" rx=\"2\"/><rect x=\"325\" y=\"100\" width=\"40\" height=\"70\" fill=\"#8b5cf6\" stroke=\"#8b5cf6\" rx=\"2\"/><text x=\"105\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Q1</text><text x=\"165\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Q2</text><text x=\"225\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Q3</text><text x=\"285\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Q4</text><text x=\"345\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Q5</text></svg>"
+      }
     },
     {
       "id": 61,
@@ -1399,7 +1424,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
+      "difficulty": "hard",
       "stem": "A geophysical crew of 40 members earns an average daily wage of ₹2000. If the project lasts 45 days and the crew cost is 30% of the total project cost, what is the total project cost?",
       "options": [
         "₹12.0 lakhs",
@@ -1441,7 +1466,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "A table shows mud weight (ppg) and equivalent circulating density (ECD) at different depths: 1000m (10.5 ppg, 11.2 ppg), 2000m (11.0 ppg, 12.1 ppg), 3000m (11.5 ppg, 13.0 ppg), 4000m (12.0 ppg, 14.2 ppg). At which depth is the ECD-mud weight difference (annular pressure loss effect) greatest?",
       "options": [
         "1000 m",
@@ -1453,7 +1478,12 @@
       "solution": "Calculate ECD - mud weight at each depth: 1000m: 11.2 - 10.5 = 0.7 ppg. 2000m: 12.1 - 11.0 = 1.1 ppg. 3000m: 13.0 - 11.5 = 1.5 ppg. 4000m: 14.2 - 12.0 = 2.2 ppg. The difference increases with depth due to greater annular pressure losses from longer wellbore and higher flow rates. The maximum difference is at 4000 m = 2.2 ppg. Answer: D = 4000 m.",
       "estSec": 35,
       "topicWeight": 0.14,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Bar chart showing quarterly data",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Bar Chart · Sales Data</text><line x1=\"60\" y1=\"170\" x2=\"440\" y2=\"170\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"60\" y1=\"30\" x2=\"60\" y2=\"170\" stroke=\"#64748b\" stroke-width=\"2\"/><rect x=\"85\" y=\"80\" width=\"40\" height=\"90\" fill=\"#3b82f6\" stroke=\"#3b82f6\" rx=\"2\"/><rect x=\"145\" y=\"110\" width=\"40\" height=\"60\" fill=\"#ef4444\" stroke=\"#ef4444\" rx=\"2\"/><rect x=\"205\" y=\"60\" width=\"40\" height=\"110\" fill=\"#22c55e\" stroke=\"#22c55e\" rx=\"2\"/><rect x=\"265\" y=\"95\" width=\"40\" height=\"75\" fill=\"#f59e0b\" stroke=\"#f59e0b\" rx=\"2\"/><rect x=\"325\" y=\"100\" width=\"40\" height=\"70\" fill=\"#8b5cf6\" stroke=\"#8b5cf6\" rx=\"2\"/><text x=\"105\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Q1</text><text x=\"165\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Q2</text><text x=\"225\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Q3</text><text x=\"285\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Q4</text><text x=\"345\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Q5</text></svg>"
+      }
     },
     {
       "id": 64,
@@ -1483,7 +1513,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "A seismic source array uses 4 air guns with volumes 250, 200, 150, and 100 in³, fired simultaneously. If the total volume is 700 in³ and the guns are spaced 2 m apart, what is the dominant frequency of the source signature in water (V = 1500 m/s) at the nearest effective depth?",
       "options": [
         "15 Hz",
@@ -1500,421 +1530,421 @@
     {
       "id": 66,
       "subject": "General Awareness",
-      "topic": "Indian Economy & Energy Sector",
+      "topic": "Current Affairs · Technology",
       "section": "GA",
       "type": "MCQ",
       "marks": 1,
       "difficulty": "easy",
-      "stem": "Which organization is the largest Exploration and Production (E&P) company in India?",
+      "stem": "Which Indian IT company recently partnered with NVIDIA for AI cloud services?",
       "options": [
-        "Indian Oil Corporation (IOC)",
-        "Oil and Natural Gas Corporation (ONGC)",
-        "Reliance Industries Limited (RIL)",
-        "GAIL India Limited"
+        "TCS",
+        "Infosys",
+        "Wipro",
+        "HCL"
       ],
       "answer": 1,
-      "solution": "ONGC (Oil and Natural Gas Corporation) is India's largest E&P company, producing approximately 60% of India's crude oil and approximately 70% of its natural gas. It was founded in 1956 and is a Maharatna PSU under the Ministry of Petroleum and Natural Gas. ONGC operates in both onshore and offshore fields across India and has international operations through ONGC Videsh.",
-      "estSec": 25,
-      "topicWeight": 0.14,
+      "solution": "Infosys partnered with NVIDIA for AI cloud services.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 67,
       "subject": "General Awareness",
-      "topic": "Indian Economy & Energy Sector",
+      "topic": "Current Affairs · Space",
       "section": "GA",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
-      "stem": "The Krishna-Godavari (KG) Basin, a major hydrocarbon-bearing basin in India, is located offshore of which state?",
+      "difficulty": "easy",
+      "stem": "Which country successfully landed on the Moon's south pole in 2023?",
       "options": [
-        "Gujarat",
-        "Maharashtra",
-        "Andhra Pradesh",
-        "Tamil Nadu"
+        "USA",
+        "China",
+        "India",
+        "Japan"
       ],
       "answer": 2,
-      "solution": "The Krishna-Godavari (KG) Basin is located on the eastern margin of India, offshore Andhra Pradesh. It is one of India's most prolific hydrocarbon basins, with major discoveries including the Dhirubhai fields (KG-DWN-98/1 and KG-DWN-98/2) by Reliance Industries. The basin contains both shallow water and deep-water blocks and has estimated reserves of several trillion cubic feet of gas.",
-      "estSec": 30,
-      "topicWeight": 0.14,
+      "solution": "India's Chandrayaan-3 successfully landed on the Moon's south pole.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 68,
       "subject": "General Awareness",
-      "topic": "Indian Economy & Energy Sector",
+      "topic": "Current Affairs · Global",
       "section": "GA",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
-      "stem": "India's first offshore oil field was discovered in which year and at which location?",
+      "difficulty": "medium",
+      "stem": "BRICS expanded to include which new members in 2024?",
       "options": [
-        "1956 at Ankleshwar",
-        "1965 at Mumbai High (Bombay High)",
-        "1974 at Assam",
-        "1980 at Cambay"
+        "Mexico, Argentina",
+        "Saudi Arabia, Iran, UAE",
+        "Turkey, Indonesia",
+        "Nigeria, South Africa"
       ],
       "answer": 1,
-      "solution": "India's first major offshore oil field, Mumbai High (formerly Bombay High), was discovered in 1965 by ONGC. The field is located about 170 km off the coast of Mumbai in the Arabian Sea at a water depth of 50–100 m. It has been the largest oil field in India, producing oil and gas for over five decades. The discovery marked a turning point in India's offshore E&P history.",
-      "estSec": 25,
-      "topicWeight": 0.14,
+      "solution": "Saudi Arabia, Iran, and UAE joined BRICS.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 69,
       "subject": "General Awareness",
-      "topic": "PSU & Governance",
+      "topic": "Current Affairs · Science",
       "section": "GA",
       "type": "MCQ",
       "marks": 1,
       "difficulty": "medium",
-      "stem": "ONGC was conferred the 'Maharatna' status in which year?",
+      "stem": "Aditya-L1 mission studies:",
       "options": [
-        "2004",
-        "2007",
-        "2010",
-        "2014"
+        "Moon's surface",
+        "Mars atmosphere",
+        "Sun",
+        "Deep space"
       ],
       "answer": 2,
-      "solution": "ONGC was granted Maharatna status in 2010, following IOC (2004) and SAIL (2007). The Maharatna status was introduced in 2010 by the Government of India to empower large PSUs with greater financial and operational autonomy. Maharatna companies have a composite score of 60 or more based on criteria including net profit, net worth, total manpower cost, and total cost of production. This status allows ONGC to invest up to ₹5,000 crore without government approval.",
-      "estSec": 30,
-      "topicWeight": 0.14,
+      "solution": "Aditya-L1 is India's first solar observation mission.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 70,
       "subject": "General Awareness",
-      "topic": "Indian Economy & Energy Sector",
+      "topic": "Current Affairs · Oil & Gas",
       "section": "GA",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
-      "stem": "Which sedimentary basin in India is known for the largest crude oil production?",
+      "difficulty": "hard",
+      "stem": "ONGC's largest oil discovery in recent years was in which block?",
       "options": [
-        "Cambay Basin",
-        "Assam Shelf",
-        "Krishna-Godavari Basin",
-        "Mumbai Offshore Basin"
+        "KG Basin",
+        "Mumbai High",
+        "Cauvery Basin",
+        "Assam"
       ],
-      "answer": 3,
-      "solution": "The Mumbai Offshore Basin (including Mumbai High, Heera, Neelam, and Panna-Mukta fields) has been the largest crude oil producing basin in India, contributing a significant share of India's offshore oil production. The Mumbai High field alone has produced over 200 million tonnes of oil since its discovery. The Assam Shelf is the oldest producing basin but has lower production volumes compared to Mumbai Offshore.",
-      "estSec": 35,
-      "topicWeight": 0.14,
+      "answer": 0,
+      "solution": "ONGC made a significant discovery in the KG Basin.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 71,
       "subject": "General Awareness",
-      "topic": "Indian Geography",
+      "topic": "Current Affairs · Science",
       "section": "GA",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
-      "stem": "How many sedimentary basins are recognized by the Directorate General of Hydrocarbons (DGH) in India for hydrocarbon exploration?",
+      "difficulty": "hard",
+      "stem": "ISRO's Gaganyaan mission aims to:",
       "options": [
-        "16",
-        "26",
-        "36",
-        "46"
+        "Land on Moon",
+        "Send astronauts to space",
+        "Study the Sun",
+        "Explore Mars"
       ],
-      "answer": 2,
-      "solution": "The DGH recognizes 26 sedimentary basins in India covering approximately 3.14 million km² (onland and offshore). However, only a portion of these basins are currently under active exploration. Of these 26 basins, about 16 are classified as proven (producing or with discoveries) and the remaining as frontier or unexplored basins. The Government of India has been progressively opening up frontier basins through the Open Acreage Licensing Policy (OALP).",
-      "estSec": 25,
-      "topicWeight": 0.14,
+      "answer": 1,
+      "solution": "Gaganyaan aims to send Indian astronauts (Gagannauts) to space.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 72,
       "subject": "General Awareness",
-      "topic": "Indian Economy & Energy Sector",
+      "topic": "Static GK · Indian Polity",
       "section": "GA",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
-      "stem": "The Open Acreage Licensing Policy (OALP) was introduced as part of which hydrocarbon exploration policy to simplify the licensing process?",
+      "difficulty": "easy",
+      "stem": "The President of India is elected by:",
       "options": [
-        "National Exploration Policy 2010",
-        "Hydrocarbon Exploration and Licensing Policy (HELP) 2016",
-        "New Exploration Licensing Policy (NELP) 1997",
-        "Domestic Gas Utilization Policy 2012"
+        "Lok Sabha members",
+        "Rajya Sabha members",
+        "Electoral College",
+        "Prime Minister"
       ],
-      "answer": 1,
-      "solution": "OALP was introduced in 2016 as a key component of the Hydrocarbon Exploration and Licensing Policy (HELP). OALP allows companies to carve out areas of their choice and apply for exploration licenses, with a single license for both conventional and unconventional hydrocarbons. It replaced the earlier NELP regime which used a competitive bidding process. OALP aims to boost exploration by reducing bureaucratic delays and providing greater operational freedom.",
-      "estSec": 40,
-      "topicWeight": 0.14,
+      "answer": 2,
+      "solution": "The President is elected by an electoral college.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 73,
       "subject": "General Awareness",
-      "topic": "PSU & Governance",
+      "topic": "Static GK · Geography",
       "section": "GA",
       "type": "MCQ",
       "marks": 1,
       "difficulty": "medium",
-      "stem": "Which of the following is NOT a subsidiary of ONGC?",
+      "stem": "Smallest state in India by area:",
       "options": [
-        "ONGC Videsh",
-        "Mangalore Refinery and Petrochemicals Limited (MRPL)",
-        "Hindustan Petroleum Corporation Limited (HPCL)",
-        "Petronet LNG Limited"
+        "Sikkim",
+        "Goa",
+        "Tripura",
+        "Mizoram"
       ],
-      "answer": 3,
-      "solution": "Petronet LNG Limited is not a subsidiary of ONGC. It is an independent company promoted by consortium of Indian PSUs: GAIL (26%), IOC (26%), BPCL (26%), and ONGC (12%). ONGC Videsh (exploration and production abroad), MRPL (refining), and HPCL (acquired by ONGC in 2018) are ONGC group companies. HPCL acquisition made ONGC a vertically integrated energy company.",
-      "estSec": 35,
-      "topicWeight": 0.14,
+      "answer": 1,
+      "solution": "Goa is the smallest state by area (3,702 sq km).",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 74,
       "subject": "General Awareness",
-      "topic": "Indian Economy & Energy Sector",
+      "topic": "Static GK · Geography",
       "section": "GA",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
-      "stem": "India's crude oil import dependency (as of 2023-24) is approximately:",
+      "difficulty": "medium",
+      "stem": "Which state has the longest coastline in India?",
       "options": [
-        "65%",
-        "75%",
-        "85%",
-        "95%"
+        "Tamil Nadu",
+        "Andhra Pradesh",
+        "Gujarat",
+        "Kerala"
       ],
       "answer": 2,
-      "solution": "India's crude oil import dependency has been increasing steadily and was approximately 85-87% in 2023-24. India is the world's third-largest crude oil importer and consumer. Domestic production has been declining from about 0.9 million barrels per day in 2010-11 to about 0.6 million bpd in 2023-24, while consumption has increased to about 5.5 million bpd. This high import dependency is a major strategic concern for India's energy security.",
-      "estSec": 35,
-      "topicWeight": 0.14,
+      "solution": "Gujarat has the longest coastline (1,600 km).",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 75,
       "subject": "General Awareness",
-      "topic": "Indian Geography",
+      "topic": "Static GK · Indian Polity",
       "section": "GA",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
-      "stem": "The Satpura Graben, a petroliferous basin in central India, is bounded by which mountain ranges?",
+      "difficulty": "hard",
+      "stem": "How many fundamental rights are currently recognized?",
       "options": [
-        "Aravalli and Vindhyan ranges",
-        "Vindhyan range to the north and Satpura range to the south",
-        "Western Ghats and Eastern Ghats",
-        "Himalayas and Shivalik ranges"
+        "5",
+        "6",
+        "7",
+        "8"
       ],
       "answer": 1,
-      "solution": "The Satpura Graben (also called the Son-Narmada-Tapti or SONAT rift zone) is a petroliferous intracratonic rift basin bounded by the Vindhyan Range to the north and the Satpura Range to the south. It contains several small oil and gas fields and is part of the larger Gondwana basin system. The basin is filled with Permian to Recent sediments and has potential for hydrocarbon exploration.",
-      "estSec": 40,
-      "topicWeight": 0.14,
+      "solution": "There are 6 fundamental rights currently recognized.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 76,
-      "subject": "English Language",
-      "topic": "Vocabulary",
+      "subject": "English",
+      "topic": "English Language · Prepositions",
       "section": "English",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
-      "stem": "Choose the word that is closest in meaning to 'subsurface':",
+      "difficulty": "hard",
+      "stem": "She is proficient ___ English.",
       "options": [
-        "Atmospheric",
-        "Underground",
-        "Surface",
-        "Elevated"
+        "on",
+        "at",
+        "in",
+        "of"
       ],
-      "answer": 1,
-      "solution": "'Subsurface' refers to the region beneath the Earth's surface. In geophysics, it is used to describe the geological formations, structures, and properties that exist below the ground surface. 'Underground' is the closest synonym among the given options.",
-      "estSec": 20,
-      "topicWeight": 0.14,
+      "answer": 2,
+      "solution": "Proficient + in is the correct collocation.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 77,
-      "subject": "English Language",
-      "topic": "Grammar",
+      "subject": "English",
+      "topic": "English Language · Vocabulary",
       "section": "English",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
-      "stem": "Identify the correct sentence:",
+      "difficulty": "hard",
+      "stem": "Choose the word meaning 'to make something less severe':",
       "options": [
-        "The geophysicist have collected seismic data from the field.",
-        "The geophysicist has collected seismic data from the field.",
-        "The geophysicist had collect seismic data from the field.",
-        "The geophysicist collecting seismic data from the field."
+        "Aggravate",
+        "Mitigate",
+        "Motivate",
+        "Navigate"
       ],
       "answer": 1,
-      "solution": "The correct sentence is: 'The geophysicist has collected seismic data from the field.' The subject 'geophysicist' is singular, requiring the singular verb 'has collected.' Option A uses 'have' (plural verb with singular subject). Option C uses 'had collect' (incorrect past participle). Option D is a fragment lacking a finite verb.",
-      "estSec": 20,
-      "topicWeight": 0.14,
+      "solution": "Mitigate means to make less severe or painful.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 78,
-      "subject": "English Language",
-      "topic": "Vocabulary",
+      "subject": "English",
+      "topic": "English Language · Punctuation",
       "section": "English",
       "type": "MCQ",
       "marks": 1,
       "difficulty": "medium",
-      "stem": "The word 'anisotropy' in geophysics means:",
+      "stem": "Choose the correctly punctuated sentence:",
       "options": [
-        "Uniform properties in all directions",
-        "Direction-dependent physical properties",
-        "Extremely high property values",
-        "Zero value for a property"
+        "Lets eat, Grandma!",
+        "Let's eat Grandma!",
+        "Lets eat Grandma!",
+        "Let's, eat Grandma!"
       ],
-      "answer": 1,
-      "solution": "Anisotropy refers to the variation of a physical property with direction. In geophysics, seismic anisotropy describes how seismic wave velocities depend on the direction of propagation. Common causes include aligned fractures, preferred mineral orientation (lattice preferred orientation), and layered fine-scale heterogeneity. Isotropic means the same in all directions, while anisotropic means direction-dependent.",
-      "estSec": 25,
-      "topicWeight": 0.14,
+      "answer": 0,
+      "solution": "Let's needs an apostrophe; comma separates direct address.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 79,
-      "subject": "English Language",
-      "topic": "Comprehension",
+      "subject": "English",
+      "topic": "English Language · Vocabulary",
       "section": "English",
       "type": "MCQ",
       "marks": 1,
       "difficulty": "medium",
-      "stem": "Read the passage: 'The exploration of hydrocarbons has undergone a paradigm shift with the advent of 3D seismic technology, enabling geoscientists to visualize subsurface structures with unprecedented clarity. This has significantly reduced exploration risk and improved drilling success rates.' What does 'paradigm shift' mean in this context?",
+      "stem": "What does 'candid' mean?",
       "options": [
-        "A minor improvement in technology",
-        "A fundamental change in approach or methodology",
-        "A temporary trend in the industry",
-        "A decrease in the use of technology"
+        "Secretive",
+        "Frank and honest",
+        "Formal",
+        "Polite"
       ],
       "answer": 1,
-      "solution": "In this context, 'paradigm shift' refers to a fundamental change in the approach or methodology of hydrocarbon exploration. The introduction of 3D seismic technology fundamentally changed how geoscientists explore for hydrocarbons—moving from 2D seismic lines to full 3D volumes that provide a complete picture of the subsurface. This was not merely a minor improvement but a revolutionary change in exploration philosophy.",
-      "estSec": 30,
-      "topicWeight": 0.14,
+      "solution": "Candid means truthful and straightforward; frank.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 80,
-      "subject": "English Language",
-      "topic": "Grammar",
+      "subject": "English",
+      "topic": "English Language · Vocabulary",
       "section": "English",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
-      "stem": "Choose the correct preposition: 'The seismic survey was conducted ___ the western offshore of India.'",
+      "difficulty": "hard",
+      "stem": "What is the synonym of 'ephemeral'?",
       "options": [
-        "in",
-        "on",
-        "off",
-        "at"
+        "Permanent",
+        "Transient",
+        "Eternal",
+        "Stable"
       ],
-      "answer": 2,
-      "solution": "The correct preposition is 'off,' meaning 'off the coast of' or 'in the waters adjacent to.' The phrase 'off the western offshore' correctly describes a marine survey conducted in the waters off the western coast of India. 'In' would be used for land areas, 'on' for surfaces, and 'at' for specific locations.",
-      "estSec": 20,
-      "topicWeight": 0.14,
+      "answer": 1,
+      "solution": "Ephemeral means short-lived or transient.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 81,
-      "subject": "English Language",
-      "topic": "Vocabulary",
-      "section": "English",
-      "type": "MCQ",
-      "marks": 1,
-      "difficulty": "medium",
-      "stem": "The antonym of 'acquisition' in the context of data collection is:",
-      "options": [
-        "Gathering",
-        "Processing",
-        "Disposal",
-        "Storage"
-      ],
-      "answer": 2,
-      "solution": "The antonym of 'acquisition' (the act of obtaining or gathering data) is 'disposal' (the act of getting rid of or disposing of something). In geophysical data management, acquisition refers to collecting field data, while disposal refers to the discarding or deletion of data that is no longer needed.",
-      "estSec": 25,
-      "topicWeight": 0.14,
-      "source": "curated"
-    },
-    {
-      "id": 82,
-      "subject": "English Language",
-      "topic": "Grammar",
-      "section": "English",
-      "type": "MCQ",
-      "marks": 1,
-      "difficulty": "medium",
-      "stem": "Select the correctly punctuated sentence:",
-      "options": [
-        "The survey revealed three things: a fault, a fold and an unconformity.",
-        "The survey revealed three things; a fault, a fold, and an unconformity.",
-        "The survey revealed three things, a fault, a fold and an unconformity.",
-        "The survey revealed three things—a fault, a fold, and an unconformity."
-      ],
-      "answer": 3,
-      "solution": "Option D is correctly punctuated. An em dash (—) is used to introduce a list or explanation, replacing a colon for emphasis. The items in the list are properly separated by commas, and the serial comma (Oxford comma) before 'and' is used. Option A lacks a serial comma. Option B incorrectly uses a semicolon. Option C uses commas in a way that creates a run-on sentence.",
-      "estSec": 30,
-      "topicWeight": 0.14,
-      "source": "curated"
-    },
-    {
-      "id": 83,
-      "subject": "English Language",
-      "topic": "Comprehension",
+      "subject": "English",
+      "topic": "English Language · Prepositions",
       "section": "English",
       "type": "MCQ",
       "marks": 1,
       "difficulty": "easy",
-      "stem": "Read the passage: 'Seismic attributes, derived from post-stack or pre-stack data, provide quantitative measures of seismic waveform characteristics. These attributes serve as proxies for subsurface lithology, fluid content, and stratigraphic features, enhancing the interpretive capabilities of geoscientists beyond conventional amplitude interpretation.' Which of the following best summarizes the main idea?",
+      "stem": "The meeting was put ___ Friday.",
       "options": [
-        "Seismic attributes are mathematical formulas used in geophysics.",
-        "Seismic attributes extend interpretation beyond raw amplitude by quantifying waveform properties linked to subsurface characteristics.",
-        "Post-stack and pre-stack data are different types of seismic datasets.",
-        "Geoscientists prefer amplitude interpretation over attribute analysis."
+        "on",
+        "at",
+        "off",
+        "up"
+      ],
+      "answer": 2,
+      "solution": "Put off means to postpone.",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 82,
+      "subject": "English",
+      "topic": "English Language · Vocabulary",
+      "section": "English",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "What does 'resilient' mean?",
+      "options": [
+        "Fragile",
+        "Able to recover quickly",
+        "Slow",
+        "Weak"
       ],
       "answer": 1,
-      "solution": "The passage's main idea is that seismic attributes provide quantitative measures that extend interpretation beyond conventional amplitude analysis. They serve as proxies for subsurface properties (lithology, fluids, stratigraphy), thereby enhancing the interpretive capabilities of geoscientists. Option A is too narrow (only mentions formulas). Option C focuses on data types rather than the main idea. Option D contradicts the passage.",
-      "estSec": 35,
-      "topicWeight": 0.14,
+      "solution": "Resilient means able to recover quickly from difficulties.",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 83,
+      "subject": "English",
+      "topic": "English Language · Articles",
+      "section": "English",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "___ honest man always speaks the truth.",
+      "options": [
+        "A",
+        "An",
+        "The",
+        "No article"
+      ],
+      "answer": 1,
+      "solution": "'An' before words starting with silent 'h'.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 84,
-      "subject": "English Language",
-      "topic": "Vocabulary",
+      "subject": "English",
+      "topic": "English Language · Vocabulary",
       "section": "English",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
-      "stem": "The term 'diagenesis' in sedimentary geology refers to:",
+      "difficulty": "easy",
+      "stem": "What is a 'watershed' moment?",
       "options": [
-        "The weathering of rocks at the surface",
-        "Physical and chemical changes in sediment after deposition and during burial, excluding metamorphism",
-        "The process of magma cooling to form igneous rocks",
-        "The erosion and transport of sediments by water"
+        "A moment near water",
+        "A turning point",
+        "A disaster",
+        "A celebration"
       ],
       "answer": 1,
-      "solution": "Diagenesis encompasses all physical, chemical, and biological changes that occur in sediments after deposition and during burial, up to but not including metamorphism. These changes include compaction, cementation, dissolution, recrystallization, and mineral transformations. Diagenesis significantly affects porosity, permeability, and elastic properties of sedimentary rocks, making it important for both hydrocarbon exploration and geophysical interpretation.",
-      "estSec": 30,
-      "topicWeight": 0.14,
+      "solution": "A watershed moment is a turning point or critical moment.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 85,
-      "subject": "English Language",
-      "topic": "Grammar",
+      "subject": "English",
+      "topic": "English Language · Grammar",
       "section": "English",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
-      "stem": "Choose the sentence with correct subject-verb agreement:",
+      "difficulty": "medium",
+      "stem": "The manager, along with his team, ___ present at the meeting.",
       "options": [
-        "The array of geophones were deployed across the survey area.",
-        "The data from multiple surveys were compiled into a single database.",
-        "Each of the seismic traces have been processed through the same workflow.",
-        "Neither the geologist nor the geophysicist were available for the field work."
+        "were",
+        "are",
+        "was",
+        "have been"
       ],
-      "answer": 1,
-      "solution": "Option B is correct: 'The data from multiple surveys were compiled...' Here, 'data' is treated as plural (traditional usage in scientific contexts), and the verb 'were' agrees with the plural subject. Option A: 'array' is singular, requiring 'was.' Option C: 'each' is singular, requiring 'has.' Option D: 'neither...nor' takes the verb agreement of the nearer subject ('geophysicist' is singular, requiring 'was').",
-      "estSec": 35,
-      "topicWeight": 0.14,
+      "answer": 2,
+      "solution": "When 'along with' is used, the verb agrees with the first subject (manager → was).",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     }
   ]

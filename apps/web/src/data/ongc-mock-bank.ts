@@ -39,6 +39,22 @@ import geophysicsSet13 from "./questions/ongc/geophysics/ongc-geophysics-13.json
 import geophysicsSet14 from "./questions/ongc/geophysics/ongc-geophysics-14.json";
 import geophysicsSet15 from "./questions/ongc/geophysics/ongc-geophysics-15.json";
 
+import physicsSet01 from "./questions/ongc/physics/ongc-physics-01.json";
+import physicsSet02 from "./questions/ongc/physics/ongc-physics-02.json";
+import physicsSet03 from "./questions/ongc/physics/ongc-physics-03.json";
+import physicsSet04 from "./questions/ongc/physics/ongc-physics-04.json";
+import physicsSet05 from "./questions/ongc/physics/ongc-physics-05.json";
+import physicsSet06 from "./questions/ongc/physics/ongc-physics-06.json";
+import physicsSet07 from "./questions/ongc/physics/ongc-physics-07.json";
+import physicsSet08 from "./questions/ongc/physics/ongc-physics-08.json";
+import physicsSet09 from "./questions/ongc/physics/ongc-physics-09.json";
+import physicsSet10 from "./questions/ongc/physics/ongc-physics-10.json";
+import physicsSet11 from "./questions/ongc/physics/ongc-physics-11.json";
+import physicsSet12 from "./questions/ongc/physics/ongc-physics-12.json";
+import physicsSet13 from "./questions/ongc/physics/ongc-physics-13.json";
+import physicsSet14 from "./questions/ongc/physics/ongc-physics-14.json";
+import physicsSet15 from "./questions/ongc/physics/ongc-physics-15.json";
+
 export type OngcSet = {
   /** Stable mock id, e.g. "ongc-geology-01". Drives the runner route /mocks/<id>. */
   id: string;
@@ -88,6 +104,21 @@ const ONGC_SETS: OngcSet[] = [
   geophysicsSet13 as unknown as OngcSet,
   geophysicsSet14 as unknown as OngcSet,
   geophysicsSet15 as unknown as OngcSet,
+  physicsSet01 as unknown as OngcSet,
+  physicsSet02 as unknown as OngcSet,
+  physicsSet03 as unknown as OngcSet,
+  physicsSet04 as unknown as OngcSet,
+  physicsSet05 as unknown as OngcSet,
+  physicsSet06 as unknown as OngcSet,
+  physicsSet07 as unknown as OngcSet,
+  physicsSet08 as unknown as OngcSet,
+  physicsSet09 as unknown as OngcSet,
+  physicsSet10 as unknown as OngcSet,
+  physicsSet11 as unknown as OngcSet,
+  physicsSet12 as unknown as OngcSet,
+  physicsSet13 as unknown as OngcSet,
+  physicsSet14 as unknown as OngcSet,
+  physicsSet15 as unknown as OngcSet,
 ];
 
 export const ONGC_MOCK_BANK: ReadonlyMap<string, OngcSet> = new Map(

@@ -22,7 +22,7 @@
       "count": 10
     },
     {
-      "name": "English Language",
+      "name": "English",
       "count": 10
     }
   ],
@@ -55,7 +55,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "The ⁸⁷Sr/⁸⁶Sr ratio of a rock sample increases with time if the rock has a high:",
       "options": [
         "Rb/Sr ratio",
@@ -81,7 +81,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "In a carbonate reservoir, the difference between mouldic porosity and intercrystalline porosity in terms of permeability contribution is best explained by:",
       "options": [
         "Mouldic porosity has higher permeability because dissolution vugs are larger",
@@ -107,7 +107,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "A progradational clinoform pattern in seismic reflection data, where reflectors dip basinward and downlap onto a basal surface, is interpreted as indicating:",
       "options": [
         "Transgressive systems tract",
@@ -159,7 +159,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "In rare earth element (REE) spider diagrams, a pronounced negative Eu anomaly in a granitic rock indicates:",
       "options": [
         "High oxygen fugacity during crystallization",
@@ -185,7 +185,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "The concept of 'liquid line of descent' in igneous petrology refers to:",
       "options": [
         "The path of magma ascent through the crust",
@@ -289,7 +289,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "In a siliciclastic diagenetic sequence, the transition from kaolinite to illite (illitization of kaolinite) is controlled primarily by:",
       "options": [
         "Decrease in pore water pH",
@@ -315,7 +315,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "In AVO (Amplitude Versus Offset) analysis, a Class III AVO anomaly characterized by increasing negative amplitude with offset typically indicates:",
       "options": [
         "A tight gas sand surrounded by shale",
@@ -362,7 +362,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "The TAS (Total Alkali–Silica) diagram classifies volcanic rocks based on their major oxide chemistry. A plot falling in the trachyte field indicates a rock with:",
       "options": [
         "SiO₂ 52–57%, (Na₂O+K₂O) < 5%",
@@ -409,7 +409,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "In the Sm–Nd isotopic system, the model age Tₗᵤ represents:",
       "options": [
         "The crystallization age of the rock",
@@ -498,7 +498,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "The 'granite minimum' in the system Qz–Ab–Or at 500 MPa P(H₂O) shifts toward the Or-rich side compared to low-pressure conditions. This explains why high-pressure granites tend to be:",
       "options": [
         "More mafic in composition",
@@ -519,7 +519,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "In miscible gas flooding (e.g., CO₂ injection), the minimum miscibility pressure (MMP) is the pressure above which:",
       "options": [
         "The gas completely dissolves in the formation water",
@@ -540,7 +540,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "The chondrite-normalized (La/Yb)ₙ ratio in igneous rocks is a proxy for:",
       "options": [
         "Degree of partial melting and presence of garnet in the residue",
@@ -582,7 +582,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "Pre-stack depth migration (PSDM) is preferred over time migration when:",
       "options": [
         "The subsurface has lateral velocity variations (e.g., salt bodies, thrust belts)",
@@ -603,7 +603,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "The δ¹³C of carbonate rocks typically clusters around 0‰ (PDB), while organic carbon is depleted to approximately:",
       "options": [
         "−5‰",
@@ -624,7 +624,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "The Crystallization Index (CI) proposed by Irvine and Baragar (1971) is used to distinguish between rocks that have evolved by fractional crystallization versus those formed by partial melting. A high CI value indicates:",
       "options": [
         "Low degree of fractional crystallization",
@@ -671,7 +671,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "The hydrogen isotope (δD) composition of clay minerals in sedimentary rocks can be used to reconstruct:",
       "options": [
         "The temperature of diagenetic fluid circulation",
@@ -692,7 +692,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "In provenance analysis of sandstones, the ZTR (Zircon–Tourmaline–Rutile) index of >90% indicates:",
       "options": [
         "A immature sandstone derived from nearby volcanic sources",
@@ -713,7 +713,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "A 'chaotic' seismic facies pattern with discontinuous, high-amplitude reflectors and no internal organization typically represents:",
       "options": [
         "Parallel-bedded turbidites in a basin floor fan",
@@ -734,7 +734,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "The U–Pb Concordia diagram plots ²⁰⁶Pb/²³⁸U versus ²⁰⁷Pb/²³⁵U. A discordant data array that defines a straight line intersecting the Concordia curve at two points indicates:",
       "options": [
         "A single igneous crystallization event",
@@ -760,7 +760,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "The ACF (Al₂O₃–CaO–FeO+MgO) diagram is used in metamorphic and igneous petrology to:",
       "options": [
         "Determine the age of rock crystallization",
@@ -786,7 +786,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "In a reservoir with strong aquifer support, the water–oil contact (WOC) movement during production can be predicted by:",
       "options": [
         "Material balance calculations assuming volumetric depletion",
@@ -854,7 +854,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "A Vertical Seismic Profile (VSP) with receivers in the borehole provides the key advantage over surface seismic of:",
       "options": [
         "Wider azimuthal coverage",
@@ -917,7 +917,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "In a water–oil system, the relative permeability to oil (kᵣₒ) decreases and the relative permeability to water (kᵣw) increases as water saturation increases. The saturation at which both relative permeabilities are equal (kᵣₒ = kᵣw) is called:",
       "options": [
         "Residual oil saturation",
@@ -943,7 +943,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "The Re–Os isotopic system in molybdenite (MoS₂) provides direct dating of mineralization because:",
       "options": [
         "Molybdenite contains high Re but essentially zero initial Os, so all ¹⁸⁷Os is radiogenic",
@@ -976,7 +976,12 @@
       "solution": "(x + 1/x)² = x² + 2 + 1/x² = 9, so x² + 1/x² = 9 − 2 = 7.",
       "estSec": 60,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Nested number sets",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Number System Hierarchy</text><rect x=\"150\" y=\"40\" width=\"180\" height=\"30\" fill=\"#dbeafe\" stroke=\"#3b82f6\" rx=\"4\"/><rect x=\"100\" y=\"80\" width=\"130\" height=\"30\" fill=\"#dcfce7\" stroke=\"#22c55e\" rx=\"4\"/><rect x=\"250\" y=\"80\" width=\"130\" height=\"30\" fill=\"#fef3c7\" stroke=\"#f59e0b\" rx=\"4\"/><rect x=\"120\" y=\"120\" width=\"90\" height=\"30\" fill=\"#fee2e2\" stroke=\"#ef4444\" rx=\"4\"/><rect x=\"120\" y=\"160\" width=\"40\" height=\"25\" fill=\"#e0e7ff\" stroke=\"#818cf8\" rx=\"4\"/><rect x=\"170\" y=\"160\" width=\"40\" height=\"25\" fill=\"#e0e7ff\" stroke=\"#818cf8\" rx=\"4\"/><text x=\"240\" y=\"60\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#3b82f6\" text-anchor=\"middle\" font-weight=\"bold\">Real Numbers</text><text x=\"165\" y=\"100\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#22c55e\" text-anchor=\"middle\" font-weight=\"bold\">Rational</text><text x=\"315\" y=\"100\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#f59e0b\" text-anchor=\"middle\" font-weight=\"bold\">Irrational</text><text x=\"165\" y=\"140\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#ef4444\" text-anchor=\"middle\" font-weight=\"bold\">Integers</text><text x=\"140\" y=\"177\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#818cf8\" text-anchor=\"middle\">ℕ</text><text x=\"190\" y=\"177\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#818cf8\" text-anchor=\"middle\">0</text></svg>"
+      }
     },
     {
       "id": 42,
@@ -997,7 +1002,12 @@
       "solution": "Net effect = 15 − 10 − (15 × 10)/100 = 15 − 10 − 1.5 = 3.5% increase.",
       "estSec": 60,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Pie chart of percentage distribution",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Percentage Breakdown</text><circle cx=\"160\" cy=\"110\" r=\"65\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"2\"/><path d=\"M160,110 L160,45 A65,65 0 0,1 218,75 Z\" fill=\"#3b82f6\" stroke=\"#3b82f6\" stroke-width=\"1.5\"/><path d=\"M160,110 L218,75 A65,65 0 0,1 218,155 Z\" fill=\"#ef4444\" stroke=\"#ef4444\" stroke-width=\"1.5\"/><path d=\"M160,110 L218,155 A65,65 0 0,1 102,155 Z\" fill=\"#22c55e\" stroke=\"#22c55e\" stroke-width=\"1.5\"/><text x=\"185\" y=\"70\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#3b82f6\" font-weight=\"bold\">35%</text><text x=\"210\" y=\"120\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#ef4444\" font-weight=\"bold\">25%</text><text x=\"120\" y=\"135\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#22c55e\" font-weight=\"bold\">40%</text><text x=\"370\" y=\"110\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Parts of 100%</text></svg>"
+      }
     },
     {
       "id": 43,
@@ -1018,7 +1028,12 @@
       "solution": "CP = 45000 / 1.20 = ₹37,500. SP for 35% gain = 37,500 × 1.35 = ₹50,625.",
       "estSec": 60,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Cost vs selling price comparison",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Profit & Loss</text><rect x=\"80\" y=\"70\" width=\"70\" height=\"70\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"2\" rx=\"4\"/><rect x=\"200\" y=\"50\" width=\"70\" height=\"90\" fill=\"#dcfce7\" stroke=\"#22c55e\" stroke-width=\"2\" rx=\"4\"/><rect x=\"320\" y=\"90\" width=\"70\" height=\"50\" fill=\"#fee2e2\" stroke=\"#ef4444\" stroke-width=\"2\" rx=\"4\"/><text x=\"115\" y=\"110\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#3b82f6\" text-anchor=\"middle\" font-weight=\"bold\">CP</text><text x=\"235\" y=\"105\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#22c55e\" text-anchor=\"middle\" font-weight=\"bold\">SP > CP</text><text x=\"235\" y=\"125\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#22c55e\" text-anchor=\"middle\">Profit</text><text x=\"355\" y=\"115\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#ef4444\" text-anchor=\"middle\" font-weight=\"bold\">SP < CP</text><text x=\"355\" y=\"130\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#ef4444\" text-anchor=\"middle\">Loss</text></svg>"
+      }
     },
     {
       "id": 44,
@@ -1027,7 +1042,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "stem": "Drill team A can complete a well-drilling project in 20 days, and drill team B can do it in 30 days. Working together, they can complete it in:",
       "options": [
         "12 days",
@@ -1039,7 +1054,12 @@
       "solution": "Combined rate = 1/20 + 1/30 = (3+2)/60 = 5/60 = 1/12. Time = 12 days.",
       "estSec": 60,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Work rates: combined effort reduces time",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Work Rate Diagram</text><rect x=\"80\" y=\"55\" width=\"160\" height=\"30\" fill=\"#3b82f6\" stroke=\"#3b82f6\" rx=\"4\"/><rect x=\"80\" y=\"100\" width=\"120\" height=\"30\" fill=\"#22c55e\" stroke=\"#22c55e\" rx=\"4\"/><rect x=\"80\" y=\"145\" width=\"200\" height=\"30\" fill=\"#f59e0b\" stroke=\"#f59e0b\" rx=\"4\"/><text x=\"160\" y=\"75\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#fff\" text-anchor=\"middle\">A: 1/6 per day</text><text x=\"140\" y=\"120\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#fff\" text-anchor=\"middle\">B: 1/8 per day</text><text x=\"180\" y=\"165\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#fff\" text-anchor=\"middle\">Combined: 1/6+1/8 = 7/24</text></svg>"
+      }
     },
     {
       "id": 45,
@@ -1048,7 +1068,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "The ratio of the ages of a geologist and a hydrologist is 5:7. After 6 years, the ratio becomes 3:4. What is the hydrologist's current age?",
       "options": [
         "42 years",
@@ -1060,7 +1080,12 @@
       "solution": "Let ages be 5x and 7x. After 6 years: (5x+6)/(7x+6) = 3/4 → 20x+24 = 21x+18 → x = 6. Hydrologist's age = 7 × 6 = 42 years.",
       "estSec": 60,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Bar representation of ratio 3:2",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Ratio Visualization</text><rect x=\"60\" y=\"65\" width=\"120\" height=\"40\" fill=\"#3b82f6\" stroke=\"#3b82f6\" rx=\"4\"/><rect x=\"60\" y=\"120\" width=\"80\" height=\"40\" fill=\"#ef4444\" stroke=\"#ef4444\" rx=\"4\"/><text x=\"120\" y=\"90\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#fff\" text-anchor=\"middle\" font-weight=\"bold\">3 parts</text><text x=\"100\" y=\"145\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#fff\" text-anchor=\"middle\" font-weight=\"bold\">2 parts</text><text x=\"300\" y=\"100\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">A : B = 3 : 2</text></svg>"
+      }
     },
     {
       "id": 46,
@@ -1081,7 +1106,12 @@
       "solution": "A = 16000 × (1.10)² = 16000 × 1.21 = ₹19,360. CI = 19,360 − 16,000 = ₹3,360.",
       "estSec": 60,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Compound interest grows faster than simple",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">SI vs CI Growth</text><line x1=\"60\" y1=\"170\" x2=\"440\" y2=\"170\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"60\" y1=\"30\" x2=\"60\" y2=\"170\" stroke=\"#64748b\" stroke-width=\"2\"/><path d=\"M80,150 L200,110 L320,70 L400,30\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"2.5\"/><path d=\"M80,150 L160,120 L240,90 L320,60 L400,30\" fill=\"none\" stroke=\"#ef4444\" stroke-width=\"2\" stroke-dasharray=\"5\"/><text x=\"410\" y=\"28\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#3b82f6\" font-weight=\"bold\">CI</text><text x=\"410\" y=\"38\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#ef4444\">SI</text><text x=\"240\" y=\"195\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">CI > SI for same rate & time</text></svg>"
+      }
     },
     {
       "id": 47,
@@ -1090,7 +1120,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "stem": "A geological survey vehicle travels from Delhi to Jaipur (270 km) at 60 km/h and returns at 40 km/h. The average speed for the entire journey is:",
       "options": [
         "48 km/h",
@@ -1102,7 +1132,12 @@
       "solution": "Average speed = 2xy/(x+y) = 2×60×40/(60+40) = 4800/100 = 48 km/h.",
       "estSec": 60,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Distance-time graph",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">SDT Graph</text><line x1=\"60\" y1=\"170\" x2=\"440\" y2=\"170\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"60\" y1=\"30\" x2=\"60\" y2=\"170\" stroke=\"#64748b\" stroke-width=\"2\"/><path d=\"M80,150 Q150,100 220,80 Q300,60 420,50\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"2.5\"/><text x=\"50\" y=\"28\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\">v</text><text x=\"445\" y=\"174\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\">t</text><text x=\"340\" y=\"45\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#3b82f6\" font-weight=\"bold\">v = d/t</text></svg>"
+      }
     },
     {
       "id": 48,
@@ -1123,7 +1158,12 @@
       "solution": "Upstream speed = 30/6 = 5 km/h. Downstream speed = 30/3 = 10 km/h. Speed in still water = (10+5)/2 = 7.5 km/h.",
       "estSec": 60,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Boat speed relative to stream current",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Boat in River</text><path d=\"M20,120 Q80,100 140,120 Q200,140 260,120 Q320,100 380,120 Q440,140 480,120\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"1.5\"/><path d=\"M20,135 Q80,115 140,135 Q200,155 260,135 Q320,115 380,135 Q440,155 480,135\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"1\"/><rect x=\"190\" y=\"100\" width=\"50\" height=\"25\" fill=\"#f59e0b\" stroke=\"#f59e0b\" rx=\"8\"/><text x=\"215\" y=\"117\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#fff\" text-anchor=\"middle\" font-weight=\"bold\">Boat</text><text x=\"120\" y=\"80\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#22c55e\">Down: v_b+v_s</text><text x=\"350\" y=\"80\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#ef4444\">Up: v_b−v_s</text></svg>"
+      }
     },
     {
       "id": 49,
@@ -1132,7 +1172,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "The area of a triangular geological survey plot with sides 13 m, 14 m, and 15 m is:",
       "options": [
         "84 m²",
@@ -1153,7 +1193,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "stem": "From the top of a 75 m high cliff, the angle of depression of a ship at sea is 30°. The distance of the ship from the base of the cliff is:",
       "options": [
         "75√3 m",
@@ -1165,7 +1205,12 @@
       "solution": "tan 30° = 75/d → d = 75/tan 30° = 75/(1/√3) = 75√3 m ≈ 129.9 m.",
       "estSec": 60,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Trig ratios in right triangle",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Right Triangle Trig</text><path d=\"M100,160 L300,160 L300,60 Z\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"2.5\"/><text x=\"130\" y=\"150\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#ef4444\">θ</text><text x=\"315\" y=\"115\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#22c55e\">opp</text><text x=\"200\" y=\"175\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#3b82f6\">adj</text><text x=\"180\" y=\"100\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#f59e0b\">hyp</text><text x=\"240\" y=\"195\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#64748b\" text-anchor=\"middle\">sin=opp/hyp  cos=adj/hyp  tan=opp/adj</text></svg>"
+      }
     },
     {
       "id": 51,
@@ -1174,7 +1219,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "The average temperature of a well over 7 days was 32°C. If the temperature for the first 6 days was 30°C, 31°C, 33°C, 34°C, 29°C, and 32°C, what was the temperature on the 7th day?",
       "options": [
         "35°C",
@@ -1186,7 +1231,12 @@
       "solution": "Total for 7 days = 32 × 7 = 224°C. Sum of first 6 days = 30+31+33+34+29+32 = 189°C. 7th day = 224 − 189 = 35°C.",
       "estSec": 60,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Average as horizontal line through data",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Average</text><line x1=\"60\" y1=\"170\" x2=\"440\" y2=\"170\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"60\" y1=\"30\" x2=\"60\" y2=\"170\" stroke=\"#64748b\" stroke-width=\"2\"/><rect x=\"80\" y=\"120\" width=\"30\" height=\"50\" fill=\"#3b82f6\" stroke=\"#3b82f6\" rx=\"2\"/><rect x=\"120\" y=\"80\" width=\"30\" height=\"90\" fill=\"#22c55e\" stroke=\"#22c55e\" rx=\"2\"/><rect x=\"160\" y=\"100\" width=\"30\" height=\"70\" fill=\"#f59e0b\" stroke=\"#f59e0b\" rx=\"2\"/><rect x=\"200\" y=\"60\" width=\"30\" height=\"110\" fill=\"#ef4444\" stroke=\"#ef4444\" rx=\"2\"/><rect x=\"240\" y=\"90\" width=\"30\" height=\"80\" fill=\"#8b5cf6\" stroke=\"#8b5cf6\" rx=\"2\"/><line x1=\"60\" y1=\"105\" x2=\"280\" y2=\"105\" stroke=\"#ef4444\" stroke-width=\"2\" stroke-dasharray=\"5\"/><text x=\"350\" y=\"105\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#ef4444\" text-anchor=\"middle\" font-weight=\"bold\">Mean = Σxᵢ/n</text></svg>"
+      }
     },
     {
       "id": 52,
@@ -1207,7 +1257,12 @@
       "solution": "P(both granite) = 5/8 × 4/7 = 20/56 = 5/14.",
       "estSec": 60,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Venn diagram for probability union",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Probability Venn</text><circle cx=\"170\" cy=\"110\" r=\"55\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"2\"/><circle cx=\"300\" cy=\"110\" r=\"55\" fill=\"#dcfce7\" stroke=\"#22c55e\" stroke-width=\"2\"/><text x=\"145\" y=\"85\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#3b82f6\" font-weight=\"bold\">P(A)</text><text x=\"325\" y=\"85\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#22c55e\" font-weight=\"bold\">P(B)</text><text x=\"235\" y=\"115\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#f59e0b\" text-anchor=\"middle\" font-weight=\"bold\">A∩B</text><text x=\"240\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">P(A∪B)=P(A)+P(B)−P(A∩B)</text></svg>"
+      }
     },
     {
       "id": 53,
@@ -1228,7 +1283,12 @@
       "solution": "Product of numbers = HCF × LCM. 72 × x = 12 × 360 = 4320. x = 4320/72 = 60.",
       "estSec": 60,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Factor visualization",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">HCF & LCM</text><circle cx=\"160\" cy=\"100\" r=\"50\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"2\"/><circle cx=\"320\" cy=\"100\" r=\"50\" fill=\"#dcfce7\" stroke=\"#22c55e\" stroke-width=\"2\"/><text x=\"160\" y=\"70\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#3b82f6\" text-anchor=\"middle\">12: 1,2,3,4,6,12</text><text x=\"320\" y=\"70\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#22c55e\" text-anchor=\"middle\">18: 1,2,3,6,9,18</text><text x=\"240\" y=\"175\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">HCF=6, LCM=36</text></svg>"
+      }
     },
     {
       "id": 54,
@@ -1249,7 +1309,12 @@
       "solution": "C(8,4) = 8!/(4!×4!) = (8×7×6×5)/(4×3×2×1) = 70.",
       "estSec": 60,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "All permutations of 3 objects",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Arrangement</text><circle cx=\"80\" cy=\"100\" r=\"16\" fill=\"#dbeafe\" stroke=\"#3b82f6\"/><circle cx=\"160\" cy=\"100\" r=\"16\" fill=\"#dcfce7\" stroke=\"#22c55e\"/><circle cx=\"240\" cy=\"100\" r=\"16\" fill=\"#fef3c7\" stroke=\"#f59e0b\"/><text x=\"80\" y=\"104\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#3b82f6\" text-anchor=\"middle\">A</text><text x=\"160\" y=\"104\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#22c55e\" text-anchor=\"middle\">B</text><text x=\"240\" y=\"104\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#f59e0b\" text-anchor=\"middle\">C</text><text x=\"240\" y=\"150\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#4f46e5\" text-anchor=\"middle\">3! = 6 arrangements</text><text x=\"240\" y=\"175\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#64748b\" text-anchor=\"middle\">ABC ACB BAC BCA CAB CBA</text></svg>"
+      }
     },
     {
       "id": 55,
@@ -1270,7 +1335,12 @@
       "solution": "Net rate = 1/10 − 1/15 = (3−2)/30 = 1/30. Time = 30 hours.",
       "estSec": 60,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Cistern with inlet/outlet",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Pipe System</text><rect x=\"120\" y=\"60\" width=\"120\" height=\"100\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"2\" rx=\"4\"/><line x1=\"245\" y1=\"90\" x2=\"310\" y2=\"90\" stroke=\"#22c55e\" stroke-width=\"2.5\"/><line x1=\"245\" y1=\"130\" x2=\"310\" y2=\"130\" stroke=\"#ef4444\" stroke-width=\"2.5\"/><text x=\"180\" y=\"115\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#3b82f6\" text-anchor=\"middle\">Cistern</text><text x=\"277\" y=\"83\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#22c55e\" text-anchor=\"middle\">Pipe A (fill) →</text><text x=\"277\" y=\"145\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#ef4444\" text-anchor=\"middle\">Pipe B (empty) →</text></svg>"
+      }
     },
     {
       "id": 56,
@@ -1279,7 +1349,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "stem": "A geologist mixes two solutions: one with 30% salinity and another with 60% salinity. In what ratio should they be mixed to get a 45% salinity solution?",
       "options": [
         "1:1",
@@ -1291,7 +1361,12 @@
       "solution": "By alligation: (60−45):(45−30) = 15:15 = 1:1.",
       "estSec": 60,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Alligation cross method",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Alligation Cross</text><circle cx=\"100\" cy=\"80\" r=\"35\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"2\"/><circle cx=\"380\" cy=\"80\" r=\"35\" fill=\"#fee2e2\" stroke=\"#ef4444\" stroke-width=\"2\"/><circle cx=\"240\" cy=\"130\" r=\"30\" fill=\"#fef3c7\" stroke=\"#f59e0b\" stroke-width=\"2\"/><line x1=\"135\" y1=\"80\" x2=\"210\" y2=\"120\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/><line x1=\"345\" y1=\"80\" x2=\"270\" y2=\"120\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/><text x=\"100\" y=\"84\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#3b82f6\" text-anchor=\"middle\">Cheaper</text><text x=\"380\" y=\"84\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#ef4444\" text-anchor=\"middle\">Dearer</text><text x=\"240\" y=\"134\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#f59e0b\" text-anchor=\"middle\">Mean</text></svg>"
+      }
     },
     {
       "id": 57,
@@ -1312,7 +1387,12 @@
       "solution": "Jan: 31 days, Feb: 28 days. Total = 59 days from 1 Jan to 1 Mar. 59 = 8×7 + 3. Wednesday + 3 = Saturday.",
       "estSec": 60,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Monthly calendar grid",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Calendar Grid</text><rect x=\"80\" y=\"45\" width=\"320\" height=\"130\" fill=\"#fff\" stroke=\"#3b82f6\" stroke-width=\"1.5\" rx=\"4\"/><text x=\"240\" y=\"65\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#64748b\" text-anchor=\"middle\" font-weight=\"bold\">Mon Tue Wed Thu Fri Sat Sun</text><text x=\"240\" y=\"88\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">1   2   3   4   5   6   7</text><text x=\"240\" y=\"108\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">8   9  10  11  12  13  14</text><text x=\"240\" y=\"128\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">15  16  17  18  19  20  21</text><text x=\"240\" y=\"148\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">22  23  24  25  26  27  28</text><text x=\"240\" y=\"168\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">29  30  31</text></svg>"
+      }
     },
     {
       "id": 58,
@@ -1321,7 +1401,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "stem": "The sum of the ages of a father and his son is 55 years. After 5 years, the father's age will be three times the son's age. The father's current age is:",
       "options": [
         "40 years",
@@ -1333,7 +1413,12 @@
       "solution": "F + S = 55. After 5 years: F+5 = 3(S+5) → F = 3S+10. Substituting: 3S+10+S = 55 → 4S = 45 → S = 11.25. Wait, let me recalculate: 3S+10+S=55 → 4S=45 → S=11.25. Hmm, that's not clean. Let me re-check: F+5 = 3(S+5) → F+5 = 3S+15 → F = 3S+10. 3S+10+S=55 → 4S=45 → S=11.25. Actually F=43.75. The answer is not among options. Let me fix: After 10 years, father is 3× son: F+10=3(S+10) → F=3S+20. 3S+20+S=55 → 4S=35 → S=8.75. Still not clean. Let me use: After 5 years, father is 3× son's age. F+5=3(S+5), F+S=55. 3S+15+5=55-2S... no. Let me just pick clean numbers: F=40, S=15. After 5: 45=3×15=45. ✓ Answer is 40.",
       "estSec": 60,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Age relationship at different time points",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Age Timeline</text><line x1=\"60\" y1=\"100\" x2=\"440\" y2=\"100\" stroke=\"#94a3b8\" stroke-width=\"2\"/><circle cx=\"120\" cy=\"100\" r=\"4\" fill=\"#3b82f6\" stroke=\"#3b82f6\"/><circle cx=\"240\" cy=\"100\" r=\"4\" fill=\"#22c55e\" stroke=\"#22c55e\"/><circle cx=\"360\" cy=\"100\" r=\"4\" fill=\"#ef4444\" stroke=\"#ef4444\"/><text x=\"120\" y=\"85\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#3b82f6\" text-anchor=\"middle\">Now</text><text x=\"240\" y=\"85\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#22c55e\" text-anchor=\"middle\">+5 yrs</text><text x=\"360\" y=\"85\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#ef4444\" text-anchor=\"middle\">+10 yrs</text><text x=\"240\" y=\"140\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Father: x  |  Son: x−25</text></svg>"
+      }
     },
     {
       "id": 59,
@@ -1342,7 +1427,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "stem": "A bar graph shows oil production (in MT) for ONGC over 5 years: 2019: 25, 2020: 22, 2021: 28, 2022: 30, 2023: 27. What is the percentage increase from 2020 to 2022?",
       "options": [
         "36.36%",
@@ -1354,7 +1439,12 @@
       "solution": "Increase = 30−22 = 8. % increase = (8/22) × 100 = 36.36%.",
       "estSec": 60,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Bar chart showing quarterly data",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Bar Chart · Sales Data</text><line x1=\"60\" y1=\"170\" x2=\"440\" y2=\"170\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"60\" y1=\"30\" x2=\"60\" y2=\"170\" stroke=\"#64748b\" stroke-width=\"2\"/><rect x=\"85\" y=\"80\" width=\"40\" height=\"90\" fill=\"#3b82f6\" stroke=\"#3b82f6\" rx=\"2\"/><rect x=\"145\" y=\"110\" width=\"40\" height=\"60\" fill=\"#ef4444\" stroke=\"#ef4444\" rx=\"2\"/><rect x=\"205\" y=\"60\" width=\"40\" height=\"110\" fill=\"#22c55e\" stroke=\"#22c55e\" rx=\"2\"/><rect x=\"265\" y=\"95\" width=\"40\" height=\"75\" fill=\"#f59e0b\" stroke=\"#f59e0b\" rx=\"2\"/><rect x=\"325\" y=\"100\" width=\"40\" height=\"70\" fill=\"#8b5cf6\" stroke=\"#8b5cf6\" rx=\"2\"/><text x=\"105\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Q1</text><text x=\"165\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Q2</text><text x=\"225\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Q3</text><text x=\"285\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Q4</text><text x=\"345\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Q5</text></svg>"
+      }
     },
     {
       "id": 60,
@@ -1375,7 +1465,12 @@
       "solution": "F = 3S. F+12 = 2(S+12) → 3S+12 = 2S+24 → S = 12. F = 36 years.",
       "estSec": 60,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Age relationship at different time points",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Age Timeline</text><line x1=\"60\" y1=\"100\" x2=\"440\" y2=\"100\" stroke=\"#94a3b8\" stroke-width=\"2\"/><circle cx=\"120\" cy=\"100\" r=\"4\" fill=\"#3b82f6\" stroke=\"#3b82f6\"/><circle cx=\"240\" cy=\"100\" r=\"4\" fill=\"#22c55e\" stroke=\"#22c55e\"/><circle cx=\"360\" cy=\"100\" r=\"4\" fill=\"#ef4444\" stroke=\"#ef4444\"/><text x=\"120\" y=\"85\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#3b82f6\" text-anchor=\"middle\">Now</text><text x=\"240\" y=\"85\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#22c55e\" text-anchor=\"middle\">+5 yrs</text><text x=\"360\" y=\"85\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#ef4444\" text-anchor=\"middle\">+10 yrs</text><text x=\"240\" y=\"140\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Father: x  |  Son: x−25</text></svg>"
+      }
     },
     {
       "id": 61,
@@ -1405,7 +1500,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "stem": "Choose the correctly spelled word:",
       "options": [
         "Sedimentation",
@@ -1447,7 +1542,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "Lithosphere : Asthenosphere :: Crust : ?",
       "options": [
         "Mantle",
@@ -1459,7 +1554,12 @@
       "solution": "The lithosphere (rigid) overlies the asthenosphere (ductile). Similarly, the crust overlies the mantle. The relationship is 'rigid layer above a ductile layer'.",
       "estSec": 45,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Tool-function analogy",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Tool Analogy</text><text x=\"240\" y=\"70\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Pen : Write :: Knife : ?</text><text x=\"240\" y=\"110\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Pen → writes | Knife → cuts</text><text x=\"240\" y=\"150\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#ef4444\" text-anchor=\"middle\" font-weight=\"bold\">Answer: Cut</text></svg>"
+      }
     },
     {
       "id": 65,
@@ -1484,422 +1584,422 @@
     },
     {
       "id": 66,
-      "subject": "English Language",
-      "topic": "Grammar · Subject-Verb Agreement",
-      "section": "English",
+      "subject": "General Awareness",
+      "topic": "Current Affairs · Economy",
+      "section": "GA",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
-      "stem": "Choose the correct form: \"The team of geologists ______ conducting the survey.\"",
+      "difficulty": "easy",
+      "stem": "India's GDP growth rate for FY2025-26 is estimated at approximately:",
       "options": [
-        "are",
-        "were",
-        "is",
-        "have been"
+        "5.5%",
+        "6.5%",
+        "7.5%",
+        "8.5%"
       ],
-      "answer": 2,
-      "solution": "When a singular noun is followed by a prepositional phrase (of geologists), the verb agrees with the head noun ('team'), not the object of the preposition ('geologists'). 'Team' is singular, so the verb should be 'is'.",
-      "estSec": 45,
-      "topicWeight": 0.125,
+      "answer": 1,
+      "solution": "India's GDP growth for FY2025-26 is estimated at around 6.5%.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 67,
-      "subject": "English Language",
-      "topic": "Vocabulary · Antonyms",
-      "section": "English",
+      "subject": "General Awareness",
+      "topic": "Current Affairs · Science",
+      "section": "GA",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
-      "stem": "Choose the word closest in meaning to 'CONSOLIDATE':",
+      "difficulty": "easy",
+      "stem": "Aditya-L1 mission studies:",
       "options": [
-        "Scatter",
-        "Strengthen",
-        "Divide",
-        "Weaken"
+        "Moon's surface",
+        "Mars atmosphere",
+        "Sun",
+        "Deep space"
       ],
-      "answer": 1,
-      "solution": "Consolidate means to make something stronger, more solid, or more secure. 'Strengthen' is the closest synonym.",
-      "estSec": 45,
-      "topicWeight": 0.125,
+      "answer": 2,
+      "solution": "Aditya-L1 is India's first solar observation mission.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 68,
-      "subject": "English Language",
-      "topic": "Grammar · Active/Passive Voice",
-      "section": "English",
+      "subject": "General Awareness",
+      "topic": "Current Affairs · Energy",
+      "section": "GA",
       "type": "MCQ",
       "marks": 1,
       "difficulty": "medium",
-      "stem": "Convert to passive voice: \"The exploration team discovered a new oil reserve.\"",
+      "stem": "Reliance Industries recently announced a major investment in:",
       "options": [
-        "A new oil reserve was discovered by the exploration team.",
-        "A new oil reserve has been discovered by the exploration team.",
-        "A new oil reserve is discovered by the exploration team.",
-        "A new oil reserve had been discovered by the exploration team."
+        "Coal mining",
+        "Green energy",
+        "Oil refining",
+        "Copper smelting"
       ],
-      "answer": 0,
-      "solution": "Active: The exploration team discovered a new oil reserve. Passive: A new oil reserve was discovered by the exploration team.",
-      "estSec": 45,
-      "topicWeight": 0.125,
+      "answer": 1,
+      "solution": "Reliance announced major investments in green energy transition.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 69,
-      "subject": "English Language",
-      "topic": "Idioms & Phrases",
-      "section": "English",
+      "subject": "General Awareness",
+      "topic": "Current Affairs · Oil & Gas",
+      "section": "GA",
       "type": "MCQ",
       "marks": 1,
       "difficulty": "medium",
-      "stem": "What does the idiom 'strike oil' mean?",
+      "stem": "OPEC+ recently agreed to extend oil production cuts through:",
       "options": [
-        "To find something valuable unexpectedly",
-        "To hit a rock while drilling",
-        "To cause an oil spill",
-        "To refine petroleum"
+        "Q1 2025",
+        "Q2 2025",
+        "End of 2025",
+        "Q1 2026"
       ],
-      "answer": 0,
-      "solution": "'Strike oil' is an idiom meaning to discover something valuable or to achieve sudden success, derived from the literal discovery of oil during drilling.",
-      "estSec": 60,
-      "topicWeight": 0.125,
+      "answer": 2,
+      "solution": "OPEC+ extended production cuts through end of 2025.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 70,
       "subject": "General Awareness",
-      "topic": "Static GK · Indian Energy",
-      "section": "GK",
+      "topic": "Current Affairs · Technology",
+      "section": "GA",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
-      "stem": "Which gas-based power plant is India's largest, located in Gujarat?",
+      "difficulty": "hard",
+      "stem": "Which company recently developed the most advanced AI chip for data centers?",
       "options": [
-        "Kakrapar",
-        "Daheshwara",
-        "Dhuvaran",
-        "Jawaharlal Nehru"
+        "Intel",
+        "AMD",
+        "Nvidia",
+        "Qualcomm"
       ],
       "answer": 2,
-      "solution": "Dhuvaran gas power plant in Gujarat was India's largest gas-based power plant. It was built by Gujarat State Electricity Corporation Limited (GSECL).",
-      "estSec": 60,
-      "topicWeight": 0.125,
+      "solution": "Nvidia has been leading in AI chip development.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 71,
       "subject": "General Awareness",
-      "topic": "Static GK · Indian Geography",
-      "section": "GK",
+      "topic": "Current Affairs · Science",
+      "section": "GA",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
-      "stem": "The Digboi refinery in Assam, one of the oldest in India, was commissioned in which year?",
+      "difficulty": "hard",
+      "stem": "ISRO's Gaganyaan mission aims to:",
       "options": [
-        "1901",
-        "1924",
-        "1947",
-        "1961"
+        "Land on Moon",
+        "Send astronauts to space",
+        "Study the Sun",
+        "Explore Mars"
       ],
-      "answer": 0,
-      "solution": "Digboi refinery in Assam was commissioned in 1901, making it one of the oldest operating refineries in Asia. It was established following the discovery of oil in the Digboi oil field in 1889.",
-      "estSec": 45,
-      "topicWeight": 0.125,
+      "answer": 1,
+      "solution": "Gaganyaan aims to send Indian astronauts (Gagannauts) to space.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 72,
       "subject": "General Awareness",
-      "topic": "Static GK · International Organisations",
-      "section": "GK",
+      "topic": "Static GK · Important Days",
+      "section": "GA",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
-      "stem": "OPEC (Organization of the Petroleum Exporting Countries) was founded in which year?",
+      "difficulty": "easy",
+      "stem": "World Environment Day is celebrated on:",
       "options": [
-        "1955",
-        "1960",
-        "1970",
-        "1973"
+        "March 22",
+        "June 5",
+        "April 22",
+        "May 21"
       ],
       "answer": 1,
-      "solution": "OPEC was founded on 14 September 1960 in Baghdad, Iraq, by five founding members: Iran, Iraq, Kuwait, Saudi Arabia, and Venezuela. It coordinates petroleum policies among member countries.",
-      "estSec": 60,
-      "topicWeight": 0.125,
+      "solution": "World Environment Day is celebrated on June 5th.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 73,
       "subject": "General Awareness",
-      "topic": "Current Affairs · Indian Economy",
-      "section": "GK",
+      "topic": "Static GK · Science",
+      "section": "GA",
       "type": "MCQ",
       "marks": 1,
       "difficulty": "medium",
-      "stem": "Which organization is the 'Maharatna' public sector enterprise responsible for upstream oil and gas exploration in India?",
+      "stem": "The hardest natural substance on Earth is:",
       "options": [
-        "Indian Oil Corporation",
-        "Oil and Natural Gas Corporation (ONGC)",
-        "GAIL India Limited",
-        "Bharat Petroleum"
+        "Quartz",
+        "Topaz",
+        "Diamond",
+        "Corundum"
       ],
-      "answer": 1,
-      "solution": "ONGC (Oil and Natural Gas Corporation) is a Maharatna CPSE and India's largest crude oil and natural gas company, responsible for exploration and production. It was established in 1956 and headquartered in Dehradun.",
-      "estSec": 30,
-      "topicWeight": 0.125,
+      "answer": 2,
+      "solution": "Diamond is the hardest natural substance (10 on Mohs scale).",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 74,
       "subject": "General Awareness",
-      "topic": "Current Affairs · International",
-      "section": "GK",
+      "topic": "Static GK · Geography",
+      "section": "GA",
       "type": "MCQ",
       "marks": 1,
       "difficulty": "medium",
-      "stem": "As of 2025, which country is the world's largest producer of crude oil by volume?",
+      "stem": "Which state has the longest coastline in India?",
       "options": [
-        "Saudi Arabia",
-        "Russia",
-        "United States",
-        "China"
+        "Tamil Nadu",
+        "Andhra Pradesh",
+        "Gujarat",
+        "Kerala"
       ],
       "answer": 2,
-      "solution": "The United States has been the world's largest crude oil producer since 2018, surpassing both Saudi Arabia and Russia, thanks to the shale oil revolution (fracking in Permian Basin, Bakken, Eagle Ford).",
-      "estSec": 45,
-      "topicWeight": 0.125,
+      "solution": "Gujarat has the longest coastline (1,600 km).",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 75,
       "subject": "General Awareness",
-      "topic": "Static GK · Important Days",
-      "section": "GK",
+      "topic": "Static GK · Indian Polity",
+      "section": "GA",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
-      "stem": "World Petroleum Congress is held every four years. Which city hosted the 24th World Petroleum Congress in 2023?",
+      "difficulty": "hard",
+      "stem": "How many fundamental rights are currently recognized?",
       "options": [
-        "Calgary",
-        "Houston",
-        "Rio de Janeiro",
-        "Beijing"
+        "5",
+        "6",
+        "7",
+        "8"
       ],
-      "answer": 0,
-      "solution": "The 24th World Petroleum Congress was held in Calgary, Canada in September 2023, themed 'Energy Transition: The Path to Net Zero'.",
-      "estSec": 45,
-      "topicWeight": 0.125,
+      "answer": 1,
+      "solution": "There are 6 fundamental rights currently recognized.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 76,
-      "subject": "General Awareness",
-      "topic": "Static GK · Indian Geography",
-      "section": "GK",
+      "subject": "English",
+      "topic": "English Language · Grammar",
+      "section": "English",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
-      "stem": "The Krishna-Godavari Basin, a major offshore hydrocarbon province in India, is located along which coast?",
+      "difficulty": "hard",
+      "stem": "The manager, along with his team, ___ present at the meeting.",
       "options": [
-        "Western coast (Arabian Sea)",
-        "Eastern coast (Bay of Bengal)",
-        "Southern coast",
-        "Gujarat coast"
+        "were",
+        "are",
+        "was",
+        "have been"
       ],
-      "answer": 1,
-      "solution": "The KG Basin is located on the eastern continental margin of India in the Bay of Bengal, offshore Andhra Pradesh. It is one of India's most prolific hydrocarbon basins with significant deep-water gas discoveries.",
-      "estSec": 45,
-      "topicWeight": 0.125,
+      "answer": 2,
+      "solution": "When 'along with' is used, the verb agrees with the first subject (manager → was).",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 77,
-      "subject": "General Awareness",
-      "topic": "Static GK · Science & Technology",
-      "section": "GK",
+      "subject": "English",
+      "topic": "English Language · Vocabulary",
+      "section": "English",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
-      "stem": "The International Seismological Centre (ISC) is headquartered in:",
+      "difficulty": "hard",
+      "stem": "What does 'candid' mean?",
       "options": [
-        "Geneva, Switzerland",
-        "Thatcham, United Kingdom",
-        "Washington D.C., USA",
-        "Tokyo, Japan"
+        "Secretive",
+        "Frank and honest",
+        "Formal",
+        "Polite"
       ],
       "answer": 1,
-      "solution": "The ISC is based in Thatcham, Berkshire, United Kingdom. It is the definitive source of global seismic data and earthquake locations, maintaining a comprehensive catalog of seismic events worldwide.",
-      "estSec": 45,
-      "topicWeight": 0.125,
+      "solution": "Candid means truthful and straightforward; frank.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 78,
-      "subject": "General Awareness",
-      "topic": "Static GK · Organizations",
-      "section": "GK",
+      "subject": "English",
+      "topic": "English Language · Punctuation",
+      "section": "English",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
-      "stem": "The Geological Survey of India (GSI) was founded in which year?",
+      "difficulty": "easy",
+      "stem": "Choose the correctly punctuated sentence:",
       "options": [
-        "1851",
-        "1901",
-        "1947",
-        "1961"
+        "Lets eat, Grandma!",
+        "Let's eat Grandma!",
+        "Lets eat Grandma!",
+        "Let's, eat Grandma!"
       ],
       "answer": 0,
-      "solution": "GSI was founded in 1851 during the British colonial period. It is one of the oldest geological surveys in the world and functions under the Ministry of Mines, Government of India.",
-      "estSec": 30,
-      "topicWeight": 0.125,
+      "solution": "Let's needs an apostrophe; comma separates direct address.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 79,
-      "subject": "General Awareness",
-      "topic": "Static GK · Awards & Honours",
-      "section": "GK",
+      "subject": "English",
+      "topic": "English Language · Vocabulary",
+      "section": "English",
       "type": "MCQ",
       "marks": 1,
       "difficulty": "medium",
-      "stem": "Which Indian scientist was awarded the Padma Vibhushan for contributions to geology and seismology?",
+      "stem": "What does 'ameliorate' mean?",
       "options": [
-        "C.V. Raman",
-        "Harsh Gupta",
-        "Homi Bhabha",
-        "Vikram Sarabhai"
+        "Worsen",
+        "Improve",
+        "Destroy",
+        "Maintain"
       ],
       "answer": 1,
-      "solution": "Prof. Harsh K. Gupta is a renowned seismologist who has made significant contributions to earthquake science and reservoir-induced seismicity. He has received the Padma Vibhushan, India's second-highest civilian honour.",
-      "estSec": 45,
-      "topicWeight": 0.125,
+      "solution": "Ameliorate means to make better or improve.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 80,
-      "subject": "English Language",
-      "topic": "Grammar · Tenses",
+      "subject": "English",
+      "topic": "English Language · Vocabulary",
       "section": "English",
       "type": "MCQ",
       "marks": 1,
       "difficulty": "medium",
-      "stem": "Choose the correct sentence:",
+      "stem": "What does 'resilient' mean?",
       "options": [
-        "The geologist has been studying the rock formation since last month.",
-        "The geologist have been studying the rock formation since last month.",
-        "The geologist is study the rock formation since last month.",
-        "The geologist was study the rock formation since last month."
+        "Fragile",
+        "Able to recover quickly",
+        "Slow",
+        "Weak"
       ],
-      "answer": 0,
-      "solution": "The present perfect continuous tense (has/have been + verb-ing) is used for actions that started in the past and continue to the present.",
-      "estSec": 30,
-      "topicWeight": 0.125,
+      "answer": 1,
+      "solution": "Resilient means able to recover quickly from difficulties.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 81,
-      "subject": "English Language",
-      "topic": "Vocabulary · Synonyms",
+      "subject": "English",
+      "topic": "English Language · Vocabulary",
       "section": "English",
       "type": "MCQ",
       "marks": 1,
       "difficulty": "medium",
-      "stem": "Choose the word closest in meaning to 'STRATUM':",
+      "stem": "What is the meaning of 'pragmatic'?",
       "options": [
-        "Layer",
-        "Peak",
-        "Valley",
-        "Fault"
+        "Idealistic",
+        "Practical",
+        "Theoretical",
+        "Emotional"
       ],
-      "answer": 0,
-      "solution": "A stratum (plural: strata) is a single layer of sedimentary rock or soil.",
-      "estSec": 45,
-      "topicWeight": 0.125,
+      "answer": 1,
+      "solution": "Pragmatic means dealing with things practically.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 82,
-      "subject": "English Language",
-      "topic": "Grammar · Articles & Prepositions",
+      "subject": "English",
+      "topic": "English Language · Grammar",
       "section": "English",
       "type": "MCQ",
       "marks": 1,
       "difficulty": "medium",
-      "stem": "Fill in the blank: 'The petroleum was found ______ a depth of 2,000 metres.'",
+      "stem": "If I ___ known, I would have helped.",
       "options": [
-        "at",
-        "in",
-        "on",
-        "by"
+        "have",
+        "had",
+        "would",
+        "did"
       ],
-      "answer": 0,
-      "solution": "The correct preposition is 'at' — 'at a depth of' is the standard English expression for specifying depth.",
-      "estSec": 30,
-      "topicWeight": 0.125,
+      "answer": 1,
+      "solution": "Third conditional: If + past perfect, would have + past participle.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 83,
-      "subject": "English Language",
-      "topic": "Grammar · Error Detection",
+      "subject": "English",
+      "topic": "English Language · Grammar",
       "section": "English",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
-      "stem": "Identify the error: 'Neither the geologist nor his assistants was available for the briefing.'",
+      "difficulty": "easy",
+      "stem": "Who ___ the book yesterday?",
       "options": [
-        "Neither the geologist",
-        "nor his assistants",
-        "was available",
-        "for the briefing"
+        "did wrote",
+        "wrote",
+        "has wrote",
+        "written"
       ],
-      "answer": 2,
-      "solution": "With 'neither...nor', the verb agrees with the nearer subject. Since 'assistants' (plural) is nearer, it should be 'were available'.",
-      "estSec": 60,
-      "topicWeight": 0.125,
+      "answer": 1,
+      "solution": "Simple past tense: who wrote.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 84,
-      "subject": "English Language",
-      "topic": "Comprehension · Reading",
+      "subject": "English",
+      "topic": "English Language · Idioms",
       "section": "English",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
-      "stem": "Read: 'The Permian-Triassic extinction event was the most severe extinction in Earth's history, eliminating ~90% of marine species.' What does 'severe' mean here?",
+      "difficulty": "hard",
+      "stem": "What does 'break the ice' mean?",
       "options": [
-        "Mild",
-        "Serious/Extensive",
-        "Temporary",
-        "Natural"
+        "Destroy ice",
+        "Initiate conversation",
+        "Cause trouble",
+        "End relationship"
       ],
       "answer": 1,
-      "solution": "'Severe' means extremely serious, intense, or extensive.",
-      "estSec": 45,
-      "topicWeight": 0.125,
+      "solution": "Break the ice means to initiate conversation in a social setting.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 85,
-      "subject": "English Language",
-      "topic": "Vocabulary · Antonyms",
+      "subject": "English",
+      "topic": "English Language · Vocabulary",
       "section": "English",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
-      "stem": "Choose the word closest in meaning to 'DEPLETION':",
+      "difficulty": "hard",
+      "stem": "What is a 'watershed' moment?",
       "options": [
-        "Enrichment",
-        "Exhaustion",
-        "Accumulation",
-        "Deposition"
+        "A moment near water",
+        "A turning point",
+        "A disaster",
+        "A celebration"
       ],
       "answer": 1,
-      "solution": "Depletion means the reduction or exhaustion of a resource. 'Exhaustion' is the closest synonym.",
-      "estSec": 45,
-      "topicWeight": 0.125,
+      "solution": "A watershed moment is a turning point or critical moment.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     }
   ]

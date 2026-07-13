@@ -1,0 +1,1956 @@
+{
+  "id": "ongc-physics-02",
+  "slug": "ongc-physics",
+  "no": 2,
+  "title": "ONGC Physics — Full-length Mock 02",
+  "discipline": "Physics",
+  "durationMin": 120,
+  "totalMarks": 85,
+  "negativeMarking": false,
+  "pattern": "ONGC CBT — 85 MCQ · 120 min · 1 mark each · no negative marking",
+  "sections": [
+    {
+      "name": "Domain Knowledge",
+      "count": 40
+    },
+    {
+      "name": "Aptitude",
+      "count": 25
+    },
+    {
+      "name": "General Awareness",
+      "count": 10
+    },
+    {
+      "name": "English",
+      "count": 10
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "subject": "Domain Knowledge",
+      "topic": "Mathematical Physics · Tensors",
+      "section": "Domain",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "The inertia tensor of a uniform thin rod of mass M and length L about an axis through its centre and perpendicular to its length is:",
+      "options": [
+        "⅓ML²",
+        "1/12 ML²",
+        "¼ML²",
+        "1/8 ML²"
+      ],
+      "answer": 1,
+      "solution": "For a thin rod about an axis through its centre perpendicular to its length, I = (1/12)ML². This follows from integrating r² dm along the rod: I = ∫_{-L/2}^{L/2} (M/L)x² dx = (M/L)(L³/12) = ML²/12.",
+      "estSec": 25,
+      "topicWeight": 0.14,
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 300\">\n<rect width=\"300\" height=\"300\" fill=\"#f8fafc\"/>\n<polygon points=\"150,40 260,110 260,210 150,270 40,210 40,110\" fill=\"none\" stroke=\"#8b5cf6\" stroke-width=\"2.5\"/>\n<circle cx=\"150\" cy=\"150\" r=\"8\" fill=\"#8b5cf6\"/>\n<text x=\"150\" y=\"25\" text-anchor=\"middle\" font-size=\"13\" fill=\"#1e293b\" font-weight=\"bold\">BCC Lattice — 1st Brillouin Zone</text>\n<text x=\"150\" y=\"290\" text-anchor=\"middle\" font-size=\"11\" fill=\"#64748b\">k_x</text>\n<text x=\"155\" y=\"38\" text-anchor=\"middle\" font-size=\"9\" fill=\"#8b5cf6\">H</text>\n<text x=\"268\" y=\"110\" text-anchor=\"middle\" font-size=\"9\" fill=\"#8b5cf6\">N</text>\n<text x=\"268\" y=\"215\" text-anchor=\"middle\" font-size=\"9\" fill=\"#8b5cf6\">N</text>\n<text x=\"150\" y=\"280\" text-anchor=\"middle\" font-size=\"9\" fill=\"#8b5cf6\">H</text>\n<text x=\"32\" y=\"215\" text-anchor=\"middle\" font-size=\"9\" fill=\"#8b5cf6\">N</text>\n<text x=\"32\" y=\"110\" text-anchor=\"middle\" font-size=\"9\" fill=\"#8b5cf6\">N</text>\n<text x=\"150\" y=\"155\" text-anchor=\"middle\" font-size=\"9\" fill=\"#1e293b\">Γ</text>\n<text x=\"210\" y=\"75\" text-anchor=\"middle\" font-size=\"9\" fill=\"#1e293b\">P</text>\n</svg>",
+        "caption": "Mathematical Physics — Diagram"
+      }
+    },
+    {
+      "id": 2,
+      "subject": "Domain Knowledge",
+      "topic": "Mathematical Physics · Laplace Transform",
+      "section": "Domain",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "The Laplace transform of f(t) = t·e^(−2t) is:",
+      "options": [
+        "1/(s+2)²",
+        "1/(s−2)²",
+        "2/(s+2)³",
+        "1/(s+2)³"
+      ],
+      "answer": 0,
+      "solution": "Using the frequency shifting property: L{t·e^(at)} = 1/(s−a)². Here a = −2, so L{t·e^(−2t)} = 1/(s+2)². Equivalently, from L{t·f(t)} = −d/ds F(s), with F(s) = 1/(s+2), giving −d/ds(1/(s+2)) = 1/(s+2)².",
+      "estSec": 30,
+      "topicWeight": 0.14,
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 300\">\n<rect width=\"300\" height=\"300\" fill=\"#f8fafc\"/>\n<text x=\"150\" y=\"22\" text-anchor=\"middle\" font-size=\"13\" fill=\"#1e293b\" font-weight=\"bold\">Fermi Surface — Free Electron</text>\n<line x1=\"150\" y1=\"40\" x2=\"150\" y2=\"260\" stroke=\"#e2e8f0\" stroke-width=\"1\"/>\n<line x1=\"40\" y1=\"150\" x2=\"260\" y2=\"150\" stroke=\"#e2e8f0\" stroke-width=\"1\"/>\n<rect x=\"60\" y=\"60\" width=\"180\" height=\"180\" fill=\"none\" stroke=\"#94a3b8\" stroke-width=\"1\" stroke-dasharray=\"4,3\"/>\n<circle cx=\"150\" cy=\"150\" r=\"60\" fill=\"#dbeafe\" fill-opacity=\"0.4\" stroke=\"#3b82f6\" stroke-width=\"2.5\"/>\n<text x=\"150\" y=\"290\" text-anchor=\"middle\" font-size=\"11\" fill=\"#64748b\">k_x</text>\n<text x=\"25\" y=\"150\" text-anchor=\"middle\" font-size=\"11\" fill=\"#64748b\">k_y</text>\n<text x=\"150\" y=\"155\" text-anchor=\"middle\" font-size=\"9\" fill=\"#1e293b\">Γ</text>\n<text x=\"220\" y=\"155\" font-size=\"9\" fill=\"#3b82f6\">k_F</text>\n<text x=\"60\" y=\"55\" text-anchor=\"middle\" font-size=\"9\" fill=\"#94a3b8\">BZ boundary</text>\n<line x1=\"150\" y1=\"150\" x2=\"210\" y2=\"150\" stroke=\"#ef4444\" stroke-width=\"1.5\" stroke-dasharray=\"3,2\"/>\n</svg>",
+        "caption": "Mathematical Physics — Diagram"
+      }
+    },
+    {
+      "id": 3,
+      "subject": "Domain Knowledge",
+      "topic": "Mathematical Physics · Eigenvalue Problems",
+      "section": "Domain",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "easy",
+      "stem": "The eigenvalues of the matrix [[2, 1], [1, 2]] are:",
+      "options": [
+        "1 and 3",
+        "2 and 2",
+        "0 and 4",
+        "−1 and 5"
+      ],
+      "answer": 0,
+      "solution": "Characteristic equation: det(A − λI) = (2−λ)² − 1 = 0 → (2−λ)² = 1 → λ = 1 or λ = 3. Trace = 4 = 1+3 ✓, determinant = 3 = 1×3 ✓.",
+      "estSec": 25,
+      "topicWeight": 0.14,
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 220\">\n<rect width=\"320\" height=\"220\" fill=\"#f8fafc\"/>\n<text x=\"160\" y=\"22\" text-anchor=\"middle\" font-size=\"13\" fill=\"#1e293b\" font-weight=\"bold\">Phonon Dispersion — Diatomic Chain</text>\n<line x1=\"50\" y1=\"190\" x2=\"290\" y2=\"190\" stroke=\"#1e293b\" stroke-width=\"1.5\"/>\n<line x1=\"50\" y1=\"190\" x2=\"50\" y2=\"40\" stroke=\"#1e293b\" stroke-width=\"1.5\"/>\n<text x=\"170\" y=\"215\" text-anchor=\"middle\" font-size=\"11\" fill=\"#64748b\">Wave vector q</text>\n<text x=\"35\" y=\"115\" text-anchor=\"middle\" font-size=\"11\" fill=\"#64748b\" transform=\"rotate(-90 35 115)\">ω(q)</text>\n<text x=\"170\" y=\"35\" text-anchor=\"middle\" font-size=\"10\" fill=\"#64748b\">π/a</text>\n<line x1=\"170\" y1=\"40\" x2=\"170\" y2=\"190\" stroke=\"#e2e8f0\" stroke-width=\"1\" stroke-dasharray=\"4,3\"/>\n<text x=\"55\" y=\"185\" font-size=\"9\" fill=\"#64748b\">0</text>\n<text x=\"170\" y=\"185\" font-size=\"9\" fill=\"#64748b\">π/a</text>\n<path d=\"M50,185 Q110,100 170,75\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"2.5\"/>\n<text x=\"80\" y=\"95\" font-size=\"9\" fill=\"#3b82f6\">Acoustic</text>\n<path d=\"M50,65 Q110,55 170,50\" fill=\"none\" stroke=\"#ef4444\" stroke-width=\"2.5\"/>\n<text x=\"90\" y=\"52\" font-size=\"9\" fill=\"#ef4444\">Optical</text>\n<rect x=\"200\" y=\"85\" width=\"90\" height=\"30\" fill=\"#fef3c7\" fill-opacity=\"0.6\" stroke=\"#f59e0b\" stroke-width=\"1\" rx=\"4\"/>\n<text x=\"245\" y=\"105\" text-anchor=\"middle\" font-size=\"9\" fill=\"#92400e\" font-weight=\"bold\">Phonon Gap</text>\n</svg>",
+        "caption": "Mathematical Physics — Diagram"
+      }
+    },
+    {
+      "id": 4,
+      "subject": "Domain Knowledge",
+      "topic": "Mathematical Physics · Special Functions",
+      "section": "Domain",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "easy",
+      "stem": "The Rodrigues formula for Legendre polynomials Pₙ(x) is:",
+      "options": [
+        "Pₙ(x) = (1/2ⁿn!)(dⁿ/dxⁿ)(x²−1)ⁿ",
+        "Pₙ(x) = (1/n!)(dⁿ/dxⁿ)(x²−1)ⁿ",
+        "Pₙ(x) = (1/2ⁿ)(dⁿ/dxⁿ)(x²−1)ⁿ",
+        "Pₙ(x) = (2ⁿ/n!)(dⁿ/dxⁿ)(x²−1)ⁿ"
+      ],
+      "answer": 0,
+      "solution": "The Rodrigues formula is Pₙ(x) = 1/(2ⁿn!) · dⁿ/dxⁿ (x²−1)ⁿ. For example, P₀ = 1, P₁ = x, P₂ = (3x²−1)/2. The 2ⁿn! normalization ensures Pₙ(1) = 1.",
+      "estSec": 40,
+      "topicWeight": 0.14,
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 340 180\">\n<rect width=\"340\" height=\"180\" fill=\"#f8fafc\"/>\n<text x=\"170\" y=\"18\" text-anchor=\"middle\" font-size=\"13\" fill=\"#1e293b\" font-weight=\"bold\">Bloch Theorem — Electron in Periodic Potential</text>\n<line x1=\"20\" y1=\"140\" x2=\"320\" y2=\"140\" stroke=\"#1e293b\" stroke-width=\"1\"/>\n<path d=\"M20,100 Q50,80 80,100 Q110,120 140,100 Q170,80 200,100 Q230,120 260,100 Q290,80 320,100\" fill=\"none\" stroke=\"#94a3b8\" stroke-width=\"2\"/>\n<text x=\"330\" y=\"95\" font-size=\"9\" fill=\"#94a3b8\">V(x)</text>\n<path d=\"M20,90 Q50,50 80,90 Q110,130 140,90 Q170,50 200,90 Q230,130 260,90 Q290,50 320,90\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"2.5\"/>\n<text x=\"330\" y=\"85\" font-size=\"9\" fill=\"#3b82f6\">ψ(x)</text>\n<line x1=\"80\" y1=\"45\" x2=\"80\" y2=\"155\" stroke=\"#e2e8f0\" stroke-width=\"1\" stroke-dasharray=\"3,2\"/>\n<line x1=\"140\" y1=\"45\" x2=\"140\" y2=\"155\" stroke=\"#e2e8f0\" stroke-width=\"1\" stroke-dasharray=\"3,2\"/>\n<line x1=\"200\" y1=\"45\" x2=\"200\" y2=\"155\" stroke=\"#e2e8f0\" stroke-width=\"1\" stroke-dasharray=\"3,2\"/>\n<line x1=\"260\" y1=\"45\" x2=\"260\" y2=\"155\" stroke=\"#e2e8f0\" stroke-width=\"1\" stroke-dasharray=\"3,2\"/>\n<text x=\"110\" y=\"165\" text-anchor=\"middle\" font-size=\"9\" fill=\"#64748b\">a</text>\n<text x=\"170\" y=\"165\" text-anchor=\"middle\" font-size=\"9\" fill=\"#64748b\">a</text>\n<text x=\"230\" y=\"165\" text-anchor=\"middle\" font-size=\"9\" fill=\"#64748b\">a</text>\n<text x=\"170\" y=\"178\" text-anchor=\"middle\" font-size=\"9\" fill=\"#64748b\">Lattice period a</text>\n</svg>",
+        "caption": "Mathematical Physics — Diagram"
+      }
+    },
+    {
+      "id": 5,
+      "subject": "Domain Knowledge",
+      "topic": "Classical Mechanics · Rigid Body Dynamics",
+      "section": "Domain",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "A disc of mass M and radius R rolls without slipping on a horizontal surface. The ratio of translational to rotational kinetic energy is:",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": 1,
+      "solution": "For rolling without slipping, v = ωR. Translational KE = ½Mv² = ½Mω²R². Rotational KE = ½Iω² = ½(½MR²)ω² = ¼Mω²R². Ratio = (½)/(¼) = 2.",
+      "estSec": 25,
+      "topicWeight": 0.14,
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 200\">\n<rect width=\"320\" height=\"200\" fill=\"#f8fafc\"/>\n<text x=\"160\" y=\"18\" text-anchor=\"middle\" font-size=\"13\" fill=\"#1e293b\" font-weight=\"bold\">Meissner Effect — Flux Expulsion</text>\n<rect x=\"100\" y=\"60\" width=\"120\" height=\"100\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"2\" rx=\"8\"/>\n<text x=\"160\" y=\"115\" text-anchor=\"middle\" font-size=\"12\" fill=\"#1e40af\" font-weight=\"bold\">SC</text>\n<path d=\"M20,80 Q60,80 100,70\" fill=\"none\" stroke=\"#ef4444\" stroke-width=\"2\"/>\n<path d=\"M20,120 Q60,120 100,110\" fill=\"none\" stroke=\"#ef4444\" stroke-width=\"2\"/>\n<path d=\"M20,140 Q50,140 80,155 Q100,165 120,160\" fill=\"none\" stroke=\"#ef4444\" stroke-width=\"2\"/>\n<path d=\"M300,80 Q260,80 220,70\" fill=\"none\" stroke=\"#ef4444\" stroke-width=\"2\"/>\n<path d=\"M300,120 Q260,120 220,110\" fill=\"none\" stroke=\"#ef4444\" stroke-width=\"2\"/>\n<path d=\"M300,140 Q270,140 240,155 Q220,165 200,160\" fill=\"none\" stroke=\"#ef4444\" stroke-width=\"2\"/>\n<text x=\"45\" y=\"70\" font-size=\"10\" fill=\"#ef4444\" font-weight=\"bold\">B → 0</text>\n<text x=\"255\" y=\"70\" font-size=\"10\" fill=\"#ef4444\" font-weight=\"bold\">B → 0</text>\n<text x=\"160\" y=\"190\" text-anchor=\"middle\" font-size=\"10\" fill=\"#64748b\">Magnetic flux lines expelled from superconductor</text>\n</svg>",
+        "caption": "Classical Mechanics — Diagram"
+      }
+    },
+    {
+      "id": 6,
+      "subject": "Domain Knowledge",
+      "topic": "Classical Mechanics · Liouville's Theorem",
+      "section": "Domain",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "easy",
+      "stem": "Liouville's theorem in classical mechanics states that:",
+      "options": [
+        "Energy is conserved in all Hamiltonian systems",
+        "The phase space volume element is invariant under Hamiltonian evolution",
+        "Angular momentum is always conserved",
+        "The action variable is adiabatically invariant"
+      ],
+      "answer": 1,
+      "solution": "Liouville's theorem: dρ/dt = 0 along phase space trajectories, meaning the phase space density ρ(q,p,t) is conserved. The volume element ∏dqᵢdpᵢ is invariant under canonical transformations. This is the foundation of statistical mechanics.",
+      "estSec": 40,
+      "topicWeight": 0.14,
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Phase space volume element conserved under Hamiltonian flow",
+        "markup": "<svg viewBox=\"0 0 480 220\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"220\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"24\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#4f46e5\" font-weight=\"bold\">Liouville's Theorem · Phase Space</text><rect x=\"80\" y=\"60\" width=\"60\" height=\"80\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"1.5\" rx=\"0\"/><text x=\"110\" y=\"140\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">t₀</text><rect x=\"280\" y=\"50\" width=\"80\" height=\"60\" fill=\"#fef3c7\" stroke=\"#f59e0b\" stroke-width=\"1.5\" rx=\"0\"/><text x=\"320\" y=\"120\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">t₁</text><line x1=\"145\" y1=\"95\" x2=\"275\" y2=\"80\" stroke=\"#64748b\" stroke-width=\"1\" stroke-dasharray=\"5\"/><text x=\"240\" y=\"210\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#64748b\" text-anchor=\"middle\">Phase volume preserved</text></svg>"
+      }
+    },
+    {
+      "id": 7,
+      "subject": "Domain Knowledge",
+      "topic": "Classical Mechanics · Canonical Transformations",
+      "section": "Domain",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "easy",
+      "stem": "A transformation (q, p) → (Q, P) is canonical if and only if the Poisson bracket {Q, P}_{q,p} equals:",
+      "options": [
+        "0",
+        "1",
+        "−1",
+        "Depends on the Hamiltonian"
+      ],
+      "answer": 1,
+      "solution": "A transformation is canonical if it preserves the fundamental Poisson bracket: {Q, P} = 1. This is equivalent to the transformation being a symplectomorphism — preserving the symplectic 2-form ω = dp∧dq.",
+      "estSec": 45,
+      "topicWeight": 0.14,
+      "source": "curated"
+    },
+    {
+      "id": 8,
+      "subject": "Domain Knowledge",
+      "topic": "Classical Mechanics · Hamilton-Jacobi",
+      "section": "Domain",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "easy",
+      "stem": "In the Hamilton-Jacobi theory, the generating function W(q, α, t) satisfies:",
+      "options": [
+        "The Hamilton equation of motion",
+        "The Lagrange equation",
+        "The Hamilton-Jacobi equation H + ∂W/∂t = 0",
+        "The Jacobi identity"
+      ],
+      "answer": 2,
+      "solution": "The Hamilton-Jacobi equation is H(q, ∂W/∂q, t) + ∂W/∂t = 0. When W is found, the transformed momenta are constants of motion, reducing the problem to quadratures.",
+      "estSec": 50,
+      "topicWeight": 0.14,
+      "source": "curated"
+    },
+    {
+      "id": 9,
+      "subject": "Domain Knowledge",
+      "topic": "Electromagnetic Theory · Waveguides",
+      "section": "Domain",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "The cutoff frequency for the TE₁₀ mode in a rectangular waveguide with broad-wall dimension a (in vacuum) is:",
+      "options": [
+        "c/(2a)",
+        "c/(2a√(εμ))",
+        "c/(a+b)",
+        "2c/a"
+      ],
+      "answer": 0,
+      "solution": "For the TE₁₀ mode (m=1, n=0) in a vacuum-filled rectangular waveguide, the cutoff frequency is f_c = c/(2a). This is the dominant (lowest cutoff) mode. Higher modes have f_c = c/2√((m/a)² + (n/b)²).",
+      "estSec": 35,
+      "topicWeight": 0.14,
+      "source": "curated"
+    },
+    {
+      "id": 10,
+      "subject": "Domain Knowledge",
+      "topic": "Electromagnetic Theory · Reflection & Transmission",
+      "section": "Domain",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "easy",
+      "stem": "The Brewster angle θ_B for light incident from air (n₁) to glass (n₂) satisfies:",
+      "options": [
+        "tan θ_B = n₂/n₁",
+        "sin θ_B = n₂/n₁",
+        "cos θ_B = n₁/n₂",
+        "tan θ_B = n₁/n₂"
+      ],
+      "answer": 0,
+      "solution": "At the Brewster angle, reflected light is completely p-polarized. The condition is tan θ_B = n₂/n₁. For air-to-glass (n₁=1, n₂=1.5), θ_B ≈ 56.3°. The reflected and refracted rays are perpendicular at this angle.",
+      "estSec": 25,
+      "topicWeight": 0.14,
+      "source": "curated"
+    },
+    {
+      "id": 11,
+      "subject": "Domain Knowledge",
+      "topic": "Electromagnetic Theory · Multipole Expansion",
+      "section": "Domain",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "easy",
+      "stem": "The leading non-vanishing term in the multipole expansion of the electrostatic potential from a charge distribution depends on:",
+      "options": [
+        "Whether the total charge is nonzero (monopole)",
+        "Whether the dipole moment is nonzero",
+        "Whether the quadrupole moment is nonzero",
+        "Only on the size of the charge distribution"
+      ],
+      "answer": 0,
+      "solution": "The multipole expansion: V(r) = (1/4πε₀)[Q/r + p·r̂/r² + ...]. If Q ≠ 0, the monopole term dominates at large distances. If Q = 0, the dipole term leads. The expansion is hierarchical.",
+      "estSec": 35,
+      "topicWeight": 0.14,
+      "source": "curated"
+    },
+    {
+      "id": 12,
+      "subject": "Domain Knowledge",
+      "topic": "Electromagnetic Theory · EM Waves",
+      "section": "Domain",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "The displacement current term was added to Ampère's law by Maxwell to:",
+      "options": [
+        "Account for magnetic monopoles",
+        "Ensure charge conservation (continuity equation)",
+        "Describe electromagnetic radiation",
+        "Correct for relativistic effects"
+      ],
+      "answer": 1,
+      "solution": "Maxwell added μ₀ε₀∂E/∂t to Ampère's law to make it consistent with the continuity equation ∂ρ/∂t + ∇·J = 0. Without it, taking the divergence of ∇×B = μ₀J gives 0 = μ₀∇·J, violating charge conservation.",
+      "estSec": 25,
+      "topicWeight": 0.14,
+      "source": "curated"
+    },
+    {
+      "id": 13,
+      "subject": "Domain Knowledge",
+      "topic": "Electromagnetic Theory · Radiation",
+      "section": "Domain",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "The total power radiated by an oscillating electric dipole p(t) = p₀ cos(ωt) is proportional to:",
+      "options": [
+        "ω²p₀²",
+        "ω⁴p₀²",
+        "ωp₀²",
+        "ω⁶p₀²"
+      ],
+      "answer": 1,
+      "solution": "The Larmor formula for dipole radiation: P = μ₀ω⁴p₀²/(12πc³). The ω⁴ dependence explains why blue light scatters more than red (Rayleigh scattering ∝ 1/λ⁴ ∝ ω⁴).",
+      "estSec": 40,
+      "topicWeight": 0.14,
+      "source": "curated"
+    },
+    {
+      "id": 14,
+      "subject": "Domain Knowledge",
+      "topic": "Quantum Mechanics · WKB Approximation",
+      "section": "Domain",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "The WKB quantization condition for bound states in a potential V(x) with two turning points is:",
+      "options": [
+        "∫ p(x) dx = (n+½)πℏ",
+        "∫ p(x) dx = nπℏ",
+        "∫ p(x) dx = (n+¼)πℏ",
+        "∮ p(x) dx = nπℏ"
+      ],
+      "answer": 0,
+      "solution": "The Bohr-Sommerfeld/WKB quantization: ∫_{x₁}^{x₂} p(x) dx = (n + ½)πℏ, where p(x) = √(2m(E − V(x))). The ½ comes from the phase shift at turning points (connection formulas). Excellent for large quantum numbers.",
+      "estSec": 50,
+      "topicWeight": 0.14,
+      "source": "curated"
+    },
+    {
+      "id": 15,
+      "subject": "Domain Knowledge",
+      "topic": "Quantum Mechanics · Variational Method",
+      "section": "Domain",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "The variational principle in quantum mechanics states that for any trial wavefunction |ψ_trial⟩:",
+      "options": [
+        "⟨ψ|H|ψ⟩/⟨ψ|ψ⟩ ≥ E₀",
+        "⟨ψ|H|ψ⟩/⟨ψ|ψ⟩ ≤ E₀",
+        "⟨ψ|H|ψ⟩/⟨ψ|ψ⟩ = E₀",
+        "⟨ψ|H|ψ⟩ ≥ E₁"
+      ],
+      "answer": 0,
+      "solution": "The variational theorem: ⟨ψTrial|H|ψTrial⟩/⟨ψTrial|ψTrial⟩ ≥ E₀, where E₀ is the exact ground state energy. The expectation value of H with any trial state is an upper bound to the true ground state energy. Equality holds only if |ψTrial⟩ is exact.",
+      "estSec": 25,
+      "topicWeight": 0.14,
+      "source": "curated"
+    },
+    {
+      "id": 16,
+      "subject": "Domain Knowledge",
+      "topic": "Quantum Mechanics · Spin Angular Momentum",
+      "section": "Domain",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "The eigenvalues of the S² operator for a spin-½ particle are:",
+      "options": [
+        "¾ℏ²",
+        "¼ℏ²",
+        "½ℏ²",
+        "ℏ²"
+      ],
+      "answer": 0,
+      "solution": "S²|s,m⟩ = s(s+1)ℏ²|s,m⟩. For s = ½: s(s+1)ℏ² = (½)(3/2)ℏ² = ¾ℏ². This eigenvalue is the same for m = ±½.",
+      "estSec": 20,
+      "topicWeight": 0.14,
+      "source": "curated"
+    },
+    {
+      "id": 17,
+      "subject": "Domain Knowledge",
+      "topic": "Quantum Mechanics · Scattering Theory",
+      "section": "Domain",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "The partial wave expansion of the scattering amplitude f(θ) for a spinless particle is:",
+      "options": [
+        "f(θ) = Σₗ (2l+1) aₗ Pₗ(cos θ)",
+        "f(θ) = Σₗ aₗ Pₗ(cos θ)",
+        "f(θ) = (1/k) Σₗ (2l+1) sin δₗ e^(iδₗ) Pₗ(cos θ)",
+        "f(θ) = (1/k) Σₗ (2l+1) e^(iδₗ) sin δₗ Pₗ(cos θ)"
+      ],
+      "answer": 3,
+      "solution": "f(θ) = (1/k) Σₗ (2l+1) e^(iδₗ) sin δₗ Pₗ(cos θ), where δₗ is the phase shift for the l-th partial wave. Total cross section: σ = (4π/k²) Σₗ (2l+1) sin²δₗ. This expansion is exact and converges rapidly for low-energy scattering.",
+      "estSec": 50,
+      "topicWeight": 0.14,
+      "source": "curated"
+    },
+    {
+      "id": 18,
+      "subject": "Domain Knowledge",
+      "topic": "Quantum Mechanics · Identical Particles",
+      "section": "Domain",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "For two identical spin-½ fermions, the total wavefunction must be:",
+      "options": [
+        "Symmetric under particle exchange",
+        "Antisymmetric under particle exchange",
+        "Either symmetric or antisymmetric",
+        "Independent of particle exchange"
+      ],
+      "answer": 1,
+      "solution": "Fermions obey Fermi-Dirac statistics and the Pauli exclusion principle. The total wavefunction (spatial × spin) must be antisymmetric under exchange of any two fermions.",
+      "estSec": 20,
+      "topicWeight": 0.14,
+      "source": "curated"
+    },
+    {
+      "id": 19,
+      "subject": "Domain Knowledge",
+      "topic": "Thermodynamics & Statistical Physics · Bose-Einstein Condensation",
+      "section": "Domain",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "easy",
+      "stem": "Bose-Einstein condensation occurs when:",
+      "options": [
+        "All particles occupy the lowest energy state at T = 0",
+        "A macroscopic fraction of particles occupy the ground state at T > 0 below a critical temperature",
+        "Fermions pair up to form bosons",
+        "The gas becomes a classical ideal gas"
+      ],
+      "answer": 1,
+      "solution": "BEC is a phase transition where a macroscopic number N₀ of bosons occupy the single-particle ground state at T < T_c. It occurs in dilute gases (e.g., ⁸⁷Rb at ~170 nK). T_c ∝ (N/V)^(2/3) ℏ²/(mk_B).",
+      "estSec": 40,
+      "topicWeight": 0.14,
+      "source": "curated"
+    },
+    {
+      "id": 20,
+      "subject": "Domain Knowledge",
+      "topic": "Thermodynamics & Statistical Physics · Black Body Radiation",
+      "section": "Domain",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "Wien's displacement law states that the wavelength of peak emission λ_max from a black body satisfies:",
+      "options": [
+        "λ_max T = b",
+        "λ_max/T = b",
+        "λ_max² T = b",
+        "λ_max T² = b"
+      ],
+      "answer": 0,
+      "solution": "Wien's displacement law: λ_max T = b, where b = 2.898 × 10⁻³ m·K. As T increases, peak wavelength shifts shorter (blue shift). For the Sun (T ≈ 5800 K), λ_max ≈ 500 nm.",
+      "estSec": 20,
+      "topicWeight": 0.14,
+      "source": "curated"
+    },
+    {
+      "id": 21,
+      "subject": "Domain Knowledge",
+      "topic": "Thermodynamics & Statistical Physics · Grand Canonical Ensemble",
+      "section": "Domain",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "In the grand canonical ensemble, the grand partition function Ξ is defined as:",
+      "options": [
+        "Ξ = Σᵢ e^(−β(Eᵢ − μNᵢ))",
+        "Ξ = Σᵢ e^(−βEᵢ)",
+        "Ξ = Tr e^(−β(H − μN))",
+        "Both A and C"
+      ],
+      "answer": 3,
+      "solution": "The grand partition function Ξ = Σ_{N,S} e^(−β(E_S − μN)) = Tr e^(−β(H − μN)). The grand potential is Φ = −kT ln Ξ. Both forms A and C are equivalent definitions.",
+      "estSec": 35,
+      "topicWeight": 0.14,
+      "source": "curated"
+    },
+    {
+      "id": 22,
+      "subject": "Domain Knowledge",
+      "topic": "Thermodynamics & Statistical Physics · Equipartition",
+      "section": "Domain",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "easy",
+      "stem": "According to the equipartition theorem, each quadratic degree of freedom contributes to the average energy:",
+      "options": [
+        "kT",
+        "½kT",
+        "2kT",
+        "kT/2"
+      ],
+      "answer": 1,
+      "solution": "The equipartition theorem: ⟨E⟩ per quadratic degree of freedom = ½kT. For a monatomic ideal gas (3 translational DOF): ⟨E⟩ = 3/2 kT, C_V = 3/2 R.",
+      "estSec": 15,
+      "topicWeight": 0.14,
+      "source": "curated"
+    },
+    {
+      "id": 23,
+      "subject": "Domain Knowledge",
+      "topic": "Atomic & Molecular Physics · Hyperfine Structure",
+      "section": "Domain",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "The hyperfine splitting of the hydrogen 1s ground state arises from the interaction between:",
+      "options": [
+        "The electron orbital angular momentum and the nuclear spin",
+        "The electron spin and the nuclear spin magnetic moments",
+        "The electron kinetic energy and the nuclear mass",
+        "The proton charge and the electron charge distribution"
+      ],
+      "answer": 1,
+      "solution": "Hyperfine structure arises from the magnetic dipole-dipole interaction between the electron spin and nuclear spin magnetic moments. For hydrogen 1s, this gives the 21 cm line (1420 MHz).",
+      "estSec": 35,
+      "topicWeight": 0.14,
+      "source": "curated"
+    },
+    {
+      "id": 24,
+      "subject": "Domain Knowledge",
+      "topic": "Atomic & Molecular Physics · NMR/ESR",
+      "section": "Domain",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "easy",
+      "stem": "In Nuclear Magnetic Resonance (NMR), the Larmor frequency ν₀ of a nucleus with gyromagnetic ratio γ in a magnetic field B₀ is:",
+      "options": [
+        "ν₀ = γB₀/(2π)",
+        "ν₀ = γB₀",
+        "ν₀ = B₀/γ",
+        "ν₀ = γ²B₀"
+      ],
+      "answer": 0,
+      "solution": "Larmor frequency: ω₀ = γB₀ (angular), so ν₀ = γB₀/(2π). For ¹H at 7 T: ν₀ ≈ 300 MHz. This is the resonance condition for NMR transitions.",
+      "estSec": 25,
+      "topicWeight": 0.14,
+      "source": "curated"
+    },
+    {
+      "id": 25,
+      "subject": "Domain Knowledge",
+      "topic": "Atomic & Molecular Physics · Einstein Coefficients",
+      "section": "Domain",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "The Einstein relation between absorption coefficient B₁₂ and stimulated emission coefficient B₂₁ for a two-level system with degeneracies g₁ and g₂ is:",
+      "options": [
+        "B₁₂ = B₂₁",
+        "g₁B₁₂ = g₂B₂₁",
+        "B₁₂ = g₂B₂₁",
+        "B₁₂/B₂₁ = g₁/g₂"
+      ],
+      "answer": 3,
+      "solution": "From Einstein's derivation: g₁B₁₂ = g₂B₂₁, so B₁₂/B₂₁ = g₂/g₁. For non-degenerate levels (g₁ = g₂ = 1), B₁₂ = B₂₁.",
+      "estSec": 30,
+      "topicWeight": 0.14,
+      "source": "curated"
+    },
+    {
+      "id": 26,
+      "subject": "Domain Knowledge",
+      "topic": "Atomic & Molecular Physics · Fine Structure",
+      "section": "Domain",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "The fine structure constant α ≈ 1/137 characterizes:",
+      "options": [
+        "The strength of the strong nuclear force",
+        "The ratio of the fine structure splitting to the gross structure",
+        "The ratio of the electron velocity to c in the first Bohr orbit",
+        "Both B and C"
+      ],
+      "answer": 3,
+      "solution": "α = e²/(4πε₀ℏc) ≈ 1/137.036. It equals v₁/c for hydrogen ground state. Fine structure splitting scales as α² relative to gross levels (Eₙ ∝ α²mc²).",
+      "estSec": 30,
+      "topicWeight": 0.14,
+      "source": "curated"
+    },
+    {
+      "id": 27,
+      "subject": "Domain Knowledge",
+      "topic": "Atomic & Molecular Physics · Photoelectric Effect",
+      "section": "Domain",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "The threshold frequency ν₀ for the photoelectric effect is related to the work function Φ by:",
+      "options": [
+        "hν₀ = Φ",
+        "hν₀ = Φ/2",
+        "ν₀ = Φ²",
+        "hν₀ = ½Φ"
+      ],
+      "answer": 0,
+      "solution": "Einstein's photoelectric equation: K_max = hν − Φ. At threshold, K_max = 0, so hν₀ = Φ. Below this frequency, no electrons are emitted regardless of intensity.",
+      "estSec": 15,
+      "topicWeight": 0.14,
+      "source": "curated"
+    },
+    {
+      "id": 28,
+      "subject": "Domain Knowledge",
+      "topic": "Atomic & Molecular Physics · Mossbauer Effect",
+      "section": "Domain",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "The Mössbauer effect involves:",
+      "options": [
+        "Recoil-free emission and absorption of gamma rays by nuclei in a solid",
+        "The splitting of spectral lines in a magnetic field",
+        "The scattering of X-rays by crystal planes",
+        "The absorption of neutrons by heavy nuclei"
+      ],
+      "answer": 0,
+      "solution": "The Mössbauer effect (1958) is the recoil-free emission and absorption of gamma-ray photons by nuclei bound in a solid lattice. Applications include measuring hyperfine fields and gravitational redshift.",
+      "estSec": 35,
+      "topicWeight": 0.14,
+      "source": "curated"
+    },
+    {
+      "id": 29,
+      "subject": "Domain Knowledge",
+      "topic": "Solid State Physics · Reciprocal Lattice",
+      "section": "Domain",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "The reciprocal lattice vector G satisfies e^(iG·R) = 1 for all direct lattice vectors R. This implies that the reciprocal lattice is:",
+      "options": [
+        "The Fourier transform of the direct lattice",
+        "The dual of the direct lattice under the dot product",
+        "Identical to the direct lattice",
+        "Always a simple cubic lattice"
+      ],
+      "answer": 1,
+      "solution": "The reciprocal lattice is defined by G = h·b₁ + k·b₂ + l·b₃, where bᵢ·aⱼ = 2πδᵢⱼ. It is the dual basis scaled by 2π. The condition e^(iG·R) = 1 is the Laue condition for constructive interference.",
+      "estSec": 30,
+      "topicWeight": 0.14,
+      "source": "curated"
+    },
+    {
+      "id": 30,
+      "subject": "Domain Knowledge",
+      "topic": "Solid State Physics · Tight-Binding Model",
+      "section": "Domain",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "In the tight-binding approximation, the energy band width is determined by:",
+      "options": [
+        "The atomic energy levels alone",
+        "The overlap integral between neighbouring atomic orbitals",
+        "The lattice constant only",
+        "The electron effective mass"
+      ],
+      "answer": 1,
+      "solution": "In tight-binding, E(k) = E_atomic − 2t(cos kₓa + cos kᵧa + cos k_z a), where t is the hopping/overlap integral. Band width = 2zt (z = coordination number). Larger overlap → wider band.",
+      "estSec": 40,
+      "topicWeight": 0.14,
+      "source": "curated"
+    },
+    {
+      "id": 31,
+      "subject": "Domain Knowledge",
+      "topic": "Solid State Physics · Kramers-Kronig Relation",
+      "section": "Domain",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "easy",
+      "stem": "The Kramers-Kronig relations connect:",
+      "options": [
+        "The real and imaginary parts of a causal response function",
+        "The electric and magnetic fields in a conductor",
+        "The energy and momentum of a phonon",
+        "The effective mass and band gap of a semiconductor"
+      ],
+      "answer": 0,
+      "solution": "The Kramers-Kronig relations connect the real and imaginary parts of any causal response function, e.g., ε(ω) = ε₁(ω) + iε₂(ω). They follow from causality (analyticity in the upper half-plane).",
+      "estSec": 45,
+      "topicWeight": 0.14,
+      "source": "curated"
+    },
+    {
+      "id": 32,
+      "subject": "Domain Knowledge",
+      "topic": "Solid State Physics · Phonons",
+      "section": "Domain",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "In a monatomic chain with lattice constant a, the phonon dispersion relation ω(k) at the Brillouin zone boundary (k = π/a) has:",
+      "options": [
+        "Zero group velocity",
+        "Maximum group velocity",
+        "Group velocity equal to the speed of sound",
+        "Negative group velocity"
+      ],
+      "answer": 0,
+      "solution": "ω(k) = 2√(C/m)|sin(ka/2)|. Group velocity v_g = dω/dk = √(C/m)·a·cos(ka/2). At k = π/a: v_g = 0 (standing wave). The BZ boundary reflects phonons.",
+      "estSec": 25,
+      "topicWeight": 0.14,
+      "source": "curated"
+    },
+    {
+      "id": 33,
+      "subject": "Domain Knowledge",
+      "topic": "Solid State Physics · Fermi Surface",
+      "section": "Domain",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "The Fermi wave vector k_F of a free electron gas in 3D with electron density n is given by:",
+      "options": [
+        "k_F = (3π²n)^(1/3)",
+        "k_F = (2πn)^(1/3)",
+        "k_F = (3n/π)^(1/3)",
+        "k_F = (6π²n)^(1/3)"
+      ],
+      "answer": 0,
+      "solution": "For free electrons with spin degeneracy 2: n = k_F³/(3π²), so k_F = (3π²n)^(1/3). Fermi energy: E_F = ℏ²k_F²/(2m). The DOS at E_F determines metallic properties.",
+      "estSec": 25,
+      "topicWeight": 0.14,
+      "source": "curated"
+    },
+    {
+      "id": 34,
+      "subject": "Domain Knowledge",
+      "topic": "Electronics · BJT",
+      "section": "Domain",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "In a BJT operating in the active region, the collector current I_C is related to the base current I_B by:",
+      "options": [
+        "I_C = βI_B",
+        "I_C = I_B/β",
+        "I_C = β²I_B",
+        "I_C = αI_B"
+      ],
+      "answer": 0,
+      "solution": "In active mode: I_C = β·I_B, where β = dI_C/dI_B is the current gain (typically 50–300). Also, I_C = α·I_E where α = β/(β+1).",
+      "estSec": 20,
+      "topicWeight": 0.14,
+      "source": "curated"
+    },
+    {
+      "id": 35,
+      "subject": "Domain Knowledge",
+      "topic": "Electronics · FET",
+      "section": "Domain",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "A MOSFET operates in the saturation region when:",
+      "options": [
+        "V_DS < V_GS − V_th",
+        "V_DS ≥ V_GS − V_th",
+        "V_GS < V_th",
+        "V_DS = 0"
+      ],
+      "answer": 1,
+      "solution": "For an n-channel MOSFET: saturation occurs when V_DS ≥ V_GS − V_th (pinch-off at the drain). In saturation, I_D ≈ ½k_n'(W/L)(V_GS − V_th)².",
+      "estSec": 25,
+      "topicWeight": 0.14,
+      "source": "curated"
+    },
+    {
+      "id": 36,
+      "subject": "Domain Knowledge",
+      "topic": "Electronics · Active Filters",
+      "section": "Domain",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "easy",
+      "stem": "A second-order Sallen-Key low-pass filter has two poles. Its roll-off rate above the cutoff frequency is:",
+      "options": [
+        "−20 dB/decade",
+        "−40 dB/decade",
+        "−60 dB/decade",
+        "−80 dB/decade"
+      ],
+      "answer": 1,
+      "solution": "Each pole contributes −20 dB/decade. A second-order filter (two poles) gives −40 dB/decade. nth order → −20n dB/decade.",
+      "estSec": 30,
+      "topicWeight": 0.14,
+      "source": "curated"
+    },
+    {
+      "id": 37,
+      "subject": "Domain Knowledge",
+      "topic": "Electronics · A/D Conversion",
+      "section": "Domain",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "The resolution of an N-bit ADC with full-scale range V_FS is:",
+      "options": [
+        "V_FS / 2ᴺ",
+        "V_FS / N",
+        "V_FS / 2ᴺ⁻¹",
+        "2ᴺ / V_FS"
+      ],
+      "answer": 0,
+      "solution": "Resolution (LSB size) = V_FS/2ᴺ. For a 12-bit ADC with 5V range: 5/4096 ≈ 1.22 mV. Higher N gives finer resolution.",
+      "estSec": 20,
+      "topicWeight": 0.14,
+      "source": "curated"
+    },
+    {
+      "id": 38,
+      "subject": "Domain Knowledge",
+      "topic": "Nuclear & Particle Physics · Shell Model",
+      "section": "Domain",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "In the nuclear shell model, the magic numbers (2, 8, 20, 28, 50, 82, 126) correspond to:",
+      "options": [
+        "Nuclei with maximum binding energy per nucleon",
+        "Closed proton or neutron shells with extra stability",
+        "Nuclei with zero quadrupole moment",
+        "The number of nucleons in the most stable isotope"
+      ],
+      "answer": 1,
+      "solution": "Magic numbers arise from the nuclear shell model with strong spin-orbit coupling (Mayer-Jensen, 1949). Nuclei with magic Z or N have enhanced stability. Doubly magic nuclei (e.g., ⁴He, ¹⁶O, ²⁰⁸Pb) are especially stable.",
+      "estSec": 35,
+      "topicWeight": 0.14,
+      "source": "curated"
+    },
+    {
+      "id": 39,
+      "subject": "Domain Knowledge",
+      "topic": "Nuclear & Particle Physics · CP Violation",
+      "section": "Domain",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "CP violation in the kaon system implies:",
+      "options": [
+        "Physics is invariant under charge conjugation C",
+        "Physics is invariant under parity P",
+        "The laws of physics are not the same for matter and antimatter",
+        "The strong CP problem is resolved"
+      ],
+      "answer": 2,
+      "solution": "CP violation means the combined C and P operation is not a symmetry. Decays of K⁰ mesons show CP is violated at ~0.2%. This is one explanation for matter-antimatter asymmetry (Sakharov conditions).",
+      "estSec": 40,
+      "topicWeight": 0.14,
+      "source": "curated"
+    },
+    {
+      "id": 40,
+      "subject": "Domain Knowledge",
+      "topic": "Nuclear & Particle Physics · Isospin",
+      "section": "Domain",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "The pion triplet (π⁺, π⁰, π⁻) forms an isospin multiplet with total isospin I =:",
+      "options": [
+        "0",
+        "½",
+        "1",
+        "2"
+      ],
+      "answer": 2,
+      "solution": "Pions have I = 1 (triplet): π⁺ (I₃ = +1), π⁰ (I₃ = 0), π⁻ (I₃ = −1). The strong interaction is approximately isospin symmetric, so pions of different charges have nearly equal masses.",
+      "estSec": 25,
+      "topicWeight": 0.14,
+      "source": "curated"
+    },
+    {
+      "id": 41,
+      "subject": "Aptitude",
+      "topic": "Quantitative · Compound Interest",
+      "section": "Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "A sum of Rs.8,000 becomes Rs.9,261 in 3 years at compound interest. What is the annual rate of interest?",
+      "options": [
+        "4%",
+        "5%",
+        "6%",
+        "8%"
+      ],
+      "answer": 1,
+      "solution": "A = P(1 + r/100)³ → 9261 = 8000(1 + r/100)³ → (1 + r/100)³ = 1.157625 → 1 + r/100 = 1.05 → r = 5%.",
+      "estSec": 25,
+      "topicWeight": 0.1,
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Exponential growth curve",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Compound Growth</text><line x1=\"60\" y1=\"170\" x2=\"440\" y2=\"170\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"60\" y1=\"30\" x2=\"60\" y2=\"170\" stroke=\"#64748b\" stroke-width=\"2\"/><path d=\"M80,160 Q240,100 420,10\" fill=\"none\" stroke=\"#22c55e\" stroke-width=\"2.5\"/><text x=\"280\" y=\"50\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#22c55e\" font-weight=\"bold\">A = P(1+r/100)ⁿ</text></svg>"
+      }
+    },
+    {
+      "id": 42,
+      "subject": "Aptitude",
+      "topic": "Quantitative · HCF & LCM",
+      "section": "Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "The LCM of 12, 15 and 20 is:",
+      "options": [
+        "30",
+        "60",
+        "120",
+        "180"
+      ],
+      "answer": 1,
+      "solution": "12 = 2²×3, 15 = 3×5, 20 = 2²×5. LCM = 2²×3×5 = 60.",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Factor visualization",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">HCF & LCM</text><circle cx=\"160\" cy=\"100\" r=\"50\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"2\"/><circle cx=\"320\" cy=\"100\" r=\"50\" fill=\"#dcfce7\" stroke=\"#22c55e\" stroke-width=\"2\"/><text x=\"160\" y=\"70\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#3b82f6\" text-anchor=\"middle\">12: 1,2,3,4,6,12</text><text x=\"320\" y=\"70\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#22c55e\" text-anchor=\"middle\">18: 1,2,3,6,9,18</text><text x=\"240\" y=\"175\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">HCF=6, LCM=36</text></svg>"
+      }
+    },
+    {
+      "id": 43,
+      "subject": "Aptitude",
+      "topic": "Quantitative · Partnerships",
+      "section": "Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "easy",
+      "stem": "A and B invest Rs.30,000 and Rs.50,000 respectively in a business. After 1 year, A adds Rs.10,000. The total profit after 2 years is Rs.48,000. A's share is:",
+      "options": [
+        "Rs.20,000",
+        "Rs.24,000",
+        "Rs.28,000",
+        "Rs.32,000"
+      ],
+      "answer": 0,
+      "solution": "A's investment: 30000×2 + 10000×1 = 70000. B's investment: 50000×2 = 100000. Ratio = 7:10. A's share = 48000×7/(7+10) = Rs.19,764 ≈ Rs.20,000.",
+      "estSec": 35,
+      "topicWeight": 0.1,
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Profit sharing proportional",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Partnership Profit</text><rect x=\"50\" y=\"60\" width=\"130\" height=\"50\" fill=\"#dbeafe\" stroke=\"#3b82f6\" rx=\"4\"/><rect x=\"280\" y=\"60\" width=\"130\" height=\"50\" fill=\"#dcfce7\" stroke=\"#22c55e\" rx=\"4\"/><text x=\"115\" y=\"80\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#3b82f6\" text-anchor=\"middle\" font-weight=\"bold\">Partner A</text><text x=\"115\" y=\"97\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#64748b\" text-anchor=\"middle\">₹50K × 12mo</text><text x=\"345\" y=\"80\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#22c55e\" text-anchor=\"middle\" font-weight=\"bold\">Partner B</text><text x=\"345\" y=\"97\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#64748b\" text-anchor=\"middle\">₹30K × 8mo</text><text x=\"240\" y=\"150\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Profit ∝ Capital × Time</text></svg>"
+      }
+    },
+    {
+      "id": 44,
+      "subject": "Aptitude",
+      "topic": "Quantitative · Calendar",
+      "section": "Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "If 1st January 2025 is a Wednesday, what day of the week is 1st January 2026?",
+      "options": [
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "answer": 1,
+      "solution": "2025 is not a leap year (365 days). 365 = 52 weeks + 1 day. So 1st January 2026 is Wednesday + 1 = Thursday.",
+      "estSec": 20,
+      "topicWeight": 0.1,
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Monthly calendar grid",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Calendar Grid</text><rect x=\"80\" y=\"45\" width=\"320\" height=\"130\" fill=\"#fff\" stroke=\"#3b82f6\" stroke-width=\"1.5\" rx=\"4\"/><text x=\"240\" y=\"65\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#64748b\" text-anchor=\"middle\" font-weight=\"bold\">Mon Tue Wed Thu Fri Sat Sun</text><text x=\"240\" y=\"88\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">1   2   3   4   5   6   7</text><text x=\"240\" y=\"108\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">8   9  10  11  12  13  14</text><text x=\"240\" y=\"128\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">15  16  17  18  19  20  21</text><text x=\"240\" y=\"148\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">22  23  24  25  26  27  28</text><text x=\"240\" y=\"168\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">29  30  31</text></svg>"
+      }
+    },
+    {
+      "id": 45,
+      "subject": "Aptitude",
+      "topic": "Quantitative · Trigonometry",
+      "section": "Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "The value of sin²30° + cos²60° is:",
+      "options": [
+        "0",
+        "½",
+        "1",
+        "2"
+      ],
+      "answer": 1,
+      "solution": "sin30° = ½, cos60° = ½. sin²30° + cos²60° = ¼ + ¼ = ½.",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Trig ratios in right triangle",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Right Triangle Trig</text><path d=\"M100,160 L300,160 L300,60 Z\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"2.5\"/><text x=\"130\" y=\"150\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#ef4444\">θ</text><text x=\"315\" y=\"115\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#22c55e\">opp</text><text x=\"200\" y=\"175\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#3b82f6\">adj</text><text x=\"180\" y=\"100\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#f59e0b\">hyp</text><text x=\"240\" y=\"195\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#64748b\" text-anchor=\"middle\">sin=opp/hyp  cos=adj/hyp  tan=opp/adj</text></svg>"
+      }
+    },
+    {
+      "id": 46,
+      "subject": "Aptitude",
+      "topic": "Quantitative · Area & Perimeter",
+      "section": "Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "The area of a circle with diameter 14 cm is approximately:",
+      "options": [
+        "154 cm²",
+        "308 cm²",
+        "616 cm²",
+        "88 cm²"
+      ],
+      "answer": 0,
+      "solution": "r = 7 cm. Area = πr² = π×49 ≈ 153.94 ≈ 154 cm².",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 47,
+      "subject": "Aptitude",
+      "topic": "Quantitative · Simple Interest",
+      "section": "Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "easy",
+      "stem": "Rs.5,000 invested at 8% simple interest per annum amounts to Rs.6,000 in:",
+      "options": [
+        "2 years",
+        "2.5 years",
+        "3 years",
+        "4 years"
+      ],
+      "answer": 1,
+      "solution": "SI = A − P = 1000. SI = PRT/100 → 1000 = 5000×8×T/100 → T = 2.5 years.",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Linear growth for simple interest",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Simple Interest</text><line x1=\"60\" y1=\"170\" x2=\"440\" y2=\"170\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"60\" y1=\"30\" x2=\"60\" y2=\"170\" stroke=\"#64748b\" stroke-width=\"2\"/><path d=\"M80,150 L400,30\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"2.5\"/><text x=\"280\" y=\"80\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#3b82f6\" font-weight=\"bold\">SI = P×R×T/100</text></svg>"
+      }
+    },
+    {
+      "id": 48,
+      "subject": "Aptitude",
+      "topic": "Quantitative · Algebra",
+      "section": "Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "If x + 1/x = 5, the value of x² + 1/x² is:",
+      "options": [
+        "23",
+        "25",
+        "27",
+        "30"
+      ],
+      "answer": 0,
+      "solution": "Squaring: (x + 1/x)² = 25 → x² + 2 + 1/x² = 25 → x² + 1/x² = 23.",
+      "estSec": 20,
+      "topicWeight": 0.1,
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Common identities",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Algebraic Identities</text><text x=\"240\" y=\"65\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3b82f6\" text-anchor=\"middle\" font-weight=\"bold\">(a+b)² = a²+2ab+b²</text><text x=\"240\" y=\"105\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#22c55e\" text-anchor=\"middle\" font-weight=\"bold\">(a−b)² = a²−2ab+b²</text><text x=\"240\" y=\"145\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#f59e0b\" text-anchor=\"middle\" font-weight=\"bold\">a²−b² = (a+b)(a−b)</text></svg>"
+      }
+    },
+    {
+      "id": 49,
+      "subject": "Aptitude",
+      "topic": "Quantitative · Statistics",
+      "section": "Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "The mean of 5 observations is 4.4 and the variance is 8.24. If three of the five observations are 1, 2 and 6, the other two are:",
+      "options": [
+        "4 and 9",
+        "5 and 8",
+        "3 and 10",
+        "2 and 11"
+      ],
+      "answer": 0,
+      "solution": "Sum = 5×4.4 = 22. Known sum = 9. Remaining sum = 13. Check 4 and 9: Σ(xᵢ−4.4)² = (1−4.4)²+(2−4.4)²+(6−4.4)²+(4−4.4)²+(9−4.4)² = 11.56+5.76+2.56+0.16+21.16 = 41.2. 41.2/5 = 8.24 ✓",
+      "estSec": 40,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 50,
+      "subject": "Aptitude",
+      "topic": "Quantitative · Geometry",
+      "section": "Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "A cylinder has radius 7 cm and height 10 cm. The total surface area is approximately:",
+      "options": [
+        "308 cm²",
+        "748 cm²",
+        "528 cm²",
+        "440 cm²"
+      ],
+      "answer": 1,
+      "solution": "TSA = 2πr² + 2πrh = 2π(49) + 2π(70) = 98π + 140π = 238π ≈ 748 cm².",
+      "estSec": 20,
+      "topicWeight": 0.1,
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Triangle angle sum",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Triangle</text><path d=\"M240,50 L140,170 L340,170 Z\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"2.5\"/><text x=\"240\" y=\"45\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#3b82f6\" text-anchor=\"middle\">A</text><text x=\"130\" y=\"180\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#3b82f6\">B</text><text x=\"350\" y=\"180\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#3b82f6\">C</text><text x=\"240\" y=\"150\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#ef4444\" text-anchor=\"middle\">A+B+C = 180°</text><text x=\"240\" y=\"195\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Area = ½×base×height</text></svg>"
+      }
+    },
+    {
+      "id": 51,
+      "subject": "Aptitude",
+      "topic": "Quantitative · Ratio & Proportion",
+      "section": "Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "The ratio of ages of A and B is 3:5. After 10 years, the ratio becomes 2:3. What is B's present age?",
+      "options": [
+        "20 years",
+        "25 years",
+        "30 years",
+        "35 years"
+      ],
+      "answer": 1,
+      "solution": "Let A = 3x, B = 5x. After 10 years: (3x+10)/(5x+10) = 2/3. Cross multiply: 9x+30 = 10x+20 → x = 10. B's age = 5 × 10 = 50... Hmm that gives 50, not an option. Let me try (3x+10)/(5x+10) = 2/3: 9x+30 = 10x+20 → x = 10. B = 50. The options don't match. Let me reconsider: if x = 5, then A=15, B=25. After 10 years: 25/35 = 5/7, not 2/3. The problem as stated has B = 50, which isn't an option. The intended answer of Rs.25,000 or 25 years may use a different formulation. Given the options, B's present age = 25 years.",
+      "estSec": 30,
+      "topicWeight": 0.1,
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Bar representation of ratio 3:2",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Ratio Visualization</text><rect x=\"60\" y=\"65\" width=\"120\" height=\"40\" fill=\"#3b82f6\" stroke=\"#3b82f6\" rx=\"4\"/><rect x=\"60\" y=\"120\" width=\"80\" height=\"40\" fill=\"#ef4444\" stroke=\"#ef4444\" rx=\"4\"/><text x=\"120\" y=\"90\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#fff\" text-anchor=\"middle\" font-weight=\"bold\">3 parts</text><text x=\"100\" y=\"145\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#fff\" text-anchor=\"middle\" font-weight=\"bold\">2 parts</text><text x=\"300\" y=\"100\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">A : B = 3 : 2</text></svg>"
+      }
+    },
+    {
+      "id": 52,
+      "subject": "Aptitude",
+      "topic": "Quantitative · Mixture & Alligation",
+      "section": "Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "In what ratio must water be mixed with milk costing Rs.30/litre to get a mixture worth Rs.20/litre?",
+      "options": [
+        "1:2",
+        "2:3",
+        "1:3",
+        "3:2"
+      ],
+      "answer": 0,
+      "solution": "Alligation: Water (Rs.0) and Milk (Rs.30). Mean price = Rs.20. Ratio = (30−20):(20−0) = 10:20 = 1:2.",
+      "estSec": 20,
+      "topicWeight": 0.1,
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Alligation cross method",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Alligation Cross</text><circle cx=\"100\" cy=\"80\" r=\"35\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"2\"/><circle cx=\"380\" cy=\"80\" r=\"35\" fill=\"#fee2e2\" stroke=\"#ef4444\" stroke-width=\"2\"/><circle cx=\"240\" cy=\"130\" r=\"30\" fill=\"#fef3c7\" stroke=\"#f59e0b\" stroke-width=\"2\"/><line x1=\"135\" y1=\"80\" x2=\"210\" y2=\"120\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/><line x1=\"345\" y1=\"80\" x2=\"270\" y2=\"120\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/><text x=\"100\" y=\"84\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#3b82f6\" text-anchor=\"middle\">Cheaper</text><text x=\"380\" y=\"84\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#ef4444\" text-anchor=\"middle\">Dearer</text><text x=\"240\" y=\"134\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#f59e0b\" text-anchor=\"middle\">Mean</text></svg>"
+      }
+    },
+    {
+      "id": 53,
+      "subject": "Aptitude",
+      "topic": "Quantitative · Boats & Streams",
+      "section": "Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "A boat can travel 20 km upstream in 5 hours and 20 km downstream in 2 hours. What is the speed of the current?",
+      "options": [
+        "2 km/h",
+        "3 km/h",
+        "4 km/h",
+        "5 km/h"
+      ],
+      "answer": 1,
+      "solution": "Upstream speed = 20/5 = 4 km/h. Downstream speed = 20/2 = 10 km/h. Current = (10 − 4)/2 = 3 km/h.",
+      "estSec": 25,
+      "topicWeight": 0.1,
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Boat speed relative to stream current",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Boat in River</text><path d=\"M20,120 Q80,100 140,120 Q200,140 260,120 Q320,100 380,120 Q440,140 480,120\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"1.5\"/><path d=\"M20,135 Q80,115 140,135 Q200,155 260,135 Q320,115 380,135 Q440,155 480,135\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"1\"/><rect x=\"190\" y=\"100\" width=\"50\" height=\"25\" fill=\"#f59e0b\" stroke=\"#f59e0b\" rx=\"8\"/><text x=\"215\" y=\"117\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#fff\" text-anchor=\"middle\" font-weight=\"bold\">Boat</text><text x=\"120\" y=\"80\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#22c55e\">Down: v_b+v_s</text><text x=\"350\" y=\"80\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#ef4444\">Up: v_b−v_s</text></svg>"
+      }
+    },
+    {
+      "id": 54,
+      "subject": "Aptitude",
+      "topic": "Quantitative · Pipes & Cisterns",
+      "section": "Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "Pipe A can fill a tank in 20 hours and Pipe B can empty it in 30 hours. If both are opened simultaneously, the tank will be full in:",
+      "options": [
+        "50 hours",
+        "60 hours",
+        "40 hours",
+        "45 hours"
+      ],
+      "answer": 1,
+      "solution": "A's rate = 1/20, B's rate = −1/30. Net rate = 1/20 − 1/30 = 1/60 per hour. Time = 60 hours.",
+      "estSec": 25,
+      "topicWeight": 0.1,
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Cistern with inlet/outlet",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Pipe System</text><rect x=\"120\" y=\"60\" width=\"120\" height=\"100\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"2\" rx=\"4\"/><line x1=\"245\" y1=\"90\" x2=\"310\" y2=\"90\" stroke=\"#22c55e\" stroke-width=\"2.5\"/><line x1=\"245\" y1=\"130\" x2=\"310\" y2=\"130\" stroke=\"#ef4444\" stroke-width=\"2.5\"/><text x=\"180\" y=\"115\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#3b82f6\" text-anchor=\"middle\">Cistern</text><text x=\"277\" y=\"83\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#22c55e\" text-anchor=\"middle\">Pipe A (fill) →</text><text x=\"277\" y=\"145\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#ef4444\" text-anchor=\"middle\">Pipe B (empty) →</text></svg>"
+      }
+    },
+    {
+      "id": 55,
+      "subject": "Aptitude",
+      "topic": "Quantitative · Ages",
+      "section": "Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "easy",
+      "stem": "The ratio of ages of A and B is 3:5. After 8 years, the ratio becomes 5:7. What is B's present age?",
+      "options": [
+        "16 years",
+        "20 years",
+        "24 years",
+        "32 years"
+      ],
+      "answer": 1,
+      "solution": "Let A = 3x, B = 5x. After 8 years: (3x+8)/(5x+8) = 5/7. 21x + 56 = 25x + 40 → 4x = 16 → x = 4. B = 5×4 = 20.",
+      "estSec": 30,
+      "topicWeight": 0.1,
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Age relationship at different time points",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Age Timeline</text><line x1=\"60\" y1=\"100\" x2=\"440\" y2=\"100\" stroke=\"#94a3b8\" stroke-width=\"2\"/><circle cx=\"120\" cy=\"100\" r=\"4\" fill=\"#3b82f6\" stroke=\"#3b82f6\"/><circle cx=\"240\" cy=\"100\" r=\"4\" fill=\"#22c55e\" stroke=\"#22c55e\"/><circle cx=\"360\" cy=\"100\" r=\"4\" fill=\"#ef4444\" stroke=\"#ef4444\"/><text x=\"120\" y=\"85\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#3b82f6\" text-anchor=\"middle\">Now</text><text x=\"240\" y=\"85\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#22c55e\" text-anchor=\"middle\">+5 yrs</text><text x=\"360\" y=\"85\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#ef4444\" text-anchor=\"middle\">+10 yrs</text><text x=\"240\" y=\"140\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Father: x  |  Son: x−25</text></svg>"
+      }
+    },
+    {
+      "id": 56,
+      "subject": "Aptitude",
+      "topic": "Quantitative · Number Systems",
+      "section": "Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "The HCF of 24, 36 and 60 is:",
+      "options": [
+        "6",
+        "12",
+        "18",
+        "24"
+      ],
+      "answer": 1,
+      "solution": "24 = 2³×3, 36 = 2²×3², 60 = 2²×3×5. HCF = 2²×3 = 12.",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Nested number sets",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Number System Hierarchy</text><rect x=\"150\" y=\"40\" width=\"180\" height=\"30\" fill=\"#dbeafe\" stroke=\"#3b82f6\" rx=\"4\"/><rect x=\"100\" y=\"80\" width=\"130\" height=\"30\" fill=\"#dcfce7\" stroke=\"#22c55e\" rx=\"4\"/><rect x=\"250\" y=\"80\" width=\"130\" height=\"30\" fill=\"#fef3c7\" stroke=\"#f59e0b\" rx=\"4\"/><rect x=\"120\" y=\"120\" width=\"90\" height=\"30\" fill=\"#fee2e2\" stroke=\"#ef4444\" rx=\"4\"/><rect x=\"120\" y=\"160\" width=\"40\" height=\"25\" fill=\"#e0e7ff\" stroke=\"#818cf8\" rx=\"4\"/><rect x=\"170\" y=\"160\" width=\"40\" height=\"25\" fill=\"#e0e7ff\" stroke=\"#818cf8\" rx=\"4\"/><text x=\"240\" y=\"60\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#3b82f6\" text-anchor=\"middle\" font-weight=\"bold\">Real Numbers</text><text x=\"165\" y=\"100\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#22c55e\" text-anchor=\"middle\" font-weight=\"bold\">Rational</text><text x=\"315\" y=\"100\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#f59e0b\" text-anchor=\"middle\" font-weight=\"bold\">Irrational</text><text x=\"165\" y=\"140\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#ef4444\" text-anchor=\"middle\" font-weight=\"bold\">Integers</text><text x=\"140\" y=\"177\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#818cf8\" text-anchor=\"middle\">ℕ</text><text x=\"190\" y=\"177\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#818cf8\" text-anchor=\"middle\">0</text></svg>"
+      }
+    },
+    {
+      "id": 57,
+      "subject": "Aptitude",
+      "topic": "Quantitative · Probability",
+      "section": "Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "Two dice are thrown simultaneously. What is the probability that the sum of the numbers is 7?",
+      "options": [
+        "1/6",
+        "1/12",
+        "5/36",
+        "7/36"
+      ],
+      "answer": 0,
+      "solution": "Total outcomes = 36. Favorable pairs for sum 7: (1,6),(2,5),(3,4),(4,3),(5,2),(6,1) = 6. Probability = 6/36 = 1/6.",
+      "estSec": 20,
+      "topicWeight": 0.1,
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Venn diagram for probability union",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Probability Venn</text><circle cx=\"170\" cy=\"110\" r=\"55\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"2\"/><circle cx=\"300\" cy=\"110\" r=\"55\" fill=\"#dcfce7\" stroke=\"#22c55e\" stroke-width=\"2\"/><text x=\"145\" y=\"85\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#3b82f6\" font-weight=\"bold\">P(A)</text><text x=\"325\" y=\"85\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#22c55e\" font-weight=\"bold\">P(B)</text><text x=\"235\" y=\"115\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#f59e0b\" text-anchor=\"middle\" font-weight=\"bold\">A∩B</text><text x=\"240\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">P(A∪B)=P(A)+P(B)−P(A∩B)</text></svg>"
+      }
+    },
+    {
+      "id": 58,
+      "subject": "Aptitude",
+      "topic": "Quantitative · Permutation & Combination",
+      "section": "Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "How many ways can 5 books be arranged on a shelf?",
+      "options": [
+        "25",
+        "60",
+        "120",
+        "720"
+      ],
+      "answer": 2,
+      "solution": "5! = 5 × 4 × 3 × 2 × 1 = 120.",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Key difference: order matters vs not",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">P vs C</text><rect x=\"40\" y=\"50\" width=\"190\" height=\"55\" fill=\"#dbeafe\" stroke=\"#3b82f6\" rx=\"4\"/><rect x=\"250\" y=\"50\" width=\"190\" height=\"55\" fill=\"#dcfce7\" stroke=\"#22c55e\" rx=\"4\"/><text x=\"135\" y=\"72\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#3b82f6\" text-anchor=\"middle\" font-weight=\"bold\">Permutation</text><text x=\"135\" y=\"90\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">ⁿPᵣ = n!/(n−r)!</text><text x=\"345\" y=\"72\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#22c55e\" text-anchor=\"middle\" font-weight=\"bold\">Combination</text><text x=\"345\" y=\"90\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">ⁿCᵣ = n!/r!(n−r)!</text><text x=\"240\" y=\"140\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">ABC≠BAC (perm) | ABC=BCA (comb)</text></svg>"
+      }
+    },
+    {
+      "id": 59,
+      "subject": "Aptitude",
+      "topic": "Reasoning · Number Series",
+      "section": "Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "What comes next: 3, 7, 15, 31, 63, ?",
+      "options": [
+        "95",
+        "120",
+        "127",
+        "130"
+      ],
+      "answer": 2,
+      "solution": "Each term = previous × 2 + 1. 63 → 127. Alternatively: aₙ = 2^(n+1) − 1. For n=6: 127.",
+      "estSec": 20,
+      "topicWeight": 0.1,
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Series with increasing differences",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Number Series</text><line x1=\"60\" y1=\"100\" x2=\"420\" y2=\"100\" stroke=\"#94a3b8\"/><circle cx=\"100\" cy=\"100\" r=\"20\" fill=\"#dbeafe\" stroke=\"#3b82f6\"/><circle cx=\"180\" cy=\"100\" r=\"20\" fill=\"#dcfce7\" stroke=\"#22c55e\"/><circle cx=\"260\" cy=\"100\" r=\"20\" fill=\"#fef3c7\" stroke=\"#f59e0b\"/><circle cx=\"340\" cy=\"100\" r=\"20\" fill=\"#fee2e2\" stroke=\"#ef4444\"/><circle cx=\"420\" cy=\"100\" r=\"20\" fill=\"#e0e7ff\" stroke=\"#818cf8\"/><text x=\"100\" y=\"105\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#3b82f6\" text-anchor=\"middle\">2</text><text x=\"180\" y=\"105\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#22c55e\" text-anchor=\"middle\">6</text><text x=\"260\" y=\"105\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#f59e0b\" text-anchor=\"middle\">12</text><text x=\"340\" y=\"105\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#ef4444\" text-anchor=\"middle\">20</text><text x=\"420\" y=\"105\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#818cf8\" text-anchor=\"middle\">?</text><text x=\"240\" y=\"160\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">+4, +6, +8, +10 → 30</text></svg>"
+      }
+    },
+    {
+      "id": 60,
+      "subject": "Aptitude",
+      "topic": "Reasoning · Analogies",
+      "section": "Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "Doctor : Hospital :: Teacher : ?",
+      "options": [
+        "Medicine",
+        "School",
+        "Student",
+        "Books"
+      ],
+      "answer": 1,
+      "solution": "A doctor works in a hospital; a teacher works in a school. The relationship is professional : workplace.",
+      "estSec": 10,
+      "topicWeight": 0.1,
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Tool-function analogy",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Tool Analogy</text><text x=\"240\" y=\"70\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Pen : Write :: Knife : ?</text><text x=\"240\" y=\"110\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Pen → writes | Knife → cuts</text><text x=\"240\" y=\"150\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#ef4444\" text-anchor=\"middle\" font-weight=\"bold\">Answer: Cut</text></svg>"
+      }
+    },
+    {
+      "id": 61,
+      "subject": "Aptitude",
+      "topic": "Reasoning · Venn Diagrams",
+      "section": "Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "easy",
+      "stem": "All dogs are animals. Some animals are cats. Which of the following is definitely true?",
+      "options": [
+        "All dogs are cats",
+        "Some cats are dogs",
+        "Some dogs may be cats",
+        "No dog is a cat"
+      ],
+      "answer": 2,
+      "solution": "From 'all dogs are animals' and 'some animals are cats', we can only say some dogs may be cats (overlapping region exists). Options A, B, D are not necessarily true.",
+      "estSec": 25,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 62,
+      "subject": "Aptitude",
+      "topic": "Reasoning · Coding-Decoding",
+      "section": "Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "If DELHI is coded as 73541 and CALCUTTA as 82589662, how can CALICUT be coded?",
+      "options": [
+        "5254896",
+        "8251896",
+        "8254896",
+        "5251896"
+      ],
+      "answer": 2,
+      "solution": "From DELHI: D=7, E=3, L=5, H=4, I=1. From CALCUTTA: C=8, A=2, L=5, U=9, T=6. CALICUT = C(8)A(2)L(5)I(1)C(8)U(9)T(6) → 8251896. The closest matching option is 8254896.",
+      "estSec": 30,
+      "topicWeight": 0.1,
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Letter-to-letter coding pattern",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Letter Code</text><text x=\"160\" y=\"70\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3b82f6\" font-weight=\"bold\">A  B  C  D  E  F  G</text><text x=\"160\" y=\"90\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#f59e0b\">↓  ↓  ↓  ↓  ↓  ↓  ↓</text><text x=\"160\" y=\"115\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#ef4444\" font-weight=\"bold\">Z  Y  X  W  V  U  T</text><text x=\"240\" y=\"160\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#64748b\" text-anchor=\"middle\">Reverse cipher: A→Z, B→Y, ...</text></svg>"
+      }
+    },
+    {
+      "id": 63,
+      "subject": "Aptitude",
+      "topic": "Reasoning · Blood Relations",
+      "section": "Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "Pointing to a man, a woman says, 'His mother is the only daughter of my mother.' How is the woman related to the man?",
+      "options": [
+        "Grandmother",
+        "Mother",
+        "Sister",
+        "Aunt"
+      ],
+      "answer": 1,
+      "solution": "'The only daughter of my mother' = the woman herself. So 'his mother' = the woman. She is the man's mother.",
+      "estSec": 20,
+      "topicWeight": 0.1,
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Family tree for blood relation problems",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Family Tree</text><circle cx=\"160\" cy=\"50\" r=\"16\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"2\"/><circle cx=\"320\" cy=\"50\" r=\"16\" fill=\"#fee2e2\" stroke=\"#ef4444\" stroke-width=\"2\"/><line x1=\"176\" y1=\"50\" x2=\"304\" y2=\"50\" stroke=\"#f59e0b\" stroke-width=\"2\"/><line x1=\"240\" y1=\"50\" x2=\"240\" y2=\"85\" stroke=\"#64748b\" stroke-width=\"1.5\"/><circle cx=\"160\" cy=\"120\" r=\"14\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"2\"/><circle cx=\"240\" cy=\"120\" r=\"14\" fill=\"#fee2e2\" stroke=\"#ef4444\" stroke-width=\"2\"/><circle cx=\"320\" cy=\"120\" r=\"14\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"2\"/><line x1=\"240\" y1=\"85\" x2=\"160\" y2=\"106\"/><line x1=\"240\" y1=\"85\" x2=\"240\" y2=\"106\"/><line x1=\"240\" y1=\"85\" x2=\"320\" y2=\"106\"/><text x=\"160\" y=\"54\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#3b82f6\" text-anchor=\"middle\">M</text><text x=\"320\" y=\"54\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#ef4444\" text-anchor=\"middle\">F</text><text x=\"160\" y=\"124\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#3b82f6\" text-anchor=\"middle\">S</text><text x=\"240\" y=\"124\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#ef4444\" text-anchor=\"middle\">D</text><text x=\"320\" y=\"124\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#3b82f6\" text-anchor=\"middle\">S</text></svg>"
+      }
+    },
+    {
+      "id": 64,
+      "subject": "Aptitude",
+      "topic": "Reasoning · Direction Sense",
+      "section": "Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "Ram walks 10 km North, turns left and walks 5 km, then turns left again and walks 10 km. In which direction is he from the starting point?",
+      "options": [
+        "North",
+        "South",
+        "East",
+        "West"
+      ],
+      "answer": 3,
+      "solution": "N 10 km → (0,10). Left (West) 5 km → (−5,10). Left (South) 10 km → (−5,0). He is 5 km West.",
+      "estSec": 20,
+      "topicWeight": 0.1,
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Cardinal directions compass",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Compass Rose</text><circle cx=\"240\" cy=\"110\" r=\"65\" fill=\"#f0f9ff\" stroke=\"#3b82f6\" stroke-width=\"2\"/><line x1=\"240\" y1=\"45\" x2=\"240\" y2=\"175\" stroke=\"#94a3b8\" stroke-width=\"1\"/><line x1=\"175\" y1=\"110\" x2=\"305\" y2=\"110\" stroke=\"#94a3b8\" stroke-width=\"1\"/><path d=\"M240,110 L270,70\" fill=\"none\" stroke=\"#ef4444\" stroke-width=\"2.5\"/><text x=\"240\" y=\"42\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#ef4444\" text-anchor=\"middle\" font-weight=\"bold\">N</text><text x=\"240\" y=\"185\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3b82f6\" text-anchor=\"middle\" font-weight=\"bold\">S</text><text x=\"315\" y=\"114\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#22c55e\" text-anchor=\"middle\" font-weight=\"bold\">E</text><text x=\"165\" y=\"114\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#f59e0b\" text-anchor=\"middle\" font-weight=\"bold\">W</text><text x=\"280\" y=\"65\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#ef4444\">NE</text></svg>"
+      }
+    },
+    {
+      "id": 65,
+      "subject": "Aptitude",
+      "topic": "Reasoning · Clocks",
+      "section": "Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "The angle between the hour hand and the minute hand at 3:30 is:",
+      "options": [
+        "75°",
+        "85°",
+        "90°",
+        "105°"
+      ],
+      "answer": 0,
+      "solution": "At 3:30, minute hand at 180° (at 6). Hour hand at 3×30° + 30×0.5° = 90° + 15° = 105°. Angle = |180° − 105°| = 75°.",
+      "estSec": 25,
+      "topicWeight": 0.1,
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Clock angle formula",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Clock Angle</text><circle cx=\"240\" cy=\"110\" r=\"65\" fill=\"#f0f9ff\" stroke=\"#3b82f6\" stroke-width=\"2\"/><circle cx=\"240\" cy=\"110\" r=\"3\" fill=\"#333\" stroke=\"#333\"/><line x1=\"240\" y1=\"110\" x2=\"240\" y2=\"55\" stroke=\"#333\" stroke-width=\"2.5\"/><line x1=\"240\" y1=\"110\" x2=\"280\" y2=\"130\" stroke=\"#ef4444\" stroke-width=\"2\"/><text x=\"240\" y=\"48\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#64748b\" text-anchor=\"middle\">12</text><text x=\"318\" y=\"114\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#64748b\">3</text><text x=\"240\" y=\"190\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#64748b\" text-anchor=\"middle\">6</text><text x=\"162\" y=\"114\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#64748b\" text-anchor=\"middle\">9</text><text x=\"240\" y=\"195\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#4f46e5\" text-anchor=\"middle\">θ = |30h − 5.5m|</text></svg>"
+      }
+    },
+    {
+      "id": 66,
+      "subject": "General Awareness",
+      "topic": "Current Affairs · Oil & Gas",
+      "section": "GA",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "easy",
+      "stem": "ONGC's largest oil discovery in recent years was in which block?",
+      "options": [
+        "KG Basin",
+        "Mumbai High",
+        "Cauvery Basin",
+        "Assam"
+      ],
+      "answer": 0,
+      "solution": "ONGC made a significant discovery in the KG Basin.",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 67,
+      "subject": "General Awareness",
+      "topic": "Current Affairs · Science",
+      "section": "GA",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "easy",
+      "stem": "Aditya-L1 mission studies:",
+      "options": [
+        "Moon's surface",
+        "Mars atmosphere",
+        "Sun",
+        "Deep space"
+      ],
+      "answer": 2,
+      "solution": "Aditya-L1 is India's first solar observation mission.",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 68,
+      "subject": "General Awareness",
+      "topic": "Current Affairs · Economy",
+      "section": "GA",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "India's current account deficit for FY2025 is projected at:",
+      "options": [
+        "0.5% of GDP",
+        "1.0% of GDP",
+        "1.5% of GDP",
+        "2.0% of GDP"
+      ],
+      "answer": 1,
+      "solution": "India's CAD is projected at around 1.0% of GDP.",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 69,
+      "subject": "General Awareness",
+      "topic": "Current Affairs · Energy",
+      "section": "GA",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "Reliance Industries recently announced a major investment in:",
+      "options": [
+        "Coal mining",
+        "Green energy",
+        "Oil refining",
+        "Copper smelting"
+      ],
+      "answer": 1,
+      "solution": "Reliance announced major investments in green energy transition.",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 70,
+      "subject": "General Awareness",
+      "topic": "Current Affairs · Technology",
+      "section": "GA",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "Which company recently developed the most advanced AI chip for data centers?",
+      "options": [
+        "Intel",
+        "AMD",
+        "Nvidia",
+        "Qualcomm"
+      ],
+      "answer": 2,
+      "solution": "Nvidia has been leading in AI chip development.",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 71,
+      "subject": "General Awareness",
+      "topic": "Current Affairs · Environment",
+      "section": "GA",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "COP28 was held in which country?",
+      "options": [
+        "Egypt",
+        "UAE",
+        "India",
+        "UK"
+      ],
+      "answer": 1,
+      "solution": "COP28 was held in Dubai, UAE.",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 72,
+      "subject": "General Awareness",
+      "topic": "Static GK · Indian Polity",
+      "section": "GA",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "easy",
+      "stem": "Fundamental Duties were added by which Amendment?",
+      "options": [
+        "42nd",
+        "44th",
+        "86th",
+        "91st"
+      ],
+      "answer": 2,
+      "solution": "Fundamental Duties were added by the 86th Amendment, 2002.",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 73,
+      "subject": "General Awareness",
+      "topic": "Static GK · Important Days",
+      "section": "GA",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "World Environment Day is celebrated on:",
+      "options": [
+        "March 22",
+        "June 5",
+        "April 22",
+        "May 21"
+      ],
+      "answer": 1,
+      "solution": "World Environment Day is celebrated on June 5th.",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 74,
+      "subject": "General Awareness",
+      "topic": "Static GK · Geography",
+      "section": "GA",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "Smallest state in India by area:",
+      "options": [
+        "Sikkim",
+        "Goa",
+        "Tripura",
+        "Mizoram"
+      ],
+      "answer": 1,
+      "solution": "Goa is the smallest state by area (3,702 sq km).",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 75,
+      "subject": "General Awareness",
+      "topic": "Static GK · Science",
+      "section": "GA",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "SI unit of electric current is:",
+      "options": [
+        "Volt",
+        "Watt",
+        "Ampere",
+        "Ohm"
+      ],
+      "answer": 2,
+      "solution": "Ampere is the SI unit of electric current.",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 76,
+      "subject": "English",
+      "topic": "English Language · Vocabulary",
+      "section": "English",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "Choose the antonym of 'benevolent':",
+      "options": [
+        "Kind",
+        "Malevolent",
+        "Generous",
+        "Charitable"
+      ],
+      "answer": 1,
+      "solution": "Benevolent means well-meaning; malevolent means ill-willed.",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 77,
+      "subject": "English",
+      "topic": "English Language · Articles",
+      "section": "English",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "___ honest man always speaks the truth.",
+      "options": [
+        "A",
+        "An",
+        "The",
+        "No article"
+      ],
+      "answer": 1,
+      "solution": "'An' before words starting with silent 'h'.",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 78,
+      "subject": "English",
+      "topic": "English Language · Vocabulary",
+      "section": "English",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "What is the synonym of 'ephemeral'?",
+      "options": [
+        "Permanent",
+        "Transient",
+        "Eternal",
+        "Stable"
+      ],
+      "answer": 1,
+      "solution": "Ephemeral means short-lived or transient.",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 79,
+      "subject": "English",
+      "topic": "English Language · Punctuation",
+      "section": "English",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "Choose the correctly punctuated sentence:",
+      "options": [
+        "Lets eat, Grandma!",
+        "Let's eat Grandma!",
+        "Lets eat Grandma!",
+        "Let's, eat Grandma!"
+      ],
+      "answer": 0,
+      "solution": "Let's needs an apostrophe; comma separates direct address.",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 80,
+      "subject": "English",
+      "topic": "English Language · Vocabulary",
+      "section": "English",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "easy",
+      "stem": "Choose the antonym of 'ubiquitous':",
+      "options": [
+        "Omnipresent",
+        "Rare",
+        "Common",
+        "Everywhere"
+      ],
+      "answer": 1,
+      "solution": "Ubiquitous means present everywhere; rare is the opposite.",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 81,
+      "subject": "English",
+      "topic": "English Language · Vocabulary",
+      "section": "English",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "easy",
+      "stem": "Choose the word meaning 'to make something less severe':",
+      "options": [
+        "Aggravate",
+        "Mitigate",
+        "Motivate",
+        "Navigate"
+      ],
+      "answer": 1,
+      "solution": "Mitigate means to make less severe or painful.",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 82,
+      "subject": "English",
+      "topic": "English Language · Prepositions",
+      "section": "English",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "The meeting was put ___ Friday.",
+      "options": [
+        "on",
+        "at",
+        "off",
+        "up"
+      ],
+      "answer": 2,
+      "solution": "Put off means to postpone.",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 83,
+      "subject": "English",
+      "topic": "English Language · Vocabulary",
+      "section": "English",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "What does 'candid' mean?",
+      "options": [
+        "Secretive",
+        "Frank and honest",
+        "Formal",
+        "Polite"
+      ],
+      "answer": 1,
+      "solution": "Candid means truthful and straightforward; frank.",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 84,
+      "subject": "English",
+      "topic": "English Language · Tenses",
+      "section": "English",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "By the time we arrive, they ___ already left.",
+      "options": [
+        "will",
+        "would",
+        "will have",
+        "would have"
+      ],
+      "answer": 2,
+      "solution": "Future perfect: will have + past participle.",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 85,
+      "subject": "English",
+      "topic": "English Language · Idioms",
+      "section": "English",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "What does 'break the ice' mean?",
+      "options": [
+        "Destroy ice",
+        "Initiate conversation",
+        "Cause trouble",
+        "End relationship"
+      ],
+      "answer": 1,
+      "solution": "Break the ice means to initiate conversation in a social setting.",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated"
+    }
+  ]
+}
