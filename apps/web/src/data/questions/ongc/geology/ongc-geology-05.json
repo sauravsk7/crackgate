@@ -22,7 +22,7 @@
       "count": 10
     },
     {
-      "name": "English Language",
+      "name": "English",
       "count": 10
     }
   ],
@@ -34,7 +34,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
+      "difficulty": "hard",
       "stem": "The mineral hardness on Mohs scale ranges from 1 to 10. Which mineral defines hardness of 9?",
       "options": [
         "Quartz",
@@ -60,7 +60,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
+      "difficulty": "hard",
       "stem": "The cubic (isometric) crystal system has how many independent axes of equal length, all at 90° to each other?",
       "options": [
         "3",
@@ -102,7 +102,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "In thin section under crossed polars, a mineral that shows identical refractive indices along all directions is called:",
       "options": [
         "Anisotropic",
@@ -149,7 +149,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "Which clay mineral has a 1:1 layer structure with the formula Al₂Si₂O₅(OH)₄?",
       "options": [
         "Montmorillonite",
@@ -191,7 +191,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "stem": "An igneous rock with phenocrysts embedded in a fine-grained groundmass is described as having which texture?",
       "options": [
         "Equigranular",
@@ -217,7 +217,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "According to Bowen's reaction series, which mineral is the first to crystallize from a cooling basaltic magma?",
       "options": [
         "Olivine",
@@ -243,7 +243,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "stem": "Basalt is the volcanic equivalent of which plutonic rock?",
       "options": [
         "Granite",
@@ -264,7 +264,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "A discordant igneous intrusion that cuts across pre-existing rock layers is called a:",
       "options": [
         "Sill",
@@ -306,7 +306,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
+      "difficulty": "hard",
       "stem": "The Wentworth grain size scale classifies sand-sized particles as having a diameter between:",
       "options": [
         "1/16 mm and 1 mm",
@@ -327,7 +327,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "stem": "In the Dunham classification of carbonate rocks, a mud-supported rock with less than 10% grains is classified as:",
       "options": [
         "Mudstone",
@@ -353,7 +353,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "stem": "The process by which loose sediment is converted into solid sedimentary rock is called:",
       "options": [
         "Metamorphism",
@@ -395,7 +395,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "stem": "Metamorphism that occurs due to directed pressure (stress) is called:",
       "options": [
         "Contact metamorphism",
@@ -416,7 +416,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "stem": "Which index mineral indicates medium-grade regional metamorphism of pelitic rocks (approximately 500–600°C)?",
       "options": [
         "Chlorite",
@@ -442,7 +442,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "The blueschist facies is characterized by high pressure and low temperature, and the presence of which diagnostic mineral?",
       "options": [
         "Garnet",
@@ -463,7 +463,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
+      "difficulty": "hard",
       "stem": "A schist differs from a phyllite primarily in having:",
       "options": [
         "Larger, visible metamorphic minerals",
@@ -484,7 +484,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "In igneous rocks, the rare earth element (REE) pattern normalized to chondrite typically shows a negative europium anomaly in rocks that have undergone:",
       "options": [
         "Crystal fractionation of olivine",
@@ -505,7 +505,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "stem": "The ⁸⁷Sr/⁸⁶Sr ratio is used in geochemistry to:",
       "options": [
         "Determine absolute age of rocks",
@@ -547,7 +547,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "In a closed-system fractional crystallization model, the concentration of an incompatible element in the residual melt follows:",
       "options": [
         "Rayleigh distillation equation",
@@ -568,7 +568,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
+      "difficulty": "hard",
       "stem": "A syncline is a fold where the youngest rocks are found in:",
       "options": [
         "The limbs",
@@ -594,7 +594,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "stem": "A normal fault is produced by which type of stress regime?",
       "options": [
         "Compression",
@@ -620,7 +620,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "stem": "The continuous branch of Bowen's reaction series involves progressive changes in the composition of:",
       "options": [
         "Olivine",
@@ -646,7 +646,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "stem": "Q₄/Q₆ ratio in grain-size analysis represents the ratio of the 75th percentile to the 25th percentile grain size. A high Q₄/Q₆ ratio indicates:",
       "options": [
         "Well-sorted sediment",
@@ -688,7 +688,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "The Clausius-Clapeyron equation (dP/dT = ΔS/ΔV) is used to determine the slope of a phase boundary in a P-T diagram. For the garnet-in reaction in pelites, the slope is typically:",
       "options": [
         "Negative",
@@ -709,7 +709,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "The AFM diagram is used to classify which group of metamorphic rocks?",
       "options": [
         "Mafic igneous rocks",
@@ -730,7 +730,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "X-ray diffraction (XRD) analysis of minerals is based on which law?",
       "options": [
         "Beer-Lambert law",
@@ -751,7 +751,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
+      "difficulty": "hard",
       "stem": "Cross-bedding with herringbone (bi-directional) structure is characteristic of which depositional environment?",
       "options": [
         "Deep marine",
@@ -777,7 +777,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "stem": "Pillow lavas are formed by the eruption of lava underwater. They are most commonly associated with:",
       "options": [
         "Continental flood basalts",
@@ -803,7 +803,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "Sillimanite fibrolite is a fibrous variety of Al₂SiO₅ that typically forms during high-grade metamorphism. It is most commonly found:",
       "options": [
         "Along grain boundaries of feldspar",
@@ -824,7 +824,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "The chondrite-normalized REE pattern of mid-ocean ridge basalts (MORB) is characterized by:",
       "options": [
         "LREE enrichment",
@@ -913,7 +913,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "In a spider diagram (multi-element plot normalized to primitive mantle), subduction zone magmas typically show:",
       "options": [
         "Depletion of Nb and Ti",
@@ -939,7 +939,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "stem": "What is the remainder when 2³⁷ is divided by 7?",
       "options": [
         "1",
@@ -951,7 +951,12 @@
       "solution": "2³ = 8 ≡ 1 (mod 7). So 2³⁷ = 2^(3×12+1) = (2³)¹² × 2¹ ≡ 1¹² × 2 = 2 (mod 7).",
       "estSec": 45,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Nested number sets",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Number System Hierarchy</text><rect x=\"150\" y=\"40\" width=\"180\" height=\"30\" fill=\"#dbeafe\" stroke=\"#3b82f6\" rx=\"4\"/><rect x=\"100\" y=\"80\" width=\"130\" height=\"30\" fill=\"#dcfce7\" stroke=\"#22c55e\" rx=\"4\"/><rect x=\"250\" y=\"80\" width=\"130\" height=\"30\" fill=\"#fef3c7\" stroke=\"#f59e0b\" rx=\"4\"/><rect x=\"120\" y=\"120\" width=\"90\" height=\"30\" fill=\"#fee2e2\" stroke=\"#ef4444\" rx=\"4\"/><rect x=\"120\" y=\"160\" width=\"40\" height=\"25\" fill=\"#e0e7ff\" stroke=\"#818cf8\" rx=\"4\"/><rect x=\"170\" y=\"160\" width=\"40\" height=\"25\" fill=\"#e0e7ff\" stroke=\"#818cf8\" rx=\"4\"/><text x=\"240\" y=\"60\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#3b82f6\" text-anchor=\"middle\" font-weight=\"bold\">Real Numbers</text><text x=\"165\" y=\"100\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#22c55e\" text-anchor=\"middle\" font-weight=\"bold\">Rational</text><text x=\"315\" y=\"100\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#f59e0b\" text-anchor=\"middle\" font-weight=\"bold\">Irrational</text><text x=\"165\" y=\"140\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#ef4444\" text-anchor=\"middle\" font-weight=\"bold\">Integers</text><text x=\"140\" y=\"177\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#818cf8\" text-anchor=\"middle\">ℕ</text><text x=\"190\" y=\"177\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#818cf8\" text-anchor=\"middle\">0</text></svg>"
+      }
     },
     {
       "id": 42,
@@ -972,7 +977,12 @@
       "solution": "Let CP = 100. MP = 140. SP = 140 × 0.80 = 112. Profit = 12%. Net profit = 12%.",
       "estSec": 35,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Pie chart of percentage distribution",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Percentage Breakdown</text><circle cx=\"160\" cy=\"110\" r=\"65\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"2\"/><path d=\"M160,110 L160,45 A65,65 0 0,1 218,75 Z\" fill=\"#3b82f6\" stroke=\"#3b82f6\" stroke-width=\"1.5\"/><path d=\"M160,110 L218,75 A65,65 0 0,1 218,155 Z\" fill=\"#ef4444\" stroke=\"#ef4444\" stroke-width=\"1.5\"/><path d=\"M160,110 L218,155 A65,65 0 0,1 102,155 Z\" fill=\"#22c55e\" stroke=\"#22c55e\" stroke-width=\"1.5\"/><text x=\"185\" y=\"70\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#3b82f6\" font-weight=\"bold\">35%</text><text x=\"210\" y=\"120\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#ef4444\" font-weight=\"bold\">25%</text><text x=\"120\" y=\"135\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#22c55e\" font-weight=\"bold\">40%</text><text x=\"370\" y=\"110\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Parts of 100%</text></svg>"
+      }
     },
     {
       "id": 43,
@@ -993,7 +1003,12 @@
       "solution": "A's rate = 1/12, B's rate = 1/18. Combined rate = 5/36. Work done in 6 days = 30/36 = 5/6. Remaining = 1/6. B alone: (1/6)/(1/18) = 3 days.",
       "estSec": 45,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Work rates: combined effort reduces time",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Work Rate Diagram</text><rect x=\"80\" y=\"55\" width=\"160\" height=\"30\" fill=\"#3b82f6\" stroke=\"#3b82f6\" rx=\"4\"/><rect x=\"80\" y=\"100\" width=\"120\" height=\"30\" fill=\"#22c55e\" stroke=\"#22c55e\" rx=\"4\"/><rect x=\"80\" y=\"145\" width=\"200\" height=\"30\" fill=\"#f59e0b\" stroke=\"#f59e0b\" rx=\"4\"/><text x=\"160\" y=\"75\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#fff\" text-anchor=\"middle\">A: 1/6 per day</text><text x=\"140\" y=\"120\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#fff\" text-anchor=\"middle\">B: 1/8 per day</text><text x=\"180\" y=\"165\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#fff\" text-anchor=\"middle\">Combined: 1/6+1/8 = 7/24</text></svg>"
+      }
     },
     {
       "id": 44,
@@ -1014,7 +1029,12 @@
       "solution": "A's rate = 1/6, B's rate = 1/12. Combined rate = 1/4. Work in 2 days = 1/2. Remaining = 1/2. B alone: (1/2)/(1/12) = 6 days.",
       "estSec": 45,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Work rates: combined effort reduces time",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Work Rate Diagram</text><rect x=\"80\" y=\"55\" width=\"160\" height=\"30\" fill=\"#3b82f6\" stroke=\"#3b82f6\" rx=\"4\"/><rect x=\"80\" y=\"100\" width=\"120\" height=\"30\" fill=\"#22c55e\" stroke=\"#22c55e\" rx=\"4\"/><rect x=\"80\" y=\"145\" width=\"200\" height=\"30\" fill=\"#f59e0b\" stroke=\"#f59e0b\" rx=\"4\"/><text x=\"160\" y=\"75\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#fff\" text-anchor=\"middle\">A: 1/6 per day</text><text x=\"140\" y=\"120\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#fff\" text-anchor=\"middle\">B: 1/8 per day</text><text x=\"180\" y=\"165\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#fff\" text-anchor=\"middle\">Combined: 1/6+1/8 = 7/24</text></svg>"
+      }
     },
     {
       "id": 45,
@@ -1023,7 +1043,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "stem": "The ratio of present ages of A and B is 3:5. After 8 years, the ratio becomes 5:7. What is A's present age?",
       "options": [
         "10 years",
@@ -1035,7 +1055,12 @@
       "solution": "Let ages be 3x and 5x. After 8 years: (3x+8)/(5x+8) = 5/7. Cross-multiply: 21x+56 = 25x+40 → 4x = 16 → x = 4. A's age = 12.",
       "estSec": 40,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Bar representation of ratio 3:2",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Ratio Visualization</text><rect x=\"60\" y=\"65\" width=\"120\" height=\"40\" fill=\"#3b82f6\" stroke=\"#3b82f6\" rx=\"4\"/><rect x=\"60\" y=\"120\" width=\"80\" height=\"40\" fill=\"#ef4444\" stroke=\"#ef4444\" rx=\"4\"/><text x=\"120\" y=\"90\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#fff\" text-anchor=\"middle\" font-weight=\"bold\">3 parts</text><text x=\"100\" y=\"145\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#fff\" text-anchor=\"middle\" font-weight=\"bold\">2 parts</text><text x=\"300\" y=\"100\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">A : B = 3 : 2</text></svg>"
+      }
     },
     {
       "id": 46,
@@ -1056,7 +1081,12 @@
       "solution": "Sum of 5 numbers = 5 × 42 = 210. Sum of 4 numbers = 4 × 38 = 152. Excluded number = 210 − 152 = 58.",
       "estSec": 30,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Average as horizontal line through data",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Average</text><line x1=\"60\" y1=\"170\" x2=\"440\" y2=\"170\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"60\" y1=\"30\" x2=\"60\" y2=\"170\" stroke=\"#64748b\" stroke-width=\"2\"/><rect x=\"80\" y=\"120\" width=\"30\" height=\"50\" fill=\"#3b82f6\" stroke=\"#3b82f6\" rx=\"2\"/><rect x=\"120\" y=\"80\" width=\"30\" height=\"90\" fill=\"#22c55e\" stroke=\"#22c55e\" rx=\"2\"/><rect x=\"160\" y=\"100\" width=\"30\" height=\"70\" fill=\"#f59e0b\" stroke=\"#f59e0b\" rx=\"2\"/><rect x=\"200\" y=\"60\" width=\"30\" height=\"110\" fill=\"#ef4444\" stroke=\"#ef4444\" rx=\"2\"/><rect x=\"240\" y=\"90\" width=\"30\" height=\"80\" fill=\"#8b5cf6\" stroke=\"#8b5cf6\" rx=\"2\"/><line x1=\"60\" y1=\"105\" x2=\"280\" y2=\"105\" stroke=\"#ef4444\" stroke-width=\"2\" stroke-dasharray=\"5\"/><text x=\"350\" y=\"105\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#ef4444\" text-anchor=\"middle\" font-weight=\"bold\">Mean = Σxᵢ/n</text></svg>"
+      }
     },
     {
       "id": 47,
@@ -1065,7 +1095,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "stem": "The compound interest on a sum of ₹8000 at 10% per annum for 2 years, compounded annually, is:",
       "options": [
         "₹1600",
@@ -1077,7 +1107,12 @@
       "solution": "CI = P(1+r)ⁿ − P = 8000(1.1)² − 8000 = 8000 × 1.21 − 8000 = 9680 − 8000 = ₹1680.",
       "estSec": 35,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Compound interest grows faster than simple",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">SI vs CI Growth</text><line x1=\"60\" y1=\"170\" x2=\"440\" y2=\"170\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"60\" y1=\"30\" x2=\"60\" y2=\"170\" stroke=\"#64748b\" stroke-width=\"2\"/><path d=\"M80,150 L200,110 L320,70 L400,30\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"2.5\"/><path d=\"M80,150 L160,120 L240,90 L320,60 L400,30\" fill=\"none\" stroke=\"#ef4444\" stroke-width=\"2\" stroke-dasharray=\"5\"/><text x=\"410\" y=\"28\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#3b82f6\" font-weight=\"bold\">CI</text><text x=\"410\" y=\"38\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#ef4444\">SI</text><text x=\"240\" y=\"195\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">CI > SI for same rate & time</text></svg>"
+      }
     },
     {
       "id": 48,
@@ -1098,7 +1133,12 @@
       "solution": "Favorable outcomes for sum 9: (3,6), (4,5), (5,4), (6,3) = 4 outcomes. Total outcomes = 36. P(sum=9) = 4/36 = 1/9.",
       "estSec": 35,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Venn diagram for probability union",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Probability Venn</text><circle cx=\"170\" cy=\"110\" r=\"55\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"2\"/><circle cx=\"300\" cy=\"110\" r=\"55\" fill=\"#dcfce7\" stroke=\"#22c55e\" stroke-width=\"2\"/><text x=\"145\" y=\"85\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#3b82f6\" font-weight=\"bold\">P(A)</text><text x=\"325\" y=\"85\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#22c55e\" font-weight=\"bold\">P(B)</text><text x=\"235\" y=\"115\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#f59e0b\" text-anchor=\"middle\" font-weight=\"bold\">A∩B</text><text x=\"240\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">P(A∪B)=P(A)+P(B)−P(A∩B)</text></svg>"
+      }
     },
     {
       "id": 49,
@@ -1107,7 +1147,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "stem": "A cylindrical tank of radius 7 m and height 10 m is filled with water. How many litres of water does it hold? (Take π = 22/7)",
       "options": [
         "154000 L",
@@ -1119,7 +1159,12 @@
       "solution": "Volume = πr²h = (22/7) × 7² × 10 = 22 × 7 × 10 = 1540 m³ = 1,540,000 L.",
       "estSec": 40,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Common shapes formulas",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">2D & 3D Shapes</text><rect x=\"40\" y=\"60\" width=\"70\" height=\"50\" fill=\"#dbeafe\" stroke=\"#3b82f6\"/><circle cx=\"200\" cy=\"85\" r=\"30\" fill=\"#dcfce7\" stroke=\"#22c55e\"/><path d=\"M310,60 L350,40 L390,60 L390,120 L350,140 L310,120 Z\" fill=\"none\" stroke=\"#f59e0b\" stroke-width=\"2\"/><text x=\"75\" y=\"130\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#3b82f6\" text-anchor=\"middle\">Rect</text><text x=\"200\" y=\"130\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#22c55e\" text-anchor=\"middle\">Circle</text><text x=\"350\" y=\"130\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#f59e0b\" text-anchor=\"middle\">Cylinder</text><text x=\"240\" y=\"175\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">A=lw  |  A=πr²  |  V=πr²h</text></svg>"
+      }
     },
     {
       "id": 50,
@@ -1128,7 +1173,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "stem": "By selling an article for ₹720, a man loses 20%. At what price should he sell it to gain 10%?",
       "options": [
         "₹880",
@@ -1140,7 +1185,12 @@
       "solution": "SP = 720, loss = 20%. CP = 720/0.80 = 900. For 10% profit: SP = 900 × 1.10 = ₹990.",
       "estSec": 35,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Cost vs selling price comparison",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Profit & Loss</text><rect x=\"80\" y=\"70\" width=\"70\" height=\"70\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"2\" rx=\"4\"/><rect x=\"200\" y=\"50\" width=\"70\" height=\"90\" fill=\"#dcfce7\" stroke=\"#22c55e\" stroke-width=\"2\" rx=\"4\"/><rect x=\"320\" y=\"90\" width=\"70\" height=\"50\" fill=\"#fee2e2\" stroke=\"#ef4444\" stroke-width=\"2\" rx=\"4\"/><text x=\"115\" y=\"110\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#3b82f6\" text-anchor=\"middle\" font-weight=\"bold\">CP</text><text x=\"235\" y=\"105\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#22c55e\" text-anchor=\"middle\" font-weight=\"bold\">SP > CP</text><text x=\"235\" y=\"125\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#22c55e\" text-anchor=\"middle\">Profit</text><text x=\"355\" y=\"115\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#ef4444\" text-anchor=\"middle\" font-weight=\"bold\">SP < CP</text><text x=\"355\" y=\"130\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#ef4444\" text-anchor=\"middle\">Loss</text></svg>"
+      }
     },
     {
       "id": 51,
@@ -1161,7 +1211,12 @@
       "solution": "Differences: 4, 6, 8, 10, 12. The differences increase by 2 each time. Next number = 30 + 12 = 42. Alternatively, n(n+1): 1×2, 2×3, 3×4, 4×5, 5×6, 6×7=42.",
       "estSec": 35,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Series with increasing differences",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Number Series</text><line x1=\"60\" y1=\"100\" x2=\"420\" y2=\"100\" stroke=\"#94a3b8\"/><circle cx=\"100\" cy=\"100\" r=\"20\" fill=\"#dbeafe\" stroke=\"#3b82f6\"/><circle cx=\"180\" cy=\"100\" r=\"20\" fill=\"#dcfce7\" stroke=\"#22c55e\"/><circle cx=\"260\" cy=\"100\" r=\"20\" fill=\"#fef3c7\" stroke=\"#f59e0b\"/><circle cx=\"340\" cy=\"100\" r=\"20\" fill=\"#fee2e2\" stroke=\"#ef4444\"/><circle cx=\"420\" cy=\"100\" r=\"20\" fill=\"#e0e7ff\" stroke=\"#818cf8\"/><text x=\"100\" y=\"105\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#3b82f6\" text-anchor=\"middle\">2</text><text x=\"180\" y=\"105\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#22c55e\" text-anchor=\"middle\">6</text><text x=\"260\" y=\"105\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#f59e0b\" text-anchor=\"middle\">12</text><text x=\"340\" y=\"105\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#ef4444\" text-anchor=\"middle\">20</text><text x=\"420\" y=\"105\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#818cf8\" text-anchor=\"middle\">?</text><text x=\"240\" y=\"160\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">+4, +6, +8, +10 → 30</text></svg>"
+      }
     },
     {
       "id": 52,
@@ -1182,7 +1237,12 @@
       "solution": "Applying the same coding pattern to METALS yields KCXYWS. Each letter undergoes a specific positional shift in the cipher.",
       "estSec": 45,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Letter-to-letter coding pattern",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Letter Code</text><text x=\"160\" y=\"70\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3b82f6\" font-weight=\"bold\">A  B  C  D  E  F  G</text><text x=\"160\" y=\"90\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#f59e0b\">↓  ↓  ↓  ↓  ↓  ↓  ↓</text><text x=\"160\" y=\"115\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#ef4444\" font-weight=\"bold\">Z  Y  X  W  V  U  T</text><text x=\"240\" y=\"160\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#64748b\" text-anchor=\"middle\">Reverse cipher: A→Z, B→Y, ...</text></svg>"
+      }
     },
     {
       "id": 53,
@@ -1203,7 +1263,12 @@
       "solution": "The only son of Ramesh's grandfather is Ramesh's father. The daughter of Ramesh's father is Ramesh's sister.",
       "estSec": 40,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Family tree for blood relation problems",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Family Tree</text><circle cx=\"160\" cy=\"50\" r=\"16\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"2\"/><circle cx=\"320\" cy=\"50\" r=\"16\" fill=\"#fee2e2\" stroke=\"#ef4444\" stroke-width=\"2\"/><line x1=\"176\" y1=\"50\" x2=\"304\" y2=\"50\" stroke=\"#f59e0b\" stroke-width=\"2\"/><line x1=\"240\" y1=\"50\" x2=\"240\" y2=\"85\" stroke=\"#64748b\" stroke-width=\"1.5\"/><circle cx=\"160\" cy=\"120\" r=\"14\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"2\"/><circle cx=\"240\" cy=\"120\" r=\"14\" fill=\"#fee2e2\" stroke=\"#ef4444\" stroke-width=\"2\"/><circle cx=\"320\" cy=\"120\" r=\"14\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"2\"/><line x1=\"240\" y1=\"85\" x2=\"160\" y2=\"106\"/><line x1=\"240\" y1=\"85\" x2=\"240\" y2=\"106\"/><line x1=\"240\" y1=\"85\" x2=\"320\" y2=\"106\"/><text x=\"160\" y=\"54\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#3b82f6\" text-anchor=\"middle\">M</text><text x=\"320\" y=\"54\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#ef4444\" text-anchor=\"middle\">F</text><text x=\"160\" y=\"124\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#3b82f6\" text-anchor=\"middle\">S</text><text x=\"240\" y=\"124\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#ef4444\" text-anchor=\"middle\">D</text><text x=\"320\" y=\"124\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#3b82f6\" text-anchor=\"middle\">S</text></svg>"
+      }
     },
     {
       "id": 54,
@@ -1212,7 +1277,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "stem": "A man walks 5 km North, turns right and walks 3 km, turns right again and walks 5 km. In which direction is he from the starting point?",
       "options": [
         "North",
@@ -1224,7 +1289,12 @@
       "solution": "He goes North 5 km, East 3 km, then South 5 km. Net displacement: 3 km East of starting point. He is to the East.",
       "estSec": 30,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Cardinal directions compass",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Compass Rose</text><circle cx=\"240\" cy=\"110\" r=\"65\" fill=\"#f0f9ff\" stroke=\"#3b82f6\" stroke-width=\"2\"/><line x1=\"240\" y1=\"45\" x2=\"240\" y2=\"175\" stroke=\"#94a3b8\" stroke-width=\"1\"/><line x1=\"175\" y1=\"110\" x2=\"305\" y2=\"110\" stroke=\"#94a3b8\" stroke-width=\"1\"/><path d=\"M240,110 L270,70\" fill=\"none\" stroke=\"#ef4444\" stroke-width=\"2.5\"/><text x=\"240\" y=\"42\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#ef4444\" text-anchor=\"middle\" font-weight=\"bold\">N</text><text x=\"240\" y=\"185\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3b82f6\" text-anchor=\"middle\" font-weight=\"bold\">S</text><text x=\"315\" y=\"114\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#22c55e\" text-anchor=\"middle\" font-weight=\"bold\">E</text><text x=\"165\" y=\"114\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#f59e0b\" text-anchor=\"middle\" font-weight=\"bold\">W</text><text x=\"280\" y=\"65\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#ef4444\">NE</text></svg>"
+      }
     },
     {
       "id": 55,
@@ -1233,7 +1303,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "stem": "Statements: All dogs are animals. Some animals are cats. Conclusion: Some dogs are cats.",
       "options": [
         "Definitely true",
@@ -1245,7 +1315,12 @@
       "solution": "From 'All dogs are animals' and 'Some animals are cats', we cannot conclude that any dogs are cats. The cats that are animals might not include any dogs. The conclusion does not follow.",
       "estSec": 40,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Venn diagram for syllogism",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Syllogism Venn</text><circle cx=\"180\" cy=\"110\" r=\"50\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"2\"/><circle cx=\"300\" cy=\"110\" r=\"50\" fill=\"#dcfce7\" stroke=\"#22c55e\" stroke-width=\"2\"/><text x=\"165\" y=\"80\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#3b82f6\">All A</text><text x=\"315\" y=\"80\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#22c55e\">Some B</text><text x=\"240\" y=\"115\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#f59e0b\" text-anchor=\"middle\" font-weight=\"bold\">Overlap?</text></svg>"
+      }
     },
     {
       "id": 56,
@@ -1254,7 +1329,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "stem": "Find the odd one out: 3, 5, 7, 12, 17, 19",
       "options": [
         "3",
@@ -1266,7 +1341,12 @@
       "solution": "All numbers except 12 are prime numbers. 12 = 2² × 3 is composite.",
       "estSec": 25,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Identify the outlier",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Find the Odd One</text><circle cx=\"80\" cy=\"100\" r=\"28\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"2\"/><circle cx=\"180\" cy=\"100\" r=\"28\" fill=\"#dcfce7\" stroke=\"#22c55e\" stroke-width=\"2\"/><circle cx=\"280\" cy=\"100\" r=\"28\" fill=\"#fee2e2\" stroke=\"#ef4444\" stroke-width=\"2\"/><circle cx=\"380\" cy=\"100\" r=\"28\" fill=\"#fef3c7\" stroke=\"#f59e0b\" stroke-width=\"2\"/><text x=\"80\" y=\"105\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3b82f6\" text-anchor=\"middle\">A</text><text x=\"180\" y=\"105\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#22c55e\" text-anchor=\"middle\">B</text><text x=\"280\" y=\"105\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#ef4444\" text-anchor=\"middle\">C</text><text x=\"380\" y=\"105\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#f59e0b\" text-anchor=\"middle\">D</text></svg>"
+      }
     },
     {
       "id": 57,
@@ -1287,7 +1367,12 @@
       "solution": "B is at right end (position 5). A is right of E: E A. C is left of D: C D. So arrangement from left: E, A, C, D, B. C is in position 3 (middle).",
       "estSec": 50,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Circular arrangement with positions",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Circular Seating</text><circle cx=\"240\" cy=\"110\" r=\"60\" fill=\"#f0f9ff\" stroke=\"#3b82f6\" stroke-width=\"2\"/><circle cx=\"240\" cy=\"50\" r=\"12\" fill=\"#dbeafe\" stroke=\"#3b82f6\"/><circle cx=\"292\" cy=\"80\" r=\"12\" fill=\"#dcfce7\" stroke=\"#22c55e\"/><circle cx=\"292\" cy=\"140\" r=\"12\" fill=\"#fef3c7\" stroke=\"#f59e0b\"/><circle cx=\"240\" cy=\"170\" r=\"12\" fill=\"#fee2e2\" stroke=\"#ef4444\"/><circle cx=\"188\" cy=\"140\" r=\"12\" fill=\"#e0e7ff\" stroke=\"#818cf8\"/><circle cx=\"188\" cy=\"80\" r=\"12\" fill=\"#fce7f3\" stroke=\"#ec4899\"/><text x=\"240\" y=\"54\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#3b82f6\" text-anchor=\"middle\">1</text><text x=\"292\" y=\"84\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#22c55e\" text-anchor=\"middle\">2</text><text x=\"292\" y=\"144\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#f59e0b\" text-anchor=\"middle\">3</text><text x=\"240\" y=\"174\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#ef4444\" text-anchor=\"middle\">4</text><text x=\"188\" y=\"144\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#818cf8\" text-anchor=\"middle\">5</text><text x=\"188\" y=\"84\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#ec4899\" text-anchor=\"middle\">6</text></svg>"
+      }
     },
     {
       "id": 58,
@@ -1296,7 +1381,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "stem": "Production of oil (in million tonnes) by a company over 5 years: 2019: 45, 2020: 52, 2021: 48, 2022: 60, 2023: 55. What is the average annual production?",
       "options": [
         "48",
@@ -1322,7 +1407,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "Refinery throughput (in KBPD) over 6 months: Jan: 120, Feb: 115, Mar: 130, Apr: 125, May: 140, Jun: 135. What is the percentage increase from February to May?",
       "options": [
         "15%",
@@ -1348,7 +1433,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "stem": "ONGC's total expenditure is ₹5000 crore. If exploration accounts for 35%, production 30%, refining 20%, and others 15%, what is the expenditure on production?",
       "options": [
         "₹1500 crore",
@@ -1386,7 +1471,12 @@
       "solution": "Mumbai High: 450 × 0.90 = 405. KG: 320 × 1.15 = 368. Others: 180 + 250 + 120 = 550. Total = 405 + 368 + 550 = 1323 MMT.",
       "estSec": 50,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Bar chart showing quarterly data",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Bar Chart · Sales Data</text><line x1=\"60\" y1=\"170\" x2=\"440\" y2=\"170\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"60\" y1=\"30\" x2=\"60\" y2=\"170\" stroke=\"#64748b\" stroke-width=\"2\"/><rect x=\"85\" y=\"80\" width=\"40\" height=\"90\" fill=\"#3b82f6\" stroke=\"#3b82f6\" rx=\"2\"/><rect x=\"145\" y=\"110\" width=\"40\" height=\"60\" fill=\"#ef4444\" stroke=\"#ef4444\" rx=\"2\"/><rect x=\"205\" y=\"60\" width=\"40\" height=\"110\" fill=\"#22c55e\" stroke=\"#22c55e\" rx=\"2\"/><rect x=\"265\" y=\"95\" width=\"40\" height=\"75\" fill=\"#f59e0b\" stroke=\"#f59e0b\" rx=\"2\"/><rect x=\"325\" y=\"100\" width=\"40\" height=\"70\" fill=\"#8b5cf6\" stroke=\"#8b5cf6\" rx=\"2\"/><text x=\"105\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Q1</text><text x=\"165\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Q2</text><text x=\"225\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Q3</text><text x=\"285\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Q4</text><text x=\"345\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Q5</text></svg>"
+      }
     },
     {
       "id": 62,
@@ -1421,7 +1511,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "stem": "In what ratio must water be mixed with milk costing ₹32 per litre to obtain a mixture worth ₹24 per litre?",
       "options": [
         "1:2",
@@ -1433,7 +1523,12 @@
       "solution": "By alligation: Water (₹0) and Milk (₹32). Mean price = ₹24. Ratio = (32−24):(24−0) = 8:24 = 1:3.",
       "estSec": 40,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Alligation cross method",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Alligation Cross</text><circle cx=\"100\" cy=\"80\" r=\"35\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"2\"/><circle cx=\"380\" cy=\"80\" r=\"35\" fill=\"#fee2e2\" stroke=\"#ef4444\" stroke-width=\"2\"/><circle cx=\"240\" cy=\"130\" r=\"30\" fill=\"#fef3c7\" stroke=\"#f59e0b\" stroke-width=\"2\"/><line x1=\"135\" y1=\"80\" x2=\"210\" y2=\"120\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/><line x1=\"345\" y1=\"80\" x2=\"270\" y2=\"120\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/><text x=\"100\" y=\"84\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#3b82f6\" text-anchor=\"middle\">Cheaper</text><text x=\"380\" y=\"84\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#ef4444\" text-anchor=\"middle\">Dearer</text><text x=\"240\" y=\"134\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#f59e0b\" text-anchor=\"middle\">Mean</text></svg>"
+      }
     },
     {
       "id": 64,
@@ -1442,7 +1537,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "stem": "Doctor : Hospital :: Teacher : ?",
       "options": [
         "Office",
@@ -1454,7 +1549,12 @@
       "solution": "A doctor works in a hospital; a teacher works in a school. The analogy is profession : workplace.",
       "estSec": 25,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "A:B::C:D analogy format",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Word Analogy</text><rect x=\"60\" y=\"55\" width=\"130\" height=\"40\" fill=\"#dbeafe\" stroke=\"#3b82f6\" rx=\"4\"/><rect x=\"290\" y=\"55\" width=\"130\" height=\"40\" fill=\"#dcfce7\" stroke=\"#22c55e\" rx=\"4\"/><line x1=\"200\" y1=\"75\" x2=\"280\" y2=\"75\" stroke=\"#f59e0b\" stroke-width=\"2.5\"/><text x=\"125\" y=\"80\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#3b82f6\" text-anchor=\"middle\">Doctor : Hospital</text><text x=\"355\" y=\"80\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#22c55e\" text-anchor=\"middle\">Teacher : ?</text><text x=\"240\" y=\"72\" font-family=\"sans-serif\" font-size=\"14\" fill=\"#f59e0b\" text-anchor=\"middle\" font-weight=\"bold\">::</text><text x=\"240\" y=\"130\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Person : Workplace</text><text x=\"240\" y=\"160\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#ef4444\" text-anchor=\"middle\" font-weight=\"bold\">Answer: School</text></svg>"
+      }
     },
     {
       "id": 65,
@@ -1463,7 +1563,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "A well is 14 m deep. A frog starts jumping from the bottom. It jumps 4 m up during the day and slips 2 m at night. On which day does the frog reach the top?",
       "options": [
         "5th day",
@@ -1475,431 +1575,431 @@
       "solution": "Net gain per day = 4−2 = 2 m. After 5 full days (day+night): 5×2 = 10 m. On day 6, the frog jumps 4 m: 10+4 = 14 m. It reaches the top on the 6th day.",
       "estSec": 40,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Bar chart showing quarterly data",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Bar Chart · Sales Data</text><line x1=\"60\" y1=\"170\" x2=\"440\" y2=\"170\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"60\" y1=\"30\" x2=\"60\" y2=\"170\" stroke=\"#64748b\" stroke-width=\"2\"/><rect x=\"85\" y=\"80\" width=\"40\" height=\"90\" fill=\"#3b82f6\" stroke=\"#3b82f6\" rx=\"2\"/><rect x=\"145\" y=\"110\" width=\"40\" height=\"60\" fill=\"#ef4444\" stroke=\"#ef4444\" rx=\"2\"/><rect x=\"205\" y=\"60\" width=\"40\" height=\"110\" fill=\"#22c55e\" stroke=\"#22c55e\" rx=\"2\"/><rect x=\"265\" y=\"95\" width=\"40\" height=\"75\" fill=\"#f59e0b\" stroke=\"#f59e0b\" rx=\"2\"/><rect x=\"325\" y=\"100\" width=\"40\" height=\"70\" fill=\"#8b5cf6\" stroke=\"#8b5cf6\" rx=\"2\"/><text x=\"105\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Q1</text><text x=\"165\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Q2</text><text x=\"225\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Q3</text><text x=\"285\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Q4</text><text x=\"345\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Q5</text></svg>"
+      }
     },
     {
       "id": 66,
       "subject": "General Awareness",
-      "topic": "Current Affairs · Indian Economy",
+      "topic": "Current Affairs · Oil & Gas",
       "section": "GA",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
-      "stem": "Which organization is the nodal agency for promoting exploration and production in India's hydrocarbon sector under the Ministry of Petroleum and Natural Gas?",
+      "difficulty": "easy",
+      "stem": "ONGC's largest oil discovery in recent years was in which block?",
       "options": [
-        "ONGC",
-        "DGH (Directorate General of Hydrocarbons)",
-        "GAIL",
-        "IOCL"
+        "KG Basin",
+        "Mumbai High",
+        "Cauvery Basin",
+        "Assam"
       ],
-      "answer": 1,
-      "solution": "The Directorate General of Hydrocarbons (DGH) is the nodal regulatory body for upstream oil and gas exploration and production activities in India.",
-      "estSec": 35,
-      "topicWeight": 0.125,
+      "answer": 0,
+      "solution": "ONGC made a significant discovery in the KG Basin.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 67,
       "subject": "General Awareness",
-      "topic": "Current Affairs · Oil & Gas Industry",
+      "topic": "Current Affairs · Global",
       "section": "GA",
       "type": "MCQ",
       "marks": 1,
       "difficulty": "easy",
-      "stem": "India's first ultra-deepwater gas discovery was made in which basin?",
+      "stem": "The G20 summit under India's presidency was held in:",
       "options": [
-        "Krishna-Godavari Basin",
-        "Mumbai Offshore Basin",
-        "Cauvery Basin",
-        "Assam Shelf"
+        "Mumbai",
+        "New Delhi",
+        "Bengaluru",
+        "Chennai"
       ],
-      "answer": 0,
-      "solution": "The KG-D6 block (Krishna-Godavari Basin) made India's first ultra-deepwater gas discovery, operated by Reliance Industries.",
-      "estSec": 30,
-      "topicWeight": 0.125,
+      "answer": 1,
+      "solution": "The G20 summit was held in New Delhi.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 68,
       "subject": "General Awareness",
-      "topic": "Current Affairs · ONGC",
+      "topic": "Current Affairs · Technology",
       "section": "GA",
       "type": "MCQ",
       "marks": 1,
       "difficulty": "medium",
-      "stem": "ONGC's flagship Mumbai High field is located in which sea?",
+      "stem": "Which Indian IT company recently partnered with NVIDIA for AI cloud services?",
       "options": [
-        "Bay of Bengal",
-        "Arabian Sea",
-        "Indian Ocean",
-        "Andaman Sea"
+        "TCS",
+        "Infosys",
+        "Wipro",
+        "HCL"
       ],
       "answer": 1,
-      "solution": "Mumbai High, India's largest oil field, is located about 170 km west of Mumbai in the Arabian Sea on the continental shelf.",
-      "estSec": 30,
-      "topicWeight": 0.125,
+      "solution": "Infosys partnered with NVIDIA for AI cloud services.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 69,
-      "subject": "General Awareness",
-      "topic": "Current Affairs · Energy Policy",
-      "section": "GA",
-      "type": "MCQ",
-      "marks": 1,
-      "difficulty": "medium",
-      "stem": "Which policy introduced by the Government of India aims to achieve 'net zero' carbon emissions by 2070?",
-      "options": [
-        "National Energy Policy 2023",
-        "India's Long-term Low-emission Development Strategy",
-        "National Solar Mission",
-        "National Hydrogen Mission"
-      ],
-      "answer": 1,
-      "solution": "India's Long-term Low-emission Development Strategy, submitted at COP26 and updated at COP27, outlines the pathway to achieve net zero by 2070.",
-      "estSec": 40,
-      "topicWeight": 0.125,
-      "source": "curated"
-    },
-    {
-      "id": 70,
-      "subject": "General Awareness",
-      "topic": "Current Affairs · Geopolitics",
-      "section": "GA",
-      "type": "MCQ",
-      "marks": 1,
-      "difficulty": "easy",
-      "stem": "OPEC stands for:",
-      "options": [
-        "Organization of Petroleum Exporting Countries",
-        "Organization of Primary Energy Consumers",
-        "Organization of Petroleum and Energy Communities",
-        "Organization of Producers of Energy Commodities"
-      ],
-      "answer": 0,
-      "solution": "OPEC (Organization of the Petroleum Exporting Countries) was founded in 1960 and coordinates petroleum policies of member states to stabilize oil markets.",
-      "estSec": 25,
-      "topicWeight": 0.125,
-      "source": "curated"
-    },
-    {
-      "id": 71,
       "subject": "General Awareness",
       "topic": "Current Affairs · Environment",
       "section": "GA",
       "type": "MCQ",
       "marks": 1,
       "difficulty": "medium",
-      "stem": "The Paris Agreement on climate change aims to limit global warming to well below how many degrees Celsius above pre-industrial levels?",
+      "stem": "COP28 was held in which country?",
       "options": [
-        "1.0°C",
-        "1.5°C",
-        "2.0°C",
-        "2.5°C"
+        "Egypt",
+        "UAE",
+        "India",
+        "UK"
       ],
-      "answer": 2,
-      "solution": "The Paris Agreement (2015) aims to limit global warming to well below 2°C above pre-industrial levels, with efforts to limit it to 1.5°C.",
-      "estSec": 30,
-      "topicWeight": 0.125,
+      "answer": 1,
+      "solution": "COP28 was held in Dubai, UAE.",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 70,
+      "subject": "General Awareness",
+      "topic": "Current Affairs · Awards",
+      "section": "GA",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "India's highest civilian award is:",
+      "options": [
+        "Padma Vibhushan",
+        "Bharat Ratna",
+        "Padma Bhushan",
+        "Gandhi Peace Prize"
+      ],
+      "answer": 1,
+      "solution": "Bharat Ratna is India's highest civilian award.",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 71,
+      "subject": "General Awareness",
+      "topic": "Current Affairs · Oil & Gas",
+      "section": "GA",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "India's crude oil imports from Russia increased significantly due to:",
+      "options": [
+        "Pipeline completion",
+        "Discounted prices post-sanctions",
+        "New trade agreement",
+        "Currency swap"
+      ],
+      "answer": 1,
+      "solution": "India increased imports from Russia due to discounted prices after Western sanctions.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 72,
       "subject": "General Awareness",
-      "topic": "Current Affairs · Science & Technology",
+      "topic": "Static GK · Geography",
       "section": "GA",
       "type": "MCQ",
       "marks": 1,
       "difficulty": "easy",
-      "stem": "Which Indian organization successfully landed Chandrayaan-3 on the Moon's south pole in August 2023?",
+      "stem": "Southernmost point of India:",
       "options": [
-        "DRDO",
-        "ISRO",
-        "BARC",
-        "ONGC"
+        "Indira Point",
+        "Kanyakumari",
+        "Dhanushkodi",
+        "Rameswaram"
       ],
-      "answer": 1,
-      "solution": "ISRO (Indian Space Research Organisation) successfully landed the Chandrayaan-3 Vikram lander on the Moon's south pole on August 23, 2023.",
-      "figure": {
-        "kind": "svg",
-        "caption": "Chandrayaan-3 mission profile — launch to lunar landing",
-        "markup": "<svg viewBox='0 0 350 160' xmlns='http://www.w3.org/2000/svg'><rect fill='#f8f9fa' width='350' height='160' rx='8'/><text x='175' y='18' text-anchor='middle' font-size='12' font-weight='bold' fill='#333'>Chandrayaan-3 Mission</text><circle cx='50' cy='100' r='25' fill='#3498db'/><text x='50' y='105' text-anchor='middle' font-size='9' fill='#fff'>Earth</text><ellipse cx='175' cy='100' rx='50' ry='15' fill='none' stroke='#999' stroke-width='1' stroke-dasharray='3'/><circle cx='300' cy='100' r='18' fill='#bdc3c7'/><text x='300' y='105' text-anchor='middle' font-size='8' fill='#333'>Moon</text><path d='M50,75 Q175,20 300,82' fill='none' stroke='#e74c3c' stroke-width='2' stroke-dasharray='4'/><circle cx='300' cy='82' r='4' fill='#27ae60'/><text x='300' y='75' text-anchor='middle' font-size='7' fill='#27ae60'>Lander</text><text x='175' y='145' text-anchor='middle' font-size='9' fill='#666'>Aug 23, 2023 — South Pole landing</text></svg>"
-      },
-      "estSec": 25,
-      "topicWeight": 0.125,
+      "answer": 0,
+      "solution": "Indira Point in Nicobar Islands is the southernmost point.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 73,
       "subject": "General Awareness",
-      "topic": "Current Affairs · Indian Polity",
+      "topic": "Static GK · Science",
       "section": "GA",
       "type": "MCQ",
       "marks": 1,
       "difficulty": "medium",
-      "stem": "Which Article of the Indian Constitution deals with the Right to Equality?",
+      "stem": "Which planet is known as the 'Red Planet'?",
       "options": [
-        "Article 12",
-        "Article 14",
-        "Article 19",
-        "Article 21"
+        "Venus",
+        "Mars",
+        "Jupiter",
+        "Saturn"
       ],
       "answer": 1,
-      "solution": "Article 14 of the Indian Constitution guarantees equality before law and equal protection of laws to all persons within the territory of India.",
-      "estSec": 35,
-      "topicWeight": 0.125,
+      "solution": "Mars is known as the Red Planet.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 74,
       "subject": "General Awareness",
-      "topic": "Current Affairs · Industry",
+      "topic": "Static GK · Indian Polity",
       "section": "GA",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
-      "stem": "Which country is the world's largest crude oil producer as of 2024?",
+      "difficulty": "medium",
+      "stem": "How many fundamental rights are currently recognized?",
       "options": [
-        "Saudi Arabia",
-        "Russia",
-        "United States",
-        "China"
+        "5",
+        "6",
+        "7",
+        "8"
       ],
-      "answer": 2,
-      "solution": "The United States surpassed Saudi Arabia and Russia to become the world's largest crude oil producer, largely due to the shale revolution.",
-      "estSec": 30,
-      "topicWeight": 0.125,
+      "answer": 1,
+      "solution": "There are 6 fundamental rights currently recognized.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 75,
       "subject": "General Awareness",
-      "topic": "Current Affairs · Geography",
+      "topic": "Static GK · Science",
       "section": "GA",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
-      "stem": "The Sahil Basin, a promising hydrocarbon province in India, is located in which state?",
+      "difficulty": "hard",
+      "stem": "SI unit of electric current is:",
       "options": [
-        "Gujarat",
-        "Rajasthan",
-        "Andhra Pradesh",
-        "Tamil Nadu"
+        "Volt",
+        "Watt",
+        "Ampere",
+        "Ohm"
       ],
-      "answer": 0,
-      "solution": "The Sahil Basin is located in Gujarat, onshore western India. It has been identified as a prospective basin for hydrocarbon exploration.",
-      "estSec": 35,
-      "topicWeight": 0.125,
+      "answer": 2,
+      "solution": "Ampere is the SI unit of electric current.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 76,
-      "subject": "English Language",
-      "topic": "Grammar · Tenses",
+      "subject": "English",
+      "topic": "English Language · Tenses",
       "section": "English",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
-      "stem": "Choose the correct form: She __________ to the market yesterday.",
+      "difficulty": "medium",
+      "stem": "By the time we arrive, they ___ already left.",
       "options": [
-        "go",
-        "goes",
-        "went",
-        "has gone"
+        "will",
+        "would",
+        "will have",
+        "would have"
       ],
       "answer": 2,
-      "solution": "'Yesterday' indicates past tense. The correct form is 'went' (simple past of 'go').",
-      "estSec": 25,
-      "topicWeight": 0.125,
+      "solution": "Future perfect: will have + past participle.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 77,
-      "subject": "English Language",
-      "topic": "Grammar · Articles",
+      "subject": "English",
+      "topic": "English Language · Vocabulary",
       "section": "English",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
-      "stem": "Choose the correct article: He is ________ honest man.",
+      "difficulty": "medium",
+      "stem": "What does 'resilient' mean?",
       "options": [
-        "a",
-        "an",
-        "the",
-        "no article"
+        "Fragile",
+        "Able to recover quickly",
+        "Slow",
+        "Weak"
       ],
       "answer": 1,
-      "solution": "'Honest' begins with a vowel sound (/ɒ/), so the correct article is 'an'.",
-      "estSec": 20,
-      "topicWeight": 0.125,
+      "solution": "Resilient means able to recover quickly from difficulties.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 78,
-      "subject": "English Language",
-      "topic": "Grammar · Prepositions",
+      "subject": "English",
+      "topic": "English Language · Prepositions",
       "section": "English",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
-      "stem": "Choose the correct preposition: The train arrived ________ time.",
+      "difficulty": "hard",
+      "stem": "She is proficient ___ English.",
       "options": [
         "on",
-        "in",
         "at",
-        "by"
+        "in",
+        "of"
       ],
-      "answer": 0,
-      "solution": "'On time' is the correct idiomatic expression meaning 'at the scheduled time'.",
-      "estSec": 20,
-      "topicWeight": 0.125,
+      "answer": 2,
+      "solution": "Proficient + in is the correct collocation.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 79,
-      "subject": "English Language",
-      "topic": "Vocabulary · Synonyms",
+      "subject": "English",
+      "topic": "English Language · Grammar",
       "section": "English",
       "type": "MCQ",
       "marks": 1,
       "difficulty": "medium",
-      "stem": "Choose the word closest in meaning to 'Ubiquitous':",
+      "stem": "If I ___ known, I would have helped.",
       "options": [
-        "Rare",
-        "Omnipresent",
-        "Unique",
-        "Obscure"
+        "have",
+        "had",
+        "would",
+        "did"
       ],
       "answer": 1,
-      "solution": "'Ubiquitous' means 'present, appearing, or found everywhere.' 'Omnipresent' is the closest synonym, meaning 'present everywhere at the same time.'",
-      "estSec": 30,
-      "topicWeight": 0.125,
+      "solution": "Third conditional: If + past perfect, would have + past participle.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 80,
-      "subject": "English Language",
-      "topic": "Vocabulary · Antonyms",
+      "subject": "English",
+      "topic": "English Language · Vocabulary",
       "section": "English",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
-      "stem": "Choose the word opposite in meaning to 'Benevolent':",
+      "difficulty": "hard",
+      "stem": "What does 'ameliorate' mean?",
       "options": [
-        "Kind",
-        "Generous",
-        "Malevolent",
-        "Charitable"
+        "Worsen",
+        "Improve",
+        "Destroy",
+        "Maintain"
       ],
-      "answer": 2,
-      "solution": "'Benevolent' means kind and generous. Its antonym is 'Malevolent', meaning having or showing a wish to do evil to others.",
-      "estSec": 30,
-      "topicWeight": 0.125,
+      "answer": 1,
+      "solution": "Ameliorate means to make better or improve.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 81,
-      "subject": "English Language",
-      "topic": "Grammar · Voice",
+      "subject": "English",
+      "topic": "English Language · Articles",
       "section": "English",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
-      "stem": "Convert to passive voice: 'The committee will announce the results tomorrow.'",
+      "difficulty": "hard",
+      "stem": "___ honest man always speaks the truth.",
       "options": [
-        "The results will be announced by the committee tomorrow.",
-        "The results are announced by the committee tomorrow.",
-        "The results will have been announced by the committee tomorrow.",
-        "The results were announced by the committee tomorrow."
+        "A",
+        "An",
+        "The",
+        "No article"
       ],
-      "answer": 0,
-      "solution": "Active: The committee will announce the results tomorrow. Passive: The results will be announced by the committee tomorrow. Future simple passive uses 'will be + past participle'.",
-      "estSec": 30,
-      "topicWeight": 0.125,
+      "answer": 1,
+      "solution": "'An' before words starting with silent 'h'.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 82,
-      "subject": "English Language",
-      "topic": "Grammar · Error Spotting",
+      "subject": "English",
+      "topic": "English Language · Prepositions",
       "section": "English",
       "type": "MCQ",
       "marks": 1,
       "difficulty": "medium",
-      "stem": "Identify the error: 'Each of the students have submitted their assignments on time.'",
+      "stem": "The meeting was put ___ Friday.",
       "options": [
-        "Each of",
-        "the students",
-        "have submitted",
-        "on time"
+        "on",
+        "at",
+        "off",
+        "up"
       ],
       "answer": 2,
-      "solution": "'Each' is singular and requires 'has' instead of 'have'. Correct: 'Each of the students has submitted his/her assignment on time.'",
-      "estSec": 35,
-      "topicWeight": 0.125,
+      "solution": "Put off means to postpone.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 83,
-      "subject": "English Language",
-      "topic": "Reading Comprehension · Inference",
+      "subject": "English",
+      "topic": "English Language · Vocabulary",
       "section": "English",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
-      "stem": "A passage states: 'The exploration team discovered that the sedimentary basin had undergone multiple phases of rifting, each contributing to the formation of distinct depocenters.' What does 'depocenters' most likely refer to?",
+      "difficulty": "hard",
+      "stem": "What is a 'watershed' moment?",
       "options": [
-        "Areas of maximum sediment accumulation",
-        "Geological sampling stations",
-        "Central processing units for data",
-        "Headquarters of exploration companies"
+        "A moment near water",
+        "A turning point",
+        "A disaster",
+        "A celebration"
       ],
-      "answer": 0,
-      "solution": "In geology, 'depocenters' refer to the areas within a sedimentary basin where the greatest thickness of sediment has accumulated, often controlled by fault-bounded sub-basins.",
-      "estSec": 35,
-      "topicWeight": 0.125,
+      "answer": 1,
+      "solution": "A watershed moment is a turning point or critical moment.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 84,
-      "subject": "English Language",
-      "topic": "Grammar · Conjunctions",
-      "section": "English",
-      "type": "MCQ",
-      "marks": 1,
-      "difficulty": "easy",
-      "stem": "Choose the correct conjunction: ________ it was raining, we continued our fieldwork.",
-      "options": [
-        "Because",
-        "Although",
-        "Since",
-        "Therefore"
-      ],
-      "answer": 1,
-      "solution": "'Although' is the correct conjunction showing contrast — it was raining, but they continued anyway.",
-      "estSec": 25,
-      "topicWeight": 0.125,
-      "source": "curated"
-    },
-    {
-      "id": 85,
-      "subject": "English Language",
-      "topic": "Vocabulary · Idioms & Phrases",
+      "subject": "English",
+      "topic": "English Language · Vocabulary",
       "section": "English",
       "type": "MCQ",
       "marks": 1,
       "difficulty": "medium",
-      "stem": "What does the idiom 'to hit the nail on the head' mean?",
+      "stem": "What does 'candid' mean?",
       "options": [
-        "To do physical labor",
-        "To be exactly right about something",
-        "To cause pain",
-        "To work very hard"
+        "Secretive",
+        "Frank and honest",
+        "Formal",
+        "Polite"
       ],
       "answer": 1,
-      "solution": "'To hit the nail on the head' means to be exactly right or to describe something precisely. It implies accuracy and correctness.",
-      "estSec": 30,
-      "topicWeight": 0.125,
+      "solution": "Candid means truthful and straightforward; frank.",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 85,
+      "subject": "English",
+      "topic": "English Language · Grammar",
+      "section": "English",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "Identify the error: 'Each of the students have submitted their assignments.'",
+      "options": [
+        "Each of",
+        "the students",
+        "have submitted",
+        "their assignments"
+      ],
+      "answer": 2,
+      "solution": "'Each' is singular, so it should be 'has submitted'.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     }
   ]

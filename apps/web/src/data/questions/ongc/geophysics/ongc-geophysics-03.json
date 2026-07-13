@@ -22,7 +22,7 @@
       "count": 10
     },
     {
-      "name": "English Language",
+      "name": "English",
       "count": 10
     }
   ],
@@ -34,7 +34,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "The Gutenberg discontinuity marks the boundary between:",
       "options": [
         "Crust and mantle",
@@ -60,7 +60,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "stem": "Which type of plate boundary is characterized by the subduction of one plate beneath another?",
       "options": [
         "Divergent boundary",
@@ -107,7 +107,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "The lithosphere–asthenosphere boundary (LAB) is primarily defined by:",
       "options": [
         "A chemical composition change",
@@ -133,7 +133,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "According to the Airy model of isostasy, mountain ranges are compensated by:",
       "options": [
         "Lateral density variations at constant depth",
@@ -258,7 +258,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "stem": "The Peak Ground Acceleration (PGA) is an important parameter in seismic hazard assessment because:",
       "options": [
         "It directly measures the energy released by the earthquake",
@@ -284,7 +284,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "stem": "The Conrad discontinuity, observed in some continental regions, separates:",
       "options": [
         "The upper and lower crust",
@@ -305,7 +305,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "The quality factor Q in seismology is inversely related to:",
       "options": [
         "Seismic wave velocity",
@@ -326,7 +326,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "stem": "The Bouguer correction accounts for the gravitational effect of:",
       "options": [
         "Topographic terrain above and below the station",
@@ -352,7 +352,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "Reduction to the pole (RTP) in magnetic data processing is used to:",
       "options": [
         "Remove diurnal field variations",
@@ -378,7 +378,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "When remanent magnetization dominates (Q ratio > 1) in a rock body, the observed magnetic anomaly:",
       "options": [
         "Is always aligned with the present-day field direction",
@@ -425,7 +425,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "A negative Bouguer anomaly over a sedimentary basin typically indicates:",
       "options": [
         "Dense basement rocks at shallow depth",
@@ -451,7 +451,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "stem": "The Koenigsberger ratio (Q) is defined as the ratio of:",
       "options": [
         "Gravity anomaly to Bouguer correction",
@@ -472,7 +472,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
+      "difficulty": "hard",
       "stem": "In the Wenner electrode configuration, the spacing between all adjacent electrodes is:",
       "options": [
         "Unequal",
@@ -498,7 +498,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "stem": "The skin depth in magnetotelluric (MT) soundings is given by:",
       "options": [
         "δ = 503√(ρf) metres",
@@ -540,7 +540,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "stem": "In time-domain induced polarization (IP), the chargeability is measured as:",
       "options": [
         "The peak voltage during current flow",
@@ -582,7 +582,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
+      "difficulty": "hard",
       "stem": "The primary purpose of seismic deconvolution in data processing is to:",
       "options": [
         "Remove surface wave noise",
@@ -608,7 +608,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "Velocity analysis in seismic reflection processing provides velocities needed for:",
       "options": [
         "Filtering ground roll only",
@@ -634,7 +634,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "The CMP stack improves signal-to-noise ratio by approximately:",
       "options": [
         "n times (where n = fold of coverage)",
@@ -655,7 +655,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "Pre-stack depth migration (PSDM) is essential when:",
       "options": [
         "The subsurface has simple flat-layered geology",
@@ -681,7 +681,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "stem": "Seismic refraction surveys cannot detect a low-velocity layer (LVL) beneath a high-velocity layer because:",
       "options": [
         "The seismic source energy is insufficient",
@@ -759,7 +759,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "Archie's equation relates formation resistivity to porosity and water saturation through parameters that include:",
       "options": [
         "Only the cementation factor",
@@ -811,7 +811,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "The Wyllie time-average equation relates sonic transit time to porosity as:",
       "options": [
         "Δt = φ·Δtma + (1−φ)·Δtf",
@@ -832,7 +832,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "The cement bond log (CBL) evaluates well integrity by measuring:",
       "options": [
         "Formation permeability from flow tests",
@@ -858,7 +858,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "Nuclear magnetic resonance (NMR) logging provides information about:",
       "options": [
         "Natural gamma radioactivity of formations",
@@ -936,7 +936,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "stem": "Seismic inversion converts reflection seismic data into:",
       "options": [
         "Time-migrated stacked sections",
@@ -1021,7 +1021,12 @@
       "solution": "2⁸ = 256. 256 ÷ 7 = 36 remainder 4. Alternatively, modular arithmetic: 2³ = 8 ≡ 1 (mod 7), so 2⁸ = (2³)²·2² ≡ 1²·4 = 4 (mod 7).",
       "estSec": 30,
       "topicWeight": 0.04,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Nested number sets",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Number System Hierarchy</text><rect x=\"150\" y=\"40\" width=\"180\" height=\"30\" fill=\"#dbeafe\" stroke=\"#3b82f6\" rx=\"4\"/><rect x=\"100\" y=\"80\" width=\"130\" height=\"30\" fill=\"#dcfce7\" stroke=\"#22c55e\" rx=\"4\"/><rect x=\"250\" y=\"80\" width=\"130\" height=\"30\" fill=\"#fef3c7\" stroke=\"#f59e0b\" rx=\"4\"/><rect x=\"120\" y=\"120\" width=\"90\" height=\"30\" fill=\"#fee2e2\" stroke=\"#ef4444\" rx=\"4\"/><rect x=\"120\" y=\"160\" width=\"40\" height=\"25\" fill=\"#e0e7ff\" stroke=\"#818cf8\" rx=\"4\"/><rect x=\"170\" y=\"160\" width=\"40\" height=\"25\" fill=\"#e0e7ff\" stroke=\"#818cf8\" rx=\"4\"/><text x=\"240\" y=\"60\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#3b82f6\" text-anchor=\"middle\" font-weight=\"bold\">Real Numbers</text><text x=\"165\" y=\"100\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#22c55e\" text-anchor=\"middle\" font-weight=\"bold\">Rational</text><text x=\"315\" y=\"100\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#f59e0b\" text-anchor=\"middle\" font-weight=\"bold\">Irrational</text><text x=\"165\" y=\"140\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#ef4444\" text-anchor=\"middle\" font-weight=\"bold\">Integers</text><text x=\"140\" y=\"177\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#818cf8\" text-anchor=\"middle\">ℕ</text><text x=\"190\" y=\"177\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#818cf8\" text-anchor=\"middle\">0</text></svg>"
+      }
     },
     {
       "id": 42,
@@ -1030,7 +1035,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "stem": "A product costs ₹800 after a 20% discount. What was the original price?",
       "options": [
         "₹960",
@@ -1042,7 +1047,12 @@
       "solution": "Discounted price = 80% of original. 0.8 × Original = 800. Original = 800/0.8 = ₹1000.",
       "estSec": 25,
       "topicWeight": 0.04,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Pie chart of percentage distribution",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Percentage Breakdown</text><circle cx=\"160\" cy=\"110\" r=\"65\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"2\"/><path d=\"M160,110 L160,45 A65,65 0 0,1 218,75 Z\" fill=\"#3b82f6\" stroke=\"#3b82f6\" stroke-width=\"1.5\"/><path d=\"M160,110 L218,75 A65,65 0 0,1 218,155 Z\" fill=\"#ef4444\" stroke=\"#ef4444\" stroke-width=\"1.5\"/><path d=\"M160,110 L218,155 A65,65 0 0,1 102,155 Z\" fill=\"#22c55e\" stroke=\"#22c55e\" stroke-width=\"1.5\"/><text x=\"185\" y=\"70\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#3b82f6\" font-weight=\"bold\">35%</text><text x=\"210\" y=\"120\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#ef4444\" font-weight=\"bold\">25%</text><text x=\"120\" y=\"135\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#22c55e\" font-weight=\"bold\">40%</text><text x=\"370\" y=\"110\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Parts of 100%</text></svg>"
+      }
     },
     {
       "id": 43,
@@ -1063,7 +1073,12 @@
       "solution": "Let CP = 100. MP = 140. SP = 140 × 0.8 = 112. Profit = 12%. Profit% = (112−100)/100 × 100 = 12%.",
       "estSec": 30,
       "topicWeight": 0.04,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Cost vs selling price comparison",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Profit & Loss</text><rect x=\"80\" y=\"70\" width=\"70\" height=\"70\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"2\" rx=\"4\"/><rect x=\"200\" y=\"50\" width=\"70\" height=\"90\" fill=\"#dcfce7\" stroke=\"#22c55e\" stroke-width=\"2\" rx=\"4\"/><rect x=\"320\" y=\"90\" width=\"70\" height=\"50\" fill=\"#fee2e2\" stroke=\"#ef4444\" stroke-width=\"2\" rx=\"4\"/><text x=\"115\" y=\"110\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#3b82f6\" text-anchor=\"middle\" font-weight=\"bold\">CP</text><text x=\"235\" y=\"105\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#22c55e\" text-anchor=\"middle\" font-weight=\"bold\">SP > CP</text><text x=\"235\" y=\"125\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#22c55e\" text-anchor=\"middle\">Profit</text><text x=\"355\" y=\"115\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#ef4444\" text-anchor=\"middle\" font-weight=\"bold\">SP < CP</text><text x=\"355\" y=\"130\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#ef4444\" text-anchor=\"middle\">Loss</text></svg>"
+      }
     },
     {
       "id": 44,
@@ -1072,7 +1087,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "A train 120 m long passes a pole in 12 seconds. How long will it take to cross a platform 180 m long?",
       "options": [
         "20 seconds",
@@ -1105,7 +1120,12 @@
       "solution": "From the Venn diagram: 'All dogs are animals' and 'some animals are cats' does not guarantee any overlap between dogs and cats. The common animals could be non-dog animals. Neither conclusion is logically certain.",
       "estSec": 35,
       "topicWeight": 0.04,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Venn diagram for syllogism",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Syllogism Venn</text><circle cx=\"180\" cy=\"110\" r=\"50\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"2\"/><circle cx=\"300\" cy=\"110\" r=\"50\" fill=\"#dcfce7\" stroke=\"#22c55e\" stroke-width=\"2\"/><text x=\"165\" y=\"80\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#3b82f6\">All A</text><text x=\"315\" y=\"80\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#22c55e\">Some B</text><text x=\"240\" y=\"115\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#f59e0b\" text-anchor=\"middle\" font-weight=\"bold\">Overlap?</text></svg>"
+      }
     },
     {
       "id": 46,
@@ -1114,7 +1134,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "What is the simple interest on ₹5000 at 8% per annum for 3 years?",
       "options": [
         "₹800",
@@ -1126,7 +1146,12 @@
       "solution": "SI = PRT/100 = 5000 × 8 × 3 / 100 = ₹1200.",
       "estSec": 25,
       "topicWeight": 0.04,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Linear growth for simple interest",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Simple Interest</text><line x1=\"60\" y1=\"170\" x2=\"440\" y2=\"170\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"60\" y1=\"30\" x2=\"60\" y2=\"170\" stroke=\"#64748b\" stroke-width=\"2\"/><path d=\"M80,150 L400,30\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"2.5\"/><text x=\"280\" y=\"80\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#3b82f6\" font-weight=\"bold\">SI = P×R×T/100</text></svg>"
+      }
     },
     {
       "id": 47,
@@ -1147,7 +1172,12 @@
       "solution": "A's rate = 1/15 per day. B's rate = 1/20 per day. Combined = 1/15 + 1/20 = 4/60 + 3/60 = 7/60 per day. Time = 60/7 = 8⁴⁄₇ days ≈ 8.57 days.",
       "estSec": 35,
       "topicWeight": 0.04,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Work rates: combined effort reduces time",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Work Rate Diagram</text><rect x=\"80\" y=\"55\" width=\"160\" height=\"30\" fill=\"#3b82f6\" stroke=\"#3b82f6\" rx=\"4\"/><rect x=\"80\" y=\"100\" width=\"120\" height=\"30\" fill=\"#22c55e\" stroke=\"#22c55e\" rx=\"4\"/><rect x=\"80\" y=\"145\" width=\"200\" height=\"30\" fill=\"#f59e0b\" stroke=\"#f59e0b\" rx=\"4\"/><text x=\"160\" y=\"75\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#fff\" text-anchor=\"middle\">A: 1/6 per day</text><text x=\"140\" y=\"120\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#fff\" text-anchor=\"middle\">B: 1/8 per day</text><text x=\"180\" y=\"165\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#fff\" text-anchor=\"middle\">Combined: 1/6+1/8 = 7/24</text></svg>"
+      }
     },
     {
       "id": 48,
@@ -1168,7 +1198,12 @@
       "solution": "A:B = 3:5, B:C = 2:3. Make B common: A:B = 6:10, B:C = 10:15. Therefore A:B:C = 6:10:15.",
       "estSec": 25,
       "topicWeight": 0.04,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Bar representation of ratio 3:2",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Ratio Visualization</text><rect x=\"60\" y=\"65\" width=\"120\" height=\"40\" fill=\"#3b82f6\" stroke=\"#3b82f6\" rx=\"4\"/><rect x=\"60\" y=\"120\" width=\"80\" height=\"40\" fill=\"#ef4444\" stroke=\"#ef4444\" rx=\"4\"/><text x=\"120\" y=\"90\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#fff\" text-anchor=\"middle\" font-weight=\"bold\">3 parts</text><text x=\"100\" y=\"145\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#fff\" text-anchor=\"middle\" font-weight=\"bold\">2 parts</text><text x=\"300\" y=\"100\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">A : B = 3 : 2</text></svg>"
+      }
     },
     {
       "id": 49,
@@ -1177,7 +1212,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "stem": "Two dice are thrown simultaneously. What is the probability that the sum is 7?",
       "options": [
         "1/6",
@@ -1189,7 +1224,12 @@
       "solution": "Favorable outcomes: (1,6),(2,5),(3,4),(4,3),(5,2),(6,1) = 6 outcomes. Total outcomes = 36. Probability = 6/36 = 1/6.",
       "estSec": 30,
       "topicWeight": 0.04,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Venn diagram for probability union",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Probability Venn</text><circle cx=\"170\" cy=\"110\" r=\"55\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"2\"/><circle cx=\"300\" cy=\"110\" r=\"55\" fill=\"#dcfce7\" stroke=\"#22c55e\" stroke-width=\"2\"/><text x=\"145\" y=\"85\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#3b82f6\" font-weight=\"bold\">P(A)</text><text x=\"325\" y=\"85\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#22c55e\" font-weight=\"bold\">P(B)</text><text x=\"235\" y=\"115\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#f59e0b\" text-anchor=\"middle\" font-weight=\"bold\">A∩B</text><text x=\"240\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">P(A∪B)=P(A)+P(B)−P(A∩B)</text></svg>"
+      }
     },
     {
       "id": 50,
@@ -1198,7 +1238,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "If DELHI is coded as CDKGH, how is MUMBAI coded?",
       "options": [
         "LTLAZH",
@@ -1210,7 +1250,12 @@
       "solution": "Each letter is shifted by −1 in the alphabet: D→C, E→D, L→K, H→G, I→H. Applying −1 to MUMBAI: M→L, U→T, M→L, B→A, A→Z, I→H → LTLAZH.",
       "estSec": 35,
       "topicWeight": 0.04,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Letter-to-letter coding pattern",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Letter Code</text><text x=\"160\" y=\"70\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3b82f6\" font-weight=\"bold\">A  B  C  D  E  F  G</text><text x=\"160\" y=\"90\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#f59e0b\">↓  ↓  ↓  ↓  ↓  ↓  ↓</text><text x=\"160\" y=\"115\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#ef4444\" font-weight=\"bold\">Z  Y  X  W  V  U  T</text><text x=\"240\" y=\"160\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#64748b\" text-anchor=\"middle\">Reverse cipher: A→Z, B→Y, ...</text></svg>"
+      }
     },
     {
       "id": 51,
@@ -1231,7 +1276,12 @@
       "solution": "(x + 1/x)² = x² + 2 + 1/x². So x² + 1/x² = 5² − 2 = 25 − 2 = 23.",
       "estSec": 30,
       "topicWeight": 0.04,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Common identities",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Algebraic Identities</text><text x=\"240\" y=\"65\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3b82f6\" text-anchor=\"middle\" font-weight=\"bold\">(a+b)² = a²+2ab+b²</text><text x=\"240\" y=\"105\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#22c55e\" text-anchor=\"middle\" font-weight=\"bold\">(a−b)² = a²−2ab+b²</text><text x=\"240\" y=\"145\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#f59e0b\" text-anchor=\"middle\" font-weight=\"bold\">a²−b² = (a+b)(a−b)</text></svg>"
+      }
     },
     {
       "id": 52,
@@ -1240,7 +1290,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
+      "difficulty": "hard",
       "stem": "The diagonal of a square is 10√2 cm. What is its area?",
       "options": [
         "100 cm²",
@@ -1252,7 +1302,12 @@
       "solution": "Diagonal d = a√2, where a is the side. 10√2 = a√2 → a = 10 cm. Area = a² = 100 cm².",
       "estSec": 30,
       "topicWeight": 0.04,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Triangle angle sum",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Triangle</text><path d=\"M240,50 L140,170 L340,170 Z\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"2.5\"/><text x=\"240\" y=\"45\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#3b82f6\" text-anchor=\"middle\">A</text><text x=\"130\" y=\"180\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#3b82f6\">B</text><text x=\"350\" y=\"180\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#3b82f6\">C</text><text x=\"240\" y=\"150\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#ef4444\" text-anchor=\"middle\">A+B+C = 180°</text><text x=\"240\" y=\"195\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Area = ½×base×height</text></svg>"
+      }
     },
     {
       "id": 53,
@@ -1273,7 +1328,12 @@
       "solution": "Differences: 4, 6, 8, 10, 12 (increasing by 2). Next = 30 + 12 = 42. Also n(n+1): 1×2=2, 2×3=6, 3×4=12, 4×5=20, 5×6=30, 6×7=42.",
       "estSec": 30,
       "topicWeight": 0.04,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Series with increasing differences",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Number Series</text><line x1=\"60\" y1=\"100\" x2=\"420\" y2=\"100\" stroke=\"#94a3b8\"/><circle cx=\"100\" cy=\"100\" r=\"20\" fill=\"#dbeafe\" stroke=\"#3b82f6\"/><circle cx=\"180\" cy=\"100\" r=\"20\" fill=\"#dcfce7\" stroke=\"#22c55e\"/><circle cx=\"260\" cy=\"100\" r=\"20\" fill=\"#fef3c7\" stroke=\"#f59e0b\"/><circle cx=\"340\" cy=\"100\" r=\"20\" fill=\"#fee2e2\" stroke=\"#ef4444\"/><circle cx=\"420\" cy=\"100\" r=\"20\" fill=\"#e0e7ff\" stroke=\"#818cf8\"/><text x=\"100\" y=\"105\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#3b82f6\" text-anchor=\"middle\">2</text><text x=\"180\" y=\"105\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#22c55e\" text-anchor=\"middle\">6</text><text x=\"260\" y=\"105\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#f59e0b\" text-anchor=\"middle\">12</text><text x=\"340\" y=\"105\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#ef4444\" text-anchor=\"middle\">20</text><text x=\"420\" y=\"105\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#818cf8\" text-anchor=\"middle\">?</text><text x=\"240\" y=\"160\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">+4, +6, +8, +10 → 30</text></svg>"
+      }
     },
     {
       "id": 54,
@@ -1282,7 +1342,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
+      "difficulty": "hard",
       "stem": "The average of 5 numbers is 20. If one number is removed, the average becomes 18. What is the removed number?",
       "options": [
         "22",
@@ -1294,7 +1354,12 @@
       "solution": "Sum of 5 numbers = 5 × 20 = 100. Sum of remaining 4 = 4 × 18 = 72. Removed number = 100 − 72 = 28.",
       "estSec": 25,
       "topicWeight": 0.04,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Average as horizontal line through data",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Average</text><line x1=\"60\" y1=\"170\" x2=\"440\" y2=\"170\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"60\" y1=\"30\" x2=\"60\" y2=\"170\" stroke=\"#64748b\" stroke-width=\"2\"/><rect x=\"80\" y=\"120\" width=\"30\" height=\"50\" fill=\"#3b82f6\" stroke=\"#3b82f6\" rx=\"2\"/><rect x=\"120\" y=\"80\" width=\"30\" height=\"90\" fill=\"#22c55e\" stroke=\"#22c55e\" rx=\"2\"/><rect x=\"160\" y=\"100\" width=\"30\" height=\"70\" fill=\"#f59e0b\" stroke=\"#f59e0b\" rx=\"2\"/><rect x=\"200\" y=\"60\" width=\"30\" height=\"110\" fill=\"#ef4444\" stroke=\"#ef4444\" rx=\"2\"/><rect x=\"240\" y=\"90\" width=\"30\" height=\"80\" fill=\"#8b5cf6\" stroke=\"#8b5cf6\" rx=\"2\"/><line x1=\"60\" y1=\"105\" x2=\"280\" y2=\"105\" stroke=\"#ef4444\" stroke-width=\"2\" stroke-dasharray=\"5\"/><text x=\"350\" y=\"105\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#ef4444\" text-anchor=\"middle\" font-weight=\"bold\">Mean = Σxᵢ/n</text></svg>"
+      }
     },
     {
       "id": 55,
@@ -1303,7 +1368,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "Pipe A can fill a tank in 10 hours and Pipe B can empty it in 15 hours. If both are opened simultaneously, how long will it take to fill the tank?",
       "options": [
         "25 hours",
@@ -1315,7 +1380,12 @@
       "solution": "A's filling rate = 1/10 per hour. B's emptying rate = 1/15 per hour. Net rate = 1/10 − 1/15 = 3/30 − 2/30 = 1/30 per hour. Time = 30 hours.",
       "estSec": 35,
       "topicWeight": 0.04,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Cistern with inlet/outlet",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Pipe System</text><rect x=\"120\" y=\"60\" width=\"120\" height=\"100\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"2\" rx=\"4\"/><line x1=\"245\" y1=\"90\" x2=\"310\" y2=\"90\" stroke=\"#22c55e\" stroke-width=\"2.5\"/><line x1=\"245\" y1=\"130\" x2=\"310\" y2=\"130\" stroke=\"#ef4444\" stroke-width=\"2.5\"/><text x=\"180\" y=\"115\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#3b82f6\" text-anchor=\"middle\">Cistern</text><text x=\"277\" y=\"83\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#22c55e\" text-anchor=\"middle\">Pipe A (fill) →</text><text x=\"277\" y=\"145\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#ef4444\" text-anchor=\"middle\">Pipe B (empty) →</text></svg>"
+      }
     },
     {
       "id": 56,
@@ -1336,7 +1406,12 @@
       "solution": "Raj's father's only grandchild = Raj's child (Raj being the only child). The mother of Raj's child = Raj's wife.",
       "estSec": 35,
       "topicWeight": 0.04,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Family tree for blood relation problems",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Family Tree</text><circle cx=\"160\" cy=\"50\" r=\"16\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"2\"/><circle cx=\"320\" cy=\"50\" r=\"16\" fill=\"#fee2e2\" stroke=\"#ef4444\" stroke-width=\"2\"/><line x1=\"176\" y1=\"50\" x2=\"304\" y2=\"50\" stroke=\"#f59e0b\" stroke-width=\"2\"/><line x1=\"240\" y1=\"50\" x2=\"240\" y2=\"85\" stroke=\"#64748b\" stroke-width=\"1.5\"/><circle cx=\"160\" cy=\"120\" r=\"14\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"2\"/><circle cx=\"240\" cy=\"120\" r=\"14\" fill=\"#fee2e2\" stroke=\"#ef4444\" stroke-width=\"2\"/><circle cx=\"320\" cy=\"120\" r=\"14\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"2\"/><line x1=\"240\" y1=\"85\" x2=\"160\" y2=\"106\"/><line x1=\"240\" y1=\"85\" x2=\"240\" y2=\"106\"/><line x1=\"240\" y1=\"85\" x2=\"320\" y2=\"106\"/><text x=\"160\" y=\"54\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#3b82f6\" text-anchor=\"middle\">M</text><text x=\"320\" y=\"54\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#ef4444\" text-anchor=\"middle\">F</text><text x=\"160\" y=\"124\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#3b82f6\" text-anchor=\"middle\">S</text><text x=\"240\" y=\"124\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#ef4444\" text-anchor=\"middle\">D</text><text x=\"320\" y=\"124\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#3b82f6\" text-anchor=\"middle\">S</text></svg>"
+      }
     },
     {
       "id": 57,
@@ -1345,7 +1420,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "stem": "What is the volume of a cube with side length 5 cm?",
       "options": [
         "25 cm³",
@@ -1366,7 +1441,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "stem": "What is the HCF of 24, 36, and 60?",
       "options": [
         "6",
@@ -1378,7 +1453,12 @@
       "solution": "Prime factors: 24 = 2³×3, 36 = 2²×3², 60 = 2²×3×5. HCF = 2²×3 = 12.",
       "estSec": 25,
       "topicWeight": 0.04,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Factor visualization",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">HCF & LCM</text><circle cx=\"160\" cy=\"100\" r=\"50\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"2\"/><circle cx=\"320\" cy=\"100\" r=\"50\" fill=\"#dcfce7\" stroke=\"#22c55e\" stroke-width=\"2\"/><text x=\"160\" y=\"70\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#3b82f6\" text-anchor=\"middle\">12: 1,2,3,4,6,12</text><text x=\"320\" y=\"70\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#22c55e\" text-anchor=\"middle\">18: 1,2,3,6,9,18</text><text x=\"240\" y=\"175\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">HCF=6, LCM=36</text></svg>"
+      }
     },
     {
       "id": 59,
@@ -1399,7 +1479,12 @@
       "solution": "Path: (0,0) → 5 km N → (0,5) → 3 km E → (3,5) → 5 km S → (3,0). He is 3 km East of the starting point.",
       "estSec": 30,
       "topicWeight": 0.04,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Cardinal directions compass",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Compass Rose</text><circle cx=\"240\" cy=\"110\" r=\"65\" fill=\"#f0f9ff\" stroke=\"#3b82f6\" stroke-width=\"2\"/><line x1=\"240\" y1=\"45\" x2=\"240\" y2=\"175\" stroke=\"#94a3b8\" stroke-width=\"1\"/><line x1=\"175\" y1=\"110\" x2=\"305\" y2=\"110\" stroke=\"#94a3b8\" stroke-width=\"1\"/><path d=\"M240,110 L270,70\" fill=\"none\" stroke=\"#ef4444\" stroke-width=\"2.5\"/><text x=\"240\" y=\"42\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#ef4444\" text-anchor=\"middle\" font-weight=\"bold\">N</text><text x=\"240\" y=\"185\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3b82f6\" text-anchor=\"middle\" font-weight=\"bold\">S</text><text x=\"315\" y=\"114\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#22c55e\" text-anchor=\"middle\" font-weight=\"bold\">E</text><text x=\"165\" y=\"114\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#f59e0b\" text-anchor=\"middle\" font-weight=\"bold\">W</text><text x=\"280\" y=\"65\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#ef4444\">NE</text></svg>"
+      }
     },
     {
       "id": 60,
@@ -1408,7 +1493,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "stem": "A boat travels 20 km upstream in 5 hours and 20 km downstream in 2 hours. What is the speed of the boat in still water?",
       "options": [
         "6 km/h",
@@ -1420,7 +1505,12 @@
       "solution": "Upstream speed = 20/5 = 4 km/h. Downstream speed = 20/2 = 10 km/h. Speed of boat = (10 + 4)/2 = 7 km/h. Speed of current = (10 − 4)/2 = 3 km/h.",
       "estSec": 35,
       "topicWeight": 0.04,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Boat speed relative to stream current",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Boat in River</text><path d=\"M20,120 Q80,100 140,120 Q200,140 260,120 Q320,100 380,120 Q440,140 480,120\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"1.5\"/><path d=\"M20,135 Q80,115 140,135 Q200,155 260,135 Q320,115 380,135 Q440,155 480,135\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"1\"/><rect x=\"190\" y=\"100\" width=\"50\" height=\"25\" fill=\"#f59e0b\" stroke=\"#f59e0b\" rx=\"8\"/><text x=\"215\" y=\"117\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#fff\" text-anchor=\"middle\" font-weight=\"bold\">Boat</text><text x=\"120\" y=\"80\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#22c55e\">Down: v_b+v_s</text><text x=\"350\" y=\"80\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#ef4444\">Up: v_b−v_s</text></svg>"
+      }
     },
     {
       "id": 61,
@@ -1429,7 +1519,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "The angle of elevation of the top of a building from a point 50 m away is 30°. What is the height of the building?",
       "options": [
         "50/√3 m",
@@ -1441,7 +1531,12 @@
       "solution": "tan 30° = height/50. Height = 50 × tan 30° = 50 × (1/√3) = 50/√3 m ≈ 28.87 m.",
       "estSec": 30,
       "topicWeight": 0.04,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Trig ratios in right triangle",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Right Triangle Trig</text><path d=\"M100,160 L300,160 L300,60 Z\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"2.5\"/><text x=\"130\" y=\"150\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#ef4444\">θ</text><text x=\"315\" y=\"115\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#22c55e\">opp</text><text x=\"200\" y=\"175\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#3b82f6\">adj</text><text x=\"180\" y=\"100\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#f59e0b\">hyp</text><text x=\"240\" y=\"195\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#64748b\" text-anchor=\"middle\">sin=opp/hyp  cos=adj/hyp  tan=opp/adj</text></svg>"
+      }
     },
     {
       "id": 62,
@@ -1450,7 +1545,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "stem": "Doctor : Hospital :: Teacher : ?",
       "options": [
         "Medicine",
@@ -1462,7 +1557,12 @@
       "solution": "A doctor works in a hospital; a teacher works in a school. The relationship is professional : workplace.",
       "estSec": 20,
       "topicWeight": 0.04,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "A:B::C:D analogy format",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Word Analogy</text><rect x=\"60\" y=\"55\" width=\"130\" height=\"40\" fill=\"#dbeafe\" stroke=\"#3b82f6\" rx=\"4\"/><rect x=\"290\" y=\"55\" width=\"130\" height=\"40\" fill=\"#dcfce7\" stroke=\"#22c55e\" rx=\"4\"/><line x1=\"200\" y1=\"75\" x2=\"280\" y2=\"75\" stroke=\"#f59e0b\" stroke-width=\"2.5\"/><text x=\"125\" y=\"80\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#3b82f6\" text-anchor=\"middle\">Doctor : Hospital</text><text x=\"355\" y=\"80\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#22c55e\" text-anchor=\"middle\">Teacher : ?</text><text x=\"240\" y=\"72\" font-family=\"sans-serif\" font-size=\"14\" fill=\"#f59e0b\" text-anchor=\"middle\" font-weight=\"bold\">::</text><text x=\"240\" y=\"130\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Person : Workplace</text><text x=\"240\" y=\"160\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#ef4444\" text-anchor=\"middle\" font-weight=\"bold\">Answer: School</text></svg>"
+      }
     },
     {
       "id": 63,
@@ -1471,7 +1571,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "If January 1, 2024 was a Monday, what day of the week was January 1, 2025?",
       "options": [
         "Monday",
@@ -1483,7 +1583,12 @@
       "solution": "2024 is a leap year (366 days). 366 mod 7 = 2. Monday + 2 days = Wednesday.",
       "estSec": 35,
       "topicWeight": 0.04,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Monthly calendar grid",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Calendar Grid</text><rect x=\"80\" y=\"45\" width=\"320\" height=\"130\" fill=\"#fff\" stroke=\"#3b82f6\" stroke-width=\"1.5\" rx=\"4\"/><text x=\"240\" y=\"65\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#64748b\" text-anchor=\"middle\" font-weight=\"bold\">Mon Tue Wed Thu Fri Sat Sun</text><text x=\"240\" y=\"88\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">1   2   3   4   5   6   7</text><text x=\"240\" y=\"108\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">8   9  10  11  12  13  14</text><text x=\"240\" y=\"128\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">15  16  17  18  19  20  21</text><text x=\"240\" y=\"148\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">22  23  24  25  26  27  28</text><text x=\"240\" y=\"168\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">29  30  31</text></svg>"
+      }
     },
     {
       "id": 64,
@@ -1504,7 +1609,12 @@
       "solution": "Using alligation: (40 − 34):(34 − 30) = 6:4 = 3:2. So ₹30 rice : ₹40 rice = 3:2.",
       "estSec": 30,
       "topicWeight": 0.04,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Alligation cross method",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Alligation Cross</text><circle cx=\"100\" cy=\"80\" r=\"35\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"2\"/><circle cx=\"380\" cy=\"80\" r=\"35\" fill=\"#fee2e2\" stroke=\"#ef4444\" stroke-width=\"2\"/><circle cx=\"240\" cy=\"130\" r=\"30\" fill=\"#fef3c7\" stroke=\"#f59e0b\" stroke-width=\"2\"/><line x1=\"135\" y1=\"80\" x2=\"210\" y2=\"120\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/><line x1=\"345\" y1=\"80\" x2=\"270\" y2=\"120\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/><text x=\"100\" y=\"84\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#3b82f6\" text-anchor=\"middle\">Cheaper</text><text x=\"380\" y=\"84\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#ef4444\" text-anchor=\"middle\">Dearer</text><text x=\"240\" y=\"134\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#f59e0b\" text-anchor=\"middle\">Mean</text></svg>"
+      }
     },
     {
       "id": 65,
@@ -1525,425 +1635,430 @@
       "solution": "4=2², 9=3², 16=4², 36=6², 49=7² — all perfect squares. 23 is not a perfect square, making it the odd one out.",
       "estSec": 25,
       "topicWeight": 0.04,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Identify the outlier",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Find the Odd One</text><circle cx=\"80\" cy=\"100\" r=\"28\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"2\"/><circle cx=\"180\" cy=\"100\" r=\"28\" fill=\"#dcfce7\" stroke=\"#22c55e\" stroke-width=\"2\"/><circle cx=\"280\" cy=\"100\" r=\"28\" fill=\"#fee2e2\" stroke=\"#ef4444\" stroke-width=\"2\"/><circle cx=\"380\" cy=\"100\" r=\"28\" fill=\"#fef3c7\" stroke=\"#f59e0b\" stroke-width=\"2\"/><text x=\"80\" y=\"105\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3b82f6\" text-anchor=\"middle\">A</text><text x=\"180\" y=\"105\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#22c55e\" text-anchor=\"middle\">B</text><text x=\"280\" y=\"105\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#ef4444\" text-anchor=\"middle\">C</text><text x=\"380\" y=\"105\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#f59e0b\" text-anchor=\"middle\">D</text></svg>"
+      }
     },
     {
       "id": 66,
       "subject": "General Awareness",
-      "topic": "Indian Energy Sector",
-      "section": "GK",
+      "topic": "Current Affairs · PSU",
+      "section": "GA",
       "type": "MCQ",
       "marks": 1,
       "difficulty": "easy",
-      "stem": "ONGC was established in which year?",
+      "stem": "Which PSU recently achieved the milestone of 1 billion tonnes of crude oil production?",
       "options": [
-        "1952",
-        "1956",
-        "1960",
-        "1965"
+        "BPCL",
+        "HPCL",
+        "ONGC",
+        "IOCL"
       ],
-      "answer": 1,
-      "solution": "Oil and Natural Gas Corporation (ONGC) was established on August 14, 1956, as a government company under the Indian Companies Act. It was later converted to a public limited company in 1994.",
-      "estSec": 25,
+      "answer": 2,
+      "solution": "ONGC achieved this milestone.",
+      "estSec": 15,
       "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 67,
       "subject": "General Awareness",
-      "topic": "Indian Polity",
-      "section": "GK",
+      "topic": "Current Affairs · Space",
+      "section": "GA",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
-      "stem": "The President of India is elected by:",
+      "difficulty": "easy",
+      "stem": "Which country successfully landed on the Moon's south pole in 2023?",
       "options": [
-        "Direct popular vote",
-        "Members of Parliament only",
-        "An electoral college of elected members of Parliament and state legislatures",
-        "The Supreme Court of India"
+        "USA",
+        "China",
+        "India",
+        "Japan"
       ],
       "answer": 2,
-      "solution": "Article 54 provides that the President is elected by an electoral college comprising elected members of both Houses of Parliament and the elected members of the Legislative Assemblies of states and union territories of Delhi and Puducherry.",
-      "estSec": 25,
+      "solution": "India's Chandrayaan-3 successfully landed on the Moon's south pole.",
+      "estSec": 15,
       "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 68,
       "subject": "General Awareness",
-      "topic": "Indian Geography",
-      "section": "GK",
+      "topic": "Current Affairs · Oil & Gas",
+      "section": "GA",
       "type": "MCQ",
       "marks": 1,
       "difficulty": "medium",
-      "stem": "The Bombay High (Mumbai High) offshore oil field is located in which basin?",
+      "stem": "India's crude oil imports from Russia increased significantly due to:",
       "options": [
-        "Krishna-Godavari Basin",
-        "Mumbai Offshore Basin",
-        "Cambay Basin",
-        "Assam Shelf"
+        "Pipeline completion",
+        "Discounted prices post-sanctions",
+        "New trade agreement",
+        "Currency swap"
       ],
       "answer": 1,
-      "solution": "Mumbai High (formerly Bombay High) is India's largest offshore oil field, located about 160 km west of Mumbai in the Mumbai Offshore Basin. Discovered in 1974, it produces from Eocene carbonates.",
-      "estSec": 30,
+      "solution": "India increased imports from Russia due to discounted prices after Western sanctions.",
+      "estSec": 15,
       "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 69,
       "subject": "General Awareness",
-      "topic": "Science & Technology",
-      "section": "GK",
+      "topic": "Current Affairs · Environment",
+      "section": "GA",
       "type": "MCQ",
       "marks": 1,
       "difficulty": "medium",
-      "stem": "India's first deep-water gas discovery in the Krishna-Godavari basin was made by:",
+      "stem": "COP28 was held in which country?",
       "options": [
-        "ONGC",
-        "Reliance Industries",
-        "Cairn Energy",
-        "GAIL"
+        "Egypt",
+        "UAE",
+        "India",
+        "UK"
       ],
       "answer": 1,
-      "solution": "Reliance Industries made the major D-6 (KG-D6) discovery in the Krishna-Godavari deep-water basin in 2002, one of India's largest gas discoveries with estimated reserves of about 14 TCF.",
-      "estSec": 30,
+      "solution": "COP28 was held in Dubai, UAE.",
+      "estSec": 15,
       "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 70,
       "subject": "General Awareness",
-      "topic": "Environment",
-      "section": "GK",
+      "topic": "Current Affairs · Global",
+      "section": "GA",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
-      "stem": "The Paris Agreement on climate change aims to limit global warming to:",
+      "difficulty": "hard",
+      "stem": "BRICS expanded to include which new members in 2024?",
       "options": [
-        "1.0°C above pre-industrial levels",
-        "1.5°C above pre-industrial levels",
-        "2.0°C above pre-industrial levels",
-        "Both 1.5°C and well below 2°C"
+        "Mexico, Argentina",
+        "Saudi Arabia, Iran, UAE",
+        "Turkey, Indonesia",
+        "Nigeria, South Africa"
       ],
-      "answer": 3,
-      "solution": "The Paris Agreement (2015) aims to limit warming to well below 2°C above pre-industrial levels, with efforts to limit it to 1.5°C, recognizing that this would significantly reduce the risks of climate change.",
-      "estSec": 30,
+      "answer": 1,
+      "solution": "Saudi Arabia, Iran, and UAE joined BRICS.",
+      "estSec": 15,
       "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 71,
       "subject": "General Awareness",
-      "topic": "Indian Economy",
-      "section": "GK",
+      "topic": "Current Affairs · Economy",
+      "section": "GA",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
-      "stem": "The Directorate General of Hydrocarbons (DGH) in India is responsible for:",
+      "difficulty": "hard",
+      "stem": "India's current account deficit for FY2025 is projected at:",
       "options": [
-        "Regulating the downstream petroleum sector",
-        "Overseeing upstream exploration and production activities",
-        "Managing natural gas distribution networks",
-        "Environmental clearances for all industries"
+        "0.5% of GDP",
+        "1.0% of GDP",
+        "1.5% of GDP",
+        "2.0% of GDP"
       ],
       "answer": 1,
-      "solution": "DGH is the technical arm of the Ministry of Petroleum and Natural Gas, responsible for regulating and promoting upstream (exploration and production) hydrocarbon activities under the NELP and HELP frameworks.",
-      "estSec": 30,
+      "solution": "India's CAD is projected at around 1.0% of GDP.",
+      "estSec": 15,
       "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 72,
       "subject": "General Awareness",
-      "topic": "General Science",
-      "section": "GK",
+      "topic": "Static GK · Indian Polity",
+      "section": "GA",
       "type": "MCQ",
       "marks": 1,
       "difficulty": "easy",
-      "stem": "Which gas is commonly used in LPG cylinders for domestic cooking in India?",
+      "stem": "Upper House of Indian Parliament:",
       "options": [
-        "Methane",
-        "Ethane",
-        "Propane and Butane",
-        "Natural Gas"
+        "Lok Sabha",
+        "Rajya Sabha",
+        "Vidhan Sabha",
+        "Vidhan Parishad"
       ],
-      "answer": 2,
-      "solution": "LPG (Liquefied Petroleum Gas) used in Indian households is primarily a mixture of propane (C₃H₈) and butane (C₄H₁₀), liquefied under moderate pressure for convenient storage and transport.",
-      "estSec": 25,
+      "answer": 1,
+      "solution": "Rajya Sabha is the Upper House.",
+      "estSec": 15,
       "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 73,
       "subject": "General Awareness",
-      "topic": "Energy Sector",
-      "section": "GK",
+      "topic": "Static GK · Geography",
+      "section": "GA",
       "type": "MCQ",
       "marks": 1,
       "difficulty": "medium",
-      "stem": "India's strategic petroleum reserves are located at:",
+      "stem": "Minimum age for Lok Sabha membership:",
       "options": [
-        "Mumbai, Delhi, and Kolkata",
-        "Visakhapatnam, Mangalore, and Padur",
-        "Chennai, Kochi, and Paradip",
-        "Ahmedabad, Jaipur, and Lucknow"
+        "21 years",
+        "25 years",
+        "30 years",
+        "35 years"
       ],
       "answer": 1,
-      "solution": "India's underground strategic petroleum reserves (SPR) are carved out of rock caverns at Visakhapatnam (1.33 MMT), Mangalore (1.5 MMT), and Padur (2.5 MMT) for emergency oil supply.",
-      "estSec": 30,
+      "solution": "Minimum age for Lok Sabha membership is 25 years.",
+      "estSec": 15,
       "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 74,
       "subject": "General Awareness",
-      "topic": "Indian Geography",
-      "section": "GK",
+      "topic": "Static GK · Science",
+      "section": "GA",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
-      "stem": "India's first offshore oil well was drilled at:",
+      "difficulty": "medium",
+      "stem": "Which planet is known as the 'Red Planet'?",
       "options": [
-        "Bombay High",
-        "Ankleshwar",
-        "Aliabet in the Gulf of Cambay",
-        "Mumbai harbor"
+        "Venus",
+        "Mars",
+        "Jupiter",
+        "Saturn"
       ],
-      "answer": 2,
-      "solution": "India's first offshore well was drilled at Aliabet in the Gulf of Cambay (Khambhat) in 1962, predating the discovery of Bombay High (1974) by over a decade.",
-      "estSec": 30,
+      "answer": 1,
+      "solution": "Mars is known as the Red Planet.",
+      "estSec": 15,
       "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 75,
       "subject": "General Awareness",
-      "topic": "PSU & Industry",
-      "section": "GK",
+      "topic": "Static GK · History",
+      "section": "GA",
       "type": "MCQ",
       "marks": 1,
       "difficulty": "hard",
-      "stem": "The New Exploration Licensing Policy (NELP), introduced in India in 1997, was designed to:",
+      "stem": "India gained independence on:",
       "options": [
-        "Nationalize all oil fields",
-        "Open the upstream E&P sector to private and foreign participation through competitive bidding",
-        "Ban foreign investment in the energy sector",
-        "Restrict exploration to ONGC and Oil India only"
+        "January 26, 1950",
+        "August 15, 1947",
+        "August 15, 1950",
+        "January 26, 1947"
       ],
       "answer": 1,
-      "solution": "NELP (1997) replaced the earlier licensing regime with competitive international bidding, allowing private Indian and foreign companies to explore for hydrocarbons. It aimed to attract investment, technology, and expertise to India's exploration sector.",
-      "estSec": 35,
+      "solution": "India gained independence on August 15, 1947.",
+      "estSec": 15,
       "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 76,
-      "subject": "English Language",
-      "topic": "Vocabulary · Synonyms",
+      "subject": "English",
+      "topic": "English Language · Vocabulary",
       "section": "English",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
-      "stem": "Choose the word most similar in meaning to 'ABUNDANT':",
+      "difficulty": "medium",
+      "stem": "What is the synonym of 'ephemeral'?",
       "options": [
-        "Scarce",
-        "Plentiful",
-        "Moderate",
-        "Limited"
+        "Permanent",
+        "Transient",
+        "Eternal",
+        "Stable"
       ],
       "answer": 1,
-      "solution": "Abundant means existing in large quantities; plentiful. It is the antonym of scarce or limited.",
-      "estSec": 20,
+      "solution": "Ephemeral means short-lived or transient.",
+      "estSec": 15,
       "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 77,
-      "subject": "English Language",
-      "topic": "Vocabulary · Antonyms",
+      "subject": "English",
+      "topic": "English Language · Vocabulary",
       "section": "English",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
-      "stem": "Choose the word most opposite in meaning to 'BENIGN':",
+      "difficulty": "medium",
+      "stem": "Choose the antonym of 'ubiquitous':",
       "options": [
-        "Gentle",
-        "Malignant",
-        "Harmless",
-        "Mild"
+        "Omnipresent",
+        "Rare",
+        "Common",
+        "Everywhere"
       ],
       "answer": 1,
-      "solution": "Benign means gentle, kindly, or not harmful. Malignant means harmful, hostile, or cancerous — the direct opposite.",
-      "estSec": 20,
+      "solution": "Ubiquitous means present everywhere; rare is the opposite.",
+      "estSec": 15,
       "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 78,
-      "subject": "English Language",
-      "topic": "Grammar · Subject-Verb Agreement",
+      "subject": "English",
+      "topic": "English Language · Vocabulary",
       "section": "English",
       "type": "MCQ",
       "marks": 1,
       "difficulty": "medium",
-      "stem": "Identify the grammatically correct sentence:",
+      "stem": "What does 'candid' mean?",
       "options": [
-        "The group of scientists were conducting experiments.",
-        "Neither the manager nor the employees was available.",
-        "Each of the candidates has submitted their application.",
-        "The news are not good today."
+        "Secretive",
+        "Frank and honest",
+        "Formal",
+        "Polite"
       ],
-      "answer": 2,
-      "solution": "'Each' is a singular indefinite pronoun requiring the singular verb 'has'. Errors: (A) 'group' (collective noun) takes 'was'; (B) verb should agree with nearest subject 'employees' → 'were'; (D) 'news' is uncountable → 'is'.",
-      "estSec": 30,
+      "answer": 1,
+      "solution": "Candid means truthful and straightforward; frank.",
+      "estSec": 15,
       "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 79,
-      "subject": "English Language",
-      "topic": "Idioms & Phrases",
+      "subject": "English",
+      "topic": "English Language · Grammar",
       "section": "English",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
-      "stem": "What does the idiom 'to burn the midnight oil' mean?",
+      "difficulty": "easy",
+      "stem": "The manager, along with his team, ___ present at the meeting.",
       "options": [
-        "To waste resources",
-        "To work late into the night",
-        "To start a fire",
-        "To be very angry"
+        "were",
+        "are",
+        "was",
+        "have been"
       ],
-      "answer": 1,
-      "solution": "'Burn the midnight oil' means to work or study late into the night, originally referring to working by oil lamp light before the advent of electricity.",
-      "estSec": 25,
+      "answer": 2,
+      "solution": "When 'along with' is used, the verb agrees with the first subject (manager → was).",
+      "estSec": 15,
       "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 80,
-      "subject": "English Language",
-      "topic": "Reading Comprehension",
+      "subject": "English",
+      "topic": "English Language · Vocabulary",
       "section": "English",
       "type": "MCQ",
       "marks": 1,
       "difficulty": "medium",
-      "stem": "Read the passage: 'The monsoon is a seasonal wind pattern that brings heavy rainfall to the Indian subcontinent. It is driven by the differential heating of land and sea.' What primarily drives the monsoon?",
+      "stem": "Choose the word meaning 'to make something less severe':",
       "options": [
-        "Ocean currents",
-        "Differential heating of land and sea",
-        "Mountain ranges",
-        "Coriolis effect"
+        "Aggravate",
+        "Mitigate",
+        "Motivate",
+        "Navigate"
       ],
       "answer": 1,
-      "solution": "The passage explicitly states the monsoon is driven by differential heating of land and sea, which creates pressure gradients that reverse wind direction seasonally.",
-      "estSec": 30,
+      "solution": "Mitigate means to make less severe or painful.",
+      "estSec": 15,
       "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 81,
-      "subject": "English Language",
-      "topic": "Vocabulary · One Word Substitution",
+      "subject": "English",
+      "topic": "English Language · Grammar",
       "section": "English",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
-      "stem": "A person who loves books is called a:",
+      "difficulty": "medium",
+      "stem": "Identify the error: 'Each of the students have submitted their assignments.'",
       "options": [
-        "Bibliophile",
-        "Philatelist",
-        "Numismatist",
-        "Misanthropist"
+        "Each of",
+        "the students",
+        "have submitted",
+        "their assignments"
       ],
-      "answer": 0,
-      "solution": "Bibliophile = book lover (biblio = book, philia = love). Philatelist collects stamps; Numismatist collects coins; Misanthropist dislikes humanity.",
-      "estSec": 25,
+      "answer": 2,
+      "solution": "'Each' is singular, so it should be 'has submitted'.",
+      "estSec": 15,
       "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 82,
-      "subject": "English Language",
-      "topic": "Grammar · Prepositions",
+      "subject": "English",
+      "topic": "English Language · Prepositions",
       "section": "English",
       "type": "MCQ",
       "marks": 1,
       "difficulty": "medium",
-      "stem": "Choose the correct preposition: 'He is proficient ___ English and French.'",
+      "stem": "The meeting was put ___ Friday.",
       "options": [
-        "in",
-        "at",
         "on",
-        "with"
+        "at",
+        "off",
+        "up"
       ],
-      "answer": 0,
-      "solution": "'Proficient in' is the correct collocation. We say 'proficient in a language' or 'proficient at a skill'.",
-      "estSec": 25,
+      "answer": 2,
+      "solution": "Put off means to postpone.",
+      "estSec": 15,
       "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 83,
-      "subject": "English Language",
-      "topic": "Sentence Correction",
+      "subject": "English",
+      "topic": "English Language · Vocabulary",
       "section": "English",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
-      "stem": "Choose the correctly spelt word:",
+      "difficulty": "medium",
+      "stem": "What is a 'watershed' moment?",
       "options": [
-        "Accomodation",
-        "Accommodation",
-        "Acomodation",
-        "Acommodation"
+        "A moment near water",
+        "A turning point",
+        "A disaster",
+        "A celebration"
       ],
       "answer": 1,
-      "solution": "The correct spelling is 'Accommodation' — double 'c' and double 'm'. This is one of the most commonly misspelt words in English.",
-      "estSec": 25,
+      "solution": "A watershed moment is a turning point or critical moment.",
+      "estSec": 15,
       "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 84,
-      "subject": "English Language",
-      "topic": "Vocabulary · Antonyms",
+      "subject": "English",
+      "topic": "English Language · Prepositions",
       "section": "English",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
-      "stem": "Choose the word most opposite in meaning to 'TRANSPARENT':",
+      "difficulty": "easy",
+      "stem": "She is proficient ___ English.",
       "options": [
-        "Clear",
-        "Opaque",
-        "Translucent",
-        "Visible"
+        "on",
+        "at",
+        "in",
+        "of"
       ],
-      "answer": 1,
-      "solution": "Transparent means allowing light to pass through clearly. Opaque means not allowing light to pass through — the direct opposite.",
-      "estSec": 20,
+      "answer": 2,
+      "solution": "Proficient + in is the correct collocation.",
+      "estSec": 15,
       "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 85,
-      "subject": "English Language",
-      "topic": "Grammar · Tenses",
+      "subject": "English",
+      "topic": "English Language · Tenses",
       "section": "English",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
-      "stem": "Choose the correct form: 'If I had known about the earthquake warning, I __________ the building earlier.'",
+      "difficulty": "medium",
+      "stem": "By the time we arrive, they ___ already left.",
       "options": [
-        "would leave",
-        "would have left",
-        "will leave",
-        "had left"
+        "will",
+        "would",
+        "will have",
+        "would have"
       ],
-      "answer": 1,
-      "solution": "Third conditional (past unreal condition): If + past perfect, would have + past participle. 'If I had known... I would have left' describes an unreal past situation and its hypothetical consequence.",
-      "estSec": 30,
+      "answer": 2,
+      "solution": "Future perfect: will have + past participle.",
+      "estSec": 15,
       "topicWeight": 0.1,
       "source": "curated"
     }

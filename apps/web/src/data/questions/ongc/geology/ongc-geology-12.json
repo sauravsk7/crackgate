@@ -22,7 +22,7 @@
       "count": 10
     },
     {
-      "name": "English Language",
+      "name": "English",
       "count": 10
     }
   ],
@@ -55,7 +55,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "A rock subjected to sigma1=100 MPa, sigma2=60 MPa, sigma3=20 MPa. The maximum shear stress is:",
       "options": [
         "40 MPa",
@@ -68,9 +68,10 @@
       "estSec": 60,
       "topicWeight": 0.125,
       "source": "curated",
-      "diagram": {
-        "type": "svg",
-        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 300\"><rect width=\"520\" height=\"300\" fill=\"#fff\" rx=\"8\"/><text x=\"260\" y=\"25\" font-family=\"Arial\" font-size=\"13\" font-weight=\"bold\" text-anchor=\"middle\">3D Mohr Circle</text><line x1=\"100\" y1=\"160\" x2=\"420\" y2=\"160\" stroke=\"#333\" stroke-width=\"1.5\"/><line x1=\"260\" y1=\"30\" x2=\"260\" y2=\"280\" stroke=\"#333\" stroke-width=\"1\"/><circle cx=\"260\" cy=\"160\" r=\"100\" fill=\"#e3f2fd\" stroke=\"#1565c0\" stroke-width=\"2\"/><circle cx=\"160\" cy=\"160\" r=\"40\" fill=\"#fce4ec\" stroke=\"#c62828\" stroke-width=\"2\"/><circle cx=\"340\" cy=\"160\" r=\"20\" fill=\"#fff3e0\" stroke=\"#e65100\" stroke-width=\"2\"/><text x=\"130\" y=\"180\" font-family=\"Arial\" font-size=\"10\" fill=\"#c62828\" font-weight=\"bold\">sigma3=20</text><text x=\"330\" y=\"180\" font-family=\"Arial\" font-size=\"10\" fill=\"#e65100\" font-weight=\"bold\">sigma2=60</text><text x=\"400\" y=\"180\" font-family=\"Arial\" font-size=\"10\" fill=\"#1565c0\" font-weight=\"bold\">sigma1=100</text><text x=\"260\" y=\"55\" font-family=\"Arial\" font-size=\"10\" text-anchor=\"middle\">tau_max = 40 MPa</text></svg>"
+      "figure": {
+        "kind": "svg",
+        "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 300\"><rect width=\"520\" height=\"300\" fill=\"#fff\" rx=\"8\"/><text x=\"260\" y=\"25\" font-family=\"Arial\" font-size=\"13\" font-weight=\"bold\" text-anchor=\"middle\">3D Mohr Circle</text><line x1=\"100\" y1=\"160\" x2=\"420\" y2=\"160\" stroke=\"#333\" stroke-width=\"1.5\"/><line x1=\"260\" y1=\"30\" x2=\"260\" y2=\"280\" stroke=\"#333\" stroke-width=\"1\"/><circle cx=\"260\" cy=\"160\" r=\"100\" fill=\"#e3f2fd\" stroke=\"#1565c0\" stroke-width=\"2\"/><circle cx=\"160\" cy=\"160\" r=\"40\" fill=\"#fce4ec\" stroke=\"#c62828\" stroke-width=\"2\"/><circle cx=\"340\" cy=\"160\" r=\"20\" fill=\"#fff3e0\" stroke=\"#e65100\" stroke-width=\"2\"/><text x=\"130\" y=\"180\" font-family=\"Arial\" font-size=\"10\" fill=\"#c62828\" font-weight=\"bold\">sigma3=20</text><text x=\"330\" y=\"180\" font-family=\"Arial\" font-size=\"10\" fill=\"#e65100\" font-weight=\"bold\">sigma2=60</text><text x=\"400\" y=\"180\" font-family=\"Arial\" font-size=\"10\" fill=\"#1565c0\" font-weight=\"bold\">sigma1=100</text><text x=\"260\" y=\"55\" font-family=\"Arial\" font-size=\"10\" text-anchor=\"middle\">tau_max = 40 MPa</text></svg>",
+        "caption": ""
       }
     },
     {
@@ -93,9 +94,10 @@
       "estSec": 75,
       "topicWeight": 0.125,
       "source": "curated",
-      "diagram": {
-        "type": "svg",
-        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 280\"><rect width=\"420\" height=\"280\" fill=\"#fff\" rx=\"8\"/><text x=\"210\" y=\"25\" font-family=\"Arial\" font-size=\"13\" font-weight=\"bold\" text-anchor=\"middle\">Michel-Levy Chart (simplified)</text><rect x=\"40\" y=\"40\" width=\"340\" height=\"180\" fill=\"#fafafa\" rx=\"4\"/><text x=\"210\" y=\"60\" font-family=\"Arial\" font-size=\"10\" text-anchor=\"middle\" fill=\"#333\">Retardation (um)</text><rect x=\"60\" y=\"70\" width=\"80\" height=\"30\" fill=\"#bbb\" rx=\"2\"/><text x=\"100\" y=\"90\" font-family=\"Arial\" font-size=\"9\" text-anchor=\"middle\" fill=\"#fff\">1st-order grey</text><rect x=\"150\" y=\"70\" width=\"80\" height=\"30\" fill=\"#ffd54f\" rx=\"2\"/><text x=\"190\" y=\"90\" font-family=\"Arial\" font-size=\"9\" text-anchor=\"middle\" fill=\"#333\">1st-order yellow</text><rect x=\"240\" y=\"70\" width=\"80\" height=\"30\" fill=\"#90caf9\" rx=\"2\"/><text x=\"280\" y=\"90\" font-family=\"Arial\" font-size=\"9\" text-anchor=\"middle\" fill=\"#333\">2nd-order blue</text><text x=\"100\" y=\"120\" font-family=\"Arial\" font-size=\"8\" text-anchor=\"middle\">0.27 um</text><text x=\"190\" y=\"120\" font-family=\"Arial\" font-size=\"8\" text-anchor=\"middle\">0.54 um</text><line x1=\"100\" y1=\"130\" x2=\"100\" y2=\"160\" stroke=\"#f44336\" stroke-width=\"2\" stroke-dasharray=\"3,2\"/><text x=\"100\" y=\"175\" font-family=\"Arial\" font-size=\"8\" text-anchor=\"middle\" fill=\"#f44336\">30um section</text><line x1=\"190\" y1=\"130\" x2=\"190\" y2=\"160\" stroke=\"#1565c0\" stroke-width=\"2\" stroke-dasharray=\"3,2\"/><text x=\"190\" y=\"175\" font-family=\"Arial\" font-size=\"8\" text-anchor=\"middle\" fill=\"#1565c0\">60um section</text><text x=\"210\" y=\"250\" font-family=\"Arial\" font-size=\"10\" text-anchor=\"middle\" fill=\"#333\">Thickness doubling = colour order increase</text></svg>"
+      "figure": {
+        "kind": "svg",
+        "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 280\"><rect width=\"420\" height=\"280\" fill=\"#fff\" rx=\"8\"/><text x=\"210\" y=\"25\" font-family=\"Arial\" font-size=\"13\" font-weight=\"bold\" text-anchor=\"middle\">Michel-Levy Chart (simplified)</text><rect x=\"40\" y=\"40\" width=\"340\" height=\"180\" fill=\"#fafafa\" rx=\"4\"/><text x=\"210\" y=\"60\" font-family=\"Arial\" font-size=\"10\" text-anchor=\"middle\" fill=\"#333\">Retardation (um)</text><rect x=\"60\" y=\"70\" width=\"80\" height=\"30\" fill=\"#bbb\" rx=\"2\"/><text x=\"100\" y=\"90\" font-family=\"Arial\" font-size=\"9\" text-anchor=\"middle\" fill=\"#fff\">1st-order grey</text><rect x=\"150\" y=\"70\" width=\"80\" height=\"30\" fill=\"#ffd54f\" rx=\"2\"/><text x=\"190\" y=\"90\" font-family=\"Arial\" font-size=\"9\" text-anchor=\"middle\" fill=\"#333\">1st-order yellow</text><rect x=\"240\" y=\"70\" width=\"80\" height=\"30\" fill=\"#90caf9\" rx=\"2\"/><text x=\"280\" y=\"90\" font-family=\"Arial\" font-size=\"9\" text-anchor=\"middle\" fill=\"#333\">2nd-order blue</text><text x=\"100\" y=\"120\" font-family=\"Arial\" font-size=\"8\" text-anchor=\"middle\">0.27 um</text><text x=\"190\" y=\"120\" font-family=\"Arial\" font-size=\"8\" text-anchor=\"middle\">0.54 um</text><line x1=\"100\" y1=\"130\" x2=\"100\" y2=\"160\" stroke=\"#f44336\" stroke-width=\"2\" stroke-dasharray=\"3,2\"/><text x=\"100\" y=\"175\" font-family=\"Arial\" font-size=\"8\" text-anchor=\"middle\" fill=\"#f44336\">30um section</text><line x1=\"190\" y1=\"130\" x2=\"190\" y2=\"160\" stroke=\"#1565c0\" stroke-width=\"2\" stroke-dasharray=\"3,2\"/><text x=\"190\" y=\"175\" font-family=\"Arial\" font-size=\"8\" text-anchor=\"middle\" fill=\"#1565c0\">60um section</text><text x=\"210\" y=\"250\" font-family=\"Arial\" font-size=\"10\" text-anchor=\"middle\" fill=\"#333\">Thickness doubling = colour order increase</text></svg>",
+        "caption": ""
       }
     },
     {
@@ -105,7 +107,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "In a Bouma sequence, which division is most commonly missing when a turbidity current decelerates rapidly, bypassing the upper flow regime?",
       "options": [
         "Division A (massive sand)",
@@ -118,9 +120,10 @@
       "estSec": 75,
       "topicWeight": 0.125,
       "source": "curated",
-      "diagram": {
-        "type": "svg",
-        "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 440 380'><rect width='440' height='380' fill='#fff' rx='8'/><text x='220' y='25' font-family='Arial' font-size='13' font-weight='bold' text-anchor='middle'>Bouma Sequence</text><rect x='40' y='40' width='160' height='330' fill='#f5f5f5' rx='6'/><text x='120' y='60' font-family='Arial' font-size='10' font-weight='bold' text-anchor='middle'>Complete</text><rect x='50' y='70' width='140' height='45' fill='#ffcdd2' rx='3'/><text x='120' y='98' font-family='Arial' font-size='10' text-anchor='middle' fill='#c62828'>A: Massive/graded</text><rect x='50' y='120' width='140' height='35' fill='#bbdefb' rx='3'/><text x='120' y='143' font-family='Arial' font-size='10' text-anchor='middle' fill='#1565c0'>B: Parallel lam.</text><rect x='50' y='160' width='140' height='40' fill='#c8e6c9' rx='3'/><text x='120' y='185' font-family='Arial' font-size='10' text-anchor='middle' fill='#2e7d32'>C: Ripple lam.</text><rect x='50' y='205' width='140' height='35' fill='#fff9c4' rx='3'/><text x='120' y='228' font-family='Arial' font-size='10' text-anchor='middle' fill='#f57f17'>D: Silt lam.</text><rect x='50' y='245' width='140' height='50' fill='#e1bee7' rx='3'/><text x='120' y='275' font-family='Arial' font-size='10' text-anchor='middle' fill='#6a1b9a'>E: Hemipelagic mud</text><rect x='240' y='40' width='160' height='330' fill='#f5f5f5' rx='6'/><text x='320' y='60' font-family='Arial' font-size='10' font-weight='bold' text-anchor='middle'>Proximal</text><rect x='250' y='70' width='140' height='55' fill='#ffcdd2' rx='3'/><text x='320' y='103' font-family='Arial' font-size='10' text-anchor='middle' fill='#c62828'>A: Massive/graded</text><line x1='250' y1='135' x2='390' y2='135' stroke='#f44336' stroke-width='2' stroke-dasharray='4,3'/><text x='320' y='155' font-family='Arial' font-size='9' text-anchor='middle' fill='#f44336'>B missing</text><rect x='250' y='165' width='140' height='45' fill='#c8e6c9' rx='3'/><text x='320' y='193' font-family='Arial' font-size='10' text-anchor='middle' fill='#2e7d32'>C: Ripple lam.</text><rect x='250' y='215' width='140' height='35' fill='#fff9c4' rx='3'/><text x='320' y='238' font-family='Arial' font-size='10' text-anchor='middle' fill='#f57f17'>D: Silt lam.</text><rect x='250' y='255' width='140' height='50' fill='#e1bee7' rx='3'/><text x='320' y='285' font-family='Arial' font-size='10' text-anchor='middle' fill='#6a1b9a'>E: Mud</text></svg>"
+      "figure": {
+        "kind": "svg",
+        "markup": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 440 380'><rect width='440' height='380' fill='#fff' rx='8'/><text x='220' y='25' font-family='Arial' font-size='13' font-weight='bold' text-anchor='middle'>Bouma Sequence</text><rect x='40' y='40' width='160' height='330' fill='#f5f5f5' rx='6'/><text x='120' y='60' font-family='Arial' font-size='10' font-weight='bold' text-anchor='middle'>Complete</text><rect x='50' y='70' width='140' height='45' fill='#ffcdd2' rx='3'/><text x='120' y='98' font-family='Arial' font-size='10' text-anchor='middle' fill='#c62828'>A: Massive/graded</text><rect x='50' y='120' width='140' height='35' fill='#bbdefb' rx='3'/><text x='120' y='143' font-family='Arial' font-size='10' text-anchor='middle' fill='#1565c0'>B: Parallel lam.</text><rect x='50' y='160' width='140' height='40' fill='#c8e6c9' rx='3'/><text x='120' y='185' font-family='Arial' font-size='10' text-anchor='middle' fill='#2e7d32'>C: Ripple lam.</text><rect x='50' y='205' width='140' height='35' fill='#fff9c4' rx='3'/><text x='120' y='228' font-family='Arial' font-size='10' text-anchor='middle' fill='#f57f17'>D: Silt lam.</text><rect x='50' y='245' width='140' height='50' fill='#e1bee7' rx='3'/><text x='120' y='275' font-family='Arial' font-size='10' text-anchor='middle' fill='#6a1b9a'>E: Hemipelagic mud</text><rect x='240' y='40' width='160' height='330' fill='#f5f5f5' rx='6'/><text x='320' y='60' font-family='Arial' font-size='10' font-weight='bold' text-anchor='middle'>Proximal</text><rect x='250' y='70' width='140' height='55' fill='#ffcdd2' rx='3'/><text x='320' y='103' font-family='Arial' font-size='10' text-anchor='middle' fill='#c62828'>A: Massive/graded</text><line x1='250' y1='135' x2='390' y2='135' stroke='#f44336' stroke-width='2' stroke-dasharray='4,3'/><text x='320' y='155' font-family='Arial' font-size='9' text-anchor='middle' fill='#f44336'>B missing</text><rect x='250' y='165' width='140' height='45' fill='#c8e6c9' rx='3'/><text x='320' y='193' font-family='Arial' font-size='10' text-anchor='middle' fill='#2e7d32'>C: Ripple lam.</text><rect x='250' y='215' width='140' height='35' fill='#fff9c4' rx='3'/><text x='320' y='238' font-family='Arial' font-size='10' text-anchor='middle' fill='#f57f17'>D: Silt lam.</text><rect x='250' y='255' width='140' height='50' fill='#e1bee7' rx='3'/><text x='320' y='285' font-family='Arial' font-size='10' text-anchor='middle' fill='#6a1b9a'>E: Mud</text></svg>",
+        "caption": ""
       }
     },
     {
@@ -130,7 +133,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "During fractional crystallization of basaltic magma (olivine + cpx + plagioclase), which trace element is MOST incompatible?",
       "options": [
         "Ni",
@@ -151,7 +154,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "If a taxon FAD is diachronous due to migration, which biozone concept is MOST affected?",
       "options": [
         "Assemblage zone",
@@ -172,7 +175,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "A pelitic schist contains garnet + staurolite + kyanite + muscovite. The kyanite presence indicates P-T conditions:",
       "options": [
         "Below Al2SiO5 triple point",
@@ -185,9 +188,10 @@
       "estSec": 75,
       "topicWeight": 0.125,
       "source": "curated",
-      "diagram": {
-        "type": "svg",
-        "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 440 340'><rect width='440' height='340' fill='#fff' rx='8'/><text x='220' y='25' font-family='Arial' font-size='13' font-weight='bold' text-anchor='middle'>Al2SiO5 Phase Diagram</text><line x1='70' y1='300' x2='400' y2='300' stroke='#333' stroke-width='1.5'/><line x1='70' y1='40' x2='70' y2='300' stroke='#333' stroke-width='1.5'/><text x='235' y='330' font-family='Arial' font-size='11' text-anchor='middle'>Temperature</text><text x='40' y='175' font-family='Arial' font-size='11' text-anchor='middle' transform='rotate(-90,40,175)'>Pressure</text><polygon points='190,85 310,255 110,255' fill='none' stroke='#999' stroke-width='1.5'/><text x='200' y='155' font-family='Arial' font-size='14' font-weight='bold' fill='#1565c0'>Kyanite</text><text x='105' y='240' font-family='Arial' font-size='12' fill='#2e7d32'>Andalusite</text><text x='290' y='240' font-family='Arial' font-size='12' fill='#c62828'>Sillimanite</text><circle cx='190' cy='85' r='5' fill='#ff6f00'/><text x='190' y='73' font-family='Arial' font-size='9' text-anchor='middle' fill='#ff6f00'>Triple Point</text></svg>"
+      "figure": {
+        "kind": "svg",
+        "markup": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 440 340'><rect width='440' height='340' fill='#fff' rx='8'/><text x='220' y='25' font-family='Arial' font-size='13' font-weight='bold' text-anchor='middle'>Al2SiO5 Phase Diagram</text><line x1='70' y1='300' x2='400' y2='300' stroke='#333' stroke-width='1.5'/><line x1='70' y1='40' x2='70' y2='300' stroke='#333' stroke-width='1.5'/><text x='235' y='330' font-family='Arial' font-size='11' text-anchor='middle'>Temperature</text><text x='40' y='175' font-family='Arial' font-size='11' text-anchor='middle' transform='rotate(-90,40,175)'>Pressure</text><polygon points='190,85 310,255 110,255' fill='none' stroke='#999' stroke-width='1.5'/><text x='200' y='155' font-family='Arial' font-size='14' font-weight='bold' fill='#1565c0'>Kyanite</text><text x='105' y='240' font-family='Arial' font-size='12' fill='#2e7d32'>Andalusite</text><text x='290' y='240' font-family='Arial' font-size='12' fill='#c62828'>Sillimanite</text><circle cx='190' cy='85' r='5' fill='#ff6f00'/><text x='190' y='73' font-family='Arial' font-size='9' text-anchor='middle' fill='#ff6f00'>Triple Point</text></svg>",
+        "caption": ""
       }
     },
     {
@@ -210,9 +214,10 @@
       "estSec": 75,
       "topicWeight": 0.125,
       "source": "curated",
-      "diagram": {
-        "type": "svg",
-        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 280\"><rect width=\"440\" height=\"280\" fill=\"#fff\" rx=\"8\"/><text x=\"220\" y=\"25\" font-family=\"Arial\" font-size=\"13\" font-weight=\"bold\" text-anchor=\"middle\">Capillary Entry Pressure</text><rect x=\"40\" y=\"45\" width=\"360\" height=\"40\" fill=\"#b3e5fc\" rx=\"3\"/><text x=\"220\" y=\"70\" font-family=\"Arial\" font-size=\"10\" text-anchor=\"middle\" fill=\"#01579b\">Water-saturated carrier bed</text><rect x=\"40\" y=\"95\" width=\"360\" height=\"35\" fill=\"#ffe0b2\" rx=\"3\"/><text x=\"220\" y=\"117\" font-family=\"Arial\" font-size=\"10\" text-anchor=\"middle\" fill=\"#e65100\">Oil trying to enter (buoyancy)</text><circle cx=\"140\" cy=\"165\" r=\"15\" fill=\"#e3f2fd\" stroke=\"#1565c0\" stroke-width=\"1.5\"/><text x=\"140\" y=\"169\" font-family=\"Arial\" font-size=\"8\" text-anchor=\"middle\">large</text><circle cx=\"300\" cy=\"165\" r=\"8\" fill=\"#fce4ec\" stroke=\"#c62828\" stroke-width=\"1.5\"/><text x=\"300\" y=\"169\" font-family=\"Arial\" font-size=\"7\" text-anchor=\"middle\">small</text><text x=\"140\" y=\"200\" font-family=\"Arial\" font-size=\"9\" text-anchor=\"middle\">Low Pc entry</text><text x=\"300\" y=\"200\" font-family=\"Arial\" font-size=\"9\" text-anchor=\"middle\">High Pc entry</text><text x=\"220\" y=\"240\" font-family=\"Arial\" font-size=\"10\" text-anchor=\"middle\" fill=\"#333\">Pc = 2*gamma*cos(theta)/r</text><text x=\"220\" y=\"260\" font-family=\"Arial\" font-size=\"9\" text-anchor=\"middle\" fill=\"#555\">Oil migrates through largest pores first</text></svg>"
+      "figure": {
+        "kind": "svg",
+        "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 280\"><rect width=\"440\" height=\"280\" fill=\"#fff\" rx=\"8\"/><text x=\"220\" y=\"25\" font-family=\"Arial\" font-size=\"13\" font-weight=\"bold\" text-anchor=\"middle\">Capillary Entry Pressure</text><rect x=\"40\" y=\"45\" width=\"360\" height=\"40\" fill=\"#b3e5fc\" rx=\"3\"/><text x=\"220\" y=\"70\" font-family=\"Arial\" font-size=\"10\" text-anchor=\"middle\" fill=\"#01579b\">Water-saturated carrier bed</text><rect x=\"40\" y=\"95\" width=\"360\" height=\"35\" fill=\"#ffe0b2\" rx=\"3\"/><text x=\"220\" y=\"117\" font-family=\"Arial\" font-size=\"10\" text-anchor=\"middle\" fill=\"#e65100\">Oil trying to enter (buoyancy)</text><circle cx=\"140\" cy=\"165\" r=\"15\" fill=\"#e3f2fd\" stroke=\"#1565c0\" stroke-width=\"1.5\"/><text x=\"140\" y=\"169\" font-family=\"Arial\" font-size=\"8\" text-anchor=\"middle\">large</text><circle cx=\"300\" cy=\"165\" r=\"8\" fill=\"#fce4ec\" stroke=\"#c62828\" stroke-width=\"1.5\"/><text x=\"300\" y=\"169\" font-family=\"Arial\" font-size=\"7\" text-anchor=\"middle\">small</text><text x=\"140\" y=\"200\" font-family=\"Arial\" font-size=\"9\" text-anchor=\"middle\">Low Pc entry</text><text x=\"300\" y=\"200\" font-family=\"Arial\" font-size=\"9\" text-anchor=\"middle\">High Pc entry</text><text x=\"220\" y=\"240\" font-family=\"Arial\" font-size=\"10\" text-anchor=\"middle\" fill=\"#333\">Pc = 2*gamma*cos(theta)/r</text><text x=\"220\" y=\"260\" font-family=\"Arial\" font-size=\"9\" text-anchor=\"middle\" fill=\"#555\">Oil migrates through largest pores first</text></svg>",
+        "caption": ""
       }
     },
     {
@@ -222,7 +227,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "A type-1 sequence boundary is distinguished from type-2 by:",
       "options": [
         "Basinal downlap only",
@@ -243,7 +248,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "Anomalous fading in OSL dating primarily affects which mineral?",
       "options": [
         "Quartz",
@@ -256,9 +261,10 @@
       "estSec": 75,
       "topicWeight": 0.125,
       "source": "curated",
-      "diagram": {
-        "type": "svg",
-        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 260\"><rect width=\"440\" height=\"260\" fill=\"#fff\" rx=\"8\"/><text x=\"220\" y=\"25\" font-family=\"Arial\" font-size=\"13\" font-weight=\"bold\" text-anchor=\"middle\">OSL Anomalous Fading</text><rect x=\"40\" y=\"45\" width=\"160\" height=\"100\" fill=\"#e8f5e9\" rx=\"4\"/><text x=\"120\" y=\"65\" font-family=\"Arial\" font-size=\"10\" font-weight=\"bold\" text-anchor=\"middle\">Quartz</text><text x=\"120\" y=\"85\" font-family=\"Arial\" font-size=\"9\" text-anchor=\"middle\">Stable signal</text><text x=\"120\" y=\"100\" font-family=\"Arial\" font-size=\"9\" text-anchor=\"middle\">No fading</text><text x=\"120\" y=\"120\" font-family=\"Arial\" font-size=\"9\" text-anchor=\"middle\" fill=\"#2e7d32\">Reliable ages</text><rect x=\"240\" y=\"45\" width=\"160\" height=\"100\" fill=\"#ffebee\" rx=\"4\"/><text x=\"320\" y=\"65\" font-family=\"Arial\" font-size=\"10\" font-weight=\"bold\" text-anchor=\"middle\">Feldspar</text><text x=\"320\" y=\"85\" font-family=\"Arial\" font-size=\"9\" text-anchor=\"middle\">Tunneling recombination</text><text x=\"320\" y=\"100\" font-family=\"Arial\" font-size=\"9\" text-anchor=\"middle\">Signal fades</text><text x=\"320\" y=\"120\" font-family=\"Arial\" font-size=\"9\" text-anchor=\"middle\" fill=\"#c62828\">Underestimates ages</text><text x=\"220\" y=\"180\" font-family=\"Arial\" font-size=\"10\" text-anchor=\"middle\" fill=\"#333\">Correction: measure g-value, apply Huntley-Lamothe</text></svg>"
+      "figure": {
+        "kind": "svg",
+        "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 260\"><rect width=\"440\" height=\"260\" fill=\"#fff\" rx=\"8\"/><text x=\"220\" y=\"25\" font-family=\"Arial\" font-size=\"13\" font-weight=\"bold\" text-anchor=\"middle\">OSL Anomalous Fading</text><rect x=\"40\" y=\"45\" width=\"160\" height=\"100\" fill=\"#e8f5e9\" rx=\"4\"/><text x=\"120\" y=\"65\" font-family=\"Arial\" font-size=\"10\" font-weight=\"bold\" text-anchor=\"middle\">Quartz</text><text x=\"120\" y=\"85\" font-family=\"Arial\" font-size=\"9\" text-anchor=\"middle\">Stable signal</text><text x=\"120\" y=\"100\" font-family=\"Arial\" font-size=\"9\" text-anchor=\"middle\">No fading</text><text x=\"120\" y=\"120\" font-family=\"Arial\" font-size=\"9\" text-anchor=\"middle\" fill=\"#2e7d32\">Reliable ages</text><rect x=\"240\" y=\"45\" width=\"160\" height=\"100\" fill=\"#ffebee\" rx=\"4\"/><text x=\"320\" y=\"65\" font-family=\"Arial\" font-size=\"10\" font-weight=\"bold\" text-anchor=\"middle\">Feldspar</text><text x=\"320\" y=\"85\" font-family=\"Arial\" font-size=\"9\" text-anchor=\"middle\">Tunneling recombination</text><text x=\"320\" y=\"100\" font-family=\"Arial\" font-size=\"9\" text-anchor=\"middle\">Signal fades</text><text x=\"320\" y=\"120\" font-family=\"Arial\" font-size=\"9\" text-anchor=\"middle\" fill=\"#c62828\">Underestimates ages</text><text x=\"220\" y=\"180\" font-family=\"Arial\" font-size=\"10\" text-anchor=\"middle\" fill=\"#333\">Correction: measure g-value, apply Huntley-Lamothe</text></svg>",
+        "caption": ""
       }
     },
     {
@@ -268,7 +274,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "In DePaolo AFC model, trace element plot curvature is controlled by r, which equals:",
       "options": [
         "Ratio of mass assimilated to mass crystallized",
@@ -289,7 +295,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "Wilson carbonate facies 7 (fusulinid facies) represents:",
       "options": [
         "Outer shelf with pelagic fauna",
@@ -310,7 +316,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "The stringer zone beneath a VMS deposit is characterized by:",
       "options": [
         "Disseminated pyrite + chalcopyrite in chlorite-sericite alteration",
@@ -323,9 +329,10 @@
       "estSec": 75,
       "topicWeight": 0.125,
       "source": "curated",
-      "diagram": {
-        "type": "svg",
-        "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 440 380'><rect width='440' height='380' fill='#fff' rx='8'/><text x='220' y='25' font-family='Arial' font-size='13' font-weight='bold' text-anchor='middle'>VMS Deposit</text><rect x='40' y='40' width='360' height='25' fill='#b3e5fc' rx='3'/><text x='220' y='57' font-family='Arial' font-size='10' text-anchor='middle' fill='#01579b'>Seawater</text><rect x='40' y='70' width='360' height='35' fill='#ffe0b2' rx='3'/><text x='220' y='93' font-family='Arial' font-size='10' text-anchor='middle' fill='#e65100'>Massive Sulfide (Zn-Cu-Pb)</text><ellipse cx='220' cy='140' rx='70' ry='30' fill='#fff9c4' stroke='#f9a825' stroke-width='2'/><text x='220' y='144' font-family='Arial' font-size='9' text-anchor='middle' fill='#e65100'>Pyrite + Sphalerite + Chalcopyrite</text><line x1='175' y1='170' x2='160' y2='240' stroke='#795548' stroke-width='2'/><line x1='265' y1='170' x2='280' y2='240' stroke='#795548' stroke-width='2'/><ellipse cx='220' cy='265' rx='50' ry='35' fill='#c8e6c9' stroke='#4caf50' stroke-width='2'/><text x='220' y='260' font-family='Arial' font-size='9' text-anchor='middle' fill='#1b5e20'>Stringer Zone</text><text x='220' y='275' font-family='Arial' font-size='8' text-anchor='middle' fill='#1b5e20'>Py+ccp, Chlorite-Sericite</text><rect x='40' y='310' width='360' height='25' fill='#e0e0e0' rx='3'/><text x='220' y='327' font-family='Arial' font-size='9' text-anchor='middle' fill='#333'>Basement (volcanic)</text></svg>"
+      "figure": {
+        "kind": "svg",
+        "markup": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 440 380'><rect width='440' height='380' fill='#fff' rx='8'/><text x='220' y='25' font-family='Arial' font-size='13' font-weight='bold' text-anchor='middle'>VMS Deposit</text><rect x='40' y='40' width='360' height='25' fill='#b3e5fc' rx='3'/><text x='220' y='57' font-family='Arial' font-size='10' text-anchor='middle' fill='#01579b'>Seawater</text><rect x='40' y='70' width='360' height='35' fill='#ffe0b2' rx='3'/><text x='220' y='93' font-family='Arial' font-size='10' text-anchor='middle' fill='#e65100'>Massive Sulfide (Zn-Cu-Pb)</text><ellipse cx='220' cy='140' rx='70' ry='30' fill='#fff9c4' stroke='#f9a825' stroke-width='2'/><text x='220' y='144' font-family='Arial' font-size='9' text-anchor='middle' fill='#e65100'>Pyrite + Sphalerite + Chalcopyrite</text><line x1='175' y1='170' x2='160' y2='240' stroke='#795548' stroke-width='2'/><line x1='265' y1='170' x2='280' y2='240' stroke='#795548' stroke-width='2'/><ellipse cx='220' cy='265' rx='50' ry='35' fill='#c8e6c9' stroke='#4caf50' stroke-width='2'/><text x='220' y='260' font-family='Arial' font-size='9' text-anchor='middle' fill='#1b5e20'>Stringer Zone</text><text x='220' y='275' font-family='Arial' font-size='8' text-anchor='middle' fill='#1b5e20'>Py+ccp, Chlorite-Sericite</text><rect x='40' y='310' width='360' height='25' fill='#e0e0e0' rx='3'/><text x='220' y='327' font-family='Arial' font-size='9' text-anchor='middle' fill='#333'>Basement (volcanic)</text></svg>",
+        "caption": ""
       }
     },
     {
@@ -335,7 +342,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "If porosity decreases from 15% to 10% (constant grain size), permeability decreases by approximately:",
       "options": [
         "Factor of ~2",
@@ -348,9 +355,10 @@
       "estSec": 90,
       "topicWeight": 0.125,
       "source": "curated",
-      "diagram": {
-        "type": "svg",
-        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 260\"><rect width=\"440\" height=\"260\" fill=\"#fff\" rx=\"8\"/><text x=\"220\" y=\"25\" font-family=\"Arial\" font-size=\"13\" font-weight=\"bold\" text-anchor=\"middle\">Kozeny-Carman: k vs porosity</text><rect x=\"50\" y=\"45\" width=\"350\" height=\"180\" fill=\"#fafafa\" rx=\"4\"/><line x1=\"50\" y1=\"225\" x2=\"400\" y2=\"225\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"50\" y1=\"45\" x2=\"50\" y2=\"225\" stroke=\"#333\" stroke-width=\"1\"/><text x=\"225\" y=\"250\" font-family=\"Arial\" font-size=\"10\" text-anchor=\"middle\">Porosity (phi) %</text><text x=\"30\" y=\"140\" font-family=\"Arial\" font-size=\"9\" text-anchor=\"middle\" transform=\"rotate(-90,30,140)\">Permeability (log)</text><path d=\"M 80,210 Q 150,180 220,140 Q 290,100 360,60\" fill=\"none\" stroke=\"#1565c0\" stroke-width=\"2\"/><circle cx=\"150\" cy=\"185\" r=\"4\" fill=\"#c62828\"/><text x=\"150\" y=\"200\" font-family=\"Arial\" font-size=\"8\" text-anchor=\"middle\" fill=\"#c62828\">15% - k1</text><circle cx=\"280\" cy=\"110\" r=\"4\" fill=\"#2e7d32\"/><text x=\"280\" y=\"100\" font-family=\"Arial\" font-size=\"8\" text-anchor=\"middle\" fill=\"#2e7d32\">10% - k1/4</text><text x=\"225\" y=\"155\" font-family=\"Arial\" font-size=\"9\" text-anchor=\"middle\" fill=\"#333\">Non-linear relationship</text></svg>"
+      "figure": {
+        "kind": "svg",
+        "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 260\"><rect width=\"440\" height=\"260\" fill=\"#fff\" rx=\"8\"/><text x=\"220\" y=\"25\" font-family=\"Arial\" font-size=\"13\" font-weight=\"bold\" text-anchor=\"middle\">Kozeny-Carman: k vs porosity</text><rect x=\"50\" y=\"45\" width=\"350\" height=\"180\" fill=\"#fafafa\" rx=\"4\"/><line x1=\"50\" y1=\"225\" x2=\"400\" y2=\"225\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"50\" y1=\"45\" x2=\"50\" y2=\"225\" stroke=\"#333\" stroke-width=\"1\"/><text x=\"225\" y=\"250\" font-family=\"Arial\" font-size=\"10\" text-anchor=\"middle\">Porosity (phi) %</text><text x=\"30\" y=\"140\" font-family=\"Arial\" font-size=\"9\" text-anchor=\"middle\" transform=\"rotate(-90,30,140)\">Permeability (log)</text><path d=\"M 80,210 Q 150,180 220,140 Q 290,100 360,60\" fill=\"none\" stroke=\"#1565c0\" stroke-width=\"2\"/><circle cx=\"150\" cy=\"185\" r=\"4\" fill=\"#c62828\"/><text x=\"150\" y=\"200\" font-family=\"Arial\" font-size=\"8\" text-anchor=\"middle\" fill=\"#c62828\">15% - k1</text><circle cx=\"280\" cy=\"110\" r=\"4\" fill=\"#2e7d32\"/><text x=\"280\" y=\"100\" font-family=\"Arial\" font-size=\"8\" text-anchor=\"middle\" fill=\"#2e7d32\">10% - k1/4</text><text x=\"225\" y=\"155\" font-family=\"Arial\" font-size=\"9\" text-anchor=\"middle\" fill=\"#333\">Non-linear relationship</text></svg>",
+        "caption": ""
       }
     },
     {
@@ -381,7 +389,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "The smectite-to-illite transformation releases which ion affecting reservoir quality?",
       "options": [
         "Na+",
@@ -415,9 +423,10 @@
       "estSec": 90,
       "topicWeight": 0.125,
       "source": "curated",
-      "diagram": {
-        "type": "svg",
-        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 280\"><rect width=\"420\" height=\"280\" fill=\"#fff\" rx=\"8\"/><text x=\"210\" y=\"25\" font-family=\"Arial\" font-size=\"13\" font-weight=\"bold\" text-anchor=\"middle\">Plinian Eruption Column</text><polygon points=\"160,250 210,50 260,250\" fill=\"#ffcdd2\" stroke=\"#c62828\" stroke-width=\"2\"/><text x=\"210\" y=\"30\" font-family=\"Arial\" font-size=\"9\" text-anchor=\"middle\">25 km</text><text x=\"280\" y=\"120\" font-family=\"Arial\" font-size=\"9\" fill=\"#333\">Convective column</text><text x=\"280\" y=\"145\" font-family=\"Arial\" font-size=\"9\" fill=\"#333\">~1.3e8 kg/s</text><ellipse cx=\"210\" cy=\"250\" rx=\"80\" ry=\"15\" fill=\"#ffe0b2\"/><text x=\"210\" y=\"254\" font-family=\"Arial\" font-size=\"8\" text-anchor=\"middle\">Vent</text><text x=\"210\" y=\"275\" font-family=\"Arial\" font-size=\"9\" text-anchor=\"middle\" fill=\"#555\">VEI 5-6 equivalent</text></svg>"
+      "figure": {
+        "kind": "svg",
+        "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 280\"><rect width=\"420\" height=\"280\" fill=\"#fff\" rx=\"8\"/><text x=\"210\" y=\"25\" font-family=\"Arial\" font-size=\"13\" font-weight=\"bold\" text-anchor=\"middle\">Plinian Eruption Column</text><polygon points=\"160,250 210,50 260,250\" fill=\"#ffcdd2\" stroke=\"#c62828\" stroke-width=\"2\"/><text x=\"210\" y=\"30\" font-family=\"Arial\" font-size=\"9\" text-anchor=\"middle\">25 km</text><text x=\"280\" y=\"120\" font-family=\"Arial\" font-size=\"9\" fill=\"#333\">Convective column</text><text x=\"280\" y=\"145\" font-family=\"Arial\" font-size=\"9\" fill=\"#333\">~1.3e8 kg/s</text><ellipse cx=\"210\" cy=\"250\" rx=\"80\" ry=\"15\" fill=\"#ffe0b2\"/><text x=\"210\" y=\"254\" font-family=\"Arial\" font-size=\"8\" text-anchor=\"middle\">Vent</text><text x=\"210\" y=\"275\" font-family=\"Arial\" font-size=\"9\" text-anchor=\"middle\" fill=\"#555\">VEI 5-6 equivalent</text></svg>",
+        "caption": ""
       }
     },
     {
@@ -427,7 +436,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "For a horizontal cylinder, depth to axis equals the gravity anomaly half-width. If x_half = 500m, z =",
       "options": [
         "250 m",
@@ -440,9 +449,10 @@
       "estSec": 75,
       "topicWeight": 0.125,
       "source": "curated",
-      "diagram": {
-        "type": "svg",
-        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 260\"><rect width=\"440\" height=\"260\" fill=\"#fff\" rx=\"8\"/><text x=\"220\" y=\"25\" font-family=\"Arial\" font-size=\"13\" font-weight=\"bold\" text-anchor=\"middle\">Gravity Half-Width Method</text><rect x=\"40\" y=\"45\" width=\"360\" height=\"120\" fill=\"#e3f2fd\" rx=\"4\"/><text x=\"220\" y=\"65\" font-family=\"Arial\" font-size=\"10\" text-anchor=\"middle\">Bouguer anomaly profile</text><path d=\"M 80,140 Q 140,100 220,80 Q 300,100 360,140\" fill=\"none\" stroke=\"#1565c0\" stroke-width=\"2\"/><line x1=\"220\" y1=\"80\" x2=\"220\" y2=\"150\" stroke=\"#c62828\" stroke-width=\"1\" stroke-dasharray=\"3,2\"/><text x=\"220\" y=\"75\" font-family=\"Arial\" font-size=\"9\" text-anchor=\"middle\" fill=\"#c62828\">max anomaly</text><line x1=\"220\" y1=\"110\" x2=\"330\" y2=\"110\" stroke=\"#f44336\" stroke-width=\"1.5\"/><text x=\"275\" y=\"105\" font-family=\"Arial\" font-size=\"9\" text-anchor=\"middle\" fill=\"#f44336\">x_half = 500m</text><ellipse cx=\"220\" cy=\"200\" rx=\"30\" ry=\"20\" fill=\"#ffe0b2\" stroke=\"#e65100\" stroke-width=\"2\"/><text x=\"220\" y=\"204\" font-family=\"Arial\" font-size=\"8\" text-anchor=\"middle\">Cylinder</text><text x=\"220\" y=\"245\" font-family=\"Arial\" font-size=\"9\" text-anchor=\"middle\" fill=\"#333\">z = x_half for horizontal cylinder</text></svg>"
+      "figure": {
+        "kind": "svg",
+        "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 260\"><rect width=\"440\" height=\"260\" fill=\"#fff\" rx=\"8\"/><text x=\"220\" y=\"25\" font-family=\"Arial\" font-size=\"13\" font-weight=\"bold\" text-anchor=\"middle\">Gravity Half-Width Method</text><rect x=\"40\" y=\"45\" width=\"360\" height=\"120\" fill=\"#e3f2fd\" rx=\"4\"/><text x=\"220\" y=\"65\" font-family=\"Arial\" font-size=\"10\" text-anchor=\"middle\">Bouguer anomaly profile</text><path d=\"M 80,140 Q 140,100 220,80 Q 300,100 360,140\" fill=\"none\" stroke=\"#1565c0\" stroke-width=\"2\"/><line x1=\"220\" y1=\"80\" x2=\"220\" y2=\"150\" stroke=\"#c62828\" stroke-width=\"1\" stroke-dasharray=\"3,2\"/><text x=\"220\" y=\"75\" font-family=\"Arial\" font-size=\"9\" text-anchor=\"middle\" fill=\"#c62828\">max anomaly</text><line x1=\"220\" y1=\"110\" x2=\"330\" y2=\"110\" stroke=\"#f44336\" stroke-width=\"1.5\"/><text x=\"275\" y=\"105\" font-family=\"Arial\" font-size=\"9\" text-anchor=\"middle\" fill=\"#f44336\">x_half = 500m</text><ellipse cx=\"220\" cy=\"200\" rx=\"30\" ry=\"20\" fill=\"#ffe0b2\" stroke=\"#e65100\" stroke-width=\"2\"/><text x=\"220\" y=\"204\" font-family=\"Arial\" font-size=\"8\" text-anchor=\"middle\">Cylinder</text><text x=\"220\" y=\"245\" font-family=\"Arial\" font-size=\"9\" text-anchor=\"middle\" fill=\"#333\">z = x_half for horizontal cylinder</text></svg>",
+        "caption": ""
       }
     },
     {
@@ -473,7 +483,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "Cooper-Jacob method: T=2.3Q/(4*pi*ds). With ds=1.5m/cycle and Q=10 L/s, T is approximately:",
       "options": [
         "1.2e-3 m2/s",
@@ -486,9 +496,10 @@
       "estSec": 75,
       "topicWeight": 0.125,
       "source": "curated",
-      "diagram": {
-        "type": "svg",
-        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 260\"><rect width=\"440\" height=\"260\" fill=\"#fff\" rx=\"8\"/><text x=\"220\" y=\"25\" font-family=\"Arial\" font-size=\"13\" font-weight=\"bold\" text-anchor=\"middle\">Cooper-Jacob Method</text><rect x=\"50\" y=\"45\" width=\"350\" height=\"170\" fill=\"#fafafa\" rx=\"4\"/><line x1=\"50\" y1=\"215\" x2=\"400\" y2=\"215\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"50\" y1=\"45\" x2=\"50\" y2=\"215\" stroke=\"#333\" stroke-width=\"1\"/><text x=\"225\" y=\"240\" font-family=\"Arial\" font-size=\"10\" text-anchor=\"middle\">log(t)</text><text x=\"25\" y=\"135\" font-family=\"Arial\" font-size=\"9\" text-anchor=\"middle\" transform=\"rotate(-90,25,135)\">Drawdown s</text><path d=\"M 80,200 Q 150,180 220,140 L 350,80\" fill=\"none\" stroke=\"#1565c0\" stroke-width=\"2\"/><line x1=\"100\" y1=\"170\" x2=\"350\" y2=\"70\" stroke=\"#f44336\" stroke-width=\"1.5\" stroke-dasharray=\"4,3\"/><text x=\"250\" y=\"60\" font-family=\"Arial\" font-size=\"9\" fill=\"#f44336\">Straight line fit</text><text x=\"220\" y=\"155\" font-family=\"Arial\" font-size=\"9\" text-anchor=\"middle\" fill=\"#333\">delta_s per log cycle = slope</text></svg>"
+      "figure": {
+        "kind": "svg",
+        "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 260\"><rect width=\"440\" height=\"260\" fill=\"#fff\" rx=\"8\"/><text x=\"220\" y=\"25\" font-family=\"Arial\" font-size=\"13\" font-weight=\"bold\" text-anchor=\"middle\">Cooper-Jacob Method</text><rect x=\"50\" y=\"45\" width=\"350\" height=\"170\" fill=\"#fafafa\" rx=\"4\"/><line x1=\"50\" y1=\"215\" x2=\"400\" y2=\"215\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"50\" y1=\"45\" x2=\"50\" y2=\"215\" stroke=\"#333\" stroke-width=\"1\"/><text x=\"225\" y=\"240\" font-family=\"Arial\" font-size=\"10\" text-anchor=\"middle\">log(t)</text><text x=\"25\" y=\"135\" font-family=\"Arial\" font-size=\"9\" text-anchor=\"middle\" transform=\"rotate(-90,25,135)\">Drawdown s</text><path d=\"M 80,200 Q 150,180 220,140 L 350,80\" fill=\"none\" stroke=\"#1565c0\" stroke-width=\"2\"/><line x1=\"100\" y1=\"170\" x2=\"350\" y2=\"70\" stroke=\"#f44336\" stroke-width=\"1.5\" stroke-dasharray=\"4,3\"/><text x=\"250\" y=\"60\" font-family=\"Arial\" font-size=\"9\" fill=\"#f44336\">Straight line fit</text><text x=\"220\" y=\"155\" font-family=\"Arial\" font-size=\"9\" text-anchor=\"middle\" fill=\"#333\">delta_s per log cycle = slope</text></svg>",
+        "caption": ""
       }
     },
     {
@@ -498,7 +509,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "The Great Unconformity (Grand Canyon) gap represents approximately:",
       "options": [
         "100 Myr",
@@ -519,7 +530,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "Quartz-magnetite delta18O fractionation of 6.0 per mil corresponds to approximately:",
       "options": [
         "300C",
@@ -553,9 +564,10 @@
       "estSec": 75,
       "topicWeight": 0.125,
       "source": "curated",
-      "diagram": {
-        "type": "svg",
-        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 280\"><rect width=\"440\" height=\"280\" fill=\"#fff\" rx=\"8\"/><text x=\"220\" y=\"25\" font-family=\"Arial\" font-size=\"13\" font-weight=\"bold\" text-anchor=\"middle\">Relative Permeability Curves</text><rect x=\"50\" y=\"45\" width=\"350\" height=\"190\" fill=\"#fafafa\" rx=\"4\"/><line x1=\"50\" y1=\"235\" x2=\"400\" y2=\"235\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"50\" y1=\"45\" x2=\"50\" y2=\"235\" stroke=\"#333\" stroke-width=\"1\"/><text x=\"225\" y=\"260\" font-family=\"Arial\" font-size=\"10\" text-anchor=\"middle\">Water saturation (Sw)</text><text x=\"25\" y=\"145\" font-family=\"Arial\" font-size=\"9\" text-anchor=\"middle\" transform=\"rotate(-90,25,145)\">Relative permeability</text><path d=\"M 80,220 Q 150,200 250,120 Q 320,60 370,50\" fill=\"none\" stroke=\"#1565c0\" stroke-width=\"2\"/><text x=\"380\" y=\"45\" font-family=\"Arial\" font-size=\"8\" fill=\"#1565c0\">k_rw</text><path d=\"M 80,50 Q 150,60 250,150 Q 320,200 370,220\" fill=\"none\" stroke=\"#c62828\" stroke-width=\"2\"/><text x=\"380\" y=\"225\" font-family=\"Arial\" font-size=\"8\" fill=\"#c62828\">k_ro</text><line x1=\"330\" y1=\"50\" x2=\"330\" y2=\"235\" stroke=\"#333\" stroke-width=\"1\" stroke-dasharray=\"3,2\"/><text x=\"330\" y=\"250\" font-family=\"Arial\" font-size=\"8\" text-anchor=\"middle\">Sor</text></svg>"
+      "figure": {
+        "kind": "svg",
+        "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 280\"><rect width=\"440\" height=\"280\" fill=\"#fff\" rx=\"8\"/><text x=\"220\" y=\"25\" font-family=\"Arial\" font-size=\"13\" font-weight=\"bold\" text-anchor=\"middle\">Relative Permeability Curves</text><rect x=\"50\" y=\"45\" width=\"350\" height=\"190\" fill=\"#fafafa\" rx=\"4\"/><line x1=\"50\" y1=\"235\" x2=\"400\" y2=\"235\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"50\" y1=\"45\" x2=\"50\" y2=\"235\" stroke=\"#333\" stroke-width=\"1\"/><text x=\"225\" y=\"260\" font-family=\"Arial\" font-size=\"10\" text-anchor=\"middle\">Water saturation (Sw)</text><text x=\"25\" y=\"145\" font-family=\"Arial\" font-size=\"9\" text-anchor=\"middle\" transform=\"rotate(-90,25,145)\">Relative permeability</text><path d=\"M 80,220 Q 150,200 250,120 Q 320,60 370,50\" fill=\"none\" stroke=\"#1565c0\" stroke-width=\"2\"/><text x=\"380\" y=\"45\" font-family=\"Arial\" font-size=\"8\" fill=\"#1565c0\">k_rw</text><path d=\"M 80,50 Q 150,60 250,150 Q 320,200 370,220\" fill=\"none\" stroke=\"#c62828\" stroke-width=\"2\"/><text x=\"380\" y=\"225\" font-family=\"Arial\" font-size=\"8\" fill=\"#c62828\">k_ro</text><line x1=\"330\" y1=\"50\" x2=\"330\" y2=\"235\" stroke=\"#333\" stroke-width=\"1\" stroke-dasharray=\"3,2\"/><text x=\"330\" y=\"250\" font-family=\"Arial\" font-size=\"8\" text-anchor=\"middle\">Sor</text></svg>",
+        "caption": ""
       }
     },
     {
@@ -565,7 +577,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "Most severe temporal decorrelation in InSAR caused by:",
       "options": [
         "Atmospheric water vapor",
@@ -586,7 +598,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "Cu grade in potassic zone relative to phyllic zone in porphyry Cu deposits is typically:",
       "options": [
         "Much lower",
@@ -607,7 +619,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "If Mg/Ca ratio in foraminifera doubles, the temperature increase is approximately:",
       "options": [
         "~5C",
@@ -620,9 +632,10 @@
       "estSec": 75,
       "topicWeight": 0.125,
       "source": "curated",
-      "diagram": {
-        "type": "svg",
-        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 260\"><rect width=\"440\" height=\"260\" fill=\"#fff\" rx=\"8\"/><text x=\"220\" y=\"25\" font-family=\"Arial\" font-size=\"13\" font-weight=\"bold\" text-anchor=\"middle\">Mg/Ca vs Temperature</text><rect x=\"50\" y=\"45\" width=\"350\" height=\"170\" fill=\"#fafafa\" rx=\"4\"/><line x1=\"50\" y1=\"215\" x2=\"400\" y2=\"215\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"50\" y1=\"45\" x2=\"50\" y2=\"215\" stroke=\"#333\" stroke-width=\"1\"/><text x=\"225\" y=\"240\" font-family=\"Arial\" font-size=\"10\" text-anchor=\"middle\">Temperature (C)</text><text x=\"25\" y=\"135\" font-family=\"Arial\" font-size=\"9\" text-anchor=\"middle\" transform=\"rotate(-90,25,135)\">Mg/Ca ratio</text><path d=\"M 80,200 Q 150,180 220,130 Q 290,80 360,50\" fill=\"none\" stroke=\"#1565c0\" stroke-width=\"2\"/><circle cx=\"150\" cy=\"185\" r=\"4\" fill=\"#c62828\"/><circle cx=\"280\" cy=\"100\" r=\"4\" fill=\"#2e7d32\"/><text x=\"215\" y=\"145\" font-family=\"Arial\" font-size=\"9\" text-anchor=\"middle\" fill=\"#333\">Exponential relationship</text></svg>"
+      "figure": {
+        "kind": "svg",
+        "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 260\"><rect width=\"440\" height=\"260\" fill=\"#fff\" rx=\"8\"/><text x=\"220\" y=\"25\" font-family=\"Arial\" font-size=\"13\" font-weight=\"bold\" text-anchor=\"middle\">Mg/Ca vs Temperature</text><rect x=\"50\" y=\"45\" width=\"350\" height=\"170\" fill=\"#fafafa\" rx=\"4\"/><line x1=\"50\" y1=\"215\" x2=\"400\" y2=\"215\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"50\" y1=\"45\" x2=\"50\" y2=\"215\" stroke=\"#333\" stroke-width=\"1\"/><text x=\"225\" y=\"240\" font-family=\"Arial\" font-size=\"10\" text-anchor=\"middle\">Temperature (C)</text><text x=\"25\" y=\"135\" font-family=\"Arial\" font-size=\"9\" text-anchor=\"middle\" transform=\"rotate(-90,25,135)\">Mg/Ca ratio</text><path d=\"M 80,200 Q 150,180 220,130 Q 290,80 360,50\" fill=\"none\" stroke=\"#1565c0\" stroke-width=\"2\"/><circle cx=\"150\" cy=\"185\" r=\"4\" fill=\"#c62828\"/><circle cx=\"280\" cy=\"100\" r=\"4\" fill=\"#2e7d32\"/><text x=\"215\" y=\"145\" font-family=\"Arial\" font-size=\"9\" text-anchor=\"middle\" fill=\"#333\">Exponential relationship</text></svg>",
+        "caption": ""
       }
     },
     {
@@ -632,7 +645,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "A compound landslide (Varnes 1978) involves:",
       "options": [
         "Only translational movement",
@@ -674,7 +687,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "Mars lacks plate tectonics primarily because:",
       "options": [
         "Lower gravity prevents subduction",
@@ -695,7 +708,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "The Re-Os system (t1/2=41.6 Gyr) is uniquely useful for dating:",
       "options": [
         "Upper mantle peridotites and mantle-derived melts",
@@ -737,7 +750,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "If a Brazilian disc fails at contact points first, the measured tensile strength:",
       "options": [
         "Overestimates true value",
@@ -771,9 +784,10 @@
       "estSec": 75,
       "topicWeight": 0.125,
       "source": "curated",
-      "diagram": {
-        "type": "svg",
-        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 260\"><rect width=\"440\" height=\"260\" fill=\"#fff\" rx=\"8\"/><text x=\"220\" y=\"25\" font-family=\"Arial\" font-size=\"13\" font-weight=\"bold\" text-anchor=\"middle\">Oil Window - Vitrinite Reflectance</text><rect x=\"40\" y=\"45\" width=\"360\" height=\"30\" fill=\"#e8f5e9\" rx=\"3\"/><text x=\"220\" y=\"65\" font-family=\"Arial\" font-size=\"9\" text-anchor=\"middle\" fill=\"#2e7d32\">Immature: Ro &lt; 0.5%</text><rect x=\"40\" y=\"80\" width=\"360\" height=\"40\" fill=\"#c8e6c9\" rx=\"3\"/><text x=\"220\" y=\"105\" font-family=\"Arial\" font-size=\"10\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#1b5e20\">Oil Window: Ro 0.6-1.3%</text><rect x=\"40\" y=\"125\" width=\"360\" height=\"25\" fill=\"#fff9c4\" rx=\"3\"/><text x=\"220\" y=\"142\" font-family=\"Arial\" font-size=\"9\" text-anchor=\"middle\" fill=\"#f57f17\">Peak oil: Ro ~0.8-0.9%</text><rect x=\"40\" y=\"155\" width=\"360\" height=\"30\" fill=\"#ffe0b2\" rx=\"3\"/><text x=\"220\" y=\"175\" font-family=\"Arial\" font-size=\"9\" text-anchor=\"middle\" fill=\"#e65100\">Wet gas: Ro 1.0-1.3%</text><rect x=\"40\" y=\"190\" width=\"360\" height=\"30\" fill=\"#ffcdd2\" rx=\"3\"/><text x=\"220\" y=\"210\" font-family=\"Arial\" font-size=\"9\" text-anchor=\"middle\" fill=\"#c62828\">Dry gas: Ro &gt; 1.3%</text><line x1=\"40\" y1=\"230\" x2=\"400\" y2=\"230\" stroke=\"#333\" stroke-width=\"1\"/><text x=\"220\" y=\"250\" font-family=\"Arial\" font-size=\"9\" text-anchor=\"middle\">Increasing maturity</text></svg>"
+      "figure": {
+        "kind": "svg",
+        "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 260\"><rect width=\"440\" height=\"260\" fill=\"#fff\" rx=\"8\"/><text x=\"220\" y=\"25\" font-family=\"Arial\" font-size=\"13\" font-weight=\"bold\" text-anchor=\"middle\">Oil Window - Vitrinite Reflectance</text><rect x=\"40\" y=\"45\" width=\"360\" height=\"30\" fill=\"#e8f5e9\" rx=\"3\"/><text x=\"220\" y=\"65\" font-family=\"Arial\" font-size=\"9\" text-anchor=\"middle\" fill=\"#2e7d32\">Immature: Ro &lt; 0.5%</text><rect x=\"40\" y=\"80\" width=\"360\" height=\"40\" fill=\"#c8e6c9\" rx=\"3\"/><text x=\"220\" y=\"105\" font-family=\"Arial\" font-size=\"10\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#1b5e20\">Oil Window: Ro 0.6-1.3%</text><rect x=\"40\" y=\"125\" width=\"360\" height=\"25\" fill=\"#fff9c4\" rx=\"3\"/><text x=\"220\" y=\"142\" font-family=\"Arial\" font-size=\"9\" text-anchor=\"middle\" fill=\"#f57f17\">Peak oil: Ro ~0.8-0.9%</text><rect x=\"40\" y=\"155\" width=\"360\" height=\"30\" fill=\"#ffe0b2\" rx=\"3\"/><text x=\"220\" y=\"175\" font-family=\"Arial\" font-size=\"9\" text-anchor=\"middle\" fill=\"#e65100\">Wet gas: Ro 1.0-1.3%</text><rect x=\"40\" y=\"190\" width=\"360\" height=\"30\" fill=\"#ffcdd2\" rx=\"3\"/><text x=\"220\" y=\"210\" font-family=\"Arial\" font-size=\"9\" text-anchor=\"middle\" fill=\"#c62828\">Dry gas: Ro &gt; 1.3%</text><line x1=\"40\" y1=\"230\" x2=\"400\" y2=\"230\" stroke=\"#333\" stroke-width=\"1\"/><text x=\"220\" y=\"250\" font-family=\"Arial\" font-size=\"9\" text-anchor=\"middle\">Increasing maturity</text></svg>",
+        "caption": ""
       }
     },
     {
@@ -796,9 +810,10 @@
       "estSec": 75,
       "topicWeight": 0.125,
       "source": "curated",
-      "diagram": {
-        "type": "svg",
-        "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 480 340'><rect width='480' height='340' fill='#fff' rx='8'/><text x='240' y='25' font-family='Arial' font-size='13' font-weight='bold' text-anchor='middle'>Fast-Spreading Ridge AMC</text><rect x='30' y='40' width='420' height='25' fill='#b3e5fc' rx='3'/><text x='240' y='57' font-family='Arial' font-size='10' text-anchor='middle' fill='#01579b'>Ocean</text><rect x='30' y='70' width='420' height='20' fill='#455a64' rx='3'/><text x='240' y='84' font-family='Arial' font-size='9' text-anchor='middle' fill='#fff'>Basaltic extrusives</text><rect x='30' y='95' width='420' height='30' fill='#5d4037' rx='3'/><text x='240' y='115' font-family='Arial' font-size='9' text-anchor='middle' fill='#fff'>Sheeted dikes</text><rect x='170' y='130' width='140' height='12' fill='#ff8a65' rx='2'/><text x='240' y='139' font-family='Arial' font-size='8' text-anchor='middle' fill='#fff'>Melt lens ~100m</text><rect x='100' y='145' width='280' height='35' fill='#ffccbc' rx='3'/><text x='240' y='168' font-family='Arial' font-size='9' text-anchor='middle' fill='#bf360c'>Crystal mush zone</text><rect x='30' y='185' width='420' height='45' fill='#8d6e63' rx='3'/><text x='240' y='213' font-family='Arial' font-size='9' text-anchor='middle' fill='#fff'>Gabbro cumulates</text><rect x='30' y='235' width='420' height='55' fill='#a1887f' rx='3'/><text x='240' y='268' font-family='Arial' font-size='9' text-anchor='middle' fill='#fff'>Upper mantle (peridotite)</text></svg>"
+      "figure": {
+        "kind": "svg",
+        "markup": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 480 340'><rect width='480' height='340' fill='#fff' rx='8'/><text x='240' y='25' font-family='Arial' font-size='13' font-weight='bold' text-anchor='middle'>Fast-Spreading Ridge AMC</text><rect x='30' y='40' width='420' height='25' fill='#b3e5fc' rx='3'/><text x='240' y='57' font-family='Arial' font-size='10' text-anchor='middle' fill='#01579b'>Ocean</text><rect x='30' y='70' width='420' height='20' fill='#455a64' rx='3'/><text x='240' y='84' font-family='Arial' font-size='9' text-anchor='middle' fill='#fff'>Basaltic extrusives</text><rect x='30' y='95' width='420' height='30' fill='#5d4037' rx='3'/><text x='240' y='115' font-family='Arial' font-size='9' text-anchor='middle' fill='#fff'>Sheeted dikes</text><rect x='170' y='130' width='140' height='12' fill='#ff8a65' rx='2'/><text x='240' y='139' font-family='Arial' font-size='8' text-anchor='middle' fill='#fff'>Melt lens ~100m</text><rect x='100' y='145' width='280' height='35' fill='#ffccbc' rx='3'/><text x='240' y='168' font-family='Arial' font-size='9' text-anchor='middle' fill='#bf360c'>Crystal mush zone</text><rect x='30' y='185' width='420' height='45' fill='#8d6e63' rx='3'/><text x='240' y='213' font-family='Arial' font-size='9' text-anchor='middle' fill='#fff'>Gabbro cumulates</text><rect x='30' y='235' width='420' height='55' fill='#a1887f' rx='3'/><text x='240' y='268' font-family='Arial' font-size='9' text-anchor='middle' fill='#fff'>Upper mantle (peridotite)</text></svg>",
+        "caption": ""
       }
     },
     {
@@ -821,9 +836,10 @@
       "estSec": 75,
       "topicWeight": 0.125,
       "source": "curated",
-      "diagram": {
-        "type": "svg",
-        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 260\"><rect width=\"420\" height=\"260\" fill=\"#fff\" rx=\"8\"/><text x=\"210\" y=\"25\" font-family=\"Arial\" font-size=\"13\" font-weight=\"bold\" text-anchor=\"middle\">Si-O Tetrahedron</text><polygon points=\"210,60 150,150 270,150 210,200\" fill=\"none\" stroke=\"#1565c0\" stroke-width=\"2\"/><circle cx=\"210\" cy=\"60\" r=\"12\" fill=\"#ff8a65\"/><text x=\"210\" y=\"64\" font-family=\"Arial\" font-size=\"8\" text-anchor=\"middle\" fill=\"#fff\">Si</text><circle cx=\"150\" cy=\"150\" r=\"10\" fill=\"#90caf9\"/><text x=\"150\" y=\"154\" font-family=\"Arial\" font-size=\"8\" text-anchor=\"middle\" fill=\"#fff\">O</text><circle cx=\"270\" cy=\"150\" r=\"10\" fill=\"#90caf9\"/><text x=\"270\" y=\"154\" font-family=\"Arial\" font-size=\"8\" text-anchor=\"middle\" fill=\"#fff\">O</text><circle cx=\"210\" cy=\"200\" r=\"10\" fill=\"#90caf9\"/><text x=\"210\" y=\"204\" font-family=\"Arial\" font-size=\"8\" text-anchor=\"middle\" fill=\"#fff\">O</text><circle cx=\"210\" cy=\"120\" r=\"10\" fill=\"#90caf9\"/><text x=\"210\" y=\"124\" font-family=\"Arial\" font-size=\"8\" text-anchor=\"middle\" fill=\"#fff\">O</text><text x=\"210\" y=\"245\" font-family=\"Arial\" font-size=\"10\" text-anchor=\"middle\" fill=\"#333\">CN=4 despite radius ratio predicting CN=3</text></svg>"
+      "figure": {
+        "kind": "svg",
+        "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 260\"><rect width=\"420\" height=\"260\" fill=\"#fff\" rx=\"8\"/><text x=\"210\" y=\"25\" font-family=\"Arial\" font-size=\"13\" font-weight=\"bold\" text-anchor=\"middle\">Si-O Tetrahedron</text><polygon points=\"210,60 150,150 270,150 210,200\" fill=\"none\" stroke=\"#1565c0\" stroke-width=\"2\"/><circle cx=\"210\" cy=\"60\" r=\"12\" fill=\"#ff8a65\"/><text x=\"210\" y=\"64\" font-family=\"Arial\" font-size=\"8\" text-anchor=\"middle\" fill=\"#fff\">Si</text><circle cx=\"150\" cy=\"150\" r=\"10\" fill=\"#90caf9\"/><text x=\"150\" y=\"154\" font-family=\"Arial\" font-size=\"8\" text-anchor=\"middle\" fill=\"#fff\">O</text><circle cx=\"270\" cy=\"150\" r=\"10\" fill=\"#90caf9\"/><text x=\"270\" y=\"154\" font-family=\"Arial\" font-size=\"8\" text-anchor=\"middle\" fill=\"#fff\">O</text><circle cx=\"210\" cy=\"200\" r=\"10\" fill=\"#90caf9\"/><text x=\"210\" y=\"204\" font-family=\"Arial\" font-size=\"8\" text-anchor=\"middle\" fill=\"#fff\">O</text><circle cx=\"210\" cy=\"120\" r=\"10\" fill=\"#90caf9\"/><text x=\"210\" y=\"124\" font-family=\"Arial\" font-size=\"8\" text-anchor=\"middle\" fill=\"#fff\">O</text><text x=\"210\" y=\"245\" font-family=\"Arial\" font-size=\"10\" text-anchor=\"middle\" fill=\"#333\">CN=4 despite radius ratio predicting CN=3</text></svg>",
+        "caption": ""
       }
     },
     {
@@ -833,7 +849,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "The stage between continental rifting and seafloor spreading in the Wilson Cycle:",
       "options": [
         "Mature ocean basin",
@@ -854,7 +870,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "Rate-limiting step in pyrite oxidation under unsaturated conditions:",
       "options": [
         "Chemical reaction with O2",
@@ -875,7 +891,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "Zircon: 206Pb/238U age=730 Ma, 207Pb/235U age=1045 Ma. Discordia through point and origin indicates:",
       "options": [
         "Crystallization at 1045 Ma",
@@ -888,9 +904,10 @@
       "estSec": 90,
       "topicWeight": 0.125,
       "source": "curated",
-      "diagram": {
-        "type": "svg",
-        "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 460 360'><rect width='460' height='360' fill='#fff' rx='8'/><text x='230' y='25' font-family='Arial' font-size='13' font-weight='bold' text-anchor='middle'>U-Pb Concordia</text><line x1='50' y1='320' x2='420' y2='320' stroke='#333' stroke-width='1.5'/><line x1='50' y1='40' x2='50' y2='320' stroke='#333' stroke-width='1.5'/><text x='235' y='350' font-family='Arial' font-size='11' text-anchor='middle'>207Pb/235U</text><text x='25' y='180' font-family='Arial' font-size='10' text-anchor='middle' transform='rotate(-90,25,180)'>206Pb/238U</text><path d='M 70,310 Q 180,260 370,70' fill='none' stroke='#1565c0' stroke-width='2'/><text x='130' y='285' font-family='Arial' font-size='9' fill='#1565c0'>500 Ma</text><text x='200' y='230' font-family='Arial' font-size='9' fill='#1565c0'>1000 Ma</text><text x='330' y='100' font-family='Arial' font-size='9' fill='#1565c0'>1500 Ma</text><circle cx='190' cy='240' r='5' fill='#c62828'/><text x='210' y='238' font-family='Arial' font-size='9' fill='#c62828'>Data point</text><line x1='190' y1='240' x2='70' y2='310' stroke='#d32f2f' stroke-width='1.5' stroke-dasharray='4,3'/><text x='120' y='295' font-family='Arial' font-size='9' fill='#d32f2f'>Discordia (Pb loss)</text></svg>"
+      "figure": {
+        "kind": "svg",
+        "markup": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 460 360'><rect width='460' height='360' fill='#fff' rx='8'/><text x='230' y='25' font-family='Arial' font-size='13' font-weight='bold' text-anchor='middle'>U-Pb Concordia</text><line x1='50' y1='320' x2='420' y2='320' stroke='#333' stroke-width='1.5'/><line x1='50' y1='40' x2='50' y2='320' stroke='#333' stroke-width='1.5'/><text x='235' y='350' font-family='Arial' font-size='11' text-anchor='middle'>207Pb/235U</text><text x='25' y='180' font-family='Arial' font-size='10' text-anchor='middle' transform='rotate(-90,25,180)'>206Pb/238U</text><path d='M 70,310 Q 180,260 370,70' fill='none' stroke='#1565c0' stroke-width='2'/><text x='130' y='285' font-family='Arial' font-size='9' fill='#1565c0'>500 Ma</text><text x='200' y='230' font-family='Arial' font-size='9' fill='#1565c0'>1000 Ma</text><text x='330' y='100' font-family='Arial' font-size='9' fill='#1565c0'>1500 Ma</text><circle cx='190' cy='240' r='5' fill='#c62828'/><text x='210' y='238' font-family='Arial' font-size='9' fill='#c62828'>Data point</text><line x1='190' y1='240' x2='70' y2='310' stroke='#d32f2f' stroke-width='1.5' stroke-dasharray='4,3'/><text x='120' y='295' font-family='Arial' font-size='9' fill='#d32f2f'>Discordia (Pb loss)</text></svg>",
+        "caption": ""
       }
     },
     {
@@ -900,7 +917,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "North Atlantic Deep Water is characterized by:",
       "options": [
         "Low T, low S",
@@ -913,9 +930,10 @@
       "estSec": 75,
       "topicWeight": 0.125,
       "source": "curated",
-      "diagram": {
-        "type": "svg",
-        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 260\"><rect width=\"440\" height=\"260\" fill=\"#fff\" rx=\"8\"/><text x=\"220\" y=\"25\" font-family=\"Arial\" font-size=\"13\" font-weight=\"bold\" text-anchor=\"middle\">Thermohaline Circulation</text><rect x=\"40\" y=\"45\" width=\"360\" height=\"30\" fill=\"#b3e5fc\" rx=\"3\"/><text x=\"220\" y=\"65\" font-family=\"Arial\" font-size=\"9\" text-anchor=\"middle\" fill=\"#01579b\">Surface ocean (warm, salty)</text><rect x=\"40\" y=\"200\" width=\"360\" height=\"30\" fill=\"#1a237e\" rx=\"3\"/><text x=\"220\" y=\"220\" font-family=\"Arial\" font-size=\"9\" text-anchor=\"middle\" fill=\"#fff\">Deep ocean (cold, salty)</text><path d=\"M 120,75 L 120,200\" fill=\"none\" stroke=\"#1565c0\" stroke-width=\"3\"/><text x=\"120\" y=\"140\" font-family=\"Arial\" font-size=\"8\" text-anchor=\"middle\" fill=\"#1565c0\">NADW</text><path d=\"M 320,75 L 320,200\" fill=\"none\" stroke=\"#0d47a1\" stroke-width=\"3\"/><text x=\"320\" y=\"140\" font-family=\"Arial\" font-size=\"8\" text-anchor=\"middle\" fill=\"#0d47a1\">AABW</text><text x=\"80\" y=\"100\" font-family=\"Arial\" font-size=\"8\" fill=\"#333\">N Atlantic</text><text x=\"300\" y=\"100\" font-family=\"Arial\" font-size=\"8\" fill=\"#333\">S Ocean</text><text x=\"220\" y=\"250\" font-family=\"Arial\" font-size=\"9\" text-anchor=\"middle\" fill=\"#555\">Density-driven global conveyor belt</text></svg>"
+      "figure": {
+        "kind": "svg",
+        "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 260\"><rect width=\"440\" height=\"260\" fill=\"#fff\" rx=\"8\"/><text x=\"220\" y=\"25\" font-family=\"Arial\" font-size=\"13\" font-weight=\"bold\" text-anchor=\"middle\">Thermohaline Circulation</text><rect x=\"40\" y=\"45\" width=\"360\" height=\"30\" fill=\"#b3e5fc\" rx=\"3\"/><text x=\"220\" y=\"65\" font-family=\"Arial\" font-size=\"9\" text-anchor=\"middle\" fill=\"#01579b\">Surface ocean (warm, salty)</text><rect x=\"40\" y=\"200\" width=\"360\" height=\"30\" fill=\"#1a237e\" rx=\"3\"/><text x=\"220\" y=\"220\" font-family=\"Arial\" font-size=\"9\" text-anchor=\"middle\" fill=\"#fff\">Deep ocean (cold, salty)</text><path d=\"M 120,75 L 120,200\" fill=\"none\" stroke=\"#1565c0\" stroke-width=\"3\"/><text x=\"120\" y=\"140\" font-family=\"Arial\" font-size=\"8\" text-anchor=\"middle\" fill=\"#1565c0\">NADW</text><path d=\"M 320,75 L 320,200\" fill=\"none\" stroke=\"#0d47a1\" stroke-width=\"3\"/><text x=\"320\" y=\"140\" font-family=\"Arial\" font-size=\"8\" text-anchor=\"middle\" fill=\"#0d47a1\">AABW</text><text x=\"80\" y=\"100\" font-family=\"Arial\" font-size=\"8\" fill=\"#333\">N Atlantic</text><text x=\"300\" y=\"100\" font-family=\"Arial\" font-size=\"8\" fill=\"#333\">S Ocean</text><text x=\"220\" y=\"250\" font-family=\"Arial\" font-size=\"9\" text-anchor=\"middle\" fill=\"#555\">Density-driven global conveyor belt</text></svg>",
+        "caption": ""
       }
     },
     {
@@ -925,7 +943,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "Doubly drained clay (H=10m, drainage path=5m), Cv=1e-7 m2/s. Time for 90% consolidation (Tv=0.848):",
       "options": [
         "~8 years",
@@ -958,7 +976,12 @@
       "solution": "6^20 = (2*3)^20. log10(6^20) = 20*(0.301+0.477) = 20*0.778 = 15.56. Digits = floor(15.56)+1 = 16.",
       "estSec": 60,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Nested number sets",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Number System Hierarchy</text><rect x=\"150\" y=\"40\" width=\"180\" height=\"30\" fill=\"#dbeafe\" stroke=\"#3b82f6\" rx=\"4\"/><rect x=\"100\" y=\"80\" width=\"130\" height=\"30\" fill=\"#dcfce7\" stroke=\"#22c55e\" rx=\"4\"/><rect x=\"250\" y=\"80\" width=\"130\" height=\"30\" fill=\"#fef3c7\" stroke=\"#f59e0b\" rx=\"4\"/><rect x=\"120\" y=\"120\" width=\"90\" height=\"30\" fill=\"#fee2e2\" stroke=\"#ef4444\" rx=\"4\"/><rect x=\"120\" y=\"160\" width=\"40\" height=\"25\" fill=\"#e0e7ff\" stroke=\"#818cf8\" rx=\"4\"/><rect x=\"170\" y=\"160\" width=\"40\" height=\"25\" fill=\"#e0e7ff\" stroke=\"#818cf8\" rx=\"4\"/><text x=\"240\" y=\"60\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#3b82f6\" text-anchor=\"middle\" font-weight=\"bold\">Real Numbers</text><text x=\"165\" y=\"100\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#22c55e\" text-anchor=\"middle\" font-weight=\"bold\">Rational</text><text x=\"315\" y=\"100\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#f59e0b\" text-anchor=\"middle\" font-weight=\"bold\">Irrational</text><text x=\"165\" y=\"140\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#ef4444\" text-anchor=\"middle\" font-weight=\"bold\">Integers</text><text x=\"140\" y=\"177\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#818cf8\" text-anchor=\"middle\">ℕ</text><text x=\"190\" y=\"177\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#818cf8\" text-anchor=\"middle\">0</text></svg>"
+      }
     },
     {
       "id": 42,
@@ -967,7 +990,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "A shopkeeper marks up goods 40% above cost. Two successive discounts of 10% each result in:",
       "options": [
         "8% profit",
@@ -979,7 +1002,12 @@
       "solution": "MP=140. After two 10% discounts: 140*0.9*0.9 = 113.4. Profit = 13.4%.",
       "estSec": 60,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Cost vs selling price comparison",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Profit & Loss</text><rect x=\"80\" y=\"70\" width=\"70\" height=\"70\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"2\" rx=\"4\"/><rect x=\"200\" y=\"50\" width=\"70\" height=\"90\" fill=\"#dcfce7\" stroke=\"#22c55e\" stroke-width=\"2\" rx=\"4\"/><rect x=\"320\" y=\"90\" width=\"70\" height=\"50\" fill=\"#fee2e2\" stroke=\"#ef4444\" stroke-width=\"2\" rx=\"4\"/><text x=\"115\" y=\"110\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#3b82f6\" text-anchor=\"middle\" font-weight=\"bold\">CP</text><text x=\"235\" y=\"105\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#22c55e\" text-anchor=\"middle\" font-weight=\"bold\">SP > CP</text><text x=\"235\" y=\"125\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#22c55e\" text-anchor=\"middle\">Profit</text><text x=\"355\" y=\"115\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#ef4444\" text-anchor=\"middle\" font-weight=\"bold\">SP < CP</text><text x=\"355\" y=\"130\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#ef4444\" text-anchor=\"middle\">Loss</text></svg>"
+      }
     },
     {
       "id": 43,
@@ -1000,7 +1028,12 @@
       "solution": "Net rate = 1/12+1/15-1/20 = (5+4-3)/60 = 6/60 = 1/10. Time = 10 hours.",
       "estSec": 60,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Work rates: combined effort reduces time",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Work Rate Diagram</text><rect x=\"80\" y=\"55\" width=\"160\" height=\"30\" fill=\"#3b82f6\" stroke=\"#3b82f6\" rx=\"4\"/><rect x=\"80\" y=\"100\" width=\"120\" height=\"30\" fill=\"#22c55e\" stroke=\"#22c55e\" rx=\"4\"/><rect x=\"80\" y=\"145\" width=\"200\" height=\"30\" fill=\"#f59e0b\" stroke=\"#f59e0b\" rx=\"4\"/><text x=\"160\" y=\"75\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#fff\" text-anchor=\"middle\">A: 1/6 per day</text><text x=\"140\" y=\"120\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#fff\" text-anchor=\"middle\">B: 1/8 per day</text><text x=\"180\" y=\"165\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#fff\" text-anchor=\"middle\">Combined: 1/6+1/8 = 7/24</text></svg>"
+      }
     },
     {
       "id": 44,
@@ -1009,7 +1042,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "Two dice thrown. Probability sum is a multiple of 3:",
       "options": [
         "1/3",
@@ -1021,7 +1054,12 @@
       "solution": "Sums 3,6,9,12 are multiples of 3. Favorable = 2+5+4+1 = 12 out of 36 = 1/3.",
       "estSec": 60,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Venn diagram for probability union",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Probability Venn</text><circle cx=\"170\" cy=\"110\" r=\"55\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"2\"/><circle cx=\"300\" cy=\"110\" r=\"55\" fill=\"#dcfce7\" stroke=\"#22c55e\" stroke-width=\"2\"/><text x=\"145\" y=\"85\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#3b82f6\" font-weight=\"bold\">P(A)</text><text x=\"325\" y=\"85\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#22c55e\" font-weight=\"bold\">P(B)</text><text x=\"235\" y=\"115\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#f59e0b\" text-anchor=\"middle\" font-weight=\"bold\">A∩B</text><text x=\"240\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">P(A∪B)=P(A)+P(B)−P(A∩B)</text></svg>"
+      }
     },
     {
       "id": 45,
@@ -1030,7 +1068,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "stem": "Mixture milk:water = 7:3. Remove 20% and replace with water. New ratio:",
       "options": [
         "21:19",
@@ -1042,7 +1080,12 @@
       "solution": "Remaining: 5.6M + 2.4W. Add 2W: 5.6M + 4.4W = 14:11.",
       "estSec": 60,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Bar representation of ratio 3:2",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Ratio Visualization</text><rect x=\"60\" y=\"65\" width=\"120\" height=\"40\" fill=\"#3b82f6\" stroke=\"#3b82f6\" rx=\"4\"/><rect x=\"60\" y=\"120\" width=\"80\" height=\"40\" fill=\"#ef4444\" stroke=\"#ef4444\" rx=\"4\"/><text x=\"120\" y=\"90\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#fff\" text-anchor=\"middle\" font-weight=\"bold\">3 parts</text><text x=\"100\" y=\"145\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#fff\" text-anchor=\"middle\" font-weight=\"bold\">2 parts</text><text x=\"300\" y=\"100\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">A : B = 3 : 2</text></svg>"
+      }
     },
     {
       "id": 46,
@@ -1051,7 +1094,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "A cone melted into cylinder with height = 1/3 of cone's height. Cylinder radius to cone radius ratio:",
       "options": [
         "sqrt(3):1",
@@ -1063,7 +1106,12 @@
       "solution": "(1/3)*pi*R^2*H = pi*r^2*(H/3). R^2 = 3*r^2. R/r = sqrt(3).",
       "estSec": 60,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Common shapes formulas",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">2D & 3D Shapes</text><rect x=\"40\" y=\"60\" width=\"70\" height=\"50\" fill=\"#dbeafe\" stroke=\"#3b82f6\"/><circle cx=\"200\" cy=\"85\" r=\"30\" fill=\"#dcfce7\" stroke=\"#22c55e\"/><path d=\"M310,60 L350,40 L390,60 L390,120 L350,140 L310,120 Z\" fill=\"none\" stroke=\"#f59e0b\" stroke-width=\"2\"/><text x=\"75\" y=\"130\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#3b82f6\" text-anchor=\"middle\">Rect</text><text x=\"200\" y=\"130\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#22c55e\" text-anchor=\"middle\">Circle</text><text x=\"350\" y=\"130\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#f59e0b\" text-anchor=\"middle\">Cylinder</text><text x=\"240\" y=\"175\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">A=lw  |  A=πr²  |  V=πr²h</text></svg>"
+      }
     },
     {
       "id": 47,
@@ -1084,7 +1132,12 @@
       "solution": "(x+1/x)^3 = x^3+1/x^3+3(x+1/x). 125 = x^3+1/x^3+15. x^3+1/x^3 = 110.",
       "estSec": 60,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Common identities",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Algebraic Identities</text><text x=\"240\" y=\"65\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3b82f6\" text-anchor=\"middle\" font-weight=\"bold\">(a+b)² = a²+2ab+b²</text><text x=\"240\" y=\"105\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#22c55e\" text-anchor=\"middle\" font-weight=\"bold\">(a−b)² = a²−2ab+b²</text><text x=\"240\" y=\"145\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#f59e0b\" text-anchor=\"middle\" font-weight=\"bold\">a²−b² = (a+b)(a−b)</text></svg>"
+      }
     },
     {
       "id": 48,
@@ -1105,7 +1158,12 @@
       "solution": "0.99*P = 9900. P = 10000.",
       "estSec": 60,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Pie chart of percentage distribution",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Percentage Breakdown</text><circle cx=\"160\" cy=\"110\" r=\"65\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"2\"/><path d=\"M160,110 L160,45 A65,65 0 0,1 218,75 Z\" fill=\"#3b82f6\" stroke=\"#3b82f6\" stroke-width=\"1.5\"/><path d=\"M160,110 L218,75 A65,65 0 0,1 218,155 Z\" fill=\"#ef4444\" stroke=\"#ef4444\" stroke-width=\"1.5\"/><path d=\"M160,110 L218,155 A65,65 0 0,1 102,155 Z\" fill=\"#22c55e\" stroke=\"#22c55e\" stroke-width=\"1.5\"/><text x=\"185\" y=\"70\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#3b82f6\" font-weight=\"bold\">35%</text><text x=\"210\" y=\"120\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#ef4444\" font-weight=\"bold\">25%</text><text x=\"120\" y=\"135\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#22c55e\" font-weight=\"bold\">40%</text><text x=\"370\" y=\"110\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Parts of 100%</text></svg>"
+      }
     },
     {
       "id": 49,
@@ -1114,7 +1172,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "If sin(theta) + cos(theta) = sqrt(2), then tan(theta) + cot(theta) =",
       "options": [
         "1",
@@ -1126,7 +1184,12 @@
       "solution": "(sin+cos)^2=2. 1+2sin*cos=2. sin*cos=1/2. tan+cot = 1/(sin*cos) = 2.",
       "estSec": 60,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Trig ratios in right triangle",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Right Triangle Trig</text><path d=\"M100,160 L300,160 L300,60 Z\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"2.5\"/><text x=\"130\" y=\"150\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#ef4444\">θ</text><text x=\"315\" y=\"115\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#22c55e\">opp</text><text x=\"200\" y=\"175\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#3b82f6\">adj</text><text x=\"180\" y=\"100\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#f59e0b\">hyp</text><text x=\"240\" y=\"195\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#64748b\" text-anchor=\"middle\">sin=opp/hyp  cos=adj/hyp  tan=opp/adj</text></svg>"
+      }
     },
     {
       "id": 50,
@@ -1147,7 +1210,12 @@
       "solution": "Hands overlap 11 times in 12 hours (approximately every 65.45 minutes).",
       "estSec": 60,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Clock angle formula",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Clock Angle</text><circle cx=\"240\" cy=\"110\" r=\"65\" fill=\"#f0f9ff\" stroke=\"#3b82f6\" stroke-width=\"2\"/><circle cx=\"240\" cy=\"110\" r=\"3\" fill=\"#333\" stroke=\"#333\"/><line x1=\"240\" y1=\"110\" x2=\"240\" y2=\"55\" stroke=\"#333\" stroke-width=\"2.5\"/><line x1=\"240\" y1=\"110\" x2=\"280\" y2=\"130\" stroke=\"#ef4444\" stroke-width=\"2\"/><text x=\"240\" y=\"48\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#64748b\" text-anchor=\"middle\">12</text><text x=\"318\" y=\"114\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#64748b\">3</text><text x=\"240\" y=\"190\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#64748b\" text-anchor=\"middle\">6</text><text x=\"162\" y=\"114\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#64748b\" text-anchor=\"middle\">9</text><text x=\"240\" y=\"195\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#4f46e5\" text-anchor=\"middle\">θ = |30h − 5.5m|</text></svg>"
+      }
     },
     {
       "id": 51,
@@ -1156,7 +1224,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "stem": "Average of 50 numbers is 38. If two numbers 45 and 55 are removed, new average:",
       "options": [
         "37.87",
@@ -1168,7 +1236,12 @@
       "solution": "Sum = 50*38 = 1900. Remove 100: 1800. 48 numbers: 1800/48 = 37.5.",
       "estSec": 60,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Average as horizontal line through data",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Average</text><line x1=\"60\" y1=\"170\" x2=\"440\" y2=\"170\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"60\" y1=\"30\" x2=\"60\" y2=\"170\" stroke=\"#64748b\" stroke-width=\"2\"/><rect x=\"80\" y=\"120\" width=\"30\" height=\"50\" fill=\"#3b82f6\" stroke=\"#3b82f6\" rx=\"2\"/><rect x=\"120\" y=\"80\" width=\"30\" height=\"90\" fill=\"#22c55e\" stroke=\"#22c55e\" rx=\"2\"/><rect x=\"160\" y=\"100\" width=\"30\" height=\"70\" fill=\"#f59e0b\" stroke=\"#f59e0b\" rx=\"2\"/><rect x=\"200\" y=\"60\" width=\"30\" height=\"110\" fill=\"#ef4444\" stroke=\"#ef4444\" rx=\"2\"/><rect x=\"240\" y=\"90\" width=\"30\" height=\"80\" fill=\"#8b5cf6\" stroke=\"#8b5cf6\" rx=\"2\"/><line x1=\"60\" y1=\"105\" x2=\"280\" y2=\"105\" stroke=\"#ef4444\" stroke-width=\"2\" stroke-dasharray=\"5\"/><text x=\"350\" y=\"105\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#ef4444\" text-anchor=\"middle\" font-weight=\"bold\">Mean = Σxᵢ/n</text></svg>"
+      }
     },
     {
       "id": 52,
@@ -1189,7 +1262,12 @@
       "solution": "SI = PRT/100 = 5000*8*3/100 = 1200.",
       "estSec": 60,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Linear growth for simple interest",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Simple Interest</text><line x1=\"60\" y1=\"170\" x2=\"440\" y2=\"170\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"60\" y1=\"30\" x2=\"60\" y2=\"170\" stroke=\"#64748b\" stroke-width=\"2\"/><path d=\"M80,150 L400,30\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"2.5\"/><text x=\"280\" y=\"80\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#3b82f6\" font-weight=\"bold\">SI = P×R×T/100</text></svg>"
+      }
     },
     {
       "id": 53,
@@ -1231,7 +1309,12 @@
       "solution": "Area proportional to side^2. Doubling sides gives 4x area. Increase = 4x.",
       "estSec": 60,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Triangle angle sum",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Triangle</text><path d=\"M240,50 L140,170 L340,170 Z\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"2.5\"/><text x=\"240\" y=\"45\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#3b82f6\" text-anchor=\"middle\">A</text><text x=\"130\" y=\"180\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#3b82f6\">B</text><text x=\"350\" y=\"180\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#3b82f6\">C</text><text x=\"240\" y=\"150\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#ef4444\" text-anchor=\"middle\">A+B+C = 180°</text><text x=\"240\" y=\"195\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Area = ½×base×height</text></svg>"
+      }
     },
     {
       "id": 55,
@@ -1240,7 +1323,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "Two vessels contain milk:water = 3:2 and 5:3. Ratio to mix for 1:1:",
       "options": [
         "1:3",
@@ -1252,7 +1335,12 @@
       "solution": "Vessel1: 3/5 milk. Vessel2: 5/8 milk. For 1/2 milk: (3/5)x + (5/8)(1-x) = 1/2. x = 5/13.",
       "estSec": 60,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Two-component mixture",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Two-Component Mix</text><rect x=\"100\" y=\"60\" width=\"80\" height=\"80\" fill=\"#dbeafe\" stroke=\"#3b82f6\" rx=\"4\"/><rect x=\"260\" y=\"60\" width=\"80\" height=\"80\" fill=\"#dcfce7\" stroke=\"#22c55e\" rx=\"4\"/><text x=\"140\" y=\"105\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#3b82f6\" text-anchor=\"middle\">A: 30%</text><text x=\"300\" y=\"105\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#22c55e\" text-anchor=\"middle\">B: 70%</text><text x=\"240\" y=\"175\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Mix → mean concentration</text></svg>"
+      }
     },
     {
       "id": 56,
@@ -1261,7 +1349,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "stem": "Two pipes fill a tank in 10 and 15 hours. A leak empties in 30 hours. All open:",
       "options": [
         "6 hours",
@@ -1273,7 +1361,12 @@
       "solution": "Net rate = 1/10+1/15-1/30 = (3+2-1)/30 = 4/30 = 2/15. Time = 7.5 hours.",
       "estSec": 60,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Cistern with inlet/outlet",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Pipe System</text><rect x=\"120\" y=\"60\" width=\"120\" height=\"100\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"2\" rx=\"4\"/><line x1=\"245\" y1=\"90\" x2=\"310\" y2=\"90\" stroke=\"#22c55e\" stroke-width=\"2.5\"/><line x1=\"245\" y1=\"130\" x2=\"310\" y2=\"130\" stroke=\"#ef4444\" stroke-width=\"2.5\"/><text x=\"180\" y=\"115\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#3b82f6\" text-anchor=\"middle\">Cistern</text><text x=\"277\" y=\"83\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#22c55e\" text-anchor=\"middle\">Pipe A (fill) →</text><text x=\"277\" y=\"145\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#ef4444\" text-anchor=\"middle\">Pipe B (empty) →</text></svg>"
+      }
     },
     {
       "id": 57,
@@ -1336,7 +1429,12 @@
       "solution": "F=3S. 3S+10 = 2(S+10). 3S+10 = 2S+20. S=10. F=30.",
       "estSec": 60,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Age relationship at different time points",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Age Timeline</text><line x1=\"60\" y1=\"100\" x2=\"440\" y2=\"100\" stroke=\"#94a3b8\" stroke-width=\"2\"/><circle cx=\"120\" cy=\"100\" r=\"4\" fill=\"#3b82f6\" stroke=\"#3b82f6\"/><circle cx=\"240\" cy=\"100\" r=\"4\" fill=\"#22c55e\" stroke=\"#22c55e\"/><circle cx=\"360\" cy=\"100\" r=\"4\" fill=\"#ef4444\" stroke=\"#ef4444\"/><text x=\"120\" y=\"85\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#3b82f6\" text-anchor=\"middle\">Now</text><text x=\"240\" y=\"85\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#22c55e\" text-anchor=\"middle\">+5 yrs</text><text x=\"360\" y=\"85\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#ef4444\" text-anchor=\"middle\">+10 yrs</text><text x=\"240\" y=\"140\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Father: x  |  Son: x−25</text></svg>"
+      }
     },
     {
       "id": 60,
@@ -1357,7 +1455,12 @@
       "solution": "Up: 10-2=8 km/h. Down: 10+2=12 km/h. Time = 24/8+24/12 = 3+2 = 5 hours.",
       "estSec": 60,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Boat speed relative to stream current",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Boat in River</text><path d=\"M20,120 Q80,100 140,120 Q200,140 260,120 Q320,100 380,120 Q440,140 480,120\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"1.5\"/><path d=\"M20,135 Q80,115 140,135 Q200,155 260,135 Q320,115 380,135 Q440,155 480,135\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"1\"/><rect x=\"190\" y=\"100\" width=\"50\" height=\"25\" fill=\"#f59e0b\" stroke=\"#f59e0b\" rx=\"8\"/><text x=\"215\" y=\"117\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#fff\" text-anchor=\"middle\" font-weight=\"bold\">Boat</text><text x=\"120\" y=\"80\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#22c55e\">Down: v_b+v_s</text><text x=\"350\" y=\"80\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#ef4444\">Up: v_b−v_s</text></svg>"
+      }
     },
     {
       "id": 61,
@@ -1378,7 +1481,12 @@
       "solution": "Ratio = 60:80 = 3:4. A's share = 28000*3/7 = 12000.",
       "estSec": 60,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Profit sharing proportional",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Partnership Profit</text><rect x=\"50\" y=\"60\" width=\"130\" height=\"50\" fill=\"#dbeafe\" stroke=\"#3b82f6\" rx=\"4\"/><rect x=\"280\" y=\"60\" width=\"130\" height=\"50\" fill=\"#dcfce7\" stroke=\"#22c55e\" rx=\"4\"/><text x=\"115\" y=\"80\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#3b82f6\" text-anchor=\"middle\" font-weight=\"bold\">Partner A</text><text x=\"115\" y=\"97\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#64748b\" text-anchor=\"middle\">₹50K × 12mo</text><text x=\"345\" y=\"80\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#22c55e\" text-anchor=\"middle\" font-weight=\"bold\">Partner B</text><text x=\"345\" y=\"97\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#64748b\" text-anchor=\"middle\">₹30K × 8mo</text><text x=\"240\" y=\"150\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Profit ∝ Capital × Time</text></svg>"
+      }
     },
     {
       "id": 62,
@@ -1429,7 +1537,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "HCF of 12, 18, and 24 is:",
       "options": [
         "3",
@@ -1450,7 +1558,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "Rs 2000 at 10% CI for 2 years compounded annually:",
       "options": [
         "220",
@@ -1462,227 +1570,316 @@
       "solution": "Amount = 2000*(1.1)^2 = 2000*1.21 = 2420. CI = 2420-2000 = 420.",
       "estSec": 60,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Exponential growth curve",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Compound Growth</text><line x1=\"60\" y1=\"170\" x2=\"440\" y2=\"170\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"60\" y1=\"30\" x2=\"60\" y2=\"170\" stroke=\"#64748b\" stroke-width=\"2\"/><path d=\"M80,160 Q240,100 420,10\" fill=\"none\" stroke=\"#22c55e\" stroke-width=\"2.5\"/><text x=\"280\" y=\"50\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#22c55e\" font-weight=\"bold\">A = P(1+r/100)ⁿ</text></svg>"
+      }
     },
     {
       "id": 66,
       "subject": "General Awareness",
-      "topic": "Indian Geography",
-      "section": "General Awareness",
+      "topic": "Current Affairs · Oil & Gas",
+      "section": "GA",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
-      "stem": "Which river is known as the 'Sorrow of Bihar'?",
+      "difficulty": "easy",
+      "stem": "ONGC's largest oil discovery in recent years was in which block?",
       "options": [
-        "Ganga",
-        "Kosi",
-        "Son",
-        "Gandak"
+        "KG Basin",
+        "Mumbai High",
+        "Cauvery Basin",
+        "Assam"
       ],
-      "answer": 1,
-      "solution": "Kosi river is known as Sorrow of Bihar due to devastating floods from shifting course.",
-      "estSec": 45,
-      "topicWeight": 0.125,
+      "answer": 0,
+      "solution": "ONGC made a significant discovery in the KG Basin.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 67,
       "subject": "General Awareness",
-      "topic": "Indian Economy",
-      "section": "General Awareness",
+      "topic": "Current Affairs · Defense",
+      "section": "GA",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
-      "stem": "Which Five Year Plan adopted the objective of 'growth with social justice and equity'?",
+      "difficulty": "easy",
+      "stem": "India's indigenous aircraft carrier is:",
       "options": [
-        "Seventh",
-        "Eighth",
-        "Ninth",
-        "Tenth"
+        "INS Vikrant",
+        "INS Vikramaditya",
+        "INS Arighat",
+        "INS Arihant"
       ],
-      "answer": 2,
-      "solution": "Ninth Five Year Plan (1997-2002) focused on growth with social justice and equity.",
-      "estSec": 45,
-      "topicWeight": 0.125,
+      "answer": 0,
+      "solution": "INS Vikrant is India's first indigenous aircraft carrier.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 68,
       "subject": "General Awareness",
-      "topic": "Indian Polity",
-      "section": "General Awareness",
+      "topic": "Current Affairs · Technology",
+      "section": "GA",
       "type": "MCQ",
       "marks": 1,
       "difficulty": "medium",
-      "stem": "Article 370 of the Indian Constitution was related to:",
+      "stem": "Which company recently developed the most advanced AI chip for data centers?",
       "options": [
-        "Jammu & Kashmir special status",
-        "Fundamental rights",
-        "Emergency provisions",
-        "Directive principles"
+        "Intel",
+        "AMD",
+        "Nvidia",
+        "Qualcomm"
       ],
-      "answer": 0,
-      "solution": "Article 370 granted special autonomous status to Jammu & Kashmir. It was abrogated in August 2019.",
-      "estSec": 45,
-      "topicWeight": 0.125,
+      "answer": 2,
+      "solution": "Nvidia has been leading in AI chip development.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 69,
       "subject": "General Awareness",
-      "topic": "Science & Technology",
-      "section": "General Awareness",
+      "topic": "Current Affairs · Infrastructure",
+      "section": "GA",
       "type": "MCQ",
       "marks": 1,
       "difficulty": "medium",
-      "stem": "The Chandrayaan-3 mission successfully landed on the Moon's south pole region in:",
+      "stem": "India's first bullet train project connects which two cities?",
       "options": [
-        "July 2023",
-        "August 2023",
-        "September 2023",
-        "October 2023"
+        "Delhi-Mumbai",
+        "Mumbai-Ahmedabad",
+        "Chennai-Bangalore",
+        "Kolkata-Hyderabad"
       ],
       "answer": 1,
-      "solution": "Chandrayaan-3 Vikram lander successfully landed on August 23, 2023 near the Moon's south pole.",
-      "estSec": 45,
-      "topicWeight": 0.125,
+      "solution": "The first bullet train project connects Mumbai and Ahmedabad.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 70,
       "subject": "General Awareness",
-      "topic": "Current Affairs",
-      "section": "General Awareness",
+      "topic": "Current Affairs · PSU",
+      "section": "GA",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
-      "stem": "India's first underwater metro tunnel is located in:",
+      "difficulty": "hard",
+      "stem": "Which PSU recently achieved the milestone of 1 billion tonnes of crude oil production?",
       "options": [
-        "Mumbai",
-        "Kolkata",
-        "Delhi",
-        "Chennai"
+        "BPCL",
+        "HPCL",
+        "ONGC",
+        "IOCL"
       ],
-      "answer": 1,
-      "solution": "Kolkata's East-West Metro has India's first underwater metro tunnel under the Hooghly River.",
-      "estSec": 45,
-      "topicWeight": 0.125,
+      "answer": 2,
+      "solution": "ONGC achieved this milestone.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 71,
       "subject": "General Awareness",
-      "topic": "Indian History",
-      "section": "General Awareness",
+      "topic": "Current Affairs · Mining",
+      "section": "GA",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
-      "stem": "The Battle of Plassey was fought in:",
+      "difficulty": "hard",
+      "stem": "India's coal production target for FY2025 is:",
       "options": [
-        "1757",
-        "1764",
-        "1857",
-        "1858"
+        "900 MT",
+        "1000 MT",
+        "1200 MT",
+        "1500 MT"
       ],
-      "answer": 0,
-      "solution": "Battle of Plassey was fought in 1767 between Siraj-ud-Daulah and the British East India Company.",
-      "estSec": 45,
-      "topicWeight": 0.125,
+      "answer": 2,
+      "solution": "India targets 1200 MT of coal production.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 72,
       "subject": "General Awareness",
-      "topic": "Environment",
-      "section": "General Awareness",
+      "topic": "Static GK · Science",
+      "section": "GA",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
-      "stem": "Which among the following is NOT a greenhouse gas?",
+      "difficulty": "easy",
+      "stem": "SI unit of electric current is:",
       "options": [
-        "CO2",
-        "CH4",
-        "N2O",
-        "O2"
+        "Volt",
+        "Watt",
+        "Ampere",
+        "Ohm"
       ],
-      "answer": 3,
-      "solution": "Oxygen (O2) is not a greenhouse gas. CO2, CH4, N2O, and water vapour are greenhouse gases.",
-      "estSec": 45,
-      "topicWeight": 0.125,
+      "answer": 2,
+      "solution": "Ampere is the SI unit of electric current.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 73,
       "subject": "General Awareness",
-      "topic": "Indian Geography",
-      "section": "General Awareness",
+      "topic": "Static GK · Science",
+      "section": "GA",
       "type": "MCQ",
       "marks": 1,
       "difficulty": "medium",
-      "stem": "The Tropic of Cancer passes through how many Indian states?",
+      "stem": "The hardest natural substance on Earth is:",
       "options": [
-        "6",
-        "7",
-        "8",
-        "9"
+        "Quartz",
+        "Topaz",
+        "Diamond",
+        "Corundum"
       ],
       "answer": 2,
-      "solution": "Tropic of Cancer passes through 8 Indian states: Gujarat, Rajasthan, MP, Chhattisgarh, Jharkhand, WB, Tripura, Mizoram.",
-      "estSec": 45,
-      "topicWeight": 0.125,
+      "solution": "Diamond is the hardest natural substance (10 on Mohs scale).",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 74,
       "subject": "General Awareness",
-      "topic": "Awards",
-      "section": "General Awareness",
+      "topic": "Static GK · Important Days",
+      "section": "GA",
       "type": "MCQ",
       "marks": 1,
       "difficulty": "medium",
-      "stem": "Bharat Ratna 2024 was awarded to:",
+      "stem": "World Environment Day is celebrated on:",
       "options": [
-        "Karpoori Thakur, PV Narasimha Rao, MS Swaminathan, LK Advani",
-        "APJ Abdul Kalam, Rajiv Gandhi",
-        "Atal Bihari Vajpayee, LK Advani",
-        "None of these"
+        "March 22",
+        "June 5",
+        "April 22",
+        "May 21"
       ],
-      "answer": 0,
-      "solution": "In 2024, Bharat Ratna was awarded to Karpoori Thakur, PV Narasimha Rao, MS Swaminathan, and LK Advani.",
-      "estSec": 45,
-      "topicWeight": 0.125,
+      "answer": 1,
+      "solution": "World Environment Day is celebrated on June 5th.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 75,
       "subject": "General Awareness",
-      "topic": "Indian Constitution",
-      "section": "General Awareness",
+      "topic": "Static GK · Indian Polity",
+      "section": "GA",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
-      "stem": "The 73rd Constitutional Amendment Act is related to:",
+      "difficulty": "hard",
+      "stem": "How many fundamental rights are currently recognized?",
       "options": [
-        "Panchayati Raj Institutions",
-        "Municipalities",
-        "Fundamental Duties",
-        "Right to Education"
+        "5",
+        "6",
+        "7",
+        "8"
       ],
-      "answer": 0,
-      "solution": "73rd Amendment (1992) constitutionalized Panchayati Raj Institutions in India.",
-      "estSec": 45,
-      "topicWeight": 0.125,
+      "answer": 1,
+      "solution": "There are 6 fundamental rights currently recognized.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 76,
-      "subject": "English Language",
-      "topic": "Vocabulary · Synonyms",
+      "subject": "English",
+      "topic": "English Language · Vocabulary",
       "section": "English",
       "type": "MCQ",
       "marks": 1,
       "difficulty": "medium",
-      "stem": "Choose the synonym of 'Ephemeral':",
+      "stem": "What does 'resilient' mean?",
+      "options": [
+        "Fragile",
+        "Able to recover quickly",
+        "Slow",
+        "Weak"
+      ],
+      "answer": 1,
+      "solution": "Resilient means able to recover quickly from difficulties.",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 77,
+      "subject": "English",
+      "topic": "English Language · Vocabulary",
+      "section": "English",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "Choose the antonym of 'ubiquitous':",
+      "options": [
+        "Omnipresent",
+        "Rare",
+        "Common",
+        "Everywhere"
+      ],
+      "answer": 1,
+      "solution": "Ubiquitous means present everywhere; rare is the opposite.",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 78,
+      "subject": "English",
+      "topic": "English Language · Grammar",
+      "section": "English",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "She asked me where ___ .",
+      "options": [
+        "did I live",
+        "do I live",
+        "I lived",
+        "I live"
+      ],
+      "answer": 2,
+      "solution": "Indirect speech uses past tense: 'where I lived'.",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 79,
+      "subject": "English",
+      "topic": "English Language · Vocabulary",
+      "section": "English",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "What does 'ameliorate' mean?",
+      "options": [
+        "Worsen",
+        "Improve",
+        "Destroy",
+        "Maintain"
+      ],
+      "answer": 1,
+      "solution": "Ameliorate means to make better or improve.",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 80,
+      "subject": "English",
+      "topic": "English Language · Vocabulary",
+      "section": "English",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "What is the synonym of 'ephemeral'?",
       "options": [
         "Permanent",
         "Transient",
@@ -1690,198 +1887,114 @@
         "Stable"
       ],
       "answer": 1,
-      "solution": "Ephemeral means short-lived, fleeting, transient. Opposite of permanent.",
-      "estSec": 45,
-      "topicWeight": 0.125,
-      "source": "curated"
-    },
-    {
-      "id": 77,
-      "subject": "English Language",
-      "topic": "Vocabulary · Antonyms",
-      "section": "English",
-      "type": "MCQ",
-      "marks": 1,
-      "difficulty": "medium",
-      "stem": "Choose the antonym of 'Pragmatic':",
-      "options": [
-        "Practical",
-        "Idealistic",
-        "Realistic",
-        "Sensible"
-      ],
-      "answer": 1,
-      "solution": "Pragmatic = practical, realistic. Idealistic is the antonym.",
-      "estSec": 45,
-      "topicWeight": 0.125,
-      "source": "curated"
-    },
-    {
-      "id": 78,
-      "subject": "English Language",
-      "topic": "Idioms & Phrases",
-      "section": "English",
-      "type": "MCQ",
-      "marks": 1,
-      "difficulty": "medium",
-      "stem": "What does 'to burn the midnight oil' mean?",
-      "options": [
-        "To waste resources",
-        "To work late into the night",
-        "To cause a fire",
-        "To be extravagant"
-      ],
-      "answer": 1,
-      "solution": "Burn the midnight oil = to work/study late into the night.",
-      "estSec": 45,
-      "topicWeight": 0.125,
-      "source": "curated"
-    },
-    {
-      "id": 79,
-      "subject": "English Language",
-      "topic": "Grammar · Tenses",
-      "section": "English",
-      "type": "MCQ",
-      "marks": 1,
-      "difficulty": "medium",
-      "stem": "Choose correct: 'By the time we arrived, the train ______.'",
-      "options": [
-        "has left",
-        "had left",
-        "was leaving",
-        "is leaving"
-      ],
-      "answer": 1,
-      "solution": "Past perfect 'had left' for action completed before another past action.",
-      "estSec": 45,
-      "topicWeight": 0.125,
-      "source": "curated"
-    },
-    {
-      "id": 80,
-      "subject": "English Language",
-      "topic": "Grammar · Prepositions",
-      "section": "English",
-      "type": "MCQ",
-      "marks": 1,
-      "difficulty": "medium",
-      "stem": "Choose correct: 'He is proficient ______ English.'",
-      "options": [
-        "in",
-        "at",
-        "on",
-        "of"
-      ],
-      "answer": 0,
-      "solution": "Proficient IN a language is the correct collocation.",
-      "estSec": 45,
-      "topicWeight": 0.125,
+      "solution": "Ephemeral means short-lived or transient.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 81,
-      "subject": "English Language",
-      "topic": "Reading Comprehension",
+      "subject": "English",
+      "topic": "English Language · Vocabulary",
       "section": "English",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
-      "stem": "In the sentence 'The geologist _elucidated_ the complex formation', the word elucidated means:",
+      "difficulty": "hard",
+      "stem": "What is the meaning of 'diligent'?",
       "options": [
-        "Complicated",
-        "Explained clearly",
-        "Ignored",
-        "Destroyed"
+        "Lazy",
+        "Hardworking",
+        "Careless",
+        "Slow"
       ],
       "answer": 1,
-      "solution": "Elucidated = made clear, explained in detail.",
-      "estSec": 45,
-      "topicWeight": 0.125,
+      "solution": "Diligent means showing care and effort in one's work.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 82,
-      "subject": "English Language",
-      "topic": "Grammar · Voice",
+      "subject": "English",
+      "topic": "English Language · Tenses",
       "section": "English",
       "type": "MCQ",
       "marks": 1,
       "difficulty": "medium",
-      "stem": "Convert to passive: 'The team discovered a new mineral deposit.'",
+      "stem": "By the time we arrive, they ___ already left.",
       "options": [
-        "A new mineral deposit was discovered by the team.",
-        "A new mineral deposit is discovered by the team.",
-        "A new mineral deposit has been discovered by the team.",
-        "A new mineral deposit were discovered by the team."
+        "will",
+        "would",
+        "will have",
+        "would have"
       ],
-      "answer": 0,
-      "solution": "Active: team discovered -> Passive: was discovered by the team.",
-      "estSec": 45,
-      "topicWeight": 0.125,
+      "answer": 2,
+      "solution": "Future perfect: will have + past participle.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 83,
-      "subject": "English Language",
-      "topic": "Grammar · Articles",
+      "subject": "English",
+      "topic": "English Language · Vocabulary",
       "section": "English",
       "type": "MCQ",
       "marks": 1,
       "difficulty": "medium",
-      "stem": "Choose correct: 'She is ______ honest person.'",
+      "stem": "Choose the synonym of 'ambiguous':",
       "options": [
-        "a",
-        "an",
-        "the",
-        "none"
+        "Clear",
+        "Vague",
+        "Definite",
+        "Obvious"
       ],
       "answer": 1,
-      "solution": "'An' before vowel sounds. 'Honest' starts with silent h, vowel sound.",
-      "estSec": 45,
-      "topicWeight": 0.125,
+      "solution": "Ambiguous means open to more than one interpretation; vague.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 84,
-      "subject": "English Language",
-      "topic": "Vocabulary · One Word",
+      "subject": "English",
+      "topic": "English Language · Articles",
       "section": "English",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
-      "stem": "'One who loves books' is called:",
+      "difficulty": "hard",
+      "stem": "___ honest man always speaks the truth.",
       "options": [
-        "Bibliophile",
-        "Philatelist",
-        "Numismatist",
-        "Cinephile"
+        "A",
+        "An",
+        "The",
+        "No article"
       ],
-      "answer": 0,
-      "solution": "Bibliophile = book lover. Philatelist = stamp collector. Numismatist = coin collector.",
-      "estSec": 45,
-      "topicWeight": 0.125,
+      "answer": 1,
+      "solution": "'An' before words starting with silent 'h'.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 85,
-      "subject": "English Language",
-      "topic": "Grammar · Conjunctions",
+      "subject": "English",
+      "topic": "English Language · Grammar",
       "section": "English",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
-      "stem": "Choose correct: '______ it rained heavily, the match continued.'",
+      "difficulty": "hard",
+      "stem": "There ___ many reasons for the delay.",
       "options": [
-        "Since",
-        "Although",
-        "Because",
-        "Therefore"
+        "is",
+        "was",
+        "are",
+        "has been"
       ],
-      "answer": 1,
-      "solution": "Although = contrast connector. Despite heavy rain, match continued.",
-      "estSec": 45,
-      "topicWeight": 0.125,
+      "answer": 2,
+      "solution": "'There are' with plural noun 'reasons'.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     }
   ]

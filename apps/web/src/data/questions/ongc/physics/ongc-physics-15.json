@@ -22,7 +22,7 @@
       "count": 10
     },
     {
-      "name": "English Language",
+      "name": "English",
       "count": 10
     }
   ],
@@ -46,7 +46,12 @@
       "solution": "The fundamental group of S^1 is pi_1(S^1) = Z (the integers), where the integer n represents the winding number of loops around the circle. This is computed via the covering space R -> S^1 given by t -> exp(2*pi*i*t).",
       "estSec": 45,
       "topicWeight": 0.14,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 300\">\n<rect width=\"300\" height=\"300\" fill=\"#f8fafc\"/>\n<polygon points=\"150,40 260,110 260,210 150,270 40,210 40,110\" fill=\"none\" stroke=\"#8b5cf6\" stroke-width=\"2.5\"/>\n<circle cx=\"150\" cy=\"150\" r=\"8\" fill=\"#8b5cf6\"/>\n<text x=\"150\" y=\"25\" text-anchor=\"middle\" font-size=\"13\" fill=\"#1e293b\" font-weight=\"bold\">BCC Lattice — 1st Brillouin Zone</text>\n<text x=\"150\" y=\"290\" text-anchor=\"middle\" font-size=\"11\" fill=\"#64748b\">k_x</text>\n<text x=\"155\" y=\"38\" text-anchor=\"middle\" font-size=\"9\" fill=\"#8b5cf6\">H</text>\n<text x=\"268\" y=\"110\" text-anchor=\"middle\" font-size=\"9\" fill=\"#8b5cf6\">N</text>\n<text x=\"268\" y=\"215\" text-anchor=\"middle\" font-size=\"9\" fill=\"#8b5cf6\">N</text>\n<text x=\"150\" y=\"280\" text-anchor=\"middle\" font-size=\"9\" fill=\"#8b5cf6\">H</text>\n<text x=\"32\" y=\"215\" text-anchor=\"middle\" font-size=\"9\" fill=\"#8b5cf6\">N</text>\n<text x=\"32\" y=\"110\" text-anchor=\"middle\" font-size=\"9\" fill=\"#8b5cf6\">N</text>\n<text x=\"150\" y=\"155\" text-anchor=\"middle\" font-size=\"9\" fill=\"#1e293b\">Γ</text>\n<text x=\"210\" y=\"75\" text-anchor=\"middle\" font-size=\"9\" fill=\"#1e293b\">P</text>\n</svg>",
+        "caption": "Mathematical Physics — Diagram"
+      }
     },
     {
       "id": 2,
@@ -55,7 +60,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "The spectrum of the Hamiltonian for a free particle on a circle (periodic boundary conditions) consists of:",
       "options": [
         "Discrete energy levels E_n = n^2*hbar^2/(2*m*L^2)",
@@ -67,7 +72,12 @@
       "solution": "For a particle on a ring of circumference L with periodic boundary conditions psi(x+L) = psi(x), the wavefunctions are psi_n = exp(2*pi*i*n*x/L) with energies E_n = (2*pi*n*hbar)^2/(2*m*L^2). The spectrum is discrete because of the compact domain.",
       "estSec": 50,
       "topicWeight": 0.14,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 220\">\n<rect width=\"320\" height=\"220\" fill=\"#f8fafc\"/>\n<text x=\"160\" y=\"22\" text-anchor=\"middle\" font-size=\"13\" fill=\"#1e293b\" font-weight=\"bold\">Phonon Dispersion — Diatomic Chain</text>\n<line x1=\"50\" y1=\"190\" x2=\"290\" y2=\"190\" stroke=\"#1e293b\" stroke-width=\"1.5\"/>\n<line x1=\"50\" y1=\"190\" x2=\"50\" y2=\"40\" stroke=\"#1e293b\" stroke-width=\"1.5\"/>\n<text x=\"170\" y=\"215\" text-anchor=\"middle\" font-size=\"11\" fill=\"#64748b\">Wave vector q</text>\n<text x=\"35\" y=\"115\" text-anchor=\"middle\" font-size=\"11\" fill=\"#64748b\" transform=\"rotate(-90 35 115)\">ω(q)</text>\n<text x=\"170\" y=\"35\" text-anchor=\"middle\" font-size=\"10\" fill=\"#64748b\">π/a</text>\n<line x1=\"170\" y1=\"40\" x2=\"170\" y2=\"190\" stroke=\"#e2e8f0\" stroke-width=\"1\" stroke-dasharray=\"4,3\"/>\n<text x=\"55\" y=\"185\" font-size=\"9\" fill=\"#64748b\">0</text>\n<text x=\"170\" y=\"185\" font-size=\"9\" fill=\"#64748b\">π/a</text>\n<path d=\"M50,185 Q110,100 170,75\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"2.5\"/>\n<text x=\"80\" y=\"95\" font-size=\"9\" fill=\"#3b82f6\">Acoustic</text>\n<path d=\"M50,65 Q110,55 170,50\" fill=\"none\" stroke=\"#ef4444\" stroke-width=\"2.5\"/>\n<text x=\"90\" y=\"52\" font-size=\"9\" fill=\"#ef4444\">Optical</text>\n<rect x=\"200\" y=\"85\" width=\"90\" height=\"30\" fill=\"#fef3c7\" fill-opacity=\"0.6\" stroke=\"#f59e0b\" stroke-width=\"1\" rx=\"4\"/>\n<text x=\"245\" y=\"105\" text-anchor=\"middle\" font-size=\"9\" fill=\"#92400e\" font-weight=\"bold\">Phonon Gap</text>\n</svg>",
+        "caption": "Mathematical Physics — Diagram"
+      }
     },
     {
       "id": 3,
@@ -76,7 +86,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "In classical mechanics, gauge invariance of the charged particle Lagrangian under A -> A + grad(chi) requires the transformation psi -> psi * exp(ie*chi/hbar). This is an example of:",
       "options": [
         "Local U(1) gauge symmetry",
@@ -88,7 +98,12 @@
       "solution": "Local (spacetime-dependent) U(1) gauge symmetry requires the introduction of the gauge field A_mu to maintain invariance. This is the classical analogue of the minimal coupling prescription in quantum mechanics and is the foundation of electromagnetism as a gauge theory.",
       "estSec": 45,
       "topicWeight": 0.14,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 280 280\">\n<rect width=\"280\" height=\"280\" fill=\"#f8fafc\"/>\n<text x=\"140\" y=\"22\" text-anchor=\"middle\" font-size=\"13\" fill=\"#1e293b\" font-weight=\"bold\">Hydrogen Energy Levels</text>\n<line x1=\"60\" y1=\"260\" x2=\"220\" y2=\"260\" stroke=\"#1e293b\" stroke-width=\"2\"/>\n<text x=\"50\" y=\"260\" text-anchor=\"end\" font-size=\"10\" fill=\"#64748b\">n=1</text>\n<text x=\"225\" y=\"260\" font-size=\"9\" fill=\"#ef4444\">−13.6 eV</text>\n<line x1=\"60\" y1=\"200\" x2=\"220\" y2=\"200\" stroke=\"#3b82f6\" stroke-width=\"2\"/>\n<text x=\"50\" y=\"200\" text-anchor=\"end\" font-size=\"10\" fill=\"#64748b\">n=2</text>\n<text x=\"225\" y=\"200\" font-size=\"9\" fill=\"#3b82f6\">−3.4 eV</text>\n<line x1=\"60\" y1=\"160\" x2=\"220\" y2=\"160\" stroke=\"#8b5cf6\" stroke-width=\"2\"/>\n<text x=\"50\" y=\"160\" text-anchor=\"end\" font-size=\"10\" fill=\"#64748b\">n=3</text>\n<text x=\"225\" y=\"160\" font-size=\"9\" fill=\"#8b5cf6\">−1.51 eV</text>\n<line x1=\"60\" y1=\"130\" x2=\"220\" y2=\"130\" stroke=\"#22c55e\" stroke-width=\"1.5\"/>\n<text x=\"50\" y=\"130\" text-anchor=\"end\" font-size=\"10\" fill=\"#64748b\">n=4</text>\n<text x=\"225\" y=\"130\" font-size=\"9\" fill=\"#22c55e\">−0.85 eV</text>\n<line x1=\"60\" y1=\"108\" x2=\"220\" y2=\"108\" stroke=\"#f59e0b\" stroke-width=\"1.2\"/>\n<text x=\"50\" y=\"108\" text-anchor=\"end\" font-size=\"10\" fill=\"#64748b\">n=5</text>\n<text x=\"225\" y=\"108\" font-size=\"9\" fill=\"#f59e0b\">−0.54 eV</text>\n<line x1=\"140\" y1=\"90\" x2=\"140\" y2=\"85\" stroke=\"#94a3b8\" stroke-width=\"1\" stroke-dasharray=\"3,2\"/>\n<text x=\"140\" y=\"80\" text-anchor=\"middle\" font-size=\"10\" fill=\"#64748b\">n → ∞ (0 eV)</text>\n<line x1=\"180\" y1=\"260\" x2=\"180\" y2=\"200\" stroke=\"#ef4444\" stroke-width=\"1.5\"/>\n<text x=\"195\" y=\"230\" font-size=\"9\" fill=\"#ef4444\">Lyman α</text>\n<line x1=\"120\" y1=\"260\" x2=\"120\" y2=\"160\" stroke=\"#8b5cf6\" stroke-width=\"1.2\" stroke-dasharray=\"4,2\"/>\n<text x=\"130\" y=\"210\" font-size=\"8\" fill=\"#8b5cf6\">Lyman β</text>\n</svg>",
+        "caption": "Classical Mechanics — Diagram"
+      }
     },
     {
       "id": 4,
@@ -97,7 +112,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "In cavity quantum electrodynamics (QED), an atom in a high-finesse cavity can exhibit vacuum Rabi oscillations. The frequency of these oscillations is:",
       "options": [
         "g (atom-cavity coupling strength)",
@@ -109,7 +124,12 @@
       "solution": "On resonance (Delta = 0), the vacuum Rabi frequency is 2g where g is the single-photon coupling strength. The atom and cavity exchange energy at this frequency. For strong coupling (g >> kappa, Gamma), coherent quantum dynamics dominate. This is the basis of circuit QED and cavity QED experiments.",
       "estSec": 50,
       "topicWeight": 0.14,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 340 180\">\n<rect width=\"340\" height=\"180\" fill=\"#f8fafc\"/>\n<text x=\"170\" y=\"18\" text-anchor=\"middle\" font-size=\"13\" fill=\"#1e293b\" font-weight=\"bold\">Bell/CHSH Experiment Setup</text>\n<circle cx=\"170\" cy=\"90\" r=\"8\" fill=\"#8b5cf6\"/>\n<text x=\"170\" y=\"80\" text-anchor=\"middle\" font-size=\"9\" fill=\"#8b5cf6\" font-weight=\"bold\">Source</text>\n<line x1=\"162\" y1=\"90\" x2=\"50\" y2=\"60\" stroke=\"#3b82f6\" stroke-width=\"1.5\"/>\n<line x1=\"178\" y1=\"90\" x2=\"290\" y2=\"60\" stroke=\"#ef4444\" stroke-width=\"1.5\"/>\n<rect x=\"30\" y=\"45\" width=\"40\" height=\"30\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"1.5\" rx=\"3\"/>\n<text x=\"50\" y=\"65\" text-anchor=\"middle\" font-size=\"9\" fill=\"#1e40af\">Alice</text>\n<rect x=\"270\" y=\"45\" width=\"40\" height=\"30\" fill=\"#fee2e2\" stroke=\"#ef4444\" stroke-width=\"1.5\" rx=\"3\"/>\n<text x=\"290\" y=\"65\" text-anchor=\"middle\" font-size=\"9\" fill=\"#991b1b\">Bob</text>\n<line x1=\"30\" y1=\"60\" x2=\"10\" y2=\"60\" stroke=\"#3b82f6\" stroke-width=\"2\"/>\n<line x1=\"50\" y1=\"45\" x2=\"50\" y2=\"30\" stroke=\"#3b82f6\" stroke-width=\"2\"/>\n<line x1=\"70\" y1=\"60\" x2=\"50\" y2=\"90\" stroke=\"#3b82f6\" stroke-width=\"2\"/>\n<line x1=\"310\" y1=\"60\" x2=\"330\" y2=\"60\" stroke=\"#ef4444\" stroke-width=\"2\"/>\n<line x1=\"290\" y1=\"45\" x2=\"290\" y2=\"30\" stroke=\"#ef4444\" stroke-width=\"2\"/>\n<line x1=\"270\" y1=\"60\" x2=\"290\" y2=\"90\" stroke=\"#ef4444\" stroke-width=\"2\"/>\n<text x=\"30\" y=\"25\" font-size=\"8\" fill=\"#3b82f6\">a</text>\n<text x=\"55\" y=\"25\" font-size=\"8\" fill=\"#3b82f6\">a'</text>\n<text x=\"315\" y=\"25\" font-size=\"8\" fill=\"#ef4444\">b</text>\n<text x=\"295\" y=\"25\" font-size=\"8\" fill=\"#ef4444\">b'</text>\n<text x=\"170\" y=\"140\" text-anchor=\"middle\" font-size=\"10\" fill=\"#1e293b\" font-weight=\"bold\">|S| ≤ 2 (Local Hidden Variables)</text>\n<text x=\"170\" y=\"158\" text-anchor=\"middle\" font-size=\"10\" fill=\"#ef4444\" font-weight=\"bold\">|S| ≤ 2√2 ≈ 2.828 (Quantum Mechanics)</text>\n<text x=\"170\" y=\"175\" text-anchor=\"middle\" font-size=\"9\" fill=\"#64748b\">Tsirelson bound — maximal quantum violation</text>\n</svg>",
+        "caption": "Electromagnetic Theory — Diagram"
+      }
     },
     {
       "id": 5,
@@ -118,7 +138,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "Bell's inequality shows that quantum mechanics is incompatible with local hidden variable theories. The maximum quantum violation (Tsirelson bound) for the CHSH inequality is:",
       "options": [
         "2",
@@ -130,7 +150,12 @@
       "solution": "Local hidden variables: |S| <= 2 (Bell/CHSH inequality). Quantum mechanics: |S| <= 2*sqrt(2) ~ 2.828 (Tsirelson bound). This maximum is achieved by maximally entangled states and specific measurement settings. The experimental violation confirms quantum nonlocality.",
       "estSec": 50,
       "topicWeight": 0.14,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 200\">\n<rect width=\"320\" height=\"200\" fill=\"#f8fafc\"/>\n<text x=\"160\" y=\"18\" text-anchor=\"middle\" font-size=\"13\" fill=\"#1e293b\" font-weight=\"bold\">Topological Insulator — Surface States</text>\n<rect x=\"60\" y=\"50\" width=\"200\" height=\"100\" fill=\"#e2e8f0\" stroke=\"#94a3b8\" stroke-width=\"2\" rx=\"5\"/>\n<text x=\"160\" y=\"105\" text-anchor=\"middle\" font-size=\"11\" fill=\"#64748b\" font-weight=\"bold\">Bulk (Insulating)</text>\n<text x=\"160\" y=\"40\" text-anchor=\"middle\" font-size=\"10\" fill=\"#64748b\">Top Surface</text>\n<line x1=\"80\" y1=\"50\" x2=\"240\" y2=\"50\" stroke=\"#22c55e\" stroke-width=\"3\"/>\n<text x=\"250\" y=\"48\" font-size=\"9\" fill=\"#22c55e\" font-weight=\"bold\">Dirac cone</text>\n<line x1=\"80\" y1=\"150\" x2=\"240\" y2=\"150\" stroke=\"#22c55e\" stroke-width=\"3\"/>\n<text x=\"250\" y=\"148\" font-size=\"9\" fill=\"#22c55e\" font-weight=\"bold\">Dirac cone</text>\n<text x=\"160\" y=\"185\" text-anchor=\"middle\" font-size=\"10\" fill=\"#1e293b\" font-weight=\"bold\">Z₂ invariant: ν = 1 (topological) vs ν = 0 (trivial)</text>\n<text x=\"160\" y=\"198\" text-anchor=\"middle\" font-size=\"9\" fill=\"#64748b\">Surface states protected by time-reversal symmetry</text>\n</svg>",
+        "caption": "Quantum Mechanics — Diagram"
+      }
     },
     {
       "id": 6,
@@ -151,7 +176,12 @@
       "solution": "T_H ~ 60 nK for M = M_sun. This is far below the CMB temperature (2.7 K), so stellar black holes absorb more radiation than they emit. Only primordial black holes with M << M_sun would have T_H > 2.7 K and could evaporate. The evaporation time scales as M^3.",
       "estSec": 45,
       "topicWeight": 0.14,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Bekenstein-Hawking entropy proportional to horizon area",
+        "markup": "<svg viewBox=\"0 0 480 220\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"220\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"24\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#4f46e5\" font-weight=\"bold\">Black Hole · Event Horizon</text><circle cx=\"240\" cy=\"110\" r=\"60\" fill=\"#1e293b\" stroke=\"#475569\" stroke-width=\"2\"/><text x=\"240\" y=\"114\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#f8fafc\" text-anchor=\"middle\">Event Horizon</text><text x=\"240\" y=\"80\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#f59e0b\" text-anchor=\"middle\">r_s = 2GM/c²</text><text x=\"240\" y=\"195\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#3b82f6\" text-anchor=\"middle\">S = kA/(4ℓ²_P)</text><text x=\"370\" y=\"110\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\">A = area</text></svg>"
+      }
     },
     {
       "id": 7,
@@ -160,7 +190,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "The transition from hadronic matter to quark-gluon plasma (QGP) is predicted by lattice QCD to occur at a critical temperature of approximately:",
       "options": [
         "150 MeV (~1.7 x 10^12 K)",
@@ -181,7 +211,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "CP violation in the Standard Model arises from the complex phase in the CKM matrix. The parameter epsilon in the kaon system measures:",
       "options": [
         "The amount of CP violation in K^0-K^0_bar mixing",
@@ -202,7 +232,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "The first direct detection of gravitational waves (GW150914) by LIGO was from:",
       "options": [
         "Merging black holes (binary black hole merger)",
@@ -223,7 +253,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "A 3D topological insulator is characterized by:",
       "options": [
         "Bulk band gap with conducting surface states protected by time-reversal symmetry",
@@ -244,7 +274,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "The protein folding problem concerns how a polypeptide chain acquires its native 3D structure. The folding process occurs on a timescale of:",
       "options": [
         "Microseconds to milliseconds",
@@ -265,7 +295,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "Earth's magnetic field is generated by the geodynamo - convective motion of liquid iron in the outer core. The field reverses polarity irregularly. The last reversal (Brunhes-Matuyama) occurred approximately:",
       "options": [
         "780,000 years ago",
@@ -286,7 +316,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "Climate sensitivity is defined as the equilibrium temperature change for a doubling of atmospheric CO_2. The IPCC AR6 best estimate is approximately:",
       "options": [
         "3 degrees C",
@@ -328,7 +358,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "The spectral theorem for compact self-adjoint operators on a Hilbert space states that the operator can be written as:",
       "options": [
         "An infinite sum of lambda_n * |n><n| where lambda_n are eigenvalues",
@@ -349,7 +379,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "A rolling coin (without slipping) is an example of a non-holonomic system because:",
       "options": [
         "The constraint cannot be integrated to reduce the number of generalized coordinates",
@@ -391,7 +421,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "In quantum electrodynamics (QED), the anomalous magnetic moment of the electron (g-2)/2 arises from:",
       "options": [
         "Loop corrections (virtual electron-positron pairs and photons)",
@@ -412,7 +442,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "The semi-empirical mass formula (Bethe-Weizsäcker) for nuclear binding energy includes volume, surface, Coulomb, asymmetry, and pairing terms. The pairing term accounts for:",
       "options": [
         "Even-even nuclei being more bound than odd-A nuclei",
@@ -475,7 +505,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "Superconducting transmon qubits operate at temperatures of approximately:",
       "options": [
         "10-20 milliKelvin",
@@ -496,7 +526,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "The Gutenberg-Richter law describes the frequency-magnitude distribution of earthquakes: log10(N) = a - b*M. The b-value is typically close to:",
       "options": [
         "1.0",
@@ -538,7 +568,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "Technetium-99m is the most widely used radioisotope in diagnostic nuclear medicine. Its half-life is approximately:",
       "options": [
         "6 hours",
@@ -559,7 +589,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "The Fokker-Planck equation describes the time evolution of the probability distribution for a stochastic process. For Brownian motion, it reduces to:",
       "options": [
         "The diffusion equation (heat equation)",
@@ -601,7 +631,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "Quantum chromodynamics (QCD) is based on the gauge group SU(3). The gauge bosons (gluons) carry:",
       "options": [
         "Color charge (unlike photons which are electrically neutral)",
@@ -622,7 +652,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "The rotation curves of spiral galaxies show flat velocity profiles at large radii, implying the presence of:",
       "options": [
         "Dark matter halo (missing mass)",
@@ -664,7 +694,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "Grand Unified Theories (GUTs) predict that protons are not absolutely stable. The current experimental lower limit on the proton lifetime is approximately:",
       "options": [
         "> 10^34 years",
@@ -685,7 +715,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "The Kolmogorov complexity K(x) of a string x measures the shortest program that produces x. For a truly random string of length n, K(x) is approximately:",
       "options": [
         "n (incompressible)",
@@ -748,7 +778,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "CRISPR-Cas9 gene editing relies on RNA-DNA hybridization for target recognition. The energy of binding between guide RNA and target DNA is typically:",
       "options": [
         "~2-3 kcal/mol per base pair",
@@ -769,7 +799,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "In radiation therapy, the linear-quadratic model describes cell survival as S = exp(-alpha*D - beta*D^2). The alpha/beta ratio determines:",
       "options": [
         "The sensitivity to dose fractionation",
@@ -790,7 +820,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "In quantum field theory, renormalization removes infinities by absorbing them into redefined (renormalized) parameters. The number of independent renormalization constants in QED is:",
       "options": [
         "3 (charge, mass, field strength)",
@@ -832,7 +862,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "The kilonova observed during the neutron star merger GW170817 was powered by:",
       "options": [
         "Radioactive decay of r-process nuclei",
@@ -853,7 +883,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "Neuromorphic computing chips (e.g., Intel Loihi, IBM TrueNorth) mimic the brain's architecture by using:",
       "options": [
         "Spiking neural networks with event-driven computation",
@@ -886,7 +916,12 @@
       "solution": "1/15 + 1/20 = 7/60. Time = 60/7 = 8.57 days.",
       "estSec": 30,
       "topicWeight": 0.14,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Cistern with inlet and outlet pipes",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Pipe Filling Problem</text><rect x=\"100\" y=\"70\" width=\"120\" height=\"90\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"2\" rx=\"6\"/><line x1=\"225\" y1=\"100\" x2=\"280\" y2=\"100\" stroke=\"#22c55e\" stroke-width=\"3\"/><line x1=\"225\" y1=\"130\" x2=\"280\" y2=\"130\" stroke=\"#ef4444\" stroke-width=\"3\"/><text x=\"160\" y=\"120\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3b82f6\" text-anchor=\"middle\" font-weight=\"bold\">Tank</text><text x=\"252\" y=\"93\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#22c55e\" text-anchor=\"middle\">In (fill)</text><text x=\"252\" y=\"145\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#ef4444\" text-anchor=\"middle\">Out (drain)</text><text x=\"340\" y=\"115\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Net rate = Σ(fill) − Σ(drain)</text></svg>"
+      }
     },
     {
       "id": 42,
@@ -907,7 +942,12 @@
       "solution": "Let B = 100, A = 120. B is less than A by 20/120 = 16.67%.",
       "estSec": 30,
       "topicWeight": 0.14,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Pie chart of percentage distribution",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Percentage Breakdown</text><circle cx=\"160\" cy=\"110\" r=\"65\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"2\"/><path d=\"M160,110 L160,45 A65,65 0 0,1 218,75 Z\" fill=\"#3b82f6\" stroke=\"#3b82f6\" stroke-width=\"1.5\"/><path d=\"M160,110 L218,75 A65,65 0 0,1 218,155 Z\" fill=\"#ef4444\" stroke=\"#ef4444\" stroke-width=\"1.5\"/><path d=\"M160,110 L218,155 A65,65 0 0,1 102,155 Z\" fill=\"#22c55e\" stroke=\"#22c55e\" stroke-width=\"1.5\"/><text x=\"185\" y=\"70\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#3b82f6\" font-weight=\"bold\">35%</text><text x=\"210\" y=\"120\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#ef4444\" font-weight=\"bold\">25%</text><text x=\"120\" y=\"135\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#22c55e\" font-weight=\"bold\">40%</text><text x=\"370\" y=\"110\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Parts of 100%</text></svg>"
+      }
     },
     {
       "id": 43,
@@ -928,7 +968,12 @@
       "solution": "SI = 5000*8*3/100 = 1200. Amount = 5000+1200 = 6200.",
       "estSec": 25,
       "topicWeight": 0.14,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Linear growth for simple interest",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Simple Interest</text><line x1=\"60\" y1=\"170\" x2=\"440\" y2=\"170\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"60\" y1=\"30\" x2=\"60\" y2=\"170\" stroke=\"#64748b\" stroke-width=\"2\"/><path d=\"M80,150 L400,30\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"2.5\"/><text x=\"280\" y=\"80\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#3b82f6\" font-weight=\"bold\">SI = P×R×T/100</text></svg>"
+      }
     },
     {
       "id": 44,
@@ -949,7 +994,12 @@
       "solution": "Ratio = 6000:8000 = 3:4.",
       "estSec": 25,
       "topicWeight": 0.14,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Profit sharing proportional",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Partnership Profit</text><rect x=\"50\" y=\"60\" width=\"130\" height=\"50\" fill=\"#dbeafe\" stroke=\"#3b82f6\" rx=\"4\"/><rect x=\"280\" y=\"60\" width=\"130\" height=\"50\" fill=\"#dcfce7\" stroke=\"#22c55e\" rx=\"4\"/><text x=\"115\" y=\"80\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#3b82f6\" text-anchor=\"middle\" font-weight=\"bold\">Partner A</text><text x=\"115\" y=\"97\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#64748b\" text-anchor=\"middle\">₹50K × 12mo</text><text x=\"345\" y=\"80\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#22c55e\" text-anchor=\"middle\" font-weight=\"bold\">Partner B</text><text x=\"345\" y=\"97\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#64748b\" text-anchor=\"middle\">₹30K × 8mo</text><text x=\"240\" y=\"150\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Profit ∝ Capital × Time</text></svg>"
+      }
     },
     {
       "id": 45,
@@ -958,7 +1008,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "stem": "The sum of ages of 5 children born at 3-year intervals is 50. The age of the youngest child is:",
       "options": [
         "4",
@@ -970,7 +1020,12 @@
       "solution": "Let youngest = x. Ages: x, x+3, x+6, x+9, x+12. Sum = 5x+30 = 50. 5x = 20. x = 4.",
       "estSec": 30,
       "topicWeight": 0.14,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Age relationship at different time points",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Age Timeline</text><line x1=\"60\" y1=\"100\" x2=\"440\" y2=\"100\" stroke=\"#94a3b8\" stroke-width=\"2\"/><circle cx=\"120\" cy=\"100\" r=\"4\" fill=\"#3b82f6\" stroke=\"#3b82f6\"/><circle cx=\"240\" cy=\"100\" r=\"4\" fill=\"#22c55e\" stroke=\"#22c55e\"/><circle cx=\"360\" cy=\"100\" r=\"4\" fill=\"#ef4444\" stroke=\"#ef4444\"/><text x=\"120\" y=\"85\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#3b82f6\" text-anchor=\"middle\">Now</text><text x=\"240\" y=\"85\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#22c55e\" text-anchor=\"middle\">+5 yrs</text><text x=\"360\" y=\"85\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#ef4444\" text-anchor=\"middle\">+10 yrs</text><text x=\"240\" y=\"140\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Father: x  |  Son: x−25</text></svg>"
+      }
     },
     {
       "id": 46,
@@ -991,7 +1046,12 @@
       "solution": "Relative speed = 50-40 = 10 km/h = 10*5/18 = 50/18 m/s. Distance = 150+200 = 350m. Time = 350/(50/18) = 350*18/50 = 126 seconds.",
       "estSec": 35,
       "topicWeight": 0.14,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Train and platform crossing",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Train Crossing Platform</text><rect x=\"40\" y=\"80\" width=\"180\" height=\"30\" fill=\"#3b82f6\" stroke=\"#3b82f6\" rx=\"4\"/><line x1=\"40\" y1=\"125\" x2=\"440\" y2=\"125\" stroke=\"#64748b\" stroke-width=\"2\"/><rect x=\"250\" y=\"80\" width=\"180\" height=\"30\" fill=\"#f59e0b\" stroke=\"#f59e0b\" rx=\"4\"/><text x=\"130\" y=\"100\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#fff\" text-anchor=\"middle\" font-weight=\"bold\">Train (L)</text><text x=\"340\" y=\"100\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#fff\" text-anchor=\"middle\" font-weight=\"bold\">Platform (P)</text><text x=\"240\" y=\"170\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#4f46e5\" text-anchor=\"middle\">Time = (L+P)/speed</text></svg>"
+      }
     },
     {
       "id": 47,
@@ -1012,7 +1072,12 @@
       "solution": "2024 is a leap year (366 days). 366 = 52 weeks + 2 days. So Jan 1, 2025 is Monday + 2 = Wednesday. Wait: 366 mod 7 = 2. Monday + 2 days = Wednesday. But the answer should be Tuesday if we count from Monday as day 0. Let me recalculate: Jan 1 2024 = Monday. Dec 31 2024 is 365 days later (leap year). 365 mod 7 = 1. So Jan 1 2025 is Tuesday.",
       "estSec": 35,
       "topicWeight": 0.14,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Monthly calendar grid",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Calendar Grid</text><rect x=\"80\" y=\"45\" width=\"320\" height=\"130\" fill=\"#fff\" stroke=\"#3b82f6\" stroke-width=\"1.5\" rx=\"4\"/><text x=\"240\" y=\"65\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#64748b\" text-anchor=\"middle\" font-weight=\"bold\">Mon Tue Wed Thu Fri Sat Sun</text><text x=\"240\" y=\"88\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">1   2   3   4   5   6   7</text><text x=\"240\" y=\"108\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">8   9  10  11  12  13  14</text><text x=\"240\" y=\"128\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">15  16  17  18  19  20  21</text><text x=\"240\" y=\"148\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">22  23  24  25  26  27  28</text><text x=\"240\" y=\"168\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">29  30  31</text></svg>"
+      }
     },
     {
       "id": 48,
@@ -1021,7 +1086,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "stem": "The area of a triangle with base 14 cm and height 8 cm is:",
       "options": [
         "56 cm^2",
@@ -1054,7 +1119,12 @@
       "solution": "Average = (2+4+6+8+10)/5 = 30/5 = 6.",
       "estSec": 20,
       "topicWeight": 0.14,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Weighted average of two groups",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Weighted Average</text><rect x=\"60\" y=\"55\" width=\"130\" height=\"35\" fill=\"#dbeafe\" stroke=\"#3b82f6\" rx=\"4\"/><rect x=\"60\" y=\"105\" width=\"130\" height=\"35\" fill=\"#dcfce7\" stroke=\"#22c55e\" rx=\"4\"/><line x1=\"195\" y1=\"90\" x2=\"260\" y2=\"90\" stroke=\"#f59e0b\" stroke-width=\"2\"/><polygon points=\"260,87 260,93 270,90\" fill=\"#f59e0b\"/><rect x=\"280\" y=\"70\" width=\"150\" height=\"40\" fill=\"#fef3c7\" stroke=\"#f59e0b\" rx=\"6\"/><text x=\"125\" y=\"77\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#64748b\" text-anchor=\"middle\">Group A: avg=80, n=30</text><text x=\"125\" y=\"127\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#64748b\" text-anchor=\"middle\">Group B: avg=60, n=20</text><text x=\"355\" y=\"95\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#f59e0b\" text-anchor=\"middle\" font-weight=\"bold\">Combined: 72</text></svg>"
+      }
     },
     {
       "id": 50,
@@ -1063,7 +1133,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "stem": "A shopkeeper gives two successive discounts of 10% and 20%. The single equivalent discount is:",
       "options": [
         "28%",
@@ -1096,7 +1166,12 @@
       "solution": "From 'Some flowers are thorns', we can conclude 'Some thorns are flowers' (converse is valid). We cannot conclude 'Some roses are thorns'. Only II follows.",
       "estSec": 40,
       "topicWeight": 0.14,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Venn diagram for syllogism",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Syllogism Venn</text><circle cx=\"180\" cy=\"110\" r=\"50\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"2\"/><circle cx=\"300\" cy=\"110\" r=\"50\" fill=\"#dcfce7\" stroke=\"#22c55e\" stroke-width=\"2\"/><text x=\"165\" y=\"80\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#3b82f6\">All A</text><text x=\"315\" y=\"80\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#22c55e\">Some B</text><text x=\"240\" y=\"115\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#f59e0b\" text-anchor=\"middle\" font-weight=\"bold\">Overlap?</text></svg>"
+      }
     },
     {
       "id": 52,
@@ -1117,7 +1192,12 @@
       "solution": "The coding pattern: each letter is shifted backward by 1 position (T->S, A->Z, B->S, L->K, E->D). So CHAIR: C->B, H->G, A->Z, I->H, R->Q = BGZHQ.",
       "estSec": 40,
       "topicWeight": 0.14,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Letter-to-letter coding pattern",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Letter Code</text><text x=\"160\" y=\"70\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3b82f6\" font-weight=\"bold\">A  B  C  D  E  F  G</text><text x=\"160\" y=\"90\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#f59e0b\">↓  ↓  ↓  ↓  ↓  ↓  ↓</text><text x=\"160\" y=\"115\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#ef4444\" font-weight=\"bold\">Z  Y  X  W  V  U  T</text><text x=\"240\" y=\"160\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#64748b\" text-anchor=\"middle\">Reverse cipher: A→Z, B→Y, ...</text></svg>"
+      }
     },
     {
       "id": 53,
@@ -1126,7 +1206,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "Five people A, B, C, D, E sit in a row. A sits in the middle. B sits to the left of A. Who sits at the extreme right?",
       "options": [
         "C",
@@ -1138,7 +1218,12 @@
       "solution": "With only these constraints, the positions of C, D, E are not fully determined. We know A is in position 3, B is in position 1 or 2. The remaining positions could be filled by C, D, E in various ways.",
       "estSec": 40,
       "topicWeight": 0.14,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Circular arrangement with positions",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Circular Seating</text><circle cx=\"240\" cy=\"110\" r=\"60\" fill=\"#f0f9ff\" stroke=\"#3b82f6\" stroke-width=\"2\"/><circle cx=\"240\" cy=\"50\" r=\"12\" fill=\"#dbeafe\" stroke=\"#3b82f6\"/><circle cx=\"292\" cy=\"80\" r=\"12\" fill=\"#dcfce7\" stroke=\"#22c55e\"/><circle cx=\"292\" cy=\"140\" r=\"12\" fill=\"#fef3c7\" stroke=\"#f59e0b\"/><circle cx=\"240\" cy=\"170\" r=\"12\" fill=\"#fee2e2\" stroke=\"#ef4444\"/><circle cx=\"188\" cy=\"140\" r=\"12\" fill=\"#e0e7ff\" stroke=\"#818cf8\"/><circle cx=\"188\" cy=\"80\" r=\"12\" fill=\"#fce7f3\" stroke=\"#ec4899\"/><text x=\"240\" y=\"54\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#3b82f6\" text-anchor=\"middle\">1</text><text x=\"292\" y=\"84\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#22c55e\" text-anchor=\"middle\">2</text><text x=\"292\" y=\"144\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#f59e0b\" text-anchor=\"middle\">3</text><text x=\"240\" y=\"174\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#ef4444\" text-anchor=\"middle\">4</text><text x=\"188\" y=\"144\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#818cf8\" text-anchor=\"middle\">5</text><text x=\"188\" y=\"84\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#ec4899\" text-anchor=\"middle\">6</text></svg>"
+      }
     },
     {
       "id": 54,
@@ -1168,7 +1253,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "stem": "On a standard die, the sum of numbers on opposite faces is:",
       "options": [
         "6",
@@ -1189,7 +1274,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "stem": "In a pie chart showing expenditure, if food is 30% and rent is 20%, the angle for food is:",
       "options": [
         "90 degrees",
@@ -1201,7 +1286,12 @@
       "solution": "Angle = 30% of 360 = 0.3*360 = 108 degrees.",
       "estSec": 25,
       "topicWeight": 0.14,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Bar chart showing quarterly data",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Bar Chart · Sales Data</text><line x1=\"60\" y1=\"170\" x2=\"440\" y2=\"170\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"60\" y1=\"30\" x2=\"60\" y2=\"170\" stroke=\"#64748b\" stroke-width=\"2\"/><rect x=\"85\" y=\"80\" width=\"40\" height=\"90\" fill=\"#3b82f6\" stroke=\"#3b82f6\" rx=\"2\"/><rect x=\"145\" y=\"110\" width=\"40\" height=\"60\" fill=\"#ef4444\" stroke=\"#ef4444\" rx=\"2\"/><rect x=\"205\" y=\"60\" width=\"40\" height=\"110\" fill=\"#22c55e\" stroke=\"#22c55e\" rx=\"2\"/><rect x=\"265\" y=\"95\" width=\"40\" height=\"75\" fill=\"#f59e0b\" stroke=\"#f59e0b\" rx=\"2\"/><rect x=\"325\" y=\"100\" width=\"40\" height=\"70\" fill=\"#8b5cf6\" stroke=\"#8b5cf6\" rx=\"2\"/><text x=\"105\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Q1</text><text x=\"165\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Q2</text><text x=\"225\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Q3</text><text x=\"285\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Q4</text><text x=\"345\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Q5</text></svg>"
+      }
     },
     {
       "id": 57,
@@ -1210,7 +1300,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "Pipe A fills a tank in 6 hours and Pipe B in 8 hours. Both are opened, but after 2 hours B is closed. Time to fill the remaining:",
       "options": [
         "1 hour 20 minutes",
@@ -1222,7 +1312,12 @@
       "solution": "In 2 hours: A fills 2/6 = 1/3, B fills 2/8 = 1/4. Total = 1/3+1/4 = 7/12. Remaining = 5/12. A alone: (5/12)/(1/6) = 5/2 = 2.5 hours = 2 hours 30 minutes. Wait, 5/12 divided by 1/6 = 5/12 * 6 = 30/12 = 2.5 hours = 2 hours 30 minutes. This doesn't match any option. Let me recalculate: remaining = 5/12, A's rate = 1/6 per hour, time = (5/12)/(1/6) = 5/2 = 2.5 hours = 2 hours 30 minutes. This is not in options. If option C is 2 hours 40 minutes, that's 8/3 hours. 8/3 * 1/6 = 8/18 = 4/9. But we need 5/12. These don't match.",
       "estSec": 35,
       "topicWeight": 0.14,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Multiple pipe system",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Tank & Pipes</text><rect x=\"100\" y=\"55\" width=\"140\" height=\"100\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"2\" rx=\"4\"/><line x1=\"245\" y1=\"85\" x2=\"300\" y2=\"85\" stroke=\"#22c55e\" stroke-width=\"2.5\"/><line x1=\"245\" y1=\"125\" x2=\"300\" y2=\"125\" stroke=\"#ef4444\" stroke-width=\"2.5\"/><text x=\"170\" y=\"110\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3b82f6\" text-anchor=\"middle\">Tank</text><text x=\"272\" y=\"80\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#22c55e\" font-weight=\"bold\">A→</text><text x=\"272\" y=\"120\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#ef4444\" font-weight=\"bold\">B→</text></svg>"
+      }
     },
     {
       "id": 58,
@@ -1243,7 +1338,12 @@
       "solution": "Let original = 100. After +20%: 120. After -20%: 96. Change = -4%.",
       "estSec": 25,
       "topicWeight": 0.14,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Pie chart of percentage distribution",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Percentage Breakdown</text><circle cx=\"160\" cy=\"110\" r=\"65\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"2\"/><path d=\"M160,110 L160,45 A65,65 0 0,1 218,75 Z\" fill=\"#3b82f6\" stroke=\"#3b82f6\" stroke-width=\"1.5\"/><path d=\"M160,110 L218,75 A65,65 0 0,1 218,155 Z\" fill=\"#ef4444\" stroke=\"#ef4444\" stroke-width=\"1.5\"/><path d=\"M160,110 L218,155 A65,65 0 0,1 102,155 Z\" fill=\"#22c55e\" stroke=\"#22c55e\" stroke-width=\"1.5\"/><text x=\"185\" y=\"70\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#3b82f6\" font-weight=\"bold\">35%</text><text x=\"210\" y=\"120\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#ef4444\" font-weight=\"bold\">25%</text><text x=\"120\" y=\"135\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#22c55e\" font-weight=\"bold\">40%</text><text x=\"370\" y=\"110\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Parts of 100%</text></svg>"
+      }
     },
     {
       "id": 59,
@@ -1252,7 +1352,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "stem": "A car travels 200 km in 4 hours. Its speed in m/s is approximately:",
       "options": [
         "13.89",
@@ -1285,7 +1385,12 @@
       "solution": "24 = 2^3*3, 36 = 2^2*3^2. HCF = 2^2*3 = 12.",
       "estSec": 25,
       "topicWeight": 0.14,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Integer classification",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Number Properties</text><line x1=\"60\" y1=\"55\" x2=\"420\" y2=\"55\" stroke=\"#e2e8f0\"/><line x1=\"60\" y1=\"90\" x2=\"420\" y2=\"90\" stroke=\"#e2e8f0\"/><line x1=\"60\" y1=\"125\" x2=\"420\" y2=\"125\" stroke=\"#e2e8f0\"/><line x1=\"60\" y1=\"160\" x2=\"420\" y2=\"160\" stroke=\"#e2e8f0\"/><text x=\"240\" y=\"50\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#3b82f6\" text-anchor=\"middle\">Even: 2, 4, 6, 8, ...</text><text x=\"240\" y=\"85\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#ef4444\" text-anchor=\"middle\">Odd: 1, 3, 5, 7, ...</text><text x=\"240\" y=\"120\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#22c55e\" text-anchor=\"middle\">Prime: 2, 3, 5, 7, 11, ...</text><text x=\"240\" y=\"155\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#f59e0b\" text-anchor=\"middle\">Composite: 4, 6, 8, 9, ...</text></svg>"
+      }
     },
     {
       "id": 61,
@@ -1294,7 +1399,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "Choose the correct verb: 'The team _____ playing well.'",
       "options": [
         "is",
@@ -1336,7 +1441,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "Choose the correct conditional: 'If it _____ tomorrow, we will cancel the picnic.'",
       "options": [
         "rains",
@@ -1378,7 +1483,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "In reading comprehension, context clues are used to:",
       "options": [
         "Determine the meaning of unfamiliar words",
@@ -1395,22 +1500,22 @@
     {
       "id": 66,
       "subject": "General Awareness",
-      "topic": "Current Affairs · Technology",
+      "topic": "Current Affairs · PSU",
       "section": "GA",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
-      "stem": "Which company developed the GPT-4 large language model?",
+      "difficulty": "easy",
+      "stem": "BPCL recently commissioned a new refinery in:",
       "options": [
-        "OpenAI",
-        "Google",
-        "Meta",
-        "Microsoft"
+        "Assam",
+        "Kerala",
+        "Maharashtra",
+        "Andhra Pradesh"
       ],
-      "answer": 0,
-      "solution": "GPT-4 was developed by OpenAI and released in March 2023. It is a multimodal model capable of processing both text and images.",
+      "answer": 3,
+      "solution": "BPCL commissioned a refinery in Andhra Pradesh.",
       "estSec": 15,
-      "topicWeight": 0.14,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1420,396 +1525,396 @@
       "section": "GA",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
-      "stem": "The Abel Prize in Mathematics 2024 was awarded to:",
+      "difficulty": "easy",
+      "stem": "India's highest civilian award is:",
       "options": [
-        "Michel Talagrand",
-        "Terence Tao",
-        "June Huh",
-        "Susan Ariyoshi"
+        "Padma Vibhushan",
+        "Bharat Ratna",
+        "Padma Bhushan",
+        "Gandhi Peace Prize"
       ],
-      "answer": 0,
-      "solution": "The 2024 Abel Prize was awarded to Michel Talagrand for his groundbreaking contributions to probability theory and functional analysis, particularly for understanding supremums of stochastic processes.",
-      "estSec": 20,
-      "topicWeight": 0.14,
+      "answer": 1,
+      "solution": "Bharat Ratna is India's highest civilian award.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 68,
       "subject": "General Awareness",
-      "topic": "Current Affairs · India",
+      "topic": "Current Affairs · Defense",
       "section": "GA",
       "type": "MCQ",
       "marks": 1,
       "difficulty": "medium",
-      "stem": "India's first underwater metro tunnel connects which two areas in Kolkata?",
+      "stem": "India's indigenous aircraft carrier is:",
       "options": [
-        "Howrah and Salt Lake",
-        "Esplanade and Howrah",
-        "Park Street and Sealdah",
-        "Dum Dum and Ballygunge"
+        "INS Vikrant",
+        "INS Vikramaditya",
+        "INS Arighat",
+        "INS Arihant"
       ],
-      "answer": 1,
-      "solution": "The East-West Metro tunnel connects Howrah to Salt Lake (via the Hooghly river bed), but specifically the underwater section is between Howrah and Esplanade. The tunnel runs 32 meters below the river bed.",
-      "estSec": 20,
-      "topicWeight": 0.14,
+      "answer": 0,
+      "solution": "INS Vikrant is India's first indigenous aircraft carrier.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 69,
-      "subject": "General Awareness",
-      "topic": "Static GK · Science",
-      "section": "GA",
-      "type": "MCQ",
-      "marks": 1,
-      "difficulty": "easy",
-      "stem": "The chemical symbol for gold is:",
-      "options": [
-        "Go",
-        "Au",
-        "Ag",
-        "Gd"
-      ],
-      "answer": 1,
-      "solution": "Au comes from the Latin word 'aurum' meaning gold. Ag is silver (argentum).",
-      "estSec": 10,
-      "topicWeight": 0.14,
-      "source": "curated"
-    },
-    {
-      "id": 70,
-      "subject": "General Awareness",
-      "topic": "Static GK · Geography",
-      "section": "GA",
-      "type": "MCQ",
-      "marks": 1,
-      "difficulty": "easy",
-      "stem": "Which is the largest ocean on Earth?",
-      "options": [
-        "Atlantic",
-        "Indian",
-        "Pacific",
-        "Arctic"
-      ],
-      "answer": 2,
-      "solution": "The Pacific Ocean is the largest and deepest ocean, covering about 165.25 million km^2 (46% of Earth's water surface).",
-      "estSec": 10,
-      "topicWeight": 0.14,
-      "source": "curated"
-    },
-    {
-      "id": 71,
       "subject": "General Awareness",
       "topic": "Current Affairs · Environment",
       "section": "GA",
       "type": "MCQ",
       "marks": 1,
       "difficulty": "medium",
-      "stem": "The Paris Agreement on climate change aims to limit global warming to well below:",
+      "stem": "COP28 was held in which country?",
       "options": [
-        "1.5 degrees C above pre-industrial levels",
-        "2 degrees C above pre-industrial levels",
-        "3 degrees C above pre-industrial levels",
-        "1 degree C above pre-industrial levels"
+        "Egypt",
+        "UAE",
+        "India",
+        "UK"
       ],
       "answer": 1,
-      "solution": "The Paris Agreement (2015) aims to hold global warming well below 2 degrees C above pre-industrial levels, with efforts to limit it to 1.5 degrees C. As of 2024, global warming has already reached ~1.2 degrees C.",
-      "estSec": 20,
-      "topicWeight": 0.14,
+      "solution": "COP28 was held in Dubai, UAE.",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 70,
+      "subject": "General Awareness",
+      "topic": "Current Affairs · Technology",
+      "section": "GA",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "Which company recently developed the most advanced AI chip for data centers?",
+      "options": [
+        "Intel",
+        "AMD",
+        "Nvidia",
+        "Qualcomm"
+      ],
+      "answer": 2,
+      "solution": "Nvidia has been leading in AI chip development.",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 71,
+      "subject": "General Awareness",
+      "topic": "Current Affairs · Technology",
+      "section": "GA",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "India's 5G rollout was led by which telecom operator?",
+      "options": [
+        "Airtel",
+        "Jio",
+        "BSNL",
+        "Vi"
+      ],
+      "answer": 1,
+      "solution": "Reliance Jio led the 5G rollout in India.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 72,
       "subject": "General Awareness",
-      "topic": "Static GK · Indian Polity",
+      "topic": "Static GK · Geography",
       "section": "GA",
       "type": "MCQ",
       "marks": 1,
       "difficulty": "easy",
-      "stem": "The maximum strength of the Lok Sabha (House of the People) is:",
+      "stem": "The highest peak in India is:",
       "options": [
-        "545",
-        "550",
-        "552",
-        "555"
+        "K2",
+        "Kangchenjunga",
+        "Nanda Devi",
+        "Mount Everest"
       ],
-      "answer": 2,
-      "solution": "The maximum strength of Lok Sabha is 552: 530 from states, 20 from union territories, and 2 nominated from Anglo-Indian community (now discontinued).",
+      "answer": 1,
+      "solution": "Kangchenjunga (8,586 m) is the highest peak in India.",
       "estSec": 15,
-      "topicWeight": 0.14,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 73,
       "subject": "General Awareness",
-      "topic": "Current Affairs · Sports",
+      "topic": "Static GK · Science",
       "section": "GA",
       "type": "MCQ",
       "marks": 1,
       "difficulty": "medium",
-      "stem": "The FIFA World Cup 2026 will be hosted by:",
+      "stem": "The hardest natural substance on Earth is:",
       "options": [
-        "United States, Canada, and Mexico",
-        "Qatar",
-        "Australia and New Zealand",
-        "Germany and France"
+        "Quartz",
+        "Topaz",
+        "Diamond",
+        "Corundum"
       ],
-      "answer": 0,
-      "solution": "The 2026 FIFA World Cup will be hosted jointly by the United States, Canada, and Mexico. It will be the first World Cup with 48 teams (expanded from 32).",
+      "answer": 2,
+      "solution": "Diamond is the hardest natural substance (10 on Mohs scale).",
       "estSec": 15,
-      "topicWeight": 0.14,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 74,
       "subject": "General Awareness",
-      "topic": "Static GK · Books and Authors",
+      "topic": "Static GK · Indian Polity",
       "section": "GA",
       "type": "MCQ",
       "marks": 1,
       "difficulty": "medium",
-      "stem": "Who wrote the Indian national anthem 'Jana Gana Mana'?",
+      "stem": "The President of India is elected by:",
       "options": [
-        "Bankim Chandra Chatterjee",
-        "Rabindranath Tagore",
-        "Muhammad Iqbal",
-        "Sarojini Naidu"
+        "Lok Sabha members",
+        "Rajya Sabha members",
+        "Electoral College",
+        "Prime Minister"
       ],
-      "answer": 1,
-      "solution": "'Jana Gana Mana' was written by Rabindranath Tagore in 1911. It was adopted as India's national anthem on January 24, 1950.",
+      "answer": 2,
+      "solution": "The President is elected by an electoral college.",
       "estSec": 15,
-      "topicWeight": 0.14,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 75,
       "subject": "General Awareness",
-      "topic": "Current Affairs · Economy",
+      "topic": "Static GK · History",
       "section": "GA",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
-      "stem": "Which digital payment platform is operated by the National Payments Corporation of India (NPCI)?",
+      "difficulty": "hard",
+      "stem": "India gained independence on:",
       "options": [
-        "Paytm",
-        "PhonePe",
-        "BHIM UPI",
-        "Google Pay"
+        "January 26, 1950",
+        "August 15, 1947",
+        "August 15, 1950",
+        "January 26, 1947"
       ],
-      "answer": 2,
-      "solution": "BHIM (Bharat Interface for Money) UPI is developed by NPCI. UPI (Unified Payments Interface) itself is also developed by NPCI and powers Google Pay, PhonePe, and Paytm.",
+      "answer": 1,
+      "solution": "India gained independence on August 15, 1947.",
       "estSec": 15,
-      "topicWeight": 0.14,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 76,
-      "subject": "English Language",
-      "topic": "Grammar · Tenses",
+      "subject": "English",
+      "topic": "English Language · Grammar",
       "section": "English",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
-      "stem": "Choose the correct form: 'She has been working here _____ 2015.'",
+      "difficulty": "hard",
+      "stem": "Who ___ the book yesterday?",
       "options": [
-        "since",
-        "from",
-        "for",
-        "in"
+        "did wrote",
+        "wrote",
+        "has wrote",
+        "written"
       ],
-      "answer": 0,
-      "solution": "'Since' is used with a point in time (2015), while 'for' is used with a duration.",
+      "answer": 1,
+      "solution": "Simple past tense: who wrote.",
       "estSec": 15,
-      "topicWeight": 0.14,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 77,
-      "subject": "English Language",
-      "topic": "Grammar · Articles",
+      "subject": "English",
+      "topic": "English Language · Prepositions",
       "section": "English",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
-      "stem": "Choose the correct article: 'She is ___ EU representative.'",
+      "difficulty": "hard",
+      "stem": "The meeting was put ___ Friday.",
       "options": [
-        "a",
-        "an",
-        "the",
-        "no article"
+        "on",
+        "at",
+        "off",
+        "up"
       ],
-      "answer": 1,
-      "solution": "'EU' starts with a 'yoo' sound (consonant sound), so 'a' is correct. Wait, 'E' is pronounced 'ee' which starts with a vowel sound. So 'an EU' is correct. Actually, 'European' starts with 'yoo' sound (consonant), so 'a European' is correct. But 'EU' as an abbreviation: 'E' is 'ee' (vowel sound), so 'an EU' is correct.",
+      "answer": 2,
+      "solution": "Put off means to postpone.",
       "estSec": 15,
-      "topicWeight": 0.14,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 78,
-      "subject": "English Language",
-      "topic": "Vocabulary · Synonyms",
+      "subject": "English",
+      "topic": "English Language · Vocabulary",
       "section": "English",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
-      "stem": "Choose the synonym of 'RESILIENT':",
+      "difficulty": "easy",
+      "stem": "What is the synonym of 'ephemeral'?",
       "options": [
-        "Fragile",
-        "Flexible",
-        "Rigid",
-        "Weak"
+        "Permanent",
+        "Transient",
+        "Eternal",
+        "Stable"
       ],
       "answer": 1,
-      "solution": "Resilient means able to recover quickly from difficulties. Flexible is the closest synonym.",
+      "solution": "Ephemeral means short-lived or transient.",
       "estSec": 15,
-      "topicWeight": 0.14,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 79,
-      "subject": "English Language",
-      "topic": "Grammar · Prepositions",
+      "subject": "English",
+      "topic": "English Language · Prepositions",
       "section": "English",
       "type": "MCQ",
       "marks": 1,
       "difficulty": "medium",
-      "stem": "Choose the correct preposition: 'The train arrived _____ time.'",
+      "stem": "She is proficient ___ English.",
       "options": [
         "on",
-        "in",
         "at",
-        "by"
+        "in",
+        "of"
       ],
-      "answer": 0,
-      "solution": "'On time' means punctually, at the scheduled time.",
+      "answer": 2,
+      "solution": "Proficient + in is the correct collocation.",
       "estSec": 15,
-      "topicWeight": 0.14,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 80,
-      "subject": "English Language",
-      "topic": "Grammar · Active/Passive Voice",
+      "subject": "English",
+      "topic": "English Language · Vocabulary",
       "section": "English",
       "type": "MCQ",
       "marks": 1,
       "difficulty": "medium",
-      "stem": "Convert to passive voice: 'They will build a bridge.'",
+      "stem": "What does 'candid' mean?",
       "options": [
-        "A bridge will be built by them",
-        "A bridge is being built by them",
-        "A bridge has been built by them",
-        "A bridge was built by them"
+        "Secretive",
+        "Frank and honest",
+        "Formal",
+        "Polite"
       ],
-      "answer": 0,
-      "solution": "Future simple passive: A bridge will be built by them.",
-      "estSec": 20,
-      "topicWeight": 0.14,
+      "answer": 1,
+      "solution": "Candid means truthful and straightforward; frank.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 81,
-      "subject": "English Language",
-      "topic": "Vocabulary · Antonyms",
+      "subject": "English",
+      "topic": "English Language · Vocabulary",
       "section": "English",
       "type": "MCQ",
       "marks": 1,
       "difficulty": "medium",
-      "stem": "Choose the antonym of 'TRANSPARENT':",
+      "stem": "What does 'ameliorate' mean?",
       "options": [
-        "Clear",
-        "Opaque",
-        "Translucent",
-        "Lucid"
+        "Worsen",
+        "Improve",
+        "Destroy",
+        "Maintain"
       ],
       "answer": 1,
-      "solution": "Transparent means allowing light to pass through clearly. Opaque means not allowing light to pass through - the opposite.",
+      "solution": "Ameliorate means to make better or improve.",
       "estSec": 15,
-      "topicWeight": 0.14,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 82,
-      "subject": "English Language",
-      "topic": "Grammar · Sentence Correction",
+      "subject": "English",
+      "topic": "English Language · Vocabulary",
       "section": "English",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
-      "stem": "Find the error: 'The information were incorrect.'",
+      "difficulty": "hard",
+      "stem": "Choose the antonym of 'ubiquitous':",
       "options": [
-        "The",
-        "information",
-        "were",
-        "incorrect"
+        "Omnipresent",
+        "Rare",
+        "Common",
+        "Everywhere"
       ],
-      "answer": 2,
-      "solution": "'Information' is an uncountable noun (singular), so it should be 'was incorrect'.",
-      "estSec": 20,
-      "topicWeight": 0.14,
+      "answer": 1,
+      "solution": "Ubiquitous means present everywhere; rare is the opposite.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 83,
-      "subject": "English Language",
-      "topic": "Vocabulary · Idioms",
+      "subject": "English",
+      "topic": "English Language · Vocabulary",
       "section": "English",
       "type": "MCQ",
       "marks": 1,
       "difficulty": "medium",
-      "stem": "What does 'A blessing in disguise' mean?",
+      "stem": "What is the meaning of 'pragmatic'?",
       "options": [
-        "Something bad that turns out to be good",
-        "A disguised gift",
-        "A religious blessing",
-        "Something good hidden"
+        "Idealistic",
+        "Practical",
+        "Theoretical",
+        "Emotional"
       ],
-      "answer": 0,
-      "solution": "'A blessing in disguise' means something that seems bad at first but turns out to be good.",
+      "answer": 1,
+      "solution": "Pragmatic means dealing with things practically.",
       "estSec": 15,
-      "topicWeight": 0.14,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 84,
-      "subject": "English Language",
-      "topic": "Grammar · Conjunctions",
+      "subject": "English",
+      "topic": "English Language · Grammar",
       "section": "English",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
-      "stem": "Choose the correct conjunction: '_____ it was raining, we went out.'",
+      "difficulty": "hard",
+      "stem": "Which is correct? 'The news ___ shocking.'",
       "options": [
-        "Although",
-        "Because",
-        "So",
-        "Therefore"
+        "were",
+        "are",
+        "is",
+        "have been"
       ],
-      "answer": 0,
-      "solution": "'Although' shows contrast: despite the rain, we went out.",
+      "answer": 2,
+      "solution": "News is uncountable and takes a singular verb.",
       "estSec": 15,
-      "topicWeight": 0.14,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 85,
-      "subject": "English Language",
-      "topic": "Grammar · Reported Speech",
+      "subject": "English",
+      "topic": "English Language · Grammar",
       "section": "English",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
-      "stem": "Convert to reported speech: He said, 'I have finished my work.'",
+      "difficulty": "easy",
+      "stem": "If I ___ known, I would have helped.",
       "options": [
-        "He said that he had finished his work",
-        "He said that he has finished his work",
-        "He said that he finished his work",
-        "He said that he would finish his work"
+        "have",
+        "had",
+        "would",
+        "did"
       ],
-      "answer": 0,
-      "solution": "Present perfect 'have finished' changes to past perfect 'had finished' in reported speech.",
-      "estSec": 20,
-      "topicWeight": 0.14,
+      "answer": 1,
+      "solution": "Third conditional: If + past perfect, would have + past participle.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     }
   ]

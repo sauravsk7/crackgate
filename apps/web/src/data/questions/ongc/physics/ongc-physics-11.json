@@ -22,7 +22,7 @@
       "count": 10
     },
     {
-      "name": "English Language",
+      "name": "English",
       "count": 10
     }
   ],
@@ -47,10 +47,10 @@
       "estSec": 60,
       "topicWeight": 0.14,
       "source": "curated",
-      "svg": {
-        "id": "riemann3d",
-        "label": "Riemann tensor symmetries",
-        "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 360 200'><rect width='360' height='200' fill='#0d1117' rx='8'/><text x='180' y='30' text-anchor='middle' fill='#58a6ff' font-size='14' font-family='monospace'>Riemann Tensor Symmetries</text><text x='30' y='65' fill='#c9d1d9' font-size='12' font-family='monospace'>R^i_jkl = −R^i_jlk</text><text x='30' y='90' fill='#c9d1d9' font-size='12' font-family='monospace'>R^i_jkl = −R^i_kjl</text><text x='30' y='115' fill='#c9d1d9' font-size='12' font-family='monospace'>R^i_jkl = R^klij</text><text x='30' y='145' fill='#f0883e' font-size='12' font-family='monospace'>Bianchi: R^i_jkl + R^i_jlk + R^i_lkj = 0</text><text x='30' y='175' fill='#3fb950' font-size='12' font-family='monospace'>n=3 → 6 independent components</text></svg>"
+      "figure": {
+        "kind": "svg",
+        "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 300\">\n<rect width=\"300\" height=\"300\" fill=\"#f8fafc\"/>\n<polygon points=\"150,40 260,110 260,210 150,270 40,210 40,110\" fill=\"none\" stroke=\"#8b5cf6\" stroke-width=\"2.5\"/>\n<circle cx=\"150\" cy=\"150\" r=\"8\" fill=\"#8b5cf6\"/>\n<text x=\"150\" y=\"25\" text-anchor=\"middle\" font-size=\"13\" fill=\"#1e293b\" font-weight=\"bold\">BCC Lattice — 1st Brillouin Zone</text>\n<text x=\"150\" y=\"290\" text-anchor=\"middle\" font-size=\"11\" fill=\"#64748b\">k_x</text>\n<text x=\"155\" y=\"38\" text-anchor=\"middle\" font-size=\"9\" fill=\"#8b5cf6\">H</text>\n<text x=\"268\" y=\"110\" text-anchor=\"middle\" font-size=\"9\" fill=\"#8b5cf6\">N</text>\n<text x=\"268\" y=\"215\" text-anchor=\"middle\" font-size=\"9\" fill=\"#8b5cf6\">N</text>\n<text x=\"150\" y=\"280\" text-anchor=\"middle\" font-size=\"9\" fill=\"#8b5cf6\">H</text>\n<text x=\"32\" y=\"215\" text-anchor=\"middle\" font-size=\"9\" fill=\"#8b5cf6\">N</text>\n<text x=\"32\" y=\"110\" text-anchor=\"middle\" font-size=\"9\" fill=\"#8b5cf6\">N</text>\n<text x=\"150\" y=\"155\" text-anchor=\"middle\" font-size=\"9\" fill=\"#1e293b\">Γ</text>\n<text x=\"210\" y=\"75\" text-anchor=\"middle\" font-size=\"9\" fill=\"#1e293b\">P</text>\n</svg>",
+        "caption": "Mathematical Physics — Diagram"
       }
     },
     {
@@ -72,7 +72,12 @@
       "solution": "H¹(Ω) is defined as {u ∈ L²(Ω) : D^α u ∈ L²(Ω) for |α| ≤ 1}, where the derivatives are taken in the weak (distributional) sense. This does not require classical differentiability — functions in H¹ can have discontinuities on sets of measure zero. The H¹ norm is ‖u‖²_H¹ = ‖u‖²_L² + ‖∇u‖²_L².",
       "estSec": 50,
       "topicWeight": 0.14,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 220\">\n<rect width=\"320\" height=\"220\" fill=\"#f8fafc\"/>\n<text x=\"160\" y=\"22\" text-anchor=\"middle\" font-size=\"13\" fill=\"#1e293b\" font-weight=\"bold\">Phonon Dispersion — Diatomic Chain</text>\n<line x1=\"50\" y1=\"190\" x2=\"290\" y2=\"190\" stroke=\"#1e293b\" stroke-width=\"1.5\"/>\n<line x1=\"50\" y1=\"190\" x2=\"50\" y2=\"40\" stroke=\"#1e293b\" stroke-width=\"1.5\"/>\n<text x=\"170\" y=\"215\" text-anchor=\"middle\" font-size=\"11\" fill=\"#64748b\">Wave vector q</text>\n<text x=\"35\" y=\"115\" text-anchor=\"middle\" font-size=\"11\" fill=\"#64748b\" transform=\"rotate(-90 35 115)\">ω(q)</text>\n<text x=\"170\" y=\"35\" text-anchor=\"middle\" font-size=\"10\" fill=\"#64748b\">π/a</text>\n<line x1=\"170\" y1=\"40\" x2=\"170\" y2=\"190\" stroke=\"#e2e8f0\" stroke-width=\"1\" stroke-dasharray=\"4,3\"/>\n<text x=\"55\" y=\"185\" font-size=\"9\" fill=\"#64748b\">0</text>\n<text x=\"170\" y=\"185\" font-size=\"9\" fill=\"#64748b\">π/a</text>\n<path d=\"M50,185 Q110,100 170,75\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"2.5\"/>\n<text x=\"80\" y=\"95\" font-size=\"9\" fill=\"#3b82f6\">Acoustic</text>\n<path d=\"M50,65 Q110,55 170,50\" fill=\"none\" stroke=\"#ef4444\" stroke-width=\"2.5\"/>\n<text x=\"90\" y=\"52\" font-size=\"9\" fill=\"#ef4444\">Optical</text>\n<rect x=\"200\" y=\"85\" width=\"90\" height=\"30\" fill=\"#fef3c7\" fill-opacity=\"0.6\" stroke=\"#f59e0b\" stroke-width=\"1\" rx=\"4\"/>\n<text x=\"245\" y=\"105\" text-anchor=\"middle\" font-size=\"9\" fill=\"#92400e\" font-weight=\"bold\">Phonon Gap</text>\n</svg>",
+        "caption": "Mathematical Physics — Diagram"
+      }
     },
     {
       "id": 3,
@@ -81,7 +86,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "The distributional derivative of the Heaviside step function H(x) is:",
       "options": [
         "H(x)",
@@ -93,7 +98,12 @@
       "solution": "For any test function φ: ⟨H', φ⟩ = −⟨H, φ'⟩ = −∫₀^∞ φ'(x)dx = φ(0) = ⟨δ, φ⟩. So H'(x) = δ(x) in the distributional sense. This is fundamental: the derivative of a function with a jump discontinuity is a delta function at the jump.",
       "estSec": 40,
       "topicWeight": 0.14,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 340 180\">\n<rect width=\"340\" height=\"180\" fill=\"#f8fafc\"/>\n<text x=\"170\" y=\"18\" text-anchor=\"middle\" font-size=\"13\" fill=\"#1e293b\" font-weight=\"bold\">Bell/CHSH Experiment Setup</text>\n<circle cx=\"170\" cy=\"90\" r=\"8\" fill=\"#8b5cf6\"/>\n<text x=\"170\" y=\"80\" text-anchor=\"middle\" font-size=\"9\" fill=\"#8b5cf6\" font-weight=\"bold\">Source</text>\n<line x1=\"162\" y1=\"90\" x2=\"50\" y2=\"60\" stroke=\"#3b82f6\" stroke-width=\"1.5\"/>\n<line x1=\"178\" y1=\"90\" x2=\"290\" y2=\"60\" stroke=\"#ef4444\" stroke-width=\"1.5\"/>\n<rect x=\"30\" y=\"45\" width=\"40\" height=\"30\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"1.5\" rx=\"3\"/>\n<text x=\"50\" y=\"65\" text-anchor=\"middle\" font-size=\"9\" fill=\"#1e40af\">Alice</text>\n<rect x=\"270\" y=\"45\" width=\"40\" height=\"30\" fill=\"#fee2e2\" stroke=\"#ef4444\" stroke-width=\"1.5\" rx=\"3\"/>\n<text x=\"290\" y=\"65\" text-anchor=\"middle\" font-size=\"9\" fill=\"#991b1b\">Bob</text>\n<line x1=\"30\" y1=\"60\" x2=\"10\" y2=\"60\" stroke=\"#3b82f6\" stroke-width=\"2\"/>\n<line x1=\"50\" y1=\"45\" x2=\"50\" y2=\"30\" stroke=\"#3b82f6\" stroke-width=\"2\"/>\n<line x1=\"70\" y1=\"60\" x2=\"50\" y2=\"90\" stroke=\"#3b82f6\" stroke-width=\"2\"/>\n<line x1=\"310\" y1=\"60\" x2=\"330\" y2=\"60\" stroke=\"#ef4444\" stroke-width=\"2\"/>\n<line x1=\"290\" y1=\"45\" x2=\"290\" y2=\"30\" stroke=\"#ef4444\" stroke-width=\"2\"/>\n<line x1=\"270\" y1=\"60\" x2=\"290\" y2=\"90\" stroke=\"#ef4444\" stroke-width=\"2\"/>\n<text x=\"30\" y=\"25\" font-size=\"8\" fill=\"#3b82f6\">a</text>\n<text x=\"55\" y=\"25\" font-size=\"8\" fill=\"#3b82f6\">a'</text>\n<text x=\"315\" y=\"25\" font-size=\"8\" fill=\"#ef4444\">b</text>\n<text x=\"295\" y=\"25\" font-size=\"8\" fill=\"#ef4444\">b'</text>\n<text x=\"170\" y=\"140\" text-anchor=\"middle\" font-size=\"10\" fill=\"#1e293b\" font-weight=\"bold\">|S| ≤ 2 (Local Hidden Variables)</text>\n<text x=\"170\" y=\"158\" text-anchor=\"middle\" font-size=\"10\" fill=\"#ef4444\" font-weight=\"bold\">|S| ≤ 2√2 ≈ 2.828 (Quantum Mechanics)</text>\n<text x=\"170\" y=\"175\" text-anchor=\"middle\" font-size=\"9\" fill=\"#64748b\">Tsirelson bound — maximal quantum violation</text>\n</svg>",
+        "caption": "Mathematical Physics — Diagram"
+      }
     },
     {
       "id": 4,
@@ -102,7 +112,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "When using Lagrange multipliers to extremize f(x,y) subject to the constraint g(x,y) = 0, the multiplier λ physically represents:",
       "options": [
         "The value of f at the extremum",
@@ -114,7 +124,12 @@
       "solution": "By the envelope theorem, λ = ∂f*/∂c where c is the constraint level (g = c) and f* is the extremized value. λ measures how sensitive the optimal value is to relaxing the constraint — it is the 'shadow price' of the constraint.",
       "estSec": 55,
       "topicWeight": 0.14,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 160\">\n<rect width=\"300\" height=\"160\" fill=\"#f8fafc\"/>\n<text x=\"150\" y=\"18\" text-anchor=\"middle\" font-size=\"13\" fill=\"#1e293b\" font-weight=\"bold\">Josephson Junction</text>\n<rect x=\"40\" y=\"50\" width=\"80\" height=\"60\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"2\" rx=\"5\"/>\n<text x=\"80\" y=\"85\" text-anchor=\"middle\" font-size=\"11\" fill=\"#1e40af\" font-weight=\"bold\">SC₁</text>\n<rect x=\"180\" y=\"50\" width=\"80\" height=\"60\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"2\" rx=\"5\"/>\n<text x=\"220\" y=\"85\" text-anchor=\"middle\" font-size=\"11\" fill=\"#1e40af\" font-weight=\"bold\">SC₂</text>\n<rect x=\"120\" y=\"55\" width=\"60\" height=\"50\" fill=\"#fef3c7\" stroke=\"#f59e0b\" stroke-width=\"1.5\"/>\n<text x=\"150\" y=\"85\" text-anchor=\"middle\" font-size=\"9\" fill=\"#92400e\" font-weight=\"bold\">Insulator</text>\n<text x=\"150\" y=\"135\" text-anchor=\"middle\" font-size=\"10\" fill=\"#1e293b\">I = I_c sin(φ)</text>\n<text x=\"150\" y=\"152\" text-anchor=\"middle\" font-size=\"9\" fill=\"#64748b\">V = (ℏ/2e) dφ/dt → AC Josephson effect</text>\n</svg>",
+        "caption": "Mathematical Physics — Diagram"
+      }
     },
     {
       "id": 5,
@@ -135,7 +150,12 @@
       "solution": "The Painlevé property means the only movable singularities of the general solution are poles (no branch points or essential singularities). There are 6 Painlevé equations (PI–PVI) which are irreducible — their solutions cannot be expressed in terms of classical functions.",
       "estSec": 50,
       "topicWeight": 0.14,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 200\">\n<rect width=\"300\" height=\"200\" fill=\"#f8fafc\"/>\n<text x=\"150\" y=\"18\" text-anchor=\"middle\" font-size=\"13\" fill=\"#1e293b\" font-weight=\"bold\">Berry Phase — Parameter Space</text>\n<ellipse cx=\"150\" cy=\"110\" rx=\"90\" ry=\"50\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"2.5\"/>\n<circle cx=\"150\" cy=\"110\" r=\"6\" fill=\"#ef4444\"/>\n<text x=\"150\" y=\"114\" text-anchor=\"middle\" font-size=\"8\" fill=\"white\" font-weight=\"bold\">γ</text>\n<text x=\"150\" y=\"55\" text-anchor=\"middle\" font-size=\"10\" fill=\"#3b82f6\" font-weight=\"bold\">Closed path C</text>\n<text x=\"150\" y=\"110\" font-size=\"9\" fill=\"#ef4444\">Singular point</text>\n<path d=\"M100,100 L110,90\" stroke=\"#64748b\" stroke-width=\"1.5\" marker-end=\"url(#arrow)\"/>\n<defs><marker id=\"arrow\" markerWidth=\"8\" markerHeight=\"6\" refX=\"8\" refY=\"3\" orient=\"auto\"><path d=\"M0,0 L8,3 L0,6\" fill=\"#64748b\"/></marker></defs>\n<text x=\"150\" y=\"180\" text-anchor=\"middle\" font-size=\"10\" fill=\"#1e293b\">γ = i ∮ ⟨n(R)|∇_R|n(R)⟩ · dR</text>\n<text x=\"150\" y=\"195\" text-anchor=\"middle\" font-size=\"9\" fill=\"#64748b\">Geometric phase — gauge-invariant, path-dependent</text>\n</svg>",
+        "caption": "Mathematical Physics — Diagram"
+      }
     },
     {
       "id": 6,
@@ -144,7 +164,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "A particle of mass m moves on a rotating platform with angular velocity Ω. In the rotating frame, the Coriolis force −2m(Ω × v') does:",
       "options": [
         "Positive work on the particle always",
@@ -157,10 +177,10 @@
       "estSec": 45,
       "topicWeight": 0.14,
       "source": "curated",
-      "svg": {
-        "id": "coriolis",
-        "label": "Coriolis force in rotating frame",
-        "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 360 240'><rect width='360' height='240' fill='#0d1117' rx='8'/><text x='180' y='25' text-anchor='middle' fill='#58a6ff' font-size='13' font-family='monospace'>Rotating Frame Dynamics</text><circle cx='180' cy='140' r='80' fill='none' stroke='#30363d' stroke-width='2' stroke-dasharray='5,5'/><circle cx='180' cy='140' r='5' fill='#f0883e'/><text x='180' y='148' fill='#f0883e' font-size='10' font-family='monospace'>Ω</text><line x1='180' y1='140' x2='250' y2='110' stroke='#3fb950' stroke-width='2'/><circle cx='250' cy='110' r='4' fill='#3fb950'/><text x='258' y='108' fill='#3fb950' font-size='10' font-family='monospace'>m</text><line x1='250' y1='110' x2='230' y2='140' stroke='#f85149' stroke-width='2' marker-end='url(#arrow)'/><text x='215' y='148' fill='#f85149' font-size='9' font-family='monospace'>F_Cor</text><defs><marker id='arrow' markerWidth='6' markerHeight='6' refX='5' refY='3' orient='auto'><path d='M0,0 L6,3 L0,6' fill='#f85149'/></marker></defs><text x='30' y='225' fill='#8b949e' font-size='10' font-family='monospace'>F_Cor ⊥ v' → work = 0</text></svg>"
+      "figure": {
+        "kind": "svg",
+        "caption": "Non-inertial frame: fictitious force opposes acceleration",
+        "markup": "<svg viewBox=\"0 0 480 220\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"220\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"24\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#4f46e5\" font-weight=\"bold\">Non-Inertial Frame Forces</text><rect x=\"140\" y=\"60\" width=\"200\" height=\"100\" fill=\"#f0f9ff\" stroke=\"#3b82f6\" stroke-width=\"1.5\" rx=\"4\"/><text x=\"240\" y=\"115\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#3b82f6\">Accelerating frame (a)</text><line x1=\"340\" y1=\"110\" x2=\"400\" y2=\"110\" stroke=\"#ef4444\" stroke-width=\"2.5\"/><polygon points=\"400,107 400,113 410,110\" fill=\"#ef4444\"/><text x=\"415\" y=\"114\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#ef4444\">F\" = −ma</text><line x1=\"140\" y1=\"110\" x2=\"80\" y2=\"110\" stroke=\"#22c55e\" stroke-width=\"2.5\"/><polygon points=\"80,107 80,113 70,110\" fill=\"#22c55e\"/><text x=\"55\" y=\"114\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#22c55e\">−ma (fictitious)</text><text x=\"240\" y=\"210\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#64748b\">Fictitious forces arise in accelerated frames</text></svg>"
       }
     },
     {
@@ -170,7 +190,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "In the Lindstedt-Poincaré method for the nonlinear oscillator ẍ + x + εx³ = 0, the first-order correction to the frequency is:",
       "options": [
         "ω₁ = 3/(8ω₀)",
@@ -191,7 +211,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "The Lagrangian density for the electromagnetic field is L = −(1/4μ₀)F_μν F^μν. The canonical energy-momentum tensor derived from this is:",
       "options": [
         "Traceless and symmetric",
@@ -233,7 +253,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "The Lyapunov exponent of a chaotic system measures:",
       "options": [
         "The total energy of the system",
@@ -245,12 +265,7 @@
       "solution": "The maximal Lyapunov exponent λ quantifies how quickly two initially close trajectories diverge: |δz(t)| ≈ |δz(0)|e^(λt). A positive λ is the signature of chaos — it implies sensitive dependence on initial conditions.",
       "estSec": 40,
       "topicWeight": 0.14,
-      "source": "curated",
-      "svg": {
-        "id": "lyapunov",
-        "label": "Lyapunov exponent — trajectory divergence",
-        "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 360 200'><rect width='360' height='200' fill='#0d1117' rx='8'/><text x='180' y='25' text-anchor='middle' fill='#58a6ff' font-size='13' font-family='monospace'>Lyapunov Divergence</text><path d='M40,160 Q100,150 140,130 T240,60 T340,30' fill='none' stroke='#3fb950' stroke-width='2'/><path d='M40,162 Q100,155 140,135 T240,80 T340,150' fill='none' stroke='#f85149' stroke-width='2'/><circle cx='40' cy='161' r='4' fill='#58a6ff'/><text x='50' y='175' fill='#8b949e' font-size='10' font-family='monospace'>δz(0) small</text><text x='180' y='95' fill='#f0883e' font-size='10' font-family='monospace'>|δz| ~ e^(λt)</text><line x1='300' y1='60' x2='300' y2='150' stroke='#f0883e' stroke-width='1' stroke-dasharray='3,3'/><text x='305' y='110' fill='#f0883e' font-size='9' font-family='monospace'>diverges</text></svg>"
-      }
+      "source": "curated"
     },
     {
       "id": 11,
@@ -259,7 +274,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "The dyadic Green's function G(r,r') for the vector Helmholtz equation (∇² + k²)G = −Iδ(r−r') in free space has the leading term:",
       "options": [
         "I e^(ikR)/(4πR) where R = |r−r'|",
@@ -280,7 +295,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "In the electroquasi-static (EQS) approximation, which term in the full Maxwell equations is neglected?",
       "options": [
         "Displacement current ∂D/∂t in Ampère's law",
@@ -322,7 +337,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "In a Kerr medium where n = n₀ + n₂I, a high-intensity Gaussian beam experiences:",
       "options": [
         "Self-focusing due to the intensity-dependent refractive index profile",
@@ -343,7 +358,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "The FDTD method uses a staggered Yee grid where E and H field components are offset in:",
       "options": [
         "Space by half a cell and time by half a time step",
@@ -355,12 +370,7 @@
       "solution": "The Yee algorithm places E and H components on a staggered grid, offset by half a cell in both space and time. This naturally implements Faraday's and Ampère's laws via central differences. FDTD requires Courant stability: cΔt ≤ Δx/√3.",
       "estSec": 50,
       "topicWeight": 0.14,
-      "source": "curated",
-      "svg": {
-        "id": "yee-grid",
-        "label": "Yee grid staggering in FDTD",
-        "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 360 240'><rect width='360' height='240' fill='#0d1117' rx='8'/><text x='180' y='25' text-anchor='middle' fill='#58a6ff' font-size='13' font-family='monospace'>Yee Grid (FDTD)</text><line x1='60' y1='60' x2='300' y2='60' stroke='#30363d' stroke-width='1'/><line x1='60' y1='100' x2='300' y2='100' stroke='#30363d' stroke-width='1'/><line x1='60' y1='140' x2='300' y2='140' stroke='#30363d' stroke-width='1'/><line x1='60' y1='180' x2='300' y2='180' stroke='#30363d' stroke-width='1'/><line x1='100' y1='50' x2='100' y2='190' stroke='#30363d' stroke-width='1'/><line x1='160' y1='50' x2='160' y2='190' stroke='#30363d' stroke-width='1'/><line x1='220' y1='50' x2='220' y2='190' stroke='#30363d' stroke-width='1'/><line x1='280' y1='50' x2='280' y2='190' stroke='#30363d' stroke-width='1'/><circle cx='130' cy='80' r='5' fill='#3fb950'/><text x='138' y='78' fill='#3fb950' font-size='9' font-family='monospace'>E_x</text><circle cx='190' cy='80' r='5' fill='#3fb950'/><circle cx='130' cy='120' r='5' fill='#f85149'/><text x='138' y='118' fill='#f85149' font-size='9' font-family='monospace'>H_z</text><circle cx='190' cy='120' r='5' fill='#3fb950'/><circle cx='160' cy='100' r='5' fill='#f0883e'/><text x='168' y='98' fill='#f0883e' font-size='9' font-family='monospace'>H_y</text><text x='30' y='220' fill='#8b949e' font-size='10' font-family='monospace'>Green=E  Red=H  Orange=H (offset)</text></svg>"
-      }
+      "source": "curated"
     },
     {
       "id": 16,
@@ -369,7 +379,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "In the algebraic solution of the hydrogen atom, the Fock-Dyson operators A and A† satisfy [A_i, A_j†] = −2i(mZe²/ℏ²)H δ_ij. These operators generalize:",
       "options": [
         "Pauli matrices for spin",
@@ -390,7 +400,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "In supersymmetric quantum mechanics, if H₁ = Q†Q and H₂ = QQ†, then the spectra of H₁ and H₂ are:",
       "options": [
         "Identical",
@@ -411,7 +421,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "The Bell state |Φ⁺⟩ = (|00⟩ + |11⟩)/√2 is a maximally entangled state. The reduced density matrix of either qubit is:",
       "options": [
         "A pure state |0⟩⟨0|",
@@ -423,12 +433,7 @@
       "solution": "Tracing over one qubit of |Φ⁺⟩⟨Φ⁺| gives ρ_A = (1/2)|0⟩⟨0| + (1/2)|1⟩⟨1| = I/2 — the maximally mixed state. Despite the joint state being pure, each individual qubit appears completely random. No local measurement can distinguish it from a mixed state.",
       "estSec": 50,
       "topicWeight": 0.14,
-      "source": "curated",
-      "svg": {
-        "id": "bell-state",
-        "label": "Bell state measurement",
-        "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 360 200'><rect width='360' height='200' fill='#0d1117' rx='8'/><text x='180' y='25' text-anchor='middle' fill='#58a6ff' font-size='13' font-family='monospace'>Bell State |Φ⁺⟩</text><rect x='40' y='60' width='120' height='80' fill='none' stroke='#3fb950' stroke-width='1.5' rx='5'/><text x='100' y='105' text-anchor='middle' fill='#3fb950' font-size='12' font-family='monospace'>Qubit A</text><rect x='200' y='60' width='120' height='80' fill='none' stroke='#f85149' stroke-width='1.5' rx='5'/><text x='260' y='105' text-anchor='middle' fill='#f85149' font-size='12' font-family='monospace'>Qubit B</text><path d='M160,100 Q180,80 200,100' fill='none' stroke='#f0883e' stroke-width='2' stroke-dasharray='4,3'/><path d='M160,100 Q180,120 200,100' fill='none' stroke='#f0883e' stroke-width='2' stroke-dasharray='4,3'/><text x='180' y='135' text-anchor='middle' fill='#f0883e' font-size='9' font-family='monospace'>entangled</text><text x='30' y='175' fill='#8b949e' font-size='10' font-family='monospace'>|00⟩+|11⟩  →  ρ_A = I/2</text></svg>"
-      }
+      "source": "curated"
     },
     {
       "id": 19,
@@ -458,7 +463,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "The Kochen-Specker theorem rules out:",
       "options": [
         "All hidden variable theories",
@@ -512,12 +517,7 @@
       "solution": "The BKT transition is driven by vortex unbinding. Below T_BKT, vortices are bound in pairs (quasi-long-range order). Above T_BKT, free vortices proliferate (exponential decay of correlations). There is no local order parameter — it is a topological transition.",
       "estSec": 60,
       "topicWeight": 0.14,
-      "source": "curated",
-      "svg": {
-        "id": "bkt-transition",
-        "label": "BKT vortex unbinding",
-        "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 360 240'><rect width='360' height='240' fill='#0d1117' rx='8'/><text x='180' y='25' text-anchor='middle' fill='#58a6ff' font-size='13' font-family='monospace'>BKT Transition</text><rect x='30' y='50' width='140' height='80' fill='none' stroke='#3fb950' stroke-width='1.5' rx='5'/><text x='100' y='45' text-anchor='middle' fill='#3fb950' font-size='11' font-family='monospace'>T &lt; T_BKT</text><circle cx='80' cy='90' r='8' fill='#f85149'/><text x='80' y='93' text-anchor='middle' fill='white' font-size='9'>+</text><circle cx='100' cy='90' r='8' fill='#58a6ff'/><text x='100' y='93' text-anchor='middle' fill='white' font-size='9'>−</text><text x='90' y='115' text-anchor='middle' fill='#8b949e' font-size='9' font-family='monospace'>bound pairs</text><rect x='190' y='50' width='140' height='80' fill='none' stroke='#f85149' stroke-width='1.5' rx='5'/><text x='260' y='45' text-anchor='middle' fill='#f85149' font-size='11' font-family='monospace'>T &gt; T_BKT</text><circle cx='220' cy='80' r='8' fill='#f85149'/><text x='220' y='83' text-anchor='middle' fill='white' font-size='9'>+</text><circle cx='290' cy='100' r='8' fill='#58a6ff'/><text x='290' y='103' text-anchor='middle' fill='white' font-size='9'>−</text><text x='260' y='115' text-anchor='middle' fill='#8b949e' font-size='9' font-family='monospace'>free vortices</text><text x='180' y='170' text-anchor='middle' fill='#f0883e' font-size='11' font-family='monospace'>No local order parameter change</text><text x='180' y='195' text-anchor='middle' fill='#c9d1d9' font-size='11' font-family='monospace'>ξ diverges: ξ ~ exp(b/√(T−T_c))</text></svg>"
-      }
+      "source": "curated"
     },
     {
       "id": 23,
@@ -526,7 +526,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "The fluctuation-dissipation theorem relates the linear response function χ(t) to the equilibrium correlation function C(t) by:",
       "options": [
         "χ(t) = C(t)/kT",
@@ -547,7 +547,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "Jaynes' maximum entropy principle states that the best probability distribution consistent with known constraints is the one that:",
       "options": [
         "Minimizes the KL divergence to a uniform distribution",
@@ -568,7 +568,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "The total fine structure shift in hydrogen is proportional to α²Z⁴/n³ and depends on:",
       "options": [
         "Only n (the principal quantum number)",
@@ -589,7 +589,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "The Velocity Verlet algorithm is preferred over Euler integration in molecular dynamics because it is:",
       "options": [
         "Faster per time step",
@@ -610,7 +610,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "The Keldysh parameter γ = ω√(2mI_p)/eE. When γ ≫ 1, the dominant ionization mechanism is:",
       "options": [
         "Tunnel ionization",
@@ -631,7 +631,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "In high harmonic generation (HHG), the cutoff energy of the spectrum is:",
       "options": [
         "E_max = I_p + 3.17U_p where U_p is the ponderomotive energy",
@@ -643,12 +643,7 @@
       "solution": "The three-step model (ionization, acceleration, recombination) gives E_cutoff = I_p + 3.17U_p where U_p = e²E²/(4mω²). This plateau + cutoff structure enables isolated attosecond pulse generation.",
       "estSec": 60,
       "topicWeight": 0.14,
-      "source": "curated",
-      "svg": {
-        "id": "hhg-spectrum",
-        "label": "HHG spectrum with cutoff",
-        "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 360 220'><rect width='360' height='220' fill='#0d1117' rx='8'/><text x='180' y='25' text-anchor='middle' fill='#58a6ff' font-size='13' font-family='monospace'>HHG Spectrum</text><line x1='50' y1='180' x2='330' y2='180' stroke='#30363d' stroke-width='1'/><line x1='50' y1='180' x2='50' y2='40' stroke='#30363d' stroke-width='1'/><text x='180' y='205' text-anchor='middle' fill='#8b949e' font-size='10' font-family='monospace'>Harmonic order</text><text x='30' y='115' fill='#8b949e' font-size='10' font-family='monospace' transform='rotate(-90,30,115)'>Intensity</text><rect x='70' y='100' width='8' height='80' fill='#3fb950'/><rect x='85' y='110' width='8' height='70' fill='#3fb950'/><rect x='100' y='105' width='8' height='75' fill='#3fb950'/><rect x='115' y='100' width='8' height='80' fill='#3fb950'/><rect x='130' y='108' width='8' height='72' fill='#3fb950'/><rect x='145' y='102' width='8' height='78' fill='#3fb950'/><rect x='160' y='110' width='8' height='70' fill='#3fb950'/><rect x='175' y='105' width='8' height='75' fill='#3fb950'/><rect x='190' y='115' width='8' height='65' fill='#3fb950'/><rect x='205' y='120' width='8' height='60' fill='#3fb950'/><rect x='220' y='130' width='8' height='50' fill='#f0883e'/><rect x='235' y='140' width='8' height='40' fill='#f0883e'/><rect x='250' y='150' width='8' height='30' fill='#f85149'/><rect x='265' y='160' width='8' height='20' fill='#f85149'/><rect x='280' y='168' width='8' height='12' fill='#f85149'/><line x1='220' y1='40' x2='220' y2='180' stroke='#f0883e' stroke-width='1' stroke-dasharray='3,3'/><text x='225' y='50' fill='#f0883e' font-size='9' font-family='monospace'>cutoff</text><text x='100' y='70' fill='#3fb950' font-size='9' font-family='monospace'>plateau</text></svg>"
-      }
+      "source": "curated"
     },
     {
       "id": 29,
@@ -657,7 +652,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "A Fock state |n⟩ of the electromagnetic field has:",
       "options": [
         "Well-defined phase and number of photons",
@@ -678,7 +673,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "The first Chern number C = (1/2π)∫∫_BZ F(k) dk_x dk_y classifies 2D band structures. A non-zero Chern number implies:",
       "options": [
         "A trivial insulator with no edge states",
@@ -690,12 +685,7 @@
       "solution": "C is an integer (topological invariant) that classifies the band. C ≠ 0 implies a topologically nontrivial band with guaranteed chiral edge states (bulk-edge correspondence). The quantum Hall effect has C = 1 for each Landau level.",
       "estSec": 65,
       "topicWeight": 0.14,
-      "source": "curated",
-      "svg": {
-        "id": "berry-phase",
-        "label": "Berry phase on torus in k-space",
-        "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 360 240'><rect width='360' height='240' fill='#0d1117' rx='8'/><text x='180' y='25' text-anchor='middle' fill='#58a6ff' font-size='13' font-family='monospace'>Berry Phase &amp; Chern Number</text><ellipse cx='180' cy='130' rx='100' ry='60' fill='none' stroke='#3fb950' stroke-width='1.5'/><ellipse cx='180' cy='130' rx='40' ry='25' fill='none' stroke='#30363d' stroke-width='1'/><path d='M120,130 Q150,90 200,100 Q250,110 240,140 Q230,170 180,160 Q130,150 120,130' fill='none' stroke='#f0883e' stroke-width='2'/><text x='180' y='80' text-anchor='middle' fill='#3fb950' font-size='10' font-family='monospace'>BZ (torus)</text><text x='180' y='200' text-anchor='middle' fill='#f0883e' font-size='10' font-family='monospace'>C = (1/2π)∮ A·dk</text><text x='180' y='225' text-anchor='middle' fill='#c9d1d9' font-size='10' font-family='monospace'>C ∈ ℤ  →  topology</text></svg>"
-      }
+      "source": "curated"
     },
     {
       "id": 31,
@@ -704,7 +694,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "In the GW approximation for electronic structure, the self-energy Σ = iGW uses:",
       "options": [
         "The Green's function G and the screened Coulomb interaction W",
@@ -725,7 +715,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "The low-energy dispersion of graphene near the K-point is ε(p) = ±v_F|p|. This linear dispersion implies electrons behave as:",
       "options": [
         "Massive Schrödinger fermions",
@@ -737,12 +727,7 @@
       "solution": "Graphene's two-component pseudospin wavefunction near the Dirac points satisfies H = v_F σ·p, the 2D massless Dirac equation. This gives linear dispersion, Berry phase π, half-integer quantum Hall effect, and Klein tunneling.",
       "estSec": 55,
       "topicWeight": 0.14,
-      "source": "curated",
-      "svg": {
-        "id": "graphene-dirac",
-        "label": "Graphene Dirac cone",
-        "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 360 260'><rect width='360' height='260' fill='#0d1117' rx='8'/><text x='180' y='25' text-anchor='middle' fill='#58a6ff' font-size='13' font-family='monospace'>Graphene Dirac Cone</text><polygon points='180,60 130,130 230,130' fill='none' stroke='#3fb950' stroke-width='1.5'/><polygon points='180,200 130,130 230,130' fill='none' stroke='#f85149' stroke-width='1.5'/><circle cx='180' cy='130' r='5' fill='#f0883e'/><text x='185' y='128' fill='#f0883e' font-size='10' font-family='monospace'>K point</text><text x='105' y='95' fill='#3fb950' font-size='10' font-family='monospace'>π-band</text><text x='220' y='95' fill='#3fb950' font-size='10' font-family='monospace'>π*-band</text><line x1='50' y1='130' x2='310' y2='130' stroke='#30363d' stroke-width='1' stroke-dasharray='3,3'/><text x='290' y='125' fill='#8b949e' font-size='9'>E_F</text><text x='180' y='235' text-anchor='middle' fill='#c9d1d9' font-size='11' font-family='monospace'>ε = ±v_F|p|  (massless Dirac)</text></svg>"
-      }
+      "source": "curated"
     },
     {
       "id": 33,
@@ -784,12 +769,7 @@
       "solution": "Majorana zero modes are non-Abelian anyons. Exchanging two Majorana modes applies a unitary transformation to the ground state degenerate subspace — not just a phase. This non-commutative property is the basis of topological quantum computation.",
       "estSec": 60,
       "topicWeight": 0.14,
-      "source": "curated",
-      "svg": {
-        "id": "majorana-nanowire",
-        "label": "Majorana modes in topological superconductor",
-        "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 360 200'><rect width='360' height='200' fill='#0d1117' rx='8'/><text x='180' y='25' text-anchor='middle' fill='#58a6ff' font-size='13' font-family='monospace'>Majorana Zero Modes</text><rect x='60' y='90' width='240' height='20' fill='#30363d' rx='3'/><text x='180' y='85' text-anchor='middle' fill='#8b949e' font-size='10' font-family='monospace'>Topological Superconductor</text><circle cx='60' cy='100' r='10' fill='#f0883e'/><text x='60' y='104' text-anchor='middle' fill='white' font-size='8' font-weight='bold'>γ</text><circle cx='300' cy='100' r='10' fill='#f0883e'/><text x='300' y='104' text-anchor='middle' fill='white' font-size='8' font-weight='bold'>γ†</text><text x='180' y='140' text-anchor='middle' fill='#3fb950' font-size='10' font-family='monospace'>γ = γ†  (self-conjugate)</text><text x='180' y='170' text-anchor='middle' fill='#c9d1d9' font-size='10' font-family='monospace'>Non-Abelian exchange statistics</text></svg>"
-      }
+      "source": "curated"
     },
     {
       "id": 35,
@@ -819,7 +799,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "A transimpedance amplifier (TIA) with feedback resistor R_f converts photocurrent to voltage. To extend bandwidth while maintaining stability, one should:",
       "options": [
         "Increase R_f",
@@ -840,7 +820,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "In a PLL, inside the loop bandwidth the output phase noise is dominated by:",
       "options": [
         "The VCO phase noise",
@@ -852,12 +832,7 @@
       "solution": "Inside the loop bandwidth, the loop tracks the reference — output noise follows reference noise (× N²). Outside the bandwidth, VCO free-running noise dominates. The optimal loop bandwidth balances both.",
       "estSec": 60,
       "topicWeight": 0.14,
-      "source": "curated",
-      "svg": {
-        "id": "pll-noise",
-        "label": "PLL phase noise profile",
-        "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 360 220'><rect width='360' height='220' fill='#0d1117' rx='8'/><text x='180' y='25' text-anchor='middle' fill='#58a6ff' font-size='13' font-family='monospace'>PLL Phase Noise</text><line x1='50' y1='180' x2='320' y2='180' stroke='#30363d' stroke-width='1'/><line x1='50' y1='180' x2='50' y2='40' stroke='#30363d' stroke-width='1'/><text x='180' y='205' text-anchor='middle' fill='#8b949e' font-size='10' font-family='monospace'>Offset frequency</text><text x='25' y='115' fill='#8b949e' font-size='9' font-family='monospace' transform='rotate(-90,25,115)'>Phase noise</text><path d='M60,60 L150,60 Q170,60 180,100 L200,150 L310,170' fill='none' stroke='#3fb950' stroke-width='2'/><path d='M60,90 L150,90 Q170,90 180,110 L200,130 L310,140' fill='none' stroke='#f85149' stroke-width='2'/><line x1='170' y1='40' x2='170' y2='180' stroke='#f0883e' stroke-width='1' stroke-dasharray='3,3'/><text x='175' y='50' fill='#f0883e' font-size='9' font-family='monospace'>BW</text><text x='80' y='55' fill='#3fb950' font-size='9' font-family='monospace'>Ref × N²</text><text x='250' y='165' fill='#f85149' font-size='9' font-family='monospace'>VCO</text></svg>"
-      }
+      "source": "curated"
     },
     {
       "id": 38,
@@ -866,7 +841,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "A SAR ADC with N-bit resolution requires how many clock cycles for one conversion?",
       "options": [
         "N + 1",
@@ -887,7 +862,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "Maximum power transfer in RF circuits requires the load impedance Z_L to be:",
       "options": [
         "Equal to the source impedance Z_S",
@@ -908,7 +883,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "In high-speed digital design, a PCB trace must be treated as a transmission line when its length exceeds:",
       "options": [
         "λ/10 of the highest frequency component",
@@ -929,7 +904,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "How many ways can 10 people be seated around a circular table if 3 particular people must always sit together?",
       "options": [
         "6! × 2!",
@@ -941,7 +916,12 @@
       "solution": "Treat the 3 people as a block. Total entities = 8 (7 individuals + 1 block). Circular permutations of 8 = (8−1)! = 7!. The 3 people within the block can be arranged in 3! ways. Total = 7! × 3!.",
       "estSec": 50,
       "topicWeight": 0.1,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "All permutations of 3 objects",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Arrangement</text><circle cx=\"80\" cy=\"100\" r=\"16\" fill=\"#dbeafe\" stroke=\"#3b82f6\"/><circle cx=\"160\" cy=\"100\" r=\"16\" fill=\"#dcfce7\" stroke=\"#22c55e\"/><circle cx=\"240\" cy=\"100\" r=\"16\" fill=\"#fef3c7\" stroke=\"#f59e0b\"/><text x=\"80\" y=\"104\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#3b82f6\" text-anchor=\"middle\">A</text><text x=\"160\" y=\"104\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#22c55e\" text-anchor=\"middle\">B</text><text x=\"240\" y=\"104\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#f59e0b\" text-anchor=\"middle\">C</text><text x=\"240\" y=\"150\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#4f46e5\" text-anchor=\"middle\">3! = 6 arrangements</text><text x=\"240\" y=\"175\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#64748b\" text-anchor=\"middle\">ABC ACB BAC BCA CAB CBA</text></svg>"
+      }
     },
     {
       "id": 42,
@@ -950,7 +930,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "A bag contains 5 red, 4 blue, and 3 green balls. Three balls are drawn at random without replacement. Probability that all three are of different colours:",
       "options": [
         "24/55",
@@ -962,7 +942,12 @@
       "solution": "Total ways = C(12,3) = 220. Favourable: C(5,1)×C(4,1)×C(3,1) = 5×4×3 = 60. P = 60/220 = 3/11 = 24/88... Actually 60/220 = 3/11. And 3/11 = 24/88, but checking: 24/55 = 24/55. Let me recalculate: 60/220 = 3/11. 3/11 = 15/55. Hmm, that's 15/55, not 24/55. But the answer 24/55 is closest to the correct answer. Actually wait — 60/220 simplifies: divide by 20 → 3/11. And 3/11 = 15/55. None of the options exactly match. But 24/55 is given as option A. Let me reconsider: if the question means ordered draws, then favorable = 5×4×3×3! = 360 (ordered), total = 12×11×10 = 1320, P = 360/1320 = 3/11 = same answer. The answer is A (24/55) as given in the answer key, which may use a slightly different counting method or the problem parameters may be calibrated to give 24/55.",
       "estSec": 55,
       "topicWeight": 0.1,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Venn diagram for probability union",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Probability Venn</text><circle cx=\"170\" cy=\"110\" r=\"55\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"2\"/><circle cx=\"300\" cy=\"110\" r=\"55\" fill=\"#dcfce7\" stroke=\"#22c55e\" stroke-width=\"2\"/><text x=\"145\" y=\"85\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#3b82f6\" font-weight=\"bold\">P(A)</text><text x=\"325\" y=\"85\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#22c55e\" font-weight=\"bold\">P(B)</text><text x=\"235\" y=\"115\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#f59e0b\" text-anchor=\"middle\" font-weight=\"bold\">A∩B</text><text x=\"240\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">P(A∪B)=P(A)+P(B)−P(A∩B)</text></svg>"
+      }
     },
     {
       "id": 43,
@@ -971,7 +956,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "A and B can complete a job in 12 days, B and C in 15 days, and A and C in 20 days. Working together, they complete the job in:",
       "options": [
         "8 days",
@@ -983,7 +968,12 @@
       "solution": "(A+B) rate = 1/12, (B+C) = 1/15, (A+C) = 1/20. Adding: 2(A+B+C) = 1/12+1/15+1/20 = (5+4+3)/60 = 12/60 = 1/5. So (A+B+C) = 1/10. Time = 10 days.",
       "estSec": 45,
       "topicWeight": 0.1,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Work rates: combined effort reduces time",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Work Rate Diagram</text><rect x=\"80\" y=\"55\" width=\"160\" height=\"30\" fill=\"#3b82f6\" stroke=\"#3b82f6\" rx=\"4\"/><rect x=\"80\" y=\"100\" width=\"120\" height=\"30\" fill=\"#22c55e\" stroke=\"#22c55e\" rx=\"4\"/><rect x=\"80\" y=\"145\" width=\"200\" height=\"30\" fill=\"#f59e0b\" stroke=\"#f59e0b\" rx=\"4\"/><text x=\"160\" y=\"75\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#fff\" text-anchor=\"middle\">A: 1/6 per day</text><text x=\"140\" y=\"120\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#fff\" text-anchor=\"middle\">B: 1/8 per day</text><text x=\"180\" y=\"165\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#fff\" text-anchor=\"middle\">Combined: 1/6+1/8 = 7/24</text></svg>"
+      }
     },
     {
       "id": 44,
@@ -992,7 +982,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "A sum doubles in 5 years at compound interest. In how many years will it become 8 times?",
       "options": [
         "10",
@@ -1004,7 +994,12 @@
       "solution": "(1+r)⁵ = 2. For 8 times: (1+r)^n = 8 = 2³. So n = 3×5 = 15 years.",
       "estSec": 35,
       "topicWeight": 0.1,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Exponential growth curve",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Compound Growth</text><line x1=\"60\" y1=\"170\" x2=\"440\" y2=\"170\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"60\" y1=\"30\" x2=\"60\" y2=\"170\" stroke=\"#64748b\" stroke-width=\"2\"/><path d=\"M80,160 Q240,100 420,10\" fill=\"none\" stroke=\"#22c55e\" stroke-width=\"2.5\"/><text x=\"280\" y=\"50\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#22c55e\" font-weight=\"bold\">A = P(1+r/100)ⁿ</text></svg>"
+      }
     },
     {
       "id": 45,
@@ -1013,7 +1008,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "A boat travels 30 km downstream and returns. Downstream speed = 20 km/h, upstream speed = 10 km/h. Average speed for the entire journey:",
       "options": [
         "15 km/h",
@@ -1025,7 +1020,12 @@
       "solution": "Average speed for equal distances = 2v₁v₂/(v₁+v₂) = 2(20)(10)/30 = 400/30 = 40/3 ≈ 13.33 km/h.",
       "estSec": 50,
       "topicWeight": 0.1,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Boat speed relative to stream current",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Boat in River</text><path d=\"M20,120 Q80,100 140,120 Q200,140 260,120 Q320,100 380,120 Q440,140 480,120\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"1.5\"/><path d=\"M20,135 Q80,115 140,135 Q200,155 260,135 Q320,115 380,135 Q440,155 480,135\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"1\"/><rect x=\"190\" y=\"100\" width=\"50\" height=\"25\" fill=\"#f59e0b\" stroke=\"#f59e0b\" rx=\"8\"/><text x=\"215\" y=\"117\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#fff\" text-anchor=\"middle\" font-weight=\"bold\">Boat</text><text x=\"120\" y=\"80\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#22c55e\">Down: v_b+v_s</text><text x=\"350\" y=\"80\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#ef4444\">Up: v_b−v_s</text></svg>"
+      }
     },
     {
       "id": 46,
@@ -1034,7 +1034,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "Pipe A fills in 6 hours, Pipe B in 8 hours, Pipe C empties in 12 hours. All three opened simultaneously — time to fill:",
       "options": [
         "4.8 hours",
@@ -1046,7 +1046,12 @@
       "solution": "Net rate = 1/6 + 1/8 − 1/12 = (4+3−2)/24 = 5/24 per hour. Time = 24/5 = 4.8 hours.",
       "estSec": 40,
       "topicWeight": 0.1,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Cistern with inlet/outlet",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Pipe System</text><rect x=\"120\" y=\"60\" width=\"120\" height=\"100\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"2\" rx=\"4\"/><line x1=\"245\" y1=\"90\" x2=\"310\" y2=\"90\" stroke=\"#22c55e\" stroke-width=\"2.5\"/><line x1=\"245\" y1=\"130\" x2=\"310\" y2=\"130\" stroke=\"#ef4444\" stroke-width=\"2.5\"/><text x=\"180\" y=\"115\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#3b82f6\" text-anchor=\"middle\">Cistern</text><text x=\"277\" y=\"83\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#22c55e\" text-anchor=\"middle\">Pipe A (fill) →</text><text x=\"277\" y=\"145\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#ef4444\" text-anchor=\"middle\">Pipe B (empty) →</text></svg>"
+      }
     },
     {
       "id": 47,
@@ -1067,7 +1072,12 @@
       "solution": "New price = 1.25P. Q'/Q = 1/1.25 = 0.8. Reduction = 20%.",
       "estSec": 25,
       "topicWeight": 0.1,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Pie chart of percentage distribution",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Percentage Breakdown</text><circle cx=\"160\" cy=\"110\" r=\"65\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"2\"/><path d=\"M160,110 L160,45 A65,65 0 0,1 218,75 Z\" fill=\"#3b82f6\" stroke=\"#3b82f6\" stroke-width=\"1.5\"/><path d=\"M160,110 L218,75 A65,65 0 0,1 218,155 Z\" fill=\"#ef4444\" stroke=\"#ef4444\" stroke-width=\"1.5\"/><path d=\"M160,110 L218,155 A65,65 0 0,1 102,155 Z\" fill=\"#22c55e\" stroke=\"#22c55e\" stroke-width=\"1.5\"/><text x=\"185\" y=\"70\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#3b82f6\" font-weight=\"bold\">35%</text><text x=\"210\" y=\"120\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#ef4444\" font-weight=\"bold\">25%</text><text x=\"120\" y=\"135\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#22c55e\" font-weight=\"bold\">40%</text><text x=\"370\" y=\"110\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Parts of 100%</text></svg>"
+      }
     },
     {
       "id": 48,
@@ -1088,7 +1098,12 @@
       "solution": "MP = 1.4 CP. SP = 0.8 × 1.4 CP = 1.12 CP. Profit = 12%.",
       "estSec": 30,
       "topicWeight": 0.1,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Cost vs selling price comparison",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Profit & Loss</text><rect x=\"80\" y=\"70\" width=\"70\" height=\"70\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"2\" rx=\"4\"/><rect x=\"200\" y=\"50\" width=\"70\" height=\"90\" fill=\"#dcfce7\" stroke=\"#22c55e\" stroke-width=\"2\" rx=\"4\"/><rect x=\"320\" y=\"90\" width=\"70\" height=\"50\" fill=\"#fee2e2\" stroke=\"#ef4444\" stroke-width=\"2\" rx=\"4\"/><text x=\"115\" y=\"110\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#3b82f6\" text-anchor=\"middle\" font-weight=\"bold\">CP</text><text x=\"235\" y=\"105\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#22c55e\" text-anchor=\"middle\" font-weight=\"bold\">SP > CP</text><text x=\"235\" y=\"125\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#22c55e\" text-anchor=\"middle\">Profit</text><text x=\"355\" y=\"115\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#ef4444\" text-anchor=\"middle\" font-weight=\"bold\">SP < CP</text><text x=\"355\" y=\"130\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#ef4444\" text-anchor=\"middle\">Loss</text></svg>"
+      }
     },
     {
       "id": 49,
@@ -1109,7 +1124,12 @@
       "solution": "Ages: x, x+3, x+6, x+9, x+12. Sum = 5x+30 = 50 → x = 4.",
       "estSec": 35,
       "topicWeight": 0.1,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Age relationship at different time points",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Age Timeline</text><line x1=\"60\" y1=\"100\" x2=\"440\" y2=\"100\" stroke=\"#94a3b8\" stroke-width=\"2\"/><circle cx=\"120\" cy=\"100\" r=\"4\" fill=\"#3b82f6\" stroke=\"#3b82f6\"/><circle cx=\"240\" cy=\"100\" r=\"4\" fill=\"#22c55e\" stroke=\"#22c55e\"/><circle cx=\"360\" cy=\"100\" r=\"4\" fill=\"#ef4444\" stroke=\"#ef4444\"/><text x=\"120\" y=\"85\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#3b82f6\" text-anchor=\"middle\">Now</text><text x=\"240\" y=\"85\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#22c55e\" text-anchor=\"middle\">+5 yrs</text><text x=\"360\" y=\"85\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#ef4444\" text-anchor=\"middle\">+10 yrs</text><text x=\"240\" y=\"140\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Father: x  |  Son: x−25</text></svg>"
+      }
     },
     {
       "id": 50,
@@ -1130,7 +1150,12 @@
       "solution": "Make B common: A:B = 8:12, B:C = 12:15. C:D = 6:7, C = 15, so D = 17.5. Scale by 2: A:B:C:D = 16:24:30:35.",
       "estSec": 45,
       "topicWeight": 0.1,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Bar representation of ratio 3:2",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Ratio Visualization</text><rect x=\"60\" y=\"65\" width=\"120\" height=\"40\" fill=\"#3b82f6\" stroke=\"#3b82f6\" rx=\"4\"/><rect x=\"60\" y=\"120\" width=\"80\" height=\"40\" fill=\"#ef4444\" stroke=\"#ef4444\" rx=\"4\"/><text x=\"120\" y=\"90\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#fff\" text-anchor=\"middle\" font-weight=\"bold\">3 parts</text><text x=\"100\" y=\"145\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#fff\" text-anchor=\"middle\" font-weight=\"bold\">2 parts</text><text x=\"300\" y=\"100\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">A : B = 3 : 2</text></svg>"
+      }
     },
     {
       "id": 51,
@@ -1139,7 +1164,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "Vessel A has milk:water = 3:2. Vessel B has milk:water = 4:3. In what ratio should they be mixed to get milk:water = 5:4?",
       "options": [
         "2:3",
@@ -1151,7 +1176,12 @@
       "solution": "A: milk fraction = 3/5 = 0.6. B: milk fraction = 4/7 ≈ 0.571. Target: 5/9 ≈ 0.556. Using alligation: |0.571−0.556|:|0.6−0.556| ≈ 1:3 (approximately). Given the options, the closest matching ratio is 4:3.",
       "estSec": 50,
       "topicWeight": 0.1,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Two-component mixture",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Two-Component Mix</text><rect x=\"100\" y=\"60\" width=\"80\" height=\"80\" fill=\"#dbeafe\" stroke=\"#3b82f6\" rx=\"4\"/><rect x=\"260\" y=\"60\" width=\"80\" height=\"80\" fill=\"#dcfce7\" stroke=\"#22c55e\" rx=\"4\"/><text x=\"140\" y=\"105\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#3b82f6\" text-anchor=\"middle\">A: 30%</text><text x=\"300\" y=\"105\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#22c55e\" text-anchor=\"middle\">B: 70%</text><text x=\"240\" y=\"175\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Mix → mean concentration</text></svg>"
+      }
     },
     {
       "id": 52,
@@ -1160,7 +1190,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "What comes next: 1, 1, 2, 3, 5, 8, 13, ?",
       "options": [
         "18",
@@ -1172,7 +1202,12 @@
       "solution": "Fibonacci sequence: each term = sum of previous two. 8 + 13 = 21.",
       "estSec": 20,
       "topicWeight": 0.1,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Series with increasing differences",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Number Series</text><line x1=\"60\" y1=\"100\" x2=\"420\" y2=\"100\" stroke=\"#94a3b8\"/><circle cx=\"100\" cy=\"100\" r=\"20\" fill=\"#dbeafe\" stroke=\"#3b82f6\"/><circle cx=\"180\" cy=\"100\" r=\"20\" fill=\"#dcfce7\" stroke=\"#22c55e\"/><circle cx=\"260\" cy=\"100\" r=\"20\" fill=\"#fef3c7\" stroke=\"#f59e0b\"/><circle cx=\"340\" cy=\"100\" r=\"20\" fill=\"#fee2e2\" stroke=\"#ef4444\"/><circle cx=\"420\" cy=\"100\" r=\"20\" fill=\"#e0e7ff\" stroke=\"#818cf8\"/><text x=\"100\" y=\"105\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#3b82f6\" text-anchor=\"middle\">2</text><text x=\"180\" y=\"105\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#22c55e\" text-anchor=\"middle\">6</text><text x=\"260\" y=\"105\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#f59e0b\" text-anchor=\"middle\">12</text><text x=\"340\" y=\"105\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#ef4444\" text-anchor=\"middle\">20</text><text x=\"420\" y=\"105\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#818cf8\" text-anchor=\"middle\">?</text><text x=\"240\" y=\"160\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">+4, +6, +8, +10 → 30</text></svg>"
+      }
     },
     {
       "id": 53,
@@ -1181,7 +1216,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "If FLOWER is coded as GMPXFS (+1 shift each letter), GARDEN is coded as:",
       "options": [
         "HBSEFO",
@@ -1193,7 +1228,12 @@
       "solution": "Each letter shifted by +1: G→H, A→B, R→S, D→E, E→F, N→O = HBSEFO.",
       "estSec": 40,
       "topicWeight": 0.1,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Letter-to-letter coding pattern",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Letter Code</text><text x=\"160\" y=\"70\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3b82f6\" font-weight=\"bold\">A  B  C  D  E  F  G</text><text x=\"160\" y=\"90\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#f59e0b\">↓  ↓  ↓  ↓  ↓  ↓  ↓</text><text x=\"160\" y=\"115\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#ef4444\" font-weight=\"bold\">Z  Y  X  W  V  U  T</text><text x=\"240\" y=\"160\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#64748b\" text-anchor=\"middle\">Reverse cipher: A→Z, B→Y, ...</text></svg>"
+      }
     },
     {
       "id": 54,
@@ -1214,7 +1254,12 @@
       "solution": "Only son of Raj's grandfather = Raj's father. Daughter of Raj's father = Raj's sister.",
       "estSec": 35,
       "topicWeight": 0.1,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Family tree for blood relation problems",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Family Tree</text><circle cx=\"160\" cy=\"50\" r=\"16\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"2\"/><circle cx=\"320\" cy=\"50\" r=\"16\" fill=\"#fee2e2\" stroke=\"#ef4444\" stroke-width=\"2\"/><line x1=\"176\" y1=\"50\" x2=\"304\" y2=\"50\" stroke=\"#f59e0b\" stroke-width=\"2\"/><line x1=\"240\" y1=\"50\" x2=\"240\" y2=\"85\" stroke=\"#64748b\" stroke-width=\"1.5\"/><circle cx=\"160\" cy=\"120\" r=\"14\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"2\"/><circle cx=\"240\" cy=\"120\" r=\"14\" fill=\"#fee2e2\" stroke=\"#ef4444\" stroke-width=\"2\"/><circle cx=\"320\" cy=\"120\" r=\"14\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"2\"/><line x1=\"240\" y1=\"85\" x2=\"160\" y2=\"106\"/><line x1=\"240\" y1=\"85\" x2=\"240\" y2=\"106\"/><line x1=\"240\" y1=\"85\" x2=\"320\" y2=\"106\"/><text x=\"160\" y=\"54\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#3b82f6\" text-anchor=\"middle\">M</text><text x=\"320\" y=\"54\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#ef4444\" text-anchor=\"middle\">F</text><text x=\"160\" y=\"124\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#3b82f6\" text-anchor=\"middle\">S</text><text x=\"240\" y=\"124\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#ef4444\" text-anchor=\"middle\">D</text><text x=\"320\" y=\"124\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#3b82f6\" text-anchor=\"middle\">S</text></svg>"
+      }
     },
     {
       "id": 55,
@@ -1223,7 +1268,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "Ramesh walks 10 km N, turns right 5 km, turns right 10 km, turns left 5 km. His final position relative to start:",
       "options": [
         "10 km East",
@@ -1235,7 +1280,12 @@
       "solution": "A→(0,10)→(5,10)→(5,0)→(10,0). Final position = 10 km due East.",
       "estSec": 45,
       "topicWeight": 0.1,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Cardinal directions compass",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Compass Rose</text><circle cx=\"240\" cy=\"110\" r=\"65\" fill=\"#f0f9ff\" stroke=\"#3b82f6\" stroke-width=\"2\"/><line x1=\"240\" y1=\"45\" x2=\"240\" y2=\"175\" stroke=\"#94a3b8\" stroke-width=\"1\"/><line x1=\"175\" y1=\"110\" x2=\"305\" y2=\"110\" stroke=\"#94a3b8\" stroke-width=\"1\"/><path d=\"M240,110 L270,70\" fill=\"none\" stroke=\"#ef4444\" stroke-width=\"2.5\"/><text x=\"240\" y=\"42\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#ef4444\" text-anchor=\"middle\" font-weight=\"bold\">N</text><text x=\"240\" y=\"185\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3b82f6\" text-anchor=\"middle\" font-weight=\"bold\">S</text><text x=\"315\" y=\"114\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#22c55e\" text-anchor=\"middle\" font-weight=\"bold\">E</text><text x=\"165\" y=\"114\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#f59e0b\" text-anchor=\"middle\" font-weight=\"bold\">W</text><text x=\"280\" y=\"65\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#ef4444\">NE</text></svg>"
+      }
     },
     {
       "id": 56,
@@ -1244,7 +1294,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "Statements: All flowers are plants. Some plants are trees. Some trees are fruits. Conclusions: I. Some flowers are trees. II. Some fruits are plants.",
       "options": [
         "Only I follows",
@@ -1256,7 +1306,12 @@
       "solution": "From the chain 'All flowers are plants' + 'Some plants are trees': the trees that are plants may not be flowers. I doesn't follow. From 'Some plants are trees' + 'Some trees are fruits': no guaranteed overlap between plants and fruits. II doesn't follow.",
       "estSec": 50,
       "topicWeight": 0.1,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Venn diagram for syllogism",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Syllogism Venn</text><circle cx=\"180\" cy=\"110\" r=\"50\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"2\"/><circle cx=\"300\" cy=\"110\" r=\"50\" fill=\"#dcfce7\" stroke=\"#22c55e\" stroke-width=\"2\"/><text x=\"165\" y=\"80\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#3b82f6\">All A</text><text x=\"315\" y=\"80\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#22c55e\">Some B</text><text x=\"240\" y=\"115\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#f59e0b\" text-anchor=\"middle\" font-weight=\"bold\">Overlap?</text></svg>"
+      }
     },
     {
       "id": 57,
@@ -1265,7 +1320,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "Six people A-F sit in a row facing north. A at one end. B is 3rd right of A. C next to B. D at other end. E not next to D. F between C and E. Who is at the right end?",
       "options": [
         "B",
@@ -1277,7 +1332,12 @@
       "solution": "A at position 1, B at position 4, D at position 6. With E not next to D (not position 5), and F between C and E: arrangement is A(1), E(2), F(3), B(4), C(5), D(6). Right end (position 6) = D. But the question options don't include D. With re-examination: E is at the right end in the valid arrangement.",
       "estSec": 55,
       "topicWeight": 0.1,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Circular arrangement with positions",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Circular Seating</text><circle cx=\"240\" cy=\"110\" r=\"60\" fill=\"#f0f9ff\" stroke=\"#3b82f6\" stroke-width=\"2\"/><circle cx=\"240\" cy=\"50\" r=\"12\" fill=\"#dbeafe\" stroke=\"#3b82f6\"/><circle cx=\"292\" cy=\"80\" r=\"12\" fill=\"#dcfce7\" stroke=\"#22c55e\"/><circle cx=\"292\" cy=\"140\" r=\"12\" fill=\"#fef3c7\" stroke=\"#f59e0b\"/><circle cx=\"240\" cy=\"170\" r=\"12\" fill=\"#fee2e2\" stroke=\"#ef4444\"/><circle cx=\"188\" cy=\"140\" r=\"12\" fill=\"#e0e7ff\" stroke=\"#818cf8\"/><circle cx=\"188\" cy=\"80\" r=\"12\" fill=\"#fce7f3\" stroke=\"#ec4899\"/><text x=\"240\" y=\"54\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#3b82f6\" text-anchor=\"middle\">1</text><text x=\"292\" y=\"84\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#22c55e\" text-anchor=\"middle\">2</text><text x=\"292\" y=\"144\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#f59e0b\" text-anchor=\"middle\">3</text><text x=\"240\" y=\"174\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#ef4444\" text-anchor=\"middle\">4</text><text x=\"188\" y=\"144\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#818cf8\" text-anchor=\"middle\">5</text><text x=\"188\" y=\"84\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#ec4899\" text-anchor=\"middle\">6</text></svg>"
+      }
     },
     {
       "id": 58,
@@ -1298,7 +1358,12 @@
       "solution": "A > B ≥ C = D: A > D ✓. B ≥ C = D > E: B > E ✓. C > A: false. Both A and B are true.",
       "estSec": 35,
       "topicWeight": 0.1,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Inequality on number line",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Number Line</text><line x1=\"60\" y1=\"110\" x2=\"420\" y2=\"110\" stroke=\"#94a3b8\" stroke-width=\"2\"/><line x1=\"120\" y1=\"100\" x2=\"120\" y2=\"120\" stroke=\"#94a3b8\"/><line x1=\"200\" y1=\"100\" x2=\"200\" y2=\"120\" stroke=\"#94a3b8\"/><line x1=\"300\" y1=\"100\" x2=\"300\" y2=\"120\" stroke=\"#94a3b8\"/><line x1=\"200\" y1=\"95\" x2=\"420\" y2=\"95\" stroke=\"#ef4444\" stroke-width=\"3\"/><circle cx=\"200\" cy=\"95\" r=\"5\" fill=\"#ef4444\" stroke=\"#ef4444\"/><text x=\"120\" y=\"135\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">0</text><text x=\"200\" y=\"135\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">5</text><text x=\"300\" y=\"135\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">10</text><text x=\"310\" y=\"88\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#ef4444\" font-weight=\"bold\">x > 5</text></svg>"
+      }
     },
     {
       "id": 59,
@@ -1307,7 +1372,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "Car covers 60 km at 30 km/h then 60 km at 60 km/h. Average speed:",
       "options": [
         "40 km/h",
@@ -1319,151 +1384,186 @@
       "solution": "Total distance = 120 km. Total time = 60/30 + 60/60 = 2+1 = 3 h. Average = 120/3 = 40 km/h.",
       "estSec": 25,
       "topicWeight": 0.1,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Relative speed diagram",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Relative Speed</text><line x1=\"40\" y1=\"100\" x2=\"440\" y2=\"100\" stroke=\"#94a3b8\" stroke-width=\"2\"/><rect x=\"60\" y=\"85\" width=\"30\" height=\"30\" fill=\"#3b82f6\" stroke=\"#3b82f6\" rx=\"4\"/><rect x=\"350\" y=\"85\" width=\"30\" height=\"30\" fill=\"#ef4444\" stroke=\"#ef4444\" rx=\"4\"/><text x=\"75\" y=\"105\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#fff\" text-anchor=\"middle\">A</text><text x=\"365\" y=\"105\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#fff\" text-anchor=\"middle\">B</text><line x1=\"95\" y1=\"95\" x2=\"345\" y2=\"95\" stroke=\"#22c55e\" stroke-width=\"2\"/><line x1=\"345\" y1=\"115\" x2=\"95\" y2=\"115\" stroke=\"#f59e0b\" stroke-width=\"2\"/><text x=\"220\" y=\"90\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#22c55e\">→ v₁</text><text x=\"220\" y=\"125\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#f59e0b\">← v₂</text><text x=\"240\" y=\"165\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Same: |v₁−v₂|  Opp: v₁+v₂</text></svg>"
+      }
     },
     {
       "id": 60,
-      "subject": "General Awareness",
-      "topic": "Energy Sector",
-      "section": "GA",
+      "subject": "Aptitude",
+      "topic": "Quantitative · Percentage",
+      "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
       "difficulty": "medium",
-      "stem": "Which is NOT a Maharatna PSU in India?",
+      "stem": "If a number is increased by 20% and then decreased by 20%, the net change is:",
       "options": [
-        "ONGC",
-        "NTPC",
-        "Oil India Limited",
-        "SAIL"
+        "4% decrease",
+        "No change",
+        "4% increase",
+        "2% decrease"
       ],
-      "answer": 2,
-      "solution": "Oil India Limited is a Navaratna PSU, not Maharatna. Maharatna PSUs include ONGC, NTPC, SAIL, IOCL, BHEL, GAIL, Coal India.",
+      "answer": 0,
+      "solution": "Let the number be 100. After 20% increase: 120. After 20% decrease: 120 × 0.8 = 96. Net change = 4% decrease.",
       "estSec": 15,
       "topicWeight": 0.1,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Pie chart of percentage distribution",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Percentage Breakdown</text><circle cx=\"160\" cy=\"110\" r=\"65\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"2\"/><path d=\"M160,110 L160,45 A65,65 0 0,1 218,75 Z\" fill=\"#3b82f6\" stroke=\"#3b82f6\" stroke-width=\"1.5\"/><path d=\"M160,110 L218,75 A65,65 0 0,1 218,155 Z\" fill=\"#ef4444\" stroke=\"#ef4444\" stroke-width=\"1.5\"/><path d=\"M160,110 L218,155 A65,65 0 0,1 102,155 Z\" fill=\"#22c55e\" stroke=\"#22c55e\" stroke-width=\"1.5\"/><text x=\"185\" y=\"70\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#3b82f6\" font-weight=\"bold\">35%</text><text x=\"210\" y=\"120\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#ef4444\" font-weight=\"bold\">25%</text><text x=\"120\" y=\"135\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#22c55e\" font-weight=\"bold\">40%</text><text x=\"370\" y=\"110\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Parts of 100%</text></svg>"
+      }
     },
     {
       "id": 61,
-      "subject": "General Awareness",
-      "topic": "Energy Sector",
-      "section": "GA",
+      "subject": "Aptitude",
+      "topic": "Quantitative · Time & Work",
+      "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
-      "stem": "TAPS-1 and TAPS-2 (India's first nuclear power reactors) use which reactor type?",
+      "difficulty": "hard",
+      "stem": "5 workers can build a wall in 10 days. How many workers are needed to build it in 5 days?",
       "options": [
-        "PHWR",
-        "BWR",
-        "PWR",
-        "FBR"
+        "10",
+        "8",
+        "12",
+        "15"
       ],
-      "answer": 1,
-      "solution": "TAPS-1 and TAPS-2 were boiling water reactors (BWRs) supplied by GE (USA), commissioned in 1969.",
-      "estSec": 15,
+      "answer": 0,
+      "solution": "Work = 5 workers × 10 days = 50 worker-days. For 5 days: 50/5 = 10 workers needed.",
+      "estSec": 20,
       "topicWeight": 0.1,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Work rates: combined effort reduces time",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Work Rate Diagram</text><rect x=\"80\" y=\"55\" width=\"160\" height=\"30\" fill=\"#3b82f6\" stroke=\"#3b82f6\" rx=\"4\"/><rect x=\"80\" y=\"100\" width=\"120\" height=\"30\" fill=\"#22c55e\" stroke=\"#22c55e\" rx=\"4\"/><rect x=\"80\" y=\"145\" width=\"200\" height=\"30\" fill=\"#f59e0b\" stroke=\"#f59e0b\" rx=\"4\"/><text x=\"160\" y=\"75\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#fff\" text-anchor=\"middle\">A: 1/6 per day</text><text x=\"140\" y=\"120\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#fff\" text-anchor=\"middle\">B: 1/8 per day</text><text x=\"180\" y=\"165\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#fff\" text-anchor=\"middle\">Combined: 1/6+1/8 = 7/24</text></svg>"
+      }
     },
     {
       "id": 62,
-      "subject": "General Awareness",
-      "topic": "Indian Economy",
-      "section": "GA",
+      "subject": "Aptitude",
+      "topic": "Quantitative · Profit & Loss",
+      "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
-      "stem": "The 'Make in India' initiative was launched in which year?",
+      "difficulty": "medium",
+      "stem": "A man buys a toy for Rs.50 and sells it for Rs.65. His profit percentage is:",
       "options": [
-        "2013",
-        "2014",
-        "2015",
-        "2016"
+        "30%",
+        "25%",
+        "20%",
+        "15%"
       ],
-      "answer": 1,
-      "solution": "Make in India was launched on September 25, 2014, by PM Narendra Modi.",
-      "estSec": 10,
+      "answer": 0,
+      "solution": "Profit = 65 − 50 = Rs.15. Profit% = (15/50) × 100 = 30%.",
+      "estSec": 15,
       "topicWeight": 0.1,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Cost vs selling price comparison",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Profit & Loss</text><rect x=\"80\" y=\"70\" width=\"70\" height=\"70\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"2\" rx=\"4\"/><rect x=\"200\" y=\"50\" width=\"70\" height=\"90\" fill=\"#dcfce7\" stroke=\"#22c55e\" stroke-width=\"2\" rx=\"4\"/><rect x=\"320\" y=\"90\" width=\"70\" height=\"50\" fill=\"#fee2e2\" stroke=\"#ef4444\" stroke-width=\"2\" rx=\"4\"/><text x=\"115\" y=\"110\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#3b82f6\" text-anchor=\"middle\" font-weight=\"bold\">CP</text><text x=\"235\" y=\"105\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#22c55e\" text-anchor=\"middle\" font-weight=\"bold\">SP > CP</text><text x=\"235\" y=\"125\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#22c55e\" text-anchor=\"middle\">Profit</text><text x=\"355\" y=\"115\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#ef4444\" text-anchor=\"middle\" font-weight=\"bold\">SP < CP</text><text x=\"355\" y=\"130\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#ef4444\" text-anchor=\"middle\">Loss</text></svg>"
+      }
     },
     {
       "id": 63,
-      "subject": "General Awareness",
-      "topic": "Science & Technology",
-      "section": "GA",
+      "subject": "Aptitude",
+      "topic": "Reasoning · Series",
+      "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
       "difficulty": "medium",
-      "stem": "Chandrayaan-3 successfully landed on the Moon in which year?",
+      "stem": "Find the next number: 2, 6, 12, 20, 30, ?",
       "options": [
-        "2022",
-        "2023",
-        "2024",
-        "2021"
+        "40",
+        "42",
+        "36",
+        "44"
       ],
       "answer": 1,
-      "solution": "Chandrayaan-3's Vikram lander landed on August 23, 2023, making India the 4th country to soft-land on the Moon.",
-      "estSec": 10,
+      "solution": "Differences: 4, 6, 8, 10, 12. Next number = 30 + 12 = 42. Alternatively, n(n+1): 1×2=2, 2×3=6, 3×4=12, 4×5=20, 5×6=30, 6×7=42.",
+      "estSec": 25,
       "topicWeight": 0.1,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Series with increasing differences",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Number Series</text><line x1=\"60\" y1=\"100\" x2=\"420\" y2=\"100\" stroke=\"#94a3b8\"/><circle cx=\"100\" cy=\"100\" r=\"20\" fill=\"#dbeafe\" stroke=\"#3b82f6\"/><circle cx=\"180\" cy=\"100\" r=\"20\" fill=\"#dcfce7\" stroke=\"#22c55e\"/><circle cx=\"260\" cy=\"100\" r=\"20\" fill=\"#fef3c7\" stroke=\"#f59e0b\"/><circle cx=\"340\" cy=\"100\" r=\"20\" fill=\"#fee2e2\" stroke=\"#ef4444\"/><circle cx=\"420\" cy=\"100\" r=\"20\" fill=\"#e0e7ff\" stroke=\"#818cf8\"/><text x=\"100\" y=\"105\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#3b82f6\" text-anchor=\"middle\">2</text><text x=\"180\" y=\"105\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#22c55e\" text-anchor=\"middle\">6</text><text x=\"260\" y=\"105\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#f59e0b\" text-anchor=\"middle\">12</text><text x=\"340\" y=\"105\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#ef4444\" text-anchor=\"middle\">20</text><text x=\"420\" y=\"105\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#818cf8\" text-anchor=\"middle\">?</text><text x=\"240\" y=\"160\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">+4, +6, +8, +10 → 30</text></svg>"
+      }
     },
     {
       "id": 64,
-      "subject": "General Awareness",
-      "topic": "Environment",
-      "section": "GA",
+      "subject": "Aptitude",
+      "topic": "Quantitative · Speed, Distance & Time",
+      "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
-      "stem": "The International Solar Alliance was launched at COP21 in:",
+      "difficulty": "hard",
+      "stem": "A train 200 m long passes a pole in 20 seconds. The speed of the train is:",
       "options": [
-        "Paris (2015)",
-        "Copenhagen (2009)",
-        "Kyoto (1997)",
-        "Cancún (2010)"
+        "36 km/h",
+        "40 km/h",
+        "30 km/h",
+        "45 km/h"
       ],
       "answer": 0,
-      "solution": "ISA was launched by India and France on November 30, 2015, at COP21 in Paris. HQ is in Gurugram, India.",
-      "estSec": 10,
+      "solution": "Speed = 200/20 = 10 m/s = 10 × 18/5 = 36 km/h.",
+      "estSec": 15,
       "topicWeight": 0.1,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Distance-time graph",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">SDT Graph</text><line x1=\"60\" y1=\"170\" x2=\"440\" y2=\"170\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"60\" y1=\"30\" x2=\"60\" y2=\"170\" stroke=\"#64748b\" stroke-width=\"2\"/><path d=\"M80,150 Q150,100 220,80 Q300,60 420,50\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"2.5\"/><text x=\"50\" y=\"28\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\">v</text><text x=\"445\" y=\"174\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\">t</text><text x=\"340\" y=\"45\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#3b82f6\" font-weight=\"bold\">v = d/t</text></svg>"
+      }
     },
     {
       "id": 65,
-      "subject": "General Awareness",
-      "topic": "PSU & Industry",
-      "section": "GA",
+      "subject": "Aptitude",
+      "topic": "Quantitative · Averages",
+      "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
-      "stem": "ONGC Videsh Limited does NOT have operations in:",
+      "difficulty": "hard",
+      "stem": "The average of 5 numbers is 20. If one number is removed, the average becomes 18. The removed number is:",
       "options": [
-        "Russia",
-        "Vietnam",
-        "Brazil",
-        "Mozambique"
+        "28",
+        "30",
+        "25",
+        "32"
       ],
-      "answer": 2,
-      "solution": "ONGC Videsh has operations in Russia, Vietnam, Mozambique, Myanmar, and others, but not in Brazil.",
-      "estSec": 10,
+      "answer": 0,
+      "solution": "Total of 5 = 100. Total of 4 = 72. Removed number = 100 − 72 = 28.",
+      "estSec": 20,
       "topicWeight": 0.1,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Average as horizontal line through data",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Average</text><line x1=\"60\" y1=\"170\" x2=\"440\" y2=\"170\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"60\" y1=\"30\" x2=\"60\" y2=\"170\" stroke=\"#64748b\" stroke-width=\"2\"/><rect x=\"80\" y=\"120\" width=\"30\" height=\"50\" fill=\"#3b82f6\" stroke=\"#3b82f6\" rx=\"2\"/><rect x=\"120\" y=\"80\" width=\"30\" height=\"90\" fill=\"#22c55e\" stroke=\"#22c55e\" rx=\"2\"/><rect x=\"160\" y=\"100\" width=\"30\" height=\"70\" fill=\"#f59e0b\" stroke=\"#f59e0b\" rx=\"2\"/><rect x=\"200\" y=\"60\" width=\"30\" height=\"110\" fill=\"#ef4444\" stroke=\"#ef4444\" rx=\"2\"/><rect x=\"240\" y=\"90\" width=\"30\" height=\"80\" fill=\"#8b5cf6\" stroke=\"#8b5cf6\" rx=\"2\"/><line x1=\"60\" y1=\"105\" x2=\"280\" y2=\"105\" stroke=\"#ef4444\" stroke-width=\"2\" stroke-dasharray=\"5\"/><text x=\"350\" y=\"105\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#ef4444\" text-anchor=\"middle\" font-weight=\"bold\">Mean = Σxᵢ/n</text></svg>"
+      }
     },
     {
       "id": 66,
       "subject": "General Awareness",
-      "topic": "Indian Geography",
+      "topic": "Current Affairs · Oil & Gas",
       "section": "GA",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
-      "stem": "India's deepest offshore oil discoveries are in which basin?",
+      "difficulty": "easy",
+      "stem": "ONGC's largest oil discovery in recent years was in which block?",
       "options": [
+        "KG Basin",
         "Mumbai High",
-        "Krishna-Godavari Basin",
-        "Cambay Basin",
-        "Assam Shelf"
+        "Cauvery Basin",
+        "Assam"
       ],
-      "answer": 1,
-      "solution": "The KG Basin (particularly KG-D6 block) contains India's deepest offshore hydrocarbon discoveries with water depths > 1000 m.",
+      "answer": 0,
+      "solution": "ONGC made a significant discovery in the KG Basin.",
       "estSec": 15,
       "topicWeight": 0.1,
       "source": "curated"
@@ -1471,273 +1571,399 @@
     {
       "id": 67,
       "subject": "General Awareness",
-      "topic": "Science & Technology",
+      "topic": "Current Affairs · Economy",
       "section": "GA",
       "type": "MCQ",
       "marks": 1,
       "difficulty": "easy",
-      "stem": "ISRO is headquartered in:",
+      "stem": "India's current account deficit for FY2025 is projected at:",
       "options": [
-        "Chennai",
-        "Bengaluru",
-        "Hyderabad",
-        "Ahmedabad"
+        "0.5% of GDP",
+        "1.0% of GDP",
+        "1.5% of GDP",
+        "2.0% of GDP"
       ],
       "answer": 1,
-      "solution": "ISRO is headquartered in Bengaluru, Karnataka. Founded in 1969.",
-      "estSec": 10,
+      "solution": "India's CAD is projected at around 1.0% of GDP.",
+      "estSec": 15,
       "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 68,
       "subject": "General Awareness",
-      "topic": "Energy Sector",
+      "topic": "Current Affairs · Science",
       "section": "GA",
       "type": "MCQ",
       "marks": 1,
       "difficulty": "medium",
-      "stem": "India's target for 500 GW non-fossil fuel energy capacity by which year (COP26 announcement)?",
+      "stem": "ISRO's Gaganyaan mission aims to:",
       "options": [
-        "2025",
-        "2027",
-        "2030",
-        "2035"
+        "Land on Moon",
+        "Send astronauts to space",
+        "Study the Sun",
+        "Explore Mars"
       ],
-      "answer": 2,
-      "solution": "At COP26 in Glasgow (2021), PM Modi announced India's target of 500 GW non-fossil fuel capacity by 2030.",
-      "estSec": 10,
+      "answer": 1,
+      "solution": "Gaganyaan aims to send Indian astronauts (Gagannauts) to space.",
+      "estSec": 15,
       "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 69,
       "subject": "General Awareness",
-      "topic": "General Science",
+      "topic": "Current Affairs · Technology",
       "section": "GA",
       "type": "MCQ",
       "marks": 1,
       "difficulty": "medium",
-      "stem": "The ozone layer is primarily in which atmospheric layer?",
+      "stem": "Which company recently developed the most advanced AI chip for data centers?",
       "options": [
-        "Troposphere",
-        "Stratosphere",
-        "Mesosphere",
-        "Thermosphere"
+        "Intel",
+        "AMD",
+        "Nvidia",
+        "Qualcomm"
       ],
-      "answer": 1,
-      "solution": "The ozone layer is in the stratosphere at ~15–35 km altitude, absorbing UV-B radiation.",
-      "estSec": 10,
+      "answer": 2,
+      "solution": "Nvidia has been leading in AI chip development.",
+      "estSec": 15,
       "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 70,
-      "subject": "English Language",
-      "topic": "Vocabulary · Synonyms",
-      "section": "English",
+      "subject": "General Awareness",
+      "topic": "Current Affairs · Global",
+      "section": "GA",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
-      "stem": "Choose the word most similar to 'EPHEMERAL':",
+      "difficulty": "hard",
+      "stem": "BRICS expanded to include which new members in 2024?",
       "options": [
-        "Permanent",
-        "Fleeting",
-        "Robust",
-        "Vivid"
+        "Mexico, Argentina",
+        "Saudi Arabia, Iran, UAE",
+        "Turkey, Indonesia",
+        "Nigeria, South Africa"
       ],
       "answer": 1,
-      "solution": "Ephemeral means lasting for a very short time; fleeting.",
-      "estSec": 10,
+      "solution": "Saudi Arabia, Iran, and UAE joined BRICS.",
+      "estSec": 15,
       "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 71,
-      "subject": "English Language",
-      "topic": "Vocabulary · Antonyms",
-      "section": "English",
+      "subject": "General Awareness",
+      "topic": "Current Affairs · Technology",
+      "section": "GA",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
-      "stem": "Choose the word most opposite to 'AUDACIOUS':",
+      "difficulty": "hard",
+      "stem": "Which Indian IT company recently partnered with NVIDIA for AI cloud services?",
       "options": [
-        "Bold",
-        "Timid",
-        "Courageous",
-        "Daring"
+        "TCS",
+        "Infosys",
+        "Wipro",
+        "HCL"
       ],
       "answer": 1,
-      "solution": "Audacious = bold, daring. Timid = shy, fearful — the antonym.",
-      "estSec": 10,
+      "solution": "Infosys partnered with NVIDIA for AI cloud services.",
+      "estSec": 15,
       "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 72,
-      "subject": "English Language",
-      "topic": "Grammar · Error Detection",
-      "section": "English",
+      "subject": "General Awareness",
+      "topic": "Static GK · Indian Polity",
+      "section": "GA",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
-      "stem": "Identify the grammatically correct sentence:",
+      "difficulty": "easy",
+      "stem": "Upper House of Indian Parliament:",
       "options": [
-        "Neither he nor I am going to the market.",
-        "The news are very disturbing today.",
-        "Everyone have finished their homework.",
-        "She don't like to travel by bus."
+        "Lok Sabha",
+        "Rajya Sabha",
+        "Vidhan Sabha",
+        "Vidhan Parishad"
       ],
-      "answer": 0,
-      "solution": "With 'neither...nor', the verb agrees with the nearer subject ('I'). 'Neither he nor I am' is correct.",
+      "answer": 1,
+      "solution": "Rajya Sabha is the Upper House.",
       "estSec": 15,
       "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 73,
-      "subject": "English Language",
-      "topic": "Idioms & Phrases",
-      "section": "English",
+      "subject": "General Awareness",
+      "topic": "Static GK · Indian Polity",
+      "section": "GA",
       "type": "MCQ",
       "marks": 1,
       "difficulty": "medium",
-      "stem": "What does 'to break the ice' mean?",
+      "stem": "How many fundamental rights are currently recognized?",
       "options": [
-        "To start a fight",
-        "To initiate conversation in an awkward situation",
-        "To solve a difficult problem",
-        "To end a relationship"
+        "5",
+        "6",
+        "7",
+        "8"
       ],
       "answer": 1,
-      "solution": "'Break the ice' means to initiate conversation or ease tension in a social situation.",
-      "estSec": 10,
+      "solution": "There are 6 fundamental rights currently recognized.",
+      "estSec": 15,
       "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 74,
-      "subject": "English Language",
-      "topic": "Vocabulary · One Word Substitution",
-      "section": "English",
+      "subject": "General Awareness",
+      "topic": "Static GK · History",
+      "section": "GA",
       "type": "MCQ",
       "marks": 1,
       "difficulty": "medium",
-      "stem": "One who studies the origin and history of words is called a:",
+      "stem": "India gained independence on:",
       "options": [
-        "Etymologist",
-        "Lexicographer",
-        "Philologist",
-        "Linguist"
+        "January 26, 1950",
+        "August 15, 1947",
+        "August 15, 1950",
+        "January 26, 1947"
       ],
-      "answer": 0,
-      "solution": "An etymologist studies the origin and historical development of words.",
-      "estSec": 10,
+      "answer": 1,
+      "solution": "India gained independence on August 15, 1947.",
+      "estSec": 15,
       "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 75,
-      "subject": "English Language",
-      "topic": "Grammar · Fill in the Blanks",
-      "section": "English",
+      "subject": "General Awareness",
+      "topic": "Static GK · Indian Polity",
+      "section": "GA",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
-      "stem": "Choose the correct preposition: 'She is interested _____ learning French.'",
+      "difficulty": "hard",
+      "stem": "The President of India is elected by:",
       "options": [
-        "in",
-        "on",
-        "at",
-        "for"
+        "Lok Sabha members",
+        "Rajya Sabha members",
+        "Electoral College",
+        "Prime Minister"
       ],
-      "answer": 0,
-      "solution": "'Interested in' is the correct preposition collocation.",
-      "estSec": 10,
+      "answer": 2,
+      "solution": "The President is elected by an electoral college.",
+      "estSec": 15,
       "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 76,
-      "subject": "English Language",
-      "topic": "Reading Comprehension",
+      "subject": "English",
+      "topic": "English Language · Vocabulary",
       "section": "English",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
-      "stem": "Read: 'The Great Barrier Reef stretches over 2,300 km along northeast Australia. It comprises over 2,900 individual reefs and 900 islands.' How long is the reef?",
+      "difficulty": "easy",
+      "stem": "What is the meaning of 'pragmatic'?",
       "options": [
-        "900 km",
-        "2,300 km",
-        "2,900 km",
-        "2,900 + 900 km"
+        "Idealistic",
+        "Practical",
+        "Theoretical",
+        "Emotional"
       ],
       "answer": 1,
-      "solution": "The passage states it 'stretches over 2,300 km'. The 2,900 and 900 are counts of reefs and islands.",
+      "solution": "Pragmatic means dealing with things practically.",
       "estSec": 15,
       "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 77,
-      "subject": "English Language",
-      "topic": "Grammar · Tenses",
+      "subject": "English",
+      "topic": "English Language · Vocabulary",
       "section": "English",
       "type": "MCQ",
       "marks": 1,
       "difficulty": "medium",
-      "stem": "Choose the correct form: 'If I _____ rich, I would travel around the world.'",
+      "stem": "Choose the antonym of 'ubiquitous':",
       "options": [
-        "am",
-        "was",
-        "were",
-        "will be"
+        "Omnipresent",
+        "Rare",
+        "Common",
+        "Everywhere"
       ],
-      "answer": 2,
-      "solution": "Second conditional uses subjunctive: 'If I were' regardless of subject.",
-      "estSec": 10,
+      "answer": 1,
+      "solution": "Ubiquitous means present everywhere; rare is the opposite.",
+      "estSec": 15,
       "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 78,
-      "subject": "English Language",
-      "topic": "Vocabulary · Synonyms",
+      "subject": "English",
+      "topic": "English Language · Vocabulary",
       "section": "English",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
-      "stem": "Choose the word most similar to 'COMPREHENSIVE':",
+      "difficulty": "hard",
+      "stem": "What is the synonym of 'ephemeral'?",
       "options": [
-        "Partial",
-        "Thorough",
-        "Superficial",
-        "Brief"
+        "Permanent",
+        "Transient",
+        "Eternal",
+        "Stable"
       ],
       "answer": 1,
-      "solution": "Comprehensive means complete, including all elements; thorough.",
-      "estSec": 10,
+      "solution": "Ephemeral means short-lived or transient.",
+      "estSec": 15,
       "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 79,
-      "subject": "English Language",
-      "topic": "Grammar · Articles",
+      "subject": "English",
+      "topic": "English Language · Grammar",
       "section": "English",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
-      "stem": "Choose the correct article: '_____ honest man always speaks the truth.'",
+      "difficulty": "medium",
+      "stem": "The teacher told the students ___ quietly.",
+      "options": [
+        "to study",
+        "study",
+        "studying",
+        "studied"
+      ],
+      "answer": 0,
+      "solution": "Infinitive after 'told': told someone to do something.",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 80,
+      "subject": "English",
+      "topic": "English Language · Articles",
+      "section": "English",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "___ honest man always speaks the truth.",
       "options": [
         "A",
         "An",
         "The",
-        "No article needed"
+        "No article"
       ],
       "answer": 1,
-      "solution": "'An' before silent 'h': 'an honest man'.",
-      "estSec": 10,
+      "solution": "'An' before words starting with silent 'h'.",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 81,
+      "subject": "English",
+      "topic": "English Language · Vocabulary",
+      "section": "English",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "What does 'ameliorate' mean?",
+      "options": [
+        "Worsen",
+        "Improve",
+        "Destroy",
+        "Maintain"
+      ],
+      "answer": 1,
+      "solution": "Ameliorate means to make better or improve.",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 82,
+      "subject": "English",
+      "topic": "English Language · Vocabulary",
+      "section": "English",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "What is the meaning of 'diligent'?",
+      "options": [
+        "Lazy",
+        "Hardworking",
+        "Careless",
+        "Slow"
+      ],
+      "answer": 1,
+      "solution": "Diligent means showing care and effort in one's work.",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 83,
+      "subject": "English",
+      "topic": "English Language · Vocabulary",
+      "section": "English",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "What is a 'watershed' moment?",
+      "options": [
+        "A moment near water",
+        "A turning point",
+        "A disaster",
+        "A celebration"
+      ],
+      "answer": 1,
+      "solution": "A watershed moment is a turning point or critical moment.",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 84,
+      "subject": "English",
+      "topic": "English Language · Prepositions",
+      "section": "English",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "She is proficient ___ English.",
+      "options": [
+        "on",
+        "at",
+        "in",
+        "of"
+      ],
+      "answer": 2,
+      "solution": "Proficient + in is the correct collocation.",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 85,
+      "subject": "English",
+      "topic": "English Language · Grammar",
+      "section": "English",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "If I ___ known, I would have helped.",
+      "options": [
+        "have",
+        "had",
+        "would",
+        "did"
+      ],
+      "answer": 1,
+      "solution": "Third conditional: If + past perfect, would have + past participle.",
+      "estSec": 15,
       "topicWeight": 0.1,
       "source": "curated"
     }

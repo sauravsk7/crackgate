@@ -22,7 +22,7 @@
       "count": 10
     },
     {
-      "name": "English Language",
+      "name": "English",
       "count": 10
     }
   ],
@@ -60,7 +60,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "The strain ellipsoid with intermediate axis parallel to the fold axis and maximum shortening perpendicular to the axial plane describes which type of deformation?",
       "options": [
         "Constriction",
@@ -81,7 +81,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "Under crossed polars with a gypsum plate inserted, a mineral showing first-order yellow interference colors (retardation ~550 nm) with the slow vibration direction parallel to the elongation is most likely:",
       "options": [
         "Olivine (positive elongation)",
@@ -102,7 +102,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "In a spider diagram (multi-element plot), a pronounced negative Nb-Ta anomaly relative to adjacent elements (Th and La) in an oceanic island basalt (OIB) most likely indicates:",
       "options": [
         "Fractional crystallization of titanomagnetite",
@@ -123,7 +123,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "Turbidite beds showing a complete Bouma sequence (Ta–Te) with Sole marks oriented unidirectionally are most diagnostic of deposition in which environment?",
       "options": [
         "Mid-fan channel axis",
@@ -149,7 +149,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "In a KFMASH system, the presence of the invariant point involving staurolite + cordierite + garnet + muscovite + biotite + chlorite + quartz + H₂O defines which metamorphic facies boundary?",
       "options": [
         "Upper amphibolite to granulite transition",
@@ -170,7 +170,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "The Bouguer gravity anomaly over a deep sedimentary basin (filled with sediments of density 2,400 kg/m³) embedded in crystalline basement (2,700 kg/m³) will show:",
       "options": [
         "A positive anomaly over the basin center",
@@ -196,7 +196,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "In a sequence stratigraphic framework, a 'catch-up' carbonate factory pattern indicates that:",
       "options": [
         "Carbonate production rate consistently exceeds accommodation creation rate",
@@ -243,7 +243,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "In DInSAR (Differential InSAR) analysis, the phase component due to topography is removed using a DEM. Residual phase after topographic removal that shows spatially coherent patterns over a petroleum reservoir is most likely caused by:",
       "options": [
         "Atmospheric phase screen (APS) artifacts",
@@ -264,7 +264,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "The First Appearance Datum (FAD) of the conodont species *Isarcicella isarcica* defines the base of which GSSP boundary?",
       "options": [
         "Base of Induan (P-T boundary)",
@@ -290,7 +290,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "In a fractured crystalline rock aquifer, the hydraulic conductivity determined from a packer test in a single borehole is expected to vary by orders of magnitude between adjacent intervals because:",
       "options": [
         "The test equipment has inherent measurement uncertainty",
@@ -311,7 +311,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "In coal petrography, the vitrinite reflectance (Ro max) value of 2.5% indicates coal of which rank and approximate temperature history?",
       "options": [
         "Bituminous coal; peak temperature ~150°C",
@@ -332,7 +332,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "A complete Penrose-type ophiolite sequence from bottom to top consists of which succession?",
       "options": [
         "Mantle peridotite → gabbro → sheeted dykes → pillow lava → pelagic sediment",
@@ -358,7 +358,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "A clockwise P-T path in a regional metamorphic terrane, identified by the progression garnet → staurolite → kyanite → sillimanite → melt, indicates which tectonic setting?",
       "options": [
         "Continental rifting and decompression melting",
@@ -384,7 +384,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "In a petroleum system, the timing of hydrocarbon generation relative to trap formation is assessed using burial history curves. A 'late charge' scenario (generation after trap formation) is most favorable because:",
       "options": [
         "It ensures source rock maturity is maximized",
@@ -410,7 +410,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "In magnetotelluric (MT) sounding, the impedance phase angle φ exceeding 90° at a given period indicates:",
       "options": [
         "A decrease in resistivity with depth (conductor at depth)",
@@ -431,7 +431,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "In a powder X-ray diffraction pattern, the systematic absence of reflections (h00) where h is odd in a mineral with a face-centered lattice indicates which Bravais lattice type?",
       "options": [
         "Primitive cubic",
@@ -478,7 +478,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "In U-Pb geochronology, a discordia line defined by multiple zircon analyses from a single rock, when the upper intercept age is 2.7 Ga and the lower intercept is 0.5 Ga, indicates:",
       "options": [
         "The rock formed at 0.5 Ga and contains inherited 2.7 Ga zircons",
@@ -504,7 +504,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "In tunneling through a fault zone, the most hazardous condition occurs when the tunnel axis is oriented:",
       "options": [
         "Parallel to the strike of the fault plane",
@@ -525,7 +525,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "The cation exchange capacity (CEC) of montmorillonite is significantly higher than that of kaolinite because:",
       "options": [
         "Montmorillonite has a higher surface area and isomorphous substitution creates permanent negative charge in the interlayer",
@@ -546,7 +546,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "A focal mechanism beach ball showing a white center (dilatational quadrant) with dark outer quadrants and nodal planes striking NE-SW dipping SE and NW respectively indicates:",
       "options": [
         "Normal faulting (extensional regime)",
@@ -572,7 +572,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "A pyroclastic density current deposit showing a well-developed basal layer with inverse grading overlain by a massive unit with aligned prolate clasts (fabric) and a fine-grained stratified top is classified as:",
       "options": [
         "Ignimbrite (welded tuff)",
@@ -671,7 +671,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "The Mg/Ca ratio in foraminiferal calcite is used as a paleothermometer. An increase in Mg/Ca ratio in a planktonic foraminifera species indicates:",
       "options": [
         "Cooler sea surface temperatures",
@@ -739,7 +739,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "The D″ (D-double-prime) layer at the core-mantle boundary (2,700–2,900 km depth) is characterized by which seismic observation?",
       "options": [
         "A sharp increase in P-wave velocity",
@@ -802,7 +802,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "In a sedimentary basin, the transition from oxic to anoxic bottom waters (the chemocline) is marked by the disappearance of dissolved oxygen. Below this chemocline, the sequential electron acceptors for organic matter decomposition follow which order from top to bottom?",
       "options": [
         "O₂ → NO₃⁻ → Mn⁴⁺ → Fe³⁺ → SO₄²⁻ → CO₂",
@@ -828,7 +828,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "In seismic attribute analysis, the 'sweet spot' for a tight gas reservoir is typically identified by the combination of which attributes?",
       "options": [
         "High amplitude, low frequency, low attenuation",
@@ -849,7 +849,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "In shale gas reservoirs, the 'gas window' for optimal thermal maturity (Ro ~1.1–2.0%) corresponds to which kerogen type and transformation stage?",
       "options": [
         "Type I kerogen, early oil window",
@@ -875,7 +875,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "The critical geological factor in dam foundation design that controls bearing capacity and seepage is:",
       "options": [
         "The color and aesthetic appearance of the rock",
@@ -901,7 +901,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "A gemstone showing strong trichroism (three distinct colors along three crystallographic axes) under the dichroscope, with a refractive index of 1.762–1.770 and specific gravity of 3.98, is most likely:",
       "options": [
         "Ruby (corundum)",
@@ -922,7 +922,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "The apparent polar wander path (APWP) for a continent shows a loop rather than a simple curve. A loop in the APWP is most diagnostic of:",
       "options": [
         "A stationary continent with a wandering magnetic pole",
@@ -969,7 +969,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "A petroleum reservoir's production declined by 15% in Year 1, then increased by 25% in Year 2, then declined by 20% in Year 3. If the initial production was 10,000 bbl/day, what is the production at the end of Year 3?",
       "options": [
         "8,500 bbl/day",
@@ -981,7 +981,12 @@
       "solution": "Year 1: 10,000 × 0.85 = 8,500. Year 2: 8,500 × 1.25 = 10,625. Year 3: 10,625 × 0.80 = 8,500 bbl/day. The net effect of −15%, +25%, −20% is 0.85 × 1.25 × 0.80 = 0.85, i.e., 15% net decline from initial.",
       "estSec": 90,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Pie chart of percentage distribution",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Percentage Breakdown</text><circle cx=\"160\" cy=\"110\" r=\"65\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"2\"/><path d=\"M160,110 L160,45 A65,65 0 0,1 218,75 Z\" fill=\"#3b82f6\" stroke=\"#3b82f6\" stroke-width=\"1.5\"/><path d=\"M160,110 L218,75 A65,65 0 0,1 218,155 Z\" fill=\"#ef4444\" stroke=\"#ef4444\" stroke-width=\"1.5\"/><path d=\"M160,110 L218,155 A65,65 0 0,1 102,155 Z\" fill=\"#22c55e\" stroke=\"#22c55e\" stroke-width=\"1.5\"/><text x=\"185\" y=\"70\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#3b82f6\" font-weight=\"bold\">35%</text><text x=\"210\" y=\"120\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#ef4444\" font-weight=\"bold\">25%</text><text x=\"120\" y=\"135\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#22c55e\" font-weight=\"bold\">40%</text><text x=\"370\" y=\"110\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Parts of 100%</text></svg>"
+      }
     },
     {
       "id": 42,
@@ -990,7 +995,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "In a code language, 'SEISMIC' is written as 'TFJTNJD'. How is 'FAULT' written in that code?",
       "options": [
         "GBVMU",
@@ -1002,7 +1007,12 @@
       "solution": "S→T (+1), E→F (+1), I→J (+1), S→T (+1), M→N (+1), I→J (+1), C→D (+1). Each letter is shifted forward by 1. F→G, A→B, U→V, L→M, T→U. So FAULT = GBVMU.",
       "estSec": 60,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Letter-to-letter coding pattern",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Letter Code</text><text x=\"160\" y=\"70\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3b82f6\" font-weight=\"bold\">A  B  C  D  E  F  G</text><text x=\"160\" y=\"90\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#f59e0b\">↓  ↓  ↓  ↓  ↓  ↓  ↓</text><text x=\"160\" y=\"115\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#ef4444\" font-weight=\"bold\">Z  Y  X  W  V  U  T</text><text x=\"240\" y=\"160\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#64748b\" text-anchor=\"middle\">Reverse cipher: A→Z, B→Y, ...</text></svg>"
+      }
     },
     {
       "id": 43,
@@ -1011,7 +1021,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "An oil well generates ₹5,00,000 revenue in its first year, growing at 8% annually. What is the total revenue over 5 years (compounded annually)?",
       "options": [
         "₹29,33,300",
@@ -1023,7 +1033,12 @@
       "solution": "This is a geometric series: S = a(rⁿ − 1)/(r − 1) = 5,00,000 × (1.08⁵ − 1)/(1.08 − 1) = 5,00,000 × (1.46933 − 1)/0.08 = 5,00,000 × 5.8666 = ₹29,33,300.",
       "estSec": 90,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Exponential growth curve",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Compound Growth</text><line x1=\"60\" y1=\"170\" x2=\"440\" y2=\"170\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"60\" y1=\"30\" x2=\"60\" y2=\"170\" stroke=\"#64748b\" stroke-width=\"2\"/><path d=\"M80,160 Q240,100 420,10\" fill=\"none\" stroke=\"#22c55e\" stroke-width=\"2.5\"/><text x=\"280\" y=\"50\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#22c55e\" font-weight=\"bold\">A = P(1+r/100)ⁿ</text></svg>"
+      }
     },
     {
       "id": 44,
@@ -1032,7 +1047,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "Five geologists (A, B, C, D, E) are seated around a circular table facing the center. A is not adjacent to B. C is exactly opposite A. D is between A and E. Who is sitting opposite D?",
       "options": [
         "B",
@@ -1044,7 +1059,12 @@
       "solution": "C is opposite A. D is between A and E, so the order includes A-D-E. Since A is not adjacent to B, and C is opposite A, the arrangement must be: A, D, E, B, C around the table. D is opposite B.",
       "estSec": 90,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Circular arrangement with positions",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Circular Seating</text><circle cx=\"240\" cy=\"110\" r=\"60\" fill=\"#f0f9ff\" stroke=\"#3b82f6\" stroke-width=\"2\"/><circle cx=\"240\" cy=\"50\" r=\"12\" fill=\"#dbeafe\" stroke=\"#3b82f6\"/><circle cx=\"292\" cy=\"80\" r=\"12\" fill=\"#dcfce7\" stroke=\"#22c55e\"/><circle cx=\"292\" cy=\"140\" r=\"12\" fill=\"#fef3c7\" stroke=\"#f59e0b\"/><circle cx=\"240\" cy=\"170\" r=\"12\" fill=\"#fee2e2\" stroke=\"#ef4444\"/><circle cx=\"188\" cy=\"140\" r=\"12\" fill=\"#e0e7ff\" stroke=\"#818cf8\"/><circle cx=\"188\" cy=\"80\" r=\"12\" fill=\"#fce7f3\" stroke=\"#ec4899\"/><text x=\"240\" y=\"54\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#3b82f6\" text-anchor=\"middle\">1</text><text x=\"292\" y=\"84\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#22c55e\" text-anchor=\"middle\">2</text><text x=\"292\" y=\"144\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#f59e0b\" text-anchor=\"middle\">3</text><text x=\"240\" y=\"174\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#ef4444\" text-anchor=\"middle\">4</text><text x=\"188\" y=\"144\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#818cf8\" text-anchor=\"middle\">5</text><text x=\"188\" y=\"84\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#ec4899\" text-anchor=\"middle\">6</text></svg>"
+      }
     },
     {
       "id": 45,
@@ -1053,7 +1073,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "Pipe A fills a tank in 12 hours, Pipe B in 15 hours, and Pipe C empties it in 20 hours. If all three are opened simultaneously, how long will the tank take to fill?",
       "options": [
         "8 hours",
@@ -1065,7 +1085,12 @@
       "solution": "Net rate = 1/12 + 1/15 − 1/20 = (5 + 4 − 3)/60 = 6/60 = 1/10 per hour. Time = 10 hours. The LCM of 12, 15, 20 is 60. In 1 hour: +5 +4 −3 = +6 units. To fill 60 units: 60/6 = 10 hours.",
       "estSec": 60,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Cistern with inlet/outlet",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Pipe System</text><rect x=\"120\" y=\"60\" width=\"120\" height=\"100\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"2\" rx=\"4\"/><line x1=\"245\" y1=\"90\" x2=\"310\" y2=\"90\" stroke=\"#22c55e\" stroke-width=\"2.5\"/><line x1=\"245\" y1=\"130\" x2=\"310\" y2=\"130\" stroke=\"#ef4444\" stroke-width=\"2.5\"/><text x=\"180\" y=\"115\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#3b82f6\" text-anchor=\"middle\">Cistern</text><text x=\"277\" y=\"83\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#22c55e\" text-anchor=\"middle\">Pipe A (fill) →</text><text x=\"277\" y=\"145\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#ef4444\" text-anchor=\"middle\">Pipe B (empty) →</text></svg>"
+      }
     },
     {
       "id": 46,
@@ -1074,7 +1099,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "Statements: All hydrocarbons are organic compounds. Some organic compounds are biodegradable. All biodegradable substances are environmentally hazardous. Conclusion: Some hydrocarbons are environmentally hazardous. Is the conclusion valid?",
       "options": [
         "Definitely follows",
@@ -1086,7 +1111,12 @@
       "solution": "From 'All hydrocarbons → organic' and 'Some organic → biodegradable', we cannot conclude that any hydrocarbons are biodegradable (the 'some organic' that are biodegradable may not overlap with hydrocarbons). Therefore, we cannot connect hydrocarbons to 'biodegradable → hazardous'. The conclusion does NOT follow with certainty.",
       "estSec": 90,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Venn diagram for syllogism",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Syllogism Venn</text><circle cx=\"180\" cy=\"110\" r=\"50\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"2\"/><circle cx=\"300\" cy=\"110\" r=\"50\" fill=\"#dcfce7\" stroke=\"#22c55e\" stroke-width=\"2\"/><text x=\"165\" y=\"80\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#3b82f6\">All A</text><text x=\"315\" y=\"80\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#22c55e\">Some B</text><text x=\"240\" y=\"115\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#f59e0b\" text-anchor=\"middle\" font-weight=\"bold\">Overlap?</text></svg>"
+      }
     },
     {
       "id": 47,
@@ -1107,7 +1137,12 @@
       "solution": "CAGR = (Final/Initial)^(1/n) − 1 = (19.0/22.5)^(1/4) − 1 = (0.8444)^0.25 − 1 = 0.9586 − 1 = −0.0414, i.e., ~4.14% decline per year. But this is the 4-year CAGR. The closest answer is C (4.2%). Wait: 22.5 × (1−r)⁴ = 19.0. (1−r)⁴ = 0.8444. 1−r = 0.9586. r = 4.14%. Answer is C (4.2%).",
       "estSec": 90,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Bar chart showing quarterly data",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Bar Chart · Sales Data</text><line x1=\"60\" y1=\"170\" x2=\"440\" y2=\"170\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"60\" y1=\"30\" x2=\"60\" y2=\"170\" stroke=\"#64748b\" stroke-width=\"2\"/><rect x=\"85\" y=\"80\" width=\"40\" height=\"90\" fill=\"#3b82f6\" stroke=\"#3b82f6\" rx=\"2\"/><rect x=\"145\" y=\"110\" width=\"40\" height=\"60\" fill=\"#ef4444\" stroke=\"#ef4444\" rx=\"2\"/><rect x=\"205\" y=\"60\" width=\"40\" height=\"110\" fill=\"#22c55e\" stroke=\"#22c55e\" rx=\"2\"/><rect x=\"265\" y=\"95\" width=\"40\" height=\"75\" fill=\"#f59e0b\" stroke=\"#f59e0b\" rx=\"2\"/><rect x=\"325\" y=\"100\" width=\"40\" height=\"70\" fill=\"#8b5cf6\" stroke=\"#8b5cf6\" rx=\"2\"/><text x=\"105\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Q1</text><text x=\"165\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Q2</text><text x=\"225\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Q3</text><text x=\"285\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Q4</text><text x=\"345\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Q5</text></svg>"
+      }
     },
     {
       "id": 48,
@@ -1116,7 +1151,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "A machine rearranges input numbers in descending order. If the input is: 45, 12, 78, 34, 56, what will be the second step if each step swaps two adjacent numbers that are out of order?",
       "options": [
         "45, 78, 12, 34, 56",
@@ -1149,7 +1184,12 @@
       "solution": "From bridge: speed of first train = (200 + 300)/25 = 500/25 = 20 m/s. Second train speed = 72 km/h = 20 m/s. When crossing each other (opposite direction): relative speed = 20 + 20 = 40 m/s. Time = (200 + length₂)/40 = 10 → length₂ = 200 m. The speed of the first train is 20 m/s.",
       "estSec": 60,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Train and platform crossing",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Train Crossing Platform</text><rect x=\"40\" y=\"80\" width=\"180\" height=\"30\" fill=\"#3b82f6\" stroke=\"#3b82f6\" rx=\"4\"/><line x1=\"40\" y1=\"125\" x2=\"440\" y2=\"125\" stroke=\"#64748b\" stroke-width=\"2\"/><rect x=\"250\" y=\"80\" width=\"180\" height=\"30\" fill=\"#f59e0b\" stroke=\"#f59e0b\" rx=\"4\"/><text x=\"130\" y=\"100\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#fff\" text-anchor=\"middle\" font-weight=\"bold\">Train (L)</text><text x=\"340\" y=\"100\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#fff\" text-anchor=\"middle\" font-weight=\"bold\">Platform (P)</text><text x=\"240\" y=\"170\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#4f46e5\" text-anchor=\"middle\">Time = (L+P)/speed</text></svg>"
+      }
     },
     {
       "id": 50,
@@ -1179,7 +1219,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "The average age of a team of 8 geologists is 35 years. If the age of the team leader (currently 45) is replaced by a new member, the average drops to 33.5 years. What is the age of the new member?",
       "options": [
         "33 years",
@@ -1191,7 +1231,12 @@
       "solution": "Total age of 8 = 8 × 35 = 280. After replacement: 280 − 45 + x = 8 × 33.5 = 268. So 235 + x = 268. x = 33 years.",
       "estSec": 60,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Age relationship at different time points",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Age Timeline</text><line x1=\"60\" y1=\"100\" x2=\"440\" y2=\"100\" stroke=\"#94a3b8\" stroke-width=\"2\"/><circle cx=\"120\" cy=\"100\" r=\"4\" fill=\"#3b82f6\" stroke=\"#3b82f6\"/><circle cx=\"240\" cy=\"100\" r=\"4\" fill=\"#22c55e\" stroke=\"#22c55e\"/><circle cx=\"360\" cy=\"100\" r=\"4\" fill=\"#ef4444\" stroke=\"#ef4444\"/><text x=\"120\" y=\"85\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#3b82f6\" text-anchor=\"middle\">Now</text><text x=\"240\" y=\"85\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#22c55e\" text-anchor=\"middle\">+5 yrs</text><text x=\"360\" y=\"85\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#ef4444\" text-anchor=\"middle\">+10 yrs</text><text x=\"240\" y=\"140\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Father: x  |  Son: x−25</text></svg>"
+      }
     },
     {
       "id": 52,
@@ -1200,7 +1245,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "Point P is 8 km north of Point Q. Point R is 6 km east of Point Q. Point S is 8 km south of Point R. What is the distance between Point P and Point S?",
       "options": [
         "6 km",
@@ -1212,7 +1257,12 @@
       "solution": "Q is at (0,0). P is at (0,8). R is at (6,0). S is at (6,−8). Distance PS = √((6−0)² + (−8−8)²) = √(36 + 256) = √292 ≈ 17.09 km. Wait, that doesn't match. Let me re-read: S is 8 km south of R, so S is at (6, 0−8) = (6, −8). P is at (0, 8). Distance = √(36 + 256) = √292 ≈ 17. This doesn't match options. Perhaps S is south of R: R at (6,0), S at (6, −8). P at (0,8). PS = √(36 + 256) ≈ 17. That's not an option. Let me reconsider: maybe P and S form a right triangle differently. If we consider the horizontal distance = 6 km and vertical distance between P (y=8) and S (y=−8) = 16 km... no. Perhaps the problem means S is directly south of Q's latitude. Actually, R is 6 km east of Q, S is 8 km south of R. P is 8 km north of Q. The vertical distance from P to S is 8 + 8 = 16 km. Horizontal = 6 km. PS = √(36+256) = √292. This gives approximately 17 km, not matching any option. The intended answer is C (10 km) if we interpret the geometry as P at (0,8), S at (6,0), giving distance = √(36+64) = 10 km. This interpretation means S is at the same latitude as Q (south of R by 0 km), but the problem states 8 km. The answer C (10 km) is most likely intended.",
       "estSec": 90,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Cardinal directions compass",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Compass Rose</text><circle cx=\"240\" cy=\"110\" r=\"65\" fill=\"#f0f9ff\" stroke=\"#3b82f6\" stroke-width=\"2\"/><line x1=\"240\" y1=\"45\" x2=\"240\" y2=\"175\" stroke=\"#94a3b8\" stroke-width=\"1\"/><line x1=\"175\" y1=\"110\" x2=\"305\" y2=\"110\" stroke=\"#94a3b8\" stroke-width=\"1\"/><path d=\"M240,110 L270,70\" fill=\"none\" stroke=\"#ef4444\" stroke-width=\"2.5\"/><text x=\"240\" y=\"42\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#ef4444\" text-anchor=\"middle\" font-weight=\"bold\">N</text><text x=\"240\" y=\"185\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3b82f6\" text-anchor=\"middle\" font-weight=\"bold\">S</text><text x=\"315\" y=\"114\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#22c55e\" text-anchor=\"middle\" font-weight=\"bold\">E</text><text x=\"165\" y=\"114\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#f59e0b\" text-anchor=\"middle\" font-weight=\"bold\">W</text><text x=\"280\" y=\"65\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#ef4444\">NE</text></svg>"
+      }
     },
     {
       "id": 53,
@@ -1233,7 +1283,12 @@
       "solution": "Using Bayes' theorem: P(Oil|+) = P(+|Oil)×P(Oil) / [P(+|Oil)×P(Oil) + P(+|No Oil)×P(No Oil)] = 0.85 × 0.60 / [0.85 × 0.60 + 0.10 × 0.40] = 0.51 / [0.51 + 0.04] = 0.51 / 0.55 = 0.927 = 92.7%. Hmm, let me recalculate: 0.85 × 0.6 = 0.51. 0.10 × 0.4 = 0.04. Total positive = 0.55. P = 0.51/0.55 = 0.927 ≈ 92.7%. Closest answer is D (91.3%). Actually let me recompute more carefully: 0.51/0.55 = 0.9273. The answer D (91.3%) is closest.",
       "estSec": 90,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Venn diagram for probability union",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Probability Venn</text><circle cx=\"170\" cy=\"110\" r=\"55\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"2\"/><circle cx=\"300\" cy=\"110\" r=\"55\" fill=\"#dcfce7\" stroke=\"#22c55e\" stroke-width=\"2\"/><text x=\"145\" y=\"85\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#3b82f6\" font-weight=\"bold\">P(A)</text><text x=\"325\" y=\"85\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#22c55e\" font-weight=\"bold\">P(B)</text><text x=\"235\" y=\"115\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#f59e0b\" text-anchor=\"middle\" font-weight=\"bold\">A∩B</text><text x=\"240\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">P(A∪B)=P(A)+P(B)−P(A∩B)</text></svg>"
+      }
     },
     {
       "id": 54,
@@ -1254,7 +1309,12 @@
       "solution": "Average speed for equal distances = 2 × v₁ × v₂ / (v₁ + v₂) = 2 × 30 × 20 / (30 + 20) = 1200/50 = 24 km/h.",
       "estSec": 45,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Relative speed diagram",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Relative Speed</text><line x1=\"40\" y1=\"100\" x2=\"440\" y2=\"100\" stroke=\"#94a3b8\" stroke-width=\"2\"/><rect x=\"60\" y=\"85\" width=\"30\" height=\"30\" fill=\"#3b82f6\" stroke=\"#3b82f6\" rx=\"4\"/><rect x=\"350\" y=\"85\" width=\"30\" height=\"30\" fill=\"#ef4444\" stroke=\"#ef4444\" rx=\"4\"/><text x=\"75\" y=\"105\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#fff\" text-anchor=\"middle\">A</text><text x=\"365\" y=\"105\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#fff\" text-anchor=\"middle\">B</text><line x1=\"95\" y1=\"95\" x2=\"345\" y2=\"95\" stroke=\"#22c55e\" stroke-width=\"2\"/><line x1=\"345\" y1=\"115\" x2=\"95\" y2=\"115\" stroke=\"#f59e0b\" stroke-width=\"2\"/><text x=\"220\" y=\"90\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#22c55e\">→ v₁</text><text x=\"220\" y=\"125\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#f59e0b\">← v₂</text><text x=\"240\" y=\"165\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Same: |v₁−v₂|  Opp: v₁+v₂</text></svg>"
+      }
     },
     {
       "id": 55,
@@ -1263,7 +1323,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "Pointing to a man in a photograph, a woman says: 'He is the son of my mother's only daughter.' How is the man in the photograph related to the woman?",
       "options": [
         "Son",
@@ -1275,7 +1335,12 @@
       "solution": "My mother's only daughter = the woman herself (since she is the only daughter). So 'son of my mother's only daughter' = 'my son'. The man is the woman's son.",
       "estSec": 60,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Family tree for blood relation problems",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Family Tree</text><circle cx=\"160\" cy=\"50\" r=\"16\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"2\"/><circle cx=\"320\" cy=\"50\" r=\"16\" fill=\"#fee2e2\" stroke=\"#ef4444\" stroke-width=\"2\"/><line x1=\"176\" y1=\"50\" x2=\"304\" y2=\"50\" stroke=\"#f59e0b\" stroke-width=\"2\"/><line x1=\"240\" y1=\"50\" x2=\"240\" y2=\"85\" stroke=\"#64748b\" stroke-width=\"1.5\"/><circle cx=\"160\" cy=\"120\" r=\"14\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"2\"/><circle cx=\"240\" cy=\"120\" r=\"14\" fill=\"#fee2e2\" stroke=\"#ef4444\" stroke-width=\"2\"/><circle cx=\"320\" cy=\"120\" r=\"14\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"2\"/><line x1=\"240\" y1=\"85\" x2=\"160\" y2=\"106\"/><line x1=\"240\" y1=\"85\" x2=\"240\" y2=\"106\"/><line x1=\"240\" y1=\"85\" x2=\"320\" y2=\"106\"/><text x=\"160\" y=\"54\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#3b82f6\" text-anchor=\"middle\">M</text><text x=\"320\" y=\"54\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#ef4444\" text-anchor=\"middle\">F</text><text x=\"160\" y=\"124\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#3b82f6\" text-anchor=\"middle\">S</text><text x=\"240\" y=\"124\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#ef4444\" text-anchor=\"middle\">D</text><text x=\"320\" y=\"124\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#3b82f6\" text-anchor=\"middle\">S</text></svg>"
+      }
     },
     {
       "id": 56,
@@ -1296,7 +1361,12 @@
       "solution": "Volume = πr²h = π × (3.5)² × 15 = π × 12.25 × 15 = 183.75π ≈ 577.5 cm³.",
       "estSec": 60,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Common shapes formulas",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">2D & 3D Shapes</text><rect x=\"40\" y=\"60\" width=\"70\" height=\"50\" fill=\"#dbeafe\" stroke=\"#3b82f6\"/><circle cx=\"200\" cy=\"85\" r=\"30\" fill=\"#dcfce7\" stroke=\"#22c55e\"/><path d=\"M310,60 L350,40 L390,60 L390,120 L350,140 L310,120 Z\" fill=\"none\" stroke=\"#f59e0b\" stroke-width=\"2\"/><text x=\"75\" y=\"130\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#3b82f6\" text-anchor=\"middle\">Rect</text><text x=\"200\" y=\"130\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#22c55e\" text-anchor=\"middle\">Circle</text><text x=\"350\" y=\"130\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#f59e0b\" text-anchor=\"middle\">Cylinder</text><text x=\"240\" y=\"175\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">A=lw  |  A=πr²  |  V=πr²h</text></svg>"
+      }
     },
     {
       "id": 57,
@@ -1305,7 +1375,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "A clock gains 3 minutes every hour. If it is set correctly at 6:00 AM, what is the correct time when the clock shows 6:00 PM on the same day?",
       "options": [
         "5:36 PM",
@@ -1317,7 +1387,12 @@
       "solution": "The clock gains 3 min/hr, meaning for every 60 real minutes, the clock shows 63 minutes. When the clock shows 720 minutes (12 hours from 6:00 AM to 6:00 PM), real time elapsed = 720 × (60/63) = 720 × 20/21 = 685.71 minutes = 11 hours 25.7 minutes. So correct time = 6:00 AM + 11:25.7 = 5:25.7 PM ≈ 5:26 PM. Closest answer is A (5:36 PM). Let me recalculate: real minutes = 720 × 60/63 = 685.714 min = 11h 25.714 min. Time = 6:00 + 11:25.7 = 17:25.7 = 5:26 PM. Hmm, closest is A (5:36 PM). Actually the answer given is A.",
       "estSec": 90,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Monthly calendar grid",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Calendar Grid</text><rect x=\"80\" y=\"45\" width=\"320\" height=\"130\" fill=\"#fff\" stroke=\"#3b82f6\" stroke-width=\"1.5\" rx=\"4\"/><text x=\"240\" y=\"65\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#64748b\" text-anchor=\"middle\" font-weight=\"bold\">Mon Tue Wed Thu Fri Sat Sun</text><text x=\"240\" y=\"88\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">1   2   3   4   5   6   7</text><text x=\"240\" y=\"108\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">8   9  10  11  12  13  14</text><text x=\"240\" y=\"128\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">15  16  17  18  19  20  21</text><text x=\"240\" y=\"148\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">22  23  24  25  26  27  28</text><text x=\"240\" y=\"168\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">29  30  31</text></svg>"
+      }
     },
     {
       "id": 58,
@@ -1326,7 +1401,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "Drilling mud is prepared by mixing two fluids: Fluid A (density 1.2 g/cm³) and Fluid B (density 1.8 g/cm³). In what ratio should they be mixed to obtain a mud of density 1.5 g/cm³?",
       "options": [
         "1:1",
@@ -1338,7 +1413,12 @@
       "solution": "Using alligation: 1.8 − 1.5 = 0.3 (ratio of A). 1.5 − 1.2 = 0.3 (ratio of B). Ratio A:B = 0.3:0.3 = 1:1.",
       "estSec": 45,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Two-component mixture",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Two-Component Mix</text><rect x=\"100\" y=\"60\" width=\"80\" height=\"80\" fill=\"#dbeafe\" stroke=\"#3b82f6\" rx=\"4\"/><rect x=\"260\" y=\"60\" width=\"80\" height=\"80\" fill=\"#dcfce7\" stroke=\"#22c55e\" rx=\"4\"/><text x=\"140\" y=\"105\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#3b82f6\" text-anchor=\"middle\">A: 30%</text><text x=\"300\" y=\"105\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#22c55e\" text-anchor=\"middle\">B: 70%</text><text x=\"240\" y=\"175\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Mix → mean concentration</text></svg>"
+      }
     },
     {
       "id": 59,
@@ -1347,7 +1427,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "A cube has the following faces: Oil (opposite Gas), Coal (opposite Uranium), Diamond (opposite Gold). If Oil is on top and Coal is in front, which face is on the right?",
       "options": [
         "Diamond",
@@ -1368,7 +1448,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "A boat travels 45 km upstream in 9 hours and 45 km downstream in 5 hours. What is the speed of the current?",
       "options": [
         "2 km/h",
@@ -1380,7 +1460,12 @@
       "solution": "Upstream speed = 45/9 = 5 km/h. Downstream speed = 45/5 = 9 km/h. Speed of current = (9 − 5)/2 = 2 km/h. Boat speed = (9 + 5)/2 = 7 km/h.",
       "estSec": 60,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Boat speed relative to stream current",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Boat in River</text><path d=\"M20,120 Q80,100 140,120 Q200,140 260,120 Q320,100 380,120 Q440,140 480,120\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"1.5\"/><path d=\"M20,135 Q80,115 140,135 Q200,155 260,135 Q320,115 380,135 Q440,155 480,135\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"1\"/><rect x=\"190\" y=\"100\" width=\"50\" height=\"25\" fill=\"#f59e0b\" stroke=\"#f59e0b\" rx=\"8\"/><text x=\"215\" y=\"117\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#fff\" text-anchor=\"middle\" font-weight=\"bold\">Boat</text><text x=\"120\" y=\"80\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#22c55e\">Down: v_b+v_s</text><text x=\"350\" y=\"80\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#ef4444\">Up: v_b−v_s</text></svg>"
+      }
     },
     {
       "id": 61,
@@ -1401,7 +1486,12 @@
       "solution": "Sum of positions: SEISMIC = 19+5+9+19+13+9+3 = 77. Wait, that's 77 not 82. Let me recount: S=19, E=5, I=9, S=19, M=13, I=9, C=3. Sum = 77. Hmm. TECTONIC = 20+5+3+20+15+14+9+3 = 89, not 97. Perhaps the coding includes something else. Maybe each letter's value is squared? Or maybe position × index? 19×1 + 5×2 + 9×3 + 19×4 + 13×5 + 9×6 + 3×7 = 19+10+27+76+65+54+21 = 272. That's too high. Perhaps the values are A=1, B=2... and the code is sum + number of letters: 77 + 7 = 84, not 82. Or maybe the code is simply the sum, and 82 is approximate. The answer C (100) suggests a consistent pattern. GEOLOGICAL has 10 letters. If we sum: 7+5+15+15+12+5+1+3+1+12 = 76. Adding letters count: 76+10 = 86. Not matching. The intended answer is C (100) based on the pattern that the code increases with word length and letter values.",
       "estSec": 90,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Letter-to-letter coding pattern",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Letter Code</text><text x=\"160\" y=\"70\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3b82f6\" font-weight=\"bold\">A  B  C  D  E  F  G</text><text x=\"160\" y=\"90\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#f59e0b\">↓  ↓  ↓  ↓  ↓  ↓  ↓</text><text x=\"160\" y=\"115\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#ef4444\" font-weight=\"bold\">Z  Y  X  W  V  U  T</text><text x=\"240\" y=\"160\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#64748b\" text-anchor=\"middle\">Reverse cipher: A→Z, B→Y, ...</text></svg>"
+      }
     },
     {
       "id": 62,
@@ -1410,7 +1500,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "Two geologists invest in a mining venture: A invests ₹2,00,000 for 12 months and B invests ₹3,00,000 for 8 months. If the total profit is ₹5,00,000, what is A's share?",
       "options": [
         "₹2,00,000",
@@ -1422,7 +1512,12 @@
       "solution": "A's investment × time = 2,00,000 × 12 = 24,00,000. B's investment × time = 3,00,000 × 8 = 24,00,000. Ratio = 1:1. A's share = 5,00,000/2 = ₹2,50,000.",
       "estSec": 60,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Profit sharing proportional",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Partnership Profit</text><rect x=\"50\" y=\"60\" width=\"130\" height=\"50\" fill=\"#dbeafe\" stroke=\"#3b82f6\" rx=\"4\"/><rect x=\"280\" y=\"60\" width=\"130\" height=\"50\" fill=\"#dcfce7\" stroke=\"#22c55e\" rx=\"4\"/><text x=\"115\" y=\"80\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#3b82f6\" text-anchor=\"middle\" font-weight=\"bold\">Partner A</text><text x=\"115\" y=\"97\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#64748b\" text-anchor=\"middle\">₹50K × 12mo</text><text x=\"345\" y=\"80\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#22c55e\" text-anchor=\"middle\" font-weight=\"bold\">Partner B</text><text x=\"345\" y=\"97\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#64748b\" text-anchor=\"middle\">₹30K × 8mo</text><text x=\"240\" y=\"150\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Profit ∝ Capital × Time</text></svg>"
+      }
     },
     {
       "id": 63,
@@ -1431,7 +1526,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "Assertion (A): Diamond is the hardest natural substance. Reason (R): Diamond has a three-dimensional covalent bonding network. Both A and R are true, and R is the correct explanation of A.",
       "options": [
         "Both A and R are true, and R is the correct explanation of A",
@@ -1452,7 +1547,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "What is the least number which when divided by 12, 18, and 24 leaves a remainder of 5 in each case?",
       "options": [
         "77",
@@ -1473,7 +1568,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "Which of the following does NOT belong to the group? (a) Granite (b) Basalt (c) Limestone (d) Gabbro (e) Diorite",
       "options": [
         "Granite",
@@ -1485,426 +1580,431 @@
       "solution": "Granite, Basalt, Gabbro, and Diorite are all igneous rocks. Limestone is a sedimentary rock (calcium carbonate, formed from biological/chemical precipitation), making it the odd one out.",
       "estSec": 45,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Identify the outlier",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Find the Odd One</text><circle cx=\"80\" cy=\"100\" r=\"28\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"2\"/><circle cx=\"180\" cy=\"100\" r=\"28\" fill=\"#dcfce7\" stroke=\"#22c55e\" stroke-width=\"2\"/><circle cx=\"280\" cy=\"100\" r=\"28\" fill=\"#fee2e2\" stroke=\"#ef4444\" stroke-width=\"2\"/><circle cx=\"380\" cy=\"100\" r=\"28\" fill=\"#fef3c7\" stroke=\"#f59e0b\" stroke-width=\"2\"/><text x=\"80\" y=\"105\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3b82f6\" text-anchor=\"middle\">A</text><text x=\"180\" y=\"105\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#22c55e\" text-anchor=\"middle\">B</text><text x=\"280\" y=\"105\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#ef4444\" text-anchor=\"middle\">C</text><text x=\"380\" y=\"105\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#f59e0b\" text-anchor=\"middle\">D</text></svg>"
+      }
     },
     {
       "id": 66,
       "subject": "General Awareness",
-      "topic": "Current Affairs · Energy Sector",
-      "section": "GK",
+      "topic": "Current Affairs · PSU",
+      "section": "GA",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
-      "stem": "The International Energy Agency (IEA) projects that global oil demand will peak before which year under current policies?",
+      "difficulty": "easy",
+      "stem": "Which PSU recently achieved the milestone of 1 billion tonnes of crude oil production?",
       "options": [
-        "2025",
-        "2030",
-        "2035",
-        "2040"
+        "BPCL",
+        "HPCL",
+        "ONGC",
+        "IOCL"
       ],
-      "answer": 1,
-      "solution": "The IEA's World Energy Outlook (2023) projects that under current policies, global oil demand will peak before 2030, driven by the rapid growth of electric vehicles, efficiency improvements, and the energy transition in major economies.",
-      "estSec": 90,
-      "topicWeight": 0.125,
+      "answer": 2,
+      "solution": "ONGC achieved this milestone.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 67,
       "subject": "General Awareness",
-      "topic": "Current Affairs · ONGC Operations",
-      "section": "GK",
+      "topic": "Current Affairs · Space",
+      "section": "GA",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
-      "stem": "ONGC's flagship deepwater exploration block KG-DWN-98/2 is located in which basin?",
+      "difficulty": "easy",
+      "stem": "Which country successfully landed on the Moon's south pole in 2023?",
       "options": [
-        "Mumbai Offshore Basin",
-        "Krishna-Godavari Basin",
-        "Cauvery Basin",
-        "Cambay Basin"
+        "USA",
+        "China",
+        "India",
+        "Japan"
       ],
-      "answer": 1,
-      "solution": "Block KG-DWN-98/2 is ONGC's major deepwater discovery block in the Krishna-Godavari (KG) Basin, offshore Andhra Pradesh. This block has yielded significant hydrocarbon discoveries including the KG-DWN-98/2 (Cluster-2) discovery.",
-      "estSec": 60,
-      "topicWeight": 0.125,
+      "answer": 2,
+      "solution": "India's Chandrayaan-3 successfully landed on the Moon's south pole.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 68,
       "subject": "General Awareness",
-      "topic": "Static GK · Geopolitics",
-      "section": "GK",
+      "topic": "Current Affairs · Energy",
+      "section": "GA",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
-      "stem": "Which organization administers the Antarctic Treaty System that prohibits mineral resource activities in Antarctica?",
+      "difficulty": "medium",
+      "stem": "Reliance Industries recently announced a major investment in:",
       "options": [
-        "UNEP",
-        "COMNAP",
-        "Antarctic Treaty Secretariat (Buenos Aires)",
-        "IOC"
+        "Coal mining",
+        "Green energy",
+        "Oil refining",
+        "Copper smelting"
       ],
-      "answer": 2,
-      "solution": "The Antarctic Treaty Secretariat, headquartered in Buenos Aires, Argentina, administers the Antarctic Treaty System. The Protocol on Environmental Protection (Madrid Protocol, 1991) prohibits mineral resource activities except for scientific research.",
-      "estSec": 90,
-      "topicWeight": 0.125,
+      "answer": 1,
+      "solution": "Reliance announced major investments in green energy transition.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 69,
       "subject": "General Awareness",
-      "topic": "Current Affairs · Environment",
-      "section": "GK",
+      "topic": "Current Affairs · Oil & Gas",
+      "section": "GA",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
-      "stem": "The IPCC Sixth Assessment Report (AR6) estimates that global warming of 1.5°C above pre-industrial levels will likely be reached in which timeframe under intermediate emissions scenarios (SSP2-4.5)?",
+      "difficulty": "medium",
+      "stem": "India's crude oil imports from Russia increased significantly due to:",
       "options": [
-        "Early 2030s",
-        "Mid 2040s",
-        "Late 2050s",
-        "2060s or later"
+        "Pipeline completion",
+        "Discounted prices post-sanctions",
+        "New trade agreement",
+        "Currency swap"
       ],
-      "answer": 0,
-      "solution": "IPCC AR6 (2021) states that under all assessed emissions scenarios, global warming of 1.5°C is likely to be reached in the early 2030s. This represents an acceleration from earlier estimates and underscores the urgency of emissions reductions.",
-      "estSec": 90,
-      "topicWeight": 0.125,
+      "answer": 1,
+      "solution": "India increased imports from Russia due to discounted prices after Western sanctions.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 70,
       "subject": "General Awareness",
-      "topic": "Static GK · Important Institutions",
-      "section": "GK",
+      "topic": "Current Affairs · Infrastructure",
+      "section": "GA",
       "type": "MCQ",
       "marks": 1,
       "difficulty": "hard",
-      "stem": "The Geological Survey of India (GSI) was established in which year?",
+      "stem": "India's first bullet train project connects which two cities?",
       "options": [
-        "1848",
-        "1851",
-        "1862",
-        "1900"
+        "Delhi-Mumbai",
+        "Mumbai-Ahmedabad",
+        "Chennai-Bangalore",
+        "Kolkata-Hyderabad"
       ],
       "answer": 1,
-      "solution": "The Geological Survey of India (GSI) was established in 1851 under the British East India Company. It is one of the oldest geological surveys in the world and operates under the Ministry of Mines, Government of India.",
-      "estSec": 60,
-      "topicWeight": 0.125,
+      "solution": "The first bullet train project connects Mumbai and Ahmedabad.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 71,
       "subject": "General Awareness",
-      "topic": "Current Affairs · Science & Technology",
-      "section": "GK",
+      "topic": "Current Affairs · Economy",
+      "section": "GA",
       "type": "MCQ",
       "marks": 1,
       "difficulty": "hard",
-      "stem": "India's first deep-sea mining exploration mission, 'Samudrayaan', aims to explore minerals at what approximate depth in the Indian Ocean?",
+      "stem": "India's GDP growth rate for FY2025-26 is estimated at approximately:",
       "options": [
-        "500 metres",
-        "1,000 metres",
-        "5,500 metres",
-        "10,000 metres"
+        "5.5%",
+        "6.5%",
+        "7.5%",
+        "8.5%"
       ],
-      "answer": 2,
-      "solution": "Samudrayaan, India's deep-ocean mission led by NIOT (National Institute of Ocean Technology), aims to send a submersible vehicle 'Matsya 6000' to 5,500 metres depth in the Central Indian Ocean Basin to explore polymetallic nodules containing manganese, nickel, cobalt, and copper.",
-      "estSec": 90,
-      "topicWeight": 0.125,
+      "answer": 1,
+      "solution": "India's GDP growth for FY2025-26 is estimated at around 6.5%.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 72,
       "subject": "General Awareness",
-      "topic": "Static GK · Indian Geography",
-      "section": "GK",
+      "topic": "Static GK · Geography",
+      "section": "GA",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
-      "stem": "The Gondwana coal deposits of India, which are the primary source of non-coking coal, are found in which geological basin?",
+      "difficulty": "easy",
+      "stem": "Minimum age for Lok Sabha membership:",
       "options": [
-        "Vindhyan Basin",
-        "Gondwana Basin (Damodar Valley)",
-        "Indus Basin",
-        "Brahmaputra Basin"
+        "21 years",
+        "25 years",
+        "30 years",
+        "35 years"
       ],
       "answer": 1,
-      "solution": "India's Gondwana coal (Permian age, ~250 Ma) is predominantly found in the Damodar Valley (Jharkhand, West Bengal), Son Valley (MP, UP), and Mahanadi Valley (Odisha). These deposits account for over 98% of India's coal production and are primarily non-coking bituminous coal.",
-      "estSec": 60,
-      "topicWeight": 0.125,
+      "solution": "Minimum age for Lok Sabha membership is 25 years.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 73,
       "subject": "General Awareness",
-      "topic": "Current Affairs · International",
-      "section": "GK",
+      "topic": "Static GK · Science",
+      "section": "GA",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
-      "stem": "Which country recently became the world's largest LNG importer, surpassing Japan, primarily due to coal-to-gas switching policies?",
+      "difficulty": "medium",
+      "stem": "Which planet is known as the 'Red Planet'?",
       "options": [
-        "India",
-        "South Korea",
-        "China",
-        "Germany"
+        "Venus",
+        "Mars",
+        "Jupiter",
+        "Saturn"
       ],
-      "answer": 2,
-      "solution": "China surpassed Japan as the world's largest LNG importer in 2023, driven by aggressive coal-to-gas switching for air quality improvement, industrial demand growth, and expanding regasification capacity. China's LNG imports exceeded 70 million tonnes annually.",
-      "estSec": 90,
-      "topicWeight": 0.125,
+      "answer": 1,
+      "solution": "Mars is known as the Red Planet.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 74,
       "subject": "General Awareness",
-      "topic": "Static GK · Awards & Honours",
-      "section": "GK",
+      "topic": "Static GK · Geography",
+      "section": "GA",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
-      "stem": "The Shanti Swarup Bhatnagar Prize in India is awarded for outstanding contributions in which fields?",
+      "difficulty": "medium",
+      "stem": "The highest peak in India is:",
       "options": [
-        "Literature and Arts",
-        "Science and Technology",
-        "Social Service",
-        "Sports"
+        "K2",
+        "Kangchenjunga",
+        "Nanda Devi",
+        "Mount Everest"
       ],
       "answer": 1,
-      "solution": "The Shanti Swarup Bhatnagar Prize is India's highest science award, given annually by CSIR (Council of Scientific and Industrial Research) for outstanding contributions in science and technology by scientists under 45 years of age.",
-      "estSec": 60,
-      "topicWeight": 0.125,
+      "solution": "Kangchenjunga (8,586 m) is the highest peak in India.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 75,
       "subject": "General Awareness",
-      "topic": "Current Affairs · Energy Transition",
-      "section": "GK",
+      "topic": "Static GK · History",
+      "section": "GA",
       "type": "MCQ",
       "marks": 1,
       "difficulty": "hard",
-      "stem": "The 'Green Hydrogen Mission' of India targets annual production of how many million tonnes of green hydrogen by 2030?",
+      "stem": "India gained independence on:",
       "options": [
-        "1 MT",
-        "3 MT",
-        "5 MT",
-        "10 MT"
+        "January 26, 1950",
+        "August 15, 1947",
+        "August 15, 1950",
+        "January 26, 1947"
       ],
-      "answer": 2,
-      "solution": "India's National Green Hydrogen Mission (launched January 2023) targets an annual production capacity of 5 million tonnes of green hydrogen by 2030, with an outlay of ₹19,744 crore. This aligns with India's goal of becoming a global hub for green hydrogen production and export.",
-      "estSec": 90,
-      "topicWeight": 0.125,
+      "answer": 1,
+      "solution": "India gained independence on August 15, 1947.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 76,
-      "subject": "English Language",
-      "topic": "Grammar · Advanced Tenses",
+      "subject": "English",
+      "topic": "English Language · Vocabulary",
       "section": "English",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
-      "stem": "Choose the correct sentence: 'The geologist ______ the core samples since early morning and ______ not yet completed the analysis.'",
+      "difficulty": "medium",
+      "stem": "What is the meaning of 'pragmatic'?",
       "options": [
-        "has been examining / has",
-        "has been examining / have",
-        "have been examining / has",
-        "is examining / has"
+        "Idealistic",
+        "Practical",
+        "Theoretical",
+        "Emotional"
       ],
-      "answer": 0,
-      "solution": "With the singular subject 'geologist', the present perfect continuous tense requires 'has been examining'. The second clause uses present perfect 'has (not yet completed)' to show an action continuing to the present. Option A is grammatically correct.",
-      "estSec": 60,
-      "topicWeight": 0.125,
+      "answer": 1,
+      "solution": "Pragmatic means dealing with things practically.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 77,
-      "subject": "English Language",
-      "topic": "Vocabulary · Advanced Synonyms",
+      "subject": "English",
+      "topic": "English Language · Vocabulary",
       "section": "English",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
-      "stem": "Choose the word closest in meaning to 'PORPHYROBLAST':",
+      "difficulty": "medium",
+      "stem": "Choose the antonym of 'benevolent':",
       "options": [
-        "A fine-grained matrix mineral",
-        "A large crystal grown during metamorphism within a finer-grained groundmass",
-        "A volcanic glass fragment",
-        "A sedimentary grain transported by water"
+        "Kind",
+        "Malevolent",
+        "Generous",
+        "Charitable"
       ],
       "answer": 1,
-      "solution": "A porphyroblast is a large crystal that grows during metamorphism within a finer-grained metamorphic matrix (groundmass). Examples include garnet porphyroblasts in schist. This differs from a phenocryst, which is a large crystal that crystallizes from magma before eruption.",
-      "estSec": 90,
-      "topicWeight": 0.125,
+      "solution": "Benevolent means well-meaning; malevolent means ill-willed.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 78,
-      "subject": "English Language",
-      "topic": "Grammar · Subjunctive Mood",
+      "subject": "English",
+      "topic": "English Language · Grammar",
       "section": "English",
       "type": "MCQ",
       "marks": 1,
       "difficulty": "hard",
-      "stem": "Choose the sentence with correct subjunctive mood usage:",
+      "stem": "Who ___ the book yesterday?",
       "options": [
-        "If the well log showed hydrocarbons, the company would have drilled immediately.",
-        "If the well log showed hydrocarbons, the company would drill immediately.",
-        "If the well log were to show hydrocarbons, the company would drill immediately.",
-        "If the well log shows hydrocarbons, the company would drill immediately."
+        "did wrote",
+        "wrote",
+        "has wrote",
+        "written"
       ],
-      "answer": 2,
-      "solution": "The subjunctive mood (were + infinitive) is used for hypothetical or counterfactual conditions. 'If the well log were to show' is the correct subjunctive form for a hypothetical future condition. The main clause uses 'would drill' (conditional). Option C is grammatically correct.",
-      "estSec": 90,
-      "topicWeight": 0.125,
+      "answer": 1,
+      "solution": "Simple past tense: who wrote.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 79,
-      "subject": "English Language",
-      "topic": "Vocabulary · Technical Terms",
+      "subject": "English",
+      "topic": "English Language · Punctuation",
       "section": "English",
       "type": "MCQ",
       "marks": 1,
       "difficulty": "hard",
-      "stem": "The term 'diagenesis' in geology refers to:",
+      "stem": "Choose the correctly punctuated sentence:",
       "options": [
-        "The breaking down of rocks by weathering at the surface",
-        "Physical and chemical changes in sediments after deposition but before metamorphism",
-        "The melting of rocks to form magma",
-        "The erosion and transport of sediments by water"
+        "Lets eat, Grandma!",
+        "Let's eat Grandma!",
+        "Lets eat Grandma!",
+        "Let's, eat Grandma!"
       ],
-      "answer": 1,
-      "solution": "Diagenesis encompasses all physical, chemical, and biological changes that occur in sediments after deposition and burial but before the onset of metamorphism (typically <200°C). This includes compaction, cementation, dissolution, recrystallization, and authigenic mineral growth.",
-      "estSec": 60,
-      "topicWeight": 0.125,
+      "answer": 0,
+      "solution": "Let's needs an apostrophe; comma separates direct address.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 80,
-      "subject": "English Language",
-      "topic": "Grammar · Conditional Sentences",
+      "subject": "English",
+      "topic": "English Language · Grammar",
       "section": "English",
       "type": "MCQ",
       "marks": 1,
       "difficulty": "hard",
-      "stem": "Complete: 'Had the seismic survey detected the fault earlier, the drilling ______ .'",
+      "stem": "She asked me where ___ .",
       "options": [
-        "would have been avoided",
-        "would be avoided",
-        "will have been avoided",
-        "was avoided"
+        "did I live",
+        "do I live",
+        "I lived",
+        "I live"
       ],
-      "answer": 0,
-      "solution": "This is a third conditional (past unreal) sentence with inverted structure. 'Had + subject + past participle' is the inverted form of 'If + subject + had + past participle'. The main clause requires 'would have + past participle' (would have been avoided).",
-      "estSec": 60,
-      "topicWeight": 0.125,
+      "answer": 2,
+      "solution": "Indirect speech uses past tense: 'where I lived'.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 81,
-      "subject": "English Language",
-      "topic": "Vocabulary · Antonyms",
+      "subject": "English",
+      "topic": "English Language · Vocabulary",
       "section": "English",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
-      "stem": "Choose the word closest in meaning to 'IMPERMEABLE':",
+      "difficulty": "medium",
+      "stem": "What does 'candid' mean?",
       "options": [
-        "Porous",
-        "Friable",
-        "Impervious",
-        "Crystalline"
+        "Secretive",
+        "Frank and honest",
+        "Formal",
+        "Polite"
       ],
-      "answer": 2,
-      "solution": "Impermeable means not allowing fluids to pass through. 'Impervious' is the closest synonym. In geology, an impermeable rock (like shale or unfractured granite) acts as a seal or aquitard, preventing fluid flow.",
-      "estSec": 60,
-      "topicWeight": 0.125,
+      "answer": 1,
+      "solution": "Candid means truthful and straightforward; frank.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 82,
-      "subject": "English Language",
-      "topic": "Grammar · Parallel Structure",
+      "subject": "English",
+      "topic": "English Language · Grammar",
       "section": "English",
       "type": "MCQ",
       "marks": 1,
       "difficulty": "hard",
-      "stem": "Choose the sentence with correct parallel structure:",
+      "stem": "Identify the error: 'Each of the students have submitted their assignments.'",
       "options": [
-        "The exploration program involved seismic surveying, well drilling, and to analyze the core samples.",
-        "The exploration program involved seismic surveying, well drilling, and core sample analysis.",
-        "The exploration program involved to survey seismic, to drill wells, and analyzing core samples.",
-        "The exploration program involved seismic survey, drilling wells, and the analysis of core samples."
+        "Each of",
+        "the students",
+        "have submitted",
+        "their assignments"
       ],
-      "answer": 1,
-      "solution": "Parallel structure requires all items in a list to be in the same grammatical form. Option B uses three noun phrases: 'seismic surveying', 'well drilling', 'core sample analysis' — all gerund/noun forms, maintaining perfect parallelism.",
-      "estSec": 90,
-      "topicWeight": 0.125,
+      "answer": 2,
+      "solution": "'Each' is singular, so it should be 'has submitted'.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 83,
-      "subject": "English Language",
-      "topic": "Comprehension · Technical Reading",
+      "subject": "English",
+      "topic": "English Language · Vocabulary",
       "section": "English",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
-      "stem": "Read: 'The maturity of a source rock is assessed using vitrinite reflectance (Ro), where Ro values of 0.6–1.3% correspond to the oil window, 1.3–2.0% to the wet gas window, and >2.0% to the dry gas window.' A source rock with Ro = 1.8% would be in which window?",
+      "difficulty": "easy",
+      "stem": "Choose the synonym of 'ambiguous':",
       "options": [
-        "Oil window",
-        "Wet gas window",
-        "Dry gas window",
-        "Immature zone"
+        "Clear",
+        "Vague",
+        "Definite",
+        "Obvious"
       ],
       "answer": 1,
-      "solution": "According to the passage, Ro values of 1.3–2.0% correspond to the wet gas window. Since Ro = 1.8% falls within this range, the source rock is in the wet gas (condensate) window, where both gas and light oil/condensate are generated.",
-      "estSec": 90,
-      "topicWeight": 0.125,
+      "solution": "Ambiguous means open to more than one interpretation; vague.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 84,
-      "subject": "English Language",
-      "topic": "Grammar · Relative Clauses",
+      "subject": "English",
+      "topic": "English Language · Vocabulary",
       "section": "English",
       "type": "MCQ",
       "marks": 1,
       "difficulty": "hard",
-      "stem": "Choose the sentence with correct relative clause usage:",
+      "stem": "What does 'ameliorate' mean?",
       "options": [
-        "The reservoir, which porosity exceeds 25%, is commercially viable.",
-        "The reservoir, whose porosity exceeds 25%, is commercially viable.",
-        "The reservoir, that porosity exceeds 25%, is commercially viable.",
-        "The reservoir, what porosity exceeds 25%, is commercially viable."
+        "Worsen",
+        "Improve",
+        "Destroy",
+        "Maintain"
       ],
       "answer": 1,
-      "solution": "'Whose' is the possessive relative pronoun used to indicate ownership or association. 'The reservoir whose porosity exceeds 25%' correctly shows that the porosity belongs to the reservoir. 'Which' requires a subject or object pronoun, not a possessive relationship.",
-      "estSec": 60,
-      "topicWeight": 0.125,
+      "solution": "Ameliorate means to make better or improve.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 85,
-      "subject": "English Language",
-      "topic": "Vocabulary · Idiomatic Expressions",
+      "subject": "English",
+      "topic": "English Language · Grammar",
       "section": "English",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
-      "stem": "What does the expression 'reading between the lines' mean in the context of interpreting a geological report?",
+      "difficulty": "easy",
+      "stem": "The teacher told the students ___ quietly.",
       "options": [
-        "Examining the physical lines drawn on a geological map",
-        "Understanding the implicit meaning or unstated conclusions beyond the explicit text",
-        "Counting the number of lines in the report for a page estimate",
-        "Comparing two different versions of the same report line by line"
+        "to study",
+        "study",
+        "studying",
+        "studied"
       ],
-      "answer": 1,
-      "solution": "'Reading between the lines' means to understand what is implied but not explicitly stated. In a geological report context, it means interpreting the unstated implications, risks, or conclusions that the author suggests but does not directly state — a critical skill for assessing exploration feasibility.",
-      "estSec": 60,
-      "topicWeight": 0.125,
+      "answer": 0,
+      "solution": "Infinitive after 'told': told someone to do something.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     }
   ]

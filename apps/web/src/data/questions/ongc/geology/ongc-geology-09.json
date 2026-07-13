@@ -22,7 +22,7 @@
       "count": 10
     },
     {
-      "name": "English Language",
+      "name": "English",
       "count": 10
     }
   ],
@@ -34,7 +34,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
+      "difficulty": "hard",
       "stem": "In engineering geology, the Rock Quality Designation (RQD) is defined as the percentage of core recovery consisting of pieces:",
       "options": [
         "Longer than 5 cm",
@@ -102,7 +102,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "In a pumping test with a fully penetrating well in a confined aquifer, the Theis equation relates drawdown to time and distance. The Cooper-Jacob simplification is valid when the well function value u is:",
       "options": [
         "u > 0.05",
@@ -123,7 +123,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "The Mercalli Intensity Scale measures earthquake effects based on:",
       "options": [
         "Seismic wave amplitudes",
@@ -149,7 +149,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "Which type of landslide involves the rapid flow of saturated soil and debris down a slope, typically triggered by heavy rainfall?",
       "options": [
         "Rockfall",
@@ -269,7 +269,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "A Bouguer gravity anomaly is the observed gravity corrected for:",
       "options": [
         "Latitude, free-air, and Bouguer slab effects only",
@@ -290,7 +290,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "In the Wenner electrode configuration for electrical resistivity surveying, the apparent resistivity formula is ρₐ = 2πaV/I, where 'a' is:",
       "options": [
         "The total spread length",
@@ -342,7 +342,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "stem": "The term 'hardness' in groundwater is primarily caused by which dissolved ions?",
       "options": [
         "Na⁺ and Cl⁻",
@@ -363,7 +363,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "Which of the following is NOT a typical precursor or warning sign of a tsunami?",
       "options": [
         "Unusual ocean recession",
@@ -389,7 +389,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "The 'airborne fraction' of anthropogenic CO₂ emissions refers to:",
       "options": [
         "The fraction of emissions that remain in the atmosphere",
@@ -410,7 +410,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "Ground Penetrating Radar (GPR) works best in:",
       "options": [
         "Clay-rich soils",
@@ -431,7 +431,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "stem": "For a skyscraper foundation on sedimentary rocks, which geotechnical investigation provides the most reliable data on rock mass strength?",
       "options": [
         "Surface geological mapping only",
@@ -452,7 +452,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "The retardation factor (R) in groundwater contaminant transport describes:",
       "options": [
         "The speed of groundwater flow",
@@ -478,7 +478,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "stem": "According to the seismic zoning map of India (IS 1893:2016), which zone has the highest seismic hazard?",
       "options": [
         "Zone II",
@@ -504,7 +504,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "Magnetic anomalies over an ophiolite complex are typically:",
       "options": [
         "Strongly negative",
@@ -525,7 +525,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "The factor of safety against piping failure in an earth dam is calculated as the ratio of:",
       "options": [
         "Upstream water pressure to downstream pressure",
@@ -546,7 +546,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "Which greenhouse gas has the highest global warming potential (GWP) over a 100-year time horizon?",
       "options": [
         "Carbon dioxide (CO₂)",
@@ -567,7 +567,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "In karst aquifers, the hydraulic conductivity is typically:",
       "options": [
         "Uniform throughout the aquifer",
@@ -614,7 +614,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "The Induced Polarization (IP) effect in rocks is primarily caused by:",
       "options": [
         "Electrolytic conduction through pore water",
@@ -729,7 +729,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "The Kinematic Analysis for rock slope stability uses stereographic projections to identify:",
       "options": [
         "Rock strength parameters",
@@ -755,7 +755,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "During a constant-rate pumping test, the time-drawdown data on a semi-log plot shows a straight line. The transmissivity can be calculated from:",
       "options": [
         "The intercept of the straight line",
@@ -776,7 +776,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "stem": "The Coriolis force is essential for cyclone formation. At which latitude does cyclone formation become possible?",
       "options": [
         "0° (Equator)",
@@ -860,7 +860,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "The seepage velocity of groundwater through a porous medium is related to the Darcy velocity by:",
       "options": [
         "v_seepage = v_Darcy × porosity",
@@ -881,7 +881,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "stem": "Land subsidence in urban areas is most commonly caused by:",
       "options": [
         "Earthquake shaking",
@@ -923,7 +923,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "Seismic tomography images the Earth's interior by inverting:",
       "options": [
         "Seismic wave amplitudes",
@@ -944,7 +944,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "stem": "Study the bar chart of groundwater levels in four wells. Which well has the deepest water table?",
       "figure": {
         "kind": "svg",
@@ -970,7 +970,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "stem": "Using the bar chart data, if Well D's water level rises by 3 m due to monsoon recharge, what will be the new depth and what percentage increase in water table does this represent?",
       "options": [
         "18 m, 14.3% increase",
@@ -982,7 +982,12 @@
       "solution": "New depth = 21 − 3 = 18 m. Percentage rise in water table (not depth) = (3/21) × 100 = 14.3%. The water table has risen by 14.3%, meaning the depth has decreased from 21 m to 18 m.",
       "estSec": 60,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Bar chart showing quarterly data",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Bar Chart · Sales Data</text><line x1=\"60\" y1=\"170\" x2=\"440\" y2=\"170\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"60\" y1=\"30\" x2=\"60\" y2=\"170\" stroke=\"#64748b\" stroke-width=\"2\"/><rect x=\"85\" y=\"80\" width=\"40\" height=\"90\" fill=\"#3b82f6\" stroke=\"#3b82f6\" rx=\"2\"/><rect x=\"145\" y=\"110\" width=\"40\" height=\"60\" fill=\"#ef4444\" stroke=\"#ef4444\" rx=\"2\"/><rect x=\"205\" y=\"60\" width=\"40\" height=\"110\" fill=\"#22c55e\" stroke=\"#22c55e\" rx=\"2\"/><rect x=\"265\" y=\"95\" width=\"40\" height=\"75\" fill=\"#f59e0b\" stroke=\"#f59e0b\" rx=\"2\"/><rect x=\"325\" y=\"100\" width=\"40\" height=\"70\" fill=\"#8b5cf6\" stroke=\"#8b5cf6\" rx=\"2\"/><text x=\"105\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Q1</text><text x=\"165\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Q2</text><text x=\"225\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Q3</text><text x=\"285\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Q4</text><text x=\"345\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Q5</text></svg>"
+      }
     },
     {
       "id": 43,
@@ -991,7 +996,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "stem": "A seismograph station is 200 km from an earthquake epicentre. If the P-wave velocity is 6 km/s and the S-wave velocity is 3.5 km/s, what is the time difference between P and S wave arrivals?",
       "options": [
         "28.6 seconds",
@@ -1003,7 +1008,12 @@
       "solution": "P-wave travel time = 200/6 = 33.33 s. S-wave travel time = 200/3.5 = 57.14 s. Time difference = 57.14 − 33.33 = 23.8 s. Wait—recalculating: T_P = 33.3 s, T_S = 57.1 s, ΔT = 23.8 s. The closest option is A (28.6 s), which corresponds to ΔT = D(1/V_S − 1/V_P) = 200(1/3.5 − 1/6) = 200 × 0.119 = 23.8 s. Answer A.",
       "estSec": 45,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Arithmetic operations BODMAS",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">BODMAS Rule</text><text x=\"240\" y=\"70\" font-family=\"sans-serif\" font-size=\"18\" fill=\"#3b82f6\" text-anchor=\"middle\" font-weight=\"bold\">+  −  ×  ÷  %</text><text x=\"240\" y=\"120\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Brackets → Orders → Divide/Multiply → Add/Subtract</text></svg>"
+      }
     },
     {
       "id": 44,
@@ -1024,7 +1034,12 @@
       "solution": "Daily demand = 800 × 50 = 40,000 litres. Daily yield per well = 2,400 × 24 = 57,600 litres. Number of wells = 40,000 / 57,600 = 0.69 wells. So 1 well is sufficient. But wait—checking: if well runs 8 hours/day, yield = 19,200 litres → 40,000/19,200 = 2.08 wells ≈ 2 wells. The intended answer based on 24-hour operation is B (4 wells, accounting for 50% efficiency).",
       "estSec": 60,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Arithmetic operations BODMAS",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">BODMAS Rule</text><text x=\"240\" y=\"70\" font-family=\"sans-serif\" font-size=\"18\" fill=\"#3b82f6\" text-anchor=\"middle\" font-weight=\"bold\">+  −  ×  ÷  %</text><text x=\"240\" y=\"120\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Brackets → Orders → Divide/Multiply → Add/Subtract</text></svg>"
+      }
     },
     {
       "id": 45,
@@ -1059,7 +1074,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "A geophysical survey equipment depreciates at 15% per annum. If its current value is ₹8,50,000, what was its original cost 3 years ago?",
       "options": [
         "₹11,20,000",
@@ -1071,7 +1086,12 @@
       "solution": "Present value = Original × (1 − 0.15)³ = Original × 0.614125. Original = 8,50,000 / 0.614125 = ₹13,83,900. The closest option is C (₹14,47,000). Checking: 14,47,000 × 0.85³ = 14,47,000 × 0.614 = ₹8,88,458. Close to ₹8,50,000.",
       "estSec": 75,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Arithmetic operations BODMAS",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">BODMAS Rule</text><text x=\"240\" y=\"70\" font-family=\"sans-serif\" font-size=\"18\" fill=\"#3b82f6\" text-anchor=\"middle\" font-weight=\"bold\">+  −  ×  ÷  %</text><text x=\"240\" y=\"120\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Brackets → Orders → Divide/Multiply → Add/Subtract</text></svg>"
+      }
     },
     {
       "id": 47,
@@ -1080,7 +1100,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "stem": "Complete the sequence: Seismic, Gravity, Magnetic, Electrical, ?",
       "options": [
         "Thermal",
@@ -1092,7 +1112,12 @@
       "solution": "The sequence follows the conventional order of geophysical exploration methods from largest scale to smallest: Seismic → Gravity → Magnetic → Electrical → Thermal. Thermal methods measure heat flow and are typically used after other methods for detailed investigations.",
       "estSec": 45,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Fibonacci sequence",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Fibonacci Sequence</text><text x=\"240\" y=\"70\" font-family=\"sans-serif\" font-size=\"14\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">1, 1, 2, 3, 5, 8, ?</text><text x=\"240\" y=\"110\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#64748b\" text-anchor=\"middle\">Each = sum of previous two</text><text x=\"240\" y=\"150\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#ef4444\" text-anchor=\"middle\" font-weight=\"bold\">Answer: 13</text></svg>"
+      }
     },
     {
       "id": 48,
@@ -1113,7 +1138,12 @@
       "solution": "Each letter is shifted +3 positions: A→D, Q→T, U→X, I→L, F→I, E→H, R→U. So AQUIFER = DTXLUIH. Similarly, P→S, E→H, R→U, M→P, E→H, A→D, B→E, I→L, L→O, I→L, T→W, Y→B, T→W, Y→B. PERMEABILITY = SHUPHPEDEOLULWBW. The closest option is B.",
       "estSec": 75,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Letter-to-letter coding pattern",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Letter Code</text><text x=\"160\" y=\"70\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3b82f6\" font-weight=\"bold\">A  B  C  D  E  F  G</text><text x=\"160\" y=\"90\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#f59e0b\">↓  ↓  ↓  ↓  ↓  ↓  ↓</text><text x=\"160\" y=\"115\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#ef4444\" font-weight=\"bold\">Z  Y  X  W  V  U  T</text><text x=\"240\" y=\"160\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#64748b\" text-anchor=\"middle\">Reverse cipher: A→Z, B→Y, ...</text></svg>"
+      }
     },
     {
       "id": 49,
@@ -1122,7 +1152,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "Seismograph : Earthquake :: Barometer : ?",
       "options": [
         "Wind speed",
@@ -1134,7 +1164,12 @@
       "solution": "A seismograph measures earthquakes; a barometer measures atmospheric pressure. The analogy is instrument : what it measures. Both are fundamental instruments in earth sciences for monitoring natural phenomena.",
       "estSec": 30,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Tool-function analogy",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Tool Analogy</text><text x=\"240\" y=\"70\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Pen : Write :: Knife : ?</text><text x=\"240\" y=\"110\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Pen → writes | Knife → cuts</text><text x=\"240\" y=\"150\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#ef4444\" text-anchor=\"middle\" font-weight=\"bold\">Answer: Cut</text></svg>"
+      }
     },
     {
       "id": 50,
@@ -1143,7 +1178,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "A line graph shows seismic velocity (km/s) in a borehole at various depths. What is the average velocity gradient between 500 m and 2000 m?",
       "figure": {
         "kind": "svg",
@@ -1169,7 +1204,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "stem": "If the distance between two seismograph stations is 300 km and the P-wave travel time is 50 seconds, what is the apparent velocity of the P-wave?",
       "options": [
         "5 km/s",
@@ -1181,7 +1216,12 @@
       "solution": "Apparent velocity = distance / time = 300 km / 50 s = 6 km/s. This is a typical crustal P-wave velocity for sedimentary to upper crustal rocks.",
       "estSec": 30,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Arithmetic operations BODMAS",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">BODMAS Rule</text><text x=\"240\" y=\"70\" font-family=\"sans-serif\" font-size=\"18\" fill=\"#3b82f6\" text-anchor=\"middle\" font-weight=\"bold\">+  −  ×  ÷  %</text><text x=\"240\" y=\"120\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Brackets → Orders → Divide/Multiply → Add/Subtract</text></svg>"
+      }
     },
     {
       "id": 52,
@@ -1190,7 +1230,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "stem": "A core sample has a wet mass of 2.5 kg, dry mass of 2.2 kg, and volume of 1000 cm³. What is the moisture content and bulk density?",
       "options": [
         "13.6%, 2.5 g/cm³",
@@ -1202,7 +1242,12 @@
       "solution": "Moisture content = (wet − dry) / dry × 100 = (2.5 − 2.2) / 2.2 × 100 = 0.3/2.2 × 100 = 13.6%. Bulk density = wet mass / volume = 2500 g / 1000 cm³ = 2.5 g/cm³.",
       "estSec": 60,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Arithmetic operations BODMAS",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">BODMAS Rule</text><text x=\"240\" y=\"70\" font-family=\"sans-serif\" font-size=\"18\" fill=\"#3b82f6\" text-anchor=\"middle\" font-weight=\"bold\">+  −  ×  ÷  %</text><text x=\"240\" y=\"120\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Brackets → Orders → Divide/Multiply → Add/Subtract</text></svg>"
+      }
     },
     {
       "id": 53,
@@ -1211,7 +1256,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "A monitoring well has a casing diameter of 15 cm. After pumping 500 litres of water, the water level drops by 2 m. What is the specific capacity of the well in litres per metre drawdown?",
       "options": [
         "125 L/m",
@@ -1223,7 +1268,12 @@
       "solution": "Specific capacity = Q / s = 500 litres / 2 m = 250 L/m. Specific capacity is a measure of well productivity and depends on aquifer transmissivity and well efficiency. Higher specific capacity indicates better well performance.",
       "estSec": 75,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Arithmetic operations BODMAS",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">BODMAS Rule</text><text x=\"240\" y=\"70\" font-family=\"sans-serif\" font-size=\"18\" fill=\"#3b82f6\" text-anchor=\"middle\" font-weight=\"bold\">+  −  ×  ÷  %</text><text x=\"240\" y=\"120\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Brackets → Orders → Divide/Multiply → Add/Subtract</text></svg>"
+      }
     },
     {
       "id": 54,
@@ -1244,7 +1294,12 @@
       "solution": "Each term is multiplied by 3: 2×3=6, 6×3=18, 18×3=54, 54×3=162. This is a geometric progression with first term 2 and common ratio 3.",
       "estSec": 30,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Fibonacci sequence",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Fibonacci Sequence</text><text x=\"240\" y=\"70\" font-family=\"sans-serif\" font-size=\"14\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">1, 1, 2, 3, 5, 8, ?</text><text x=\"240\" y=\"110\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#64748b\" text-anchor=\"middle\">Each = sum of previous two</text><text x=\"240\" y=\"150\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#ef4444\" text-anchor=\"middle\" font-weight=\"bold\">Answer: 13</text></svg>"
+      }
     },
     {
       "id": 55,
@@ -1265,7 +1320,12 @@
       "solution": "Net displacement: North 5 − 2 = 3 km North, East 3 km East. The geologist is 3 km North and 3 km East of the starting point, which is North-East direction at 45°.",
       "estSec": 45,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Cardinal directions compass",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Compass Rose</text><circle cx=\"240\" cy=\"110\" r=\"65\" fill=\"#f0f9ff\" stroke=\"#3b82f6\" stroke-width=\"2\"/><line x1=\"240\" y1=\"45\" x2=\"240\" y2=\"175\" stroke=\"#94a3b8\" stroke-width=\"1\"/><line x1=\"175\" y1=\"110\" x2=\"305\" y2=\"110\" stroke=\"#94a3b8\" stroke-width=\"1\"/><path d=\"M240,110 L270,70\" fill=\"none\" stroke=\"#ef4444\" stroke-width=\"2.5\"/><text x=\"240\" y=\"42\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#ef4444\" text-anchor=\"middle\" font-weight=\"bold\">N</text><text x=\"240\" y=\"185\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3b82f6\" text-anchor=\"middle\" font-weight=\"bold\">S</text><text x=\"315\" y=\"114\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#22c55e\" text-anchor=\"middle\" font-weight=\"bold\">E</text><text x=\"165\" y=\"114\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#f59e0b\" text-anchor=\"middle\" font-weight=\"bold\">W</text><text x=\"280\" y=\"65\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#ef4444\">NE</text></svg>"
+      }
     },
     {
       "id": 56,
@@ -1274,7 +1334,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "A reservoir has a surface area of 2 km². If the evaporation rate is 5 mm/day and the inflow from a stream is 10,000 m³/day, what is the net change in water volume per day?",
       "options": [
         "+10,000 m³/day",
@@ -1286,7 +1346,12 @@
       "solution": "Evaporation volume = 2 × 10⁶ m² × 0.005 m = 10,000 m³/day. Inflow = 10,000 m³/day. Net change = inflow − evaporation = 10,000 − 10,000 = 0 m³/day. The reservoir is in steady state with inflow balancing evaporation.",
       "estSec": 90,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Arithmetic operations BODMAS",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">BODMAS Rule</text><text x=\"240\" y=\"70\" font-family=\"sans-serif\" font-size=\"18\" fill=\"#3b82f6\" text-anchor=\"middle\" font-weight=\"bold\">+  −  ×  ÷  %</text><text x=\"240\" y=\"120\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Brackets → Orders → Divide/Multiply → Add/Subtract</text></svg>"
+      }
     },
     {
       "id": 57,
@@ -1295,7 +1360,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "stem": "Choose the word closest in meaning to 'POROUS':",
       "options": [
         "Dense",
@@ -1337,7 +1402,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "The aquifer's ________ was measured at 15 m/day, indicating it could supply water to the village well.",
       "options": [
         "Porosity",
@@ -1358,7 +1423,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "A pie chart shows the composition of a rock sample: Quartz 40%, Feldspar 30%, Mica 15%, Hornblende 10%, Others 5%. What percentage is felsic minerals (quartz + feldspar)?",
       "figure": {
         "kind": "svg",
@@ -1396,7 +1461,12 @@
       "solution": "Actual distance = map distance × scale = 8 cm × 50,000 = 400,000 cm = 4,000 m = 4 km.",
       "estSec": 30,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Arithmetic operations BODMAS",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">BODMAS Rule</text><text x=\"240\" y=\"70\" font-family=\"sans-serif\" font-size=\"18\" fill=\"#3b82f6\" text-anchor=\"middle\" font-weight=\"bold\">+  −  ×  ÷  %</text><text x=\"240\" y=\"120\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Brackets → Orders → Divide/Multiply → Add/Subtract</text></svg>"
+      }
     },
     {
       "id": 62,
@@ -1405,7 +1475,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "stem": "Choose the correct sentence: 'The geologist ________ the rock samples carefully before ________ the report.'",
       "options": [
         "examined, writing",
@@ -1426,7 +1496,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "In a certain code, GROUND is written as HRNQVE. How is EARTH written in that code?",
       "options": [
         "FSBSI",
@@ -1438,7 +1508,12 @@
       "solution": "Looking at the pattern: G→H (+1), R→R (0), O→N (−1), U→Q (−4), N→V (+8), D→E (+1). This doesn't follow a simple pattern. Let me try ROT-1: G→H, R→S, O→P, U→V, N→O, D→E gives HSPOVE, not HRNQVE. The actual cipher appears to be: each letter shifts by its position (+1, 0, −1, −4, +8, +1). Applying to EARTH: E→F (+1), A→S (−8), R→B (−16)... This is complex. The intended answer based on consistent +1 shift for E→F and consistent pattern is B (FSBTI).",
       "estSec": 90,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Letter-to-letter coding pattern",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Letter Code</text><text x=\"160\" y=\"70\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3b82f6\" font-weight=\"bold\">A  B  C  D  E  F  G</text><text x=\"160\" y=\"90\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#f59e0b\">↓  ↓  ↓  ↓  ↓  ↓  ↓</text><text x=\"160\" y=\"115\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#ef4444\" font-weight=\"bold\">Z  Y  X  W  V  U  T</text><text x=\"240\" y=\"160\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#64748b\" text-anchor=\"middle\">Reverse cipher: A→Z, B→Y, ...</text></svg>"
+      }
     },
     {
       "id": 64,
@@ -1480,426 +1555,431 @@
       "solution": "Hydraulic gradient i = (25 − 15) / 500 = 0.02. Darcy velocity q = Ki = 10 × 0.02 = 0.2 m/day. Seepage velocity v = q/n = 0.2 / 0.3 = 0.667 m/day. This doesn't match. Rechecking: if K = 100 m/day, q = 2 m/day, v = 6.67 m/day. The intended answer based on given values: v = Ki/n = 10 × 0.02 / 0.3 = 0.667 m/day. Closest to A (3.3 m/day) assuming K = 50 m/day.",
       "estSec": 90,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Arithmetic operations BODMAS",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">BODMAS Rule</text><text x=\"240\" y=\"70\" font-family=\"sans-serif\" font-size=\"18\" fill=\"#3b82f6\" text-anchor=\"middle\" font-weight=\"bold\">+  −  ×  ÷  %</text><text x=\"240\" y=\"120\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Brackets → Orders → Divide/Multiply → Add/Subtract</text></svg>"
+      }
     },
     {
       "id": 66,
       "subject": "General Awareness",
-      "topic": "Current Affairs · Energy",
+      "topic": "Current Affairs · PSU",
       "section": "GA",
       "type": "MCQ",
       "marks": 1,
       "difficulty": "easy",
-      "stem": "Which organization is the national oil and gas explorer and producer of India?",
+      "stem": "Which PSU recently achieved the milestone of 1 billion tonnes of crude oil production?",
       "options": [
-        "IOC",
         "BPCL",
+        "HPCL",
         "ONGC",
-        "GAIL"
+        "IOCL"
       ],
       "answer": 2,
-      "solution": "Oil and Natural Gas Corporation (ONGC) is India's largest crude oil and natural gas company, a Maharatna PSU. It was founded in 1956 and is headquartered in Vadodara, Gujarat. ONGC produces about 70% of India's crude oil.",
-      "estSec": 30,
-      "topicWeight": 0.125,
+      "solution": "ONGC achieved this milestone.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 67,
       "subject": "General Awareness",
-      "topic": "Current Affairs · Environment",
+      "topic": "Current Affairs · Defense",
       "section": "GA",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
-      "stem": "The Paris Agreement on climate change aims to limit global warming to well below which temperature above pre-industrial levels?",
+      "difficulty": "easy",
+      "stem": "India's indigenous aircraft carrier is:",
       "options": [
-        "1.0°C",
-        "1.5°C",
-        "2.0°C",
-        "3.0°C"
+        "INS Vikrant",
+        "INS Vikramaditya",
+        "INS Arighat",
+        "INS Arihant"
       ],
-      "answer": 1,
-      "solution": "The Paris Agreement (2015) aims to limit global warming to well below 2°C above pre-industrial levels, with efforts to limit it to 1.5°C. Current pledges put the world on track for approximately 2.5-2.8°C warming by 2100.",
-      "estSec": 45,
-      "topicWeight": 0.125,
+      "answer": 0,
+      "solution": "INS Vikrant is India's first indigenous aircraft carrier.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 68,
       "subject": "General Awareness",
-      "topic": "Geography · India",
+      "topic": "Current Affairs · Policy",
       "section": "GA",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
-      "stem": "Which Indian state has the highest number of operational oil refineries?",
+      "difficulty": "medium",
+      "stem": "The PLI scheme for semiconductor manufacturing was approved with an outlay of:",
       "options": [
-        "Gujarat",
-        "Maharashtra",
-        "Assam",
-        "Rajasthan"
+        "₹10,000 crore",
+        "₹25,000 crore",
+        "₹76,000 crore",
+        "₹1,00,000 crore"
       ],
-      "answer": 0,
-      "solution": "Gujarat has the highest number of operational oil refineries in India, including the Jamnagar refinery (Reliance Industries), which is the world's largest refining complex. Gujarat also has ONGC refineries at Ahmedabad and Koyali.",
-      "estSec": 30,
-      "topicWeight": 0.125,
+      "answer": 2,
+      "solution": "The PLI scheme for semiconductors has an outlay of ₹76,000 crore.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 69,
       "subject": "General Awareness",
-      "topic": "Current Affairs · Geology",
+      "topic": "Current Affairs · Infrastructure",
       "section": "GA",
       "type": "MCQ",
       "marks": 1,
       "difficulty": "medium",
-      "stem": "The geological survey of India (GSI) was established in which year?",
+      "stem": "India's first bullet train project connects which two cities?",
       "options": [
-        "1848",
-        "1851",
-        "1902",
-        "1950"
+        "Delhi-Mumbai",
+        "Mumbai-Ahmedabad",
+        "Chennai-Bangalore",
+        "Kolkata-Hyderabad"
       ],
       "answer": 1,
-      "solution": "The Geological Survey of India (GSI) was established in 1851. It is the premier national geoscientific organization under the Ministry of Mines. GSI conducts geological mapping, mineral exploration, and geohazard assessment across India.",
-      "estSec": 30,
-      "topicWeight": 0.125,
+      "solution": "The first bullet train project connects Mumbai and Ahmedabad.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 70,
       "subject": "General Awareness",
-      "topic": "Science & Technology",
+      "topic": "Current Affairs · Science",
       "section": "GA",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
-      "stem": "Which satellite mission is primarily used for ocean surface topography and sea surface temperature monitoring?",
+      "difficulty": "hard",
+      "stem": "ISRO's Gaganyaan mission aims to:",
       "options": [
-        "GSAT-11",
-        "Sentinel-6 Michael Freilich",
-        "Chandrayaan-2",
-        "CryoSat-2"
+        "Land on Moon",
+        "Send astronauts to space",
+        "Study the Sun",
+        "Explore Mars"
       ],
       "answer": 1,
-      "solution": "Sentinel-6 Michael Freilich is a radar altimetry satellite that measures sea surface topography with centimeter-level accuracy. It monitors sea level rise, ocean circulation, and climate patterns. It's a joint NASA-ESA mission launched in 2020.",
-      "estSec": 45,
-      "topicWeight": 0.125,
+      "solution": "Gaganyaan aims to send Indian astronauts (Gagannauts) to space.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 71,
       "subject": "General Awareness",
-      "topic": "Current Affairs · Disaster Management",
+      "topic": "Current Affairs · Economy",
       "section": "GA",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
-      "stem": "India's National Disaster Management Authority (NDMA) operates under which constitutional article?",
+      "difficulty": "hard",
+      "stem": "India's GDP growth rate for FY2025-26 is estimated at approximately:",
       "options": [
-        "Article 246",
-        "Article 253",
-        "Article 352",
-        "Article 370"
+        "5.5%",
+        "6.5%",
+        "7.5%",
+        "8.5%"
       ],
       "answer": 1,
-      "solution": "NDMA operates under Article 253 of the Indian Constitution, which empowers Parliament to make any law for implementing international treaties. The Disaster Management Act, 2005 was enacted under this provision. NDMA is chaired by the Prime Minister.",
-      "estSec": 30,
-      "topicWeight": 0.125,
+      "solution": "India's GDP growth for FY2025-26 is estimated at around 6.5%.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 72,
       "subject": "General Awareness",
-      "topic": "Geography · World",
+      "topic": "Static GK · Important Days",
       "section": "GA",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
-      "stem": "The Mariana Trench, the deepest oceanic trench on Earth, is located in which ocean?",
+      "difficulty": "easy",
+      "stem": "World Environment Day is celebrated on:",
       "options": [
-        "Atlantic Ocean",
-        "Indian Ocean",
-        "Pacific Ocean",
-        "Arctic Ocean"
+        "March 22",
+        "June 5",
+        "April 22",
+        "May 21"
       ],
-      "answer": 2,
-      "solution": "The Mariana Trench is located in the western Pacific Ocean, southeast of Guam. Its deepest point, Challenger Deep, reaches approximately 10,935 metres below sea level. It was formed by the subduction of the Pacific Plate beneath the Mariana Plate.",
-      "estSec": 30,
-      "topicWeight": 0.125,
+      "answer": 1,
+      "solution": "World Environment Day is celebrated on June 5th.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 73,
       "subject": "General Awareness",
-      "topic": "Current Affairs · Energy",
+      "topic": "Static GK · Geography",
       "section": "GA",
       "type": "MCQ",
       "marks": 1,
       "difficulty": "medium",
-      "stem": "India's target for installed renewable energy capacity by 2030 is:",
+      "stem": "The Tropic of Cancer passes through how many Indian states?",
       "options": [
-        "100 GW",
-        "250 GW",
-        "500 GW",
-        "1000 GW"
+        "6",
+        "7",
+        "8",
+        "9"
       ],
       "answer": 2,
-      "solution": "India has set a target of 500 GW of non-fossil-fuel electricity generation capacity by 2030 as part of its updated NDC (Nationally Determined Contributions) under the Paris Agreement. As of 2024, installed renewable capacity exceeds 180 GW.",
-      "estSec": 45,
-      "topicWeight": 0.125,
+      "solution": "Tropic of Cancer passes through 8 states.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 74,
       "subject": "General Awareness",
-      "topic": "Science & Technology",
+      "topic": "Static GK · Geography",
       "section": "GA",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
-      "stem": "The International Seismological Centre (ISC) maintains a global earthquake catalogue. The largest earthquake ever recorded was in which country?",
+      "difficulty": "medium",
+      "stem": "Which state has the longest coastline in India?",
       "options": [
-        "Japan",
-        "Chile",
-        "Alaska (USA)",
-        "Indonesia"
+        "Tamil Nadu",
+        "Andhra Pradesh",
+        "Gujarat",
+        "Kerala"
       ],
-      "answer": 1,
-      "solution": "The Great Chilean earthquake (Valdivia earthquake) of May 22, 1960 had a magnitude of 9.5 Mw, the largest ever recorded. It generated a Pacific-wide tsunami and caused significant damage across southern Chile. It was caused by the subduction of the Nazca Plate.",
-      "estSec": 45,
-      "topicWeight": 0.125,
+      "answer": 2,
+      "solution": "Gujarat has the longest coastline (1,600 km).",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 75,
       "subject": "General Awareness",
-      "topic": "Current Affairs · Mining",
+      "topic": "Static GK · Indian Polity",
       "section": "GA",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
-      "stem": "Which mineral is commonly used as a feedstock for cement production?",
+      "difficulty": "hard",
+      "stem": "Fundamental Duties were added by which Amendment?",
       "options": [
-        "Limestone",
-        "Bauxite",
-        "Iron ore",
-        "Manganese"
+        "42nd",
+        "44th",
+        "86th",
+        "91st"
       ],
-      "answer": 0,
-      "solution": "Limestone (CaCO₃) is the primary raw material for cement production. It is heated in a kiln to produce clinker (CaO), which is then ground with gypsum to make Portland cement. India is the second-largest cement producer globally.",
-      "estSec": 30,
-      "topicWeight": 0.125,
+      "answer": 2,
+      "solution": "Fundamental Duties were added by the 86th Amendment, 2002.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 76,
-      "subject": "English Language",
-      "topic": "Vocabulary · One-Word Substitution",
+      "subject": "English",
+      "topic": "English Language · Vocabulary",
       "section": "English",
       "type": "MCQ",
       "marks": 1,
       "difficulty": "medium",
-      "stem": "Choose the one-word substitution for 'the study of earthquakes':",
+      "stem": "What is the synonym of 'ephemeral'?",
       "options": [
-        "Volcanology",
-        "Seismology",
-        "Geomorphology",
-        "Oceanography"
+        "Permanent",
+        "Transient",
+        "Eternal",
+        "Stable"
       ],
       "answer": 1,
-      "solution": "Seismology is the scientific study of earthquakes and the propagation of seismic waves through the Earth. Volcanology studies volcanoes, geomorphology studies landforms, and oceanography studies the ocean.",
-      "estSec": 30,
-      "topicWeight": 0.125,
+      "solution": "Ephemeral means short-lived or transient.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 77,
-      "subject": "English Language",
-      "topic": "Grammar · Direct/Indirect Speech",
-      "section": "English",
-      "type": "MCQ",
-      "marks": 1,
-      "difficulty": "medium",
-      "stem": "Convert to indirect speech: 'The geologist said, \"The fault is active.\"'",
-      "options": [
-        "The geologist said that the fault is active.",
-        "The geologist said that the fault was active.",
-        "The geologist said that the fault has been active.",
-        "The geologist said that the fault had been active."
-      ],
-      "answer": 1,
-      "solution": "In indirect speech, the present tense 'is' changes to past tense 'was' (backshift rule). 'The geologist said that the fault was active.' The word 'that' is optional but recommended for clarity.",
-      "estSec": 45,
-      "topicWeight": 0.125,
-      "source": "curated"
-    },
-    {
-      "id": 78,
-      "subject": "English Language",
-      "topic": "Vocabulary · Synonyms",
-      "section": "English",
-      "type": "MCQ",
-      "marks": 1,
-      "difficulty": "easy",
-      "stem": "Choose the word closest in meaning to 'STRATUM':",
-      "options": [
-        "Mineral",
-        "Layer",
-        "Fault",
-        "Crater"
-      ],
-      "answer": 1,
-      "solution": "Stratum (plural: strata) refers to a single layer of sedimentary rock or soil. It is derived from the Latin word for 'layer' or 'sheet'. The concept is fundamental to stratigraphy—the study of rock layers and their sequences.",
-      "estSec": 30,
-      "topicWeight": 0.125,
-      "source": "curated"
-    },
-    {
-      "id": 79,
-      "subject": "English Language",
-      "topic": "Vocabulary · Antonyms",
-      "section": "English",
-      "type": "MCQ",
-      "marks": 1,
-      "difficulty": "medium",
-      "stem": "Choose the word opposite in meaning to 'EROSION':",
-      "options": [
-        "Deposition",
-        "Weathering",
-        "Corrasion",
-        "Abrasion"
-      ],
-      "answer": 0,
-      "solution": "Erosion is the removal and transport of rock/soil material. Deposition is the opposite process—the settling or accumulation of transported material. Weathering, corrasion, and abrasion are all related to erosional processes.",
-      "estSec": 30,
-      "topicWeight": 0.125,
-      "source": "curated"
-    },
-    {
-      "id": 80,
-      "subject": "English Language",
-      "topic": "Grammar · Tenses",
-      "section": "English",
-      "type": "MCQ",
-      "marks": 1,
-      "difficulty": "medium",
-      "stem": "Choose the correct form: 'The researchers ________ the core samples since last March.'",
-      "options": [
-        "analyse",
-        "have been analysing",
-        "are analysing",
-        "analysed"
-      ],
-      "answer": 1,
-      "solution": "The time marker 'since last March' indicates an action that started in the past and continues to the present, requiring the present perfect continuous tense: 'have been analysing'. This emphasizes the ongoing duration of the analysis.",
-      "estSec": 45,
-      "topicWeight": 0.125,
-      "source": "curated"
-    },
-    {
-      "id": 81,
-      "subject": "English Language",
-      "topic": "Grammar · Articles & Prepositions",
-      "section": "English",
-      "type": "MCQ",
-      "marks": 1,
-      "difficulty": "medium",
-      "stem": "Choose the correct sentence: 'The earthquake was caused ________ movement along ________ fault.'",
-      "options": [
-        "by, the",
-        "by, a",
-        "from, the",
-        "from, a"
-      ],
-      "answer": 1,
-      "solution": "The correct preposition is 'caused by' (passive voice). 'A fault' uses the indefinite article because it refers to an unspecified fault for the first time in the sentence. The correct answer is 'by, a'.",
-      "estSec": 45,
-      "topicWeight": 0.125,
-      "source": "curated"
-    },
-    {
-      "id": 82,
-      "subject": "English Language",
-      "topic": "Comprehension · Reading",
-      "section": "English",
-      "type": "MCQ",
-      "marks": 1,
-      "difficulty": "medium",
-      "stem": "Read the passage: 'The Deccan Traps, formed by massive volcanic eruptions approximately 66 million years ago, cover an area of 500,000 km² in western India. These flood basalts are thought to have contributed to the end-Cretaceous mass extinction.' What is the main idea of the passage?",
-      "options": [
-        "The geology of western India",
-        "The volcanic origin and impact of the Deccan Traps",
-        "The Cretaceous-Paleogene extinction event",
-        "Indian plate tectonics"
-      ],
-      "answer": 1,
-      "solution": "The passage focuses on the Deccan Traps—their formation, extent, and their possible role in the end-Cretaceous extinction. While it mentions India and the extinction event, the central theme is the volcanic origin and ecological impact of these flood basalts.",
-      "estSec": 60,
-      "topicWeight": 0.125,
-      "source": "curated"
-    },
-    {
-      "id": 83,
-      "subject": "English Language",
-      "topic": "Idioms & Phrases",
-      "section": "English",
-      "type": "MCQ",
-      "marks": 1,
-      "difficulty": "medium",
-      "stem": "What does the idiom 'a mine of information' mean?",
-      "options": [
-        "An abandoned mine used as a museum",
-        "A very rich source of knowledge or information",
-        "A dangerous place to work",
-        "A place where minerals are extracted"
-      ],
-      "answer": 1,
-      "solution": "'A mine of information' is an idiom meaning a person or source that contains a wealth of useful knowledge, like a mine that yields abundant minerals. It is used metaphorically to describe someone who knows a great deal about a subject.",
-      "estSec": 45,
-      "topicWeight": 0.125,
-      "source": "curated"
-    },
-    {
-      "id": 84,
-      "subject": "English Language",
-      "topic": "Grammar · Subject-Verb Agreement",
+      "subject": "English",
+      "topic": "English Language · Idioms",
       "section": "English",
       "type": "MCQ",
       "marks": 1,
       "difficulty": "hard",
-      "stem": "Choose the correct form: 'Neither the geologist nor the engineers ________ able to identify the rock type.'",
+      "stem": "What does 'break the ice' mean?",
       "options": [
-        "is",
-        "was",
-        "were",
-        "has been"
+        "Destroy ice",
+        "Initiate conversation",
+        "Cause trouble",
+        "End relationship"
       ],
-      "answer": 2,
-      "solution": "When 'neither...nor' connects two subjects, the verb agrees with the nearer subject ('engineers', which is plural). So the correct verb is 'were'. This rule applies to 'either...or', 'neither...nor', and 'not only...but also' constructions.",
-      "estSec": 60,
-      "topicWeight": 0.125,
+      "answer": 1,
+      "solution": "Break the ice means to initiate conversation in a social setting.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
-      "id": 85,
-      "subject": "English Language",
-      "topic": "Grammar · Conjunctions & Sentence Structure",
+      "id": 78,
+      "subject": "English",
+      "topic": "English Language · Grammar",
       "section": "English",
       "type": "MCQ",
       "marks": 1,
       "difficulty": "medium",
-      "stem": "Choose the sentence with correct punctuation and conjunction usage:",
+      "stem": "Choose the correct form: 'Neither he nor I ___ going.'",
       "options": [
-        "Although the seismic data was inconclusive; the team proceeded with drilling.",
-        "Although the seismic data was inconclusive, the team proceeded with drilling.",
-        "Although, the seismic data was inconclusive the team proceeded with drilling.",
-        "The seismic data was inconclusive, although; the team proceeded with drilling."
+        "is",
+        "am",
+        "are",
+        "was"
       ],
       "answer": 1,
-      "solution": "'Although' introduces a dependent clause that must be followed by a comma before the independent clause. Option B correctly punctuates: 'Although the seismic data was inconclusive, the team proceeded with drilling.' Semicolons are not used after dependent clauses introduced by subordinating conjunctions.",
-      "estSec": 60,
-      "topicWeight": 0.125,
+      "solution": "With 'neither...nor', the verb agrees with the nearer subject (I → am).",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 79,
+      "subject": "English",
+      "topic": "English Language · Vocabulary",
+      "section": "English",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "easy",
+      "stem": "What is the meaning of 'diligent'?",
+      "options": [
+        "Lazy",
+        "Hardworking",
+        "Careless",
+        "Slow"
+      ],
+      "answer": 1,
+      "solution": "Diligent means showing care and effort in one's work.",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 80,
+      "subject": "English",
+      "topic": "English Language · Grammar",
+      "section": "English",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "If I ___ known, I would have helped.",
+      "options": [
+        "have",
+        "had",
+        "would",
+        "did"
+      ],
+      "answer": 1,
+      "solution": "Third conditional: If + past perfect, would have + past participle.",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 81,
+      "subject": "English",
+      "topic": "English Language · Articles",
+      "section": "English",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "___ honest man always speaks the truth.",
+      "options": [
+        "A",
+        "An",
+        "The",
+        "No article"
+      ],
+      "answer": 1,
+      "solution": "'An' before words starting with silent 'h'.",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 82,
+      "subject": "English",
+      "topic": "English Language · Voice",
+      "section": "English",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "easy",
+      "stem": "Convert to passive: 'The committee approved the proposal.'",
+      "options": [
+        "The proposal was approved by the committee",
+        "The proposal is approved by the committee",
+        "The proposal has been approved by committee",
+        "The proposal were approved by the committee"
+      ],
+      "answer": 0,
+      "solution": "Past simple passive: was/were + past participle.",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 83,
+      "subject": "English",
+      "topic": "English Language · Grammar",
+      "section": "English",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "The manager, along with his team, ___ present at the meeting.",
+      "options": [
+        "were",
+        "are",
+        "was",
+        "have been"
+      ],
+      "answer": 2,
+      "solution": "When 'along with' is used, the verb agrees with the first subject (manager → was).",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 84,
+      "subject": "English",
+      "topic": "English Language · Prepositions",
+      "section": "English",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "She is proficient ___ English.",
+      "options": [
+        "on",
+        "at",
+        "in",
+        "of"
+      ],
+      "answer": 2,
+      "solution": "Proficient + in is the correct collocation.",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 85,
+      "subject": "English",
+      "topic": "English Language · Vocabulary",
+      "section": "English",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "What does 'candid' mean?",
+      "options": [
+        "Secretive",
+        "Frank and honest",
+        "Formal",
+        "Polite"
+      ],
+      "answer": 1,
+      "solution": "Candid means truthful and straightforward; frank.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     }
   ]

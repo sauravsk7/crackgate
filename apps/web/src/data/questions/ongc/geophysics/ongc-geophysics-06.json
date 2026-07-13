@@ -22,7 +22,7 @@
       "count": 10
     },
     {
-      "name": "English Language",
+      "name": "English",
       "count": 10
     }
   ],
@@ -34,7 +34,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "The Gutenberg discontinuity at approximately 2,900 km depth marks the boundary between which two layers of the Earth?",
       "options": [
         "Crust and upper mantle",
@@ -46,7 +46,12 @@
       "solution": "The Gutenberg discontinuity (G discontinuity) lies at ~2,900 km depth and separates the solid lower mantle (D'' layer) from the liquid outer core. At this boundary, P-wave velocity drops sharply from ~13.7 km/s to ~8.0 km/s, and S-waves disappear entirely, indicating the transition from a solid silicate mantle to a liquid iron-nickel outer core. The depth was first identified by Beno Gutenberg in 1914.",
       "estSec": 25,
       "topicWeight": 0.14,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Earth's density and velocity structure (PREM model) with major discontinuities",
+        "markup": "<svg viewBox=\"0 0 480 220\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"220\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" text-anchor=\"middle\" fill=\"#4f46e5\" font-weight=\"bold\" font-size=\"13\" font-family=\"sans-serif\">PREM: Density &amp; Velocity Structure</text><line x1=\"60\" y1=\"195\" x2=\"440\" y2=\"195\" stroke=\"#94a3b8\" stroke-width=\"1\"/><line x1=\"60\" y1=\"35\" x2=\"60\" y2=\"195\" stroke=\"#94a3b8\" stroke-width=\"1\"/><text x=\"250\" y=\"212\" text-anchor=\"middle\" fill=\"#64748b\" font-size=\"9\" font-family=\"sans-serif\">Depth (km)</text><text x=\"55\" y=\"42\" text-anchor=\"end\" fill=\"#64748b\" font-size=\"8\" font-family=\"sans-serif\">0</text><text x=\"55\" y=\"75\" text-anchor=\"end\" fill=\"#64748b\" font-size=\"8\" font-family=\"sans-serif\">2900</text><text x=\"55\" y=\"110\" text-anchor=\"end\" fill=\"#64748b\" font-size=\"8\" font-family=\"sans-serif\">4000</text><text x=\"55\" y=\"145\" text-anchor=\"end\" fill=\"#64748b\" font-size=\"8\" font-family=\"sans-serif\">5150</text><text x=\"55\" y=\"192\" text-anchor=\"end\" fill=\"#64748b\" font-size=\"8\" font-family=\"sans-serif\">6371</text><line x1=\"60\" y1=\"75\" x2=\"440\" y2=\"75\" stroke=\"#94a3b8\" stroke-width=\"0.5\" stroke-dasharray=\"3,3\"/><line x1=\"60\" y1=\"145\" x2=\"440\" y2=\"145\" stroke=\"#94a3b8\" stroke-width=\"0.5\" stroke-dasharray=\"3,3\"/><path d=\"M80,42 Q100,55 110,70 Q130,75 140,95 Q150,115 160,140 Q170,145 175,155 Q180,170 185,190\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"2\"/><path d=\"M200,42 Q230,55 250,70 Q280,75 300,95 Q320,115 340,140 Q350,145 355,155 Q360,170 365,190\" fill=\"none\" stroke=\"#f59e0b\" stroke-width=\"2\"/><text x=\"380\" y=\"55\" fill=\"#3b82f6\" font-size=\"10\" font-family=\"sans-serif\">Vp (P-wave)</text><text x=\"380\" y=\"75\" fill=\"#f59e0b\" font-size=\"10\" font-family=\"sans-serif\">Vs (S-wave)</text><text x=\"380\" y=\"100\" fill=\"#64748b\" font-size=\"9\" font-family=\"sans-serif\">Vs = 0 in outer core</text><text x=\"380\" y=\"118\" fill=\"#64748b\" font-size=\"9\" font-family=\"sans-serif\">(liquid iron)</text><text x=\"380\" y=\"140\" fill=\"#ef4444\" font-size=\"9\" font-family=\"sans-serif\">Gutenberg at 2900 km</text><text x=\"380\" y=\"158\" fill=\"#ef4444\" font-size=\"9\" font-family=\"sans-serif\">Lehmann at 5150 km</text></svg>"
+      }
     },
     {
       "id": 2,
@@ -55,7 +60,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "According to the Airy hypothesis of isostasy, mountain ranges have deep crustal 'roots' that extend into the denser mantle. If the crustal density is 2,670 kg/m³ and the mantle density is 3,300 kg/m³, what is the approximate depth of the crustal root beneath a mountain with 4 km of surface elevation above the surrounding plain?",
       "options": [
         "8 km",
@@ -67,7 +72,12 @@
       "solution": "Using the Airy isostasy model, the depth of the root (r) is related to the surface elevation (h) by the relationship: r = h × ρ_mantle / (ρ_mantle − ρ_crust). Here, h = 4 km, ρ_mantle = 3,300, ρ_crust = 2,670. So r = 4 × 3300 / (3300 − 2670) = 4 × 3300 / 630 = 4 × 5.238 ≈ 21 km. This shows that for every kilometre of elevation above the plain, approximately 5.2 km of root extends below the normal crustal thickness — a direct consequence of the density contrast between crust and mantle.",
       "estSec": 30,
       "topicWeight": 0.14,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Airy isostasy model showing crustal roots compensating surface topography",
+        "markup": "<svg viewBox=\"0 0 480 220\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"220\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" text-anchor=\"middle\" fill=\"#4f46e5\" font-weight=\"bold\" font-size=\"13\" font-family=\"sans-serif\">Airy Isostasy — Crustal Roots</text><line x1=\"20\" y1=\"120\" x2=\"460\" y2=\"120\" stroke=\"#94a3b8\" stroke-width=\"1\" stroke-dasharray=\"4,3\"/><text x=\"465\" y=\"124\" fill=\"#64748b\" font-size=\"9\" font-family=\"sans-serif\">Sea level</text><rect x=\"100\" y=\"50\" width=\"120\" height=\"70\" fill=\"#f59e0b\" opacity=\"0.6\" rx=\"2\"/><text x=\"160\" y=\"90\" text-anchor=\"middle\" fill=\"#fff\" font-size=\"10\" font-family=\"sans-serif\">Mountain</text><rect x=\"100\" y=\"120\" width=\"120\" height=\"60\" fill=\"#3b82f6\" opacity=\"0.5\" rx=\"2\"/><text x=\"160\" y=\"155\" text-anchor=\"middle\" fill=\"#fff\" font-size=\"9\" font-family=\"sans-serif\">Crustal root</text><rect x=\"300\" y=\"100\" width=\"120\" height=\"20\" fill=\"#f59e0b\" opacity=\"0.6\" rx=\"2\"/><text x=\"360\" y=\"114\" text-anchor=\"middle\" fill=\"#fff\" font-size=\"10\" font-family=\"sans-serif\">Plain</text><rect x=\"300\" y=\"120\" width=\"120\" height=\"25\" fill=\"#3b82f6\" opacity=\"0.5\" rx=\"2\"/><text x=\"360\" y=\"138\" text-anchor=\"middle\" fill=\"#fff\" font-size=\"9\" font-family=\"sans-serif\">Normal crust</text><text x=\"240\" y=\"208\" text-anchor=\"middle\" fill=\"#64748b\" font-size=\"10\" font-family=\"sans-serif\">r = h × ρ_m / (ρ_m − ρ_c) → 1 km elevation ≈ 5.2 km root</text></svg>"
+      }
     },
     {
       "id": 3,
@@ -76,7 +86,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "In the context of absolute plate motion models, the no-net-rotation (NNR) reference frame and the hotspot reference frame sometimes yield different apparent polar wander paths. Which of the following best explains why the NNR frame may not represent true absolute motion?",
       "options": [
         "Hotspots are fixed relative to the spin axis, making them unreliable reference points",
@@ -97,7 +107,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "stem": "The World Geodetic System 1984 (WGS 84) defines a reference ellipsoid with a semi-major axis of 6,378,137.0 m and a flattening of 1/298.257223563. What does the flattening parameter physically represent?",
       "options": [
         "The ratio of the polar radius to the equatorial radius",
@@ -118,7 +128,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "In Differential GPS (DGPS), a reference station at a known location broadcasts corrections to mobile receivers. Which of the following error sources is MOST effectively reduced by DGPS?",
       "options": [
         "Multipath interference at the receiver antenna",
@@ -139,7 +149,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "The geoid undulation N is defined as the separation between the geoid and the reference ellipsoid. If the GPS-derived ellipsoidal height h = 850 m and the orthometric height H = 810 m at a station, what is the geoid undulation N?",
       "options": [
         "-40 m",
@@ -202,7 +212,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "In a first-motion focal mechanism solution (beach ball diagram), the two nodal planes separate compressional (up) first motions from dilatational (down) first motions. For a pure strike-slip earthquake on a vertical fault striking N45°E with right-lateral motion, which of the following correctly describes the orientation of the two nodal planes?",
       "options": [
         "Plane 1: N45°E/vertical (strike-slip), Plane 2: N45°W/vertical (strike-slip)",
@@ -223,7 +233,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "stem": "Laplace's equation ∇²V = 0 is satisfied by the gravitational potential in source-free regions. Which of the following conditions is necessary and sufficient for a function V(x, y, z) to be a valid solution to Laplace's equation in a simply connected domain?",
       "options": [
         "V must be harmonic, i.e., it has continuous second partial derivatives and satisfies ∇²V = 0 everywhere in the domain",
@@ -256,7 +266,12 @@
       "solution": "Green's third identity (a consequence of Green's theorem and the divergence theorem) expresses the potential V at any point as a combination of surface integrals involving V and ∂V/∂n on a closed surface S, plus a volume integral of the source density. In geophysics, this is fundamental to boundary-value formulations: given measured field data on a surface (e.g., gravity measurements on the Earth's surface), the identity relates these measurements to the subsurface density distribution. It forms the mathematical basis for upward/downward continuation, equivalent source techniques, and the connection between surface observations and subsurface sources.",
       "estSec": 30,
       "topicWeight": 0.14,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Spherical harmonic expansion of the geomagnetic field showing dipole components",
+        "markup": "<svg viewBox=\"0 0 480 220\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"220\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" text-anchor=\"middle\" fill=\"#4f46e5\" font-weight=\"bold\" font-size=\"13\" font-family=\"sans-serif\">Spherical Harmonics — Geomagnetic Field</text><circle cx=\"120\" cy=\"120\" r=\"70\" fill=\"#e2e8f0\" stroke=\"#94a3b8\" stroke-width=\"1\"/><line x1=\"120\" y1=\"50\" x2=\"120\" y2=\"190\" stroke=\"#94a3b8\" stroke-width=\"0.5\" stroke-dasharray=\"3,3\"/><path d=\"M100,80 Q120,60 140,80\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"2\"/><path d=\"M100,160 Q120,180 140,160\" fill=\"none\" stroke=\"#ef4444\" stroke-width=\"2\"/><text x=\"155\" y=\"75\" fill=\"#3b82f6\" font-size=\"9\" font-family=\"sans-serif\">N pole</text><text x=\"155\" y=\"170\" fill=\"#ef4444\" font-size=\"9\" font-family=\"sans-serif\">S pole</text><text x=\"280\" y=\"55\" fill=\"#4f46e5\" font-size=\"10\" font-family=\"sans-serif\">B(r,θ,λ) = Σ gₙᵐ cos(mλ)</text><text x=\"280\" y=\"75\" fill=\"#4f46e5\" font-size=\"10\" font-family=\"sans-serif\">         + hₙᵐ sin(mλ)) Pₙᵐ(cos θ)</text><text x=\"280\" y=\"105\" fill=\"#3b82f6\" font-size=\"10\" font-family=\"sans-serif\">n=1: Dipole (80% of field)</text><text x=\"280\" y=\"128\" fill=\"#f59e0b\" font-size=\"10\" font-family=\"sans-serif\">n=2-13: Non-dipole features</text><text x=\"280\" y=\"155\" fill=\"#64748b\" font-size=\"10\" font-family=\"sans-serif\">g₁⁰ = -29,404 nT</text><text x=\"280\" y=\"178\" fill=\"#64748b\" font-size=\"10\" font-family=\"sans-serif\">IGRF: degree 13 → 195 coefficients</text><text x=\"280\" y=\"200\" fill=\"#f59e0b\" font-size=\"10\" font-family=\"sans-serif\">→ Secular variation: ~100 nT/yr</text></svg>"
+      }
     },
     {
       "id": 12,
@@ -265,7 +280,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "The Helmholtz equation (∇² + k²)ψ = 0 is the time-harmonic form of the wave equation. In electromagnetic methods, the wavenumber k is complex: k = ω√(με − iμσ/ω). For a highly conducting medium where σ/(ωε) >> 1, the imaginary part of k dominates. What is the physical consequence of this dominance?",
       "options": [
         "The wave propagates without attenuation",
@@ -286,7 +301,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "A LaCoste-Romberg gravimeter measures the relative difference in gravitational acceleration between two points. What is the primary physical principle used in this instrument?",
       "options": [
         "Measuring the period of a pendulum",
@@ -307,7 +322,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "stem": "The Bouguer gravity anomaly is obtained by applying the free-air correction, the Bouguer slab correction, and the terrain correction to the observed gravity. In a mountainous region, the terrain correction is always:",
       "options": [
         "Negative, because nearby mountains increase the observed gravity",
@@ -319,7 +334,12 @@
       "solution": "The terrain correction accounts for the gravitational effect of topographic deviations from the flat Bouguer slab model. Terrain higher than the station attracts the gravimeter upward, reducing the vertical component of gravity (negative effect that must be corrected positively). Terrain lower than the station represents mass deficiency relative to the slab (also requiring a positive correction). In practice, the terrain correction is ALWAYS positive because both mountains above and valleys below the station produce effects that reduce the measured gravity relative to the Bouguer slab model. This is because: (1) elevated terrain pulls horizontally on the mass, reducing the vertical component, and (2) missing mass in valleys removes a positive vertical contribution.",
       "estSec": 30,
       "topicWeight": 0.14,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Bouguer gravity anomaly profile over a sedimentary basin",
+        "markup": "<svg viewBox=\"0 0 480 220\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"220\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" text-anchor=\"middle\" fill=\"#4f46e5\" font-weight=\"bold\" font-size=\"13\" font-family=\"sans-serif\">Bouguer Anomaly Profile over Basin</text><line x1=\"50\" y1=\"190\" x2=\"440\" y2=\"190\" stroke=\"#94a3b8\" stroke-width=\"1\"/><line x1=\"50\" y1=\"30\" x2=\"50\" y2=\"190\" stroke=\"#94a3b8\" stroke-width=\"1\"/><text x=\"25\" y=\"115\" fill=\"#64748b\" font-size=\"9\" font-family=\"sans-serif\" transform=\"rotate(-90,25,115)\">Gravity (mGal)</text><text x=\"240\" y=\"208\" text-anchor=\"middle\" fill=\"#64748b\" font-size=\"9\" font-family=\"sans-serif\">Distance (km)</text><text x=\"48\" y=\"42\" fill=\"#64748b\" font-size=\"8\" font-family=\"sans-serif\">+20</text><text x=\"48\" y=\"100\" fill=\"#64748b\" font-size=\"8\" font-family=\"sans-serif\">0</text><text x=\"42\" y=\"185\" fill=\"#64748b\" font-size=\"8\" font-family=\"sans-serif\">-40</text><path d=\"M60,65 Q120,60 180,90 Q240,160 300,150 Q360,80 420,70\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"2.5\"/><path d=\"M60,70 Q120,68 180,95 Q240,155 300,148 Q360,85 420,75\" fill=\"none\" stroke=\"#f59e0b\" stroke-width=\"2\" stroke-dasharray=\"6,3\"/><rect x=\"160\" y=\"135\" width=\"120\" height=\"55\" fill=\"#94a3b8\" opacity=\"0.3\" rx=\"2\"/><text x=\"220\" y=\"168\" text-anchor=\"middle\" fill=\"#64748b\" font-size=\"9\" font-family=\"sans-serif\">Sedimentary basin</text><line x1=\"330\" y1=\"38\" x2=\"330\" y2=\"50\" stroke=\"#3b82f6\" stroke-width=\"2\"/><text x=\"345\" y=\"46\" fill=\"#3b82f6\" font-size=\"9\" font-family=\"sans-serif\">Free-air</text><line x1=\"330\" y1=\"56\" x2=\"330\" y2=\"68\" stroke=\"#f59e0b\" stroke-width=\"2\" stroke-dasharray=\"4,2\"/><text x=\"345\" y=\"64\" fill=\"#f59e0b\" font-size=\"9\" font-family=\"sans-serif\">Bouguer</text></svg>"
+      }
     },
     {
       "id": 15,
@@ -349,7 +369,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "stem": "The magnetic susceptibility (κ) of a rock quantifies its ability to become magnetized in an applied magnetic field. Which of the following minerals has the highest magnetic susceptibility and dominates the magnetic properties of most igneous rocks?",
       "options": [
         "Quartz",
@@ -391,7 +411,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "stem": "Euler deconvolution is used to estimate the location and depth of magnetic (or gravity) sources. The structural index (N) in Euler's equation determines the type of source body being modeled. What is the structural index for a sphere (approximating a compact, equidimensional body)?",
       "options": [
         "N = 0 (for a contact or step)",
@@ -412,7 +432,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
+      "difficulty": "hard",
       "stem": "In a Wenner electrode configuration for DC resistivity surveying, four electrodes are placed in a line with equal spacing 'a' between adjacent electrodes. What is the formula for apparent resistivity (ρ_a) in terms of the measured voltage (ΔV) and current (I)?",
       "options": [
         "ρ_a = 2πa × (ΔV/I)",
@@ -424,7 +444,12 @@
       "solution": "For the Wenner array with equal electrode spacing a, the geometric factor K = 2πa. The apparent resistivity is ρ_a = K × (ΔV/I) = 2πa(ΔV/I). This is derived from the potential distribution due to point current sources on the surface of a homogeneous half-space: V = (ρI)/(2πr) for each current electrode, with appropriate signs for the two current electrodes and measurement between the two potential electrodes. The Wenner array has high signal-to-noise ratio and good vertical resolution but requires all four electrodes to be moved for each measurement point.",
       "estSec": 25,
       "topicWeight": 0.14,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "DC resistivity electrode arrays: Wenner, Schlumberger, and dipole-dipole configurations",
+        "markup": "<svg viewBox=\"0 0 480 220\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"220\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"18\" text-anchor=\"middle\" fill=\"#4f46e5\" font-weight=\"bold\" font-size=\"13\" font-family=\"sans-serif\">DC Resistivity Electrode Arrays</text><line x1=\"30\" y1=\"70\" x2=\"200\" y2=\"70\" stroke=\"#94a3b8\" stroke-width=\"1\"/><circle cx=\"50\" cy=\"70\" r=\"6\" fill=\"#3b82f6\"/><text x=\"50\" y=\"62\" text-anchor=\"middle\" fill=\"#3b82f6\" font-size=\"8\" font-family=\"sans-serif\">C₁</text><circle cx=\"90\" cy=\"70\" r=\"6\" fill=\"#f59e0b\"/><text x=\"90\" y=\"62\" text-anchor=\"middle\" fill=\"#f59e0b\" font-size=\"8\" font-family=\"sans-serif\">P₁</text><circle cx=\"130\" cy=\"70\" r=\"6\" fill=\"#f59e0b\"/><text x=\"130\" y=\"62\" text-anchor=\"middle\" fill=\"#f59e0b\" font-size=\"8\" font-family=\"sans-serif\">P₂</text><circle cx=\"170\" cy=\"70\" r=\"6\" fill=\"#3b82f6\"/><text x=\"170\" y=\"62\" text-anchor=\"middle\" fill=\"#3b82f6\" font-size=\"8\" font-family=\"sans-serif\">C₂</text><text x=\"115\" y=\"92\" text-anchor=\"middle\" fill=\"#4f46e5\" font-size=\"10\" font-weight=\"bold\" font-family=\"sans-serif\">Wenner</text><line x1=\"240\" y1=\"70\" x2=\"460\" y2=\"70\" stroke=\"#94a3b8\" stroke-width=\"1\"/><circle cx=\"260\" cy=\"70\" r=\"6\" fill=\"#3b82f6\"/><text x=\"260\" y=\"62\" text-anchor=\"middle\" fill=\"#3b82f6\" font-size=\"8\" font-family=\"sans-serif\">C₁</text><circle cx=\"310\" cy=\"70\" r=\"6\" fill=\"#f59e0b\"/><text x=\"310\" y=\"62\" text-anchor=\"middle\" fill=\"#f59e0b\" font-size=\"8\" font-family=\"sans-serif\">P₁</text><circle cx=\"370\" cy=\"70\" r=\"6\" fill=\"#f59e0b\"/><text x=\"370\" y=\"62\" text-anchor=\"middle\" fill=\"#f59e0b\" font-size=\"8\" font-family=\"sans-serif\">P₂</text><circle cx=\"440\" cy=\"70\" r=\"6\" fill=\"#3b82f6\"/><text x=\"440\" y=\"62\" text-anchor=\"middle\" fill=\"#3b82f6\" font-size=\"8\" font-family=\"sans-serif\">C₂</text><text x=\"350\" y=\"92\" text-anchor=\"middle\" fill=\"#4f46e5\" font-size=\"10\" font-weight=\"bold\" font-family=\"sans-serif\">Schlumberger</text><line x1=\"30\" y1=\"145\" x2=\"200\" y2=\"145\" stroke=\"#94a3b8\" stroke-width=\"1\"/><circle cx=\"50\" cy=\"145\" r=\"6\" fill=\"#3b82f6\"/><text x=\"50\" y=\"137\" text-anchor=\"middle\" fill=\"#3b82f6\" font-size=\"8\" font-family=\"sans-serif\">C₁</text><circle cx=\"80\" cy=\"145\" r=\"6\" fill=\"#f59e0b\"/><text x=\"80\" y=\"137\" text-anchor=\"middle\" fill=\"#f59e0b\" font-size=\"8\" font-family=\"sans-serif\">P₁</text><circle cx=\"150\" cy=\"145\" r=\"6\" fill=\"#f59e0b\"/><text x=\"150\" y=\"137\" text-anchor=\"middle\" fill=\"#f59e0b\" font-size=\"8\" font-family=\"sans-serif\">P₂</text><circle cx=\"180\" cy=\"145\" r=\"6\" fill=\"#3b82f6\"/><text x=\"180\" y=\"137\" text-anchor=\"middle\" fill=\"#3b82f6\" font-size=\"8\" font-family=\"sans-serif\">C₂</text><text x=\"115\" y=\"168\" text-anchor=\"middle\" fill=\"#4f46e5\" font-size=\"10\" font-weight=\"bold\" font-family=\"sans-serif\">Dipole-Dipole</text><text x=\"350\" y=\"130\" fill=\"#64748b\" font-size=\"10\" font-family=\"sans-serif\">Blue = current (C) electrodes</text><text x=\"350\" y=\"150\" fill=\"#64748b\" font-size=\"10\" font-family=\"sans-serif\">Amber = potential (P) electrodes</text><text x=\"350\" y=\"175\" fill=\"#f59e0b\" font-size=\"10\" font-family=\"sans-serif\">ρ_a = K × ΔV / I</text><text x=\"350\" y=\"195\" fill=\"#64748b\" font-size=\"10\" font-family=\"sans-serif\">K = geometric factor</text></svg>"
+      }
     },
     {
       "id": 20,
@@ -433,7 +458,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "stem": "Induced Polarization (IP) measurements in time-domain mode record the voltage decay after the transmitted current is switched off. The chargeability (m) is defined as the ratio of the integral of the decay voltage to the primary voltage. IP effects are most pronounced in rocks containing:",
       "options": [
         "Quartz and feldspar, due to their high electrical resistance",
@@ -454,7 +479,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "The Dar-Zarrouk parameters — longitudinal conductance (S = σt) and transverse resistance (T = ρt) — are used to characterize layered earth models. For a thin conductive layer at depth, which parameter is more sensitive to the layer's presence in a vertical electrical sounding (VES)?",
       "options": [
         "Longitudinal conductance S, because current preferentially flows through conductive layers",
@@ -487,7 +512,12 @@
       "solution": "The skin depth is given by δ = √(2ρ/(ωμ)) = √(ρ/(πfμ)), where ρ is resistivity, ω = 2πf is angular frequency, f is frequency, and μ is magnetic permeability. Since δ ∝ 1/√f, doubling the frequency (f → 2f) changes δ by a factor of 1/√2 ≈ 0.707. So the skin depth decreases by a factor of √2. This inverse-square-root relationship between skin depth and frequency is fundamental to frequency-domain EM methods — lower frequencies penetrate deeper, providing information about deeper structures.",
       "estSec": 25,
       "topicWeight": 0.14,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Electromagnetic skin depth showing exponential field attenuation in conductive media",
+        "markup": "<svg viewBox=\"0 0 480 220\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"220\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" text-anchor=\"middle\" fill=\"#4f46e5\" font-weight=\"bold\" font-size=\"13\" font-family=\"sans-serif\">EM Skin Depth Penetration</text><line x1=\"60\" y1=\"40\" x2=\"60\" y2=\"195\" stroke=\"#94a3b8\" stroke-width=\"1\"/><line x1=\"60\" y1=\"40\" x2=\"250\" y2=\"40\" stroke=\"#94a3b8\" stroke-width=\"1\"/><text x=\"55\" y=\"50\" text-anchor=\"end\" fill=\"#64748b\" font-size=\"9\" font-family=\"sans-serif\">0</text><text x=\"55\" y=\"100\" text-anchor=\"end\" fill=\"#64748b\" font-size=\"9\" font-family=\"sans-serif\">δ</text><text x=\"55\" y=\"145\" text-anchor=\"end\" fill=\"#64748b\" font-size=\"9\" font-family=\"sans-serif\">2δ</text><text x=\"55\" y=\"190\" text-anchor=\"end\" fill=\"#64748b\" font-size=\"9\" font-family=\"sans-serif\">3δ</text><path d=\"M60,40 Q100,42 140,55 Q180,80 200,110 Q220,150 230,190\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"2.5\"/><rect x=\"270\" y=\"42\" width=\"180\" height=\"150\" fill=\"#f59e0b\" opacity=\"0.1\" rx=\"4\"/><text x=\"360\" y=\"62\" text-anchor=\"middle\" fill=\"#4f46e5\" font-size=\"10\" font-family=\"sans-serif\">δ = √(2ρ / ωμ)</text><text x=\"360\" y=\"85\" text-anchor=\"middle\" fill=\"#64748b\" font-size=\"9\" font-family=\"sans-serif\">δ = skin depth</text><text x=\"360\" y=\"102\" text-anchor=\"middle\" fill=\"#64748b\" font-size=\"9\" font-family=\"sans-serif\">ρ = resistivity</text><text x=\"360\" y=\"119\" text-anchor=\"middle\" fill=\"#64748b\" font-size=\"9\" font-family=\"sans-serif\">ω = angular frequency</text><text x=\"360\" y=\"136\" text-anchor=\"middle\" fill=\"#64748b\" font-size=\"9\" font-family=\"sans-serif\">μ = permeability</text><text x=\"360\" y=\"158\" text-anchor=\"middle\" fill=\"#f59e0b\" font-size=\"10\" font-family=\"sans-serif\">Field ∝ e^(−z/δ)</text><text x=\"360\" y=\"178\" text-anchor=\"middle\" fill=\"#64748b\" font-size=\"9\" font-family=\"sans-serif\">At z = δ, amplitude = 37%</text></svg>"
+      }
     },
     {
       "id": 23,
@@ -508,7 +538,12 @@
       "solution": "For a uniform half-space, the MT impedance is Z = √(iωμρ/2) = √(ωμρ/2) × e^(iπ/4). The phase of Z is π/4 = 45°. This is a fundamental result: for a uniform Earth, the electric and magnetic fields are 45° out of phase. For a layered Earth, the phase deviates from 45° — phases greater than 45° indicate increasing conductivity with depth (approaching 90° for a perfect conductor), while phases less than 45° indicate decreasing conductivity with depth (approaching 0° for a perfect insulator). The phase is often more diagnostic than apparent resistivity for identifying conductivity boundaries.",
       "estSec": 30,
       "topicWeight": 0.14,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Magnetotelluric impedance phase and apparent resistivity sounding curve",
+        "markup": "<svg viewBox=\"0 0 480 220\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"220\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" text-anchor=\"middle\" fill=\"#4f46e5\" font-weight=\"bold\" font-size=\"13\" font-family=\"sans-serif\">Magnetotelluric Impedance Phase</text><line x1=\"60\" y1=\"190\" x2=\"440\" y2=\"190\" stroke=\"#94a3b8\" stroke-width=\"1\"/><line x1=\"60\" y1=\"35\" x2=\"60\" y2=\"190\" stroke=\"#94a3b8\" stroke-width=\"1\"/><text x=\"250\" y=\"210\" text-anchor=\"middle\" fill=\"#64748b\" font-size=\"9\" font-family=\"sans-serif\">Period T (s) — log scale</text><line x1=\"60\" y1=\"110\" x2=\"440\" y2=\"110\" stroke=\"#94a3b8\" stroke-width=\"0.5\" stroke-dasharray=\"3,3\"/><text x=\"55\" y=\"45\" text-anchor=\"end\" fill=\"#64748b\" font-size=\"8\" font-family=\"sans-serif\">90°</text><text x=\"55\" y=\"80\" text-anchor=\"end\" fill=\"#64748b\" font-size=\"8\" font-family=\"sans-serif\">60°</text><text x=\"55\" y=\"115\" text-anchor=\"end\" fill=\"#64748b\" font-size=\"8\" font-family=\"sans-serif\">45°</text><text x=\"55\" y=\"150\" text-anchor=\"end\" fill=\"#64748b\" font-size=\"8\" font-family=\"sans-serif\">30°</text><text x=\"55\" y=\"188\" text-anchor=\"end\" fill=\"#64748b\" font-size=\"8\" font-family=\"sans-serif\">0°</text><path d=\"M70,110 Q120,108 170,100 Q220,70 270,50 Q320,55 370,90 Q420,108 435,110\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"2.5\"/><path d=\"M70,110 Q120,112 170,120 Q220,150 270,165 Q320,160 370,135 Q420,112 435,110\" fill=\"none\" stroke=\"#f59e0b\" stroke-width=\"2.5\" stroke-dasharray=\"6,3\"/><text x=\"280\" y=\"45\" fill=\"#3b82f6\" font-size=\"10\" font-family=\"sans-serif\">φ (phase)</text><text x=\"280\" y=\"175\" fill=\"#f59e0b\" font-size=\"10\" font-family=\"sans-serif\">|Z| (impedance)</text><text x=\"350\" y=\"198\" fill=\"#64748b\" font-size=\"10\" font-family=\"sans-serif\">Phase = 45° → half-space</text></svg>"
+      }
     },
     {
       "id": 24,
@@ -538,7 +573,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "stem": "In Common Mid-Point (CMP) seismic acquisition, multiple source-receiver pairs share the same midpoint location but have different offsets. What is the primary advantage of CMP stacking?",
       "options": [
         "It eliminates the need for static corrections",
@@ -580,7 +615,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "stem": "Amplitude Variation with Offset (AVO) analysis uses the Zoeppritz equations to relate reflection coefficient to angle of incidence. In a Class III AVO anomaly (bright spot), a gas-sand layer has lower impedance than the overlying shale. How does the reflection coefficient typically behave as the incidence angle increases from 0° to 30°?",
       "options": [
         "The magnitude of the negative reflection coefficient decreases with increasing angle",
@@ -622,7 +657,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "Archie's equation relates the formation factor (F = R₀/R_w) to porosity (φ) as F = a/φᵐ, where a is the tortuosity factor and m is the cementation exponent. For a well-cemented sandstone with intergranular porosity, typical values are a ≈ 1 and m ≈ 2. If such a sandstone has 20% porosity and R_w = 0.05 Ω·m, what is the formation factor F?",
       "options": [
         "5",
@@ -706,7 +741,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "The Hilbert transform of a real signal x(t) produces a phase-shifted version x̂(t) that is 90° out of phase at all frequencies. The analytic signal z(t) = x(t) + ix̂(t) is used in seismic attribute analysis. What physical quantity does |z(t)| represent?",
       "options": [
         "The instantaneous frequency of the signal",
@@ -718,7 +753,12 @@
       "solution": "The analytic signal z(t) = x(t) + ix̂(t) has modulus |z(t)| = √(x²(t) + x̂²(t)), which is the instantaneous amplitude or envelope of the signal. The instantaneous phase is φ(t) = arctan(x̂(t)/x(t)), and the instantaneous frequency is f(t) = (1/2π)dφ/dt. The envelope |z(t)| is particularly useful in seismic attribute analysis because it highlights bright spots (hydrocarbon indicators), unconformities, and stratigraphic features. It is always positive and smooth, unlike the oscillating raw signal. The envelope is computed by applying the Hilbert transform (a 90° phase shifter implemented as a convolution with 1/(πt)) to each trace.",
       "estSec": 30,
       "topicWeight": 0.14,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Seismic trace display showing wiggle traces with variable area fill",
+        "markup": "<svg viewBox=\"0 0 480 220\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"220\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" text-anchor=\"middle\" fill=\"#4f46e5\" font-weight=\"bold\" font-size=\"13\" font-family=\"sans-serif\">Seismic Trace / Wiggle Display</text><line x1=\"80\" y1=\"35\" x2=\"80\" y2=\"200\" stroke=\"#94a3b8\" stroke-width=\"1\"/><line x1=\"80\" y1=\"115\" x2=\"440\" y2=\"115\" stroke=\"#94a3b8\" stroke-width=\"0.5\" stroke-dasharray=\"3,3\"/><text x=\"75\" y=\"42\" text-anchor=\"end\" fill=\"#64748b\" font-size=\"8\" font-family=\"sans-serif\">0 s</text><text x=\"75\" y=\"200\" text-anchor=\"end\" fill=\"#64748b\" font-size=\"8\" font-family=\"sans-serif\">2.0 s</text><text x=\"40\" y=\"120\" fill=\"#64748b\" font-size=\"9\" font-family=\"sans-serif\">TWT</text><g transform=\"translate(120,35)\"><path d=\"M0,0 Q5,10 0,20 Q-5,35 0,50 Q8,65 0,80 Q-10,95 0,110 Q6,125 0,140 Q-4,155 0,165\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"1.5\"/><path d=\"M0,50 Q8,65 0,80 L0,50 Z\" fill=\"#4f46e5\"/><path d=\"M0,110 Q6,125 0,140 L0,110 Z\" fill=\"#4f46e5\"/></g><g transform=\"translate(180,35)\"><path d=\"M0,0 Q-4,12 0,25 Q6,40 0,55 Q-8,70 0,85 Q10,100 0,115 Q-5,130 0,145 Q4,155 0,165\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"1.5\"/><path d=\"M0,55 Q-8,70 0,85 L0,55 Z\" fill=\"#4f46e5\"/><path d=\"M0,115 Q-5,130 0,145 L0,115 Z\" fill=\"#4f46e5\"/></g><g transform=\"translate(240,35)\"><path d=\"M0,0 Q6,15 0,30 Q-6,45 0,60 Q8,75 0,90 Q-10,105 0,120 Q5,135 0,150 Q-3,160 0,165\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"1.5\"/><path d=\"M0,60 Q8,75 0,90 L0,60 Z\" fill=\"#4f46e5\"/><path d=\"M0,120 Q5,135 0,150 L0,120 Z\" fill=\"#4f46e5\"/></g><g transform=\"translate(300,35)\"><path d=\"M0,0 Q-5,10 0,22 Q7,38 0,52 Q-9,68 0,82 Q8,98 0,112 Q-6,128 0,142 Q4,155 0,165\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"1.5\"/><path d=\"M0,52 Q-9,68 0,82 L0,52 Z\" fill=\"#4f46e5\"/><path d=\"M0,112 Q-6,128 0,142 L0,112 Z\" fill=\"#4f46e5\"/></g><g transform=\"translate(360,35)\"><path d=\"M0,0 Q4,12 0,28 Q-7,42 0,58 Q9,72 0,88 Q-8,102 0,118 Q6,132 0,148 Q-4,158 0,165\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"1.5\"/><path d=\"M0,58 Q9,72 0,88 L0,58 Z\" fill=\"#4f46e5\"/><path d=\"M0,118 Q6,132 0,148 L0,118 Z\" fill=\"#4f46e5\"/></g><text x=\"240\" y=\"215\" text-anchor=\"middle\" fill=\"#64748b\" font-size=\"10\" font-family=\"sans-serif\">Variable area: positive amplitudes filled | Multiple traces</text></svg>"
+      }
     },
     {
       "id": 34,
@@ -748,7 +788,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "The density log uses a gamma-ray source (¹³⁷Cs, 662 keV) and two detectors to measure the bulk density of the formation through Compton scattering. Why is a dual-detector (near-far) system used instead of a single detector?",
       "options": [
         "To measure both density and porosity simultaneously",
@@ -769,7 +809,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "stem": "The sonic (acoustic) log measures the interval transit time (Δt, in μs/ft or μs/m) of P-waves through the formation. In a gas-bearing sandstone, the transit time is significantly higher (slower velocity) compared to a water-bearing sandstone of the same porosity. This effect is known as:",
       "options": [
         "Cycle skipping",
@@ -790,7 +830,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
+      "difficulty": "hard",
       "stem": "Radioactive decay follows the law N(t) = N₀ e^(−λt), where λ is the decay constant. The half-life t₁/₂ is the time required for half the atoms to decay. If a radioactive isotope has a half-life of 100 days, what fraction of the original atoms remains after 300 days?",
       "options": [
         "1/2",
@@ -844,7 +884,12 @@
       "solution": "Ill-posedness (in the sense of Hadamard) means the inverse problem may: (1) have no solution (if the data are inconsistent with any model), (2) have infinitely many solutions (non-uniqueness — multiple models fit the data equally well), or (3) have a solution that is unstable (small data errors cause large model changes). This is inherent to geophysical problems because: data are有限 and noisy, the sensitivity kernel may be rank-deficient, and the problem is underdetermined (more model parameters than data). Regularization (e.g., Tikhonov) stabilizes the inversion by adding constraints (smoothness, minimum norm, geological priors) to select a physically reasonable solution from the family of acceptable solutions.",
       "estSec": 30,
       "topicWeight": 0.14,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "DC resistivity electrode arrays: Wenner, Schlumberger, and dipole-dipole configurations",
+        "markup": "<svg viewBox=\"0 0 480 220\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"220\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"18\" text-anchor=\"middle\" fill=\"#4f46e5\" font-weight=\"bold\" font-size=\"13\" font-family=\"sans-serif\">DC Resistivity Electrode Arrays</text><line x1=\"30\" y1=\"70\" x2=\"200\" y2=\"70\" stroke=\"#94a3b8\" stroke-width=\"1\"/><circle cx=\"50\" cy=\"70\" r=\"6\" fill=\"#3b82f6\"/><text x=\"50\" y=\"62\" text-anchor=\"middle\" fill=\"#3b82f6\" font-size=\"8\" font-family=\"sans-serif\">C₁</text><circle cx=\"90\" cy=\"70\" r=\"6\" fill=\"#f59e0b\"/><text x=\"90\" y=\"62\" text-anchor=\"middle\" fill=\"#f59e0b\" font-size=\"8\" font-family=\"sans-serif\">P₁</text><circle cx=\"130\" cy=\"70\" r=\"6\" fill=\"#f59e0b\"/><text x=\"130\" y=\"62\" text-anchor=\"middle\" fill=\"#f59e0b\" font-size=\"8\" font-family=\"sans-serif\">P₂</text><circle cx=\"170\" cy=\"70\" r=\"6\" fill=\"#3b82f6\"/><text x=\"170\" y=\"62\" text-anchor=\"middle\" fill=\"#3b82f6\" font-size=\"8\" font-family=\"sans-serif\">C₂</text><text x=\"115\" y=\"92\" text-anchor=\"middle\" fill=\"#4f46e5\" font-size=\"10\" font-weight=\"bold\" font-family=\"sans-serif\">Wenner</text><line x1=\"240\" y1=\"70\" x2=\"460\" y2=\"70\" stroke=\"#94a3b8\" stroke-width=\"1\"/><circle cx=\"260\" cy=\"70\" r=\"6\" fill=\"#3b82f6\"/><text x=\"260\" y=\"62\" text-anchor=\"middle\" fill=\"#3b82f6\" font-size=\"8\" font-family=\"sans-serif\">C₁</text><circle cx=\"310\" cy=\"70\" r=\"6\" fill=\"#f59e0b\"/><text x=\"310\" y=\"62\" text-anchor=\"middle\" fill=\"#f59e0b\" font-size=\"8\" font-family=\"sans-serif\">P₁</text><circle cx=\"370\" cy=\"70\" r=\"6\" fill=\"#f59e0b\"/><text x=\"370\" y=\"62\" text-anchor=\"middle\" fill=\"#f59e0b\" font-size=\"8\" font-family=\"sans-serif\">P₂</text><circle cx=\"440\" cy=\"70\" r=\"6\" fill=\"#3b82f6\"/><text x=\"440\" y=\"62\" text-anchor=\"middle\" fill=\"#3b82f6\" font-size=\"8\" font-family=\"sans-serif\">C₂</text><text x=\"350\" y=\"92\" text-anchor=\"middle\" fill=\"#4f46e5\" font-size=\"10\" font-weight=\"bold\" font-family=\"sans-serif\">Schlumberger</text><line x1=\"30\" y1=\"145\" x2=\"200\" y2=\"145\" stroke=\"#94a3b8\" stroke-width=\"1\"/><circle cx=\"50\" cy=\"145\" r=\"6\" fill=\"#3b82f6\"/><text x=\"50\" y=\"137\" text-anchor=\"middle\" fill=\"#3b82f6\" font-size=\"8\" font-family=\"sans-serif\">C₁</text><circle cx=\"80\" cy=\"145\" r=\"6\" fill=\"#f59e0b\"/><text x=\"80\" y=\"137\" text-anchor=\"middle\" fill=\"#f59e0b\" font-size=\"8\" font-family=\"sans-serif\">P₁</text><circle cx=\"150\" cy=\"145\" r=\"6\" fill=\"#f59e0b\"/><text x=\"150\" y=\"137\" text-anchor=\"middle\" fill=\"#f59e0b\" font-size=\"8\" font-family=\"sans-serif\">P₂</text><circle cx=\"180\" cy=\"145\" r=\"6\" fill=\"#3b82f6\"/><text x=\"180\" y=\"137\" text-anchor=\"middle\" fill=\"#3b82f6\" font-size=\"8\" font-family=\"sans-serif\">C₂</text><text x=\"115\" y=\"168\" text-anchor=\"middle\" fill=\"#4f46e5\" font-size=\"10\" font-weight=\"bold\" font-family=\"sans-serif\">Dipole-Dipole</text><text x=\"350\" y=\"130\" fill=\"#64748b\" font-size=\"10\" font-family=\"sans-serif\">Blue = current (C) electrodes</text><text x=\"350\" y=\"150\" fill=\"#64748b\" font-size=\"10\" font-family=\"sans-serif\">Amber = potential (P) electrodes</text><text x=\"350\" y=\"175\" fill=\"#f59e0b\" font-size=\"10\" font-family=\"sans-serif\">ρ_a = K × ΔV / I</text><text x=\"350\" y=\"195\" fill=\"#64748b\" font-size=\"10\" font-family=\"sans-serif\">K = geometric factor</text></svg>"
+      }
     },
     {
       "id": 40,
@@ -853,7 +898,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "Tikhonov regularization stabilizes geophysical inversion by adding a penalty term to the objective function: Φ(m) = Φ_d + λΦ_m, where Φ_d = ||W_d(G(m) − d_obs)||² is the data misfit and Φ_m = ||W_m(m − m_ref)||² is the model regularization term. The regularization parameter λ controls the trade-off. If λ is chosen too large, the inversion result will:",
       "options": [
         "Fit the noise in the data perfectly",
@@ -874,7 +919,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "stem": "A company's revenue increased from ₹800 crore to ₹1000 crore in one year. What is the percentage increase in revenue?",
       "options": [
         "20%",
@@ -886,7 +931,12 @@
       "solution": "Percentage increase = ((New − Old)/Old) × 100 = ((1000 − 800)/800) × 100 = (200/800) × 100 = 25%.",
       "estSec": 15,
       "topicWeight": 0.1,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Pie chart of percentage distribution",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Percentage Breakdown</text><circle cx=\"160\" cy=\"110\" r=\"65\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"2\"/><path d=\"M160,110 L160,45 A65,65 0 0,1 218,75 Z\" fill=\"#3b82f6\" stroke=\"#3b82f6\" stroke-width=\"1.5\"/><path d=\"M160,110 L218,75 A65,65 0 0,1 218,155 Z\" fill=\"#ef4444\" stroke=\"#ef4444\" stroke-width=\"1.5\"/><path d=\"M160,110 L218,155 A65,65 0 0,1 102,155 Z\" fill=\"#22c55e\" stroke=\"#22c55e\" stroke-width=\"1.5\"/><text x=\"185\" y=\"70\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#3b82f6\" font-weight=\"bold\">35%</text><text x=\"210\" y=\"120\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#ef4444\" font-weight=\"bold\">25%</text><text x=\"120\" y=\"135\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#22c55e\" font-weight=\"bold\">40%</text><text x=\"370\" y=\"110\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Parts of 100%</text></svg>"
+      }
     },
     {
       "id": 42,
@@ -895,7 +945,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "stem": "A can complete a task in 12 days and B can complete the same task in 18 days. If they work together for 4 days and then A leaves, how many more days will B need to finish the remaining work?",
       "options": [
         "5 days",
@@ -907,7 +957,12 @@
       "solution": "A's rate = 1/12 per day, B's rate = 1/18 per day. Together: (1/12 + 1/18) = (3 + 2)/36 = 5/36 per day. Work done in 4 days = 4 × 5/36 = 20/36 = 5/9. Remaining work = 1 − 5/9 = 4/9. B alone completes 1/18 per day. Days for B = (4/9)/(1/18) = (4/9) × 18 = 8 days.",
       "estSec": 20,
       "topicWeight": 0.1,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Cistern with inlet and outlet pipes",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Pipe Filling Problem</text><rect x=\"100\" y=\"70\" width=\"120\" height=\"90\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"2\" rx=\"6\"/><line x1=\"225\" y1=\"100\" x2=\"280\" y2=\"100\" stroke=\"#22c55e\" stroke-width=\"3\"/><line x1=\"225\" y1=\"130\" x2=\"280\" y2=\"130\" stroke=\"#ef4444\" stroke-width=\"3\"/><text x=\"160\" y=\"120\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3b82f6\" text-anchor=\"middle\" font-weight=\"bold\">Tank</text><text x=\"252\" y=\"93\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#22c55e\" text-anchor=\"middle\">In (fill)</text><text x=\"252\" y=\"145\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#ef4444\" text-anchor=\"middle\">Out (drain)</text><text x=\"340\" y=\"115\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Net rate = Σ(fill) − Σ(drain)</text></svg>"
+      }
     },
     {
       "id": 43,
@@ -916,7 +971,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "stem": "A shopkeeper marks an article 40% above the cost price and then offers a discount of 20%. What is the profit percentage?",
       "options": [
         "10%",
@@ -928,7 +983,12 @@
       "solution": "Let CP = 100. Marked price (MP) = 100 × 1.40 = 140. Selling price (SP) = 140 × 0.80 = 112. Profit = SP − CP = 112 − 100 = 12. Profit% = (12/100) × 100 = 12%.",
       "estSec": 15,
       "topicWeight": 0.1,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Key profit and loss formulas",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">P&L Formulas</text><line x1=\"60\" y1=\"60\" x2=\"420\" y2=\"60\" stroke=\"#e2e8f0\"/><line x1=\"60\" y1=\"110\" x2=\"420\" y2=\"110\" stroke=\"#e2e8f0\"/><line x1=\"60\" y1=\"160\" x2=\"420\" y2=\"160\" stroke=\"#e2e8f0\"/><text x=\"240\" y=\"55\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#22c55e\" text-anchor=\"middle\" font-weight=\"bold\">Profit = SP − CP</text><text x=\"240\" y=\"105\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#ef4444\" text-anchor=\"middle\" font-weight=\"bold\">Loss = CP − SP</text><text x=\"240\" y=\"155\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#4f46e5\" text-anchor=\"middle\">Profit% = (Profit/CP)×100</text></svg>"
+      }
     },
     {
       "id": 44,
@@ -937,7 +997,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
+      "difficulty": "hard",
       "stem": "The average of 5 numbers is 42. If one number is excluded, the average becomes 38. What is the excluded number?",
       "options": [
         "52",
@@ -949,7 +1009,12 @@
       "solution": "Sum of 5 numbers = 5 × 42 = 210. Sum of 4 numbers = 4 × 38 = 152. Excluded number = 210 − 152 = 58.",
       "estSec": 15,
       "topicWeight": 0.1,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Average as horizontal line through data",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Average</text><line x1=\"60\" y1=\"170\" x2=\"440\" y2=\"170\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"60\" y1=\"30\" x2=\"60\" y2=\"170\" stroke=\"#64748b\" stroke-width=\"2\"/><rect x=\"80\" y=\"120\" width=\"30\" height=\"50\" fill=\"#3b82f6\" stroke=\"#3b82f6\" rx=\"2\"/><rect x=\"120\" y=\"80\" width=\"30\" height=\"90\" fill=\"#22c55e\" stroke=\"#22c55e\" rx=\"2\"/><rect x=\"160\" y=\"100\" width=\"30\" height=\"70\" fill=\"#f59e0b\" stroke=\"#f59e0b\" rx=\"2\"/><rect x=\"200\" y=\"60\" width=\"30\" height=\"110\" fill=\"#ef4444\" stroke=\"#ef4444\" rx=\"2\"/><rect x=\"240\" y=\"90\" width=\"30\" height=\"80\" fill=\"#8b5cf6\" stroke=\"#8b5cf6\" rx=\"2\"/><line x1=\"60\" y1=\"105\" x2=\"280\" y2=\"105\" stroke=\"#ef4444\" stroke-width=\"2\" stroke-dasharray=\"5\"/><text x=\"350\" y=\"105\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#ef4444\" text-anchor=\"middle\" font-weight=\"bold\">Mean = Σxᵢ/n</text></svg>"
+      }
     },
     {
       "id": 45,
@@ -958,7 +1023,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "Two dice are thrown simultaneously. What is the probability that the sum of the numbers on the two dice is greater than 9?",
       "options": [
         "1/6",
@@ -970,7 +1035,12 @@
       "solution": "Total outcomes = 6 × 6 = 36. Favourable outcomes (sum > 9): (4,6), (5,5), (5,6), (6,4), (6,5), (6,6) = 6 outcomes. Probability = 6/36 = 1/6.",
       "estSec": 15,
       "topicWeight": 0.1,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Venn diagram for probability union",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Probability Venn</text><circle cx=\"170\" cy=\"110\" r=\"55\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"2\"/><circle cx=\"300\" cy=\"110\" r=\"55\" fill=\"#dcfce7\" stroke=\"#22c55e\" stroke-width=\"2\"/><text x=\"145\" y=\"85\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#3b82f6\" font-weight=\"bold\">P(A)</text><text x=\"325\" y=\"85\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#22c55e\" font-weight=\"bold\">P(B)</text><text x=\"235\" y=\"115\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#f59e0b\" text-anchor=\"middle\" font-weight=\"bold\">A∩B</text><text x=\"240\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">P(A∪B)=P(A)+P(B)−P(A∩B)</text></svg>"
+      }
     },
     {
       "id": 46,
@@ -1012,7 +1082,12 @@
       "solution": "Let ages be 3x and 5x. 3x + 5x = 48 → 8x = 48 → x = 6. B's age = 5x = 30 years.",
       "estSec": 15,
       "topicWeight": 0.1,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Three-part ratio bar",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Multi-Part Ratio</text><rect x=\"60\" y=\"70\" width=\"100\" height=\"40\" fill=\"#3b82f6\" stroke=\"#3b82f6\" rx=\"4\"/><rect x=\"170\" y=\"70\" width=\"60\" height=\"40\" fill=\"#22c55e\" stroke=\"#22c55e\" rx=\"4\"/><rect x=\"240\" y=\"70\" width=\"40\" height=\"40\" fill=\"#f59e0b\" stroke=\"#f59e0b\" rx=\"4\"/><text x=\"110\" y=\"95\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#fff\" text-anchor=\"middle\" font-weight=\"bold\">A: 5</text><text x=\"200\" y=\"95\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#fff\" text-anchor=\"middle\" font-weight=\"bold\">B: 3</text><text x=\"260\" y=\"95\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#fff\" text-anchor=\"middle\" font-weight=\"bold\">C: 2</text><text x=\"300\" y=\"150\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\">A:B:C = 5:3:2</text></svg>"
+      }
     },
     {
       "id": 48,
@@ -1054,7 +1129,12 @@
       "solution": "Amount = 10,000 × (1 + 10/100)² = 10,000 × (1.1)² = 10,000 × 1.21 = ₹12,100. CI = 12,100 − 10,000 = ₹2,100.",
       "estSec": 15,
       "topicWeight": 0.1,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Exponential growth curve",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Compound Growth</text><line x1=\"60\" y1=\"170\" x2=\"440\" y2=\"170\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"60\" y1=\"30\" x2=\"60\" y2=\"170\" stroke=\"#64748b\" stroke-width=\"2\"/><path d=\"M80,160 Q240,100 420,10\" fill=\"none\" stroke=\"#22c55e\" stroke-width=\"2.5\"/><text x=\"280\" y=\"50\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#22c55e\" font-weight=\"bold\">A = P(1+r/100)ⁿ</text></svg>"
+      }
     },
     {
       "id": 50,
@@ -1075,7 +1155,12 @@
       "solution": "Volume = πr²h = (22/7) × 7² × 10 = (22/7) × 49 × 10 = 22 × 7 × 10 = 1,540 m³.",
       "estSec": 15,
       "topicWeight": 0.1,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Common shapes formulas",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">2D & 3D Shapes</text><rect x=\"40\" y=\"60\" width=\"70\" height=\"50\" fill=\"#dbeafe\" stroke=\"#3b82f6\"/><circle cx=\"200\" cy=\"85\" r=\"30\" fill=\"#dcfce7\" stroke=\"#22c55e\"/><path d=\"M310,60 L350,40 L390,60 L390,120 L350,140 L310,120 Z\" fill=\"none\" stroke=\"#f59e0b\" stroke-width=\"2\"/><text x=\"75\" y=\"130\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#3b82f6\" text-anchor=\"middle\">Rect</text><text x=\"200\" y=\"130\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#22c55e\" text-anchor=\"middle\">Circle</text><text x=\"350\" y=\"130\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#f59e0b\" text-anchor=\"middle\">Cylinder</text><text x=\"240\" y=\"175\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">A=lw  |  A=πr²  |  V=πr²h</text></svg>"
+      }
     },
     {
       "id": 51,
@@ -1084,7 +1169,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "stem": "What is the remainder when 2²⁵ is divided by 7?",
       "options": [
         "1",
@@ -1096,7 +1181,12 @@
       "solution": "2¹ = 2 (mod 7), 2² = 4 (mod 7), 2³ = 1 (mod 7). The cycle repeats every 3. 25 = 3 × 8 + 1, so 2²⁵ = 2¹ = 2 (mod 7). Remainder = 2.",
       "estSec": 15,
       "topicWeight": 0.1,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Nested number sets",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Number System Hierarchy</text><rect x=\"150\" y=\"40\" width=\"180\" height=\"30\" fill=\"#dbeafe\" stroke=\"#3b82f6\" rx=\"4\"/><rect x=\"100\" y=\"80\" width=\"130\" height=\"30\" fill=\"#dcfce7\" stroke=\"#22c55e\" rx=\"4\"/><rect x=\"250\" y=\"80\" width=\"130\" height=\"30\" fill=\"#fef3c7\" stroke=\"#f59e0b\" rx=\"4\"/><rect x=\"120\" y=\"120\" width=\"90\" height=\"30\" fill=\"#fee2e2\" stroke=\"#ef4444\" rx=\"4\"/><rect x=\"120\" y=\"160\" width=\"40\" height=\"25\" fill=\"#e0e7ff\" stroke=\"#818cf8\" rx=\"4\"/><rect x=\"170\" y=\"160\" width=\"40\" height=\"25\" fill=\"#e0e7ff\" stroke=\"#818cf8\" rx=\"4\"/><text x=\"240\" y=\"60\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#3b82f6\" text-anchor=\"middle\" font-weight=\"bold\">Real Numbers</text><text x=\"165\" y=\"100\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#22c55e\" text-anchor=\"middle\" font-weight=\"bold\">Rational</text><text x=\"315\" y=\"100\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#f59e0b\" text-anchor=\"middle\" font-weight=\"bold\">Irrational</text><text x=\"165\" y=\"140\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#ef4444\" text-anchor=\"middle\" font-weight=\"bold\">Integers</text><text x=\"140\" y=\"177\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#818cf8\" text-anchor=\"middle\">ℕ</text><text x=\"190\" y=\"177\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#818cf8\" text-anchor=\"middle\">0</text></svg>"
+      }
     },
     {
       "id": 52,
@@ -1117,7 +1207,12 @@
       "solution": "Using alligation: ₹30 ————— ₹45. Difference from mean (₹36): |30 − 36| = 6, |45 − 36| = 9. Ratio = 9:6 = 3:2.",
       "estSec": 15,
       "topicWeight": 0.1,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Alligation with result",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Alligation Cross</text><text x=\"240\" y=\"60\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#64748b\" text-anchor=\"middle\">20%         50%</text><text x=\"240\" y=\"80\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#f59e0b\" text-anchor=\"middle\">  \\       /</text><text x=\"240\" y=\"105\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#ef4444\" text-anchor=\"middle\" font-weight=\"bold\">    30%</text><text x=\"240\" y=\"150\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#64748b\" text-anchor=\"middle\">Ratio: 20:10 = 2:1</text></svg>"
+      }
     },
     {
       "id": 53,
@@ -1126,7 +1221,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "stem": "The HCF of two numbers is 12 and their LCM is 360. If one of the numbers is 72, what is the other number?",
       "options": [
         "48",
@@ -1138,7 +1233,12 @@
       "solution": "HCF × LCM = Product of numbers. 12 × 360 = 72 × x. x = (12 × 360)/72 = 4320/72 = 60.",
       "estSec": 15,
       "topicWeight": 0.1,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Factorization for HCF/LCM",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Prime Factorization</text><text x=\"150\" y=\"70\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#3b82f6\" font-weight=\"bold\">24 = 2³ × 3</text><text x=\"330\" y=\"70\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#22c55e\" font-weight=\"bold\">36 = 2² × 3²</text><line x1=\"60\" y1=\"95\" x2=\"420\" y2=\"95\" stroke=\"#e2e8f0\"/><text x=\"240\" y=\"125\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#ef4444\" text-anchor=\"middle\" font-weight=\"bold\">HCF = 2² × 3 = 12</text><text x=\"240\" y=\"155\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#f59e0b\" text-anchor=\"middle\" font-weight=\"bold\">LCM = 2³ × 3² = 72</text></svg>"
+      }
     },
     {
       "id": 54,
@@ -1159,7 +1259,12 @@
       "solution": "A fills at 1/20 per hour, B empties at 1/30 per hour. Net rate = 1/20 − 1/30 = (3 − 2)/60 = 1/60 per hour. Time to fill = 60 hours.",
       "estSec": 15,
       "topicWeight": 0.1,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Multiple pipe system",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Tank & Pipes</text><rect x=\"100\" y=\"55\" width=\"140\" height=\"100\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"2\" rx=\"4\"/><line x1=\"245\" y1=\"85\" x2=\"300\" y2=\"85\" stroke=\"#22c55e\" stroke-width=\"2.5\"/><line x1=\"245\" y1=\"125\" x2=\"300\" y2=\"125\" stroke=\"#ef4444\" stroke-width=\"2.5\"/><text x=\"170\" y=\"110\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3b82f6\" text-anchor=\"middle\">Tank</text><text x=\"272\" y=\"80\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#22c55e\" font-weight=\"bold\">A→</text><text x=\"272\" y=\"120\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#ef4444\" font-weight=\"bold\">B→</text></svg>"
+      }
     },
     {
       "id": 55,
@@ -1168,7 +1273,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "A is twice as old as B. 5 years ago, A was three times as old as B. How old is A now?",
       "options": [
         "20 years",
@@ -1180,7 +1285,12 @@
       "solution": "Let A's present age = 2x and B's present age = x. Five years ago: A − 5 = 3(B − 5). So 2x − 5 = 3(x − 5) → 2x − 5 = 3x − 15 → x = 10. A's present age = 2x = 20 years.",
       "estSec": 20,
       "topicWeight": 0.1,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Age relationship at different time points",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Age Timeline</text><line x1=\"60\" y1=\"100\" x2=\"440\" y2=\"100\" stroke=\"#94a3b8\" stroke-width=\"2\"/><circle cx=\"120\" cy=\"100\" r=\"4\" fill=\"#3b82f6\" stroke=\"#3b82f6\"/><circle cx=\"240\" cy=\"100\" r=\"4\" fill=\"#22c55e\" stroke=\"#22c55e\"/><circle cx=\"360\" cy=\"100\" r=\"4\" fill=\"#ef4444\" stroke=\"#ef4444\"/><text x=\"120\" y=\"85\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#3b82f6\" text-anchor=\"middle\">Now</text><text x=\"240\" y=\"85\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#22c55e\" text-anchor=\"middle\">+5 yrs</text><text x=\"360\" y=\"85\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#ef4444\" text-anchor=\"middle\">+10 yrs</text><text x=\"240\" y=\"140\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Father: x  |  Son: x−25</text></svg>"
+      }
     },
     {
       "id": 56,
@@ -1189,7 +1299,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "stem": "A vessel contains 80 litres of pure milk. 8 litres of milk is taken out and replaced with water. This process is repeated twice. How much milk remains in the vessel?",
       "options": [
         "58.32 litres",
@@ -1201,7 +1311,12 @@
       "solution": "After each operation, the fraction of milk remaining = (1 − 8/80) = 9/10. After 2 operations: 80 × (9/10)² = 80 × 81/100 = 64.8 litres. The closest option is 64.00 litres.",
       "estSec": 15,
       "topicWeight": 0.1,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Two-component mixture",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Two-Component Mix</text><rect x=\"100\" y=\"60\" width=\"80\" height=\"80\" fill=\"#dbeafe\" stroke=\"#3b82f6\" rx=\"4\"/><rect x=\"260\" y=\"60\" width=\"80\" height=\"80\" fill=\"#dcfce7\" stroke=\"#22c55e\" rx=\"4\"/><text x=\"140\" y=\"105\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#3b82f6\" text-anchor=\"middle\">A: 30%</text><text x=\"300\" y=\"105\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#22c55e\" text-anchor=\"middle\">B: 70%</text><text x=\"240\" y=\"175\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Mix → mean concentration</text></svg>"
+      }
     },
     {
       "id": 57,
@@ -1222,7 +1337,12 @@
       "solution": "Upstream speed = 24/6 = 4 km/hr. Downstream speed = 24/4 = 6 km/hr. Speed of current = (Downstream − Upstream)/2 = (6 − 4)/2 = 1 km/hr.",
       "estSec": 15,
       "topicWeight": 0.1,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Boat navigating with/against current",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">River Navigation</text><path d=\"M20,100 Q120,80 240,100 Q360,120 460,100\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"2\"/><path d=\"M20,115 Q120,95 240,115 Q360,135 460,115\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"1.5\"/><rect x=\"180\" y=\"85\" width=\"40\" height=\"20\" fill=\"#f59e0b\" stroke=\"#f59e0b\" rx=\"6\"/><line x1=\"350\" y1=\"75\" x2=\"400\" y2=\"75\" stroke=\"#3b82f6\" stroke-width=\"2\"/><text x=\"200\" y=\"99\" font-family=\"sans-serif\" font-size=\"8\" fill=\"#fff\" text-anchor=\"middle\" font-weight=\"bold\">Boat</text><text x=\"375\" y=\"68\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#3b82f6\">Stream →</text></svg>"
+      }
     },
     {
       "id": 58,
@@ -1231,7 +1351,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "A 120 m long train crosses a 180 m long platform in 12 seconds. What is the speed of the train in km/hr?",
       "options": [
         "75 km/hr",
@@ -1243,7 +1363,12 @@
       "solution": "Distance covered = length of train + length of platform = 120 + 180 = 300 m. Time = 12 seconds. Speed = 300/12 = 25 m/s. Converting to km/hr: 25 × 3.6 = 90 km/hr.",
       "estSec": 20,
       "topicWeight": 0.1,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Train and platform crossing",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Train Crossing Platform</text><rect x=\"40\" y=\"80\" width=\"180\" height=\"30\" fill=\"#3b82f6\" stroke=\"#3b82f6\" rx=\"4\"/><line x1=\"40\" y1=\"125\" x2=\"440\" y2=\"125\" stroke=\"#64748b\" stroke-width=\"2\"/><rect x=\"250\" y=\"80\" width=\"180\" height=\"30\" fill=\"#f59e0b\" stroke=\"#f59e0b\" rx=\"4\"/><text x=\"130\" y=\"100\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#fff\" text-anchor=\"middle\" font-weight=\"bold\">Train (L)</text><text x=\"340\" y=\"100\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#fff\" text-anchor=\"middle\" font-weight=\"bold\">Platform (P)</text><text x=\"240\" y=\"170\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#4f46e5\" text-anchor=\"middle\">Time = (L+P)/speed</text></svg>"
+      }
     },
     {
       "id": 59,
@@ -1252,7 +1377,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "stem": "What comes next in the series: 2, 6, 12, 20, 30, ?",
       "options": [
         "40",
@@ -1264,7 +1389,12 @@
       "solution": "The differences are: 4, 6, 8, 10, ?. The differences increase by 2 each time. Next difference = 12. Next term = 30 + 12 = 42. Alternatively, the nth term = n(n+1): 1×2=2, 2×3=6, 3×4=12, 4×5=20, 5×6=30, 6×7=42.",
       "estSec": 15,
       "topicWeight": 0.1,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Series with increasing differences",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Number Series</text><line x1=\"60\" y1=\"100\" x2=\"420\" y2=\"100\" stroke=\"#94a3b8\"/><circle cx=\"100\" cy=\"100\" r=\"20\" fill=\"#dbeafe\" stroke=\"#3b82f6\"/><circle cx=\"180\" cy=\"100\" r=\"20\" fill=\"#dcfce7\" stroke=\"#22c55e\"/><circle cx=\"260\" cy=\"100\" r=\"20\" fill=\"#fef3c7\" stroke=\"#f59e0b\"/><circle cx=\"340\" cy=\"100\" r=\"20\" fill=\"#fee2e2\" stroke=\"#ef4444\"/><circle cx=\"420\" cy=\"100\" r=\"20\" fill=\"#e0e7ff\" stroke=\"#818cf8\"/><text x=\"100\" y=\"105\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#3b82f6\" text-anchor=\"middle\">2</text><text x=\"180\" y=\"105\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#22c55e\" text-anchor=\"middle\">6</text><text x=\"260\" y=\"105\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#f59e0b\" text-anchor=\"middle\">12</text><text x=\"340\" y=\"105\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#ef4444\" text-anchor=\"middle\">20</text><text x=\"420\" y=\"105\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#818cf8\" text-anchor=\"middle\">?</text><text x=\"240\" y=\"160\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">+4, +6, +8, +10 → 30</text></svg>"
+      }
     },
     {
       "id": 60,
@@ -1273,7 +1403,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "In a certain code language, each letter is replaced by the letter that is 3 positions ahead in the alphabet. For example, 'A' becomes 'D' and 'X' becomes 'A' (wrapping around). Using this code, how is 'GEOPHYSICS' written?",
       "options": [
         "JHRSBKVBVF",
@@ -1285,7 +1415,12 @@
       "solution": "Each letter is shifted forward by 3: G→J, E→H, O→R, P→S, H→K, Y→B, S→V, I→L, C→F, S→V. So GEOPHYSICS is written as JHRSBKVBVF.",
       "estSec": 20,
       "topicWeight": 0.1,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Letter-to-letter coding pattern",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Letter Code</text><text x=\"160\" y=\"70\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3b82f6\" font-weight=\"bold\">A  B  C  D  E  F  G</text><text x=\"160\" y=\"90\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#f59e0b\">↓  ↓  ↓  ↓  ↓  ↓  ↓</text><text x=\"160\" y=\"115\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#ef4444\" font-weight=\"bold\">Z  Y  X  W  V  U  T</text><text x=\"240\" y=\"160\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#64748b\" text-anchor=\"middle\">Reverse cipher: A→Z, B→Y, ...</text></svg>"
+      }
     },
     {
       "id": 61,
@@ -1327,7 +1462,12 @@
       "solution": "My father's father = my grandfather. Only son of my grandfather = my father (or my uncle, but 'only son' means father). Daughter of my father = my sister or me... wait. Only son of my father's father = my father. Daughter of my father = my sister. But the answer options don't have sister. Let me re-examine: 'Only son of my father's father' = my father. 'Daughter of my father' could be the man's sister. But sister is option A. However, this is a common trick question. If the man IS the only son, then 'only son of my father's father' could be the man himself. Then 'daughter of the man' = daughter. Actually, the standard interpretation: my father's father = grandfather. Only son of grandfather = father (or the man himself if he's the only son). If it's the man himself, then daughter. If it's his father, then sister. The answer given is niece, which suggests: my father's father = grandfather. Only son of grandfather could be the man's uncle (father's brother). Daughter of uncle = niece. The answer is C (niece).",
       "estSec": 20,
       "topicWeight": 0.1,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Family tree for blood relation problems",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Family Tree</text><circle cx=\"160\" cy=\"50\" r=\"16\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"2\"/><circle cx=\"320\" cy=\"50\" r=\"16\" fill=\"#fee2e2\" stroke=\"#ef4444\" stroke-width=\"2\"/><line x1=\"176\" y1=\"50\" x2=\"304\" y2=\"50\" stroke=\"#f59e0b\" stroke-width=\"2\"/><line x1=\"240\" y1=\"50\" x2=\"240\" y2=\"85\" stroke=\"#64748b\" stroke-width=\"1.5\"/><circle cx=\"160\" cy=\"120\" r=\"14\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"2\"/><circle cx=\"240\" cy=\"120\" r=\"14\" fill=\"#fee2e2\" stroke=\"#ef4444\" stroke-width=\"2\"/><circle cx=\"320\" cy=\"120\" r=\"14\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"2\"/><line x1=\"240\" y1=\"85\" x2=\"160\" y2=\"106\"/><line x1=\"240\" y1=\"85\" x2=\"240\" y2=\"106\"/><line x1=\"240\" y1=\"85\" x2=\"320\" y2=\"106\"/><text x=\"160\" y=\"54\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#3b82f6\" text-anchor=\"middle\">M</text><text x=\"320\" y=\"54\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#ef4444\" text-anchor=\"middle\">F</text><text x=\"160\" y=\"124\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#3b82f6\" text-anchor=\"middle\">S</text><text x=\"240\" y=\"124\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#ef4444\" text-anchor=\"middle\">D</text><text x=\"320\" y=\"124\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#3b82f6\" text-anchor=\"middle\">S</text></svg>"
+      }
     },
     {
       "id": 63,
@@ -1336,7 +1476,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "Rahul starts from point A and walks 10 km North, then turns right and walks 6 km, then turns right again and walks 8 km. In which direction is he from point A?",
       "options": [
         "North-East",
@@ -1348,7 +1488,12 @@
       "solution": "Starting at A, Rahul goes 10 km North to point B, then turns right (East) and walks 6 km to point C, then turns right (South) and walks 8 km to point D. From A: North displacement = 10 − 8 = 2 km North. East displacement = 6 km East. So D is 2 km North and 6 km East of A, which is in the North-East direction.",
       "estSec": 15,
       "topicWeight": 0.1,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Cardinal directions compass",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Compass Rose</text><circle cx=\"240\" cy=\"110\" r=\"65\" fill=\"#f0f9ff\" stroke=\"#3b82f6\" stroke-width=\"2\"/><line x1=\"240\" y1=\"45\" x2=\"240\" y2=\"175\" stroke=\"#94a3b8\" stroke-width=\"1\"/><line x1=\"175\" y1=\"110\" x2=\"305\" y2=\"110\" stroke=\"#94a3b8\" stroke-width=\"1\"/><path d=\"M240,110 L270,70\" fill=\"none\" stroke=\"#ef4444\" stroke-width=\"2.5\"/><text x=\"240\" y=\"42\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#ef4444\" text-anchor=\"middle\" font-weight=\"bold\">N</text><text x=\"240\" y=\"185\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3b82f6\" text-anchor=\"middle\" font-weight=\"bold\">S</text><text x=\"315\" y=\"114\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#22c55e\" text-anchor=\"middle\" font-weight=\"bold\">E</text><text x=\"165\" y=\"114\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#f59e0b\" text-anchor=\"middle\" font-weight=\"bold\">W</text><text x=\"280\" y=\"65\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#ef4444\">NE</text></svg>"
+      }
     },
     {
       "id": 64,
@@ -1369,7 +1514,12 @@
       "solution": "From 'All geophysicists are scientists' and 'Some scientists are professors,' we cannot conclude that any geophysicist is a professor. The 'some scientists' who are professors may not include any geophysicists. This is the fallacy of the undistributed middle. Similarly, we cannot conclude that some professors are geophysicists. Neither conclusion follows necessarily. A Venn diagram shows that the geophysicist circle is entirely within the scientist circle, and the professor circle overlaps with the scientist circle but may not overlap with the geophysicist circle.",
       "estSec": 20,
       "topicWeight": 0.1,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Venn diagram for syllogism",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Syllogism Venn</text><circle cx=\"180\" cy=\"110\" r=\"50\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"2\"/><circle cx=\"300\" cy=\"110\" r=\"50\" fill=\"#dcfce7\" stroke=\"#22c55e\" stroke-width=\"2\"/><text x=\"165\" y=\"80\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#3b82f6\">All A</text><text x=\"315\" y=\"80\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#22c55e\">Some B</text><text x=\"240\" y=\"115\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#f59e0b\" text-anchor=\"middle\" font-weight=\"bold\">Overlap?</text></svg>"
+      }
     },
     {
       "id": 65,
@@ -1390,67 +1540,72 @@
       "solution": "Average annual growth rate (CAGR) = [(Final/Initial)^(1/n) − 1] × 100 = [(200/120)^(1/4) − 1] × 100 = [(1.667)^(0.25) − 1] × 100. (1.667)^0.25 ≈ 1.1362. CAGR ≈ 13.62%.",
       "estSec": 20,
       "topicWeight": 0.1,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Bar chart showing quarterly data",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Bar Chart · Sales Data</text><line x1=\"60\" y1=\"170\" x2=\"440\" y2=\"170\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"60\" y1=\"30\" x2=\"60\" y2=\"170\" stroke=\"#64748b\" stroke-width=\"2\"/><rect x=\"85\" y=\"80\" width=\"40\" height=\"90\" fill=\"#3b82f6\" stroke=\"#3b82f6\" rx=\"2\"/><rect x=\"145\" y=\"110\" width=\"40\" height=\"60\" fill=\"#ef4444\" stroke=\"#ef4444\" rx=\"2\"/><rect x=\"205\" y=\"60\" width=\"40\" height=\"110\" fill=\"#22c55e\" stroke=\"#22c55e\" rx=\"2\"/><rect x=\"265\" y=\"95\" width=\"40\" height=\"75\" fill=\"#f59e0b\" stroke=\"#f59e0b\" rx=\"2\"/><rect x=\"325\" y=\"100\" width=\"40\" height=\"70\" fill=\"#8b5cf6\" stroke=\"#8b5cf6\" rx=\"2\"/><text x=\"105\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Q1</text><text x=\"165\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Q2</text><text x=\"225\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Q3</text><text x=\"285\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Q4</text><text x=\"345\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Q5</text></svg>"
+      }
     },
     {
       "id": 66,
       "subject": "General Awareness",
-      "topic": "Indian Economy · Energy Sector",
+      "topic": "Current Affairs · Science",
       "section": "GA",
       "type": "MCQ",
       "marks": 1,
       "difficulty": "easy",
-      "stem": "Which organization is the largest exploration and production (E&P) company in India and a Fortune Global 500 company?",
+      "stem": "Aditya-L1 mission studies:",
       "options": [
-        "Oil India Limited",
-        "Oil and Natural Gas Corporation (ONGC)",
-        "Bharat Petroleum Corporation Limited (BPCL)",
-        "Hindustan Petroleum Corporation Limited (HPCL)"
+        "Moon's surface",
+        "Mars atmosphere",
+        "Sun",
+        "Deep space"
       ],
-      "answer": 1,
-      "solution": "ONGC (Oil and Natural Gas Corporation Limited) is India's largest E&P company, contributing approximately 70% of India's domestic crude oil production and about 84% of natural gas production. It is a Maharatna PSU under the Ministry of Petroleum and Natural Gas. ONGC was established in 1956 and headquartered in New Delhi. It operates in both domestic and international fields (through ONGC Videsh).",
-      "estSec": 10,
+      "answer": 2,
+      "solution": "Aditya-L1 is India's first solar observation mission.",
+      "estSec": 15,
       "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 67,
       "subject": "General Awareness",
-      "topic": "Indian Geography",
+      "topic": "Current Affairs · Technology",
       "section": "GA",
       "type": "MCQ",
       "marks": 1,
       "difficulty": "easy",
-      "stem": "The Mumbai High oil field, one of India's most important offshore oil fields, is located in which basin?",
+      "stem": "Which company recently developed the most advanced AI chip for data centers?",
       "options": [
-        "Krishna-Godavari Basin",
-        "Cambay Basin",
-        "Mumbai Offshore Basin (Konkan Basin)",
-        "Assam Shelf Basin"
+        "Intel",
+        "AMD",
+        "Nvidia",
+        "Qualcomm"
       ],
       "answer": 2,
-      "solution": "Mumbai High (now renamed Mumbai High) is located in the Mumbai Offshore Basin (also called the Konkan Basin) about 160 km off the west coast of Mumbai in the Arabian Sea at a water depth of 80–110 m. Discovered in 1965 and brought on production in 1976, it has been India's largest producing oil field. The field is operated by ONGC and produces from Tertiary carbonate reservoirs (Eocene limestone).",
-      "estSec": 10,
+      "solution": "Nvidia has been leading in AI chip development.",
+      "estSec": 15,
       "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 68,
       "subject": "General Awareness",
-      "topic": "ONGC · Recent Developments",
+      "topic": "Current Affairs · Environment",
       "section": "GA",
       "type": "MCQ",
       "marks": 1,
       "difficulty": "medium",
-      "stem": "ONGC achieved a significant milestone by commencing oil production from the KG Basin deep-water block. What is the name of the deep-water gas discovery in the KG Basin that ONGC brought on stream?",
+      "stem": "COP28 was held in which country?",
       "options": [
-        "Dhirubhai-1 and Dhirubhai-3 (KG-D6 block of RIL)",
-        "KG-DWN-98/2 (KG-D5 block) — KG-DWN-98/2 discovery",
-        "Bombay High Deep Water",
-        "Ravva oil field"
+        "Egypt",
+        "UAE",
+        "India",
+        "UK"
       ],
       "answer": 1,
-      "solution": "ONGC discovered hydrocarbons in the KG-DWN-98/2 block (also known as KG-D5 block) in the Krishna-Godavari Basin deep-water area. The block is located in water depths of 300–1,000 m. ONGC has made multiple discoveries in this block, including the significant 'KG-DWN-98/2' discovery which is one of India's important deep-water gas finds. This is distinct from RIL's KG-D6 block (Dhirubhai fields).",
+      "solution": "COP28 was held in Dubai, UAE.",
       "estSec": 15,
       "topicWeight": 0.1,
       "source": "curated"
@@ -1458,20 +1613,20 @@
     {
       "id": 69,
       "subject": "General Awareness",
-      "topic": "Environment · Climate",
+      "topic": "Current Affairs · Economy",
       "section": "GA",
       "type": "MCQ",
       "marks": 1,
       "difficulty": "medium",
-      "stem": "The Paris Agreement on climate change, adopted in 2015, aims to limit global warming to well below 2°C above pre-industrial levels, with efforts to limit it to 1.5°C. India's Nationally Determined Contribution (NDC) under the Paris Agreement includes which of the following targets?",
+      "stem": "India's current account deficit for FY2025 is projected at:",
       "options": [
-        "Achieve net-zero carbon emissions by 2030",
-        "Reduce the emissions intensity of GDP by 45% by 2030 compared to 2005 levels",
-        "Achieve 50% of energy from fossil fuels by 2030",
-        "Increase forest cover to 33% of geographical area by 2025"
+        "0.5% of GDP",
+        "1.0% of GDP",
+        "1.5% of GDP",
+        "2.0% of GDP"
       ],
       "answer": 1,
-      "solution": "India updated its NDC in August 2022, committing to: (1) reduce the emissions intensity of GDP by 45% by 2030 compared to 2005 levels (up from the original 33-35%), and (2) achieve 50% cumulative electric power installed capacity from non-fossil fuel-based energy resources by 2030 (up from 40%). India also reiterated its goal of reaching net-zero by 2070 (announced at COP26). The forest cover target is 33% but the timeline is 2030, not 2025.",
+      "solution": "India's CAD is projected at around 1.0% of GDP.",
       "estSec": 15,
       "topicWeight": 0.1,
       "source": "curated"
@@ -1479,41 +1634,41 @@
     {
       "id": 70,
       "subject": "General Awareness",
-      "topic": "S&T · Space",
+      "topic": "Current Affairs · Technology",
       "section": "GA",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
-      "stem": "Which Indian space mission successfully soft-landed on the Moon's south pole region in August 2023, making India the fourth country to achieve a soft landing on the Moon?",
+      "difficulty": "hard",
+      "stem": "Which Indian IT company recently partnered with NVIDIA for AI cloud services?",
       "options": [
-        "Chandrayaan-1",
-        "Chandrayaan-2",
-        "Chandrayaan-3",
-        "Mangalyaan"
+        "TCS",
+        "Infosys",
+        "Wipro",
+        "HCL"
       ],
-      "answer": 2,
-      "solution": "Chandrayaan-3, launched by ISRO on July 14, 2023, successfully soft-landed the Vikram lander near the Moon's south pole on August 23, 2023. India became the fourth country (after the USSR, USA, and China) to achieve a soft lunar landing, and the first to land near the south pole. The Pragyan rover was deployed from the Vikram lander and conducted in-situ chemical analysis of the lunar surface.",
-      "estSec": 10,
+      "answer": 1,
+      "solution": "Infosys partnered with NVIDIA for AI cloud services.",
+      "estSec": 15,
       "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 71,
       "subject": "General Awareness",
-      "topic": "Indian Economy · Budget",
+      "topic": "Current Affairs · Energy",
       "section": "GA",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
-      "stem": "The Union Budget 2024-25 allocated significant funds to the energy sector. Which of the following schemes was launched to promote rooftop solar installations on residential buildings?",
+      "difficulty": "hard",
+      "stem": "The National Green Hydrogen Mission has an initial outlay of:",
       "options": [
-        "Surya Ghar Muft Bijli Yojana",
-        "PM-KUSUM",
-        "National Solar Mission",
-        "Rooftop Solar Programme Phase II"
+        "₹12,000 crore",
+        "₹19,744 crore",
+        "₹25,000 crore",
+        "₹50,000 crore"
       ],
-      "answer": 0,
-      "solution": "The 'PM Surya Ghar Muft Bijli Yojana' was announced in the Union Budget 2024-25 with an investment of ₹75,021 crore to promote rooftop solar installations on 1 crore households, providing up to 300 units of free electricity per month. This is a modification/upgrade of the earlier rooftop solar programs. PM-KUSUM focuses on solar pumps for farmers, the National Solar Mission is a broader policy framework, and Rooftop Solar Programme Phase II is the earlier iteration.",
+      "answer": 1,
+      "solution": "The National Green Hydrogen Mission has an outlay of ₹19,744 crore.",
       "estSec": 15,
       "topicWeight": 0.1,
       "source": "curated"
@@ -1521,62 +1676,62 @@
     {
       "id": 72,
       "subject": "General Awareness",
-      "topic": "Geography · Physical",
+      "topic": "Static GK · Indian Polity",
       "section": "GA",
       "type": "MCQ",
       "marks": 1,
       "difficulty": "easy",
-      "stem": "The Pacific Ring of Fire is a zone of frequent earthquakes and volcanic eruptions. How many of the world's earthquakes occur along this belt?",
+      "stem": "How many fundamental rights are currently recognized?",
       "options": [
-        "About 50%",
-        "About 70%",
-        "About 81%",
-        "About 95%"
+        "5",
+        "6",
+        "7",
+        "8"
       ],
-      "answer": 2,
-      "solution": "The Pacific Ring of Fire (also called the Circum-Pacific Belt) accounts for approximately 81% of the world's largest earthquakes and about 75% of the world's active and dormant volcanoes. It stretches ~40,000 km in a horseshoe shape from New Zealand, along the eastern edge of Asia, north across the Aleutian Islands of Alaska, and south along the western coasts of Central and South America. The seismicity is caused by the subduction of oceanic plates beneath continental plates along the Pacific Plate margin.",
-      "estSec": 10,
+      "answer": 1,
+      "solution": "There are 6 fundamental rights currently recognized.",
+      "estSec": 15,
       "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 73,
       "subject": "General Awareness",
-      "topic": "General Science · Physics",
+      "topic": "Static GK · Geography",
       "section": "GA",
       "type": "MCQ",
       "marks": 1,
       "difficulty": "medium",
-      "stem": "Which of the following physical quantities has the same dimensions as energy?",
+      "stem": "Southernmost point of India:",
       "options": [
-        "Force",
-        "Pressure",
-        "Work",
-        "Power"
+        "Indira Point",
+        "Kanyakumari",
+        "Dhanushkodi",
+        "Rameswaram"
       ],
-      "answer": 2,
-      "solution": "Work = Force × Distance = [MLT⁻²] × [L] = [ML²T⁻²]. Energy also has dimensions [ML²T⁻²] (kinetic energy = ½mv² = [M][L²T⁻²] = [ML²T⁻²]). Pressure = Force/Area = [ML⁻¹T⁻²]. Power = Energy/Time = [ML²T⁻³]. Force = [MLT⁻²]. Work and energy are dimensionally identical and are measured in the same units (joules).",
-      "estSec": 10,
+      "answer": 0,
+      "solution": "Indira Point in Nicobar Islands is the southernmost point.",
+      "estSec": 15,
       "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 74,
       "subject": "General Awareness",
-      "topic": "PSU · ONGC",
+      "topic": "Static GK · Geography",
       "section": "GA",
       "type": "MCQ",
       "marks": 1,
       "difficulty": "medium",
-      "stem": "ONGC has been pursuing energy transition and has set targets for renewable energy capacity. Which renewable energy source has ONGC primarily invested in through its subsidiary ONGC Green Energy Limited?",
+      "stem": "The river flowing through maximum Indian states:",
       "options": [
-        "Nuclear energy",
-        "Offshore wind energy",
-        "Solar and wind energy (hybrid renewable energy projects)",
-        "Tidal energy"
+        "Ganga",
+        "Yamuna",
+        "Godavari",
+        "Narmada"
       ],
-      "answer": 2,
-      "solution": "ONGC Green Energy Limited (ONGC's subsidiary) has primarily focused on solar and wind energy projects as part of ONGC's energy transition strategy. ONGC has set a target of 10 GW of renewable energy capacity by 2030. The company has invested in solar parks, wind farms, and hybrid renewable energy projects across India. ONGC also acquired a 51% stake in BPCL's renewable energy arm and is exploring green hydrogen and compressed biogas as part of its diversification strategy.",
+      "answer": 0,
+      "solution": "Ganga flows through 11 states.",
       "estSec": 15,
       "topicWeight": 0.1,
       "source": "curated"
@@ -1584,231 +1739,231 @@
     {
       "id": 75,
       "subject": "General Awareness",
-      "topic": "Current Affairs · Awards",
+      "topic": "Static GK · History",
       "section": "GA",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
-      "stem": "Which of the following Indian institutions was awarded the 'Institution of Innovation' award by the Government of India for fostering entrepreneurship and startup culture?",
+      "difficulty": "hard",
+      "stem": "India gained independence on:",
       "options": [
-        "Indian Institutes of Technology (IITs)",
-        "Indian Institutes of Management (IIMs)",
-        "National Institutes of Technology (NITs)",
-        "Indian Institutes of Science Education and Research (IISERs)"
+        "January 26, 1950",
+        "August 15, 1947",
+        "August 15, 1950",
+        "January 26, 1947"
       ],
-      "answer": 0,
-      "solution": "IITs (Indian Institutes of Technology) have been recognized for fostering innovation and entrepreneurship. IIT Madras, IIT Bombay, and other IITs have established technology incubators (IITM Research Park, IITB Research Park) that have supported numerous startups. IIT Madras' incubator alone has supported over 200 startups. The Atal Innovation Mission and various IIT incubators have been instrumental in building India's startup ecosystem.",
-      "estSec": 10,
+      "answer": 1,
+      "solution": "India gained independence on August 15, 1947.",
+      "estSec": 15,
       "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 76,
-      "subject": "English Language",
-      "topic": "Vocabulary · Synonyms",
+      "subject": "English",
+      "topic": "English Language · Voice",
       "section": "English",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
-      "stem": "Choose the word most similar in meaning to 'Ephemeral':",
+      "difficulty": "hard",
+      "stem": "Convert to passive: 'The committee approved the proposal.'",
       "options": [
-        "Permanent",
-        "Transient",
-        "Massive",
-        "Brilliant"
+        "The proposal was approved by the committee",
+        "The proposal is approved by the committee",
+        "The proposal has been approved by committee",
+        "The proposal were approved by the committee"
       ],
-      "answer": 1,
-      "solution": "'Ephemeral' means lasting for a very short time; transient, fleeting. It comes from Greek 'ephēmeros' (lasting only a day). 'Permanent' is an antonym. 'Transient' is the closest synonym. The word is often used in geological contexts: 'ephemeral streams' (streams that flow only after rainfall), 'ephemeral gullies' (small channels that form during individual storm events).",
-      "estSec": 10,
+      "answer": 0,
+      "solution": "Past simple passive: was/were + past participle.",
+      "estSec": 15,
       "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 77,
-      "subject": "English Language",
-      "topic": "Vocabulary · Antonyms",
+      "subject": "English",
+      "topic": "English Language · Prepositions",
       "section": "English",
       "type": "MCQ",
       "marks": 1,
       "difficulty": "medium",
-      "stem": "Choose the word most opposite in meaning to 'Ubiquitous':",
+      "stem": "The meeting was put ___ Friday.",
       "options": [
-        "Rare",
-        "Common",
-        "Pervasive",
-        "Universal"
+        "on",
+        "at",
+        "off",
+        "up"
       ],
-      "answer": 0,
-      "solution": "'Ubiquitous' means present, appearing, or found everywhere (Latin 'ubique' = everywhere). 'Rare' (occurring infrequently; not common) is the most direct antonym. 'Common,' 'pervasive,' and 'universal' are all synonyms of ubiquitous. In geophysics, the term might describe a ubiquitous mineral like quartz that is found in virtually all rock types.",
-      "estSec": 10,
+      "answer": 2,
+      "solution": "Put off means to postpone.",
+      "estSec": 15,
       "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 78,
-      "subject": "English Language",
-      "topic": "Grammar · Subject-Verb Agreement",
+      "subject": "English",
+      "topic": "English Language · Vocabulary",
       "section": "English",
       "type": "MCQ",
       "marks": 1,
       "difficulty": "easy",
-      "stem": "Choose the sentence with correct subject-verb agreement:",
+      "stem": "What is the synonym of 'ephemeral'?",
       "options": [
-        "The committee have decided to approve the project.",
-        "The data collected during the survey shows significant anomalies.",
-        "Neither the geophysicist nor the geologist were available for the meeting.",
-        "Each of the seismic stations were calibrated before deployment."
+        "Permanent",
+        "Transient",
+        "Eternal",
+        "Stable"
       ],
       "answer": 1,
-      "solution": "Option B is correct: 'The data...shows' — 'data' can be treated as singular (especially in scientific writing, where it refers to a single dataset) or plural. Here, the singular verb 'shows' agrees with the collective dataset. Option A: 'The committee have' — 'committee' is a collective noun and takes a singular verb in American English ('has decided'), though British English accepts 'have.' Option C: 'Neither...nor' — the verb agrees with the nearer subject ('geologist'), so it should be 'was available.' Option D: 'Each...were' — 'each' is always singular, so it should be 'was calibrated.'",
-      "estSec": 10,
+      "solution": "Ephemeral means short-lived or transient.",
+      "estSec": 15,
       "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 79,
-      "subject": "English Language",
-      "topic": "Idioms and Phrases",
+      "subject": "English",
+      "topic": "English Language · Vocabulary",
       "section": "English",
       "type": "MCQ",
       "marks": 1,
       "difficulty": "medium",
-      "stem": "What does the idiom 'to add fuel to the fire' mean?",
+      "stem": "What does 'ameliorate' mean?",
       "options": [
-        "To make a situation better",
-        "To make a bad situation worse",
-        "To work very hard",
-        "To find a solution to a problem"
+        "Worsen",
+        "Improve",
+        "Destroy",
+        "Maintain"
       ],
       "answer": 1,
-      "solution": "'To add fuel to the fire' (or 'to add fuel to the flames') means to make a bad or contentious situation worse by one's actions or words. For example: 'His controversial statement only added fuel to the fire during the debate.' The metaphor comes from literally adding fuel (wood, oil) to an already burning fire, making it burn more intensely. Similar idioms: 'to pour oil on the fire,' 'to fan the flames.'",
-      "estSec": 10,
+      "solution": "Ameliorate means to make better or improve.",
+      "estSec": 15,
       "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 80,
-      "subject": "English Language",
-      "topic": "Sentence Rearrangement",
+      "subject": "English",
+      "topic": "English Language · Punctuation",
       "section": "English",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
-      "stem": "Arrange the following sentences to form a coherent paragraph:\nP. The geophysical survey revealed significant subsurface anomalies.\nQ. Further drilling confirmed the presence of a mineral deposit.\nR. The initial geological mapping suggested potential mineralization.\nS. This discovery attracted considerable investment from mining companies.\nWhich is the correct order?",
+      "difficulty": "hard",
+      "stem": "Choose the correctly punctuated sentence:",
       "options": [
-        "R-P-Q-S",
-        "P-R-Q-S",
-        "Q-R-P-S",
-        "R-Q-P-S"
+        "Lets eat, Grandma!",
+        "Let's eat Grandma!",
+        "Lets eat Grandma!",
+        "Let's, eat Grandma!"
       ],
       "answer": 0,
-      "solution": "The logical order is R-P-Q-S: (R) Initial geological mapping suggests potential → (P) Geophysical survey confirms anomalies → (Q) Drilling confirms mineral deposit → (S) Discovery attracts investment. This follows the standard mineral exploration sequence: reconnaissance (mapping) → detailed exploration (geophysics) → confirmation (drilling) → commercial development (investment).",
+      "solution": "Let's needs an apostrophe; comma separates direct address.",
       "estSec": 15,
       "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 81,
-      "subject": "English Language",
-      "topic": "Reading Comprehension",
+      "subject": "English",
+      "topic": "English Language · Grammar",
       "section": "English",
       "type": "MCQ",
       "marks": 1,
       "difficulty": "medium",
-      "stem": "Read the following passage and answer the question:\n'India's crude oil import dependency has increased from 82% in 2015 to approximately 85% in 2023. The government has set a target to reduce this to 67% by 2030 through a combination of enhanced domestic production, energy efficiency measures, and accelerated adoption of renewable energy sources. ONGC's deep-water exploration programme in the KG Basin and the Mumbai Offshore Basin is expected to contribute significantly to domestic production targets.'\nWhat is the primary reason cited for India's increasing crude oil import dependency?",
+      "stem": "Identify the error: 'Each of the students have submitted their assignments.'",
       "options": [
-        "Decline in domestic oil production due to aging fields",
-        "Increase in domestic consumption outpacing domestic production",
-        "Government policy favoring imports over domestic production",
-        "Environmental restrictions on domestic exploration"
+        "Each of",
+        "the students",
+        "have submitted",
+        "their assignments"
       ],
-      "answer": 1,
-      "solution": "While the passage doesn't explicitly state the reason, the context implies that India's domestic consumption has been growing faster than domestic production, leading to increasing import dependency. India is the world's third-largest oil consumer, and its demand has been rising due to economic growth, expanding transportation sector, and industrialization, while domestic production has remained relatively flat or declined from mature fields. The passage focuses on the government's response (enhanced domestic production, renewables) rather than the cause, but the logical inference from the 82% → 85% trend with increasing demand is consumption outpacing production.",
+      "answer": 2,
+      "solution": "'Each' is singular, so it should be 'has submitted'.",
       "estSec": 15,
       "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 82,
-      "subject": "English Language",
-      "topic": "Grammar · Tenses",
+      "subject": "English",
+      "topic": "English Language · Prepositions",
       "section": "English",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
-      "stem": "Choose the sentence with the correct use of tenses:",
+      "difficulty": "hard",
+      "stem": "She is proficient ___ English.",
       "options": [
-        "By the time the team reaches the site, the seismic survey will already complete.",
-        "The geophysicist has been analyzing the data for three hours and is still not finished.",
-        "We conducted the gravity survey yesterday and we will analyze the results tomorrow.",
-        "If the borehole would have been drilled deeper, we would have encountered the reservoir."
+        "on",
+        "at",
+        "in",
+        "of"
       ],
-      "answer": 1,
-      "solution": "Option B correctly uses the present perfect continuous tense ('has been analyzing') to describe an action that started in the past and is still continuing, with 'is still not finished' confirming the ongoing nature. Option A: 'will already complete' should be 'will have already completed' (future perfect). Option C: While grammatically acceptable, the shift from past ('conducted') to future ('will analyze') is jarring without connecting context. Option D: 'would have been drilled' should be 'had been drilled' — in the third conditional, the if-clause uses past perfect, not 'would have.'",
-      "estSec": 10,
+      "answer": 2,
+      "solution": "Proficient + in is the correct collocation.",
+      "estSec": 15,
       "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 83,
-      "subject": "English Language",
-      "topic": "Vocabulary · Cloze Test",
+      "subject": "English",
+      "topic": "English Language · Vocabulary",
       "section": "English",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
-      "stem": "Choose the word that best fits the blank: 'The seismologist's ________ analysis of the waveform data revealed subtle features that had been overlooked by previous researchers.'",
+      "difficulty": "easy",
+      "stem": "What is a 'watershed' moment?",
       "options": [
-        "Cursory",
-        "Meticulous",
-        "Perfunctory",
-        "Superficial"
+        "A moment near water",
+        "A turning point",
+        "A disaster",
+        "A celebration"
       ],
       "answer": 1,
-      "solution": "'Meticulous' means showing great attention to detail; very careful and precise. The sentence describes an analysis that revealed 'subtle features' that others had 'overlooked,' implying thorough, detailed work — exactly what 'meticulous' conveys. 'Cursory,' 'perfunctory,' and 'superficial' all mean hasty, without attention to detail, and are antonyms in this context. The sentence would not make sense with these words because a hasty analysis would be less likely to reveal subtle features.",
-      "estSec": 10,
+      "solution": "A watershed moment is a turning point or critical moment.",
+      "estSec": 15,
       "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 84,
-      "subject": "English Language",
-      "topic": "Grammar · Prepositions",
+      "subject": "English",
+      "topic": "English Language · Grammar",
       "section": "English",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
-      "stem": "Choose the sentence with the correct preposition usage:",
+      "difficulty": "hard",
+      "stem": "The manager, along with his team, ___ present at the meeting.",
       "options": [
-        "The results of the survey are consistent with previous findings.",
-        "The results of the survey are consistent to previous findings.",
-        "The results from the survey are consistent on previous findings.",
-        "The results at the survey are consistent with previous findings."
+        "were",
+        "are",
+        "was",
+        "have been"
       ],
-      "answer": 0,
-      "solution": "'Consistent with' is the correct collocation. 'Consistent' is always followed by the preposition 'when indicating agreement or compatibility with something. 'Consistent to,' 'consistent on,' and 'consistent at' are all incorrect. This is a fixed prepositional phrase in English. Other similar collocations: 'independent of,' 'different from,' 'similar to.'",
-      "estSec": 10,
+      "answer": 2,
+      "solution": "When 'along with' is used, the verb agrees with the first subject (manager → was).",
+      "estSec": 15,
       "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 85,
-      "subject": "English Language",
-      "topic": "Grammar · Articles and Determiners",
+      "subject": "English",
+      "topic": "English Language · Grammar",
       "section": "English",
       "type": "MCQ",
       "marks": 1,
       "difficulty": "medium",
-      "stem": "Choose the sentence with the correct use of articles:",
+      "stem": "Which is correct? 'The news ___ shocking.'",
       "options": [
-        "She is an European geophysicist specializing in marine seismology.",
-        "The Himalayas are the highest mountain range in the world.",
-        "He earned a MBA from IIM Ahmedabad.",
-        "An honest geophysicist is hard to find."
+        "were",
+        "are",
+        "is",
+        "have been"
       ],
-      "answer": 1,
-      "solution": "Option B is correct: 'The Himalayas' uses the definite article because mountain ranges (like rivers, oceans, and unique geographical features) take 'the.' Option A: 'European' begins with a /j/ sound (consonant sound), so it should be 'a European,' not 'an European.' Option C: 'MBA' begins with /ɛm/ (vowel sound), so it should be 'an MBA,' not 'a MBA.' Option D: 'Honest' begins with a silent 'h,' so the first sound is /ɒ/ (vowel sound), and 'an honest' is correct — however, the statement is opinionated rather than grammatically incorrect. Wait — actually Option D is grammatically correct ('an honest' is correct because 'h' is silent). So both B and D are correct. But looking more carefully, the question asks for 'correct use of articles' and both B and D are correct. The intended answer is B because it tests the specific rule about geographical features taking 'the.'",
-      "estSec": 10,
+      "answer": 2,
+      "solution": "News is uncountable and takes a singular verb.",
+      "estSec": 15,
       "topicWeight": 0.1,
       "source": "curated"
     }

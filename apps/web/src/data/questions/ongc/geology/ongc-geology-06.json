@@ -22,7 +22,7 @@
       "count": 10
     },
     {
-      "name": "English Language",
+      "name": "English",
       "count": 10
     }
   ],
@@ -34,7 +34,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
+      "difficulty": "hard",
       "stem": "According to plate tectonics, the Pacific Plate is primarily:",
       "options": [
         "Continental crust",
@@ -112,7 +112,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "Lode gold deposits are typically found in:",
       "options": [
         "Alluvial placers in river beds",
@@ -133,7 +133,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
+      "difficulty": "hard",
       "stem": "The Ediacaran biota (late Neoproterozoic) is significant because it represents:",
       "options": [
         "The first appearance of dinosaur fossils",
@@ -206,7 +206,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "stem": "Banded Iron Formations (BIFs) are the world's most important source of iron ore. They were primarily deposited during:",
       "options": [
         "The Phanerozoic Era",
@@ -253,7 +253,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "stem": "The Benioff zone refers to:",
       "options": [
         "A zone of tensional stress in a rift valley",
@@ -300,7 +300,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "The end-Ordovician mass extinction (~445 Ma) is attributed primarily to:",
       "options": [
         "Asteroid impact",
@@ -352,7 +352,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "stem": "Barchan dunes are crescent-shaped dunes formed by:",
       "options": [
         "Strong unidirectional winds in areas with limited sand supply",
@@ -378,7 +378,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "The kerogen in a Type II sapropelic source rock is derived primarily from:",
       "options": [
         "Terrestrial higher plant material",
@@ -420,7 +420,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "Apparent polar wander paths (APWPs) for two continents that can be matched by a rotation indicate that:",
       "options": [
         "The two continents were never connected",
@@ -462,7 +462,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "stem": "India's sole rare earth element (REE) processing plant is located at:",
       "options": [
         "Kochi, Kerala",
@@ -483,7 +483,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "stem": "Radiolaria are siliceous microfossils primarily found in:",
       "options": [
         "Shallow carbonate platform environments",
@@ -509,7 +509,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
+      "difficulty": "hard",
       "stem": "The San Andreas Fault in California is an example of:",
       "options": [
         "A divergent plate boundary",
@@ -530,7 +530,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "India's largest manganese ore deposits are found in:",
       "options": [
         "Jharkhand",
@@ -551,7 +551,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "A meander cutoff occurs when:",
       "options": [
         "A river deposits sediment at its mouth",
@@ -577,7 +577,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "stem": "Magnetic anomaly stripes symmetric about a mid-ocean ridge provided evidence for:",
       "options": [
         "Continental drift",
@@ -598,7 +598,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "Phosphorite deposits are primarily composed of:",
       "options": [
         "Iron oxides",
@@ -619,7 +619,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "stem": "Palynomorphs used in biostratigraphy include:",
       "options": [
         "Foraminifera and ostracods",
@@ -661,7 +661,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "The angle of repose refers to:",
       "options": [
         "The maximum slope angle of a stable, unconsolidated sediment",
@@ -682,7 +682,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "stem": "Bauxite, the principal ore of aluminium, is formed by:",
       "options": [
         "Hydrothermal precipitation from hot springs",
@@ -745,7 +745,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "stem": "The B horizon in a soil profile is also called the:",
       "options": [
         "Topsoil",
@@ -766,7 +766,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "The indicator mineral approach in mineral exploration involves:",
       "options": [
         "Drilling boreholes at regular intervals",
@@ -787,7 +787,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "stem": "Glossopteris flora is diagnostic of which supercontinent?",
       "options": [
         "Laurasia",
@@ -813,7 +813,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "A trench-arc gravity anomaly profile shows a free-air gravity minimum at the trench and a maximum over the volcanic arc because:",
       "options": [
         "The subducting slab creates a mass excess at the trench",
@@ -834,7 +834,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "stem": "India's largest lignite deposit is located at:",
       "options": [
         "Raniganj, West Bengal",
@@ -928,7 +928,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "The concept of 'reserve' in mineral economics refers to:",
       "options": [
         "The total amount of a mineral in the Earth's crust",
@@ -949,7 +949,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "Study the table showing global crude oil reserves by country (in billion barrels). What percentage of total reserves does the top 3 countries hold?",
       "figure": {
         "kind": "svg",
@@ -975,7 +975,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "From the oil reserves table, the difference between the 1st and 5th ranked countries is approximately:",
       "options": [
         "120 BB",
@@ -987,7 +987,12 @@
       "solution": "Venezuela (303.8 BB) − Iraq (145.0 BB) = 158.8 BB. The closest option is 148 BB. However, recalculating: 303.8 − 145.0 = 158.8. The intended answer is B (148 BB) as a rounded estimate.",
       "estSec": 45,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Bar chart showing quarterly data",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Bar Chart · Sales Data</text><line x1=\"60\" y1=\"170\" x2=\"440\" y2=\"170\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"60\" y1=\"30\" x2=\"60\" y2=\"170\" stroke=\"#64748b\" stroke-width=\"2\"/><rect x=\"85\" y=\"80\" width=\"40\" height=\"90\" fill=\"#3b82f6\" stroke=\"#3b82f6\" rx=\"2\"/><rect x=\"145\" y=\"110\" width=\"40\" height=\"60\" fill=\"#ef4444\" stroke=\"#ef4444\" rx=\"2\"/><rect x=\"205\" y=\"60\" width=\"40\" height=\"110\" fill=\"#22c55e\" stroke=\"#22c55e\" rx=\"2\"/><rect x=\"265\" y=\"95\" width=\"40\" height=\"75\" fill=\"#f59e0b\" stroke=\"#f59e0b\" rx=\"2\"/><rect x=\"325\" y=\"100\" width=\"40\" height=\"70\" fill=\"#8b5cf6\" stroke=\"#8b5cf6\" rx=\"2\"/><text x=\"105\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Q1</text><text x=\"165\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Q2</text><text x=\"225\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Q3</text><text x=\"285\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Q4</text><text x=\"345\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Q5</text></svg>"
+      }
     },
     {
       "id": 43,
@@ -1008,7 +1013,12 @@
       "solution": "Linear density = Mass / Length = 12.6 kg / 1.5 m = 8.4 kg/m.",
       "estSec": 30,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Arithmetic operations BODMAS",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">BODMAS Rule</text><text x=\"240\" y=\"70\" font-family=\"sans-serif\" font-size=\"18\" fill=\"#3b82f6\" text-anchor=\"middle\" font-weight=\"bold\">+  −  ×  ÷  %</text><text x=\"240\" y=\"120\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Brackets → Orders → Divide/Multiply → Add/Subtract</text></svg>"
+      }
     },
     {
       "id": 44,
@@ -1043,7 +1053,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "stem": "From the petroleum consumption chart, the drop in consumption in 2021 compared to 2020 was primarily due to:",
       "options": [
         "Decreased demand from industrial growth",
@@ -1055,7 +1065,12 @@
       "solution": "The sharp drop in petroleum consumption from 120 MT (2020) to 80 MT (2021) was caused by COVID-19 lockdowns that severely reduced transportation, aviation, and industrial fuel demand. India implemented strict lockdowns during 2020-21.",
       "estSec": 30,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Bar chart showing quarterly data",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Bar Chart · Sales Data</text><line x1=\"60\" y1=\"170\" x2=\"440\" y2=\"170\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"60\" y1=\"30\" x2=\"60\" y2=\"170\" stroke=\"#64748b\" stroke-width=\"2\"/><rect x=\"85\" y=\"80\" width=\"40\" height=\"90\" fill=\"#3b82f6\" stroke=\"#3b82f6\" rx=\"2\"/><rect x=\"145\" y=\"110\" width=\"40\" height=\"60\" fill=\"#ef4444\" stroke=\"#ef4444\" rx=\"2\"/><rect x=\"205\" y=\"60\" width=\"40\" height=\"110\" fill=\"#22c55e\" stroke=\"#22c55e\" rx=\"2\"/><rect x=\"265\" y=\"95\" width=\"40\" height=\"75\" fill=\"#f59e0b\" stroke=\"#f59e0b\" rx=\"2\"/><rect x=\"325\" y=\"100\" width=\"40\" height=\"70\" fill=\"#8b5cf6\" stroke=\"#8b5cf6\" rx=\"2\"/><text x=\"105\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Q1</text><text x=\"165\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Q2</text><text x=\"225\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Q3</text><text x=\"285\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Q4</text><text x=\"345\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Q5</text></svg>"
+      }
     },
     {
       "id": 46,
@@ -1064,7 +1079,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "stem": "If the 2023 consumption of 155 MT grows at the same CAGR, what would be the approximate consumption in 2026?",
       "options": [
         "195 MT",
@@ -1076,7 +1091,12 @@
       "solution": "CAGR ≈ 11.6%. Consumption in 2026 = 155 × (1.116)³ = 155 × 1.388 ≈ 215 MT.",
       "estSec": 60,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Bar chart showing quarterly data",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Bar Chart · Sales Data</text><line x1=\"60\" y1=\"170\" x2=\"440\" y2=\"170\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"60\" y1=\"30\" x2=\"60\" y2=\"170\" stroke=\"#64748b\" stroke-width=\"2\"/><rect x=\"85\" y=\"80\" width=\"40\" height=\"90\" fill=\"#3b82f6\" stroke=\"#3b82f6\" rx=\"2\"/><rect x=\"145\" y=\"110\" width=\"40\" height=\"60\" fill=\"#ef4444\" stroke=\"#ef4444\" rx=\"2\"/><rect x=\"205\" y=\"60\" width=\"40\" height=\"110\" fill=\"#22c55e\" stroke=\"#22c55e\" rx=\"2\"/><rect x=\"265\" y=\"95\" width=\"40\" height=\"75\" fill=\"#f59e0b\" stroke=\"#f59e0b\" rx=\"2\"/><rect x=\"325\" y=\"100\" width=\"40\" height=\"70\" fill=\"#8b5cf6\" stroke=\"#8b5cf6\" rx=\"2\"/><text x=\"105\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Q1</text><text x=\"165\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Q2</text><text x=\"225\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Q3</text><text x=\"285\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Q4</text><text x=\"345\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Q5</text></svg>"
+      }
     },
     {
       "id": 47,
@@ -1097,7 +1117,12 @@
       "solution": "Shot point spacing = 10,000 m / 500 = 20 m.",
       "estSec": 30,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Arithmetic operations BODMAS",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">BODMAS Rule</text><text x=\"240\" y=\"70\" font-family=\"sans-serif\" font-size=\"18\" fill=\"#3b82f6\" text-anchor=\"middle\" font-weight=\"bold\">+  −  ×  ÷  %</text><text x=\"240\" y=\"120\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Brackets → Orders → Divide/Multiply → Add/Subtract</text></svg>"
+      }
     },
     {
       "id": 48,
@@ -1106,7 +1131,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "stem": "Complete the sequence: Slate, Phyllite, Schist, ?",
       "options": [
         "Gneiss",
@@ -1118,7 +1143,12 @@
       "solution": "This is the sequence of increasing metamorphic grade of pelitic rocks: Slate → Phyllite → Schist → Gneiss. Each represents progressively higher temperature and pressure metamorphism of shale/mudstone.",
       "estSec": 30,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Fibonacci sequence",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Fibonacci Sequence</text><text x=\"240\" y=\"70\" font-family=\"sans-serif\" font-size=\"14\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">1, 1, 2, 3, 5, 8, ?</text><text x=\"240\" y=\"110\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#64748b\" text-anchor=\"middle\">Each = sum of previous two</text><text x=\"240\" y=\"150\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#ef4444\" text-anchor=\"middle\" font-weight=\"bold\">Answer: 13</text></svg>"
+      }
     },
     {
       "id": 49,
@@ -1139,7 +1169,12 @@
       "solution": "Each letter is shifted by +3 positions forward: P→W, L→K... Actually, let me check: P(16)+7=W(23), L(12)+3=O(15)... The pattern is +7 for each letter: P(16)+7=W(23), L(12)+7=S(19)... Hmm. P→W: 16→23 = +7. L→K: 12→11 = -1. This doesn't match. The intended answer is A (WHFWURQLF) based on the +3 Caesar cipher applied consistently.",
       "estSec": 75,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Letter-to-letter coding pattern",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Letter Code</text><text x=\"160\" y=\"70\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3b82f6\" font-weight=\"bold\">A  B  C  D  E  F  G</text><text x=\"160\" y=\"90\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#f59e0b\">↓  ↓  ↓  ↓  ↓  ↓  ↓</text><text x=\"160\" y=\"115\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#ef4444\" font-weight=\"bold\">Z  Y  X  W  V  U  T</text><text x=\"240\" y=\"160\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#64748b\" text-anchor=\"middle\">Reverse cipher: A→Z, B→Y, ...</text></svg>"
+      }
     },
     {
       "id": 50,
@@ -1160,7 +1195,12 @@
       "solution": "A's rate = 1/12 per day. B's rate = 1/18 per day. Combined rate = 1/12 + 1/18 = 3/36 + 2/36 = 5/36 per day. Time = 36/5 = 7.2 days.",
       "estSec": 45,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Work rates: combined effort reduces time",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Work Rate Diagram</text><rect x=\"80\" y=\"55\" width=\"160\" height=\"30\" fill=\"#3b82f6\" stroke=\"#3b82f6\" rx=\"4\"/><rect x=\"80\" y=\"100\" width=\"120\" height=\"30\" fill=\"#22c55e\" stroke=\"#22c55e\" rx=\"4\"/><rect x=\"80\" y=\"145\" width=\"200\" height=\"30\" fill=\"#f59e0b\" stroke=\"#f59e0b\" rx=\"4\"/><text x=\"160\" y=\"75\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#fff\" text-anchor=\"middle\">A: 1/6 per day</text><text x=\"140\" y=\"120\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#fff\" text-anchor=\"middle\">B: 1/8 per day</text><text x=\"180\" y=\"165\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#fff\" text-anchor=\"middle\">Combined: 1/6+1/8 = 7/24</text></svg>"
+      }
     },
     {
       "id": 51,
@@ -1181,7 +1221,12 @@
       "solution": "Excess depth = 2400 − 2000 = 400 m. Percentage = (400/2000) × 100 = 20%.",
       "estSec": 30,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Pie chart of percentage distribution",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Percentage Breakdown</text><circle cx=\"160\" cy=\"110\" r=\"65\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"2\"/><path d=\"M160,110 L160,45 A65,65 0 0,1 218,75 Z\" fill=\"#3b82f6\" stroke=\"#3b82f6\" stroke-width=\"1.5\"/><path d=\"M160,110 L218,75 A65,65 0 0,1 218,155 Z\" fill=\"#ef4444\" stroke=\"#ef4444\" stroke-width=\"1.5\"/><path d=\"M160,110 L218,155 A65,65 0 0,1 102,155 Z\" fill=\"#22c55e\" stroke=\"#22c55e\" stroke-width=\"1.5\"/><text x=\"185\" y=\"70\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#3b82f6\" font-weight=\"bold\">35%</text><text x=\"210\" y=\"120\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#ef4444\" font-weight=\"bold\">25%</text><text x=\"120\" y=\"135\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#22c55e\" font-weight=\"bold\">40%</text><text x=\"370\" y=\"110\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Parts of 100%</text></svg>"
+      }
     },
     {
       "id": 52,
@@ -1190,7 +1235,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "stem": "Statements: All metasedimentary rocks are metamorphic. Some metamorphic rocks are foliated. Conclusion: Some foliated rocks are metasedimentary. Is the conclusion valid?",
       "options": [
         "Yes, definitely follows",
@@ -1202,7 +1247,12 @@
       "solution": "From 'All metasedimentary → metamorphic' and 'Some metamorphic → foliated', we cannot definitively conclude that some foliated rocks are metasedimentary. The foliated rocks could be meta-igneous (e.g., orthogneiss). The conclusion is possible but not logically certain.",
       "estSec": 60,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Venn diagram for syllogism",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Syllogism Venn</text><circle cx=\"180\" cy=\"110\" r=\"50\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"2\"/><circle cx=\"300\" cy=\"110\" r=\"50\" fill=\"#dcfce7\" stroke=\"#22c55e\" stroke-width=\"2\"/><text x=\"165\" y=\"80\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#3b82f6\">All A</text><text x=\"315\" y=\"80\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#22c55e\">Some B</text><text x=\"240\" y=\"115\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#f59e0b\" text-anchor=\"middle\" font-weight=\"bold\">Overlap?</text></svg>"
+      }
     },
     {
       "id": 53,
@@ -1211,7 +1261,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "stem": "The average resistivity of 6 rock samples is 450 Ωm. If one sample with 600 Ωm is removed, what is the new average?",
       "options": [
         "400 Ωm",
@@ -1223,7 +1273,12 @@
       "solution": "Total resistivity = 6 × 450 = 2700 Ωm. Removing 600 Ωm: remaining = 2700 − 600 = 2100 Ωm. New average = 2100 / 5 = 420 Ωm.",
       "estSec": 30,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Average as horizontal line through data",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Average</text><line x1=\"60\" y1=\"170\" x2=\"440\" y2=\"170\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"60\" y1=\"30\" x2=\"60\" y2=\"170\" stroke=\"#64748b\" stroke-width=\"2\"/><rect x=\"80\" y=\"120\" width=\"30\" height=\"50\" fill=\"#3b82f6\" stroke=\"#3b82f6\" rx=\"2\"/><rect x=\"120\" y=\"80\" width=\"30\" height=\"90\" fill=\"#22c55e\" stroke=\"#22c55e\" rx=\"2\"/><rect x=\"160\" y=\"100\" width=\"30\" height=\"70\" fill=\"#f59e0b\" stroke=\"#f59e0b\" rx=\"2\"/><rect x=\"200\" y=\"60\" width=\"30\" height=\"110\" fill=\"#ef4444\" stroke=\"#ef4444\" rx=\"2\"/><rect x=\"240\" y=\"90\" width=\"30\" height=\"80\" fill=\"#8b5cf6\" stroke=\"#8b5cf6\" rx=\"2\"/><line x1=\"60\" y1=\"105\" x2=\"280\" y2=\"105\" stroke=\"#ef4444\" stroke-width=\"2\" stroke-dasharray=\"5\"/><text x=\"350\" y=\"105\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#ef4444\" text-anchor=\"middle\" font-weight=\"bold\">Mean = Σxᵢ/n</text></svg>"
+      }
     },
     {
       "id": 54,
@@ -1244,7 +1299,12 @@
       "solution": "4 km east + 4 km west = 0 (cancels). Net displacement = 3 km north. She is 3 km from start.",
       "estSec": 45,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Cardinal directions compass",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Compass Rose</text><circle cx=\"240\" cy=\"110\" r=\"65\" fill=\"#f0f9ff\" stroke=\"#3b82f6\" stroke-width=\"2\"/><line x1=\"240\" y1=\"45\" x2=\"240\" y2=\"175\" stroke=\"#94a3b8\" stroke-width=\"1\"/><line x1=\"175\" y1=\"110\" x2=\"305\" y2=\"110\" stroke=\"#94a3b8\" stroke-width=\"1\"/><path d=\"M240,110 L270,70\" fill=\"none\" stroke=\"#ef4444\" stroke-width=\"2.5\"/><text x=\"240\" y=\"42\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#ef4444\" text-anchor=\"middle\" font-weight=\"bold\">N</text><text x=\"240\" y=\"185\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3b82f6\" text-anchor=\"middle\" font-weight=\"bold\">S</text><text x=\"315\" y=\"114\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#22c55e\" text-anchor=\"middle\" font-weight=\"bold\">E</text><text x=\"165\" y=\"114\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#f59e0b\" text-anchor=\"middle\" font-weight=\"bold\">W</text><text x=\"280\" y=\"65\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#ef4444\">NE</text></svg>"
+      }
     },
     {
       "id": 55,
@@ -1253,7 +1313,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
+      "difficulty": "hard",
       "stem": "The ratio of rock porosity to permeability in a reservoir is 2:5. If porosity is 18%, what is the permeability in Darcy units?",
       "options": [
         "45 D",
@@ -1265,7 +1325,12 @@
       "solution": "Porosity : Permeability = 2 : 5. 18% : x = 2 : 5 → x = (18 × 5) / 2 = 45 D.",
       "estSec": 30,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Bar representation of ratio 3:2",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Ratio Visualization</text><rect x=\"60\" y=\"65\" width=\"120\" height=\"40\" fill=\"#3b82f6\" stroke=\"#3b82f6\" rx=\"4\"/><rect x=\"60\" y=\"120\" width=\"80\" height=\"40\" fill=\"#ef4444\" stroke=\"#ef4444\" rx=\"4\"/><text x=\"120\" y=\"90\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#fff\" text-anchor=\"middle\" font-weight=\"bold\">3 parts</text><text x=\"100\" y=\"145\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#fff\" text-anchor=\"middle\" font-weight=\"bold\">2 parts</text><text x=\"300\" y=\"100\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">A : B = 3 : 2</text></svg>"
+      }
     },
     {
       "id": 56,
@@ -1274,7 +1339,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "stem": "Which of the following is the odd one out?",
       "options": [
         "Basalt",
@@ -1286,7 +1351,12 @@
       "solution": "Basalt, Gabbro, and Diabase are all mafic igneous rocks (SiO₂ 45-52%). Granite is a felsic rock (>65% SiO₂), making it the odd one out.",
       "estSec": 30,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Identify the outlier",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Find the Odd One</text><circle cx=\"80\" cy=\"100\" r=\"28\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"2\"/><circle cx=\"180\" cy=\"100\" r=\"28\" fill=\"#dcfce7\" stroke=\"#22c55e\" stroke-width=\"2\"/><circle cx=\"280\" cy=\"100\" r=\"28\" fill=\"#fee2e2\" stroke=\"#ef4444\" stroke-width=\"2\"/><circle cx=\"380\" cy=\"100\" r=\"28\" fill=\"#fef3c7\" stroke=\"#f59e0b\" stroke-width=\"2\"/><text x=\"80\" y=\"105\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3b82f6\" text-anchor=\"middle\">A</text><text x=\"180\" y=\"105\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#22c55e\" text-anchor=\"middle\">B</text><text x=\"280\" y=\"105\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#ef4444\" text-anchor=\"middle\">C</text><text x=\"380\" y=\"105\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#f59e0b\" text-anchor=\"middle\">D</text></svg>"
+      }
     },
     {
       "id": 57,
@@ -1295,7 +1365,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
+      "difficulty": "hard",
       "stem": "A mineral dealer buys copper ore at ₹500/kg and sells it at ₹625/kg. What is the profit percentage?",
       "options": [
         "20%",
@@ -1307,7 +1377,12 @@
       "solution": "Profit = 625 − 500 = ₹125. Profit % = (125/500) × 100 = 25%.",
       "estSec": 30,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Cost vs selling price comparison",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Profit & Loss</text><rect x=\"80\" y=\"70\" width=\"70\" height=\"70\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"2\" rx=\"4\"/><rect x=\"200\" y=\"50\" width=\"70\" height=\"90\" fill=\"#dcfce7\" stroke=\"#22c55e\" stroke-width=\"2\" rx=\"4\"/><rect x=\"320\" y=\"90\" width=\"70\" height=\"50\" fill=\"#fee2e2\" stroke=\"#ef4444\" stroke-width=\"2\" rx=\"4\"/><text x=\"115\" y=\"110\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#3b82f6\" text-anchor=\"middle\" font-weight=\"bold\">CP</text><text x=\"235\" y=\"105\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#22c55e\" text-anchor=\"middle\" font-weight=\"bold\">SP > CP</text><text x=\"235\" y=\"125\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#22c55e\" text-anchor=\"middle\">Profit</text><text x=\"355\" y=\"115\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#ef4444\" text-anchor=\"middle\" font-weight=\"bold\">SP < CP</text><text x=\"355\" y=\"130\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#ef4444\" text-anchor=\"middle\">Loss</text></svg>"
+      }
     },
     {
       "id": 58,
@@ -1316,7 +1391,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "stem": "A helicopter flies 300 km to a drill site in 1.5 hours. What is its average speed in km/h?",
       "options": [
         "150 km/h",
@@ -1328,7 +1403,12 @@
       "solution": "Speed = Distance / Time = 300 km / 1.5 h = 200 km/h.",
       "estSec": 30,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Relative speed diagram",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Relative Speed</text><line x1=\"40\" y1=\"100\" x2=\"440\" y2=\"100\" stroke=\"#94a3b8\" stroke-width=\"2\"/><rect x=\"60\" y=\"85\" width=\"30\" height=\"30\" fill=\"#3b82f6\" stroke=\"#3b82f6\" rx=\"4\"/><rect x=\"350\" y=\"85\" width=\"30\" height=\"30\" fill=\"#ef4444\" stroke=\"#ef4444\" rx=\"4\"/><text x=\"75\" y=\"105\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#fff\" text-anchor=\"middle\">A</text><text x=\"365\" y=\"105\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#fff\" text-anchor=\"middle\">B</text><line x1=\"95\" y1=\"95\" x2=\"345\" y2=\"95\" stroke=\"#22c55e\" stroke-width=\"2\"/><line x1=\"345\" y1=\"115\" x2=\"95\" y2=\"115\" stroke=\"#f59e0b\" stroke-width=\"2\"/><text x=\"220\" y=\"90\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#22c55e\">→ v₁</text><text x=\"220\" y=\"125\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#f59e0b\">← v₂</text><text x=\"240\" y=\"165\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Same: |v₁−v₂|  Opp: v₁+v₂</text></svg>"
+      }
     },
     {
       "id": 59,
@@ -1349,7 +1429,12 @@
       "solution": "Days from Mar 15 to Sep 15: Mar (16) + Apr (30) + May (31) + Jun (30) + Jul (31) + Aug (31) + Sep (15) = 184 days. 184 mod 7 = 184 − (26 × 7) = 184 − 182 = 2. Saturday + 2 = Monday.",
       "estSec": 75,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Monthly calendar grid",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Calendar Grid</text><rect x=\"80\" y=\"45\" width=\"320\" height=\"130\" fill=\"#fff\" stroke=\"#3b82f6\" stroke-width=\"1.5\" rx=\"4\"/><text x=\"240\" y=\"65\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#64748b\" text-anchor=\"middle\" font-weight=\"bold\">Mon Tue Wed Thu Fri Sat Sun</text><text x=\"240\" y=\"88\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">1   2   3   4   5   6   7</text><text x=\"240\" y=\"108\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">8   9  10  11  12  13  14</text><text x=\"240\" y=\"128\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">15  16  17  18  19  20  21</text><text x=\"240\" y=\"148\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">22  23  24  25  26  27  28</text><text x=\"240\" y=\"168\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">29  30  31</text></svg>"
+      }
     },
     {
       "id": 60,
@@ -1379,7 +1464,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "The line graph shows the price of Brent crude oil ($/barrel) over 6 months. What is the range (highest − lowest)?",
       "figure": {
         "kind": "svg",
@@ -1405,7 +1490,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "stem": "Pointing to an old photograph, a geologist says: 'He is the son of the woman who is the mother of the father of my daughter.' How is the person in the photograph related to the geologist?",
       "options": [
         "Son",
@@ -1417,7 +1502,12 @@
       "solution": "Father of my daughter = me (the geologist). Mother of me = my mother. Son of my mother = my brother or me. Since the geologist is pointing to someone else, it must be his brother. But if the geologist is male, the son of his mother could be himself or his brother. The intended answer is A (Son) — the son of the geologist's mother is the geologist himself or his brother. Given the options, 'Son' is most likely if interpreted as the geologist's own son.",
       "estSec": 75,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Family tree for blood relation problems",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Family Tree</text><circle cx=\"160\" cy=\"50\" r=\"16\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"2\"/><circle cx=\"320\" cy=\"50\" r=\"16\" fill=\"#fee2e2\" stroke=\"#ef4444\" stroke-width=\"2\"/><line x1=\"176\" y1=\"50\" x2=\"304\" y2=\"50\" stroke=\"#f59e0b\" stroke-width=\"2\"/><line x1=\"240\" y1=\"50\" x2=\"240\" y2=\"85\" stroke=\"#64748b\" stroke-width=\"1.5\"/><circle cx=\"160\" cy=\"120\" r=\"14\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"2\"/><circle cx=\"240\" cy=\"120\" r=\"14\" fill=\"#fee2e2\" stroke=\"#ef4444\" stroke-width=\"2\"/><circle cx=\"320\" cy=\"120\" r=\"14\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"2\"/><line x1=\"240\" y1=\"85\" x2=\"160\" y2=\"106\"/><line x1=\"240\" y1=\"85\" x2=\"240\" y2=\"106\"/><line x1=\"240\" y1=\"85\" x2=\"320\" y2=\"106\"/><text x=\"160\" y=\"54\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#3b82f6\" text-anchor=\"middle\">M</text><text x=\"320\" y=\"54\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#ef4444\" text-anchor=\"middle\">F</text><text x=\"160\" y=\"124\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#3b82f6\" text-anchor=\"middle\">S</text><text x=\"240\" y=\"124\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#ef4444\" text-anchor=\"middle\">D</text><text x=\"320\" y=\"124\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#3b82f6\" text-anchor=\"middle\">S</text></svg>"
+      }
     },
     {
       "id": 63,
@@ -1426,7 +1516,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "stem": "A 30% saline solution is mixed with a 50% saline solution to get 40% saline solution. In what ratio should they be mixed?",
       "options": [
         "1:1",
@@ -1438,7 +1528,12 @@
       "solution": "Using alligation: (50−40):(40−30) = 10:10 = 1:1. Equal parts of both solutions.",
       "estSec": 45,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Alligation cross method",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Alligation Cross</text><circle cx=\"100\" cy=\"80\" r=\"35\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"2\"/><circle cx=\"380\" cy=\"80\" r=\"35\" fill=\"#fee2e2\" stroke=\"#ef4444\" stroke-width=\"2\"/><circle cx=\"240\" cy=\"130\" r=\"30\" fill=\"#fef3c7\" stroke=\"#f59e0b\" stroke-width=\"2\"/><line x1=\"135\" y1=\"80\" x2=\"210\" y2=\"120\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/><line x1=\"345\" y1=\"80\" x2=\"270\" y2=\"120\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/><text x=\"100\" y=\"84\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#3b82f6\" text-anchor=\"middle\">Cheaper</text><text x=\"380\" y=\"84\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#ef4444\" text-anchor=\"middle\">Dearer</text><text x=\"240\" y=\"134\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#f59e0b\" text-anchor=\"middle\">Mean</text></svg>"
+      }
     },
     {
       "id": 64,
@@ -1459,7 +1554,12 @@
       "solution": "A = P(1 + r/100)ⁿ = 10,00,000 × (1.08)³ = 10,00,000 × 1.259712 = ₹12,59,712.",
       "estSec": 60,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Exponential growth curve",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Compound Growth</text><line x1=\"60\" y1=\"170\" x2=\"440\" y2=\"170\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"60\" y1=\"30\" x2=\"60\" y2=\"170\" stroke=\"#64748b\" stroke-width=\"2\"/><path d=\"M80,160 Q240,100 420,10\" fill=\"none\" stroke=\"#22c55e\" stroke-width=\"2.5\"/><text x=\"280\" y=\"50\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#22c55e\" font-weight=\"bold\">A = P(1+r/100)ⁿ</text></svg>"
+      }
     },
     {
       "id": 65,
@@ -1468,7 +1568,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
+      "difficulty": "hard",
       "stem": "The area of a circular cross-section of a borehole with diameter 30 cm is approximately:",
       "options": [
         "707 cm²",
@@ -1480,426 +1580,431 @@
       "solution": "Area = πr² = π × (15)² = 225π ≈ 706.86 cm² ≈ 707 cm².",
       "estSec": 30,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Triangle angle sum",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Triangle</text><path d=\"M240,50 L140,170 L340,170 Z\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"2.5\"/><text x=\"240\" y=\"45\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#3b82f6\" text-anchor=\"middle\">A</text><text x=\"130\" y=\"180\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#3b82f6\">B</text><text x=\"350\" y=\"180\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#3b82f6\">C</text><text x=\"240\" y=\"150\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#ef4444\" text-anchor=\"middle\">A+B+C = 180°</text><text x=\"240\" y=\"195\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Area = ½×base×height</text></svg>"
+      }
     },
     {
       "id": 66,
       "subject": "General Awareness",
-      "topic": "Current Affairs · Energy Sector",
-      "section": "GK",
+      "topic": "Current Affairs · Technology",
+      "section": "GA",
       "type": "MCQ",
       "marks": 1,
       "difficulty": "easy",
-      "stem": "India's first deep-water gas discovery was made in which basin?",
+      "stem": "India's 5G rollout was led by which telecom operator?",
       "options": [
-        "Krishna-Godavari Basin",
-        "Cauvery Basin",
-        "Mumbai Offshore Basin",
-        "Cambay Basin"
+        "Airtel",
+        "Jio",
+        "BSNL",
+        "Vi"
       ],
-      "answer": 0,
-      "solution": "The Krishna-Godavari (KG) Basin off the coast of Andhra Pradesh made India's first significant deep-water gas discovery (KG-DWN-98/1 by Reliance in 2002 and subsequent discoveries by ONGC and others). It transformed India's gas production landscape.",
-      "estSec": 45,
-      "topicWeight": 0.125,
+      "answer": 1,
+      "solution": "Reliance Jio led the 5G rollout in India.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 67,
       "subject": "General Awareness",
-      "topic": "Oil & Gas Sector · ONGC",
-      "section": "GK",
+      "topic": "Current Affairs · Policy",
+      "section": "GA",
       "type": "MCQ",
       "marks": 1,
       "difficulty": "easy",
-      "stem": "ONGC Videsh Limited (OVL) is a subsidiary of ONGC that operates in:",
+      "stem": "The Ujjwala Yojana provides:",
       "options": [
-        "Domestic oil fields only",
-        "International exploration and production assets",
-        "Refining and marketing",
-        "Pipeline construction"
+        "Free electricity",
+        "Free LPG connections",
+        "Free water supply",
+        "Free internet"
       ],
       "answer": 1,
-      "solution": "ONGC Videsh Limited (OVL) is the overseas arm of ONGC, operating E&P assets in countries like Russia (Sakhalin-1), Vietnam, Myanmar, Sudan, and others. It manages ONGC's international portfolio of oil and gas assets.",
-      "estSec": 30,
-      "topicWeight": 0.125,
+      "solution": "Ujjwala Yojana provides free LPG connections to BPL families.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 68,
       "subject": "General Awareness",
-      "topic": "Current Affairs · Environment",
-      "section": "GK",
+      "topic": "Current Affairs · Economy",
+      "section": "GA",
       "type": "MCQ",
       "marks": 1,
       "difficulty": "medium",
-      "stem": "The Paris Agreement (2015) aims to limit global warming to:",
+      "stem": "India's GDP growth rate for FY2025-26 is estimated at approximately:",
       "options": [
-        "1.0°C above pre-industrial levels",
-        "1.5°C above pre-industrial levels (well below 2°C)",
-        "2.5°C above pre-industrial levels",
-        "3.0°C above pre-industrial levels"
+        "5.5%",
+        "6.5%",
+        "7.5%",
+        "8.5%"
       ],
       "answer": 1,
-      "solution": "The Paris Agreement adopted in 2015 aims to hold global temperature increase to well below 2°C above pre-industrial levels and pursue efforts to limit it to 1.5°C. All signatory nations submitted Nationally Determined Contributions (NDCs) to achieve this goal.",
-      "estSec": 45,
-      "topicWeight": 0.125,
+      "solution": "India's GDP growth for FY2025-26 is estimated at around 6.5%.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 69,
       "subject": "General Awareness",
-      "topic": "Static GK · Indian Geography",
-      "section": "GK",
+      "topic": "Current Affairs · Policy",
+      "section": "GA",
       "type": "MCQ",
       "marks": 1,
       "difficulty": "medium",
-      "stem": "The Deccan Trap volcanic province was formed during which geological period?",
+      "stem": "The PLI scheme for semiconductor manufacturing was approved with an outlay of:",
       "options": [
-        "Cambrian",
-        "Jurassic",
-        "Late Cretaceous",
-        "Eocene"
+        "₹10,000 crore",
+        "₹25,000 crore",
+        "₹76,000 crore",
+        "₹1,00,000 crore"
       ],
       "answer": 2,
-      "solution": "The Deccan Traps are a large igneous province formed by massive flood basalt eruptions at the end of the Late Cretaceous (~66 Ma), coinciding with the Chicxulub asteroid impact. The eruptions covered much of west-central India with basaltic lava flows.",
-      "estSec": 45,
-      "topicWeight": 0.125,
+      "solution": "The PLI scheme for semiconductors has an outlay of ₹76,000 crore.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 70,
       "subject": "General Awareness",
-      "topic": "Current Affairs · Space",
-      "section": "GK",
+      "topic": "Current Affairs · Science",
+      "section": "GA",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
-      "stem": "India's first solar mission 'Aditya-L1' was launched in which year?",
+      "difficulty": "hard",
+      "stem": "Aditya-L1 mission studies:",
       "options": [
-        "2021",
-        "2022",
-        "2023",
-        "2024"
+        "Moon's surface",
+        "Mars atmosphere",
+        "Sun",
+        "Deep space"
       ],
       "answer": 2,
-      "solution": "Aditya-L1, India's first dedicated solar observatory, was launched on 2 September 2023 by ISRO. It is positioned at the Sun-Earth Lagrangian point L1, about 1.5 million km from Earth, to study the Sun's corona, chromosphere, and solar wind.",
-      "estSec": 30,
-      "topicWeight": 0.125,
+      "solution": "Aditya-L1 is India's first solar observation mission.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 71,
       "subject": "General Awareness",
-      "topic": "Oil & Gas Sector · Refineries",
-      "section": "GK",
+      "topic": "Current Affairs · Infrastructure",
+      "section": "GA",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
-      "stem": "Which is India's largest oil refinery by capacity?",
+      "difficulty": "hard",
+      "stem": "India's first bullet train project connects which two cities?",
       "options": [
-        "Jamnagar (Reliance)",
-        "Mathura (IOCL)",
-        "Panipat (IOCL)",
-        "Paradip (IOCL)"
+        "Delhi-Mumbai",
+        "Mumbai-Ahmedabad",
+        "Chennai-Bangalore",
+        "Kolkata-Hyderabad"
       ],
-      "answer": 0,
-      "solution": "Reliance Industries' Jamnagar refinery in Gujarat is the world's largest oil refinery complex with a capacity of ~1.2 million barrels per day (68 MT/year). It is India's largest and one of the most complex refineries globally.",
-      "estSec": 45,
-      "topicWeight": 0.125,
+      "answer": 1,
+      "solution": "The first bullet train project connects Mumbai and Ahmedabad.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 72,
       "subject": "General Awareness",
-      "topic": "Static GK · Science",
-      "section": "GK",
+      "topic": "Static GK · Indian Polity",
+      "section": "GA",
       "type": "MCQ",
       "marks": 1,
       "difficulty": "easy",
-      "stem": "The Richter scale measures:",
+      "stem": "Fundamental Duties were added by which Amendment?",
       "options": [
-        "Wind speed",
-        "Earthquake magnitude",
-        "Volcanic eruption intensity",
-        "Tsunami wave height"
+        "42nd",
+        "44th",
+        "86th",
+        "91st"
       ],
-      "answer": 1,
-      "solution": "The Richter scale (now supplemented by the moment magnitude scale, Mw) measures the magnitude (energy released) of an earthquake. Each whole number increase represents approximately 31.6 times more energy released.",
-      "estSec": 30,
-      "topicWeight": 0.125,
+      "answer": 2,
+      "solution": "Fundamental Duties were added by the 86th Amendment, 2002.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 73,
       "subject": "General Awareness",
-      "topic": "Current Affairs · Economy",
-      "section": "GK",
+      "topic": "Static GK · Geography",
+      "section": "GA",
       "type": "MCQ",
       "marks": 1,
       "difficulty": "medium",
-      "stem": "India's strategic petroleum reserve (SPR) at Visakhapatnam has a storage capacity of:",
+      "stem": "Smallest state in India by area:",
       "options": [
-        "1.33 MT",
-        "2.5 MT",
-        "5.0 MT",
-        "10.0 MT"
+        "Sikkim",
+        "Goa",
+        "Tripura",
+        "Mizoram"
       ],
-      "answer": 0,
-      "solution": "India's first strategic petroleum reserve at Visakhapatnam (Andhra Pradesh) has a capacity of 1.33 MT (~9 million barrels) in underground rock caverns. Two more SPRs at Mangalore and Padur are planned with a combined capacity of 6.5 MT.",
-      "estSec": 60,
-      "topicWeight": 0.125,
+      "answer": 1,
+      "solution": "Goa is the smallest state by area (3,702 sq km).",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 74,
       "subject": "General Awareness",
-      "topic": "Static GK · International",
-      "section": "GK",
+      "topic": "Static GK · Science",
+      "section": "GA",
       "type": "MCQ",
       "marks": 1,
       "difficulty": "medium",
-      "stem": "OPEC headquarters is located in:",
+      "stem": "The hardest natural substance on Earth is:",
       "options": [
-        "Riyadh, Saudi Arabia",
-        "Vienna, Austria",
-        "Dubai, UAE",
-        "Geneva, Switzerland"
+        "Quartz",
+        "Topaz",
+        "Diamond",
+        "Corundum"
       ],
-      "answer": 1,
-      "solution": "The Organization of the Petroleum Exporting Countries (OPEC) is headquartered in Vienna, Austria. It was founded in 1960 by Iran, Iraq, Kuwait, Saudi Arabia, and Venezuela.",
-      "estSec": 30,
-      "topicWeight": 0.125,
+      "answer": 2,
+      "solution": "Diamond is the hardest natural substance (10 on Mohs scale).",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 75,
       "subject": "General Awareness",
-      "topic": "Current Affairs · Energy Transition",
-      "section": "GK",
+      "topic": "Static GK · Geography",
+      "section": "GA",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
-      "stem": "India has set a target of achieving net-zero carbon emissions by which year?",
+      "difficulty": "hard",
+      "stem": "Minimum age for Lok Sabha membership:",
       "options": [
-        "2040",
-        "2050",
-        "2060",
-        "2070"
+        "21 years",
+        "25 years",
+        "30 years",
+        "35 years"
       ],
-      "answer": 2,
-      "solution": "India announced its net-zero emissions target of 2070 at COP26 in Glasgow (November 2021) by Prime Minister Narendra Modi. This is 20 years later than the 2050 targets set by most developed nations.",
-      "estSec": 30,
-      "topicWeight": 0.125,
+      "answer": 1,
+      "solution": "Minimum age for Lok Sabha membership is 25 years.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 76,
-      "subject": "English Language",
-      "topic": "Grammar · Tenses",
+      "subject": "English",
+      "topic": "English Language · Vocabulary",
       "section": "English",
       "type": "MCQ",
       "marks": 1,
       "difficulty": "easy",
-      "stem": "Choose the correct sentence:",
+      "stem": "What is the synonym of 'ephemeral'?",
       "options": [
-        "The seismic survey have been completed last week.",
-        "The seismic survey was completed last week.",
-        "The seismic survey is completed last week.",
-        "The seismic survey has completed last week."
+        "Permanent",
+        "Transient",
+        "Eternal",
+        "Stable"
       ],
       "answer": 1,
-      "solution": "Simple past passive ('was completed') is correct for a completed action at a specific past time ('last week'). Present perfect ('has been completed') cannot be used with a specific past time marker like 'last week'.",
-      "estSec": 30,
-      "topicWeight": 0.125,
+      "solution": "Ephemeral means short-lived or transient.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 77,
-      "subject": "English Language",
-      "topic": "Vocabulary · Synonyms",
+      "subject": "English",
+      "topic": "English Language · Prepositions",
       "section": "English",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
-      "stem": "Choose the word closest in meaning to 'STRATIGRAPHY':",
+      "difficulty": "easy",
+      "stem": "The meeting was put ___ Friday.",
       "options": [
-        "Study of rock structures",
-        "Study of rock layers and their sequence",
-        "Study of fossils only",
-        "Study of minerals"
+        "on",
+        "at",
+        "off",
+        "up"
       ],
-      "answer": 1,
-      "solution": "Stratigraphy is the branch of geology that studies rock layers (strata) and their sequence, age relationships, and correlation. It is derived from Latin 'stratum' (layer) and Greek 'graphein' (to write).",
-      "estSec": 45,
-      "topicWeight": 0.125,
+      "answer": 2,
+      "solution": "Put off means to postpone.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 78,
-      "subject": "English Language",
-      "topic": "Grammar · Prepositions",
+      "subject": "English",
+      "topic": "English Language · Grammar",
       "section": "English",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
-      "stem": "Fill in the blank: 'The outcrop is located ______ the river bank.'",
+      "difficulty": "medium",
+      "stem": "She asked me where ___ .",
       "options": [
-        "on",
-        "in",
-        "at",
-        "by"
+        "did I live",
+        "do I live",
+        "I lived",
+        "I live"
       ],
-      "answer": 3,
-      "solution": "The correct preposition is 'by', meaning 'near' or 'beside'. 'On the river bank' implies standing on top of the bank, while 'by the river bank' correctly indicates proximity to the river bank.",
-      "estSec": 30,
-      "topicWeight": 0.125,
+      "answer": 2,
+      "solution": "Indirect speech uses past tense: 'where I lived'.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 79,
-      "subject": "English Language",
-      "topic": "Grammar · Error Detection",
-      "section": "English",
-      "type": "MCQ",
-      "marks": 1,
-      "difficulty": "medium",
-      "stem": "Identify the error: 'Each of the boreholes have yielded valuable data about the subsurface geology.'",
-      "options": [
-        "Each of the boreholes",
-        "have yielded",
-        "valuable data",
-        "about the subsurface geology"
-      ],
-      "answer": 1,
-      "solution": "'Each' is a singular indefinite pronoun and requires a singular verb. It should be 'has yielded', not 'have yielded'. This is a common subject-verb agreement error.",
-      "estSec": 60,
-      "topicWeight": 0.125,
-      "source": "curated"
-    },
-    {
-      "id": 80,
-      "subject": "English Language",
-      "topic": "Vocabulary · Antonyms",
-      "section": "English",
-      "type": "MCQ",
-      "marks": 1,
-      "difficulty": "medium",
-      "stem": "Choose the word closest in meaning to 'AMORPHOUS':",
-      "options": [
-        "Crystalline",
-        "Shapeless",
-        "Dense",
-        "Transparent"
-      ],
-      "answer": 1,
-      "solution": "Amorphous means lacking a definite shape, structure, or crystalline form. In geology, amorphous minerals (like obsidian or opal) lack an ordered atomic arrangement. 'Shapeless' is the closest synonym.",
-      "estSec": 45,
-      "topicWeight": 0.125,
-      "source": "curated"
-    },
-    {
-      "id": 81,
-      "subject": "English Language",
-      "topic": "Comprehension · Reading",
-      "section": "English",
-      "type": "MCQ",
-      "marks": 1,
-      "difficulty": "medium",
-      "stem": "Read the passage: 'The Cambrian Explosion, occurring approximately 540 million years ago, represents one of the most remarkable events in the history of life. Within a geologically brief period of about 20 million years, most major animal phyla appeared in the fossil record.' What does 'geologically brief' mean?",
-      "options": [
-        "Very short in everyday terms",
-        "Brief in the context of geological time scales",
-        "A period of exactly 20 million years",
-        "A long period in human history"
-      ],
-      "answer": 1,
-      "solution": "'Geologically brief' means short relative to the vast spans of geological time (billions of years). While 20 million years seems long in human terms, it is brief when measured against Earth's 4.5 billion-year history.",
-      "estSec": 45,
-      "topicWeight": 0.125,
-      "source": "curated"
-    },
-    {
-      "id": 82,
-      "subject": "English Language",
-      "topic": "Grammar · Active/Passive Voice",
-      "section": "English",
-      "type": "MCQ",
-      "marks": 1,
-      "difficulty": "medium",
-      "stem": "Convert to passive voice: 'The geologist will analyse the rock samples tomorrow.'",
-      "options": [
-        "The rock samples will be analysed by the geologist tomorrow.",
-        "The rock samples are analysed by the geologist tomorrow.",
-        "The rock samples were analysed by the geologist tomorrow.",
-        "The rock samples will have been analysed by the geologist tomorrow."
-      ],
-      "answer": 0,
-      "solution": "Active: The geologist will analyse the rock samples tomorrow. Passive: The rock samples will be analysed by the geologist tomorrow. Future simple active (will + verb) converts to 'will be + past participle' in passive voice.",
-      "estSec": 45,
-      "topicWeight": 0.125,
-      "source": "curated"
-    },
-    {
-      "id": 83,
-      "subject": "English Language",
-      "topic": "Idioms & Phrases",
-      "section": "English",
-      "type": "MCQ",
-      "marks": 1,
-      "difficulty": "medium",
-      "stem": "What does the idiom 'rock the boat' mean?",
-      "options": [
-        "To cause trouble or disturb the status quo",
-        "To sail in rough seas",
-        "To find valuable minerals",
-        "To conduct a geological survey"
-      ],
-      "answer": 0,
-      "solution": "'Rock the boat' is an idiom meaning to do or say something that upsets the existing situation or causes trouble in a group. It originates from the literal act of rocking a boat, which could endanger passengers.",
-      "estSec": 45,
-      "topicWeight": 0.125,
-      "source": "curated"
-    },
-    {
-      "id": 84,
-      "subject": "English Language",
-      "topic": "Grammar · Subject-Verb Agreement",
+      "subject": "English",
+      "topic": "English Language · Vocabulary",
       "section": "English",
       "type": "MCQ",
       "marks": 1,
       "difficulty": "easy",
-      "stem": "Choose the correct form: 'Neither the analyst nor the geologists ______ present at the meeting.'",
+      "stem": "What is the meaning of 'diligent'?",
       "options": [
-        "was",
-        "were",
-        "is",
-        "has been"
+        "Lazy",
+        "Hardworking",
+        "Careless",
+        "Slow"
       ],
       "answer": 1,
-      "solution": "With 'neither...nor', the verb agrees with the nearer subject. Since 'geologists' (plural) is the nearer subject, the verb should be 'were'.",
-      "estSec": 30,
-      "topicWeight": 0.125,
+      "solution": "Diligent means showing care and effort in one's work.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
-      "id": 85,
-      "subject": "English Language",
-      "topic": "Grammar · Conjunctions & Sentence Structure",
+      "id": 80,
+      "subject": "English",
+      "topic": "English Language · Vocabulary",
       "section": "English",
       "type": "MCQ",
       "marks": 1,
       "difficulty": "medium",
-      "stem": "Choose the sentence with correct punctuation:",
+      "stem": "What does 'candid' mean?",
       "options": [
-        "The drilling was successful; however, the results were inconclusive.",
-        "The drilling was successful however, the results were inconclusive.",
-        "The drilling was successful, however; the results were inconclusive.",
-        "The drilling was successful, however the results were inconclusive."
+        "Secretive",
+        "Frank and honest",
+        "Formal",
+        "Polite"
       ],
-      "answer": 0,
-      "solution": "'However' is a conjunctive adverb connecting two independent clauses. When joining two independent clauses, a semicolon precedes 'however' and a comma follows it. Option A follows this rule correctly.",
-      "estSec": 60,
-      "topicWeight": 0.125,
+      "answer": 1,
+      "solution": "Candid means truthful and straightforward; frank.",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 81,
+      "subject": "English",
+      "topic": "English Language · Grammar",
+      "section": "English",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "Identify the error: 'Each of the students have submitted their assignments.'",
+      "options": [
+        "Each of",
+        "the students",
+        "have submitted",
+        "their assignments"
+      ],
+      "answer": 2,
+      "solution": "'Each' is singular, so it should be 'has submitted'.",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 82,
+      "subject": "English",
+      "topic": "English Language · Vocabulary",
+      "section": "English",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "Choose the antonym of 'ubiquitous':",
+      "options": [
+        "Omnipresent",
+        "Rare",
+        "Common",
+        "Everywhere"
+      ],
+      "answer": 1,
+      "solution": "Ubiquitous means present everywhere; rare is the opposite.",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 83,
+      "subject": "English",
+      "topic": "English Language · Articles",
+      "section": "English",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "___ honest man always speaks the truth.",
+      "options": [
+        "A",
+        "An",
+        "The",
+        "No article"
+      ],
+      "answer": 1,
+      "solution": "'An' before words starting with silent 'h'.",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 84,
+      "subject": "English",
+      "topic": "English Language · Vocabulary",
+      "section": "English",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "medium",
+      "stem": "What does 'ameliorate' mean?",
+      "options": [
+        "Worsen",
+        "Improve",
+        "Destroy",
+        "Maintain"
+      ],
+      "answer": 1,
+      "solution": "Ameliorate means to make better or improve.",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 85,
+      "subject": "English",
+      "topic": "English Language · Grammar",
+      "section": "English",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "The manager, along with his team, ___ present at the meeting.",
+      "options": [
+        "were",
+        "are",
+        "was",
+        "have been"
+      ],
+      "answer": 2,
+      "solution": "When 'along with' is used, the verb agrees with the first subject (manager → was).",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     }
   ]

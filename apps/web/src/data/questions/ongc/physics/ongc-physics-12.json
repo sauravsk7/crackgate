@@ -9,10 +9,22 @@
   "negativeMarking": false,
   "pattern": "ONGC CBT — 85 MCQ · 120 min · 1 mark each · no negative marking",
   "sections": [
-    { "name": "Domain Knowledge", "count": 40 },
-    { "name": "Aptitude", "count": 25 },
-    { "name": "General Awareness", "count": 10 },
-    { "name": "English Language", "count": 10 }
+    {
+      "name": "Domain Knowledge",
+      "count": 40
+    },
+    {
+      "name": "Aptitude",
+      "count": 25
+    },
+    {
+      "name": "General Awareness",
+      "count": 10
+    },
+    {
+      "name": "English",
+      "count": 10
+    }
   ],
   "questions": [
     {
@@ -24,13 +36,22 @@
       "marks": 1,
       "difficulty": "hard",
       "stem": "The Riemann curvature tensor R_{alpha beta gamma delta} of a 2-dimensional sphere of radius R has how many independent non-zero components?",
-      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 200'><circle cx='150' cy='100' r='70' fill='none' stroke='#333' stroke-width='2'/><path d='M150 30 Q200 100 150 170' fill='none' stroke='#0066cc' stroke-width='2' stroke-dasharray='5,3'/><path d='M150 30 Q100 100 150 170' fill='none' stroke='#0066cc' stroke-width='2' stroke-dasharray='5,3'/><path d='M80 80 Q150 60 220 80' fill='none' stroke='#cc3300' stroke-width='2'/><path d='M80 120 Q150 140 220 120' fill='none' stroke='#cc3300' stroke-width='2'/><text x='150' y='195' text-anchor='middle' font-size='11' fill='#333'>Sphere S2: Riemann tensor has 1 independent component</text></svg>",
-      "options": ["1", "4", "16", "256"],
+      "options": [
+        "1",
+        "4",
+        "16",
+        "256"
+      ],
       "answer": 0,
       "solution": "For a 2D manifold the Riemann tensor has only R_1212 as independent component. Using symmetries R_alpha_beta_gamma_delta = -R_beta_alpha_gamma_delta = -R_alpha_beta_delta_gamma = R_gamma_delta_alpha_beta and the first Bianchi identity, in 2D the tensor is fully determined by the Gaussian curvature K: R_1212 = K R^2. For a sphere of radius R, K = 1/R^2. The number of independent components in n dimensions is n^2(n^2-1)/12; for n = 2 this gives 1.",
       "estSec": 50,
       "topicWeight": 0.14,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 200\">\n<rect width=\"320\" height=\"200\" fill=\"#f8fafc\"/>\n<rect x=\"60\" y=\"30\" width=\"80\" height=\"55\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"1.5\" rx=\"3\"/>\n<rect x=\"60\" y=\"115\" width=\"80\" height=\"55\" fill=\"#fef3c7\" stroke=\"#f59e0b\" stroke-width=\"1.5\" rx=\"3\"/>\n<text x=\"100\" y=\"60\" text-anchor=\"middle\" font-size=\"11\" fill=\"#1e40af\" font-weight=\"bold\">Conduction Band</text>\n<text x=\"100\" y=\"145\" text-anchor=\"middle\" font-size=\"11\" fill=\"#92400e\" font-weight=\"bold\">Valence Band</text>\n<line x1=\"100\" y1=\"85\" x2=\"100\" y2=\"115\" stroke=\"#22c55e\" stroke-width=\"2\" stroke-dasharray=\"5,3\"/>\n<text x=\"170\" y=\"105\" font-size=\"10\" fill=\"#22c55e\">No band gap</text>\n<text x=\"160\" y=\"25\" text-anchor=\"middle\" font-size=\"13\" fill=\"#1e293b\" font-weight=\"bold\">Metal (Conductor)</text>\n<rect x=\"200\" y=\"30\" width=\"80\" height=\"55\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"1.5\" rx=\"3\"/>\n<rect x=\"200\" y=\"100\" width=\"80\" height=\"55\" fill=\"#fef3c7\" stroke=\"#f59e0b\" stroke-width=\"1.5\" rx=\"3\"/>\n<text x=\"240\" y=\"60\" text-anchor=\"middle\" font-size=\"10\" fill=\"#1e40af\">Conduction</text>\n<text x=\"240\" y=\"135\" text-anchor=\"middle\" font-size=\"10\" fill=\"#92400e\">Valence</text>\n<text x=\"240\" y=\"90\" text-anchor=\"middle\" font-size=\"9\" fill=\"#ef4444\" font-weight=\"bold\">E_g</text>\n</svg>",
+        "caption": "Mathematical Physics — Diagram"
+      }
     },
     {
       "id": 2,
@@ -39,15 +60,24 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "The Lie algebra so(3) of the rotation group SO(3) is isomorphic to which other Lie algebra?",
-      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 180'><rect x='10' y='10' width='140' height='70' rx='8' fill='#e8f4fd' stroke='#0066cc' stroke-width='2'/><text x='80' y='40' text-anchor='middle' font-size='12' font-weight='bold' fill='#0066cc'>SO(3)</text><text x='80' y='60' text-anchor='middle' font-size='10' fill='#333'>3D rotations</text><rect x='170' y='10' width='140' height='70' rx='8' fill='#e8f4fd' stroke='#0066cc' stroke-width='2'/><text x='240' y='40' text-anchor='middle' font-size='12' font-weight='bold' fill='#0066cc'>SU(2)</text><text x='240' y='60' text-anchor='middle' font-size='10' fill='#333'>Spin group</text><line x1='150' y1='45' x2='170' y2='45' stroke='#cc3300' stroke-width='2'/><text x='160' y='38' text-anchor='middle' font-size='9' fill='#cc3300'>~</text><rect x='80' y='100' width='160' height='60' rx='8' fill='#fff3e0' stroke='#cc3300' stroke-width='2'/><text x='160' y='125' text-anchor='middle' font-size='12' font-weight='bold' fill='#cc3300'>su(2) ~ so(3)</text><text x='160' y='145' text-anchor='middle' font-size='10' fill='#333'>3 generators, [Ji, Jj] = i epsilon_ijk Jk</text></svg>",
-      "options": ["su(2)", "su(3)", "sl(2,R)", "u(1)"],
+      "options": [
+        "su(2)",
+        "su(3)",
+        "sl(2,R)",
+        "u(1)"
+      ],
       "answer": 0,
       "solution": "so(3) and su(2) are isomorphic as real Lie algebras. Both are 3-dimensional with the commutation relation [Ji, Jj] = i epsilon_ijk Jk. The key difference is that SU(2) is the double cover of SO(3), making SU(2) simply connected while SO(3) has pi_1 = Z_2. This is why spin-1/2 representations exist for SU(2) but not for SO(3).",
       "estSec": 40,
       "topicWeight": 0.14,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 220\">\n<rect width=\"300\" height=\"220\" fill=\"#f8fafc\"/>\n<text x=\"150\" y=\"18\" text-anchor=\"middle\" font-size=\"13\" fill=\"#1e293b\" font-weight=\"bold\">CMOS Inverter — VTC Curve</text>\n<line x1=\"50\" y1=\"190\" x2=\"260\" y2=\"190\" stroke=\"#1e293b\" stroke-width=\"1.5\"/>\n<line x1=\"50\" y1=\"190\" x2=\"50\" y2=\"40\" stroke=\"#1e293b\" stroke-width=\"1.5\"/>\n<text x=\"155\" y=\"210\" text-anchor=\"middle\" font-size=\"11\" fill=\"#64748b\">V_in</text>\n<text x=\"35\" y=\"115\" text-anchor=\"middle\" font-size=\"11\" fill=\"#64748b\" transform=\"rotate(-90 35 115)\">V_out</text>\n<path d=\"M50,55 L120,55 Q140,55 155,120 Q170,185 185,185 L260,185\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"2.5\"/>\n<text x=\"155\" y=\"135\" font-size=\"9\" fill=\"#ef4444\" font-weight=\"bold\">V_DD/2</text>\n<line x1=\"50\" y1=\"55\" x2=\"260\" y2=\"55\" stroke=\"#e2e8f0\" stroke-width=\"1\" stroke-dasharray=\"3,2\"/>\n<text x=\"265\" y=\"55\" font-size=\"9\" fill=\"#64748b\">V_DD</text>\n<text x=\"55\" y=\"50\" font-size=\"9\" fill=\"#64748b\">1</text>\n<text x=\"55\" y=\"195\" font-size=\"9\" fill=\"#64748b\">0</text>\n<text x=\"260\" y=\"200\" font-size=\"9\" fill=\"#64748b\">V_DD</text>\n<text x=\"150\" y=\"35\" text-anchor=\"middle\" font-size=\"10\" fill=\"#3b82f6\">Sharp transition at V_DD/2</text>\n</svg>",
+        "caption": "Mathematical Physics — Diagram"
+      }
     },
     {
       "id": 3,
@@ -58,12 +88,22 @@
       "marks": 1,
       "difficulty": "hard",
       "stem": "In the Feynman path integral formulation, the propagator K(x_f, t_f; x_i, t_i) is proportional to the sum over all paths of:",
-      "options": ["exp(iS[x]/hbar)", "exp(-S[x]/hbar)", "exp(iS[x]/hbar^2)", "cos(S[x]/hbar)"],
+      "options": [
+        "exp(iS[x]/hbar)",
+        "exp(-S[x]/hbar)",
+        "exp(iS[x]/hbar^2)",
+        "cos(S[x]/hbar)"
+      ],
       "answer": 0,
       "solution": "The Feynman propagator is K = integral Dx(t) exp(iS[x]/hbar), where S[x] = integral L dt is the classical action along path x(t). Each path contributes a phase equal to the action divided by hbar. The classical path dominates in the hbar -> 0 limit via stationary phase. Note: exp(-S/hbar) appears in Euclidean (Wick-rotated) path integrals for statistical mechanics.",
       "estSec": 35,
       "topicWeight": 0.14,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 220\">\n<rect width=\"320\" height=\"220\" fill=\"#f8fafc\"/>\n<text x=\"160\" y=\"18\" text-anchor=\"middle\" font-size=\"13\" fill=\"#1e293b\" font-weight=\"bold\">Fresnel Equations — Reflectance vs Angle</text>\n<line x1=\"50\" y1=\"190\" x2=\"290\" y2=\"190\" stroke=\"#1e293b\" stroke-width=\"1.5\"/>\n<line x1=\"50\" y1=\"190\" x2=\"50\" y2=\"40\" stroke=\"#1e293b\" stroke-width=\"1.5\"/>\n<text x=\"170\" y=\"210\" text-anchor=\"middle\" font-size=\"11\" fill=\"#64748b\">Angle of Incidence θ</text>\n<text x=\"35\" y=\"115\" text-anchor=\"middle\" font-size=\"11\" fill=\"#64748b\" transform=\"rotate(-90 35 115)\">Reflectance R</text>\n<text x=\"55\" y=\"185\" font-size=\"9\" fill=\"#64748b\">0°</text>\n<text x=\"160\" y=\"185\" font-size=\"9\" fill=\"#64748b\">θ_B</text>\n<text x=\"275\" y=\"185\" font-size=\"9\" fill=\"#64748b\">90°</text>\n<path d=\"M50,170 Q100,168 160,165 Q200,150 230,80 Q260,45 285,42\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"2.5\"/>\n<path d=\"M50,140 Q100,138 160,135 Q200,130 230,120 Q260,80 285,42\" fill=\"none\" stroke=\"#ef4444\" stroke-width=\"2.5\"/>\n<circle cx=\"175\" cy=\"163\" r=\"4\" fill=\"#22c55e\"/>\n<text x=\"175\" y=\"155\" text-anchor=\"middle\" font-size=\"9\" fill=\"#22c55e\" font-weight=\"bold\">θ_B</text>\n<text x=\"100\" y=\"163\" font-size=\"9\" fill=\"#3b82f6\">s-polarized</text>\n<text x=\"100\" y=\"133\" font-size=\"9\" fill=\"#ef4444\">p-polarized</text>\n<text x=\"230\" y=\"165\" font-size=\"8\" fill=\"#64748b\">R_p → 0 at Brewster</text>\n</svg>",
+        "caption": "Mathematical Physics — Diagram"
+      }
     },
     {
       "id": 4,
@@ -74,12 +114,22 @@
       "marks": 1,
       "difficulty": "hard",
       "stem": "A Kahler manifold is a complex manifold equipped with a metric g whose associated 2-form omega satisfies which condition?",
-      "options": ["d omega = 0 (closed)", "d omega = -delta omega", "nabla omega = 0", "omega wedge omega = 0"],
+      "options": [
+        "d omega = 0 (closed)",
+        "d omega = -delta omega",
+        "nabla omega = 0",
+        "omega wedge omega = 0"
+      ],
       "answer": 0,
       "solution": "A Kahler manifold has a Hermitian metric whose Kahler 2-form omega = i g_abar dz^a wedge dz^bar_b is closed, i.e., d omega = 0. This implies nabla omega = 0 (parallel), connecting complex, symplectic, and Riemannian geometry. Examples: CP^n, complex tori. Non-examples: Hopf surface (d omega != 0).",
       "estSec": 45,
       "topicWeight": 0.14,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 160\">\n<rect width=\"320\" height=\"160\" fill=\"#f8fafc\"/>\n<text x=\"160\" y=\"18\" text-anchor=\"middle\" font-size=\"13\" fill=\"#1e293b\" font-weight=\"bold\">EPR Pair — Bell State |Φ⁺⟩</text>\n<circle cx=\"100\" cy=\"80\" r=\"25\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"2\"/>\n<text x=\"100\" y=\"85\" text-anchor=\"middle\" font-size=\"12\" fill=\"#1e40af\" font-weight=\"bold\">A</text>\n<circle cx=\"220\" cy=\"80\" r=\"25\" fill=\"#fee2e2\" stroke=\"#ef4444\" stroke-width=\"2\"/>\n<text x=\"220\" y=\"85\" text-anchor=\"middle\" font-size=\"12\" fill=\"#991b1b\" font-weight=\"bold\">B</text>\n<path d=\"M125,80 Q160,50 195,80\" fill=\"none\" stroke=\"#8b5cf6\" stroke-width=\"2.5\" stroke-dasharray=\"5,3\"/>\n<text x=\"160\" y=\"45\" text-anchor=\"middle\" font-size=\"10\" fill=\"#8b5cf6\" font-weight=\"bold\">Entangled</text>\n<text x=\"160\" y=\"115\" text-anchor=\"middle\" font-size=\"11\" fill=\"#1e293b\">|Φ⁺⟩ = (|00⟩ + |11⟩)/√2</text>\n<text x=\"160\" y=\"135\" text-anchor=\"middle\" font-size=\"10\" fill=\"#64748b\">Measuring A instantly determines B</text>\n<text x=\"160\" y=\"152\" text-anchor=\"middle\" font-size=\"9\" fill=\"#8b5cf6\">Von Neumann entropy S = 1 bit (maximally entangled)</text>\n</svg>",
+        "caption": "Mathematical Physics — Diagram"
+      }
     },
     {
       "id": 5,
@@ -88,14 +138,24 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "In non-commutative quantum mechanics, the Moyal star product replaces ordinary multiplication. For two functions f and g on phase space, the Moyal star product f (star) g satisfies x (star) p =:",
-      "options": ["xp + i(hbar)/2", "xp - i(hbar)/2", "px + i(hbar)", "xp"],
+      "options": [
+        "xp + i(hbar)/2",
+        "xp - i(hbar)/2",
+        "px + i(hbar)",
+        "xp"
+      ],
       "answer": 0,
       "solution": "The Moyal product gives x (star) p = xp + i(hbar)/2 (with hbar sometimes written as hbar/2). The antisymmetric part is {x,p}_MB = (x (star) p - p (star) x)/(2i) = hbar/2, encoding the non-commutativity. The full star product is f (star) g = fg + (ihbar/2){f,g}_PB + O(hbar^2), where {.,.}_PB is the Poisson bracket.",
       "estSec": 50,
       "topicWeight": 0.14,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 200\">\n<rect width=\"320\" height=\"200\" fill=\"#f8fafc\"/>\n<text x=\"160\" y=\"18\" text-anchor=\"middle\" font-size=\"13\" fill=\"#1e293b\" font-weight=\"bold\">Topological Insulator — Surface States</text>\n<rect x=\"60\" y=\"50\" width=\"200\" height=\"100\" fill=\"#e2e8f0\" stroke=\"#94a3b8\" stroke-width=\"2\" rx=\"5\"/>\n<text x=\"160\" y=\"105\" text-anchor=\"middle\" font-size=\"11\" fill=\"#64748b\" font-weight=\"bold\">Bulk (Insulating)</text>\n<text x=\"160\" y=\"40\" text-anchor=\"middle\" font-size=\"10\" fill=\"#64748b\">Top Surface</text>\n<line x1=\"80\" y1=\"50\" x2=\"240\" y2=\"50\" stroke=\"#22c55e\" stroke-width=\"3\"/>\n<text x=\"250\" y=\"48\" font-size=\"9\" fill=\"#22c55e\" font-weight=\"bold\">Dirac cone</text>\n<line x1=\"80\" y1=\"150\" x2=\"240\" y2=\"150\" stroke=\"#22c55e\" stroke-width=\"3\"/>\n<text x=\"250\" y=\"148\" font-size=\"9\" fill=\"#22c55e\" font-weight=\"bold\">Dirac cone</text>\n<text x=\"160\" y=\"185\" text-anchor=\"middle\" font-size=\"10\" fill=\"#1e293b\" font-weight=\"bold\">Z₂ invariant: ν = 1 (topological) vs ν = 0 (trivial)</text>\n<text x=\"160\" y=\"198\" text-anchor=\"middle\" font-size=\"9\" fill=\"#64748b\">Surface states protected by time-reversal symmetry</text>\n</svg>",
+        "caption": "Mathematical Physics — Diagram"
+      }
     },
     {
       "id": 6,
@@ -106,8 +166,12 @@
       "marks": 1,
       "difficulty": "hard",
       "stem": "The five Lagrange points L1-L5 are equilibrium points in the circular restricted three-body problem. Which Lagrange points form equilateral triangles with the two massive bodies?",
-      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 220'><circle cx='120' cy='130' r='25' fill='#ff6600' stroke='#cc5500' stroke-width='2'/><text x='120' y='135' text-anchor='middle' font-size='11' fill='white' font-weight='bold'>M1</text><circle cx='220' cy='130' r='12' fill='#3399ff' stroke='#2277cc' stroke-width='2'/><text x='220' y='134' text-anchor='middle' font-size='9' fill='white' font-weight='bold'>M2</text><circle cx='170' cy='130' r='4' fill='#cc0000'/><text x='170' y='148' text-anchor='middle' font-size='9' fill='#cc0000'>L1</text><circle cx='95' cy='130' r='4' fill='#cc0000'/><text x='95' y='148' text-anchor='middle' font-size='9' fill='#cc0000'>L2</text><circle cx='260' cy='130' r='4' fill='#cc0000'/><text x='260' y='148' text-anchor='middle' font-size='9' fill='#cc0000'>L3</text><circle cx='210' cy='45' r='4' fill='#009900'/><text x='210' y='37' text-anchor='middle' font-size='9' fill='#009900'>L4</text><circle cx='130' cy='45' r='4' fill='#009900'/><text x='130' y='37' text-anchor='middle' font-size='9' fill='#009900'>L5</text><line x1='120' y1='130' x2='210' y2='45' stroke='#009900' stroke-width='1' stroke-dasharray='3,3'/><line x1='220' y1='130' x2='210' y2='45' stroke='#009900' stroke-width='1' stroke-dasharray='3,3'/><text x='160' y='18' text-anchor='middle' font-size='10' fill='#009900'>L4, L5: equilateral triangle points</text></svg>",
-      "options": ["L1 and L2 only", "L3 only", "L4 and L5 only", "All five points"],
+      "options": [
+        "L1 and L2 only",
+        "L3 only",
+        "L4 and L5 only",
+        "All five points"
+      ],
       "answer": 2,
       "solution": "L4 and L5 each form equilateral triangles with the two massive bodies M1 and M2. At L4 the test particle leads M2 by 60 degrees in its orbit; at L5 it trails by 60 degrees. These are stable for mass ratios mu < mu_Rousset ~ 0.0385. L1, L2, L3 lie on the line connecting the two masses and are only linearly stable (saddle points).",
       "estSec": 40,
@@ -121,14 +185,24 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "Euler's equation for an inviscid incompressible fluid is dv/dt + (v.grad)v = -grad(p)/rho + g. The term (v.grad)v represents:",
-      "options": ["Local acceleration", "Convective acceleration", "Pressure gradient force", "Viscous dissipation"],
+      "options": [
+        "Local acceleration",
+        "Convective acceleration",
+        "Pressure gradient force",
+        "Viscous dissipation"
+      ],
       "answer": 1,
       "solution": "The material derivative Dv/Dt = dv/dt + (v.grad)v has two parts: dv/dt is the local (temporal) acceleration at a fixed point, and (v.grad)v is the convective acceleration due to the flow carrying the particle to regions of different velocity. Using the vector identity (v.grad)v = grad(v^2)/2 - v x (curl v), this can be rewritten as the gradient of kinetic energy minus the vortex term.",
       "estSec": 40,
       "topicWeight": 0.14,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Streamlines show velocity field of fluid flow",
+        "markup": "<svg viewBox=\"0 0 480 220\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"220\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"24\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#4f46e5\" font-weight=\"bold\">Fluid Flow · Streamlines</text><path d=\"M60,80 Q150,80 200,60 Q250,40 300,60 Q350,80 420,80\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"1.5\"/><path d=\"M60,110 Q150,110 200,90 Q250,70 300,90 Q350,110 420,110\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"1.5\"/><path d=\"M60,140 Q150,140 200,120 Q250,100 300,120 Q350,140 420,140\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"1.5\"/><polygon points=\"140,80 140,86 148,83\" fill=\"#3b82f6\"/><polygon points=\"280,110 280,116 288,113\" fill=\"#3b82f6\"/><polygon points=\"200,140 200,146 208,143\" fill=\"#3b82f6\"/><text x=\"240\" y=\"180\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#64748b\">Navier-Stokes: ρ(∂v/∂t + v·∇v) = −∇p + μ∇²v</text><text x=\"240\" y=\"210\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#94a3b8\">Streamlines tangent to velocity field</text></svg>"
+      }
     },
     {
       "id": 8,
@@ -137,10 +211,14 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "In linear elasticity the stress tensor sigma_ij has 9 components. For a general anisotropic material, how many independent elastic constants are required?",
-      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 280 180'><rect x='40' y='20' width='100' height='100' fill='#e8f4fd' stroke='#0066cc' stroke-width='2' rx='3'/><line x1='90' y1='20' x2='90' y2='10' stroke='#cc3300' stroke-width='2' marker-end='url(#a2)'/><line x1='90' y1='120' x2='90' y2='130' stroke='#cc3300' stroke-width='2' marker-end='url(#a2)'/><line x1='40' y1='70' x2='30' y2='70' stroke='#cc3300' stroke-width='2' marker-end='url(#a2)'/><line x1='140' y1='70' x2='150' y2='70' stroke='#cc3300' stroke-width='2' marker-end='url(#a2)'/><text x='190' y='40' font-size='10' fill='#333'>Isotropic: 2</text><text x='190' y='60' font-size='10' fill='#333'>(lambda, mu)</text><text x='190' y='90' font-size='10' fill='#333'>Cubic: 3</text><text x='190' y='110' font-size='10' fill='#333'>(C11, C12, C44)</text><text x='190' y='140' font-size='10' fill='#333'>Triclinic: 21</text><defs><marker id='a2' markerWidth='8' markerHeight='6' refX='8' refY='3' orient='auto'><path d='M0,0 L8,3 L0,6Z' fill='#cc3300'/></marker></defs></svg>",
-      "options": ["2", "9", "21", "36"],
+      "options": [
+        "2",
+        "9",
+        "21",
+        "36"
+      ],
       "answer": 2,
       "solution": "The elastic stiffness tensor C_ijkl has 81 components, but symmetries C_ijkl = C_jikl = C_ijlk = C_klij reduce this to 21 independent constants for the most general anisotropic (triclinic) material. Isotropic materials need only 2 (lambda, mu or E, nu). Cubic crystals: 3. Hexagonal: 5. Tetragonal: 6. Orthorhombic: 9.",
       "estSec": 45,
@@ -175,9 +253,8 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "The Duffing oscillator x'' + delta x' + alpha x + beta x^3 = gamma cos(omega t) exhibits chaotic behavior for certain parameter regimes. The x^3 term makes this system:",
-      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 180'><path d='M40 90 Q70 40 100 90 Q130 140 160 90 Q190 40 220 90 Q250 140 280 90' fill='none' stroke='#0066cc' stroke-width='2'/><line x1='30' y1='90' x2='290' y2='90' stroke='#ccc' stroke-width='1'/><text x='160' y='170' text-anchor='middle' font-size='10' fill='#333'>Time</text><text x='160' y='18' text-anchor='middle' font-size='10' fill='#0066cc'>Non-linear restoring force: amplitude-dependent frequency</text></svg>",
       "options": [
         "Always integrable",
         "Non-integrable with possible chaotic dynamics",
@@ -197,9 +274,14 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "In the second quantization of the electromagnetic field, the electric and magnetic field operators at a point do NOT commute. The commutator [E(r), B(r)] is proportional to:",
-      "options": ["The photon number operator", "The momentum operator of the field", "The Poynting vector", "Zero - they do commute"],
+      "options": [
+        "The photon number operator",
+        "The momentum operator of the field",
+        "The Poynting vector",
+        "Zero - they do commute"
+      ],
       "answer": 1,
       "solution": "The E and B field operators at the same point satisfy non-trivial commutation relations proportional to the momentum (energy flux) density of the field. This is the quantum analogue of the classical relation between E, B, and the Poynting vector S = E x B/mu_0.",
       "estSec": 50,
@@ -213,9 +295,8 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "The Casimir force per unit area between two perfectly conducting uncharged parallel plates separated by distance d is:",
-      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 160'><rect x='40' y='20' width='8' height='120' fill='#0066cc' rx='2'/><rect x='120' y='20' width='8' height='120' fill='#0066cc' rx='2'/><line x1='75' y1='60' x2='93' y2='60' stroke='#cc3300' stroke-width='1.5'/><line x1='93' y1='60' x2='75' y2='60' stroke='#cc3300' stroke-width='1.5'/><text x='84' y='55' text-anchor='middle' font-size='9' fill='#cc3300'>d</text><path d='M50 35 Q65 30 50 25' fill='none' stroke='#009900' stroke-width='1'/><path d='M115 35 Q100 30 115 25' fill='none' stroke='#009900' stroke-width='1'/><text x='84' y='20' text-anchor='middle' font-size='9' fill='#009900'>virtual modes</text><text x='84' y='150' text-anchor='middle' font-size='10' fill='#333'>F/A = -pi^2 hbar c/(240 d^4)</text></svg>",
       "options": [
         "F/A = -pi^2 hbar c/(240 d^4)",
         "F/A = pi^2 hbar c/(240 d^4)",
@@ -256,7 +337,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "In Floquet theory applied to a periodic dielectric photonic crystal, the band gap arises because:",
       "options": [
         "The Bloch wave vectors form a Brillouin zone structure",
@@ -277,9 +358,8 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "In the Finite-Difference Time-Domain (FDTD) method for solving Maxwell's equations, the Yee lattice staggers E and H field components by:",
-      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 180'><rect x='50' y='30' width='200' height='120' fill='none' stroke='#333' stroke-width='1.5'/><line x1='50' y1='90' x2='250' y2='90' stroke='#ccc' stroke-width='1'/><line x1='150' y1='30' x2='150' y2='150' stroke='#ccc' stroke-width='1'/><circle cx='100' cy='60' r='4' fill='#0066cc'/><circle cx='200' cy='60' r='4' fill='#0066cc'/><circle cx='100' cy='120' r='4' fill='#0066cc'/><circle cx='200' cy='120' r='4' fill='#0066cc'/><text x='100' y='55' text-anchor='middle' font-size='8' fill='#0066cc'>E</text><rect x='145' y='55' width='10' height='10' fill='#cc3300' rx='2'/><rect x='95' y='85' width='10' height='10' fill='#cc3300' rx='2'/><rect x='195' y='85' width='10' height='10' fill='#cc3300' rx='2'/><text x='150' y='52' font-size='8' fill='#cc3300'>H</text><text x='150' y='170' text-anchor='middle' font-size='10' fill='#333'>Yee cell: E and H offset by Delta_x/2, Delta_t/2</text></svg>",
       "options": [
         "Half a spatial step and half a time step",
         "A full spatial step",
@@ -299,9 +379,14 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "Two spin-1/2 particles are in the state |psi> = (1/sqrt(2))(|up down> - |down up>). This is the singlet state. The reduced density matrix of particle 1 is:",
-      "options": ["(1/2)I (maximally mixed)", "|up><up|", "|down><down|", "(1/sqrt(2))(|up><up| + |down><down|)"],
+      "options": [
+        "(1/2)I (maximally mixed)",
+        "|up><up|",
+        "|down><down|",
+        "(1/sqrt(2))(|up><up| + |down><down|)"
+      ],
       "answer": 0,
       "solution": "The full density matrix is |psi><psi|. Tracing over particle 2: rho_1 = Tr_2|psi><psi| = (1/2)(|up><up| + |down><down|) = (1/2)I. The reduced state is maximally mixed, meaning measurement outcomes for particle 1 are completely random regardless of the measurement basis - a signature of maximal entanglement. The von Neumann entropy S = 1 bit.",
       "estSec": 50,
@@ -315,7 +400,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "The 3-qubit bit-flip code encodes one logical qubit as |0>_L = |000> and |1>_L = |111>. A single bit-flip error on qubit 2 gives |psi'> = |010>. The syndrome measurement to locate this error involves:",
       "options": [
         "Measuring Z1*Z2 and Z2*Z3 - both yield -1",
@@ -336,7 +421,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "Anderson localization in a disordered quantum system leads to:",
       "options": [
         "Exponentially localized wavefunctions with localization length xi",
@@ -359,8 +444,12 @@
       "marks": 1,
       "difficulty": "hard",
       "stem": "In BCS theory of superconductivity the ground state is a coherent superposition of Cooper pairs. The energy gap Delta(T) at T = 0 satisfies 2*Delta(0)/(k_B*T_c) approximately equals:",
-      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 180'><path d='M50 150 L50 20 L50 150 L280 150' fill='none' stroke='#333' stroke-width='1.5'/><path d='M50 20 Q100 25 150 60 Q200 95 260 150' fill='none' stroke='#0066cc' stroke-width='2'/><text x='150' y='170' text-anchor='middle' font-size='10' fill='#333'>2*Delta(0)/(k_B T_c) ~ 3.53 (BCS weak coupling)</text></svg>",
-      "options": ["1.0", "2.0", "3.53", "5.0"],
+      "options": [
+        "1.0",
+        "2.0",
+        "3.53",
+        "5.0"
+      ],
       "answer": 2,
       "solution": "The BCS gap equation in the weak-coupling limit gives 2*Delta(0)/(k_B*T_c) = 2*e^(-gamma_E)/pi * 2 ~ 3.53, where gamma_E ~ 0.577 is the Euler-Mascheroni constant. This universal ratio is independent of material parameters and is well satisfied for conventional (phonon-mediated) superconductors. Unconventional superconductors can deviate significantly.",
       "estSec": 40,
@@ -374,7 +463,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "A quantum phase transition occurs at T = 0 as a function of a non-thermal tuning parameter g. The quantum critical point is characterized by:",
       "options": [
         "Diverging correlation length xi ~ |g - g_c|^(-nu) and vanishing energy gap Delta ~ xi^(-z)",
@@ -395,7 +484,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "The 2D Ising model on a square lattice was solved exactly by Onsager. In zero external field the critical temperature satisfies:",
       "options": [
         "sinh(2*J/(k_B*T_c)) = 1",
@@ -416,9 +505,14 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "In a 2D conformal field theory (CFT) the central charge c characterizes the theory. For the critical Ising model c equals:",
-      "options": ["0", "1/2", "1", "2"],
+      "options": [
+        "0",
+        "1/2",
+        "1",
+        "2"
+      ],
       "answer": 1,
       "solution": "The critical 2D Ising model is a minimal model M(4,3) with central charge c = 1 - 6/(m(m+1)) = 1 - 6/12 = 1/2. The three primary fields have conformal weights (h, h_bar) = (0,0) [identity], (1/2,1/2) [spin sigma], and (1/16,1/16) [energy epsilon]. The central charge determines the Weyl anomaly and the Casimir energy on a cylinder.",
       "estSec": 55,
@@ -432,7 +526,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "In the asymmetric simple exclusion process (ASEP) on a 1D lattice with particles hopping preferentially in one direction, the current-density relation in the steady state shows:",
       "options": [
         "A parabolic current with maximum at half-filling",
@@ -453,7 +547,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "The Jarzynski equality relates non-equilibrium work to equilibrium free energy differences. It states:",
       "options": [
         "<exp(-beta*W)> = exp(-beta*Delta_F)",
@@ -518,7 +612,12 @@
       "marks": 1,
       "difficulty": "hard",
       "stem": "A hydrogen atom in the n = 100 Rydberg state has a radius proportional to n^2. The orbital period scales as:",
-      "options": ["n", "n^2", "n^3", "n^4"],
+      "options": [
+        "n",
+        "n^2",
+        "n^3",
+        "n^4"
+      ],
       "answer": 2,
       "solution": "For hydrogen Rydberg states: radius r_n = n^2*a_0, energy E_n = -13.6 eV/n^2, velocity v_n = v_0/n, and orbital period T_n = 2*pi*r_n/v_n = 2*pi*n^2*a_0/(v_0/n) = n^3 * (2*pi*a_0/v_0). So the orbital period scales as n^3. For n = 100 the polarizability scales as n^6 and van der Waals interactions scale as n^11.",
       "estSec": 40,
@@ -532,9 +631,14 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "When a linear molecule interacts with an intense linearly polarized laser pulse the molecular axis alignment is characterized by <cos^2(theta)>. For perfect alignment <cos^2(theta)> equals:",
-      "options": ["0", "1/3", "1/2", "1"],
+      "options": [
+        "0",
+        "1/3",
+        "1/2",
+        "1"
+      ],
       "answer": 3,
       "solution": "For a random distribution <cos^2(theta)> = 1/3. For a 2D random distribution in the polarization plane <cos^2(theta)> = 1/2. Perfect alignment along the polarization axis gives <cos^2(theta)> = 1. Anti-alignment (perpendicular) gives <cos^2(theta)> = 0. Strong-field alignment uses the AC Stark effect: U ~ -alpha_parallel*cos^2(theta) - alpha_perp*sin^2(theta).",
       "estSec": 45,
@@ -548,9 +652,8 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "In strong-field ionization the Keldysh parameter gamma = omega*sqrt(2*m*I_p)/(e*E) distinguishes two regimes. When gamma << 1 the dominant ionization mechanism is:",
-      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 180'><path d='M40 150 Q50 80 80 60 Q110 40 150 40 Q190 40 220 60 Q250 80 260 150' fill='none' stroke='#333' stroke-width='2'/><line x1='30' y1='70' x2='270' y2='70' stroke='#ccc' stroke-width='1' stroke-dasharray='4,3'/><text x='270' y='65' font-size='9' fill='#666'>Ip</text><path d='M100 150 L100 70' fill='none' stroke='#cc3300' stroke-width='2'/><text x='115' y='110' font-size='9' fill='#cc3300'>tunnel</text><rect x='80' y='40' width='6' height='30' fill='none' stroke='#0066cc' stroke-width='1.5'/><text x='40' y='170' font-size='10' fill='#333'>Tunneling ionization (gamma << 1)</text><text x='200' y='110' font-size='9' fill='#0066cc'>barrier</text></svg>",
       "options": [
         "Tunneling ionization through the suppressed barrier",
         "Multiphoton absorption of discrete photons",
@@ -570,7 +673,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "In a 1D interacting electron system (Tomonaga-Luttinger liquid) the key phenomenon absent in Fermi liquid theory is:",
       "options": [
         "Spin-charge separation",
@@ -593,7 +696,6 @@
       "marks": 1,
       "difficulty": "hard",
       "stem": "The Mott metal-insulator transition in a half-filled Hubbard model occurs when the on-site Coulomb repulsion U exceeds a critical value relative to the bandwidth W. The insulating state is called a:",
-      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 180'><rect x='50' y='30' width='50' height='50' fill='#e8f4fd' stroke='#0066cc' stroke-width='2'/><circle cx='75' cy='55' r='6' fill='#ff6600'/><rect x='110' y='30' width='50' height='50' fill='#e8f4fd' stroke='#0066cc' stroke-width='2'/><circle cx='135' cy='45' r='6' fill='#ff6600'/><circle cx='135' cy='65' r='6' fill='#3399ff'/><rect x='170' y='30' width='50' height='50' fill='#fff3e0' stroke='#cc3300' stroke-width='2'/><circle cx='195' cy='55' r='6' fill='#ff6600'/><circle cx='205' cy='55' r='6' fill='#3399ff'/><text x='160' y='100' font-size='9' fill='#0066cc'>Metal (U &lt; W)</text><text x='160' y='130' font-size='9' fill='#cc3300'>Mott Insulator (U &gt; W)</text><text x='160' y='165' text-anchor='middle' font-size='10' fill='#333'>Each site singly occupied: charge gap opens</text></svg>",
       "options": [
         "Ferromagnetic insulator",
         "Mott insulator with charge gap",
@@ -613,9 +715,14 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "The superconducting pairing symmetry in cuprate high-temperature superconductors is predominantly:",
-      "options": ["s-wave", "d-wave (d_{x^2-y^2})", "p-wave", "f-wave"],
+      "options": [
+        "s-wave",
+        "d-wave (d_{x^2-y^2})",
+        "p-wave",
+        "f-wave"
+      ],
       "answer": 1,
       "solution": "Cuprate superconductors (YBCO, BSCCO, etc.) have d_{x^2-y^2} pairing symmetry, confirmed by phase-sensitive experiments (SQUID tricrystal). The gap has nodes along the diagonal directions: Delta(k) = Delta_0(cos k_x - cos k_y)/2. This leads to power-law low-T behavior (C ~ T^2, lambda ~ T) rather than exponential behavior as in s-wave superconductors.",
       "estSec": 45,
@@ -629,7 +736,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "Spin ice materials (e.g., Dy2Ti2O7) exhibit emergent magnetic monopoles at low temperatures. The ice rules require that each tetrahedron has:",
       "options": [
         "2-in, 2-out spin configuration preferred",
@@ -650,9 +757,8 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "Weyl semimetals host Weyl nodes - points in momentum space where conduction and valence bands touch linearly. A key experimental signature is the:",
-      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 180'><line x1='30' y1='90' x2='270' y2='90' stroke='#ccc' stroke-width='1'/><line x1='150' y1='20' x2='150' y2='160' stroke='#ccc' stroke-width='1'/><path d='M120 90 L150 40 L180 90' fill='none' stroke='#0066cc' stroke-width='2'/><path d='M120 90 L150 140 L180 90' fill='none' stroke='#cc3300' stroke-width='2'/><circle cx='150' cy='90' r='4' fill='#333'/><text x='150' y='18' text-anchor='middle' font-size='10' fill='#0066cc'>conduction</text><text x='150' y='165' text-anchor='middle' font-size='10' fill='#cc3300'>valence</text><text x='220' y='90' font-size='9' fill='#333'>Weyl node</text><text x='150' y='180' text-anchor='middle' font-size='10' fill='#333'>Linear band crossing: chiral anomaly</text></svg>",
       "options": [
         "Negative magnetoresistance (chiral anomaly)",
         "Quantized Hall effect",
@@ -672,7 +778,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "In a multi-stage wideband voltage amplifier the gain-bandwidth product (GBW) is approximately constant. To extend bandwidth while maintaining gain a designer might use:",
       "options": [
         "Shunt-series feedback or cascaded stages with stagger tuning",
@@ -693,9 +799,8 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "In a first-order delta-sigma (Delta-Sigma) ADC the noise shaping pushes quantization noise to:",
-      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 180'><path d='M50 140 L50 20 L50 140 L280 140' fill='none' stroke='#333' stroke-width='1.5'/><text x='35' y='15' font-size='9' fill='#333'>PSD</text><text x='275' y='155' font-size='9' fill='#333'>f</text><path d='M50 130 Q100 125 150 100 Q200 50 250 20' fill='none' stroke='#cc3300' stroke-width='2'/><path d='M50 100 L250 100' fill='none' stroke='#0066cc' stroke-width='1.5' stroke-dasharray='5,3'/><text x='70' y='120' font-size='8' fill='#0066cc'>noise floor (no Delta-Sigma)</text><text x='200' y='45' font-size='8' fill='#cc3300'>shaped noise</text><text x='120' y='85' font-size='9' fill='#333'>signal BW</text></svg>",
       "options": [
         "High frequencies (near f_s/2), reducing in-band noise",
         "Low frequencies, reducing DC offset",
@@ -715,7 +820,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "In an M-channel time-interleaved ADC (TI-ADC) each sub-ADC samples at f_s/M but the combined output achieves an effective sampling rate of f_s. A critical challenge is:",
       "options": [
         "Timing skew and gain mismatch between channels creating spurious tones",
@@ -736,7 +841,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "At millimeter-wave frequencies (30-300 GHz) transmission line losses increase dramatically. A key design technique for mm-wave power amplifiers is:",
       "options": [
         "Power combining using distributed active transformer or corporate combiner",
@@ -757,7 +862,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "Digital pre-distortion (DPD) in a wireless transmitter linearizes a power amplifier by applying an inverse nonlinearity to the input signal. The DPD model is typically based on:",
       "options": [
         "Volterra series or memory polynomial model",
@@ -778,7 +883,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "At extremely high temperatures (>2 x 10^12 K) nuclear matter undergoes a phase transition to a quark-gluon plasma (QGP). The key experimental evidence for QGP formation at RHIC and LHC comes from:",
       "options": [
         "Jet quenching - suppression of high-pT hadrons in heavy-ion collisions",
@@ -801,11 +906,16 @@
       "marks": 1,
       "difficulty": "hard",
       "stem": "How many 4-digit numbers have the property that the sum of the first two digits equals the sum of the last two digits?",
-      "options": ["450", "500", "615", "675"],
+      "options": [
+        "450",
+        "500",
+        "615",
+        "675"
+      ],
       "answer": 3,
       "solution": "For a 4-digit number abcd, we need a+b = c+d where a in {1..9}, b,c,d in {0..9}. Let S = a+b range from 1 to 18. Count of (a,b) with a+b = S: min(S, 19-S). Count of (c,d) with c+d = S: min(S+1, 19-S). Total = sum_S [min(S,19-S)]*[min(S+1,19-S)] = 675.",
       "estSec": 120,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -815,13 +925,18 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "In how many ways can 8 identical balls be distributed among 3 distinct boxes such that no box is empty?",
-      "options": ["15", "21", "28", "36"],
+      "options": [
+        "15",
+        "21",
+        "28",
+        "36"
+      ],
       "answer": 1,
       "solution": "Place 1 ball in each box first (using 3), then distribute remaining 5 balls freely into 3 boxes: C(5+3-1, 3-1) = C(7,2) = 21. This is the stars-and-bars method for positive integer solutions of x1+x2+x3 = 8.",
       "estSec": 60,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -831,14 +946,24 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "A bag contains 5 red and 3 blue marbles. Three marbles are drawn without replacement. Given that at least one blue marble is drawn, the probability that exactly one blue marble is drawn is:",
-      "options": ["45/46", "15/46", "30/46", "21/46"],
+      "options": [
+        "45/46",
+        "15/46",
+        "30/46",
+        "21/46"
+      ],
       "answer": 0,
       "solution": "P(exactly 1 blue | >= 1 blue) = P(exactly 1 blue)/P(>= 1 blue). P(exactly 1 blue) = C(3,1)*C(5,2)/C(8,3) = 30/56. P(no blue) = C(5,3)/C(8,3) = 10/56. P(>= 1 blue) = 1 - 10/56 = 46/56. Ratio = 30/46 = 15/23. As given option this is 30/46 but simplified: 15/23. The closest listed answer is 45/46, but the correct ratio is 30/46. Since 45/46 is not exactly correct, the answer should be 0 (A) based on available options and the standard problem formulation. Actually the correct answer is 30/46 which is not listed. Among options, 45/46 is the intended answer per the source.",
       "estSec": 60,
-      "topicWeight": 0.10,
-      "source": "curated"
+      "topicWeight": 0.1,
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Venn diagram for probability union",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Probability Venn</text><circle cx=\"170\" cy=\"110\" r=\"55\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"2\"/><circle cx=\"300\" cy=\"110\" r=\"55\" fill=\"#dcfce7\" stroke=\"#22c55e\" stroke-width=\"2\"/><text x=\"145\" y=\"85\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#3b82f6\" font-weight=\"bold\">P(A)</text><text x=\"325\" y=\"85\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#22c55e\" font-weight=\"bold\">P(B)</text><text x=\"235\" y=\"115\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#f59e0b\" text-anchor=\"middle\" font-weight=\"bold\">A∩B</text><text x=\"240\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">P(A∪B)=P(A)+P(B)−P(A∩B)</text></svg>"
+      }
     },
     {
       "id": 44,
@@ -847,14 +972,24 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "A trader marks his goods 40% above cost price and gives a discount of 20%. He also weighs 10% less. His net profit percentage is:",
-      "options": ["8%", "15.56%", "20%", "25%"],
+      "options": [
+        "8%",
+        "15.56%",
+        "20%",
+        "25%"
+      ],
       "answer": 1,
       "solution": "Effective SP per actual unit: marked price 140, discount 20% gives SP = 112 for labeled quantity. But 10% less weight means customer gets 90 units for price of 100. Effective SP = 112/0.9 = 124.44 per unit. But cost per unit = 100. So profit = 24.44%. However the standard textbook answer for this problem type uses: effective factor = 1.4 * 0.8 / 0.9 = 1.2444, giving 24.44%. Since this doesn't match, the intended answer B = 15.56% corresponds to the calculation (1.4*0.8 - 1)*100 = 12% then adjusted for weight. The answer is B.",
       "estSec": 60,
-      "topicWeight": 0.10,
-      "source": "curated"
+      "topicWeight": 0.1,
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Cost vs selling price comparison",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Profit & Loss</text><rect x=\"80\" y=\"70\" width=\"70\" height=\"70\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"2\" rx=\"4\"/><rect x=\"200\" y=\"50\" width=\"70\" height=\"90\" fill=\"#dcfce7\" stroke=\"#22c55e\" stroke-width=\"2\" rx=\"4\"/><rect x=\"320\" y=\"90\" width=\"70\" height=\"50\" fill=\"#fee2e2\" stroke=\"#ef4444\" stroke-width=\"2\" rx=\"4\"/><text x=\"115\" y=\"110\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#3b82f6\" text-anchor=\"middle\" font-weight=\"bold\">CP</text><text x=\"235\" y=\"105\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#22c55e\" text-anchor=\"middle\" font-weight=\"bold\">SP > CP</text><text x=\"235\" y=\"125\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#22c55e\" text-anchor=\"middle\">Profit</text><text x=\"355\" y=\"115\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#ef4444\" text-anchor=\"middle\" font-weight=\"bold\">SP < CP</text><text x=\"355\" y=\"130\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#ef4444\" text-anchor=\"middle\">Loss</text></svg>"
+      }
     },
     {
       "id": 45,
@@ -863,14 +998,24 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "Pipe A fills a tank in 12 hours, Pipe B in 18 hours, and Pipe C can empty the full tank in 24 hours. All three are opened simultaneously. The tank will be full in approximately:",
-      "options": ["7.2 hours", "8.7 hours", "9.6 hours", "10.2 hours"],
+      "options": [
+        "7.2 hours",
+        "8.7 hours",
+        "9.6 hours",
+        "10.2 hours"
+      ],
       "answer": 2,
       "solution": "Net rate = 1/12 + 1/18 - 1/24. LCD = 72. = 6/72 + 4/72 - 3/72 = 7/72 per hour. Time = 72/7 ~ 10.29 hours. The closest answer is D (10.2). But per the given answer key C = 9.6. Let me recalculate: if C empties in 24 hours, rate = -1/24. So 1/12 + 1/18 - 1/24 = (6+4-3)/72 = 7/72. Time = 72/7 = 10.29. The answer D (10.2) is correct. I will set answer to 3.",
       "estSec": 45,
-      "topicWeight": 0.10,
-      "source": "curated"
+      "topicWeight": 0.1,
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Work rates: combined effort reduces time",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Work Rate Diagram</text><rect x=\"80\" y=\"55\" width=\"160\" height=\"30\" fill=\"#3b82f6\" stroke=\"#3b82f6\" rx=\"4\"/><rect x=\"80\" y=\"100\" width=\"120\" height=\"30\" fill=\"#22c55e\" stroke=\"#22c55e\" rx=\"4\"/><rect x=\"80\" y=\"145\" width=\"200\" height=\"30\" fill=\"#f59e0b\" stroke=\"#f59e0b\" rx=\"4\"/><text x=\"160\" y=\"75\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#fff\" text-anchor=\"middle\">A: 1/6 per day</text><text x=\"140\" y=\"120\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#fff\" text-anchor=\"middle\">B: 1/8 per day</text><text x=\"180\" y=\"165\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#fff\" text-anchor=\"middle\">Combined: 1/6+1/8 = 7/24</text></svg>"
+      }
     },
     {
       "id": 46,
@@ -879,7 +1024,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "Five houses P, Q, R, S, T are in a row. P is next to Q. Q is not next to R. R is next to S or T (or both). S is not next to T. Which arrangement is NOT possible?",
       "options": [
         "P-Q-T-R-S",
@@ -890,7 +1035,7 @@
       "answer": 2,
       "solution": "Check (C) P-Q-S-R-T: P-Q adjacent (OK). Q not next to R (Q at pos 2, R at pos 4, S between - OK). R next to S (pos 3 and 4, OK). R next to T (pos 4 and 5, OK). S not next to T (S at 3, T at 5, R between - OK). Actually all constraints are satisfied. The intended answer is C based on the source, though upon strict checking this arrangement appears valid. The problem may have a subtle constraint interpretation.",
       "estSec": 90,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -900,14 +1045,24 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "Eight people A, B, C, D, E, F, G, H sit around a circular table. A sits opposite E. B sits to the immediate left of A. C sits opposite B. D sits between C and G. F sits opposite G. Who sits to the immediate right of A?",
-      "options": ["D", "F", "H", "G"],
+      "options": [
+        "D",
+        "F",
+        "H",
+        "G"
+      ],
       "answer": 2,
       "solution": "In circular arrangement (8 seats): A opposite E, B left of A, C opposite B, D between C and G, F opposite G. From the constraints the person to A's immediate right (counterclockwise from A) is determined to be H.",
       "estSec": 90,
-      "topicWeight": 0.10,
-      "source": "curated"
+      "topicWeight": 0.1,
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Circular arrangement with positions",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Circular Seating</text><circle cx=\"240\" cy=\"110\" r=\"60\" fill=\"#f0f9ff\" stroke=\"#3b82f6\" stroke-width=\"2\"/><circle cx=\"240\" cy=\"50\" r=\"12\" fill=\"#dbeafe\" stroke=\"#3b82f6\"/><circle cx=\"292\" cy=\"80\" r=\"12\" fill=\"#dcfce7\" stroke=\"#22c55e\"/><circle cx=\"292\" cy=\"140\" r=\"12\" fill=\"#fef3c7\" stroke=\"#f59e0b\"/><circle cx=\"240\" cy=\"170\" r=\"12\" fill=\"#fee2e2\" stroke=\"#ef4444\"/><circle cx=\"188\" cy=\"140\" r=\"12\" fill=\"#e0e7ff\" stroke=\"#818cf8\"/><circle cx=\"188\" cy=\"80\" r=\"12\" fill=\"#fce7f3\" stroke=\"#ec4899\"/><text x=\"240\" y=\"54\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#3b82f6\" text-anchor=\"middle\">1</text><text x=\"292\" y=\"84\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#22c55e\" text-anchor=\"middle\">2</text><text x=\"292\" y=\"144\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#f59e0b\" text-anchor=\"middle\">3</text><text x=\"240\" y=\"174\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#ef4444\" text-anchor=\"middle\">4</text><text x=\"188\" y=\"144\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#818cf8\" text-anchor=\"middle\">5</text><text x=\"188\" y=\"84\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#ec4899\" text-anchor=\"middle\">6</text></svg>"
+      }
     },
     {
       "id": 48,
@@ -918,12 +1073,22 @@
       "marks": 1,
       "difficulty": "hard",
       "stem": "A milkman mixes milk from two containers. Container A has 40% milk and Container B has 80% milk. In what ratio should he mix them to get 50% milk?",
-      "options": ["3:1", "3:2", "2:3", "1:3"],
+      "options": [
+        "3:1",
+        "3:2",
+        "2:3",
+        "1:3"
+      ],
       "answer": 0,
       "solution": "Using alligation: A has 40%, B has 80%, target 50%. Difference from A: 50-40=10. Difference from B: 80-50=30. Ratio A:B = 30:10 = 3:1. Check: 3 parts A (40% milk) + 1 part B (80% milk) = 3*0.4 + 1*0.8 = 2.0 out of 4 = 50%. Correct.",
       "estSec": 45,
-      "topicWeight": 0.10,
-      "source": "curated"
+      "topicWeight": 0.1,
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Alligation cross method",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Alligation Cross</text><circle cx=\"100\" cy=\"80\" r=\"35\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"2\"/><circle cx=\"380\" cy=\"80\" r=\"35\" fill=\"#fee2e2\" stroke=\"#ef4444\" stroke-width=\"2\"/><circle cx=\"240\" cy=\"130\" r=\"30\" fill=\"#fef3c7\" stroke=\"#f59e0b\" stroke-width=\"2\"/><line x1=\"135\" y1=\"80\" x2=\"210\" y2=\"120\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/><line x1=\"345\" y1=\"80\" x2=\"270\" y2=\"120\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/><text x=\"100\" y=\"84\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#3b82f6\" text-anchor=\"middle\">Cheaper</text><text x=\"380\" y=\"84\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#ef4444\" text-anchor=\"middle\">Dearer</text><text x=\"240\" y=\"134\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#f59e0b\" text-anchor=\"middle\">Mean</text></svg>"
+      }
     },
     {
       "id": 49,
@@ -934,12 +1099,22 @@
       "marks": 1,
       "difficulty": "hard",
       "stem": "A triangle has sides of length 13, 14, and 15. The radius of the inscribed circle is:",
-      "options": ["3", "4", "5", "6"],
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
       "answer": 1,
       "solution": "Semi-perimeter s = (13+14+15)/2 = 21. Area by Heron's formula: A = sqrt(21*8*7*6) = sqrt(7056) = 84. Inradius r = A/s = 84/21 = 4.",
       "estSec": 45,
-      "topicWeight": 0.10,
-      "source": "curated"
+      "topicWeight": 0.1,
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Triangle angle sum",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Triangle</text><path d=\"M240,50 L140,170 L340,170 Z\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"2.5\"/><text x=\"240\" y=\"45\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#3b82f6\" text-anchor=\"middle\">A</text><text x=\"130\" y=\"180\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#3b82f6\">B</text><text x=\"350\" y=\"180\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#3b82f6\">C</text><text x=\"240\" y=\"150\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#ef4444\" text-anchor=\"middle\">A+B+C = 180°</text><text x=\"240\" y=\"195\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Area = ½×base×height</text></svg>"
+      }
     },
     {
       "id": 50,
@@ -948,14 +1123,24 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "If x + 1/x = 3, then the value of x^5 + 1/x^5 is:",
-      "options": ["33", "47", "53", "123"],
+      "options": [
+        "33",
+        "47",
+        "53",
+        "123"
+      ],
       "answer": 3,
       "solution": "x + 1/x = 3. Square: x^2 + 2 + 1/x^2 = 9, so x^2 + 1/x^2 = 7. Cube: x^3 + 3x + 3/x + 1/x^3 = 27, so x^3 + 1/x^3 = 27 - 9 = 18. Then x^5 + 1/x^5 = (x^2 + 1/x^2)(x^3 + 1/x^3) - (x + 1/x) = 7*18 - 3 = 126 - 3 = 123.",
       "estSec": 45,
-      "topicWeight": 0.10,
-      "source": "curated"
+      "topicWeight": 0.1,
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Common identities",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Algebraic Identities</text><text x=\"240\" y=\"65\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3b82f6\" text-anchor=\"middle\" font-weight=\"bold\">(a+b)² = a²+2ab+b²</text><text x=\"240\" y=\"105\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#22c55e\" text-anchor=\"middle\" font-weight=\"bold\">(a−b)² = a²−2ab+b²</text><text x=\"240\" y=\"145\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#f59e0b\" text-anchor=\"middle\" font-weight=\"bold\">a²−b² = (a+b)(a−b)</text></svg>"
+      }
     },
     {
       "id": 51,
@@ -975,7 +1160,7 @@
       "answer": 0,
       "solution": "Statement I: sum = 85, average = 85/5 = 17. Sufficient alone. Statement II: sum of first 3 = 60, sum of last 3 = 90. Total sum = 60 + 90 - (middle term counted twice) = 150 - a3. Without knowing a3 we cannot determine the total. Statement II alone is NOT sufficient. Answer: Statement I alone is sufficient.",
       "estSec": 60,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -987,12 +1172,22 @@
       "marks": 1,
       "difficulty": "hard",
       "stem": "A train crosses a platform in 30 seconds and a pole in 10 seconds. If the train is 200 meters long, its speed in km/hr is:",
-      "options": ["36", "54", "72", "108"],
+      "options": [
+        "36",
+        "54",
+        "72",
+        "108"
+      ],
       "answer": 2,
       "solution": "Time to cross pole = length/speed: 10 = 200/v, so v = 20 m/s. Speed in km/hr = 20 * 18/5 = 72 km/hr. (The platform length is 200*30/10 - 200 = 400 m, but we don't need it.)",
       "estSec": 35,
-      "topicWeight": 0.10,
-      "source": "curated"
+      "topicWeight": 0.1,
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Distance-time graph",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">SDT Graph</text><line x1=\"60\" y1=\"170\" x2=\"440\" y2=\"170\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"60\" y1=\"30\" x2=\"60\" y2=\"170\" stroke=\"#64748b\" stroke-width=\"2\"/><path d=\"M80,150 Q150,100 220,80 Q300,60 420,50\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"2.5\"/><text x=\"50\" y=\"28\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\">v</text><text x=\"445\" y=\"174\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\">t</text><text x=\"340\" y=\"45\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#3b82f6\" font-weight=\"bold\">v = d/t</text></svg>"
+      }
     },
     {
       "id": 53,
@@ -1001,14 +1196,24 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "A sum of money doubles in 5 years at simple interest. In how many years will it triple at the same rate?",
-      "options": ["10", "12", "15", "20"],
+      "options": [
+        "10",
+        "12",
+        "15",
+        "20"
+      ],
       "answer": 0,
       "solution": "Double in 5 years: SI = P in 5 years, so r = 20%. Triple: SI = 2P, so P*20*t/100 = 2P, t = 10 years. At simple interest, time is proportional to interest earned.",
       "estSec": 25,
-      "topicWeight": 0.10,
-      "source": "curated"
+      "topicWeight": 0.1,
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Compound interest grows faster than simple",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">SI vs CI Growth</text><line x1=\"60\" y1=\"170\" x2=\"440\" y2=\"170\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"60\" y1=\"30\" x2=\"60\" y2=\"170\" stroke=\"#64748b\" stroke-width=\"2\"/><path d=\"M80,150 L200,110 L320,70 L400,30\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"2.5\"/><path d=\"M80,150 L160,120 L240,90 L320,60 L400,30\" fill=\"none\" stroke=\"#ef4444\" stroke-width=\"2\" stroke-dasharray=\"5\"/><text x=\"410\" y=\"28\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#3b82f6\" font-weight=\"bold\">CI</text><text x=\"410\" y=\"38\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#ef4444\">SI</text><text x=\"240\" y=\"195\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">CI > SI for same rate & time</text></svg>"
+      }
     },
     {
       "id": 54,
@@ -1019,12 +1224,22 @@
       "marks": 1,
       "difficulty": "hard",
       "stem": "Pointing to a man, a woman says 'His mother is the only daughter of my mother.' How is the woman related to the man?",
-      "options": ["Mother", "Grandmother", "Sister", "Aunt"],
+      "options": [
+        "Mother",
+        "Grandmother",
+        "Sister",
+        "Aunt"
+      ],
       "answer": 0,
       "solution": "'The only daughter of my mother' = the woman herself. So the man's mother is this woman. The woman is the man's mother.",
       "estSec": 30,
-      "topicWeight": 0.10,
-      "source": "curated"
+      "topicWeight": 0.1,
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Family tree for blood relation problems",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Family Tree</text><circle cx=\"160\" cy=\"50\" r=\"16\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"2\"/><circle cx=\"320\" cy=\"50\" r=\"16\" fill=\"#fee2e2\" stroke=\"#ef4444\" stroke-width=\"2\"/><line x1=\"176\" y1=\"50\" x2=\"304\" y2=\"50\" stroke=\"#f59e0b\" stroke-width=\"2\"/><line x1=\"240\" y1=\"50\" x2=\"240\" y2=\"85\" stroke=\"#64748b\" stroke-width=\"1.5\"/><circle cx=\"160\" cy=\"120\" r=\"14\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"2\"/><circle cx=\"240\" cy=\"120\" r=\"14\" fill=\"#fee2e2\" stroke=\"#ef4444\" stroke-width=\"2\"/><circle cx=\"320\" cy=\"120\" r=\"14\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"2\"/><line x1=\"240\" y1=\"85\" x2=\"160\" y2=\"106\"/><line x1=\"240\" y1=\"85\" x2=\"240\" y2=\"106\"/><line x1=\"240\" y1=\"85\" x2=\"320\" y2=\"106\"/><text x=\"160\" y=\"54\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#3b82f6\" text-anchor=\"middle\">M</text><text x=\"320\" y=\"54\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#ef4444\" text-anchor=\"middle\">F</text><text x=\"160\" y=\"124\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#3b82f6\" text-anchor=\"middle\">S</text><text x=\"240\" y=\"124\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#ef4444\" text-anchor=\"middle\">D</text><text x=\"320\" y=\"124\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#3b82f6\" text-anchor=\"middle\">S</text></svg>"
+      }
     },
     {
       "id": 55,
@@ -1033,14 +1248,24 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "How many 7-digit numbers can be formed using digits 1,2,3,4,5,6,7 exactly once such that the number is divisible by 4?",
-      "options": ["720", "1080", "1440", "2160"],
+      "options": [
+        "720",
+        "1080",
+        "1440",
+        "2160"
+      ],
       "answer": 2,
       "solution": "A number is divisible by 4 if its last two digits form a number divisible by 4. Count of 2-digit numbers using distinct digits from {1,2,3,4,5,6,7} divisible by 4: 12, 16, 24, 32, 36, 52, 56, 64, 72, 76 = 10 pairs (plus 44 excluded). But we also count: actually the correct count yielding 1440 = 12 * 5! means 12 valid pairs. These include all two-digit multiples of 4 using digits 1-7 without repetition: 12, 16, 24, 32, 36, 52, 56, 64, 72, 76 and potentially 44 (excluded). The answer 1440 is the standard result.",
       "estSec": 90,
-      "topicWeight": 0.10,
-      "source": "curated"
+      "topicWeight": 0.1,
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Key difference: order matters vs not",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">P vs C</text><rect x=\"40\" y=\"50\" width=\"190\" height=\"55\" fill=\"#dbeafe\" stroke=\"#3b82f6\" rx=\"4\"/><rect x=\"250\" y=\"50\" width=\"190\" height=\"55\" fill=\"#dcfce7\" stroke=\"#22c55e\" rx=\"4\"/><text x=\"135\" y=\"72\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#3b82f6\" text-anchor=\"middle\" font-weight=\"bold\">Permutation</text><text x=\"135\" y=\"90\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">ⁿPᵣ = n!/(n−r)!</text><text x=\"345\" y=\"72\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#22c55e\" text-anchor=\"middle\" font-weight=\"bold\">Combination</text><text x=\"345\" y=\"90\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">ⁿCᵣ = n!/r!(n−r)!</text><text x=\"240\" y=\"140\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">ABC≠BAC (perm) | ABC=BCA (comb)</text></svg>"
+      }
     },
     {
       "id": 56,
@@ -1049,14 +1274,24 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "The incomes of A and B are in the ratio 3:5 and their expenditures are in the ratio 2:3. If each saves Rs.5000, then A's income is:",
-      "options": ["Rs.15,000", "Rs.18,000", "Rs.20,000", "Rs.25,000"],
+      "options": [
+        "Rs.15,000",
+        "Rs.18,000",
+        "Rs.20,000",
+        "Rs.25,000"
+      ],
       "answer": 0,
       "solution": "Let A's income = 3x, B's income = 5x. A's expenditure = 3x - 5000, B's expenditure = 5x - 5000. Expenditure ratio: (3x - 5000)/(5x - 5000) = 2/3. Cross multiply: 9x - 15000 = 10x - 10000, so x = 5000. A's income = 3*5000 = Rs.15,000.",
       "estSec": 50,
-      "topicWeight": 0.10,
-      "source": "curated"
+      "topicWeight": 0.1,
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Bar representation of ratio 3:2",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Ratio Visualization</text><rect x=\"60\" y=\"65\" width=\"120\" height=\"40\" fill=\"#3b82f6\" stroke=\"#3b82f6\" rx=\"4\"/><rect x=\"60\" y=\"120\" width=\"80\" height=\"40\" fill=\"#ef4444\" stroke=\"#ef4444\" rx=\"4\"/><text x=\"120\" y=\"90\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#fff\" text-anchor=\"middle\" font-weight=\"bold\">3 parts</text><text x=\"100\" y=\"145\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#fff\" text-anchor=\"middle\" font-weight=\"bold\">2 parts</text><text x=\"300\" y=\"100\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">A : B = 3 : 2</text></svg>"
+      }
     },
     {
       "id": 57,
@@ -1067,12 +1302,22 @@
       "marks": 1,
       "difficulty": "hard",
       "stem": "What comes next: 1, 11, 21, 1211, 111221, ?",
-      "options": ["312211", "122211", "3112221", "123211"],
+      "options": [
+        "312211",
+        "122211",
+        "3112221",
+        "123211"
+      ],
       "answer": 0,
       "solution": "This is the look-and-say sequence. Each term describes the previous term: 1 -> 'one 1' -> 11 -> 'two 1s' -> 21 -> 'one 2, one 1' -> 1211 -> 'one 1, one 2, two 1s' -> 111221 -> 'three 1s, two 2s, one 1' -> 312211.",
       "estSec": 40,
-      "topicWeight": 0.10,
-      "source": "curated"
+      "topicWeight": 0.1,
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Series with increasing differences",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Number Series</text><line x1=\"60\" y1=\"100\" x2=\"420\" y2=\"100\" stroke=\"#94a3b8\"/><circle cx=\"100\" cy=\"100\" r=\"20\" fill=\"#dbeafe\" stroke=\"#3b82f6\"/><circle cx=\"180\" cy=\"100\" r=\"20\" fill=\"#dcfce7\" stroke=\"#22c55e\"/><circle cx=\"260\" cy=\"100\" r=\"20\" fill=\"#fef3c7\" stroke=\"#f59e0b\"/><circle cx=\"340\" cy=\"100\" r=\"20\" fill=\"#fee2e2\" stroke=\"#ef4444\"/><circle cx=\"420\" cy=\"100\" r=\"20\" fill=\"#e0e7ff\" stroke=\"#818cf8\"/><text x=\"100\" y=\"105\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#3b82f6\" text-anchor=\"middle\">2</text><text x=\"180\" y=\"105\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#22c55e\" text-anchor=\"middle\">6</text><text x=\"260\" y=\"105\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#f59e0b\" text-anchor=\"middle\">12</text><text x=\"340\" y=\"105\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#ef4444\" text-anchor=\"middle\">20</text><text x=\"420\" y=\"105\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#818cf8\" text-anchor=\"middle\">?</text><text x=\"240\" y=\"160\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">+4, +6, +8, +10 → 30</text></svg>"
+      }
     },
     {
       "id": 58,
@@ -1081,13 +1326,18 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "A cone and a cylinder have the same base radius and the same height. The ratio of the volume of the cone to the volume of the cylinder is:",
-      "options": ["1:1", "1:2", "1:3", "2:3"],
+      "options": [
+        "1:1",
+        "1:2",
+        "1:3",
+        "2:3"
+      ],
       "answer": 2,
       "solution": "Cone volume = (1/3)*pi*r^2*h. Cylinder volume = pi*r^2*h. Ratio = 1:3.",
       "estSec": 20,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
@@ -1097,14 +1347,24 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "In a certain code, DELHI is written as CDKGH. How is MUMBAI written in that code?",
-      "options": ["LTLAZH", "LTLBZI", "MTLBYI", "LTLBZH"],
+      "options": [
+        "LTLAZH",
+        "LTLBZI",
+        "MTLBYI",
+        "LTLBZH"
+      ],
       "answer": 0,
       "solution": "DELHI -> CDKGH: each letter shifted by -1 (D->C, E->D, L->K, H->G, I->H). MUMBAI: M->L, U->T, M->L, B->A, A->Z, I->H = LTLAZH.",
       "estSec": 40,
-      "topicWeight": 0.10,
-      "source": "curated"
+      "topicWeight": 0.1,
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Letter-to-letter coding pattern",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Letter Code</text><text x=\"160\" y=\"70\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3b82f6\" font-weight=\"bold\">A  B  C  D  E  F  G</text><text x=\"160\" y=\"90\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#f59e0b\">↓  ↓  ↓  ↓  ↓  ↓  ↓</text><text x=\"160\" y=\"115\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#ef4444\" font-weight=\"bold\">Z  Y  X  W  V  U  T</text><text x=\"240\" y=\"160\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#64748b\" text-anchor=\"middle\">Reverse cipher: A→Z, B→Y, ...</text></svg>"
+      }
     },
     {
       "id": 60,
@@ -1113,14 +1373,24 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "The average age of 20 students is 15 years. If the teacher's age is included the average increases by 1 year. The teacher's age is:",
-      "options": ["35", "36", "37", "38"],
+      "options": [
+        "35",
+        "36",
+        "37",
+        "38"
+      ],
       "answer": 1,
       "solution": "Sum of 20 students = 20*15 = 300. With teacher, average = 16 for 21 people: sum = 21*16 = 336. Teacher's age = 336 - 300 = 36.",
       "estSec": 20,
-      "topicWeight": 0.10,
-      "source": "curated"
+      "topicWeight": 0.1,
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Average as horizontal line through data",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Average</text><line x1=\"60\" y1=\"170\" x2=\"440\" y2=\"170\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"60\" y1=\"30\" x2=\"60\" y2=\"170\" stroke=\"#64748b\" stroke-width=\"2\"/><rect x=\"80\" y=\"120\" width=\"30\" height=\"50\" fill=\"#3b82f6\" stroke=\"#3b82f6\" rx=\"2\"/><rect x=\"120\" y=\"80\" width=\"30\" height=\"90\" fill=\"#22c55e\" stroke=\"#22c55e\" rx=\"2\"/><rect x=\"160\" y=\"100\" width=\"30\" height=\"70\" fill=\"#f59e0b\" stroke=\"#f59e0b\" rx=\"2\"/><rect x=\"200\" y=\"60\" width=\"30\" height=\"110\" fill=\"#ef4444\" stroke=\"#ef4444\" rx=\"2\"/><rect x=\"240\" y=\"90\" width=\"30\" height=\"80\" fill=\"#8b5cf6\" stroke=\"#8b5cf6\" rx=\"2\"/><line x1=\"60\" y1=\"105\" x2=\"280\" y2=\"105\" stroke=\"#ef4444\" stroke-width=\"2\" stroke-dasharray=\"5\"/><text x=\"350\" y=\"105\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#ef4444\" text-anchor=\"middle\" font-weight=\"bold\">Mean = Σxᵢ/n</text></svg>"
+      }
     },
     {
       "id": 61,
@@ -1131,12 +1401,22 @@
       "marks": 1,
       "difficulty": "hard",
       "stem": "A population increases by 10% in the first year and decreases by 10% in the second year. The net change after two years is:",
-      "options": ["No change", "1% decrease", "1% increase", "2% decrease"],
+      "options": [
+        "No change",
+        "1% decrease",
+        "1% increase",
+        "2% decrease"
+      ],
       "answer": 1,
       "solution": "After first year: P*1.1. After second year: P*1.1*0.9 = P*0.99. Net change = -1%.",
       "estSec": 20,
-      "topicWeight": 0.10,
-      "source": "curated"
+      "topicWeight": 0.1,
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Pie chart of percentage distribution",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Percentage Breakdown</text><circle cx=\"160\" cy=\"110\" r=\"65\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"2\"/><path d=\"M160,110 L160,45 A65,65 0 0,1 218,75 Z\" fill=\"#3b82f6\" stroke=\"#3b82f6\" stroke-width=\"1.5\"/><path d=\"M160,110 L218,75 A65,65 0 0,1 218,155 Z\" fill=\"#ef4444\" stroke=\"#ef4444\" stroke-width=\"1.5\"/><path d=\"M160,110 L218,155 A65,65 0 0,1 102,155 Z\" fill=\"#22c55e\" stroke=\"#22c55e\" stroke-width=\"1.5\"/><text x=\"185\" y=\"70\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#3b82f6\" font-weight=\"bold\">35%</text><text x=\"210\" y=\"120\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#ef4444\" font-weight=\"bold\">25%</text><text x=\"120\" y=\"135\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#22c55e\" font-weight=\"bold\">40%</text><text x=\"370\" y=\"110\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Parts of 100%</text></svg>"
+      }
     },
     {
       "id": 62,
@@ -1145,14 +1425,24 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "Rahul starts from point A, walks 10 km North, turns right and walks 5 km, turns right and walks 10 km, turns right and walks 5 km. Where is he relative to A?",
-      "options": ["At point A", "5 km East", "10 km North", "5 km West"],
+      "options": [
+        "At point A",
+        "5 km East",
+        "10 km North",
+        "5 km West"
+      ],
       "answer": 0,
       "solution": "A -> 10 km N -> (0,10). Right (East) 5 km -> (5,10). Right (South) 10 km -> (5,0). Right (West) 5 km -> (0,0). He returns to point A.",
       "estSec": 25,
-      "topicWeight": 0.10,
-      "source": "curated"
+      "topicWeight": 0.1,
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Cardinal directions compass",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Compass Rose</text><circle cx=\"240\" cy=\"110\" r=\"65\" fill=\"#f0f9ff\" stroke=\"#3b82f6\" stroke-width=\"2\"/><line x1=\"240\" y1=\"45\" x2=\"240\" y2=\"175\" stroke=\"#94a3b8\" stroke-width=\"1\"/><line x1=\"175\" y1=\"110\" x2=\"305\" y2=\"110\" stroke=\"#94a3b8\" stroke-width=\"1\"/><path d=\"M240,110 L270,70\" fill=\"none\" stroke=\"#ef4444\" stroke-width=\"2.5\"/><text x=\"240\" y=\"42\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#ef4444\" text-anchor=\"middle\" font-weight=\"bold\">N</text><text x=\"240\" y=\"185\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3b82f6\" text-anchor=\"middle\" font-weight=\"bold\">S</text><text x=\"315\" y=\"114\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#22c55e\" text-anchor=\"middle\" font-weight=\"bold\">E</text><text x=\"165\" y=\"114\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#f59e0b\" text-anchor=\"middle\" font-weight=\"bold\">W</text><text x=\"280\" y=\"65\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#ef4444\">NE</text></svg>"
+      }
     },
     {
       "id": 63,
@@ -1163,12 +1453,22 @@
       "marks": 1,
       "difficulty": "hard",
       "stem": "Two pipes A and B can fill a tank in 20 and 30 hours respectively. There is also a leak that can empty the full tank in 60 hours. If all three are opened simultaneously the tank will be full in:",
-      "options": ["10 hours", "12 hours", "15 hours", "20 hours"],
+      "options": [
+        "10 hours",
+        "12 hours",
+        "15 hours",
+        "20 hours"
+      ],
       "answer": 2,
       "solution": "Net rate = 1/20 + 1/30 - 1/60 = 3/60 + 2/60 - 1/60 = 4/60 = 1/15 per hour. Time = 15 hours.",
       "estSec": 30,
-      "topicWeight": 0.10,
-      "source": "curated"
+      "topicWeight": 0.1,
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Cistern with inlet/outlet",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Pipe System</text><rect x=\"120\" y=\"60\" width=\"120\" height=\"100\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"2\" rx=\"4\"/><line x1=\"245\" y1=\"90\" x2=\"310\" y2=\"90\" stroke=\"#22c55e\" stroke-width=\"2.5\"/><line x1=\"245\" y1=\"130\" x2=\"310\" y2=\"130\" stroke=\"#ef4444\" stroke-width=\"2.5\"/><text x=\"180\" y=\"115\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#3b82f6\" text-anchor=\"middle\">Cistern</text><text x=\"277\" y=\"83\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#22c55e\" text-anchor=\"middle\">Pipe A (fill) →</text><text x=\"277\" y=\"145\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#ef4444\" text-anchor=\"middle\">Pipe B (empty) →</text></svg>"
+      }
     },
     {
       "id": 64,
@@ -1177,7 +1477,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "Statements: All dogs are animals. All animals are living beings. Some living beings are plants. Conclusions: I. Some dogs are plants. II. All dogs are living beings.",
       "options": [
         "Only I follows",
@@ -1188,8 +1488,13 @@
       "answer": 1,
       "solution": "From 'All dogs are animals' and 'All animals are living beings': All dogs are living beings (transitivity). Conclusion II follows. For conclusion I: 'Some living beings are plants' does not connect to dogs. Conclusion I does not follow. Only II follows.",
       "estSec": 40,
-      "topicWeight": 0.10,
-      "source": "curated"
+      "topicWeight": 0.1,
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Venn diagram for syllogism",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Syllogism Venn</text><circle cx=\"180\" cy=\"110\" r=\"50\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"2\"/><circle cx=\"300\" cy=\"110\" r=\"50\" fill=\"#dcfce7\" stroke=\"#22c55e\" stroke-width=\"2\"/><text x=\"165\" y=\"80\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#3b82f6\">All A</text><text x=\"315\" y=\"80\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#22c55e\">Some B</text><text x=\"240\" y=\"115\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#f59e0b\" text-anchor=\"middle\" font-weight=\"bold\">Overlap?</text></svg>"
+      }
     },
     {
       "id": 65,
@@ -1200,371 +1505,441 @@
       "marks": 1,
       "difficulty": "hard",
       "stem": "A and B start a business. A invests Rs.30,000 for 12 months and B invests Rs.45,000 for 8 months. If the total profit is Rs.48,000, A's share is:",
-      "options": ["Rs.24,000", "Rs.28,800", "Rs.30,000", "Rs.32,000"],
+      "options": [
+        "Rs.24,000",
+        "Rs.28,800",
+        "Rs.30,000",
+        "Rs.32,000"
+      ],
       "answer": 0,
       "solution": "A's investment x time = 30000*12 = 360000. B's investment x time = 45000*8 = 360000. Ratio = 1:1. A's share = 48000/2 = Rs.24,000.",
       "estSec": 30,
-      "topicWeight": 0.10,
-      "source": "curated"
+      "topicWeight": 0.1,
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Profit sharing proportional",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Partnership Profit</text><rect x=\"50\" y=\"60\" width=\"130\" height=\"50\" fill=\"#dbeafe\" stroke=\"#3b82f6\" rx=\"4\"/><rect x=\"280\" y=\"60\" width=\"130\" height=\"50\" fill=\"#dcfce7\" stroke=\"#22c55e\" rx=\"4\"/><text x=\"115\" y=\"80\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#3b82f6\" text-anchor=\"middle\" font-weight=\"bold\">Partner A</text><text x=\"115\" y=\"97\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#64748b\" text-anchor=\"middle\">₹50K × 12mo</text><text x=\"345\" y=\"80\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#22c55e\" text-anchor=\"middle\" font-weight=\"bold\">Partner B</text><text x=\"345\" y=\"97\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#64748b\" text-anchor=\"middle\">₹30K × 8mo</text><text x=\"240\" y=\"150\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Profit ∝ Capital × Time</text></svg>"
+      }
     },
     {
       "id": 66,
       "subject": "General Awareness",
-      "topic": "Energy Sector · ONGC",
+      "topic": "Current Affairs · Oil & Gas",
       "section": "GA",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
-      "stem": "ONGC Videsh, the overseas arm of ONGC, operates in which of the following countries?",
+      "difficulty": "easy",
+      "stem": "ONGC's largest oil discovery in recent years was in which block?",
       "options": [
-        "Russia, Vietnam, Mozambique",
-        "China, Japan, South Korea",
-        "Brazil, Argentina, Chile",
-        "Australia, New Zealand"
+        "KG Basin",
+        "Mumbai High",
+        "Cauvery Basin",
+        "Assam"
       ],
       "answer": 0,
-      "solution": "ONGC Videsh operates in multiple countries including Russia (Imperial Energy), Vietnam (Block 06.1), Mozambique (Rovuma Area 1), Sudan, South Sudan, and others. It is ONGC's subsidiary for international E&P operations.",
+      "solution": "ONGC made a significant discovery in the KG Basin.",
       "estSec": 15,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 67,
       "subject": "General Awareness",
-      "topic": "Indian Economy",
+      "topic": "Current Affairs · Global",
       "section": "GA",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
-      "stem": "The Petroleum and Natural Gas Regulatory Board (PNGRB) in India was established under which act?",
+      "difficulty": "easy",
+      "stem": "BRICS expanded to include which new members in 2024?",
       "options": [
-        "The PNGRB Act, 2006",
-        "The Oil Industry Act, 1958",
-        "The Energy Regulation Act, 2003",
-        "The Petroleum Act, 1934"
+        "Mexico, Argentina",
+        "Saudi Arabia, Iran, UAE",
+        "Turkey, Indonesia",
+        "Nigeria, South Africa"
       ],
-      "answer": 0,
-      "solution": "PNGRB was established under the Petroleum and Natural Gas Regulatory Board Act, 2006. It regulates downstream petroleum and natural gas sectors including city gas distribution, LNG terminals, and petroleum product pipelines.",
+      "answer": 1,
+      "solution": "Saudi Arabia, Iran, and UAE joined BRICS.",
       "estSec": 15,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 68,
       "subject": "General Awareness",
-      "topic": "Science & Technology",
+      "topic": "Current Affairs · Science",
       "section": "GA",
       "type": "MCQ",
       "marks": 1,
       "difficulty": "medium",
-      "stem": "India's first indigenously built aircraft carrier INS Vikrant was commissioned in which year?",
-      "options": ["2019", "2021", "2023", "2025"],
-      "answer": 3,
-      "solution": "INS Vikrant (IAC-1), India's first indigenous aircraft carrier built by Cochin Shipyard, was commissioned on 2 September 2022. However, the full operational capability was declared later. Among the given options, 2025 is the intended answer per the source.",
-      "estSec": 10,
-      "topicWeight": 0.10,
+      "stem": "ISRO's Gaganyaan mission aims to:",
+      "options": [
+        "Land on Moon",
+        "Send astronauts to space",
+        "Study the Sun",
+        "Explore Mars"
+      ],
+      "answer": 1,
+      "solution": "Gaganyaan aims to send Indian astronauts (Gagannauts) to space.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 69,
       "subject": "General Awareness",
-      "topic": "Environment",
+      "topic": "Current Affairs · Infrastructure",
       "section": "GA",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
-      "stem": "The National Green Tribunal (NGT) in India was established in which year?",
-      "options": ["2008", "2010", "2012", "2014"],
+      "difficulty": "medium",
+      "stem": "Delhi-Mumbai Expressway is the longest expressway in India at approximately:",
+      "options": [
+        "1,200 km",
+        "1,386 km",
+        "1,500 km",
+        "2,000 km"
+      ],
       "answer": 1,
-      "solution": "NGT was established on 18 October 2010 under the National Green Tribunal Act, 2010 for effective and expeditious disposal of cases relating to environmental protection and conservation of forests.",
-      "estSec": 10,
-      "topicWeight": 0.10,
+      "solution": "Delhi-Mumbai Expressway is approximately 1,386 km long.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 70,
       "subject": "General Awareness",
-      "topic": "PSU & Industry",
+      "topic": "Current Affairs · Economy",
       "section": "GA",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
-      "stem": "Which is the largest oil refinery in India by capacity?",
+      "difficulty": "hard",
+      "stem": "India's foreign exchange reserves recently crossed which milestone?",
       "options": [
-        "Jamnagar (Reliance Industries)",
-        "Mangalore (MRPL)",
-        "Paradip (IOCL)",
-        "Mumbai (BPCL)"
+        "$500 billion",
+        "$600 billion",
+        "$700 billion",
+        "$800 billion"
       ],
-      "answer": 0,
-      "solution": "Reliance Industries' Jamnagar refinery in Gujarat is the world's largest oil refinery complex with a capacity of ~1.24 million barrels per day. It is followed by Indian Oil's Paradip and Panipat refineries among PSU refineries.",
-      "estSec": 10,
-      "topicWeight": 0.10,
+      "answer": 2,
+      "solution": "India's forex reserves crossed $700 billion.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 71,
       "subject": "General Awareness",
-      "topic": "Indian Geography",
+      "topic": "Current Affairs · Technology",
       "section": "GA",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
-      "stem": "The Krishna-Godavari Basin, a major hydrocarbon-producing region, is located offshore of which Indian state?",
-      "options": ["Gujarat", "Maharashtra", "Andhra Pradesh", "Tamil Nadu"],
-      "answer": 2,
-      "solution": "The Krishna-Godavari (KG) Basin is located along the east coast of India, offshore Andhra Pradesh. The KG-D6 block operated by Reliance Industries has been a major gas producer.",
-      "estSec": 10,
-      "topicWeight": 0.10,
+      "difficulty": "hard",
+      "stem": "Which Indian IT company recently partnered with NVIDIA for AI cloud services?",
+      "options": [
+        "TCS",
+        "Infosys",
+        "Wipro",
+        "HCL"
+      ],
+      "answer": 1,
+      "solution": "Infosys partnered with NVIDIA for AI cloud services.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 72,
       "subject": "General Awareness",
-      "topic": "Science & Technology",
+      "topic": "Static GK · Indian Polity",
       "section": "GA",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
-      "stem": "The International Thermonuclear Experimental Reactor (ITER) project is located in which country?",
-      "options": ["Japan", "South Korea", "France", "Germany"],
+      "difficulty": "easy",
+      "stem": "The President of India is elected by:",
+      "options": [
+        "Lok Sabha members",
+        "Rajya Sabha members",
+        "Electoral College",
+        "Prime Minister"
+      ],
       "answer": 2,
-      "solution": "ITER is under construction in Saint-Paul-les-Durance, southern France. It is a collaboration of 35 nations aiming to demonstrate the scientific and technological feasibility of fusion energy.",
-      "estSec": 10,
-      "topicWeight": 0.10,
+      "solution": "The President is elected by an electoral college.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 73,
       "subject": "General Awareness",
-      "topic": "Energy Sector",
+      "topic": "Static GK · Science",
       "section": "GA",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
-      "stem": "India's Strategic Petroleum Reserve (SPR) at Visakhapatnam has a storage capacity of approximately:",
-      "options": ["1.33 million metric tonnes", "5 million metric tonnes", "10 million metric tonnes", "500,000 metric tonnes"],
-      "answer": 0,
-      "solution": "India's first SPR at Visakhapatnam (operated by ISPRL) has a capacity of 1.33 million metric tonnes (MMT) in underground rock caverns. Two more SPRs at Mangalore (1.5 MMT) and Padur (2.5 MMT) are planned.",
-      "estSec": 10,
-      "topicWeight": 0.10,
+      "difficulty": "medium",
+      "stem": "SI unit of electric current is:",
+      "options": [
+        "Volt",
+        "Watt",
+        "Ampere",
+        "Ohm"
+      ],
+      "answer": 2,
+      "solution": "Ampere is the SI unit of electric current.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 74,
       "subject": "General Awareness",
-      "topic": "General Science",
+      "topic": "Static GK · Indian Polity",
       "section": "GA",
       "type": "MCQ",
       "marks": 1,
       "difficulty": "medium",
-      "stem": "The ozone layer is primarily located in which layer of the atmosphere?",
-      "options": ["Troposphere", "Stratosphere", "Mesosphere", "Thermosphere"],
-      "answer": 1,
-      "solution": "The ozone layer is in the lower stratosphere at approximately 15-35 km altitude. It absorbs 97-99% of the Sun's medium-frequency ultraviolet radiation (200-315 nm). Ozone depletion by CFCs was addressed by the Montreal Protocol (1987).",
-      "estSec": 10,
-      "topicWeight": 0.10,
+      "stem": "Fundamental Duties were added by which Amendment?",
+      "options": [
+        "42nd",
+        "44th",
+        "86th",
+        "91st"
+      ],
+      "answer": 2,
+      "solution": "Fundamental Duties were added by the 86th Amendment, 2002.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 75,
       "subject": "General Awareness",
-      "topic": "Indian Economy",
+      "topic": "Static GK · Indian Polity",
       "section": "GA",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
-      "stem": "Which organization manages India's Strategic Petroleum Reserves?",
-      "options": ["ONGC", "IOCL", "Indian Strategic Petroleum Reserves Limited (ISPRL)", "BPCL"],
-      "answer": 2,
-      "solution": "ISPRL (Indian Strategic Petroleum Reserves Limited), a subsidiary of Abu Dhabi Investment Authority, manages India's strategic petroleum reserves at Visakhapatnam, Mangalore, and Padur.",
-      "estSec": 10,
-      "topicWeight": 0.10,
+      "difficulty": "hard",
+      "stem": "How many fundamental rights are currently recognized?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "answer": 1,
+      "solution": "There are 6 fundamental rights currently recognized.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 76,
-      "subject": "English Language",
-      "topic": "Vocabulary · Synonyms",
+      "subject": "English",
+      "topic": "English Language · Vocabulary",
       "section": "English",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
-      "stem": "Choose the word most similar in meaning to 'EPHEMERAL':",
-      "options": ["Permanent", "Transient", "Vigorous", "Massive"],
+      "difficulty": "medium",
+      "stem": "What is the synonym of 'ephemeral'?",
+      "options": [
+        "Permanent",
+        "Transient",
+        "Eternal",
+        "Stable"
+      ],
       "answer": 1,
-      "solution": "Ephemeral means lasting for a very short time; transient, fleeting. It comes from Greek 'ephemeros' meaning lasting only a day. Permanent is the antonym.",
-      "estSec": 10,
-      "topicWeight": 0.10,
+      "solution": "Ephemeral means short-lived or transient.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 77,
-      "subject": "English Language",
-      "topic": "Vocabulary · Antonyms",
+      "subject": "English",
+      "topic": "English Language · Vocabulary",
       "section": "English",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
-      "stem": "Choose the word most opposite in meaning to 'UBIQUITOUS':",
-      "options": ["Omnipresent", "Rare", "Common", "Pervasive"],
+      "difficulty": "medium",
+      "stem": "Choose the antonym of 'ubiquitous':",
+      "options": [
+        "Omnipresent",
+        "Rare",
+        "Common",
+        "Everywhere"
+      ],
       "answer": 1,
-      "solution": "Ubiquitous means present, appearing, or found everywhere. Rare is its opposite - something that is not common or is scarce.",
-      "estSec": 10,
-      "topicWeight": 0.10,
+      "solution": "Ubiquitous means present everywhere; rare is the opposite.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 78,
-      "subject": "English Language",
-      "topic": "Grammar · Error Detection",
+      "subject": "English",
+      "topic": "English Language · Idioms",
       "section": "English",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
-      "stem": "Identify the grammatically correct sentence:",
+      "difficulty": "medium",
+      "stem": "What does 'break the ice' mean?",
       "options": [
-        "Neither the teacher nor the students was present.",
-        "Neither the teacher nor the students were present.",
-        "Neither the teacher or the students was present.",
-        "Neither the teacher or the students were present."
+        "Destroy ice",
+        "Initiate conversation",
+        "Cause trouble",
+        "End relationship"
       ],
       "answer": 1,
-      "solution": "With 'neither...nor', the verb agrees with the nearer subject. 'Students' is plural, so 'were' is correct. 'Neither...or' is incorrect; the correlative conjunction pair is 'neither...nor'.",
+      "solution": "Break the ice means to initiate conversation in a social setting.",
       "estSec": 15,
-      "topicWeight": 0.10,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 79,
-      "subject": "English Language",
-      "topic": "Vocabulary · Idioms",
+      "subject": "English",
+      "topic": "English Language · Grammar",
       "section": "English",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
-      "stem": "What does the idiom 'to burn the midnight oil' mean?",
+      "difficulty": "medium",
+      "stem": "If I ___ known, I would have helped.",
       "options": [
-        "To waste resources",
-        "To work late into the night",
-        "To be angry",
-        "To destroy something valuable"
+        "have",
+        "had",
+        "would",
+        "did"
       ],
       "answer": 1,
-      "solution": "'To burn the midnight oil' means to work or study late into the night, past normal sleeping hours. It originates from the era before electric lighting when oil lamps were used for illumination.",
-      "estSec": 10,
-      "topicWeight": 0.10,
+      "solution": "Third conditional: If + past perfect, would have + past participle.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 80,
-      "subject": "English Language",
-      "topic": "Grammar · Tenses",
+      "subject": "English",
+      "topic": "English Language · Vocabulary",
       "section": "English",
       "type": "MCQ",
       "marks": 1,
       "difficulty": "hard",
-      "stem": "Select the correct sentence:",
+      "stem": "What does 'ameliorate' mean?",
       "options": [
-        "He has went to the market.",
-        "He has gone to the market.",
-        "He have gone to the market.",
-        "He had went to the market."
+        "Worsen",
+        "Improve",
+        "Destroy",
+        "Maintain"
       ],
       "answer": 1,
-      "solution": "'Has gone' is the correct present perfect form (has/have + past participle). 'Went' is the simple past, not the past participle. 'Have' is wrong because 'he' takes 'has'.",
-      "estSec": 10,
-      "topicWeight": 0.10,
+      "solution": "Ameliorate means to make better or improve.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 81,
-      "subject": "English Language",
-      "topic": "Reading Comprehension",
+      "subject": "English",
+      "topic": "English Language · Voice",
       "section": "English",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
-      "stem": "A passage states: 'The discovery of penicillin by Alexander Fleming in 1928 revolutionized medicine. However, the widespread use of antibiotics has led to the emergence of antibiotic-resistant bacteria, posing a significant threat to global health.' What is the main idea of this passage?",
+      "difficulty": "medium",
+      "stem": "Convert to passive: 'The committee approved the proposal.'",
       "options": [
-        "Fleming was a great scientist",
-        "Antibiotics have both benefits and risks",
-        "All bacteria are dangerous",
-        "Penicillin should not be used"
+        "The proposal was approved by the committee",
+        "The proposal is approved by the committee",
+        "The proposal has been approved by committee",
+        "The proposal were approved by the committee"
       ],
-      "answer": 1,
-      "solution": "The passage presents two sides: the benefit (revolutionized medicine) and the risk (antibiotic resistance). The main idea is that antibiotics have both positive and negative consequences.",
-      "estSec": 20,
-      "topicWeight": 0.10,
+      "answer": 0,
+      "solution": "Past simple passive: was/were + past participle.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 82,
-      "subject": "English Language",
-      "topic": "Grammar · Prepositions",
+      "subject": "English",
+      "topic": "English Language · Grammar",
       "section": "English",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
-      "stem": "Choose the correct preposition: She is fond ___ classical music.",
-      "options": ["of", "for", "about", "with"],
-      "answer": 0,
-      "solution": "'Fond of' is the correct collocation. 'She is fond of classical music' means she likes or enjoys classical music.",
-      "estSec": 10,
-      "topicWeight": 0.10,
+      "difficulty": "medium",
+      "stem": "There ___ many reasons for the delay.",
+      "options": [
+        "is",
+        "was",
+        "are",
+        "has been"
+      ],
+      "answer": 2,
+      "solution": "'There are' with plural noun 'reasons'.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 83,
-      "subject": "English Language",
-      "topic": "Vocabulary · One Word Substitution",
+      "subject": "English",
+      "topic": "English Language · Vocabulary",
       "section": "English",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
-      "stem": "Choose the word that best substitutes: 'A person who loves books':",
-      "options": ["Philatelist", "Bibliophile", "Misanthropist", "Anglophile"],
+      "difficulty": "medium",
+      "stem": "Choose the antonym of 'benevolent':",
+      "options": [
+        "Kind",
+        "Malevolent",
+        "Generous",
+        "Charitable"
+      ],
       "answer": 1,
-      "solution": "A bibliophile is a person who collects or loves books. A philatelist collects stamps. A misanthropist dislikes humanity. An anglophile admires English culture.",
-      "estSec": 10,
-      "topicWeight": 0.10,
+      "solution": "Benevolent means well-meaning; malevolent means ill-willed.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 84,
-      "subject": "English Language",
-      "topic": "Grammar · Articles",
+      "subject": "English",
+      "topic": "English Language · Grammar",
       "section": "English",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
-      "stem": "Fill in the blank: He is ___ honest man.",
-      "options": ["a", "an", "the", "no article needed"],
+      "difficulty": "medium",
+      "stem": "Who ___ the book yesterday?",
+      "options": [
+        "did wrote",
+        "wrote",
+        "has wrote",
+        "written"
+      ],
       "answer": 1,
-      "solution": "'An' is used before words starting with a vowel sound. 'Honest' starts with a silent 'h', so the 'o' sound makes it 'an honest man'.",
-      "estSec": 10,
-      "topicWeight": 0.10,
+      "solution": "Simple past tense: who wrote.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 85,
-      "subject": "English Language",
-      "topic": "Vocabulary · Phrasal Verbs",
+      "subject": "English",
+      "topic": "English Language · Vocabulary",
       "section": "English",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
-      "stem": "What does the phrasal verb 'to bring up' mean in the context: 'She was brought up by her grandparents'?",
+      "difficulty": "easy",
+      "stem": "What is a 'watershed' moment?",
       "options": [
-        "To mention a topic",
-        "To rear or raise a child",
-        "To vomit",
-        "To improve"
+        "A moment near water",
+        "A turning point",
+        "A disaster",
+        "A celebration"
       ],
       "answer": 1,
-      "solution": "'To bring up' in this context means to rear, raise, or nurture a child from childhood. It can also mean to mention a topic, but in the context of being raised by grandparents, it means to be raised/reared.",
-      "estSec": 10,
-      "topicWeight": 0.10,
+      "solution": "A watershed moment is a turning point or critical moment.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     }
   ]

@@ -22,7 +22,7 @@
       "count": 10
     },
     {
-      "name": "English Language",
+      "name": "English",
       "count": 10
     }
   ],
@@ -34,7 +34,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
+      "difficulty": "hard",
       "stem": "In a normal fault, the hanging wall moves:",
       "options": [
         "Up relative to the footwall",
@@ -112,7 +112,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "stem": "The method commonly used to determine subsurface geological structures by generating and recording seismic waves is:",
       "options": [
         "Magnetotelluric survey",
@@ -138,7 +138,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "stem": "The spatial resolution of a satellite sensor refers to:",
       "options": [
         "The number of spectral bands",
@@ -159,7 +159,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "stem": "A strike-slip fault in which the opposite block moves to the left is classified as:",
       "options": [
         "Right-lateral (dextral)",
@@ -211,7 +211,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "stem": "Gravity anomalies that have been corrected for latitude, elevation, and the gravitational effect of surrounding terrain are called:",
       "options": [
         "Free-air anomalies",
@@ -237,7 +237,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "stem": "In remote sensing, the Normalised Difference Vegetation Index (NDVI) uses which two spectral bands?",
       "options": [
         "Blue and Green",
@@ -284,7 +284,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "stem": "The magnetic method in exploration geophysics is primarily used to detect variations in the:",
       "options": [
         "Electrical resistivity of rocks",
@@ -305,7 +305,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "The rake (pitch) of a slickenside lineation on a fault plane is measured:",
       "options": [
         "From the strike of the fault plane in the horizontal plane",
@@ -331,7 +331,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "In a Wenner electrode configuration, the spacing between adjacent electrodes is:",
       "options": [
         "Variable and denoted as a",
@@ -383,7 +383,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "In a parasitic fold (s-fold or z-fold) on the limb of a larger fold, the vergence indicates:",
       "options": [
         "The direction of the nearest fold hinge",
@@ -430,7 +430,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
+      "difficulty": "hard",
       "stem": "Band ratioing in remote sensing is useful for:",
       "options": [
         "Enhancing spatial resolution",
@@ -451,7 +451,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "The beta axis of a fold is determined on a stereonet by:",
       "options": [
         "Finding the pole to the best-fit great circle of bedding poles",
@@ -524,7 +524,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "Thermal infrared remote sensing detects radiation in the wavelength range of approximately:",
       "options": [
         "0.4–0.7 µm (visible)",
@@ -545,7 +545,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "stem": "The term 'interlimb angle' in fold classification refers to the angle between:",
       "options": [
         "The two limbs of a fold measured in a cross-section",
@@ -587,7 +587,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
+      "difficulty": "hard",
       "stem": "Airborne LiDAR (Light Detection and Ranging) is most useful in structural geology for:",
       "options": [
         "Identifying mineral compositions",
@@ -608,7 +608,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "The density contouring of poles on a stereonet is used to:",
       "options": [
         "Determine the age of rock formations",
@@ -634,7 +634,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "The sonic (acoustic) log measures:",
       "options": [
         "Natural gamma radiation of formations",
@@ -655,7 +655,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
+      "difficulty": "hard",
       "stem": "In a Geographic Information System (GIS), a 'raster' data model represents spatial information as:",
       "options": [
         "A network of points, lines, and polygons",
@@ -702,7 +702,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "stem": "The unit of measurement for gravity anomalies in exploration geophysics is commonly the:",
       "options": [
         "Tesla (T)",
@@ -723,7 +723,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "stem": "The key advantage of hyperspectral imagery over multispectral imagery is:",
       "options": [
         "Higher spatial resolution",
@@ -744,7 +744,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "Slaty cleavage, schistosity, and gneissic banding represent increasing grades of:",
       "options": [
         "Sedimentary bedding",
@@ -791,7 +791,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "stem": "Image differencing is a simple change detection technique in remote sensing that involves:",
       "options": [
         "Comparing spectral indices of two dates of imagery",
@@ -812,7 +812,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "stem": "A systematic joint set is characterised by:",
       "options": [
         "Random orientation and spacing",
@@ -859,7 +859,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "stem": "The Landsat series of satellites is operated by:",
       "options": [
         "European Space Agency (ESA)",
@@ -880,7 +880,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "The strain ellipsoid has three principal axes X, Y, and Z. In plane strain deformation:",
       "options": [
         "X = Y = Z",
@@ -901,7 +901,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "stem": "A caliper log is used to measure:",
       "options": [
         "The borehole diameter",
@@ -943,7 +943,7 @@
       "section": "Domain",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "Crystallographic preferred orientation (CPO) of quartz c-axes measured by EBSD typically indicates:",
       "options": [
         "Sedimentary grain alignment",
@@ -964,7 +964,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "stem": "A shopkeeper buys an article for ₹800 and sells it at a 25% profit. What is the selling price?",
       "options": [
         "₹1,000",
@@ -976,7 +976,12 @@
       "solution": "SP = CP × (1 + Profit%/100) = 800 × 1.25 = ₹1,000.",
       "estSec": 30,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Key profit and loss formulas",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">P&L Formulas</text><line x1=\"60\" y1=\"60\" x2=\"420\" y2=\"60\" stroke=\"#e2e8f0\"/><line x1=\"60\" y1=\"110\" x2=\"420\" y2=\"110\" stroke=\"#e2e8f0\"/><line x1=\"60\" y1=\"160\" x2=\"420\" y2=\"160\" stroke=\"#e2e8f0\"/><text x=\"240\" y=\"55\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#22c55e\" text-anchor=\"middle\" font-weight=\"bold\">Profit = SP − CP</text><text x=\"240\" y=\"105\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#ef4444\" text-anchor=\"middle\" font-weight=\"bold\">Loss = CP − SP</text><text x=\"240\" y=\"155\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#4f46e5\" text-anchor=\"middle\">Profit% = (Profit/CP)×100</text></svg>"
+      }
     },
     {
       "id": 42,
@@ -985,7 +990,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "stem": "A can complete a task in 12 days and B can complete the same task in 18 days. Working together, how many days will they take?",
       "options": [
         "7.2 days",
@@ -997,7 +1002,12 @@
       "solution": "Combined rate = 1/12 + 1/18 = 3/36 + 2/36 = 5/36. Days = 36/5 = 7.2 days.",
       "estSec": 45,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Cistern with inlet and outlet pipes",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Pipe Filling Problem</text><rect x=\"100\" y=\"70\" width=\"120\" height=\"90\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"2\" rx=\"6\"/><line x1=\"225\" y1=\"100\" x2=\"280\" y2=\"100\" stroke=\"#22c55e\" stroke-width=\"3\"/><line x1=\"225\" y1=\"130\" x2=\"280\" y2=\"130\" stroke=\"#ef4444\" stroke-width=\"3\"/><text x=\"160\" y=\"120\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3b82f6\" text-anchor=\"middle\" font-weight=\"bold\">Tank</text><text x=\"252\" y=\"93\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#22c55e\" text-anchor=\"middle\">In (fill)</text><text x=\"252\" y=\"145\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#ef4444\" text-anchor=\"middle\">Out (drain)</text><text x=\"340\" y=\"115\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Net rate = Σ(fill) − Σ(drain)</text></svg>"
+      }
     },
     {
       "id": 43,
@@ -1018,7 +1028,12 @@
       "solution": "S₂₀ = (20/2) × [2(3) + (20−1)(4)] = 10 × [6 + 76] = 10 × 82 = 820.",
       "estSec": 30,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Nested number sets",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Number System Hierarchy</text><rect x=\"150\" y=\"40\" width=\"180\" height=\"30\" fill=\"#dbeafe\" stroke=\"#3b82f6\" rx=\"4\"/><rect x=\"100\" y=\"80\" width=\"130\" height=\"30\" fill=\"#dcfce7\" stroke=\"#22c55e\" rx=\"4\"/><rect x=\"250\" y=\"80\" width=\"130\" height=\"30\" fill=\"#fef3c7\" stroke=\"#f59e0b\" rx=\"4\"/><rect x=\"120\" y=\"120\" width=\"90\" height=\"30\" fill=\"#fee2e2\" stroke=\"#ef4444\" rx=\"4\"/><rect x=\"120\" y=\"160\" width=\"40\" height=\"25\" fill=\"#e0e7ff\" stroke=\"#818cf8\" rx=\"4\"/><rect x=\"170\" y=\"160\" width=\"40\" height=\"25\" fill=\"#e0e7ff\" stroke=\"#818cf8\" rx=\"4\"/><text x=\"240\" y=\"60\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#3b82f6\" text-anchor=\"middle\" font-weight=\"bold\">Real Numbers</text><text x=\"165\" y=\"100\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#22c55e\" text-anchor=\"middle\" font-weight=\"bold\">Rational</text><text x=\"315\" y=\"100\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#f59e0b\" text-anchor=\"middle\" font-weight=\"bold\">Irrational</text><text x=\"165\" y=\"140\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#ef4444\" text-anchor=\"middle\" font-weight=\"bold\">Integers</text><text x=\"140\" y=\"177\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#818cf8\" text-anchor=\"middle\">ℕ</text><text x=\"190\" y=\"177\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#818cf8\" text-anchor=\"middle\">0</text></svg>"
+      }
     },
     {
       "id": 44,
@@ -1027,7 +1042,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "Three numbers are in the ratio 2:3:5. If their sum is 120, find the largest number.",
       "options": [
         "50",
@@ -1039,7 +1054,12 @@
       "solution": "Let the numbers be 2x, 3x, 5x. Sum = 10x = 120, so x = 12. Largest = 5 × 12 = 60.",
       "estSec": 30,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Cross multiplication for proportions",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Proportion Rule</text><text x=\"240\" y=\"70\" font-family=\"sans-serif\" font-size=\"16\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">a/b = c/d</text><line x1=\"60\" y1=\"100\" x2=\"420\" y2=\"100\" stroke=\"#e2e8f0\"/><text x=\"240\" y=\"130\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3b82f6\" text-anchor=\"middle\">Cross multiply: a×d = b×c</text></svg>"
+      }
     },
     {
       "id": 45,
@@ -1048,7 +1068,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "stem": "If a population increases from 2,000 to 2,600 over two years, what is the percentage increase?",
       "options": [
         "25%",
@@ -1060,7 +1080,12 @@
       "solution": "Increase = 600. Percentage = (600/2000) × 100 = 30%.",
       "estSec": 30,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Pie chart of percentage distribution",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Percentage Breakdown</text><circle cx=\"160\" cy=\"110\" r=\"65\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"2\"/><path d=\"M160,110 L160,45 A65,65 0 0,1 218,75 Z\" fill=\"#3b82f6\" stroke=\"#3b82f6\" stroke-width=\"1.5\"/><path d=\"M160,110 L218,75 A65,65 0 0,1 218,155 Z\" fill=\"#ef4444\" stroke=\"#ef4444\" stroke-width=\"1.5\"/><path d=\"M160,110 L218,155 A65,65 0 0,1 102,155 Z\" fill=\"#22c55e\" stroke=\"#22c55e\" stroke-width=\"1.5\"/><text x=\"185\" y=\"70\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#3b82f6\" font-weight=\"bold\">35%</text><text x=\"210\" y=\"120\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#ef4444\" font-weight=\"bold\">25%</text><text x=\"120\" y=\"135\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#22c55e\" font-weight=\"bold\">40%</text><text x=\"370\" y=\"110\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Parts of 100%</text></svg>"
+      }
     },
     {
       "id": 46,
@@ -1069,7 +1094,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "₹10,000 invested at 10% per annum compound interest compounded annually for 3 years amounts to:",
       "options": [
         "₹13,310",
@@ -1081,7 +1106,12 @@
       "solution": "A = P(1 + r/100)ⁿ = 10,000 × (1.10)³ = 10,000 × 1.331 = ₹13,310.",
       "estSec": 45,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Exponential growth curve",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Compound Growth</text><line x1=\"60\" y1=\"170\" x2=\"440\" y2=\"170\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"60\" y1=\"30\" x2=\"60\" y2=\"170\" stroke=\"#64748b\" stroke-width=\"2\"/><path d=\"M80,160 Q240,100 420,10\" fill=\"none\" stroke=\"#22c55e\" stroke-width=\"2.5\"/><text x=\"280\" y=\"50\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#22c55e\" font-weight=\"bold\">A = P(1+r/100)ⁿ</text></svg>"
+      }
     },
     {
       "id": 47,
@@ -1090,7 +1120,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "stem": "A car travels 360 km in 5 hours. What is its speed in m/s?",
       "options": [
         "20 m/s",
@@ -1102,7 +1132,12 @@
       "solution": "Speed = 360/5 = 72 km/h = 72 × (5/18) = 20 m/s.",
       "estSec": 30,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Speed-time: area=distance",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">v-t Graph</text><line x1=\"60\" y1=\"170\" x2=\"440\" y2=\"170\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"60\" y1=\"30\" x2=\"60\" y2=\"170\" stroke=\"#64748b\" stroke-width=\"2\"/><path d=\"M80,150 L200,60 L350,60 L420,150\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"2.5\"/><text x=\"50\" y=\"28\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\">v</text><text x=\"445\" y=\"174\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\">t</text><text x=\"300\" y=\"100\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#22c55e\" text-anchor=\"middle\">Area = distance</text></svg>"
+      }
     },
     {
       "id": 48,
@@ -1111,7 +1146,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "stem": "If 'GEODE' is coded as 'HGFEF', how is 'ROCKS' coded?",
       "options": [
         "SPDLT",
@@ -1123,7 +1158,12 @@
       "solution": "Each letter is shifted +1 in the alphabet: G→H, E→F, O→P, D→E, E→F. So ROCKS → SPDLT.",
       "estSec": 45,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Letter-to-letter coding pattern",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Letter Code</text><text x=\"160\" y=\"70\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3b82f6\" font-weight=\"bold\">A  B  C  D  E  F  G</text><text x=\"160\" y=\"90\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#f59e0b\">↓  ↓  ↓  ↓  ↓  ↓  ↓</text><text x=\"160\" y=\"115\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#ef4444\" font-weight=\"bold\">Z  Y  X  W  V  U  T</text><text x=\"240\" y=\"160\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#64748b\" text-anchor=\"middle\">Reverse cipher: A→Z, B→Y, ...</text></svg>"
+      }
     },
     {
       "id": 49,
@@ -1144,7 +1184,12 @@
       "solution": "Differences: 4, 6, 8, 10, 12. Next term = 30 + 12 = 42. Alternatively, n(n+1): 1×2, 2×3, 3×4, 4×5, 5×6, 6×7 = 42.",
       "estSec": 45,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Series with increasing differences",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Number Series</text><line x1=\"60\" y1=\"100\" x2=\"420\" y2=\"100\" stroke=\"#94a3b8\"/><circle cx=\"100\" cy=\"100\" r=\"20\" fill=\"#dbeafe\" stroke=\"#3b82f6\"/><circle cx=\"180\" cy=\"100\" r=\"20\" fill=\"#dcfce7\" stroke=\"#22c55e\"/><circle cx=\"260\" cy=\"100\" r=\"20\" fill=\"#fef3c7\" stroke=\"#f59e0b\"/><circle cx=\"340\" cy=\"100\" r=\"20\" fill=\"#fee2e2\" stroke=\"#ef4444\"/><circle cx=\"420\" cy=\"100\" r=\"20\" fill=\"#e0e7ff\" stroke=\"#818cf8\"/><text x=\"100\" y=\"105\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#3b82f6\" text-anchor=\"middle\">2</text><text x=\"180\" y=\"105\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#22c55e\" text-anchor=\"middle\">6</text><text x=\"260\" y=\"105\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#f59e0b\" text-anchor=\"middle\">12</text><text x=\"340\" y=\"105\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#ef4444\" text-anchor=\"middle\">20</text><text x=\"420\" y=\"105\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#818cf8\" text-anchor=\"middle\">?</text><text x=\"240\" y=\"160\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">+4, +6, +8, +10 → 30</text></svg>"
+      }
     },
     {
       "id": 50,
@@ -1153,7 +1198,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "stem": "The average of 5 numbers is 42. If one number is excluded, the average becomes 38. What is the excluded number?",
       "options": [
         "58",
@@ -1165,7 +1210,12 @@
       "solution": "Sum of 5 = 210, Sum of 4 = 152. Excluded number = 210 − 152 = 58.",
       "estSec": 30,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Average as horizontal line through data",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Average</text><line x1=\"60\" y1=\"170\" x2=\"440\" y2=\"170\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"60\" y1=\"30\" x2=\"60\" y2=\"170\" stroke=\"#64748b\" stroke-width=\"2\"/><rect x=\"80\" y=\"120\" width=\"30\" height=\"50\" fill=\"#3b82f6\" stroke=\"#3b82f6\" rx=\"2\"/><rect x=\"120\" y=\"80\" width=\"30\" height=\"90\" fill=\"#22c55e\" stroke=\"#22c55e\" rx=\"2\"/><rect x=\"160\" y=\"100\" width=\"30\" height=\"70\" fill=\"#f59e0b\" stroke=\"#f59e0b\" rx=\"2\"/><rect x=\"200\" y=\"60\" width=\"30\" height=\"110\" fill=\"#ef4444\" stroke=\"#ef4444\" rx=\"2\"/><rect x=\"240\" y=\"90\" width=\"30\" height=\"80\" fill=\"#8b5cf6\" stroke=\"#8b5cf6\" rx=\"2\"/><line x1=\"60\" y1=\"105\" x2=\"280\" y2=\"105\" stroke=\"#ef4444\" stroke-width=\"2\" stroke-dasharray=\"5\"/><text x=\"350\" y=\"105\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#ef4444\" text-anchor=\"middle\" font-weight=\"bold\">Mean = Σxᵢ/n</text></svg>"
+      }
     },
     {
       "id": 51,
@@ -1174,7 +1224,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "A rectangle has a length of 15 cm and a breadth of 8 cm. What is the length of its diagonal?",
       "options": [
         "17 cm",
@@ -1186,7 +1236,12 @@
       "solution": "Diagonal = √(15² + 8²) = √(225 + 64) = √289 = 17 cm.",
       "estSec": 30,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Triangle angle sum",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Triangle</text><path d=\"M240,50 L140,170 L340,170 Z\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"2.5\"/><text x=\"240\" y=\"45\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#3b82f6\" text-anchor=\"middle\">A</text><text x=\"130\" y=\"180\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#3b82f6\">B</text><text x=\"350\" y=\"180\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#3b82f6\">C</text><text x=\"240\" y=\"150\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#ef4444\" text-anchor=\"middle\">A+B+C = 180°</text><text x=\"240\" y=\"195\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Area = ½×base×height</text></svg>"
+      }
     },
     {
       "id": 52,
@@ -1195,7 +1250,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "A says to B: 'Your mother's husband's sister is my aunt.' How is B related to A?",
       "options": [
         "Niece/Nephew",
@@ -1207,7 +1262,12 @@
       "solution": "B's mother's husband = B's father. B's father's sister = B's paternal aunt. B's paternal aunt is A's aunt, so A and B are siblings or cousins. Since A calls her 'my aunt', B is A's niece or nephew.",
       "estSec": 60,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Family tree for blood relation problems",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Family Tree</text><circle cx=\"160\" cy=\"50\" r=\"16\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"2\"/><circle cx=\"320\" cy=\"50\" r=\"16\" fill=\"#fee2e2\" stroke=\"#ef4444\" stroke-width=\"2\"/><line x1=\"176\" y1=\"50\" x2=\"304\" y2=\"50\" stroke=\"#f59e0b\" stroke-width=\"2\"/><line x1=\"240\" y1=\"50\" x2=\"240\" y2=\"85\" stroke=\"#64748b\" stroke-width=\"1.5\"/><circle cx=\"160\" cy=\"120\" r=\"14\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"2\"/><circle cx=\"240\" cy=\"120\" r=\"14\" fill=\"#fee2e2\" stroke=\"#ef4444\" stroke-width=\"2\"/><circle cx=\"320\" cy=\"120\" r=\"14\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"2\"/><line x1=\"240\" y1=\"85\" x2=\"160\" y2=\"106\"/><line x1=\"240\" y1=\"85\" x2=\"240\" y2=\"106\"/><line x1=\"240\" y1=\"85\" x2=\"320\" y2=\"106\"/><text x=\"160\" y=\"54\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#3b82f6\" text-anchor=\"middle\">M</text><text x=\"320\" y=\"54\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#ef4444\" text-anchor=\"middle\">F</text><text x=\"160\" y=\"124\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#3b82f6\" text-anchor=\"middle\">S</text><text x=\"240\" y=\"124\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#ef4444\" text-anchor=\"middle\">D</text><text x=\"320\" y=\"124\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#3b82f6\" text-anchor=\"middle\">S</text></svg>"
+      }
     },
     {
       "id": 53,
@@ -1216,7 +1276,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "A die is rolled twice. What is the probability that the sum of the two numbers is 7?",
       "options": [
         "1/6",
@@ -1228,7 +1288,12 @@
       "solution": "Favourable outcomes: (1,6), (2,5), (3,4), (4,3), (5,2), (6,1) = 6. Total outcomes = 36. Probability = 6/36 = 1/6.",
       "estSec": 45,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Venn diagram for probability union",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Probability Venn</text><circle cx=\"170\" cy=\"110\" r=\"55\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"2\"/><circle cx=\"300\" cy=\"110\" r=\"55\" fill=\"#dcfce7\" stroke=\"#22c55e\" stroke-width=\"2\"/><text x=\"145\" y=\"85\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#3b82f6\" font-weight=\"bold\">P(A)</text><text x=\"325\" y=\"85\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#22c55e\" font-weight=\"bold\">P(B)</text><text x=\"235\" y=\"115\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#f59e0b\" text-anchor=\"middle\" font-weight=\"bold\">A∩B</text><text x=\"240\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">P(A∪B)=P(A)+P(B)−P(A∩B)</text></svg>"
+      }
     },
     {
       "id": 54,
@@ -1237,7 +1302,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "In a class of 60 students, 35 play cricket, 25 play football, and 10 play both. How many students play neither?",
       "options": [
         "10",
@@ -1249,7 +1314,12 @@
       "solution": "Students playing at least one = 35 + 25 − 10 = 50. Students playing neither = 60 − 50 = 10.",
       "estSec": 45,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Bar chart showing quarterly data",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Bar Chart · Sales Data</text><line x1=\"60\" y1=\"170\" x2=\"440\" y2=\"170\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"60\" y1=\"30\" x2=\"60\" y2=\"170\" stroke=\"#64748b\" stroke-width=\"2\"/><rect x=\"85\" y=\"80\" width=\"40\" height=\"90\" fill=\"#3b82f6\" stroke=\"#3b82f6\" rx=\"2\"/><rect x=\"145\" y=\"110\" width=\"40\" height=\"60\" fill=\"#ef4444\" stroke=\"#ef4444\" rx=\"2\"/><rect x=\"205\" y=\"60\" width=\"40\" height=\"110\" fill=\"#22c55e\" stroke=\"#22c55e\" rx=\"2\"/><rect x=\"265\" y=\"95\" width=\"40\" height=\"75\" fill=\"#f59e0b\" stroke=\"#f59e0b\" rx=\"2\"/><rect x=\"325\" y=\"100\" width=\"40\" height=\"70\" fill=\"#8b5cf6\" stroke=\"#8b5cf6\" rx=\"2\"/><text x=\"105\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Q1</text><text x=\"165\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Q2</text><text x=\"225\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Q3</text><text x=\"285\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Q4</text><text x=\"345\" y=\"185\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Q5</text></svg>"
+      }
     },
     {
       "id": 55,
@@ -1258,7 +1328,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "stem": "A 60-litre mixture of milk and water is in the ratio 3:1. How much water must be added to make the ratio 2:1?",
       "options": [
         "5 litres",
@@ -1270,7 +1340,12 @@
       "solution": "Milk = 45 L, Water = 15 L. For ratio 2:1, water = 45/2 = 22.5 L. Extra water needed = 22.5 − 15 = 7.5 L. Nearest option is 15 L (note: exact answer is 7.5 L; option closest: 15L).",
       "estSec": 45,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Two-component mixture",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Two-Component Mix</text><rect x=\"100\" y=\"60\" width=\"80\" height=\"80\" fill=\"#dbeafe\" stroke=\"#3b82f6\" rx=\"4\"/><rect x=\"260\" y=\"60\" width=\"80\" height=\"80\" fill=\"#dcfce7\" stroke=\"#22c55e\" rx=\"4\"/><text x=\"140\" y=\"105\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#3b82f6\" text-anchor=\"middle\">A: 30%</text><text x=\"300\" y=\"105\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#22c55e\" text-anchor=\"middle\">B: 70%</text><text x=\"240\" y=\"175\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Mix → mean concentration</text></svg>"
+      }
     },
     {
       "id": 56,
@@ -1291,7 +1366,12 @@
       "solution": "After walking north 5 km, east 3 km, and south 5 km, Raj is 3 km east of his starting point.",
       "estSec": 45,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Cardinal directions compass",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Compass Rose</text><circle cx=\"240\" cy=\"110\" r=\"65\" fill=\"#f0f9ff\" stroke=\"#3b82f6\" stroke-width=\"2\"/><line x1=\"240\" y1=\"45\" x2=\"240\" y2=\"175\" stroke=\"#94a3b8\" stroke-width=\"1\"/><line x1=\"175\" y1=\"110\" x2=\"305\" y2=\"110\" stroke=\"#94a3b8\" stroke-width=\"1\"/><path d=\"M240,110 L270,70\" fill=\"none\" stroke=\"#ef4444\" stroke-width=\"2.5\"/><text x=\"240\" y=\"42\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#ef4444\" text-anchor=\"middle\" font-weight=\"bold\">N</text><text x=\"240\" y=\"185\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3b82f6\" text-anchor=\"middle\" font-weight=\"bold\">S</text><text x=\"315\" y=\"114\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#22c55e\" text-anchor=\"middle\" font-weight=\"bold\">E</text><text x=\"165\" y=\"114\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#f59e0b\" text-anchor=\"middle\" font-weight=\"bold\">W</text><text x=\"280\" y=\"65\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#ef4444\">NE</text></svg>"
+      }
     },
     {
       "id": 57,
@@ -1300,7 +1380,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
+      "difficulty": "hard",
       "stem": "Pipe A can fill a tank in 10 hours and Pipe B can empty it in 15 hours. If both are open, how long will it take to fill the tank?",
       "options": [
         "30 hours",
@@ -1312,7 +1392,12 @@
       "solution": "Net rate = 1/10 − 1/15 = 3/30 − 2/30 = 1/30 per hour. Time = 30 hours.",
       "estSec": 30,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Multiple pipe system",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Tank & Pipes</text><rect x=\"100\" y=\"55\" width=\"140\" height=\"100\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"2\" rx=\"4\"/><line x1=\"245\" y1=\"85\" x2=\"300\" y2=\"85\" stroke=\"#22c55e\" stroke-width=\"2.5\"/><line x1=\"245\" y1=\"125\" x2=\"300\" y2=\"125\" stroke=\"#ef4444\" stroke-width=\"2.5\"/><text x=\"170\" y=\"110\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3b82f6\" text-anchor=\"middle\">Tank</text><text x=\"272\" y=\"80\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#22c55e\" font-weight=\"bold\">A→</text><text x=\"272\" y=\"120\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#ef4444\" font-weight=\"bold\">B→</text></svg>"
+      }
     },
     {
       "id": 58,
@@ -1333,7 +1418,12 @@
       "solution": "5x + 6 : 7x + 6 = 3:4 → 4(5x+6) = 3(7x+6) → 20x+24 = 21x+18 → x = 6. B's age = 7(6) = 42 years.",
       "estSec": 45,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Age relationship at different time points",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Age Timeline</text><line x1=\"60\" y1=\"100\" x2=\"440\" y2=\"100\" stroke=\"#94a3b8\" stroke-width=\"2\"/><circle cx=\"120\" cy=\"100\" r=\"4\" fill=\"#3b82f6\" stroke=\"#3b82f6\"/><circle cx=\"240\" cy=\"100\" r=\"4\" fill=\"#22c55e\" stroke=\"#22c55e\"/><circle cx=\"360\" cy=\"100\" r=\"4\" fill=\"#ef4444\" stroke=\"#ef4444\"/><text x=\"120\" y=\"85\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#3b82f6\" text-anchor=\"middle\">Now</text><text x=\"240\" y=\"85\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#22c55e\" text-anchor=\"middle\">+5 yrs</text><text x=\"360\" y=\"85\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#ef4444\" text-anchor=\"middle\">+10 yrs</text><text x=\"240\" y=\"140\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Father: x  |  Son: x−25</text></svg>"
+      }
     },
     {
       "id": 59,
@@ -1342,7 +1432,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "Statements: All rocks are minerals. Some minerals are fossils. Conclusions: I. Some rocks are fossils. II. Some fossils are minerals.",
       "options": [
         "Only II follows",
@@ -1354,7 +1444,12 @@
       "solution": "Conclusion I does not follow (rocks are minerals but not all minerals are rocks, so no direct link). Conclusion II follows because 'some minerals are fossils' directly implies 'some fossils are minerals'.",
       "estSec": 60,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Venn diagram for syllogism",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">Syllogism Venn</text><circle cx=\"180\" cy=\"110\" r=\"50\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"2\"/><circle cx=\"300\" cy=\"110\" r=\"50\" fill=\"#dcfce7\" stroke=\"#22c55e\" stroke-width=\"2\"/><text x=\"165\" y=\"80\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#3b82f6\">All A</text><text x=\"315\" y=\"80\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#22c55e\">Some B</text><text x=\"240\" y=\"115\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#f59e0b\" text-anchor=\"middle\" font-weight=\"bold\">Overlap?</text></svg>"
+      }
     },
     {
       "id": 60,
@@ -1384,7 +1479,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
+      "difficulty": "medium",
       "stem": "A boat's speed in still water is 12 km/h. If the stream speed is 3 km/h, what is the time taken to travel 36 km downstream?",
       "options": [
         "2.4 hours",
@@ -1396,7 +1491,12 @@
       "solution": "Downstream speed = 12 + 3 = 15 km/h. Time = 36/15 = 2.4 hours.",
       "estSec": 30,
       "topicWeight": 0.125,
-      "source": "curated"
+      "source": "curated",
+      "figure": {
+        "kind": "svg",
+        "caption": "Boat navigating with/against current",
+        "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"480\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"bold\">River Navigation</text><path d=\"M20,100 Q120,80 240,100 Q360,120 460,100\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"2\"/><path d=\"M20,115 Q120,95 240,115 Q360,135 460,115\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"1.5\"/><rect x=\"180\" y=\"85\" width=\"40\" height=\"20\" fill=\"#f59e0b\" stroke=\"#f59e0b\" rx=\"6\"/><line x1=\"350\" y1=\"75\" x2=\"400\" y2=\"75\" stroke=\"#3b82f6\" stroke-width=\"2\"/><text x=\"200\" y=\"99\" font-family=\"sans-serif\" font-size=\"8\" fill=\"#fff\" text-anchor=\"middle\" font-weight=\"bold\">Boat</text><text x=\"375\" y=\"68\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#3b82f6\">Stream →</text></svg>"
+      }
     },
     {
       "id": 62,
@@ -1405,7 +1505,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "stem": "What is the value of (27^(2/3) × 8^(1/3)) / (4^(1/2) × 3^0)?",
       "options": [
         "6",
@@ -1426,7 +1526,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "If '+' means '÷', '−' means '×', '×' means '+', '÷' means '−', then evaluate: 6 + 3 − 2 × 4 ÷ 1 = ?",
       "options": [
         "5",
@@ -1468,7 +1568,7 @@
       "section": "Aptitude",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
+      "difficulty": "hard",
       "stem": "In a mirror placed on the right side, the mirror image of the clock showing 3:15 would appear as:",
       "options": [
         "8:45",
@@ -1485,421 +1585,421 @@
     {
       "id": 66,
       "subject": "General Awareness",
-      "topic": "Indian Economy",
+      "topic": "Current Affairs · Science",
       "section": "GA",
       "type": "MCQ",
       "marks": 1,
       "difficulty": "easy",
-      "stem": "Which organisation conducts the census in India?",
+      "stem": "ISRO's Gaganyaan mission aims to:",
       "options": [
-        "Ministry of Finance",
-        "Registrar General and Census Commissioner of India",
-        "NITI Aayog",
-        "Ministry of Home Affairs"
+        "Land on Moon",
+        "Send astronauts to space",
+        "Study the Sun",
+        "Explore Mars"
       ],
       "answer": 1,
-      "solution": "The Registrar General and Census Commissioner of India, under the Ministry of Home Affairs, conducts the decennial Census of India.",
-      "estSec": 30,
-      "topicWeight": 0.125,
+      "solution": "Gaganyaan aims to send Indian astronauts (Gagannauts) to space.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 67,
       "subject": "General Awareness",
-      "topic": "Indian Polity",
+      "topic": "Current Affairs · Energy",
       "section": "GA",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
-      "stem": "The 73rd Constitutional Amendment Act deals with:",
+      "difficulty": "easy",
+      "stem": "Which renewable energy source saw the highest capacity addition in India in 2024?",
       "options": [
-        "Municipalities",
-        "Panchayati Raj Institutions",
-        "Cooperative Societies",
-        "Right to Education"
+        "Solar",
+        "Wind",
+        "Hydro",
+        "Biomass"
       ],
-      "answer": 1,
-      "solution": "The 73rd Amendment (1992) constitutionalised Panchayati Raj Institutions, adding Part IX to the Constitution with provisions for three-tier local self-governance in rural areas.",
-      "estSec": 30,
-      "topicWeight": 0.125,
+      "answer": 0,
+      "solution": "Solar energy saw the highest capacity addition.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 68,
       "subject": "General Awareness",
-      "topic": "International Affairs",
+      "topic": "Current Affairs · Technology",
       "section": "GA",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
-      "stem": "The headquarters of the International Court of Justice (ICJ) is located in:",
+      "difficulty": "medium",
+      "stem": "India's 5G rollout was led by which telecom operator?",
       "options": [
-        "New York",
-        "Geneva",
-        "The Hague",
-        "Vienna"
+        "Airtel",
+        "Jio",
+        "BSNL",
+        "Vi"
       ],
-      "answer": 2,
-      "solution": "The ICJ, the principal judicial organ of the UN, is headquartered in the Peace Palace at The Hague, Netherlands.",
-      "estSec": 30,
-      "topicWeight": 0.125,
+      "answer": 1,
+      "solution": "Reliance Jio led the 5G rollout in India.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 69,
       "subject": "General Awareness",
-      "topic": "Science and Technology",
+      "topic": "Current Affairs · Global",
       "section": "GA",
       "type": "MCQ",
       "marks": 1,
       "difficulty": "medium",
-      "stem": "ISRO's Chandrayaan-3 successfully landed on the Moon's surface in which year?",
+      "stem": "The G20 summit under India's presidency was held in:",
       "options": [
-        "2022",
-        "2023",
-        "2024",
-        "2021"
+        "Mumbai",
+        "New Delhi",
+        "Bengaluru",
+        "Chennai"
       ],
       "answer": 1,
-      "solution": "Chandrayaan-3 successfully soft-landed on the Moon's south pole region on 23 August 2023, making India the fourth country to achieve a lunar soft landing.",
-      "estSec": 30,
-      "topicWeight": 0.125,
+      "solution": "The G20 summit was held in New Delhi.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 70,
       "subject": "General Awareness",
-      "topic": "Environment",
+      "topic": "Current Affairs · Technology",
       "section": "GA",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
-      "stem": "Which of the following is a 'Ramsar Site' (wetland of international importance) in India?",
+      "difficulty": "hard",
+      "stem": "Which company recently developed the most advanced AI chip for data centers?",
       "options": [
-        "Chilika Lake",
-        "Dal Lake",
-        "Lonar Lake",
-        "All of the above"
+        "Intel",
+        "AMD",
+        "Nvidia",
+        "Qualcomm"
       ],
-      "answer": 3,
-      "solution": "Chilika Lake (Odisha), Wular Lake (J&K), and several other Indian wetlands are designated Ramsar Sites under the Ramsar Convention for wetland conservation.",
-      "estSec": 30,
-      "topicWeight": 0.125,
+      "answer": 2,
+      "solution": "Nvidia has been leading in AI chip development.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 71,
       "subject": "General Awareness",
-      "topic": "Indian Geography",
+      "topic": "Current Affairs · Energy",
       "section": "GA",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
-      "stem": "The Tropic of Cancer passes through how many Indian states?",
+      "difficulty": "hard",
+      "stem": "The International Energy Agency (IEA) is headquartered in:",
       "options": [
-        "6",
-        "7",
-        "8",
-        "9"
+        "Geneva",
+        "Vienna",
+        "Paris",
+        "London"
       ],
       "answer": 2,
-      "solution": "The Tropic of Cancer (23.5°N) passes through 8 Indian states: Gujarat, Rajasthan, Madhya Pradesh, Chhattisgarh, Jharkhand, West Bengal, Tripura, and Mizoram.",
-      "estSec": 30,
-      "topicWeight": 0.125,
+      "solution": "The IEA is headquartered in Paris, France.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 72,
       "subject": "General Awareness",
-      "topic": "Indian Economy",
+      "topic": "Static GK · Indian Polity",
       "section": "GA",
       "type": "MCQ",
       "marks": 1,
       "difficulty": "easy",
-      "stem": "Which Five-Year Plan adopted the objective of 'Growth with Social Justice and Equity'?",
+      "stem": "The President of India is elected by:",
       "options": [
-        "Eighth Five-Year Plan",
-        "Ninth Five-Year Plan",
-        "Tenth Five-Year Plan",
-        "Eleventh Five-Year Plan"
+        "Lok Sabha members",
+        "Rajya Sabha members",
+        "Electoral College",
+        "Prime Minister"
       ],
-      "answer": 1,
-      "solution": "The Ninth Five-Year Plan (1997–2002) adopted the theme 'Growth with Social Justice and Equity', focusing on poverty reduction and human development.",
-      "estSec": 30,
-      "topicWeight": 0.125,
+      "answer": 2,
+      "solution": "The President is elected by an electoral college.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 73,
       "subject": "General Awareness",
-      "topic": "Current Affairs",
+      "topic": "Static GK · Important Days",
       "section": "GA",
       "type": "MCQ",
       "marks": 1,
       "difficulty": "medium",
-      "stem": "Which index is published by the Reserve Bank of India to measure core inflation?",
+      "stem": "World Environment Day is celebrated on:",
       "options": [
-        "Consumer Price Index (CPI)",
-        "Wholesale Price Index (WPI)",
-        "Core CPI",
-        "Producer Price Index"
+        "March 22",
+        "June 5",
+        "April 22",
+        "May 21"
       ],
-      "answer": 2,
-      "solution": "Core CPI, which excludes volatile food and fuel prices, is used by RBI to assess underlying inflation trends for monetary policy decisions.",
-      "estSec": 30,
-      "topicWeight": 0.125,
+      "answer": 1,
+      "solution": "World Environment Day is celebrated on June 5th.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 74,
       "subject": "General Awareness",
-      "topic": "Indian Polity",
+      "topic": "Static GK · Geography",
       "section": "GA",
       "type": "MCQ",
       "marks": 1,
       "difficulty": "medium",
-      "stem": "The Right to Information Act was enacted in India in which year?",
+      "stem": "Smallest state in India by area:",
       "options": [
-        "2001",
-        "2003",
-        "2005",
-        "2007"
+        "Sikkim",
+        "Goa",
+        "Tripura",
+        "Mizoram"
       ],
-      "answer": 2,
-      "solution": "The RTI Act 2005 was enacted to promote transparency and accountability by enabling citizens to request information from public authorities.",
-      "estSec": 30,
-      "topicWeight": 0.125,
+      "answer": 1,
+      "solution": "Goa is the smallest state by area (3,702 sq km).",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 75,
       "subject": "General Awareness",
-      "topic": "International Affairs",
+      "topic": "Static GK · Indian Polity",
       "section": "GA",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
-      "stem": "The G20 summit held in 2023 under India's presidency was held in which city?",
+      "difficulty": "hard",
+      "stem": "Fundamental Duties were added by which Amendment?",
       "options": [
-        "Mumbai",
-        "New Delhi",
-        "Bengaluru",
-        "Kolkata"
+        "42nd",
+        "44th",
+        "86th",
+        "91st"
       ],
-      "answer": 1,
-      "solution": "The 18th G20 Leaders' Summit was held on 9–10 September 2023 at Pragati Maidan, New Delhi, under India's G20 presidency.",
-      "estSec": 30,
-      "topicWeight": 0.125,
+      "answer": 2,
+      "solution": "Fundamental Duties were added by the 86th Amendment, 2002.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 76,
-      "subject": "English Language",
-      "topic": "Reading Comprehension",
+      "subject": "English",
+      "topic": "English Language · Idioms",
       "section": "English",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
-      "stem": "Choose the correctly spelt word:",
+      "difficulty": "medium",
+      "stem": "What does 'break the ice' mean?",
       "options": [
-        "Occurrence",
-        "Occurence",
-        "Occurrance",
-        "Ocurrence"
+        "Destroy ice",
+        "Initiate conversation",
+        "Cause trouble",
+        "End relationship"
       ],
-      "answer": 0,
-      "solution": "The correct spelling is 'occurrence' — double 'c' and double 'r'.",
-      "estSec": 20,
-      "topicWeight": 0.125,
+      "answer": 1,
+      "solution": "Break the ice means to initiate conversation in a social setting.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 77,
-      "subject": "English Language",
-      "topic": "Grammar",
+      "subject": "English",
+      "topic": "English Language · Vocabulary",
       "section": "English",
       "type": "MCQ",
       "marks": 1,
       "difficulty": "medium",
-      "stem": "Identify the error: 'Neither the manager nor the employees was available for the meeting.'",
+      "stem": "Choose the antonym of 'ubiquitous':",
       "options": [
-        "Neither",
-        "the manager",
-        "was available",
-        "for the meeting"
+        "Omnipresent",
+        "Rare",
+        "Common",
+        "Everywhere"
       ],
-      "answer": 2,
-      "solution": "With 'neither...nor', the verb agrees with the nearest subject. 'Employees' is plural, so the verb should be 'were available'.",
-      "estSec": 30,
-      "topicWeight": 0.125,
+      "answer": 1,
+      "solution": "Ubiquitous means present everywhere; rare is the opposite.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 78,
-      "subject": "English Language",
-      "topic": "Vocabulary",
+      "subject": "English",
+      "topic": "English Language · Articles",
       "section": "English",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "easy",
-      "stem": "Choose the word that is most similar in meaning to 'ambiguous':",
+      "difficulty": "hard",
+      "stem": "___ honest man always speaks the truth.",
       "options": [
-        "Clear",
-        "Vague",
-        "Definite",
-        "Precise"
+        "A",
+        "An",
+        "The",
+        "No article"
       ],
       "answer": 1,
-      "solution": "'Ambiguous' means open to more than one interpretation; 'vague' is the closest synonym.",
-      "estSec": 20,
-      "topicWeight": 0.125,
+      "solution": "'An' before words starting with silent 'h'.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 79,
-      "subject": "English Language",
-      "topic": "Fill in the Blanks",
-      "section": "English",
-      "type": "MCQ",
-      "marks": 1,
-      "difficulty": "medium",
-      "stem": "The scientist's ___ research on the mineral deposits earned her international recognition.",
-      "options": [
-        "Pioneering",
-        "Ordinary",
-        "Trivial",
-        "Secondary"
-      ],
-      "answer": 0,
-      "solution": "'Pioneering' means innovative and groundbreaking, fitting the context of internationally recognised research.",
-      "estSec": 25,
-      "topicWeight": 0.125,
-      "source": "curated"
-    },
-    {
-      "id": 80,
-      "subject": "English Language",
-      "topic": "Idioms and Phrases",
-      "section": "English",
-      "type": "MCQ",
-      "marks": 1,
-      "difficulty": "medium",
-      "stem": "What does the idiom 'to add fuel to the fire' mean?",
-      "options": [
-        "To make something worse",
-        "To help someone in difficulty",
-        "To extinguish a problem",
-        "To work very hard"
-      ],
-      "answer": 0,
-      "solution": "'To add fuel to the fire' means to make a bad situation even worse.",
-      "estSec": 25,
-      "topicWeight": 0.125,
-      "source": "curated"
-    },
-    {
-      "id": 81,
-      "subject": "English Language",
-      "topic": "Synonyms",
+      "subject": "English",
+      "topic": "English Language · Vocabulary",
       "section": "English",
       "type": "MCQ",
       "marks": 1,
       "difficulty": "easy",
-      "stem": "Choose the word opposite in meaning to 'abundant':",
+      "stem": "What does 'ameliorate' mean?",
       "options": [
-        "Plentiful",
-        "Scarce",
-        "Ample",
-        "Copious"
+        "Worsen",
+        "Improve",
+        "Destroy",
+        "Maintain"
       ],
       "answer": 1,
-      "solution": "'Scarce' means insufficient or rare, the antonym of 'abundant'.",
-      "estSec": 20,
-      "topicWeight": 0.125,
+      "solution": "Ameliorate means to make better or improve.",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 80,
+      "subject": "English",
+      "topic": "English Language · Grammar",
+      "section": "English",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "hard",
+      "stem": "She asked me where ___ .",
+      "options": [
+        "did I live",
+        "do I live",
+        "I lived",
+        "I live"
+      ],
+      "answer": 2,
+      "solution": "Indirect speech uses past tense: 'where I lived'.",
+      "estSec": 15,
+      "topicWeight": 0.1,
+      "source": "curated"
+    },
+    {
+      "id": 81,
+      "subject": "English",
+      "topic": "English Language · Vocabulary",
+      "section": "English",
+      "type": "MCQ",
+      "marks": 1,
+      "difficulty": "easy",
+      "stem": "What does 'resilient' mean?",
+      "options": [
+        "Fragile",
+        "Able to recover quickly",
+        "Slow",
+        "Weak"
+      ],
+      "answer": 1,
+      "solution": "Resilient means able to recover quickly from difficulties.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 82,
-      "subject": "English Language",
-      "topic": "Sentence Correction",
+      "subject": "English",
+      "topic": "English Language · Vocabulary",
       "section": "English",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
-      "stem": "Choose the correct sentence: (A) 'The data suggests that the reservoir is depleting.' (B) 'The data suggest that the reservoir is depleting.'",
+      "difficulty": "medium",
+      "stem": "Choose the word meaning 'to make something less severe':",
       "options": [
-        "Sentence A is correct",
-        "Sentence B is correct",
-        "Both are correct",
-        "Both are incorrect"
+        "Aggravate",
+        "Mitigate",
+        "Motivate",
+        "Navigate"
       ],
       "answer": 1,
-      "solution": "'Data' is technically plural (singular: datum), so the verb should be 'suggest' (plural verb). Sentence B is grammatically correct.",
-      "estSec": 30,
-      "topicWeight": 0.125,
+      "solution": "Mitigate means to make less severe or painful.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 83,
-      "subject": "English Language",
-      "topic": "One Word Substitution",
+      "subject": "English",
+      "topic": "English Language · Vocabulary",
       "section": "English",
       "type": "MCQ",
       "marks": 1,
       "difficulty": "medium",
-      "stem": "Choose the one-word substitution: 'A person who studies rocks and the Earth's structure':",
+      "stem": "What is the meaning of 'pragmatic'?",
       "options": [
-        "Archaeologist",
-        "Geologist",
-        "Meteorologist",
-        "Seismologist"
+        "Idealistic",
+        "Practical",
+        "Theoretical",
+        "Emotional"
       ],
       "answer": 1,
-      "solution": "A 'geologist' is a scientist who studies the Earth's solid matter, including rocks and the processes by which they change.",
-      "estSec": 20,
-      "topicWeight": 0.125,
+      "solution": "Pragmatic means dealing with things practically.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 84,
-      "subject": "English Language",
-      "topic": "Active and Passive Voice",
+      "subject": "English",
+      "topic": "English Language · Voice",
       "section": "English",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "medium",
-      "stem": "Convert to passive voice: 'The geologist collected the rock samples from the field.'",
+      "difficulty": "easy",
+      "stem": "Convert to passive: 'The committee approved the proposal.'",
       "options": [
-        "The rock samples were collected from the field by the geologist",
-        "The rock samples are collected by the geologist from the field",
-        "Rock samples have been collected by the geologist",
-        "The geologist was collecting rock samples"
+        "The proposal was approved by the committee",
+        "The proposal is approved by the committee",
+        "The proposal has been approved by committee",
+        "The proposal were approved by the committee"
       ],
       "answer": 0,
-      "solution": "In passive voice, the object becomes the subject: 'The rock samples were collected from the field by the geologist.'",
-      "estSec": 30,
-      "topicWeight": 0.125,
+      "solution": "Past simple passive: was/were + past participle.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     },
     {
       "id": 85,
-      "subject": "English Language",
-      "topic": "Spotting Errors",
+      "subject": "English",
+      "topic": "English Language · Tenses",
       "section": "English",
       "type": "MCQ",
       "marks": 1,
-      "difficulty": "hard",
-      "stem": "Find the error: 'Each of the geologists have submitted their reports before the deadline.'",
+      "difficulty": "easy",
+      "stem": "By the time we arrive, they ___ already left.",
       "options": [
-        "Each of the",
-        "geologists have",
-        "submitted their",
-        "before the deadline"
+        "will",
+        "would",
+        "will have",
+        "would have"
       ],
-      "answer": 1,
-      "solution": "'Each' is singular, so it takes a singular verb: 'Each of the geologists has submitted...'. 'Have' should be 'has'.",
-      "estSec": 30,
-      "topicWeight": 0.125,
+      "answer": 2,
+      "solution": "Future perfect: will have + past participle.",
+      "estSec": 15,
+      "topicWeight": 0.1,
       "source": "curated"
     }
   ]
