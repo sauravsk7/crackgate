@@ -68,9 +68,9 @@ export function HeroCarousel({ practiceQs, mocksCount, subjectsCount, civil, geo
         : active === 2
           ? "GATE CE 2027 — Civil Engineering"
           : active === 3
-            ? "GATE GG 2027 — Geology & Geophysics"
+            ? "GATE GG 2027 — Geology and Geophysics"
             : active === 4
-              ? "GATE ES 2027 — Environmental Science"
+              ? "GATE ES 2027 — Environmental Science and Engineering"
               : "PSU recruitment — Coal India Limited";
 
   return (
@@ -268,10 +268,10 @@ export function GeologyWindow({ stats }: { stats: SubjectStats }) {
       <div className="relative mx-auto grid h-full max-w-7xl items-center gap-10 px-5 py-10 sm:py-14 lg:grid-cols-2 lg:py-20">
         <div>
           <span className="badge border border-amber-300/30 bg-amber-300/10 text-amber-200">
-            GATE 2027 · Geology &amp; Geophysics (GG)
+            GATE 2027 · Geology and Geophysics (GG)
           </span>
           <h1 className="mt-4 text-3xl sm:text-4xl font-extrabold leading-tight lg:text-6xl">
-            Master GATE Geology &amp; Geophysics.{" "}
+            Master GATE Geology and Geophysics.{" "}
             <span className="bg-gradient-to-r from-amber-300 to-orange-400 bg-clip-text text-transparent">
               Read the Earth, Decimal by Decimal.
             </span>
@@ -417,7 +417,7 @@ export function EnvironmentWindow({ stats }: { stats: SubjectStats }) {
       <div className="relative mx-auto grid h-full max-w-7xl items-center gap-10 px-5 py-10 sm:py-14 lg:grid-cols-2 lg:py-20">
         <div>
           <span className="badge border border-emerald-300/30 bg-emerald-300/10 text-emerald-200">
-            GATE 2027 · Environmental Science (ES)
+            GATE 2027 · Environmental Science and Engineering (ES)
           </span>
           <h1 className="mt-4 text-3xl sm:text-4xl font-extrabold leading-tight lg:text-6xl">
             Crack GATE Environmental Science.{" "}
