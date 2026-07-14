@@ -5,7 +5,7 @@ import { getGateSubject } from "@/data/gate/registry";
 import dynamic from "next/dynamic";
 import { WhatsAppButton } from "@/components/whatsapp-button";
 import { CilAdBanner } from "@/components/cil-ad-banner";
-import { OngcAdBanner } from "@/components/ongc-ad-banner";
+
 
 const HeroCarousel = dynamic(() => import("@/components/hero-carousel").then((m) => m.HeroCarousel));
 import { NewsletterForm } from "@/components/newsletter-form";
@@ -57,11 +57,6 @@ export default async function HomePage() {
       {/* ---------- CIL recruitment ad ---------- */}
       <div className="pt-10">
         <CilAdBanner />
-      </div>
-
-      {/* ---------- ONGC recruitment ad ---------- */}
-      <div className="pt-6">
-        <OngcAdBanner />
       </div>
 
       {/* ---------- FEATURES ---------- */}
