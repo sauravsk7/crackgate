@@ -570,45 +570,45 @@ export function OngcWindow() {
     <div className="relative h-full w-full">
       <OilRigBackdrop />
       <div className="absolute inset-0 bg-gradient-to-r from-[#003580]/90 via-[#003580]/70 to-[#003580]/40" />
-      <div className="relative mx-auto grid h-full max-w-7xl items-center gap-10 px-5 py-10 sm:py-14 lg:grid-cols-2 lg:py-20">
+      <div className="relative mx-auto grid h-full max-w-7xl items-center gap-6 px-4 py-8 sm:px-5 sm:py-10 lg:grid-cols-2 lg:gap-10 lg:py-16">
         <div>
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-2 sm:gap-3">
             <img
               src="/images/ongc/ongc-logo.png"
               alt="ONGC logo"
-              width={48}
-              height={48}
-              className="rounded-lg"
+              width={40}
+              height={40}
+              className="rounded-lg sm:h-12 sm:w-12"
             />
-            <span className="badge border border-blue-300/30 bg-blue-300/10 text-blue-300">
+            <span className="badge border border-blue-300/30 bg-blue-300/10 text-blue-300 text-xs sm:text-sm">
               PSU · ONGC · NEW
             </span>
           </div>
-          <h1 className="mt-4 text-3xl sm:text-4xl font-extrabold leading-tight lg:text-6xl">
+          <h1 className="mt-3 text-2xl sm:text-3xl lg:text-5xl xl:text-6xl font-extrabold leading-tight">
             Oil &amp; Natural Gas Corporation.{" "}
             <span className="bg-gradient-to-r from-blue-200 to-cyan-300 bg-clip-text text-transparent">
               CBT 2026 — Discipline-Specific Mock Series.
             </span>
           </h1>
-          <p className="mt-5 max-w-xl text-sm sm:text-lg text-white/80">
+          <p className="mt-4 max-w-xl text-sm sm:text-base lg:text-lg text-white/80">
             85 MCQ · 2 hrs · No negative marking. 7 disciplines, 105 full-length mocks
             tuned to the official ONGC recruitment pattern.
           </p>
-          <div className="mt-6 sm:mt-8 flex flex-wrap gap-3">
-            <Link href="/psu/ongc" className="cg-ripple inline-flex items-center gap-2 rounded-lg bg-gradient-to-r from-blue-300 to-cyan-400 px-6 py-3.5 text-base font-semibold text-[#003580] shadow-lg shadow-blue-500/20 transition hover:brightness-105">
+          <div className="mt-5 sm:mt-6 lg:mt-8 flex flex-wrap gap-3">
+            <Link href="/psu/ongc" className="cg-ripple inline-flex items-center gap-2 rounded-lg bg-gradient-to-r from-blue-300 to-cyan-400 px-5 py-3 text-sm sm:text-base font-semibold text-[#003580] shadow-lg shadow-blue-500/20 transition hover:brightness-105 sm:px-6 sm:py-3.5">
               Explore ONGC Prep <span aria-hidden>→</span>
             </Link>
           </div>
-          <div className="mt-6 sm:mt-8 flex flex-wrap gap-6 text-sm text-white/70">
+          <div className="mt-5 grid grid-cols-3 gap-3 sm:mt-6 sm:grid-cols-6 sm:gap-6 lg:mt-8 text-xs sm:text-sm text-white/70">
             <Stat n="85" label="MCQs / paper" />
             <Stat n="2 hrs" label="Duration" />
-            <Stat n="0" label="Negative marking" />
+            <Stat n="0" label="Neg. marking" />
             <Stat n="7" label="Disciplines" />
             <Stat n="45" label="Live Mocks" />
             <Stat n="105" label="Total Planned" />
           </div>
         </div>
-        <div className="hidden lg:block lg:pl-4">
+        <div className="hidden sm:block lg:pl-4">
           <OngcDisciplineCard />
         </div>
       </div>
@@ -619,20 +619,20 @@ export function OngcWindow() {
 function OngcDisciplineCard() {
   const liveCount = (slug: string) => ongcLiveSetNos(slug).size;
   return (
-    <div className="rounded-2xl border border-blue-300/20 bg-slate-900/60 p-4 shadow-pop backdrop-blur">
+    <div className="rounded-xl border border-blue-300/20 bg-slate-900/60 p-3 shadow-pop backdrop-blur sm:rounded-2xl sm:p-4">
       <div className="mb-2 flex items-center justify-between">
-        <div className="text-xs font-semibold uppercase tracking-wide text-blue-300">
+        <div className="text-[10px] sm:text-xs font-semibold uppercase tracking-wide text-blue-300">
           ONGC CBT · 7 Disciplines
         </div>
-        <span className="badge bg-blue-400/10 text-blue-200">15 mocks each</span>
+        <span className="badge bg-blue-400/10 text-blue-200 text-[10px] sm:text-xs">15 mocks each</span>
       </div>
-      <div className="max-h-[340px] overflow-y-auto rounded-lg border border-white/10">
-        <table className="w-full text-left text-xs">
+      <div className="max-h-[220px] sm:max-h-[300px] lg:max-h-[340px] overflow-y-auto rounded-lg border border-white/10">
+        <table className="w-full text-left text-[10px] sm:text-xs">
           <thead className="sticky top-0 bg-slate-800/90 text-blue-200 backdrop-blur">
             <tr>
-              <th className="px-2 py-2 font-semibold">Discipline</th>
-              <th className="px-2 py-2 font-semibold">Minimum Qualification</th>
-              <th className="px-2 py-2 text-right font-semibold">Mock Status</th>
+              <th className="px-1.5 py-1.5 sm:px-2 sm:py-2 font-semibold">Discipline</th>
+              <th className="hidden sm:table-cell px-2 py-2 font-semibold">Minimum Qualification</th>
+              <th className="px-1.5 py-1.5 sm:px-2 sm:py-2 text-right font-semibold">Status</th>
             </tr>
           </thead>
           <tbody className="text-white/80">
@@ -640,16 +640,16 @@ function OngcDisciplineCard() {
               const live = liveCount(r.slug);
               return (
                 <tr key={r.slug} className="border-t border-white/5 align-top">
-                  <td className="px-2 py-2 font-medium text-white">{r.discipline}</td>
-                  <td className="px-2 py-2 leading-snug">{r.qualification}</td>
-                  <td className="px-2 py-2 text-right">
+                  <td className="px-1.5 py-1.5 sm:px-2 sm:py-2 font-medium text-white">{r.discipline}</td>
+                  <td className="hidden sm:table-cell px-2 py-2 leading-snug">{r.qualification}</td>
+                  <td className="px-1.5 py-1.5 sm:px-2 sm:py-2 text-right">
                     {live > 0 ? (
-                      <span className="inline-flex items-center gap-1 rounded-full bg-emerald-400/15 px-2 py-0.5 text-[10px] font-semibold text-emerald-300">
-                        <span className="h-1.5 w-1.5 rounded-full bg-emerald-400" />
+                      <span className="inline-flex items-center gap-0.5 sm:gap-1 rounded-full bg-emerald-400/15 px-1.5 py-0.5 sm:px-2 text-[8px] sm:text-[10px] font-semibold text-emerald-300">
+                        <span className="h-1 w-1 sm:h-1.5 sm:w-1.5 rounded-full bg-emerald-400" />
                         {live}/15 LIVE
                       </span>
                     ) : (
-                      <span className="inline-flex items-center gap-1 rounded-full bg-white/10 px-2 py-0.5 text-[10px] font-semibold text-white/50">
+                      <span className="inline-flex items-center gap-0.5 sm:gap-1 rounded-full bg-white/10 px-1.5 py-0.5 sm:px-2 text-[8px] sm:text-[10px] font-semibold text-white/50">
                         Coming soon
                       </span>
                     )}
